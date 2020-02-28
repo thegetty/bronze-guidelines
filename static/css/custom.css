@@ -52,3 +52,16 @@ h4 button {
 [aria-expanded] rect {
   fill: currentColor;
 }
+
+/* Styling for figure image pop-ups, to handle multiple images in pop-up */
+.quire-page__content .content a.quire-citation__content__img-link {
+  display: block; 
+  margin-right: 1rem; 
+  border-bottom-width: 0;
+}
+.quire-page__content .content a.quire-citation__content__img-link:last-child {
+  margin-right: 0;
+}
+.quire-page__content .content a.quire-citation__content__img-link:hover {
+  border-bottom-width: 0 !important;
+}

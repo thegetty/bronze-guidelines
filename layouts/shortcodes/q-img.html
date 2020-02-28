@@ -1,0 +1,40 @@
+{{/*
+
+  Adapted from the q-cite and q-object shortcodes used in past catalogues.
+  Will range over any string looking for numbers, and then display the 
+  figure image for each of those numbers in a pop-up box.
+  
+  q-img "figs. 13, 107 and 765"
+  
+*/}}
+
+{{- $text := .Get 0 -}}
+{{- $imgs := findRE "[0-9]+" $text -}}
+
+
+{{- /* Image directory */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
+{{- if isset $.Site.Params "imagedir" -}}
+  {{- $.Scratch.Set "imageDir" $.Site.Params.imageDir -}}
+{{- else -}}
+  {{- $.Scratch.Set "imagedir" "" -}}
+{{- end -}}
+{{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") "figures" -}} 
+
+{{- /* Pop-up */ -}}
+{{- /* ------------------------------------------------------------------ */ -}}
+<span class="quire-citation quire-object expandable">
+  <span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{- markdownify $text -}}</span>
+  <span hidden class="quire-citation__content">
+    {{- /* Needs extra wrapper for flex display */ -}}
+    {{- /* -------------------------------------------------------------- */ -}}
+    <span style="display: flex;">
+    {{ range $imgs }}
+      <a href="{{ printf "/%s/%s.%s" $imgPath . "jpg" | relURL }}" class="quire-citation__content__img-link">
+        <img src="{{ printf "/%s/%s.%s" $imgPath . "jpg" | relURL }}" alt="" /><br />
+        <span>{{ . }}</span>
+      </a>
+    {{ end }}
+    </span>
+  </span>
+</span>
