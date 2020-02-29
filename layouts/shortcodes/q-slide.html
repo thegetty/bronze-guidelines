@@ -1,0 +1,35 @@
+{{/*
+
+  Wraps a section is a specical div for use by fullPage.js, that has
+  data-menuanchor and data-anchor attributes.
+  
+  https://github.com/alvarotrigo/fullPage.js
+  
+  If a single parameter is provided, it is used for the page menu/links, 
+  otherwise, the first H2 element is used in menu. In this way, short titles
+  can be used in the menu.
+  
+  All menu names/anchors are passed to a Scratch variable that is then used
+  in the slides/single.html template to create the menu list that can then 
+  be properly linked to by fullPage.js
+  
+*/}}
+
+{{- $id := "" -}}
+{{- $test := "" -}}
+{{- if .Get 0 -}}
+  {{- $id = urlize (.Get 0) -}}
+{{- else -}}
+  {{- $inner := markdownify .Inner -}}
+  {{- $id = findRE "<h2.*?>(.|\n)*?</h2>" $inner 1 -}}  
+  {{- range $id -}}
+    {{- $id = replaceRE "<h2 id=\"(.*?)\">(.*?)</h2>" "$1" . -}}
+  {{- end -}}
+{{- end -}}
+{{- $anchor := printf "%s-%s" "anchor" $id -}}
+<div class="section content" data-menuanchor="{{ $anchor }}" data-anchor="{{ $anchor }}">
+  {{ .Inner | markdownify }}
+</div>
+
+{{- $.Page.Scratch.Add "munuItems" $id -}}
+{{- $.Page.Scratch.Add "munuItems" "," -}}
