@@ -16,10 +16,10 @@
   {{ $menuItems := split $menuItems "," }}
 
   <ul class="slide-menu">
-    <li><span class="cover"></span><a href='#anchor-start' data-aos='highlight' data-aos-anchor='#anchor-start'>Start</a><span class="marker"></span></li>
+    <li><span class="cover"></span><span class="marker"></span><a href='#anchor-start' data-aos='highlight' data-aos-anchor='#anchor-start'>Start</a></li>
     {{ range $menuItems }}
     {{ $anchor := printf "%s-%s" "anchor" . }}
-    <li><span class="cover"></span><a href='#{{ $anchor }}' data-aos='highlight' data-aos-anchor='#{{ $anchor }}'>{{ . | humanize | title }}</a><span class="marker"></span></li>
+    <li><span class="cover"></span><span class="marker"></span><a href='#{{ $anchor }}' data-aos='highlight' data-aos-anchor='#{{ $anchor }}'>{{ . | humanize | title }}</a></li>
     {{ end }}
   </ul>
   
