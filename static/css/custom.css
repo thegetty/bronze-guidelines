@@ -72,23 +72,22 @@ h4 button {
 }
 
 
-/* Case Study Slides 
-https://github.com/alvarotrigo/fullPage.js
+/* Case Study Slides: 
+2 Prototypes using 2 different libraries
+
+  fullPage.js
+  https://github.com/alvarotrigo/fullPage.js
+
+  Animate on Scroll Version 
+  https://github.com/michalsnik/aos/tree/v2
 ============================================================================= */
 
-#fullpage div.section {
-  background-color: #fff;
-  padding: 0 20rem 0 3rem;
-} 
-#fullpage div.section h2 {
-  border-top-width: 0;
-  padding-top: 0;
-}
-#fullpage div.section h1 {
+/* Slides: Title Slide -------------------------------------------------------*/
+.title-slide h1 {
   text-align: center;
   padding: 0 3vw;
 }
-#fullpage div.section h1 .label {
+.title-slide h1 .label {
   line-height: 1.3;
   display: table;
   width: -webkit-fit-content;
@@ -102,7 +101,40 @@ https://github.com/alvarotrigo/fullPage.js
   letter-spacing: 0;
   margin: 0 auto 1.9em;
 }
-#fullpage-menu {
+
+/* Slides: fullPage ----------------------------------------------------------*/
+#fullpage div.section {
+  background-color: #fff;
+  padding: 0 20rem 0 3rem;
+} 
+#fullpage div.section h2 {
+  border-top-width: 0;
+  padding-top: 0;
+}
+#fullpage .fp-scroller {
+  padding-right: 2rem;
+  padding-bottom: 50vh;
+}
+
+/* Slides: Animate on Scroll -------------------------------------------------*/
+.slide.content {
+  margin: 0 3rem 5rem 3rem;
+  min-height: calc(100vh - 3rem);
+  max-width: 70vw;
+  border-top: 2px solid #000;
+  padding-top: 2rem;
+}
+.slide.content:first-child {
+  border-width: 0;
+}
+.slide.content h2 {
+  border-width: 0;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+
+/* Slides: Menu --------------------------------------------------------------*/
+.slide-menu {
   position: fixed;
   right: 2rem;
   top: 3rem;
@@ -114,7 +146,7 @@ https://github.com/alvarotrigo/fullPage.js
   justify-content: space-between;
   padding: 2rem 0;
 }
-#fullpage-menu li {
+.slide-menu li {
   /* flex-basis so element fills space and right borders connect */
   flex-basis: 10rem;
   border-right: 2px solid #000;
@@ -123,28 +155,26 @@ https://github.com/alvarotrigo/fullPage.js
   align-items: center;
   position: relative;
 }
-#fullpage-menu li a {
+.slide-menu li a {
   color: #000;
 }
-
 /* Covers the leftover bit of right border at the top and bottom of menu list */
-#fullpage-menu li:first-child .cover, 
-#fullpage-menu li:last-child .cover {
+.slide-menu li:first-child .cover, 
+.slide-menu li:last-child .cover {
   background-color: #fff;
   height: 50%;
   width: 20px;
   position: absolute;
   right: -2px;
 }
-#fullpage-menu li:first-child .cover {
+.slide-menu li:first-child .cover {
   top: 0;
 }
-#fullpage-menu li:last-child .cover {
+.slide-menu li:last-child .cover {
   bottom: 0;
 }
-
 /* The line connecting the menu text and the right border */
-#fullpage-menu li .marker {
+.slide-menu li .marker {
   width: 2rem;
   height: .1rem;
   background-color: #000;
@@ -152,7 +182,6 @@ https://github.com/alvarotrigo/fullPage.js
   margin-right: -2px;
   z-index: 0;
 }
-
 /* fullPage.js adds an active class to section that's in view */
 #fullpage-menu li.active a {
   font-weight: bold;
@@ -162,4 +191,87 @@ https://github.com/alvarotrigo/fullPage.js
 #fullpage-menu li.active .marker {
   height: .3rem;
   background-color: #398500;
+}
+
+/* Slides: Image Animation: Fading Image Overlay -----------------------------*/
+.fading-images {
+  position: relative;
+}
+.fading-images img:last-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section.content .fading-images img:last-of-type {
+  opacity: 1;
+  transition: opacity 5s;
+  transition-delay: .5s;
+}
+.section.content.active .fading-images img:last-of-type {
+  opacity: 0;
+}
+[data-aos="overlay"] img:last-of-type {
+  opacity: 1;
+  transition: opacity 5s;
+  transition-delay: .5s;
+}
+[data-aos="overlay"].aos-animate img:last-of-type {
+  opacity: 0;
+}
+
+/* Slides: Image Animation: Come From Left/Above -----------------------------*/
+.come-from-left,
+.come-from-top {
+  width: 35%;
+  float: left;
+  margin-right: 1rem;
+}
+.section.content .come-from-left img {
+  transform: translateX(-120%);
+  transition: transform 1s;
+}
+.section.content.active .come-from-left img {
+  transform: translateX(0);
+}
+.section.content .come-from-top img {
+  opacity: 0;
+  transform: translateY(-141%);
+  transition: transform 1s, opacity 1s;
+}
+.section.content.active .come-from-top img {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-aos="come-from-left"] img {
+  transform: translateX(-120%);
+  transition: transform 1s;
+}
+[data-aos="come-from-left"].aos-animate img {
+  transform: translateX(0);
+}
+[data-aos="come-from-top"] img {
+  opacity: 0;
+  transform: translateY(-141%);
+  transition: transform 1s, opacity 1s;
+}
+[data-aos="come-from-top"].aos-animate img {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Slides: Image Animation: Flip Up ------------------------------------------*/
+.flip-up {
+  width: 80%;
+  margin: 2rem auto 1rem auto;
+  transition-delay: .5s;
+}
+
+/* Slides: Image Side-by-Side ------------------------------------------------*/
+.image-pair {
+  margin: 2rem auto 1rem auto;
+}
+.image-pair img {
+  width: calc(49% - 1rem);
+  margin: 0 .5rem;
+  display: inline-block;
 }

@@ -199,17 +199,23 @@
 
 
 
-// From https://github.com/alvarotrigo/fullPage.js
+// https://github.com/michalsnik/aos/tree/v2
+AOS.init({
+  duration: 1000,
+});
 
+// From https://github.com/alvarotrigo/fullPage.js
 new fullpage('#fullpage', {
 	//options here
 	autoScrolling:true,
   paddingTop: '3rem', // for Quire's navbar
   scrollOverflow: true, // allows for longer sections
+  scrollbars: false,
   verticalCentered: false,
   menu: '#fullpage-menu' // links the menu created in the template
 });
-
 //methods
 fullpage_api.setAllowScrolling(true);
+
+
 
