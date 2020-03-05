@@ -1,110 +1,65 @@
-# Quire Starter
-_A Digital Publishing Framework from Getty Publications_
+# Prototype for CAST:ING Book
 
-This is the starter template for
-[Quire](https://www.getty.edu/publications/digital/platforms-tools.html), an
-open-source multi-format publishing framework built on
-[Hugo](https://github.com/gohugoio/hugo). Quire consists of:
+- Quire: v0.18.0
+- Hugo: v0.61.0
+- Node: v10.16.0
 
-- [quire-cli](https://github.com/gettypubs/quire-cli)
-- [quire-starter](https://github.com/gettypubs/quire-starter)
-- [quire-starter-theme](https://github.com/gettypubs/quire-starter-theme)
-- [quire-docs](https://github.com/gettypubs/quire-starter)
+https://jira.getty.edu/browse/DEV-4033
 
-## Getting Started
+This is a prototype for the Quire project “Guidelines for Best Practice in the Technical Examination of Cast Bronze Sculpture,” slated for publication fall 2021. View it online at https://nervous-colden-8ee4be.netlify.com/. The prototype is an initial exploration of three features:
 
-### Quire-CLI
+1. Accordion content sections
+2. Inline figure pop-ups
+3. Slide/parallax page type
 
-There are two ways to get started using this template for your own projects. If
-you are using the [quire-cli](https://github.com/gettypubs/quire-cli), this
-template is what you will see after running the `quire new` command in a
-terminal session.
+## Accordion content sections
 
-To start development on your own project, navigate into your project directory
-and run `quire preview` to see changes locally, and `quire build` output static
-files. The `quire pdf` and `quire epub` commands are also available if you are
-generating other formats for your publication.
+The primary content of this book is organized in a highly specific outline following a section 1, sub-section 1.1, sub-sub-section 1.1.1 type of structure. To make this more reader-friendly online, we'd like to have the sub-sections and sub-sub-sections collapse in accordions with each chapter.
 
-### Manual setup
+In the prototype, this was done with a script and some minimal css from https://inclusive-components.design/collapsible-sections/. The nice thing about this particular implementation is that:
 
-Alternatively, you can clone this repository and begin using it directly. In
-that case you will probably want to "flatten" the starter kit and it's
-accompanying theme into a single repository so you can keep track of your work
-in your own Git repository. You only need to follow these steps if you *are not*
-using the `quire` command-line tool (it will take care of that for you).
+- it’s a progressive enhancement so that readers without JavaScript will still get the content cleanly
+- it's explicitly designed to be accessible
+- it requires no special markup in the markdown documents for each chapter, making for a much cleaner experience for our editors
 
-1. Clone the kit and its theme submodule: 
-   `git clone --recursive https://github.com/gettypubs/quire-starter.git`
-2. Change into the kit directory and remove the submodule from the repo's tree: 
-   `git rm --cached themes/quire-starter-theme`
-3. Remove the `.gitmodules` file: `rm .gitmodules`
-4. Add the contents of the theme directory to the repo and commit them: 
-   `git add themes/quire-starter-theme`
-5. Make sure you have a new remote set up to push changes to as you make them.
+One issue that became immediately clear and that would need to be addressed is that you can't connect to anchor links inside collapsed sections. Try, for example, clicking on a footnote link (the footnotes being in a collapsed section).
 
-Quire is built on top of Hugo, so even without the Quire CLI tool you can still
-preview or build your project the same as you would in any other Hugo website
-(`hugo server`, etc.). In order to see any changes you've made to the theme
-files however, you will also need to run Webpack in the
-`themes/quire-starter-theme` subfolder (make sure to install the necessary
-dependencies there first!). To simulate the `quire preview` experience you will
-need to run `hugo server` in the project root and 
-`./node_modules/.bin/webpack --watch` in the `themes/quire-starter-theme`
-subfolder.
+In this prototype implementation, the original script was designed to pick up only H2 elements as a basis for creating the sections. We wanted to do it differently, collapsing H3 and H4 sections instead, and H2 sections only when the H2 heading had an explicit `fold-up` class. To do this I just copied the script three times and made the necessary changes. There’s obviously a cleaner way to do this.
 
-## Deployment
+## Inline figure pop-ups
 
-At some point you will probably want to publish what you have built so that it
-can be shared with the wider world. Quire currently supports two methods of
-deployment: Netlify and Github Pages. Both of these services are fast, free, and
-fairly easy to setup. 
+Rather than having figure images particularly assigned to individual chapters and appearing inline within the chapter texts, the authors have amassed a group of figure images, that they refer to multiply throughout the chapters as needed. Rather than have these interrupt the main text, they'll be available in small pop-ups modeled on the glossary and citation pop-ups we've used elsewhere. And the template code for the `q-img` pop-up was derived from those alternate versions.
 
-### Deploying to Netlify
+You can see this feature in the Chapter 1 prototype, the only thing that will need to be done to the pop-up itself is to have some better logic and css applied to more gracfeully handle 1 versus 6+ images.
 
-Assuming you have created a repository for this project on GitHub, sign up or
-log in to [Netlify](https://www.netlify.com/) using your GitHub account.
+From these pop-ups currently, when you click on an image within it just goes to a page with that image alone, but in the final book, the vision is that clicking on one would open Quire's full-page viewing modal with zoom ability, captions, etc.
 
-1. Click the big button labeled *new site from Git*
-2. Select your repository
-3. Configure the basic build settings: choose appropriate branch (`master` by
-   default)
-4. You can set the default build command to `hugo` and the publish directory to
-   `public/`, but this is not necessare since the `netlify.toml` file has all the
-   information pre-configured.
-5. Netlify will auto-generate a site URL for you, or you can set it yourself.
-   The default example uses `https://quire-demo.netlify.com`. Set this as your
-   `baseURL` in `config.build.yml`, and set `relativeURLs: true`
-6. Now, every time you push up a commit to `master` on GitHub, Netlify will
-   automatically rebuild your site using the settings in `netlify.toml`.
-   Pretty cool!
+## Slide/parallax page type
 
-### Deploying to GitHub Pages
+The book also includes a series of Case Studies. These are envisioned being presented more as a scrolling slide or parallax view, both to separate them from the main text visually/conceptually and to tell a much more narrative story (these being exemplars of how the guidelines in the rest of the book were put to use in real world scenarios). Along with identifying the proper technical implementation for these, a significant amount of content choreography on the author/editor side will need to be done to make them feel right.
 
-If you don't need all the features of Netlify, Quire has limited support for
-GitHub pages as well, but there are a few caveats. Unlike Netlify, GitHub Pages
-does not support continuous deployment for Hugo/Quire websites. This means you
-will need to manually deploy the site by running a script provided in
-`bin/deploy.sh` in the project folder.
+For the prototype, I tried two options. The first being [fullPage.js](https://github.com/alvarotrigo/fullPage.js) and the second being [Animate on Scroll (AOS)](https://github.com/michalsnik/aos/tree/v2). 
 
-In `config.build.yml`, comment out the Netlify lines and uncomment the GH Pages
-settings. Your `baseURL` will need to be in the format that GitHub Pages expects
-(https://yourusername.github.io/projectname for most sites). Setting 
-`canonifyURLs: true` will help to avoid broken links.
+fullPage is more of a slide approach and while it handled movement from slide to slide well, it came apart when the content overflowed the slides, despite there being some options in the code that were supposed to handle this. fullPage is also semi-proprietary and required a modestly-priced license to use. For these reasons, I ultimately didn't include it in the prototype site, thought the code for it is still in the repo as a demo.
 
-Finally, you will need to remove the `public/` directory from your `.gitignore`
-file so that you can check built files into version control.
+AOS offered a smoother scrolling experience and for the purposes of the prototype, enough animation effects that let us get a feel for how these Case Study sections might feel. However, it’s not been in active development for sometime, and is not quire full-featured enough to use in production. For instance, it would be good if classes could be subtracted from the navigation bar, not just added, so that only the current section was highlighted; or would be good if we could temporarily pin an image or block of text to a fixed point while other items continued to scroll).
 
-At this point you can run `bin/deploy.sh` and everything will be pushed up to
-GitHub on the `gh-pages` branch. It may take a few moments for everything to
-become visible online.
+A third library that might be good to look at is [ScrollMagic](https://github.com/janpaepke/ScrollMagic). And presumably there are others.
 
-If you get git errors when deploying because of upstream changes, you can always
-delete the `gh-pages` branch on GitHub and re-run the deploy script.
+### Side navigation
 
-### Deploying Elsewhere
+One particular feature of these Case Studies will be the page navigation bar that lists the sections on the page, links to them individually and helps track progress of the reader. In the prototype, the navigation uses the H2 titles by default, or a short version if it was provided in the shortcodes wrapping each section, as in:
 
-Any web server capable of hosting static files will work (S3, FTP server, etc.),
-but you will likely need to customize the values in `config.build.yml` to suit
-your needs.
+```markdown
+
+{{< q-section "Internal Evidence" >}}
+
+## Internal evidence of unique chaplets
+
+The location of core supports is nearly invisible on the radiographs. Endoscopic examination of the interior metal walls of the Justice and the Peace where the core has been removed revealed a rather unique feature in both: the raised outline of what looks like a rectangular bronze patch with an integral faceted tapering point extending out from their center. That these features are idiosyncratic to these 2 casts is a strong indication of their production in the same foundry. No such chaplets could be observed in the radiographs of the Abundance due to the possible masking of the internal surface by the core.
+
+{{< /q-section >}}
+```
+
 
 
