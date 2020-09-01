@@ -1,3 +1,18 @@
+.quire-citation__content__more-link {
+  display: block;
+  margin: 1em;
+  width: max-content;
+  float: right;
+}
+
+.quire-page--vocab .quire-page__content table {
+  font-size: 1rem;
+}
+.quire-page--vocab .content table td, 
+.quire-page--vocab .content table th {
+  padding: .75em 0;
+}
+
 /* Accordion Headings
 https://inclusive-components.design/collapsible-sections/
 ============================================================================= */
