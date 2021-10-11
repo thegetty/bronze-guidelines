@@ -2,7 +2,7 @@
 
 (function() {
   // Get all the <h4> headings
-  const headings = document.querySelectorAll('.content h4')
+  const headings = document.querySelectorAll('.quire-page:not(.quire-page--vocab) .content h4')
   
   Array.prototype.forEach.call(headings, heading => {
     // Give each <h4> a toggle button child
@@ -68,7 +68,7 @@
 
 (function() {
   // Get all the <h3> headings
-  const headings = document.querySelectorAll('.content h3')
+  const headings = document.querySelectorAll('.quire-page:not(.quire-page--vocab) .content h3')
   
   Array.prototype.forEach.call(headings, heading => {
     // Give each <h3> a toggle button child
@@ -134,7 +134,7 @@
 
 (function() {
   // Get all the <h2> headings
-  const headings = document.querySelectorAll('.content h2.fold-up')
+  const headings = document.querySelectorAll('.quire-page:not(.quire-page--vocab) .content h2.fold-up')
   
   Array.prototype.forEach.call(headings, heading => {
     // Give each <h2> a toggle button child

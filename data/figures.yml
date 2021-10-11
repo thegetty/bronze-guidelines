@@ -1,5 +1,28 @@
 figure_list:
 
+  - id: "1062"
+    src: figures/1062.jpg
+    caption: ""
+    credit: ""
+
+  - id: "779"
+    src: figures/779.jpg
+    caption: ""
+    credit: ""
+  
+  - id: "785"
+    src: figures/785.jpg
+    caption: ""
+    credit: ""
+  
+  - id: "784"
+    src: figures/784.jpg
+    caption: ""
+    credit: ""
+  
+  - id: "1065"
+    src: figures/1065.jpg
+
   - id: "trio"
     src: figures/trio.jpg
     label: Figure 1
