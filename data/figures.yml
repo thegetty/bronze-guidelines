@@ -22,5 +22,20 @@ figure_list:
   
   - id: "1065"
     src: figures/1065.jpg
+
+  - id: "trio"
+    src: figures/trio.jpg
+    label: Figure 1
+    caption: "This is a mock-up of a layered image viewer. With this feature, Quire users can identify two or more images that will be layered on top of one another. Each layer will have a corresponding label (with a string of text and/or an icon) that can be clicked to toggle the layer on or off."
+    credit: ""
+
+  - id: "trio-armature"
+    src: figures/trio-armature.jpg
+    caption: ""
+    credit: ""
+
+  - id: "trio-xray"
+    src: figures/trio-xray.jpg
+    label: Figure 2
     caption: ""
     credit: ""

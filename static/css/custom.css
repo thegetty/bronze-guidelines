@@ -39,7 +39,7 @@ h4 button {
 .quire-page .content h2.fold-up {
   padding-top: 0;
 }
-.quire-page .content h3, 
+.quire-page .content h3,
 .quire-page .content h4 {
   letter-spacing: -0.01em;
 }
@@ -79,8 +79,8 @@ h4 button {
 ============================================================================= */
 
 .quire-page__content .content a.quire-citation__content__img-link {
-  display: block; 
-  margin-right: 1rem; 
+  display: block;
+  margin-right: 1rem;
   border-bottom-width: 0;
 }
 .quire-page__content .content a.quire-citation__content__img-link:last-child {
@@ -91,13 +91,13 @@ h4 button {
 }
 
 
-/* Case Study Slides: 
+/* Case Study Slides:
 2 Prototypes using 2 different libraries
 
   fullPage.js
   https://github.com/alvarotrigo/fullPage.js
 
-  Animate on Scroll Version 
+  Animate on Scroll Version
   https://github.com/michalsnik/aos/tree/v2
 ============================================================================= */
 
@@ -125,7 +125,7 @@ h4 button {
 #fullpage div.section {
   background-color: #fff;
   padding: 0 20rem 0 3rem;
-} 
+}
 #fullpage div.section h2 {
   border-top-width: 0;
   padding-top: 0;
@@ -179,7 +179,7 @@ h4 button {
   color: #000;
 }
 /* Covers the leftover bit of right border at the top and bottom of menu list */
-.slide-menu li:first-child .cover, 
+.slide-menu li:first-child .cover,
 .slide-menu li:last-child .cover {
   background-color: #fff;
   height: 50%;
@@ -304,4 +304,59 @@ h4 button {
   width: calc(49% - 1rem);
   margin: 0 .5rem;
   display: inline-block;
+}
+
+.quire-figure__label .quire-figure__label-icon {
+  height: 0;
+  margin-top: -26px;
+}
+.quire-toggles {
+  text-align: left;
+  margin: .75rem 0;
+}
+.quire-toggles .toggle {
+  background-color: #398500;
+  padding: 0 1rem;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: .25rem;
+  margin-bottom: .5rem;
+  height: 1.75rem;
+  border-radius: .875rem;
+}
+.quire-toggles .toggle label {
+  margin-left: .25rem;
+  color: white;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.quire-toggles.outline-toggles .toggle {
+  background-color: white;
+  border: 1px solid #398500;
+}
+.quire-toggles.outline-toggles .toggle label {
+  color: #398500;
+}
+.quire-toggles.outline-toggles .toggle label img {
+  height: 1rem;
+  width: auto;
+  vertical-align: middle;
+  margin-left: .25rem;
+}
+
+.quire-toggles.image-toggles .toggle {
+  background-color: white;
+  padding: 0;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.quire-toggles.image-toggles .toggle label {
+  color: inherit;
+}
+.quire-toggles.image-toggles .toggle label img {
+  height: 1rem;
+  width: auto;
+  vertical-align: middle;
+  margin-left: .25rem;
 }
