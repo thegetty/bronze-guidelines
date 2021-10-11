@@ -23,7 +23,7 @@ disableKinds:
   - "home"
   - "section"
   - "taxonomy"
-  - "taxonomyTerm"
+  - "term"
 
 markup:
   goldmark:
@@ -32,20 +32,21 @@ markup:
 
 # These values can be accessed in templates via .Site.Params
 params:
+  runTests: true
   searchEnabled: true
   licenseIcons: true
   pageLabelDivider: ". "
   citationPageLocationDivider: ", "
   contributorByline: name-title # name | name-title | false
   displayBiblioShort: true
+  biblioHeading: "Bibliography"
   imageDir: "img"
-  tocType: full
-  menuType: full
+  menuClass: brief # brief | list
   prevPageButtonText: "Back"
   nextPageButtonText: "Next"
   entryPageSideBySideLayout: false
   entryPageObjectLinkText: "View in Collection"
-  figureLabelLocation: below # below | on-top
+  figureLabelLocation: on-top # below | on-top
   figureModal: true
   figureModalIcons: true
   figureZoom: true
