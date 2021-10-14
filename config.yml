@@ -32,15 +32,16 @@ markup:
 
 # These values can be accessed in templates via .Site.Params
 params:
+  runTests: false
   searchEnabled: true
   licenseIcons: true
   pageLabelDivider: ". "
   citationPageLocationDivider: ", "
   contributorByline: name-title # name | name-title | false
   displayBiblioShort: true
+  biblioHeading: "Bibliography"
   imageDir: "img"
-  tocType: full
-  menuType: full
+  menuClass: brief # brief | list
   prevPageButtonText: "Back"
   nextPageButtonText: "Next"
   entryPageSideBySideLayout: false
