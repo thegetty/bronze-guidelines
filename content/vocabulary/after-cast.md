@@ -2,16 +2,20 @@
 title: after-cast
 weight: 405
 type: page
-class: vocab
+layout: vocab
 toc: false
 menu: false
 language: en
 definition: A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting.
 ---
 
-{{< q-figure-group grid="3" id="1, 284" >}}
+<div class="backmatter">
 
 Note: An after-cast will usually replicate surface traces of alterations on its precursor model, including damage and repairs. It will also tend to be smaller and potentially less crisp than the bronze from which it was derived (see [II.3](#II.3)).
+
+</div>
+
+{{< q-figure-group grid="3" id="fig-1, fig-284" >}}
 
 ## To Be Distinguished From
 
