@@ -1,3 +1,22 @@
+/* Temporary demo banner */
+@media screen {
+  #container::after {
+    content: "PROTOTYPE";
+    background-color: gold;
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    bottom: -115px;
+    right: -115px;
+    width: 230px;
+    height: 230px;
+    z-index: 4000;
+    transform: rotate(-45deg);
+    text-align: center;
+    padding-top: 1rem;
+  }
+}
+
 .quire-citation__content__more-link {
   display: block;
   margin: 1em;
