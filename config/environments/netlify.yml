@@ -14,5 +14,8 @@
 # Use these settings for Netlify
 #
 
-baseURL: "https://quire-demo.netlify.com"
-relativeURLs: true
+# baseURL: "/"
+# relativeURLs: true
+
+params:
+  runTests: false
