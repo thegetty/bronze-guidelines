@@ -45,8 +45,11 @@
   padding: .5rem 0 .5rem 0;
   cursor: pointer;
 }
-.quire-page .content .accordion h3:last-of-type {
+.quire-page .content .accordion {
   border-bottom: 2px solid #000;
+}
+.quire-page .content .accordion div:last-child {
+  margin-bottom: 1.5rem;
 }
 .content .accordion button svg {
   height: 1rem;

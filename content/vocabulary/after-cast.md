@@ -2,10 +2,9 @@
 title: after-cast
 weight: 405
 type: page
-layout: vocab
+layout: vocabulary
 toc: false
 menu: false
-language: en
 definition: A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting.
 ---
 
@@ -19,76 +18,61 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 ## To Be Distinguished From
 
-**copy**
-
-**replica**
+copy, replica
 
 ## Sources
 
-### *Cultural Heritage Publications*
-
-{Dillon 2002}
-
-{Motture 2019}
-
-{Penny 1993}
+*Cultural Heritage Publications*: {Dillon 2002}; {Motture 2019}; {Penny 1993}
 
 ## Synonyms
 
-**aftercast**
-
-**surmoulage**
-
-The French term *surmoulage* is often used in English texts.
+aftercast, surmoulage (the French term *surmoulage* is often used in English texts)
 
 ## Translations
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>Language</strong></th>
-<th><strong>Translation</strong></th>
-<th><strong>Alternate translations</strong></th>
-<th><strong>Sources</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>German</td>
-<td>Nachguss</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td>French</td>
-<td><a href="../../vocabulary-fr/after-cast/">surmoulé</a></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Italian</td>
-<td>calco</td>
-<td>
-<p>rifusione (less common, related to the process of obtaining a new bronze from already-existing sculpture)</p>
-<p>fusione successiva (usually has smaller dimensions due to the shrinkage of the metal while cooling)</p>
-<p>multiplo</p>
-<p>sovracalco (closest translation to <em>surmoulage</em>; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)</p>
-</td>
-<td>
-<p><a href="https://www.treccani.it/vocabolario/calco/">Treccani</a></p>
-<p>Alternate translations:</p>
-<p>rifusione: {Battaglia 1961}, here</p>
-<p>rifusione: <a href="http://www.treccani.it/vocabolario/rifusione/">Treccani</a></p>
-<p>sovracalco: {Cuomo di Caprio 2007}, 224</p>
-<p>sovracalco: {Panazza 2011}, 30</p>
-</td>
-</tr>
-<tr class="even">
-<td>Chinese</td>
-<td>翻铸</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<div class="accordion">
+
+### German: **Nachguss**
+
+### French: **surmoulé**
+
+Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en bronze.
+
+<div class="backmatter">
+
+Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634); l’auteur parle aussi de contremoulage (550). Pour certains auteurs, le surmoulé n’est pas restreint aux reproductions en bronze mais peut être en plâtre, résine, etc ({{< q-cite "Rama 1988" >}}, 375). Au 19e siècle, le « surmoulé » prend un autre sens, celui d’épreuve de série légalement obtenue à partir d’un chef-modèle ({{< q-cite "Lebon 2012" >}}). On trouve aussi « surmoulé » avec la signification de chef-modèle ({{< q-cite "Bader and Théret 1961" >}}, 615). Le surmoulage désigne l’opération consistant à réaliser un surmoulé.
+
+</div>
+
+#### To Be Distinguished From
+
+copie, réplique, variante, version
+
+#### Sources
+
+*Cultural Heritage Publications*: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634; {{< q-cite "Lebon 2012" >}}
+
+*Art and Craft Textbooks*: {{< q-cite "Rama 1988" >}}, 375
+
+### Italian: **calco**
+
+#### Sources
+
+[Treccani](https://www.treccani.it/vocabolario/calco/)
+
+#### Alternate translations
+
+rifusione (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br />
+*Sources*: {{< q-cite "Battaglia 1961" >}}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+
+fusione successiva (usually has smaller dimensions due to the shrinkage of the metal while cooling)
+
+multiplo
+
+sovracalco (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br />
+*Sources*: {{< q-cite "Cuomo di Caprio 2007" >}}, 224; {{< q-cite "Panazza 2011" >}}, 30
+
+### Chinese: **翻铸**
+
+</div>
 
