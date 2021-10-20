@@ -12,11 +12,11 @@ definition: "Assemblage of joined metal rods, tubes, and/or wires (and/or other 
 
 ## Sources
 
-*Cultural Heritage Publications*: {Mattusch 1996}; {Boulton 2006}; {Dillon 2002}
+Cultural Heritage Publications: {Mattusch 1996}; {Boulton 2006}; {Dillon 2002}
 
-*General Dictionaries*: <https://www.merriam-webster.com/dictionary/armature>
+General Dictionaries: <https://www.merriam-webster.com/dictionary/armature>
 
-*Copper Industry*: {Brunhuber 1988}
+Copper Industry: {Brunhuber 1988}
 
 ## Synonyms
 
@@ -36,8 +36,8 @@ core rod
 
 Stütz-konstruktion
 
-Armierung<br />
-*Sources*: {Maaz 2010}, 695
+- Armierung<br />
+Sources: {Maaz 2010}, 695
 
 ### French: **armature**
 
@@ -51,18 +51,18 @@ Note: On parle aussi de « système d’armatures » pour décrire l’ensembl
 
 #### Sources
 
-*Cultural Heritage Publications*: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 626; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
+Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 626; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
 
-*Historical Sources*: {Gonon 1876}, 38; {Guettier 1858}, 300; {Delon 1877}, 144
+Historical Sources: {Gonon 1876}, 38; {Guettier 1858}, 300; {Delon 1877}, 144
 
-*Art and Craft Textbooks*: {Lambert 2002}, 266; {Rama 1988}, 372; {Dubos 2003}
+Art and Craft Textbooks: {Lambert 2002}, 266; {Rama 1988}, 372; {Dubos 2003}
 
-*Copper Industry*: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
 #### Alternate translations
 
-armature de noyau<br />
-*Copper Industry*: {Brunhuber 1988}
+- armature de noyau<br />
+Copper Industry: {Brunhuber 1988}
 
 ### Italian: **armatura**
 
@@ -72,14 +72,14 @@ armature de noyau<br />
 
 #### Alternate Translations
 
-armadura (early italian spelling of <em>armatura</em>)<br />
-*Sources*: {Leonardo 1490}, fols. 155, 157v, 144v
+- armadura (early italian spelling of <em>armatura</em>)<br />
+Sources: {Leonardo 1490}, fols. 155, 157v, 144v
 
-ferramenta (relates more specifically to the ferrous materials used for the armature)<br />
-*Sources*: {Biringuccio [1540] 1990}, fol. 80v
+- ferramenta (relates more specifically to the ferrous materials used for the armature)<br />
+Sources: {Biringuccio [1540] 1990}, fol. 80v
 
-rinforzo per anime<br />
-*Sources*: {Brunhuber 1988}
+- rinforzo per anime<br />
+Sources: {Brunhuber 1988}
 
 ### Chinese: **塑像內部支架**
 
@@ -89,6 +89,6 @@ rinforzo per anime<br />
 
 #### Alternate Translations
 
-雕塑骨架
+- 雕塑骨架
 
 </div>

@@ -22,7 +22,7 @@ copy, replica
 
 ## Sources
 
-*Cultural Heritage Publications*: {Dillon 2002}; {Motture 2019}; {Penny 1993}
+Cultural Heritage Publications: {Dillon 2002}; {Motture 2019}; {Penny 1993}
 
 ## Synonyms
 
@@ -40,7 +40,7 @@ Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en
 
 <div class="backmatter">
 
-Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634); l’auteur parle aussi de contremoulage (550). Pour certains auteurs, le surmoulé n’est pas restreint aux reproductions en bronze mais peut être en plâtre, résine, etc ({{< q-cite "Rama 1988" >}}, 375). Au 19e siècle, le « surmoulé » prend un autre sens, celui d’épreuve de série légalement obtenue à partir d’un chef-modèle ({{< q-cite "Lebon 2012" >}}). On trouve aussi « surmoulé » avec la signification de chef-modèle ({{< q-cite "Bader and Théret 1961" >}}, 615). Le surmoulage désigne l’opération consistant à réaliser un surmoulé.
+Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634); l’auteur parle aussi de contremoulage (550). Pour certains auteurs, le surmoulé n’est pas restreint aux reproductions en bronze mais peut être en plâtre, résine, etc ({Rama 1988}, 375). Au 19e siècle, le « surmoulé » prend un autre sens, celui d’épreuve de série légalement obtenue à partir d’un chef-modèle ({Lebon 2012}). On trouve aussi « surmoulé » avec la signification de chef-modèle ({Bader and Théret 1961}, 615). Le surmoulage désigne l’opération consistant à réaliser un surmoulé.
 
 </div>
 
@@ -50,9 +50,9 @@ copie, réplique, variante, version
 
 #### Sources
 
-*Cultural Heritage Publications*: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634; {{< q-cite "Lebon 2012" >}}
+Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Lebon 2012}
 
-*Art and Craft Textbooks*: {{< q-cite "Rama 1988" >}}, 375
+Art and Craft Textbooks: {Rama 1988}, 375
 
 ### Italian: **calco**
 
@@ -62,15 +62,15 @@ copie, réplique, variante, version
 
 #### Alternate translations
 
-rifusione (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br />
-*Sources*: {{< q-cite "Battaglia 1961" >}}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+- rifusione (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br />
+Sources: {Battaglia 1961}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
 
-fusione successiva (usually has smaller dimensions due to the shrinkage of the metal while cooling)
+- fusione successiva (usually has smaller dimensions due to the shrinkage of the metal while cooling)
 
-multiplo
+- multiplo
 
-sovracalco (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br />
-*Sources*: {{< q-cite "Cuomo di Caprio 2007" >}}, 224; {{< q-cite "Panazza 2011" >}}, 30
+- sovracalco (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br />
+Sources: {Cuomo di Caprio 2007}, 224; {Panazza 2011}, 30
 
 ### Chinese: **翻铸**
 

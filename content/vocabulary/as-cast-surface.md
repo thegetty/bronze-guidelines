@@ -22,9 +22,9 @@ fire scale, fire-skin
 
 ## Sources
 
-*Cultural Heritage Publications*: {Kienlin, Bischoff, and Opielka 2006}
+Cultural Heritage Publications: {Kienlin, Bischoff, and Opielka 2006}
 
-*Other*: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
+Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
 
 ## Translations
 
@@ -52,16 +52,22 @@ Note: Une belle surface faisant apparaître la qualité de la « peau de pièce
 
 #### Sources
 
-*Art and Craft Textbooks*: {Lambert 2002}, 238
+Art and Craft Textbooks: {Lambert 2002}, 238
 
 #### Alternate Translations
 
-surface brute de fonderie (on parle d’un état « brut de fonderie »)<br />
-*Sources*: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632.
+- surface brute de fonderie<br />
+  {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
 
-surface brute de fonte
+- surface brute de fonte
 
-### Italian: **superficie al grezzo** (used as part of expression “superfiecie al grezzo di fusione”)
+### Italian: **superficie al grezzo**
+
+<div class="backmatter">
+
+Note: Used as part of expression “superfiecie al grezzo di fusione”
+
+</div>
 
 #### Sources
 
@@ -69,7 +75,7 @@ surface brute de fonte
 
 #### Alternate Translations
 
-grezzo
+- grezzo
 
 ### Chinese: **毛坯铸件表面**
 
