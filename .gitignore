@@ -6,3 +6,5 @@ public
 site
 node_modules
 .tmp
+magick
+iiif
