@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting.
+definition: "A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting."
 ---
 
 <div class="backmatter">
@@ -18,7 +18,8 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 ## To Be Distinguished From
 
-copy, replica
+- copy
+- replica
 
 ## Sources
 
@@ -26,7 +27,8 @@ Cultural Heritage Publications: {Dillon 2002}; {Motture 2019}; {Penny 1993}
 
 ## Synonyms
 
-aftercast, surmoulage (the French term *surmoulage* is often used in English texts)
+- aftercast
+- surmoulage (the French term *surmoulage* is often used in English texts)
 
 ## Translations
 
@@ -62,17 +64,19 @@ Art and Craft Textbooks: {Rama 1988}, 375
 
 #### Alternate translations
 
-- rifusione (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br />
-Sources: {Battaglia 1961}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+- rifusione<br/>
+  (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br/>
+    Sources: {Battaglia 1961}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
 
-- fusione successiva (usually has smaller dimensions due to the shrinkage of the metal while cooling)
+- fusione successiva<br/>
+  (usually has smaller dimensions due to the shrinkage of the metal while cooling)
 
 - multiplo
 
-- sovracalco (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br />
-Sources: {Cuomo di Caprio 2007}, 224; {Panazza 2011}, 30
+- sovracalco<br/>
+  (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br/>
+  Sources: {Cuomo di Caprio 2007}, 224; {Panazza 2011}, 30
 
 ### Chinese: **翻铸**
 
 </div>
-

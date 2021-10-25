@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Refers to the surface immediately after removal from the mold, before fettling and chasing.
+definition: "Refers to the surface immediately after removal from the mold, before fettling and chasing."
 ---
 
 <div class="backmatter">
@@ -38,7 +38,7 @@ Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
 
 #### Alternate Translations
 
-gussrauhe Oberfläche
+- gussrauhe Oberfläche
 
 ### French: **surface brute de coulée**
 
@@ -57,7 +57,7 @@ Art and Craft Textbooks: {Lambert 2002}, 238
 #### Alternate Translations
 
 - surface brute de fonderie<br />
-  {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
+  Sources: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
 
 - surface brute de fonte
 
@@ -84,4 +84,3 @@ Note: Used as part of expression “superfiecie al grezzo di fusione”
 {Ming 2010}, 998
 
 </div>
-

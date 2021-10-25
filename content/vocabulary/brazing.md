@@ -1,0 +1,89 @@
+---
+title: brazing
+weight: 425
+type: page
+layout: vocabulary
+toc: false
+menu: false
+definition: "In bronze sculpture, a technique for joining separately cast parts or repairs or filling casting defects by localized addition of a molten copper alloy of slightly lower melting temperature than that of the cast. Unlike in welding, the contact zones of the sections to be joined are not brought to a molten stage."
+---
+
+<div class="backmatter">
+
+Note: In industry, brazing is often defined as a joining method using a filler metal with a melting point above 450°C, which includes both copper-based and silver-based (hard solder) alloys. In cultural heritage settings, it may be impractical to identify the alloy and melting point of the filler metal. To avoid confusion, we suggest that white filler metal be referred to as solder.
+
+</div>
+
+{{< q-figure-group grid="3" id="188, 206, 229">}}
+
+
+## To Be Distinguished From
+
+flow fusion welding, flow welding, fusion welding, repair, soldering, welding
+
+## Sources
+
+Historical Sources: {Buchanan 1903}, 23, 60; {Bolland 1894}, 72
+
+Copper Industry: {Schwartz and Aircraft 1951}
+
+General Dictionaries: <https://www.merriam-webster.com/dictionary/brazing>
+
+Other: {Scott 1991}, 138
+
+## Translations
+
+<div class="accordion">
+
+### German: **Hartlöten**
+
+### French: **brasage**
+
+Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
+
+<div class="backmatter">
+
+Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », celui utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634). Par ailleurs, la brasure désigne le métal de brasure ({Bader and Théret 1961}, 102) ainsi que l’assemblage lui-même.
+
+</div>
+
+#### Sources
+
+Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634
+
+Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+
+#### Alternate translations
+
+- soudure indirecte<br/>
+  Les termes soudage ou soudure ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Bader and Théret 1961}) et souder ({Félibien 1690}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.<br/>
+  Copper Industry: {Bader and Théret 1961}, 595
+
+
+### Italian: **brasatura**
+
+<div class="backmatter">
+
+Note: a subset of <em>saldatura</em>.
+
+</div>
+
+#### Sources
+
+[Treccani](http://www.treccani.it/vocabolario/brasatura/); {Battaglia 1961} [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
+
+### Chinese: **硬焊**
+
+#### Sources
+{Ming 2010}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
+
+#### Alternate translations:
+
+- 钎接
+<br>Sources: {Ming 2010}, 1137–38
+
+- 钎焊
+<br>Sources: {Ming 2010}, 1436
+
+- 铜焊
+<br>Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1)

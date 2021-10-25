@@ -1,0 +1,95 @@
+---
+title: flashing
+weight: 520
+type: page
+layout: vocabulary
+toc: false
+menu: false
+definition: A ridge of excess metal that can occur when molten metal enters cracks in the refractory mold (both outer and core). Flashing most often rises perpendicularly to the inner or outer wall of bronze, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during fettling. Flashing may also occur along seam lines of an ill-fitted piece mold.
+---
+
+{{< q-figure-group grid="3" id="6, 59, 61, 77, 90, 249, 545" >}}
+
+## To Be Distinguished From
+
+seam line
+
+<div class="backmatter">
+Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.
+</div>
+
+## Sources
+
+Cultural Heritage Publications: {Beale 1975}, 41
+
+Copper Industry: {Ammen 1980}; {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+
+Art and Craft Textbooks: {McCreight 1996}
+
+## Synonyms
+
+finning
+
+Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+
+veining
+
+## Translations
+
+<div class="accordion"> 
+
+### German: **Grat**
+
+#### Alternate Translations
+
+- Gussgrat
+
+### French: **gerce**
+
+Défaut de fonderie où le métal liquide pénètre dans des fissures du moule réfractaire. S’agissant de la partie interne du moule (le noyau, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule, un défaut similaire apparaît mais sur la surface externe du bronze (notamment – mais pas seulement - à l’endroit des joints de moule quand celui-ci est constitué de plusieurs parties assemblées).
+
+#### To Be Distinguished From
+
+balesvre, balevre, barbe, barbure, bavochure, bavure, bavure de joint, couture, suture, toiles, ébarbure
+
+#### Sources
+
+Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 645; {Bourgarit, Bewer, and Bresc-Bautier 2014}
+
+Copper Industry: {Hénon, Mascré, and Blanc 1971}, 17; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+
+#### Alternate translations
+
+- gerçure<br />
+Historical Sources: {Boffrand 1743}, 62; {Gonon 1876}, 6
+
+- nervure<br />
+Copper Industry: {Hénon, Mascré, and Blanc 1971}, 17; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+
+### Italian: **bava**
+
+#### Sources
+
+[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {Biringuccio [1540] 1990}, fol. 78
+
+#### Alternate Synonyms
+
+- cresta di fusione<br/>
+{Carruba 2006}, 24; {Pecchioli 1999}, 192
+
+### Chinese: **毛边**
+
+#### Sources
+
+{Ming 2010}, 997
+
+#### Alternate Translations
+
+- 溢料<br />
+[TNATD](https://terms.naer.edu.tw/detail/11553389/)
+
+- 溢边<br />
+[TNATD](https://terms.naer.edu.tw/detail/11553389/)
+
+- 飞边<br />
+{Ming 2010}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)

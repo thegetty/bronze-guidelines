@@ -34,7 +34,7 @@ core rod
 
 #### Alternate Translations
 
-Stütz-konstruktion
+- Stütz-konstruktion
 
 - Armierung<br />
 Sources: {Maaz 2010}, 695
