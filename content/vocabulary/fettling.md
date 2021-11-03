@@ -1,50 +1,46 @@
 ---
 title: fettling
-weight: 515
+weight: 525
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Steps carried out directly after casting to remove unwanted features, including oxidized metal, %%sprues%%, %%core pins%%, %%flashing%%, etc. Fettling may entail the use of power tools and/or hand tools such as saws, chisels, hammers, coarse files, and abrasives.
+definition: "Steps carried out directly after casting to remove unwanted features, including oxidized metal, %%sprues%%, %%core pins%%, %%flashing%%, etc. Fettling may entail the use of power tools and/or hand tools such as saws, chisels, hammers, coarse files, and abrasives."
 ---
 
 {{< q-figure-group grid="3" id="104, 552" >}}
 
 ## To Be Distinguished From
 
-chasing
+- *chasing*
 
 ## Sources
 
-Cultural Heritage Publications: {Salter and Gilmour n.d.}, 23; {Penny 1993}
+Cultural Heritage: {Salter and Gilmour n.d.}, 23; {Penny 1993}
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Art and Craft Textbooks: {Untracht 1982}
+Art and Craft Textbook: {Untracht 1982}
 
 ## Translations
 
-<div class="accordion"> 
+<div class="accordion">
 
-### German: **Abgraten**
+### **German**: *Abgraten*
 
-#### Sources
+#### Source
 
 {Association Technique de {Fonderie, Commission Ingénieurs et Techniciens 1979}
 
 #### Alternate Translations
 
-- Entgraten<br/>
-  {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Entgraten* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- Fertigputzen<br/>
-  {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Fertigputzen* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- Putzen<br/>
-  this term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing \[*Ziselieren*\] and is generally not used<br/>
-  {Brunhuber 1986}, 747
+- *Putzen* (This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing [*Ziselieren*] and is generally not used.) | Source: {Brunhuber 1986}, 747
 
-### French: **réparure**
+### **French**: *réparure*
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du moule, avant ciselure et/ou patination.
 
@@ -54,38 +50,30 @@ Note: Suivant les périodes et l’organisation de l’atelier la réparure peut
 
 #### To Be Distinguished From
 
-ciselure, ciselure-réparure
+- *ciselure*
+- *ciselure-réparure*
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
 
-Historical Sources: {Boffrand 1743}, 58; {Gonon 1876}, 13, 39; {Grandpierre and Dargent 1862}; {Grandpierre and Avale 1867}; {Mariette 1768}, 127
+Historical: {Boffrand 1743}, 58; {Gonon 1876}, 13, 39; {Grandpierre and Dargent 1862}; {Grandpierre and Avale 1867}; {Mariette 1768}, 127
 
 Art and Craft Textbooks: {Rama 1988}, 375; {Lambert 2002}, 275
 
-#### Alternate translations
+#### Alternate Translations
 
-- ébarbage<br/>
-  traduction française de « fettling » d’après la source<br/>
-  Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *ébarbage* (Traduction française de « fettling » d’après la source) | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- ébavurage<br/>
-  traduction française de « fettling » d’après la source<br/>
-  Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *ébavurage* (Traduction française de « fettling » d’après la source) | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- réparage<br/>
-  Historical Sources: {Mariette 1768}, 127<br/>
-  Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 762
+- *réparage* | Sources: Historical: {Mariette 1768}, 127; Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 762
 
-- reparure (alternate spelling)**<br/>
-  Le terme « reparer » apparaît dans {Félibien 1690}, 333; {Boffrand 1743}, 58); {Lebon 2012}.<br/>
-  Historical Sources: {Gonon 1876}, 12<br/>
-  Art and Craft Textbooks: {Rama 1988}, 375
+- *reparure* (alternate spelling) (Le terme « reparer » apparaît dans {Félibien 1690}, 333; {Boffrand 1743}, 58); {Lebon 2012}.) | Sources: Historical: {Gonon 1876}, 12; Art and Craft Textbook: {Rama 1988}, 375
 
-### Italian: **rifinitura**
+### **Italian**: *rifinitura*
 
-similar word used for chasing
+Similar word used for chasing
 
 #### Sources
 
@@ -93,27 +81,22 @@ similar word used for chasing
 
 #### Alternate Translations
 
-- sbavatura<br/>
-  removal of flashing or traces of sprues<br/>
-  [Treccani](http://www.treccani.it/vocabolario/sbavatura1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura)
+- *sbavatura* (Removal of flashing or traces of sprues) | Sources: [Treccani](http://www.treccani.it/vocabolario/sbavatura1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura)
 
-- sgrossatura<br/>
-  designates more specifically the quick removal prior to chasing; see **chiseling**<br/>
-  {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
+- *sgrossatura* (Designates more specifically the quick removal prior to chasing; see *chiseling*) | Source: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
 
-### Chinese: **清砂**
+### **Chinese**: 清砂
 
-#### Sources
+#### Source
 
 {Ming 2010}, 1164   
 
 #### Alternate Translations
 
-- 修整<br/>
-  [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
+- 修整 | Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
 
-- 清理<br/>
-  {Ming 2010}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
+- 清理 | Sources: {Ming 2010}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
 
-- 精整<br/>
-  [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+- 精整 | Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+
+</div>

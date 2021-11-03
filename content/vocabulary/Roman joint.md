@@ -1,11 +1,11 @@
 ---
 title: Roman joint
-weight: 670
+weight: 655
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by %%soldering%%.
+definition: "A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by %%soldering%%."
 ---
 
 <div class="backmatter">
@@ -16,27 +16,26 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 ## Sources
 
-Cultural Heritage Publications: {Bassett 2008}; {Beentjes 2019}; {Grissom and Harvey 2003}
+Cultural Heritage: {Bassett 2008}; {Beentjes 2019}; {Grissom and Harvey 2003}
 
 ## Synonyms
 
-mortise and tenon join
-
-Cultural Heritage Publications: {Bourgarit et al. 2003}
-
-Roman join (alternate spelling), sleeve join, socket and tenon join
+- *mortise and tenon join* | Source: Cultural Heritage: {Bourgarit et al. 2003}
+- *Roman join* (alternate spelling)
+- *sleeve join*
+- *socket and tenon join*
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Steckverbindung**
+### **German**: *Steckverbindung*
 
-#### Sources
+#### Source
 
 {Willer, Schwab, and Mirschenz 2016b}, 158–59
 
-### French: **assemblage à la romaine**
+### **French**: *assemblage à la romaine*
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
 
@@ -46,20 +45,22 @@ Note: Des goujons (ou clavettes ou chevilles) peuvent être ajoutés. On parle a
 
 #### Sources
 
-Art and Craft Textbooks: {Rama 1988}, 125
+Art and Craft Textbook: {Rama 1988}, 125
 
-#### Alternate translations
+#### Alternate Translation
 
-- assemblage par tenon et mortaise
+- *assemblage par tenon et mortaise*
 
-### Italian: **ghiera alla romana**
+### **Italian**: *ghiera alla romana*
 
-#### Sources
+#### Source
 
 {Bruni 1994}, 123
 
 #### Alternate Translation
 
-- giuntura a innesto
+- *giuntura a innesto*
 
-### Chinese: **罗馬式接合**
+### **Chinese**: 罗馬式接合
+
+</div>

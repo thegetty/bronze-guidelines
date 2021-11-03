@@ -1,11 +1,11 @@
 ---
 title: welding
-weight: 645
+weight: 690
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.
+definition: "A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied."
 ---
 
 <div class="backmatter">
@@ -16,29 +16,30 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 ## To Be Distinguished From
 
-brazing, soldering
+- *brazing*
+- *soldering*
 
 ## Sources
 
-Cultural Heritage Publications: {Salter and Gilmour n.d.}; {Beale 1975}, 28–55
+Cultural Heritage: {Salter and Gilmour n.d.}; {Beale 1975}, 28–55
 
 Copper Industry: {Brunhuber 1988}
 
 Art and Craft Textbooks: {Rome and Young 2003}, 312; {Untracht 1982}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/welding>
+General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Schweissen**
+### **German**: *Schweissen*
 
-#### Sources
+#### Source
 
 {Deutsches Kupferinstitut 2005}, 18
 
-### French: **soudage**
+### **French**: *soudage*
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au brasage qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
@@ -50,9 +51,9 @@ Note: L’assemblage peut se faire sans apport de métal, par soudure dite autog
 
 Copper Industry: {Brunhuber 1988}; {Murry 1994}
 
-### Italian: **saldatura**
+### **Italian**: *saldatura*
 
-often specified by *a fusione* or *per fusione*
+Often specified by *a fusione* or *per fusione*
 
 #### Sources
 
@@ -60,12 +61,12 @@ often specified by *a fusione* or *per fusione*
 
 #### Alternate translations
 
-- saldatura metallurgica per colata<br/>
-  term also used for brazing, and [in antiquity] for flow fusion welding<br/>
-  {Formigli 2010}, 20; {Formigli 1999c}, 318–19    
+- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {Formigli 2010}, 20; {Formigli 1999c}, 318–19    
 
-### Chinese: **熔焊**
+### **Chinese**: 熔焊
 
 #### Sources
 
 {Ming 2010}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
+
+</div>

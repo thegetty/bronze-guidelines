@@ -1,11 +1,11 @@
 ---
 title: lost-wax casting
-weight: 555
+weight: 570
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A technique in which a model made of wax is embedded in a %%refractory mold%% that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See [GI§2](#GI§2).
+definition: "A technique in which a model made of wax is embedded in a %%refractory mold%% that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See [GI§2](#GI§2)."
 ---
 
 <div class="backmatter">
@@ -16,22 +16,23 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 
 ## Sources
 
-Cultural Heritage Publications: {Penny 1993}; {Beale 1975}; {Mattusch 1996}; {Motture 2019}
+Cultural Heritage: {Penny 1993}; {Beale 1975}; {Mattusch 1996}; {Motture 2019}
 
 Other: {Untracht 1968}
 
 ## Synonyms
 
-investment casting
-lost wax casting (alternate spelling)
-lost-wax molding
-> Copper Industry: {Koch and Newell 1963}
+- *investment casting*
+
+- *lost wax casting* (alternate spelling)
+
+- *lost-wax molding* | Source: Copper Industry: {Koch and Newell 1963}
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Wachsausschmelzverfahren**
+### **German**: *Wachsausschmelzverfahren*
 
 #### Sources
 
@@ -39,51 +40,42 @@ lost-wax molding
 
 #### Alternate Translation
 
-- Modellausschmelzverfahren<br/>
-  {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Modellausschmelzverfahren* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-### French: **fonte à la cire perdue**
+### **French**: *fonte à la cire perdue*
 
 Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le moule réfractaire, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
 
 #### Sources
 
-Cultural Heritage Publications: {Bewer, Bourgarit, and Bassett 2008}; {Lebon et al. 2016}, 330; {Mille and Robcis 2012}; {Azéma and Mille 2013b}
+Cultural Heritage: {Bewer, Bourgarit, and Bassett 2008}; {Lebon et al. 2016}, 330; {Mille and Robcis 2012}; {Azéma and Mille 2013b}
 
-#### Alternate translations
+#### Alternate Translations
 
-- fonte à cire perdue
-  Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624; {Arminjon and Bilimoff 1998}, 78–80
+- *fonte à cire perdue* | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624; {Arminjon and Bilimoff 1998}, 78–80
 
-- moulage à la cire perdue
-  Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Bader and Théret 1961}, 437; {Cuénin 1994}, 5; {Koch and Newell 1963}
-  Art and Craft Textbooks: {Hamm 1924}, 99–100; {Rama 1988}, 203
+- *moulage à la cire perdue* | Sources: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Bader and Théret 1961}, 437; {Cuénin 1994}, 5; {Koch and Newell 1963}; Art and Craft Textbooks: {Hamm 1924}, 99–100; {Rama 1988}, 203
 
-- moulage en cire perdue
-  Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
-  Historical Sources: {Guettier 1858}, notice 585, p. 300; {Laboulaye 1861}, 81–82
+- *moulage en cire perdue* | Sources: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; Historical: {Guettier 1858}, notice 585, p. 300; {Laboulaye 1861}, 81–82
 
-- procédé à cire perdue<br/>
-  Cultural Heritage Publications: {Rolley 1994}, 65
+- *procédé à cire perdue* | Source: Cultural Heritage: {Rolley 1994}, 65
 
-### Italian: **fusione a cera persa**
+### **Italian**: *fusione a cera persa*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/cera1/); {Giuffredi 2006}, 61–62   
 
-#### Alternate translation
+#### Alternate Translation
 
-- fusione a cera perduta<br/>
-  [Treccani](http://www.treccani.it/vocabolario/cera1/)
+- *fusione a cera perduta* | Source: [Treccani](http://www.treccani.it/vocabolario/cera1/)
 
-### Chinese: **失蜡法**
+### **Chinese**: 失蜡法
 
 #### Sources
 
 [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
 
-#### Alternate translation
+#### Alternate Translation
 
-- 失蜡铸造<br/>
-  {Ming 2010}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
+- 失蜡铸造 | Sources: {Ming 2010}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)

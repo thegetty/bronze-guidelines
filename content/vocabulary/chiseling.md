@@ -1,11 +1,11 @@
 ---
 title: chiseling
-weight: 470
+weight: 480
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either fettling or chasing.
+definition: "Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either fettling or chasing."
 ---
 
 <div class="backmatter">
@@ -16,52 +16,57 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 ## To Be Distinguished From
 
-chasing
+- *chasing*
 
 ## Sources
 
-Cultural Heritage Publications: {Frel 1982}, 13
+Cultural Heritage: {Frel 1982}, 13
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/chiseling>
+General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 ## Translations
 
 <div class="accordion">
 
-### German: **meißeln**
+### **German**: *meißeln*
 
-#### Sources
+#### Source
 
 {Bol 1985}, 139
 
-### French: **travail au ciseau**
+### **French**: *travail au ciseau*
 
-#### Sources
+Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la réparure (correspondrait alors principalement à l’ébarbage, see {Grandpierre and Dargent 1862}, 275; {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 633) et la ciselure. Il n’existe a priori pas de traduction directe en français, si ce n’est « travail au ciseau ».
 
-### Italian: **scalpellatura**
+#### To Be Distinguished From
 
-#### Sources
+- *ciselure*
+- *ciselure-réparure*
 
-[Treccani](https://www.treccani.it/vocabolario/scalpellatura/
+### **Italian**: *scalpellatura*
+
+#### Source
+
+[Treccani](https://www.treccani.it/vocabolario/scalpellatura/)
 
 #### Alternate Translations
 
-- rifinitura a cesello
+- *rifinitura a cesello*
 
-- incisione a bulino<br />
-{Battaglia 1961}, [here](file:///C:\Users\sherm\Desktop\Casting%20TO%20FINALIZE\:\www.gdli.it\pdf_viewer\Scripts\pdf.js\web\viewer.asp%3ffile=\PDF\GDLI07\GDLI_07_ocr_693.pdf&parola=incisione)
+- *incisione a bulino* | Source: {Battaglia 1961}, [here](file:///C:\Users\sherm\Desktop\Casting%20TO%20FINALIZE\:\www.gdli.it\pdf_viewer\Scripts\pdf.js\web\viewer.asp%3ffile=\PDF\GDLI07\GDLI_07_ocr_693.pdf&parola=incisione)
 
-### Chinese: **凿 (v., n.)**
+### **Chinese**: 凿 (v., n.)
 
-#### Sources
+#### Source
 
 {Ming 2010}, 1735
 
 #### Alternate Translations
 
-- 錾 (v., n.)<br/>
-{Ming 2010}, 1735
+- 錾 (v., n.) | Source: {Ming 2010}, 1735
 
 - 镌 (v.)
 
 - 雕 (v.)
+
+</div>

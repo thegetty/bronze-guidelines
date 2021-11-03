@@ -1,51 +1,53 @@
 ---
 title: edition
-weight: 505
+weight: 515
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.
+definition: "The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value."
 ---
-
-{{< q-figure-group grid="3" id="1, 261, 551" >}}
 
 <div class="backmatter">
 Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in chasing, patination, or deterioration of the molds/chef-modèle over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern bronze casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
 </div>
 
+{{< q-figure-group grid="3" id="1, 261, 551" >}}
+
 ## To Be Distinguished From
 
-copy, replica, version, variant
+- *copy*
+- *replica*
+- *version*
+- *variant*
 
 ## Sources
 
-Cultural Heritage Publications: {Bassett and Fogelman 1997}, 32; {Beale 1975}; {Dillon 2002}
+Cultural Heritage: {Bassett and Fogelman 1997}, 32; {Beale 1975}; {Dillon 2002}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/edition>
+General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
-## Synonyms
+## Synonym
 
-editioned replica
+- *editioned replica*
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Auflagenguss**
+### **German**: *Auflagenguss*
 
-#### Sources
+#### Source
 
 {Maaz 2010}, 671, 683
 
 #### Alternate Translation
 
-- Edition<br/>
-  {Mietzsch 2009}, 103
+- *Edition* | Source: {Mietzsch 2009}, 103
 
-### French: **édition**
+### **French**: *édition*
 
-definition: Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
+Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
 <div class="backmatter">
 Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {Rama 1988}, 372), épreuves d’édition, exemplaires d’édition ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545), etc..
@@ -53,46 +55,30 @@ Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du p
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Lebon et al. 2016}, 330
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Lebon et al. 2016}, 330
 
-Art and Craft Textbooks: {Rama 1988}
+Art and Craft Textbook: {Rama 1988}
 
-### Italian: **edizione**
+### **Italian**: *edizione*
 
-#### Sources
+#### Source
 
 [Treccani](http://www.treccani.it/vocabolario/edizione)
 
-#### Alternate Translations
+#### Alternate Translation
 
-- multiplo<br/>
-  in the arts, specifies that the cast is not a one-off but part of a group of essentially identical sculptures<br/>
-  [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+- *multiplo* (In the arts, specifies that the cast is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
 
-- serie<br/>
-  correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning
+- *serie* (Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning)
 
-### Chinese: **版本**
+### **Chinese**: 版本
+
+#### Sources:
+
+{Ming 2010}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
+
+#### Alternate Translation
 
 - 翻版
-+--------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| **Language** | **Translation**                              | **Alternate translations**                                                                                                                                                      | **Sources**                                                          |
-+==============+==============================================+=================================================================================================================================================================================+======================================================================+
-| German       | Auflagenguss                                 | Edition                                                                                                                                                                         | {Maaz 2010}, 671, 683                                                |
-|              |                                              |                                                                                                                                                                                 |                                                                      |
-|              |                                              |                                                                                                                                                                                 | Alternate translations:                                              |
-|              |                                              |                                                                                                                                                                                 |                                                                      |
-|              |                                              |                                                                                                                                                                                 | Edition: {Mietzsch 2009}, 103                                        |
-+--------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| French       | [édition](file:////vocabularies/edition--fr) |                                                                                                                                                                                 |                                                                      |
-+--------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| Italian      | edizione                                     | multiplo (in the arts, specifies that the cast is not a one-off but part of a group of essentially identical sculptures)                                                        | [Treccani](http://www.treccani.it/vocabolario/edizione)              |
-|              |                                              |                                                                                                                                                                                 |                                                                      |
-|              |                                              | serie (correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning) | Alternate translations:                                              |
-|              |                                              |                                                                                                                                                                                 |                                                                      |
-|              |                                              |                                                                                                                                                                                 | multiplo: [Treccani](https://www.treccani.it/enciclopedia/multiplo/) |
-+--------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
-| Chinese      | 版本                                         | 翻版                                                                                                                                                                            | {Ming 2010}, 310                                                     |
-|              |                                              |                                                                                                                                                                                 |                                                                      |
-|              |                                              |                                                                                                                                                                                 | [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)           |
-+--------------+----------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------+
+
+</div>

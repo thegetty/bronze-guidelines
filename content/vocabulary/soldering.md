@@ -1,11 +1,11 @@
 ---
 title: soldering
-weight: 630
+weight: 675
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: In bronze sculpture, a technique for joining separately cast parts, %%inlays%%, %%overlays%%, or repairs, or for filling %%casting defects%%, by adding a metal with a lower melting temperature than that of the primary cast. As a rule of thumb, solder is white (alloys of silver, tin, lead, etc.), whereas %%brazing%% is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).
+definition: "In bronze sculpture, a technique for joining separately cast parts, %%inlays%%, %%overlays%%, or repairs, or for filling %%casting defects%%, by adding a metal with a lower melting temperature than that of the primary cast. As a rule of thumb, solder is white (alloys of silver, tin, lead, etc.), whereas %%brazing%% is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys)."
 ---
 
 <div class="backmatter">
@@ -16,31 +16,35 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 
 ## To Be Distinguished From
 
-brazing, flow fusion welding, flow welding, fusion welding, welding
+- *brazing*
+- *flow fusion welding*
+- *flow welding*
+- *fusion welding*
+- *welding*
 
 ## Sources
 
-Cultural Heritage Publications: {Beale 1975}, 42–43
+Cultural Heritage: {Beale 1975}, 42–43
 
-Historical Sources: {Buchanan 1903}, 23, 98
+Historical: {Buchanan 1903}, 23, 98
 
-Copper Industry; {Schwartz and Aircraft 1951}
+Copper Industry: {Schwartz and Aircraft 1951}
 
-Art and Craft Textbooks: {Untracht 1982}, 388–423
+Art and Craft Textbook: {Untracht 1982}, 388–423
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/soldering>
+General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Löten**
+### **German**: *Löten*
 
-#### Sources
+#### Source
 
 {Deutsches Kupferinstitut 2005}, 24
 
-### French: **brasage**
+### **French**: *brasage*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
@@ -50,31 +54,30 @@ Note: L’anglais distingue « brazing », le procédé utilisant de la brasur
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-#### Alternate translations
+#### Alternate Translations
 
-- soudure indirecte<br/>
-  Les termes soudage ou soudure ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Bader and Théret 1961}) et souder ({Félibien 1690}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.<br/>
-  Copper Industry: {Bader and Théret 1961}, 595
+- *soudure indirecte* (Les termes soudage ou soudure ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Bader and Théret 1961}) et souder ({Félibien 1690}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {Bader and Théret 1961}, 595
 
-### Italian: **brasatura**
+### **Italian**: *brasatura*
 
-a subset of *saldatura*
+A subset of *saldatura*
 
 #### Sources
 
 [Treccani](https://www.treccani.it/vocabolario/ricerca/brasatura/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-#### Alternate translations
+#### Alternate Translation
 
-- saldatura<br/>
-  [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {Cellini [1568] 1967}, fols. 37v–38
+- *saldatura* | Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {Cellini [1568] 1967}, fols. 37v–38
 
-### Chinese: **焊接**
+### **Chinese**: 焊接
 
 #### Sources
 
 {Ming 2010}, 596; [TNATD](https://terms.naer.edu.tw/detail/993229/?index=4)
+
+</div>

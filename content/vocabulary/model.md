@@ -1,11 +1,11 @@
 ---
 title: model
-weight: 560
+weight: 585
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: The creation of a bronze may involve a series of models and %%molds%% that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](#I.1).
+definition: "The creation of a bronze may involve a series of models and %%molds%% that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](#I.1)."
 ---
 
 <div class="backmatter">
@@ -16,57 +16,56 @@ Note: When used in reference to general sculptural practice, the term may refer 
 
 ## Sources
 
-Cultural Heritage Publications: {Dillon 2002}; {Motture 2019}
+Cultural Heritage: {Dillon 2002}; {Motture 2019}
 
-Art and Craft Textbooks: {McCreight 1996}
+Art and Craft Textbook: {McCreight 1996}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/model>
+General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Modell**  
+### **German**: *Modell*
 
 #### Sources
 
 {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Fleming and Tilch 1993}, 127
 
-#### Alternate translations
+#### Alternate Translations
 
-### French: **modèle**
+### **French**: *modèle*
 
 Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et moules) successifs (modèle original, réplique, épreuve en cire, etc.).
 
-<div class="accordion">
+<div class="backmatter">
 Note: Le sens donné à modèle est ici plus large que l’« oeuvre destinée à être reproduite » ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624), et différent du modèle au sens de l’histoire de l’art qui peut revêtir une grande variété de formes (dessin, esquisse, maquette, etc.).
 </div>
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 242–47; {Lebon 2012}
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 242–47; {Lebon 2012}
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Historical Sources: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–38, entry « bronze »
+Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–38, entry « bronze »
 
-### Italian: **modello**
-
-#### Sources
-
-[Treccani](http://www.treccani.it/vocabolario/modello/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {Cellini \[1568\] 1967}, fol. 46    
-
-#### Alternate translations
-
-- forma<br/>
-  can refer to both the model and the mold, which leads to potential confusion
-
-- forma da gittar di bronzo<br/>
-  this is the wax model that is used for casting, thus also possibly referring to the inter-model<br/>
-  {Biringuccio [1540] 1990}, fols. 82v
-
-### Chinese: **模**
+### **Italian**: *modello*
 
 #### Sources
+
+[Treccani](http://www.treccani.it/vocabolario/modello/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {Cellini [1568] 1967}, fol. 46    
+
+#### Alternate Translations
+
+- *forma* (Can refer to both the model and the mold, which leads to potential confusion)
+
+- *forma da gittar di bronzo* (This is the wax model that is used for casting, thus also possibly referring to the inter-model.) | Source: {Biringuccio [1540] 1990}, fols. 82v
+
+### **Chinese**: 模
+
+#### Source
 
 {Hua 2013}
+
+</div>

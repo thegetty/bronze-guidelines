@@ -18,25 +18,25 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 ## To Be Distinguished From
 
-- copy
-- replica
+- *copy*
+- *replica*
 
 ## Sources
 
-Cultural Heritage Publications: {Dillon 2002}; {Motture 2019}; {Penny 1993}
+Cultural Heritage: {Dillon 2002}; {Motture 2019}; {Penny 1993}
 
 ## Synonyms
 
-- aftercast
-- surmoulage (the French term *surmoulage* is often used in English texts)
+- *aftercast*
+- *surmoulage* (The French term *surmoulage* is often used in English texts.)
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Nachguss**
+### **German**: *Nachguss*
 
-### French: **surmoulé**
+### **French**: *surmoulé*
 
 Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en bronze.
 
@@ -48,35 +48,33 @@ Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({B
 
 #### To Be Distinguished From
 
-copie, réplique, variante, version
+- *copie*
+- *réplique*
+- *variante*
+- *version*
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Lebon 2012}
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Lebon 2012}
 
-Art and Craft Textbooks: {Rama 1988}, 375
+Art and Craft Textbook: {Rama 1988}, 375
 
-### Italian: **calco**
+### **Italian**: *calco*
 
 #### Sources
 
 [Treccani](https://www.treccani.it/vocabolario/calco/)
 
-#### Alternate translations
+#### Alternate Translations
 
-- rifusione<br/>
-  (less common, related to the process of obtaining a new bronze from already-existing sculpture)<br/>
-    Sources: {Battaglia 1961}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+- *rifusione* (Less common, related to the process of obtaining a new bronze from already-existing sculpture) |  Sources: {Battaglia 1961}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
 
-- fusione successiva<br/>
-  (usually has smaller dimensions due to the shrinkage of the metal while cooling)
+- *fusione successiva* (Usually has smaller dimensions due to the shrinkage of the metal while cooling)
 
-- multiplo
+- *multiplo*
 
-- sovracalco<br/>
-  (closest translation to surmoulage; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources)<br/>
-  Sources: {Cuomo di Caprio 2007}, 224; {Panazza 2011}, 30
+- *sovracalco* (Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.) | Sources: {Cuomo di Caprio 2007}, 224; {Panazza 2011}, 30
 
-### Chinese: **翻铸**
+### **Chinese**: 翻铸
 
 </div>

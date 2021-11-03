@@ -1,11 +1,11 @@
 ---
-title: metal plating
-weight: 660
+title: mold
+weight: 590
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A three-dimensional negative form made of one or more parts that serves as a matrix for the production of a positive by casting or pressing malleable material into it. Molds allow for the production of one or more copies of an original sculpture.
+definition: "A three-dimensional negative form made of one or more parts that serves as a matrix for the production of a positive by casting or pressing malleable material into it. Molds allow for the production of one or more copies of an original sculpture."
 ---
 
 <div class="backmatter">
@@ -16,33 +16,33 @@ Note: Molds of varying types may be used at different stages of the bronze casti
 
 ## Sources
 
-Cultural Heritage Publications: {Bassett and Fogelman 1997}; {Beale 1975}
+Cultural Heritage: {Bassett and Fogelman 1997}; {Beale 1975}
 
-Art and Craft Textbooks: {Reliance Foundry n.d.}
+Art and Craft Textbook: {Reliance Foundry n.d.}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/mold>
+General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
-## Synonyms
+## Synonym
 
-mould (UK spelling)
+- *mould* (UK spelling)
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Form / Negativform**
+### **German**: *Form / Negativform*
 
-#### Sources
+#### Source
 
 {Müller 2014}, 170–71
 
-#### Alternate translations
+#### Alternate Translations
 
-- Negativformteile
+- *Negativformteile*
 
-- Hilfnegative  
+- *Hilfnegative*
 
-### French: **moule**
+### **French**: *moule*
 
 Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
 
@@ -52,41 +52,36 @@ Note: Dans l’industrie moderne, le moule désigne généralement le moule réf
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 562
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 562
 
 Copper Industry: {Cuénin 1994}, 5
 
-Historical Sources: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–39, entry « bronze »
+Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–39, entry « bronze »
 
-Art and Craft Textbooks: {Lambert 2002}, 272
+Art and Craft Textbook: {Lambert 2002}, 272
 
-#### Alternate translations
+#### Alternate Translations
 
-- creux<br/>
-  Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 759
+- *creux* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 759
 
-### Italian: **calco**
+### **Italian**: *calco*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/calco1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
-#### Alternate translations
+#### Alternate Translations
 
-- cavo<br/>
-  general term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster<br/>
-  {Cellini [1568] 1967}, fols. 45v–46
+- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {Cellini [1568] 1967}, fols. 45v–46
 
-- forma<br/>
-  general and also investment mold<br/>
-  [Treccani](https://www.treccani.it/vocabolario/forma/); {Biringuccio [1540] 1990}, fols. 77v, 80v; {Bruni 1994}, 85–86
+- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {Biringuccio [1540] 1990}, fols. 77v, 80v; {Bruni 1994}, 85–86
 
-- stampo<br/>
-  general term for an impression<br/>
-  [Treccani](http://www.treccani.it/vocabolario/stampo/)
+- *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
-### Chinese: **范**
+### **Chinese**: 范
 
-#### Sources
+#### Source
 
 {Zhang 2010}
+
+</div>

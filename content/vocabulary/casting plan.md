@@ -1,11 +1,11 @@
 ---
 title: casting plan
-weight: 455
+weight: 460
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A methodological tool that has been developed by researchers to reverse engineer the casting sequence of a bronze sculpture and visually represent the separately cast parts. It is based on the evidence presented in the object and attempts to map the decisions made by a foundry regarding the number and position of separately cast pieces.
+definition: "A methodological tool that has been developed by researchers to reverse engineer the casting sequence of a bronze sculpture and visually represent the separately cast parts. It is based on the evidence presented in the object and attempts to map the decisions made by a foundry regarding the number and position of separately cast pieces."
 ---
 
 <div class="backmatter">
@@ -14,17 +14,17 @@ Note: %%Founders%% do not work with such charts or maps, although strategizing o
 
 {{< q-figure-group grid="3" id="367" >}}
 
-## Sources
+## Source
 
-Cultural Heritage Publications: {Mille and Descamps-Lequime 2017}
+Cultural Heritage: {Mille and Descamps-Lequime 2017}
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Teilungsplan**
+###  **German**: *Teilungsplan*
 
-### French: **plan de coulée**
+### **French**: *plan de coulée*
 
 Plan de découpage prévu par le fondeur d’une sculpture en plusieurs éléments coulés séparément.
 
@@ -32,10 +32,12 @@ Plan de découpage prévu par le fondeur d’une sculpture en plusieurs élémen
 Note: Ce terme est très récent, il a été proposé par Benoît Mille comme élément technique susceptible d’aider à discriminer les grands bronzes antiques.
 </div>
 
-#### Sources
+#### Source
 
-Cultural Heritage Publications: {Azéma and Mille 2013b}
+Cultural Heritage: {Azéma and Mille 2013b}
 
-### Italian: **schema di fusione**
+### **Italian**: *schema di fusione*
 
-### Chinese: **分铸计划**
+### **Chinese**: 分铸计划
+
+</div>

@@ -1,93 +1,88 @@
 ---
 title: inlay
-weight: 540
+weight: 550
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Decorative element on a sculpture usually added for visual contrast through color and/or texture. The top surface of an inlay is generally flush with the surrounding metal. A wide range of attachment methods may be used, including solder, adhesives, cements, burrs, undercuts, and/or rivets, but the basic technique involves shaping the inlay and incising the ground metal to produce a cavity of the inlay shape. Inlay materials may include metals, glass, stone, or bone, among others.
+definition: "Decorative element on a sculpture usually added for visual contrast through color and/or texture. The top surface of an inlay is generally flush with the surrounding metal. A wide range of attachment methods may be used, including solder, adhesives, cements, burrs, undercuts, and/or rivets, but the basic technique involves shaping the inlay and incising the ground metal to produce a cavity of the inlay shape. Inlay materials may include metals, glass, stone, or bone, among others."
 ---
-
-{{< q-figure-group grid="3" id="309, 340, 342, 343, 345, 346, 349, 351, 365" >}}
 
 <div class="backmatter">
 Note: The terms “inlay” and “%%overlay%%” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
+{{< q-figure-group grid="3" id="309, 340, 342, 343, 345, 346, 349, 351, 365" >}}
+
 ## To Be Distinguished From
 
-encrustation, foil, incrustation, overlay
+- *encrustation*
+- *foil*
+- *incrustation*
+- *overlay*
 
 ## Sources
 
-Cultural Heritage Publications: {Hemingway and Abramitis 2017}
+Cultural Heritage: {Hemingway and Abramitis 2017}
 
-Art and Craft Textbooks: {Untracht 1982}
+Art and Craft Textbook: {Untracht 1982}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/inlay>
+General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 ## Synonyms
 
-damascene
+- *damascene* (This term is often used interchangeably to describe inlays and/or overlays, especially in iron or steel arms and armor and decorative metalwork. As the term is imprecise and more applicable to those types of materials, we recommend it not be used in the context of bronze casting. The term “false damascening” is somewhat of a misnomer, as it is a different technique that renders a similar visual result: instead of cutting recesses, the metal is superficially scored and thin metal foil or wire is hammered onto the surface. Since this joint may be weak, the surface is heated to further fuse the two metals. Visually the two techniques appear similar. On this topic see also the [Philadelphia Museum of Art website](http://www.philamuseum.org/booklets/7_43_81_1.html).) | Source: Art and Craft Textbook: {Untracht 1982}
 
-This term is often used interchangeably to describe inlays and/or overlays, especially in iron or steel arms and armor and decorative metalwork. As the term is imprecise and more applicable to those types of materials, we recommend it not be used in the context of bronze casting. The term “false damascening” is somewhat of a misnomer, as it is a different technique that renders a similar visual result: instead of cutting recesses, the metal is superficially scored and thin metal foil or wire is hammered onto the surface. Since this joint may be weak, the surface is heated to further fuse the two metals. Visually the two techniques appear similar. On this topic see also the [Philadelphia Museum of Art website](http://www.philamuseum.org/booklets/7_43_81_1.html).
-
-Art and Craft Textbooks: {Untracht 1982}
-
-incrustation
+- *incrustation*
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Einlage**
+### **German**: *Einlage*
 
-in principle more general [actually a direct translation of “inlay”]
+In principle more general [actually a direct translation of “inlay”].
 
-#### Sources
+#### Source
 
 {Cüppers 1994}, 1013–16
 
-#### Alternate translation
+#### Alternate Translation
 
-- Tauschierung<br/>
-  only if the inlay is of linear character, e.g., wires; you wouldn´t speak of a *Tauschierung* in the case of inlaid silver eyes<br/>
-  Tauschierung: {Lein 2004}, 63
+- *Tauschierung* (Only if the inlay is of linear character, e.g., wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {Lein 2004}, 63
 
-### French: **damasquinure**
+### **French**: *damasquinure*
 
 Pour certains auteurs ({Arminjon and Bilimoff 1998}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({Arminjon and Bilimoff 1998}, 162–63; {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 661). Pour d'autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({Félibien 1690}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
 
 #### Sources
 
-Cultural Heritage Publications: {Arminjon and Bilimoff 1998}, 162–63
-Historical Sources: {Félibien 1690}, 460
+Cultural Heritage: {Arminjon and Bilimoff 1998}, 162–63
 
-### Italian: **agemina**
+Historical: {Félibien 1690}, 460
 
-a decorative process usually performed on steel and copper alloys, with thin silver wires in an undercut groove on the surface) | damaschinatura (more specifically referring to inlaid decoration on bronze, brass, or iron with contrasting colored metals
+### **Italian**: *agemina*
 
-#### Sources
+A decorative process usually performed on steel and copper alloys, with thin silver wires in an undercut groove on the surface.
+
+#### Source
 
 [Treccani](https://www.treccani.it/vocabolario/ricerca/agemina/)
 
-#### Alternate translations
+#### Alternate Translations
 
-- damaschinatura<br/>
-  more specifically referring to inlaid decoration on bronze, brass, or iron with contrasting colored metals
+- *damaschinatura* (More specifically referring to inlaid decoration on bronze, brass, or iron with contrasting colored metals)
 
-- inserto    
+- *inserto*    
 
-- intarsio<br/>
-  general term referring to the insertion of different materials on a decorated surface<br/>
-  [Treccani](http://www.treccani.it/vocabolario/intarsio); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
+- *intarsio* (General term referring to the insertion of different materials on a decorated surface) | Sources: [Treccani](http://www.treccani.it/vocabolario/intarsio); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
 
-- lavori di tanccia<br/>
-  as in “Damascho fanno gli azzimini che commetteno in quei loro vasi pezzetti d’oro...”; see {Biringuccio [1540] 1990}, 373; note that translators Smith and Gnudi assume this is a misprint<br/>
-  {Biringuccio [1540] 1990}, fol. 373
+- *lavori di tanccia* (As in “Damascho fanno gli azzimini che commetteno in quei loro vasi pezzetti d’oro...”; see {Biringuccio [1540] 1990}, 373; note that translators Smith and Gnudi assume this is a misprint.) | Source: {Biringuccio [1540] 1990}, fol. 373
 
-### Chinese: **镶嵌**
+### **Chinese**: 镶嵌
 
 #### Sources
 
 {Ming 2010}, 1554; [TNATD](https://terms.naer.edu.tw/detail/11566239/?index=5)
+
+</div>

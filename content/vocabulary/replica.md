@@ -1,11 +1,11 @@
 ---
 title: replica
-weight: 610
+weight: 650
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Here used to describe the precise reproduction of a bronze made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a model made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the %%core%% in %%sand casting%% or piece-mold casting). In lost-wax casting, bronzes fashioned from %%inter-models%% made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same %%chef-modèle%%. Numerous replicas of the same bronze are called “multiples.”
+definition: "Here used to describe the precise reproduction of a bronze made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a model made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the %%core%% in %%sand casting%% or piece-mold casting). In lost-wax casting, bronzes fashioned from %%inter-models%% made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same %%chef-modèle%%. Numerous replicas of the same bronze are called “multiples.”"
 ---
 
 <div class="backmatter">
@@ -16,31 +16,27 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 ## To Be Distinguished From
 
-copy, variant
-
-version
-
-<div class="backmatter">
-Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or cast by a licensed or sanctioned foundry.
-</div>
+- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or cast by a licensed or sanctioned foundry.)
+- *variant*
+- *version*
 
 ## Sources
 
-Cultural Heritage Publications: {Dillon 2002}, 300
+Cultural Heritage: {Dillon 2002}, 300
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/replica>
+General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Replik**
+### **German**: *Replik*
 
-#### Sources
+#### Source
 
 {Maaz 2010}, 720
 
-### French: **épreuve d’édition**
+### **French**: *épreuve d’édition*
 
 Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même modèle. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](#II.4§1.1.1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
@@ -50,35 +46,31 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
 
 #### To Be Distinguished From
 
-copie, réplique, variante, version
-
-<div class="backmatter">
-Note: « Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).
-</div>
+- *copie*
+- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
+- *variante*
+- *version*
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
 
-#### Alternate translations
+#### Alternate Translation
 
-- épreuve de série<br/>
-  Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
+- *épreuve de série* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
 
-### Italian: **multiplo**
+### **Italian**: *multiplo*
 
-#### Alternate translations
+#### Alternate Translations
 
-- replica<br/>
-  an Italian word, but more related to later reproductions of an artwork<br/>
-  [Treccani](https://www.treccani.it/vocabolario/replica/)
+- *replica* (An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
 
-- riproduzione<br/>
-  general term<br/>
-  [Treccani](http://www.treccani.it/vocabolario/riproduzione); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
+- *riproduzione* (general term) | Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
 
-### Chinese: **复制品**
+### **Chinese**: 复制品
 
 #### Sources
 
 {Ming 2010}, 457; [TNATD](https://terms.naer.edu.tw/detail/625076/?index=1)
+
+</div>

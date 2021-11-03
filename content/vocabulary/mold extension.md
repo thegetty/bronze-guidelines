@@ -1,11 +1,11 @@
 ---
 title: mold extension
-weight: 680
+weight: 595
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Bridge or spacer made of refractory material between the %%core%% and the outer mold. It serves a double function as %%core support%% while also providing better air flow into the core to aid in its drying before the bronze is poured.
+definition: "Bridge or spacer made of refractory material between the %%core%% and the outer mold. It serves a double function as %%core support%% while also providing better air flow into the core to aid in its drying before the bronze is poured."
 ---
 
 <div class="backmatter">
@@ -20,23 +20,19 @@ Other: {Smith and Sepponen 2019}
 
 ## Synonyms
 
-core extension
+- *core extension*
 
-core print
+- *core print* | Source: Copper Industry: {Koch and Newell 1963}
 
-Copper Industry: {Koch and Newell 1963}
-
-core seat
-
-Copper Industry: {Koch and Newell 1963}
+- *core seat* | Source: Copper Industry: {Koch and Newell 1963}
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Mold extension**
+### **German**: *Mold extension*
 
-### French: **portée de noyau**
+### **French**: *portée de noyau*
 
 Partie intégrante du noyau ou partie rajoutée (fonte au sable), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la coulée.
 
@@ -48,23 +44,22 @@ Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la renc
 
 Copper Industry: {Koch and Newell 1963}
 
-Art and Craft Textbooks: {Dubos 2003}
+Art and Craft Textbook: {Dubos 2003}
 
-#### Alternate translations
+#### Alternate Translation
 
-- portée<br/>
-  Copper Industry: {Bader and Théret 1961}<br/>
-  Art and Craft Textbooks: {Rama 1988}, 140, 164
+- *portée* | Sources: Copper Industry: {Bader and Théret 1961}; Art and Craft Textbook: {Rama 1988}, 140, 164
 
-### Italian: **morsa**
+### **Italian**: *morsa*
 
-### Chinese: **自帶泥芯撐**
+### **Chinese**: 自帶泥芯撐
 
-#### Sources
+#### Source
 
 {Liu 2015}, 97
 
-#### Alternate translation
+#### Alternate Translation
 
-- 芯撑<br/>
-  {Ming 2010}, 1572
+- 芯撑 | Source: {Ming 2010}, 1572
+
+</div>

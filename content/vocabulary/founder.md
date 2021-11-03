@@ -1,64 +1,58 @@
 ---
 title: founder
-weight: 525
+weight: 535
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural model into cast metal sculptures. This may entail a variety of specialized operations, from mold making to wax chasing, alloying, casting, fettling, assembling, chasing, and patination. The artist may in some cases also take on one or more of these roles.
+definition: "Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural model into cast metal sculptures. This may entail a variety of specialized operations, from mold making to wax chasing, alloying, casting, fettling, assembling, chasing, and patination. The artist may in some cases also take on one or more of these roles."
 ---
 
 {{< q-figure-group grid="3" id="546" >}}
 
 ## Sources
 
-Cultural Heritage Publications: {Boulton 2006}
+Cultural Heritage: {Boulton 2006}
 
-Historical Sources: {Buchanan 1903}
+Historical: {Buchanan 1903}
 
 Copper Industry: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Art and Craft Textbooks: {Wikipedia n.d.}
+Art and Craft Textbook: {Wikipedia n.d.}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/founder>
+General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 ## Synonyms
 
-foundryman
+- *foundryman* | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *foundrywoman*
 
-foundrywoman
-
-foundryworker
+- *foundryworker*
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Giesser**
+### **German**: *Giesser*
 
 #### Sources
 
- {Brunhuber 1988}; {Gesamtverband Deutscher Metallgiessereien 1982}
+{Brunhuber 1988}; {Gesamtverband Deutscher Metallgiessereien 1982}
 
-#### Alternate translations
+#### Alternate Translations
 
-- Giessereieinhaber<br/>
-  {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Giessereieinhaber* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- Giessereifachman<br/>
-  {Brunhuber 1988}; {Gesamtverband Deutscher Metallgiessereien 1982}
+- *Giessereifachman* | Sources: {Brunhuber 1988}; {Gesamtverband Deutscher Metallgiessereien 1982}
 
-- Giessereileiter<br/>
-  {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Giessereileiter* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-- Giessereiunternehmer
+- *Giessereiunternehmer*
 
-- Schmelzmeister<br/>
-this designates the operator standing next to the furnace and deciding when to pour the molten metal in the mold
+- *Schmelzmeister* (This designates the operator standing next to the furnace and deciding when to pour the molten metal in the mold.)
 
-### French: **fondeur**
+### **French**: *fondeur*
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
@@ -68,75 +62,60 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 #### To Be Distinguished From
 
-fabricant
+- *fabricant*
 
-mouleur
-
-<div class="backmatter">
-Note: Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({Guettier 1858} (édition originale 1844), 284), d’autres confondent les deux métiers ({Launay 1827}, 2:276). Le fabricant est celui qui sous-traite la fonte ({Lebon 2003}).
-</div>
+- *mouleur* (Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({Guettier 1858} (édition originale 1844), 284), d’autres confondent les deux métiers ({Launay 1827}, 2:276). Le fabricant est celui qui sous-traite la fonte ({Lebon 2003})
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Bresc-Bautier 1989}; {Rolley 1994}, 72; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Bresc-Bautier 1989}; {Rolley 1994}, 72; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
 
 Copper Industry: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Koch and Newell 1963}
 
-Historical Sources: {Félibien 1690}, 34; {Boffrand 1743}; {Diderot et al. 1751}, 7:79, entry « fondeur »; {Mariette 1768}; {Guettier 1858}, 284
+Historical: {Félibien 1690}, 34; {Boffrand 1743}; {Diderot et al. 1751}, 7:79, entry « fondeur »; {Mariette 1768}; {Guettier 1858}, 284
 
 Art and Craft Textbooks: {Rama 1988}, 22; {Lambert 2002}, 269
 
-#### Alternate translations
+#### Alternate Translations
 
-- bronzeur<br/>
-Art and Craft Textbooks: {Lambert 2002}, 13
+- *bronzeur* | Source: Art and Craft Textbook: {Lambert 2002}, 13
 
-- bronzier<br />
-Pour Lambert, le bronzier ou bronzeur désigne l'ouvrier fondeur, celui qui fond et coule le bronze.<br/>
-Art and Craft Textbooks: {Lambert 2002}, 13
+- *bronzier* (Pour Lambert, le bronzier ou bronzeur désigne l'ouvrier fondeur, celui qui fond et coule le bronze.) | Source: Art and Craft Textbook: {Lambert 2002}, 13
 
-- fondeur en cuivre<br/>
-{Chesnel de la Charbouclais 1857}, notice n° 1038
+- *fondeur en cuivre* | Source: {Chesnel de la Charbouclais 1857}, notice n° 1038
 
-- fondeur en terre et sable<br/>
-Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20^e^ siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre. ({Chesnel de la Charbouclais 1857}, notice n° 1038).<br/>
-Cultural Heritage Publications: {Bresc-Bautier 1989}<br/>
-Historical Sources: {Chesnel de la Charbouclais 1857}
+- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20^e^ siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre. ({Chesnel de la Charbouclais 1857}, notice n° 1038).) | Sources: Cultural Heritage: {Bresc-Bautier 1989}; Historical: {Chesnel de la Charbouclais 1857}
 
-- mouleur en terre ou en sable<br/>
-Historical Sources: {Chesnel de la Charbouclais 1857}
+- *mouleur en terre ou en sable* | Source: Historical: {Chesnel de la Charbouclais 1857}
 
-### Italian: **artefice**
+### **Italian**: *artefice*
 
-many sources used the general terms *artefice* or *maestro* to refer to founders
+Many sources used the general terms *artefice* or *maestro* to refer to founders.
 
-#### Sources
+#### Source
 
 {Biringuccio [1540] 1990}, fols. 75–76
 
 #### Alternate Translations
 
-- fonditore<br/>
-  [Treccani](https://www.treccani.it/vocabolario/ricerca/fonditore/); {Morigi and Morigi 2008}; {Bruni 1994}
+- *fonditore* | Sources: [Treccani](https://www.treccani.it/vocabolario/ricerca/fonditore/); {Morigi and Morigi 2008}; {Bruni 1994}
 
-- fusore
+- *fusore*
 
-- gettatore<br/>  
-  {Cellini [1568] 1967}, fols. 51v, 55
+- *gettatore* | Source: {Cellini [1568] 1967}, fols. 51v, 55
 
-- maestro<br/>
-  {Cellini 1996}, 668; {Biringuccio [1540] 1990}, fols. 75–76
+- *maestro* | Sources: {Cellini 1996}, 668; {Biringuccio [1540] 1990}, fols. 75–76
 
-- tragettatore<br/>
-  {Baglione 1642}, 327;  {Marconi 2004}, 71n71
+- *tragettatore* | Sources: {Baglione 1642}, 327; {Marconi 2004}, 71n71
 
-### Chinese: **铸工**
+### **Chinese**: 铸工
 
 #### Sources
 
 [TNATD](https://terms.naer.edu.tw/detail/626946/?index=3)
 
-#### Alternate translation
+#### Alternate Translation
 
-- 铸造工<br/>
-  {Ming 2010}, 1831  
+- 铸造工 | Source: {Ming 2010}, 1831  
+
+</div>

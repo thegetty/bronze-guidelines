@@ -16,18 +16,22 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {{< q-figure-group grid="3" id="188, 206, 229">}}
 
-
 ## To Be Distinguished From
 
-flow fusion welding, flow welding, fusion welding, repair, soldering, welding
+- *flow fusion welding*
+- *flow welding*
+- *fusion welding*
+- *repair*
+- *soldering*
+- *welding*
 
 ## Sources
 
-Historical Sources: {Buchanan 1903}, 23, 60; {Bolland 1894}, 72
+Historical: {Buchanan 1903}, 23, 60; {Bolland 1894}, 72
 
 Copper Industry: {Schwartz and Aircraft 1951}
 
-General Dictionaries: <https://www.merriam-webster.com/dictionary/brazing>
+General Dictionary: <https://www.merriam-webster.com/dictionary/brazing>
 
 Other: {Scott 1991}, 138
 
@@ -35,9 +39,9 @@ Other: {Scott 1991}, 138
 
 <div class="accordion">
 
-### German: **Hartlöten**
+### **German**: *Hartlöten*
 
-### French: **brasage**
+### **French**: *brasage*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
@@ -49,41 +53,33 @@ Note: L’anglais distingue « brazing », le procédé utilisant de la brasur
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-#### Alternate translations
+#### Alternate Translations
 
-- soudure indirecte<br/>
-  Les termes soudage ou soudure ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Bader and Théret 1961}) et souder ({Félibien 1690}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.<br/>
-  Copper Industry: {Bader and Théret 1961}, 595
+- *soudure indirecte* (Les termes soudage ou soudure ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 634; {Bader and Théret 1961}) et souder ({Félibien 1690}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {Bader and Théret 1961}, 595
 
+### **Italian**: *brasatura*
 
-### Italian: **brasatura**
-
-<div class="backmatter">
-
-Note: a subset of <em>saldatura</em>.
-
-</div>
+A subset of *saldatura*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/brasatura/); {Battaglia 1961} [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-### Chinese: **硬焊**
+### **Chinese**: 硬焊
 
 #### Sources
 {Ming 2010}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
 
-#### Alternate translations:
+#### Alternate Translations:
 
-- 钎接
-<br>Sources: {Ming 2010}, 1137–38
+- 钎接 | Source: {Ming 2010}, 1137–38
 
-- 钎焊
-<br>Sources: {Ming 2010}, 1436
+- 钎焊 | Source: {Ming 2010}, 1436
 
-- 铜焊
-<br>Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1)
+- 铜焊 | Source: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1)
+
+</div>

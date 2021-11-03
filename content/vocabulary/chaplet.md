@@ -1,11 +1,11 @@
 ---
 title: chaplet
-weight: 460
+weight: 465
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: A type of metal insertion placed in the gap between the %%core%% and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in %%sand casting%%, but they have been encountered in historic lost-wax castings as well.
+definition: "A type of metal insertion placed in the gap between the %%core%% and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in %%sand casting%%, but they have been encountered in historic lost-wax castings as well."
 ---
 
 <div class="backmatter">
@@ -16,40 +16,40 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 ## To Be Distinguished From
 
-core nail, core pin, core rod, core support
+- *core nail*
+- *core pin*
+- *core rod*
+- *core support*
 
 ## Sources
 
-Cultural Heritage Publications: {Beale 1975}, 40; {Mattusch 1996}, 24; {Penny 1993}, 298; {Salter and Gilmour n.d.}
+Cultural Heritage: {Beale 1975}, 40; {Mattusch 1996}, 24; {Penny 1993}, 298; {Salter and Gilmour n.d.}
 
-Art and Craft Textbooks: {McCreight 1996}
+Art and Craft Textbook: {McCreight 1996}
 
 Copper Industry: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
 ## Synonyms
 
-core plate<br />
-Copper Industry: {Brunhuber 1988}
+- *core plate* | Source: Copper Industry: {Brunhuber 1988}
 
-spacer<br />
-Cultural Heritage Publications: {Strahan 2010}
+- *spacer* | Source: Cultural Heritage: {Strahan 2010}
 
 ## Translations
 
 <div class="accordion">
 
-### German: **Kernhalteplatte**
+### **German**: *Kernhalteplatte*
 
-#### Sources
+#### Source
 
 {Brunhuber 1988}
 
 #### Alternate Translation
 
-- Kernhalter<br />
-{Willer 1994}  
+- *Kernhalter* | Source: {Willer 1994}  
 
-### French: **cale à noyau**
+### **French**: *cale à noyau*
 
 Petite plaque métallique disposée sur le noyau ou sur la paroi interne du moule réfractaire pour maintenir le noyau en place lors de la coulée, et dont l’épaisseur déterminera l’épaisseur de la fonte.
 
@@ -59,25 +59,30 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 #### To Be Distinguished From
 
-broche, clou, clou distanciateur, distanciateur, fer, fer de maintien, fer de soutien, fer à noyau
+- *broche*
+- *clou*
+- *clou distanciateur*
+- *distanciateur*
+- *fer*
+- *fer de maintien*
+- *fer de soutien*
+- *fer à noyau*
 
-## Alternate translations
+#### Alternate Translations
 
-- chapelet<br />
-Historical Sources: {Diderot et. al. 1751}, 11:267a, entry « noyau terme d’artillerie »
+- *chapelet* | Source: Historical: {Diderot et. al. 1751}, 11:267a, entry « noyau terme d’artillerie »
 
-- plaque porte noyau<br />
-Terme réservé à la coulée sous pression.
-Copper Industry: {Brunhuber 1988}
+- *plaque porte noyau* (Terme réservé à la coulée sous pression.) | Source: Copper Industry: {Brunhuber 1988}
 
-- support de noyau<br />
-Copper Industry: {Bader and Théret 1961}, 614; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *support de noyau* | Sources: Copper Industry: {Bader and Théret 1961}, 614; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-### Italian: **chiodo distanziatore**
+### **Italian**: *chiodo distanziatore*
 
-### Chinese: **墊片**
+### **Chinese**: 墊片
 
-this term has several translations, including “chaplet,” “shim,” “spacer,” “gasket,” etc.
+<div class="backmatter">
+Note: This term has several translations, including “chaplet,” “shim,” “spacer,” “gasket,” etc.
+</div>
 
 #### Sources
 
@@ -85,11 +90,10 @@ this term has several translations, including “chaplet,” “shim,” “spac
 
 #### Alternate Translations
 
-- 撑头<br />
-{Ming 2010}, 141
+- 撑头 | Source: {Ming 2010}, 141
 
-- 芯撐<br />
-[TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
+- 芯撐 | Source: [TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
 
-- 金属撑子<br />
-{Ming 2010}, 141
+- 金属撑子 | Source: {Ming 2010}, 141
+
+</div>

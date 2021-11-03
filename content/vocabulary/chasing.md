@@ -1,11 +1,11 @@
 ---
 title: chasing
-weight: 465
+weight: 470
 type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: The process of fine detailed “cold work” after casting and %%fettling%% that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, %%engraving%%, and/or %%chiseling%%, and in modern times also with power and pneumatic tools.
+definition: "The process of fine detailed “cold work” after casting and %%fettling%% that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, %%engraving%%, and/or %%chiseling%%, and in modern times also with power and pneumatic tools."
 ---
 
 <div class="backmatter">
@@ -16,15 +16,14 @@ Note: In common art historical usage, the term “chasing,” when used for bron
 
 ## To Be Distinguished From
 
-chiseling, engraving, fettling, punching
-
-<div class="backmatter">
-Note: In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.
-</div>
+- *chiseling*
+- *engraving*
+- *fettling* (In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.)
+- *punching*
 
 ## Sources
 
-Cultural Heritage Publications: {Beale 1975}; {Penny 1993}, 298; {Dillon 2002}, 299; {Bassett 2008}, 274
+Cultural Heritage: {Beale 1975}; {Penny 1993}, 298; {Dillon 2002}, 299; {Bassett 2008}, 274
 
 Art and Craft Textbooks: {Rome and Young 2003}, 273; {Untracht 1982}, 122
 
@@ -34,13 +33,13 @@ Other: {Van Langh 2012}
 
 <div class="accordion">
 
-### German: **ziselieren**
+### **German**: *ziselieren*
 
 #### Sources
 
 {Maaz 2010}, 744; {Alscher 1987}, 555
 
-### French: **ciselure**
+### **French**: *ciselure*
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
@@ -50,23 +49,30 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 
 #### To Be Distinguished From
 
-ciseler, parachèvement, reparure (alternate spelling), réparage, réparure, travail au ciseau, ébarbage, ébavurage
+- *ciseler*
+- *parachèvement*
+- *reparure* (alternate spelling)
+- *réparage*
+- *réparure*
+- *travail au ciseau*
+- *ébarbage*
+- *ébavurage*
 
 #### Sources
 
-Cultural Heritage Publications: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 633
+Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 633
 
-Historical Sources: {Boffrand 1743}, 59; {Diderot et. al. 1751}, 3:480, entry « ciseler »
+Historical: {Boffrand 1743}, 59; {Diderot et. al. 1751}, 3:480, entry « ciseler »
 
 Art and Craft Textbooks: {De Bois 1999}, 16; {Rama 1988}, 328
 
-#### Alternate translations
+#### Alternate Translation
 
-- ciselure-réparure
+- *ciselure-réparure*
 
-### Italian: **rifinitura**
+### **Italian**: *rifinitura*
 
-not reserved specifically for metals
+Not reserved specifically for metals
 
 #### Sources
 
@@ -74,11 +80,12 @@ not reserved specifically for metals
 
 #### Alternate Translations
 
-- rinettare (v.)<br />
-{Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
-- cesellare<br />
-{Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
-- ritocco a freddo (ritocco a freddo di dettagli)<br />
-{Formigli 2010}, 20–21    
+- *rinettare* (v.) | Source: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
 
-### Chinese: **铸件表面加工**
+- *cesellare* | Source: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+
+- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {Formigli 2010}, 20–21    
+
+### **Chinese**: 铸件表面加工
+
+</div>
