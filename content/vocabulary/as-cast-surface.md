@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: Refers to the surface immediately after removal from the mold, before fettling and chasing.
+definition: "Refers to the surface immediately after removal from the mold, before fettling and chasing."
 ---
 
 <div class="backmatter">
@@ -18,11 +18,12 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 ## To Be Distinguished From
 
-fire scale, fire-skin
+- *fire scale*
+- *fire-skin*
 
 ## Sources
 
-Cultural Heritage Publications: {Kienlin, Bischoff, and Opielka 2006}
+Cultural Heritage: {Kienlin, Bischoff, and Opielka 2006}
 
 Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
 
@@ -30,17 +31,17 @@ Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
 
 <div class="accordion">
 
-### German: **Gusshaut**
+### **German**: *Gusshaut*
 
 #### Sources
 
 {Maaz 2010}, 696; {Alscher 1987}, 555
 
-#### Alternate Translations
+#### Alternate Translation
 
-gussrauhe Oberfläche
+- *gussrauhe Oberfläche*
 
-### French: **surface brute de coulée**
+### **French**: *surface brute de coulée*
 
 Surface du bronze en sortie de moule réfractaire, juste après le décochage, avant la réparure.
 
@@ -52,36 +53,30 @@ Note: Une belle surface faisant apparaître la qualité de la « peau de pièce
 
 #### Sources
 
-Art and Craft Textbooks: {Lambert 2002}, 238
+Art and Craft Textbook: {Lambert 2002}, 238
 
 #### Alternate Translations
 
-- surface brute de fonderie<br />
-  {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
+- *surface brute de fonderie* | Source: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
 
-- surface brute de fonte
+- *surface brute de fonte*
 
-### Italian: **superficie al grezzo**
+### **Italian**: *superficie al grezzo*
 
-<div class="backmatter">
+Used as part of expression “superfiecie al grezzo di fusione”
 
-Note: Used as part of expression “superfiecie al grezzo di fusione”
-
-</div>
-
-#### Sources
+#### Source
 
 {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
 
-#### Alternate Translations
+#### Alternate Translation
 
-- grezzo
+- *grezzo*
 
-### Chinese: **毛坯铸件表面**
+### **Chinese**: 毛坯铸件表面
 
-#### Sources
+#### Source
 
 {Ming 2010}, 998
 
 </div>
-
