@@ -58,7 +58,9 @@ Cultural Heritage: {Azéma and Mille 2013b}; {Bourgarit, Bewer, and Bresc-Bautie
 
 - *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
 
-### **Chinese**: 补修 (v., n.)
+### **Chinese**: 补修
+
+(v., n.)
 
 #### Sources
 
