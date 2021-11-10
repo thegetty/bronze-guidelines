@@ -4,8 +4,10 @@
 # Create JPGs of those same images at 100% quality and sized to optimize IIIF processing where applicable
 # Create a CSV with basic image info that can be converted for use in figures.yml
 
-defaultSize=1800
+defaultSize=400
 defaultQuality=80
+
+nonIIIFSize=1800
 
 prepIIIF=true # resize images to later process with `quire process --iiif`
 outputCSV=true # output a CSV file that can be used as a basis for figures.yml
@@ -108,6 +110,7 @@ do
 
     if [ $maxDim -lt $iiif4Layers ]
     then
+      magick $mode $img -resize $nonIIIFSize'x'$nonIIIFSize'>' -quality $defaultQuality -layers flatten -profile $profile -set filename:name '%t' $baseDir/$figureOutputDir/'%[filename:name].jpg'
       add_to_csv $fileName
     elif [ $maxDim -lt $iiif5Layers ]
     then
