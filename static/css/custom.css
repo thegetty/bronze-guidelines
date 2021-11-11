@@ -1,3 +1,13 @@
+
+
+/* GENERAL
+============================================================================= */
+
+/* Give some more space between content and nav buttons */
+.quire-contents-buttons {
+  margin-top: 3rem;
+}
+
 /* Adjust heading styles and spacing */
 .quire-page .content h2 {
   text-transform: none;
@@ -20,7 +30,6 @@
 }
 .quire-page .content h3 strong {
   font-weight: 700;
-  margin-left: .5rem;
 }
 .quire-page .content h4 {
   font-weight: 700;
@@ -64,6 +73,16 @@
 .accordion .no-content-expander button svg {
   display: none;
 }
+
+
+/* VOCABULARY SECTION
+============================================================================= */
+
+/* Make the Chinese language column wide enough to not break words */
+#vocabulary table th:last-child {
+  min-width: 8rem;
+}
+
 
 /* FIGURES
 ============================================================================= */
