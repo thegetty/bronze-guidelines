@@ -9,10 +9,12 @@ definition: "The term has at least three different meanings: 1) a pleasing surfa
 ---
 
 <div class="backmatter">
+
 Note: Some researchers do not consider applied organic coatings part of the patina layer.
+
 </div>
 
-{{< q-figure-group grid="3" id="293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503" >}}
+{{< q-figure-group grid="3" id="fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" class="column" >}}
 
 ## Sources
 
@@ -74,6 +76,6 @@ This term is more commonly used in art historical references and means “an age
 
 - 铜锈 (There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.) | Source: [TNATD](https:\terms.naer.edu.tw\detail\643113\%3findex=3)
 
-- 陈年色泽 (More commonly used in art historical references, meaning “an aged surface accumulated over time”) | Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)   
+- 陈年色泽 (More commonly used in art historical references, meaning “an aged surface accumulated over time”) | Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
 
 </div>

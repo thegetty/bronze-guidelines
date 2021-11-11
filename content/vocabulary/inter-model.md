@@ -9,10 +9,12 @@ definition: "Replica in wax obtained from the reusable %%mold%% of an original %
 ---
 
 <div class="backmatter">
+
 Note: The term is subject to dispute among the CAST:ING members. Depending on discipline and expertise, some initially preferred “wax working model,” “wax intermediary model,” or simply “wax.” The current term was finally agreed upon. An inter-model is a type of casting model or foundry wax, but the latter two refer to any wax model that is destroyed during casting, including those used in direct or indirect lost-wax casting processes.
+
 </div>
 
-{{< q-figure-group grid="3" id="1, 16, 41, 55, 72, 556">}}
+{{< q-figure-group grid="4" id="fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" class="column" >}}
 
 ## Sources
 
