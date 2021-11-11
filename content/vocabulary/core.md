@@ -38,13 +38,13 @@ Cultural Heritage: {Rolley 1994}, 70; {Baudry, Bozo, and Inventaire général de
 
 Copper Industry: {Cuénin 1994}, 5; {Koch and Newell 1963}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Brunhuber 1988}
 
-Historical: {Mariette 1768}; {Félibien 1690}, 324; {Launay 1827}, 2:277; {Guettier 1858}, notice 605, pp. 311–12; {Boffrand 1743}, 27 et sq; {Diderot et. al. 1751}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+Historical: {Mariette 1768}; {Félibien 1690}, 324; {Launay 1827}, 2:277; {Guettier 1858}, notice 605, pp. 311–12; {Boffrand 1743}, 27 et sq; {Diderot et al. 1751}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
 Art and Craft Textbooks: {Lambert 2002}, 272; {Rama 1988}, 374
 
 #### Alternate Translation
 
-- *âme* | Sources: Historical: {Félibien 1690}, 325; {Boffrand 1743}, 27 et sq; {Diderot et. al. 1751}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+- *âme* | Sources: Historical: {Félibien 1690}, 325; {Boffrand 1743}, 27 et sq; {Diderot et al. 1751}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
 ### **Italian**: *anima*
 

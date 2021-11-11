@@ -54,7 +54,7 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {“Glossaire de la fonderie et des domaines connexes | CTIF” n.d.}; {Comité international du dictionnaire technique de fonderie 1955}, 7; {Brunhuber 1988}; {Koch and Newell 1963}
 
-Historical: {Diderot et. al. 1751}, 2:436–43, entry « bronze »; {Launay 1827}, 2:251; {Félibien 1690}, 335; {Boffrand 1743}; {Mariette 1768}
+Historical: {Diderot et al. 1751}, 2:436–43, entry « bronze »; {Launay 1827}, 2:251; {Félibien 1690}, 335; {Boffrand 1743}; {Mariette 1768}
 
 Art and Craft Textbooks: {Rama 1988}, 372; {Lambert 2002}, 266
 

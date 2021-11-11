@@ -52,7 +52,7 @@ Cultural Heritage: {Aucouturier 2007}; {Baudry, Bozo, and Inventaire général d
 
 Copper Industry: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Historical: {Diderot et. al. 1751}, 12:173, entry « patine »
+Historical: {Diderot et al. 1751}, 12:173, entry « patine »
 
 Art and Craft Textbook: {Lambert 2002}, 273; {Rama 1988}, 374
 

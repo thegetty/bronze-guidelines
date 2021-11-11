@@ -48,7 +48,7 @@ Note: Dans les textes anciens, le terme de sable est parfois ambigu et peut fair
 
 Cultural Heritage: {Rolley 1994}, 66; {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624; {Bewer, Bourgarit, and Bassett 2008}; {Lebon et al. 2016}, 330
 
-Historical: {Diderot et. al. 1751}, 14:353–65, entry « sable »
+Historical: {Diderot et al. 1751}, 14:353–65, entry « sable »
 
 Art and Craft Textbook: {Dubos 2003}
 

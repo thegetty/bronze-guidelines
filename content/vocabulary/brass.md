@@ -50,7 +50,7 @@ Art and Craft Textbooks: {Lambert 2002}, 271; {Rama 1988}, 374
 
 - *archal* | Sources: Cultural Heritage: {Thomas 2009}, 505, 507–8; Historical: {Lespinasse and Bonnardot 1879}, 551
 
-- *cuivre jaune* | Sources: Historical: {Félibien 1690}, 335; {Boffrand 1743}; {Diderot et. al. 1751}, 4:540–47, entry « cuivre »; {Mariette 1768}; {*Secrets concernant les arts et métiers* 1810}, 224; {Grandpierre and Avale 1867}, 7; {Delon 1877}, 180
+- *cuivre jaune* | Sources: Historical: {Félibien 1690}, 335; {Boffrand 1743}; {Diderot et al. 1751}, 4:540–47, entry « cuivre »; {Mariette 1768}; {*Secrets concernant les arts et métiers* 1810}, 224; {Grandpierre and Avale 1867}, 7; {Delon 1877}, 180
 
 - *orichalque* | Source: Cultural Heritage: {Halleux 1973}
 
