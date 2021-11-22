@@ -1,8 +1,9 @@
 ---
 label: I.1
-title: Casting Processes
-weight: 110
-type: page
+title: Casting Processes (Indent)
+weight: 111
+type: essay
+class: indent
 contributor:
   - id: fbrewer
   - first_name: David J.
@@ -22,15 +23,17 @@ The way in which the metal was designed to flow through the %%refractory mold%% 
 
 Please be warned that the following provides only an indication of which features related to specific casting processes might be encountered on a bronze. It does not offer firm evidence, and it is essential to consult experts in the field for advice where required. For more, please read the overall disclaimer for the *Guidelines* ([GI§4](#GI§4)).
 
-## 1 Characteristic features associated with lost-wax casting and direct life-casting
+## <span class="head-num">1 </span>Characteristic features associated with lost-wax casting and direct life-casting
 
 This section covers disparate lost-wax casting processes as well as a few other methods that also use a model that is sacrificed in the course of creating the void in the refractory mold into which the metal will be %%cast%%.
 
-### 1.1 General evidence of lost-wax casting
+### <span class="head-num">1.1 </span>General evidence of lost-wax casting
 
 How is it possible to identify whether a bronze was made using lost-wax casting? Evidence may come from both the working characteristics of the wax itself (used for the model or %%inter-model%%) and the particularities of the processes. Intricate shapes, the presence of complex undercuts, or naturalistic textures (such as animal skin from life-casting) in a cast may point to the use of lost wax, although this is not always the case. The very nature of wax means that it can be softened or melted by heat and shaped in numerous ways, for example modeling, carving, or casting. Therefore, bronzes that were produced from models made with wax often preserve traces of such manipulation on both the exterior and interior.
 
-Warnings:
+<div class="warning">
+
+*Warnings:*
 
 -   A wax sculpture may not necessarily be translated into bronze using the lost-wax process.[^1]
 
@@ -38,11 +41,13 @@ Warnings:
 
 -   The transference of natural textures (such as fur or scales) could equally have occurred as a result of life-casting. Conversely, not all lost-wax casts display such features.
 
-#### 1.1.1 Evidence on the outer surface
+</div>
+
+#### <span class="head-num">1.1.1 </span>Evidence on the outer surface
 
 Wax is easily manipulated into a variety of shapes without tools: rolled into balls or coils, pinched into pointed tips, flattened and smeared, or just poured. Such shapes and certain marks—like the parallel lines left by a fingerprint as it pushes wax across the surface—may be clearly captured in soft wax, and later translated into bronze (**figs. 48, 49, 50**).
 
-{{< q-figure-group grid="3" id="fig-048, fig-049, fig-050" >}}
+{{< q-figure-group grid="4" class="column" id="fig-048, fig-049, fig-050" >}}
 
 Furthermore, any number of tools may be used to shape, incise, stamp, or texture a wax model (see [I.6§1.1](#I.6§1.1)). In most cases it is hard to identify the material from which the modeling tool was made, but generally:
 
@@ -50,11 +55,11 @@ Furthermore, any number of tools may be used to shape, incise, stamp, or texture
 
 -   Metal tools such as %%punches%%, pointed modeling tools, %%engraving%% tools, and files are more successfully used on hardened wax when crisper details are required (**figs. 51, 52**).
 
-    {{< q-figure-group grid="2" id="fig-051, fig-052" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-051, fig-052" >}}
 
 -   Either type of tool can be used to create signatures and %%edition%% marks. And %%founders’%% marks are traditionally stamped in the wax model before casting (see [I.6§1.3](#I.6§1.3)).
 
-#### 1.1.2 Evidence on the inner surface (of hollow casts)
+#### <span class="head-num">1.1.2 </span>Evidence on the inner surface (of hollow casts)
 
 Several types of features are characteristic of lost-wax casting, and can be diagnostic of the exact process used (as will be discussed in more detail in [I.1§1.3](#I.1§1.3) and [I.1§1.4](#I.1§1.4) below; see [GI§2.2](#GI§2.2) for a description of the different lost-wax processes):
 
@@ -62,29 +67,33 @@ Several types of features are characteristic of lost-wax casting, and can be dia
 
 -   A smooth internal surface often occurs with lost-wax casting and particularly slush molding (**fig. 53**, [I.1§1.2](#I.1§1.2), [I.1§1.3](#I.1§1.3), and [I.1§1.4](#I.1§1.4)).
 
-    {{< q-figure-group grid="1" id="fig-053" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-053" >}}
 
 -   Uneven, thickened lips of metal around the circumference of a limb, sometimes accompanied by a distinct difference in wall thickness at that juncture, are often the result of wax-to-wax joints. These were created by fusing separately formed wax parts at the abutting edges using a hot tool. They are usually invisible from the outer surface, since the wax model is generally refinished to unify the form and conceal such features. The joints may be observable on the inner surface (**fig. 54**, [Case Study 4](#CaseStudy4)).
 
-    {{< q-figure-group grid="1" id="fig-054" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-054" >}}
 
 -   Soft-edged lips of metal around %%core pins%% or core pin holes reproduce the displaced wax formed when the core pin is pushed into a hollow wax model (**fig. 55**).
 
-    {{< q-figure-group grid="1" id="fig-055" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-055" >}}
 
 -   Small spherical globules are often the result of air bubbles trapped on the surface of the model when an %%investment%% and core formed as a slurry are used, and are eventually filled by the liquefied metal during casting (**figs. 56, 57**). Similarly, organic materials from the core may be translated into the bronze (**fig. 58**). These are characteristic of lost-wax casting using clay-based core.
 
-    {{< q-figure-group grid="3" id="fig-056, fig-057, fig-058" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-056, fig-057, fig-058" >}}
 
 -   Sharp, uneven fins of metal—or the jagged remains of those that have been coarsely cut down—tend to be %%flashing%%, which occurs when the liquefied metal enters cracks that have formed in the %%mold%% or core. These are more commonly found in lost-wax casts with clay- or plaster-based cores (**figs. 59, 60**) as they are more prone to %%shrinkage%% due to moisture content. Flashes in sand casts are relatively rarer, and most often form along the %%seam lines%% of ill-fitting piece-mold sections either in the core (**fig. 61**) or, in extreme cases where the mold maker is less experienced, on the outer surface (**fig. 62**).[^2]
 
-    {{< q-figure-group grid="2" id="fig-059, fig-060, fig-061, fig-062" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-059, fig-060, fig-061, fig-062" >}}
+
+<div class="warning">
 
 *Risks of misidentification/misinterpretation*
 
-Wax-to-wax joints may be confused with certain types of metal joints, as in both cases there is often an uneven thickening of metal along the joint line (see [I.5](#I.5)).
+- Wax-to-wax joints may be confused with certain types of metal joints, as in both cases there is often an uneven thickening of metal along the joint line (see [I.5](#I.5)).
 
-#### 1.1.3 Radiographic evidence
+</div>
+
+#### <span class="head-num">1.1.3 </span>Radiographic evidence
 
 Radiography may be the only way of detecting the aforementioned features if the internal walls of the bronze are not visible. This is particularly the case for the small spherical globules testifying to the use of a plaster core or ceramic shell. And because of their location on the interior, wax-to-wax joints are generally hard to see and often detectable only by these means. They usually generate a thickening and/or thinning of the metal around the circumference of a body part that has been attached, for example below the shoulders, at the top of the thighs, or at the neck. They may appear on the radiograph as:
 
@@ -92,37 +101,41 @@ Radiography may be the only way of detecting the aforementioned features if the 
 
 -   different densities due to the resulting difference in thickness of the parts that are joined (**fig. 63**);
 
-    {{< q-figure-group grid="1" id="fig-063" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-063" >}}
 
 -   a more or less straight line (**fig. 64**), or a circular or elliptical line (**fig. 31**).
 
-    {{< q-figure-group grid="2" id="fig-064, fig-031" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-064, fig-031" >}}
+
+<div class="warning">
 
 *Risks of misidentification/misinterpretation*
 
 -   Wax-to-wax joints may be confused with the juncture between two separately formed cores (**fig. 65** point 8). The core may be built or filled in several steps, thus possibly generating joints visible on radiographs.
 
-    {{< q-figure-group grid="1" id="fig-065" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-065" >}}
 
 -   The absence of most or all of these features does not preclude the possibility of a bronze sculpture being a lost-wax cast or a life-cast.
 
-### 1.2 Evidence of direct versus indirect lost-wax casting
+</div>
+
+### <span class="head-num">1.2 </span>Evidence of direct versus indirect lost-wax casting
 
 There is a broad distinction between a direct cast, in which the original (wax) model is destroyed in the process of being translated into bronze (that is, the wax is burned out), and an indirect cast, in which a wax %%replica%% of the original model—a casting model or inter-model—is created for the purpose of casting (see [GI§2.2](#GI§2.2)). That said, it is not uncommon to find combinations of both.
 
-#### 1.2.1 Evidence on the outer surface
+#### <span class="head-num">1.2.1 </span>Evidence on the outer surface
 
 In direct casting, the overall shape is modeled from the outer surface (**fig. 13**) (in the direct wax-slab process, the model may also be worked from inside). This may leave specific marks, particularly when the modeling is done without tools. Among the characteristic features that point to modeling in wax that has been done freehand (without tools), the most easily recognized are:
 
-{{< q-figure-group grid="3" id="fig-013" >}}
+{{< q-figure-group grid="4" class="column" id="fig-013" >}}
 
 -   rolled threads and rods of different sizes, which are an almost universal visual design form (**figs. 12, 20, 66, 67, 68, 69**),
 
-    {{< q-figure-group grid="3" id="fig-012, fig-020, fig-066, fig-067, fig-068, fig-069" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-012, fig-020, fig-066, fig-067, fig-068, fig-069" >}}
 
 -   amorphous blobs of softened wax squished or pinched between two fingers (**figs. 70, 71**).
 
-    {{< q-figure-group grid="3" id="fig-070, fig-071" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-070, fig-071" >}}
 
 But note that these are not *definitive* evidences of direct lost wax; see risks of misinterpretation enumerated below.
 
@@ -130,11 +143,13 @@ Conversely, in the indirect lost-wax casting process, the wax model that is inte
 
 -   raised ridges, which may correspond to traces of the piece mold possibly used to create a wax inter-model as part of the indirect process (**figs. 72, 73, 74**),
 
-    {{< q-figure-group grid="3" id="fig-072, fig-073, fig-074" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-072, fig-073, fig-074" >}}
 
 -   raised ridges, which may correspond to traces of the piece mold possibly used to create a plaster model that was then used in an indirect process (**fig. 75**).
 
-    {{< q-figure-group grid="3" id="fig-075" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-075" >}}
+
+<div class="warning">
 
 *Risks of misidentification/misinterpretation*
 
@@ -142,7 +157,7 @@ Conversely, in the indirect lost-wax casting process, the wax model that is inte
 
 -   Wax models may be created by a combination of both indirect and direct processes. The outer surface of the wax inter-model, for instance, may be reworked during finishing by adding or altering details (**fig. 68**). In cases where there are multiple casts of the same model, this often accounts for variations in the different casts (**fig. 76**).[^4]
 
-    {{< q-figure-group grid="3" id="fig-068, fig-076" >}}
+    {{< q-figure-group grid="4" class="column" id="fig-068, fig-076" >}}
 
 -   If the original model is made of clay, similar evidence of modeling may be found on the final bronze as on a lost-wax cast. Both clay and wax are soft materials that may be modeled in a similar way, and thus an indirect lost-wax cast may be misidentified as directly cast. Sand casting may also be used to translate a clay model into bronze.
 
@@ -150,7 +165,9 @@ Conversely, in the indirect lost-wax casting process, the wax model that is inte
 
 -   The remnants of flashing or feathering can look very similar to seam or mold lines once filed down (compare **fig. 72** and **fig. 77**).
 
-#### 1.2.2 Evidence on the inner surface (or verso of a relief)
+</div>
+
+#### <span class="head-num">1.2.2 </span>Evidence on the inner surface (or verso of a relief)
 
 It is not always possible to identify evidence that is characteristic of direct casting on the inner surface of hollow casts. The internal contours of direct casts can vary widely, and can be smooth (see [Case Study 2](#CaseStudy2); the direct slab process also yields very smooth internal contours) or roughly shaped. As the wax layer is formed over the core it will capture its shape and textures, including for instance:
 
@@ -164,7 +181,7 @@ An exception is the direct wax-slab process, or possibly the use of a “false c
 
 Reinforcing wires to bind the core have been observed for the lasagna technique, which is considered an “indirect” casting process (see [I.1§1.4](#I.1§1.4) below)
 
-#### 1.2.3 Radiographic evidence
+#### <span class="head-num">1.2.3 </span>Radiographic evidence
 
 The greater or lesser evenness in wall thickness of a bronze reflects the level of conformity between the shape of the core and the final shape of the sculpture. Some sculptors (assuming that they work on their own) will produce a core with a high level of detail and use some form of markers, such as %%chaplets%%, to help them control the overall thickness of the wax layer. Using preformed wax slabs of the same thickness will also ensure a relatively even layer of wax (**fig. 28**). But complicated features such as hair or smaller decorative elements, or any changes in the design that were not foreseen in the core, may result in thicker or thinner areas in the wax layer (and consequently in the bronze). Such larger discrepancies are often associated with a direct technique, especially with one-off casts (as opposed to multiples).
 
@@ -178,15 +195,15 @@ A synthesis of all physical evidence related to the direct lost-wax process is p
 
 -   With slush molding there is likewise no assurance of an overall even thickness, as molten wax may pool and solidify more readily in some areas, such as the extremities of figures (**fig. 80**).
 
-### 1.3 Characteristic features of slush molding, wax painting, and indirect wax-slab processes
+### <span class="head-num">1.3 </span>Characteristic features of slush molding, wax painting, and indirect wax-slab processes
 
 These types of indirect lost-wax processes share the creation of a core *after* the wax model is made (**figs. 16, 18**, see [GI§2.3](#GI§2.3) for a detailed description).
 
-#### 1.3.1 Evidence on the outer surface
+#### <span class="head-num">1.3.1 </span>Evidence on the outer surface
 
 The reusable mold used to form the wax inter-model may leave distinctive traces on the outer surface of the bronze. Gelatin molds, rubber molds, and plaster piece molds may all produce seam lines on the wax. Usually these features are removed during the refinishing of the wax inter-model, but not always fully. These may, however, not be considered singular to these processes (see [I.1§1.2](#I.1§1.2) above). See also [I.1§1.1](#I.1§1.1) above for the evidence common to all lost-wax processes. Securely identified examples of the indirect wax-slab process are rare. The way in which the metal curves in on the back of a relief could be the result of the bending of existing wax slabs around the core (**figs. 81, 82**).
 
-#### 1.3.2 Evidence on the internal surface
+#### <span class="head-num">1.3.2 </span>Evidence on the internal surface
 
 The following features can point to any of the three processes:
 
@@ -214,7 +231,7 @@ Brushstrokes are usually evidence of the molten wax being painted into the mold 
 
 -   Conformal casts may also be found in direct processes.
 
-#### 1.3.3 Radiographic evidence
+#### <span class="head-num">1.3.3 </span>Radiographic evidence
 
 The thinness of the wall and the close correspondence of the inner and outer contours are the most characteristic features of expert slush molding and of indirect wax slabs. Radiography is the ideal tool to reveal this. It can even help distinguish between the two processes because:
 
@@ -236,15 +253,15 @@ The thinness of the wall and the close correspondence of the inner and outer con
 
 **Table 4** synthesizes all features that might be identified on a bronze related to these processes.
 
-### 1.4 Characteristic features of the cut-back core and lasagna processes
+### <span class="head-num">1.4 </span>Characteristic features of the cut-back core and lasagna processes
 
 Unlike with slush molding and the use of indirect wax slabs, the core in both of these processes is produced before the wax model. In fact, the core serves to define the inner boundaries of the wax layer when it is cast into the reusable outer mold, where it will fill the space left either by paring down the core or by the removal of the lasagna (**figs. 23, 25**). Please be advised that these guidelines do not provide an exhaustive list or description of the variety of indirect processes and combination of processes that may have been used, but rather offer a firm basis of more common, documented examples. **Table 4** synthesizes all features that might be identified on a bronze related to these processes.
 
-#### 1.4.1 Evidence on the external surface
+#### <span class="head-num">1.4.1 </span>Evidence on the external surface
 
 There is no specific evidence. See [I.1§1.1](#I.1§1.1) above for the evidence common to all lost-wax processes.
 
-#### 1.4.2 Evidence on the internal surface
+#### <span class="head-num">1.4.2 </span>Evidence on the internal surface
 
 The following evidence is common to *both processes*: the internal surface of the wax model will capture the shape and tool marks, or fingerprints left on the core.
 
@@ -268,7 +285,7 @@ The following evidence is specific to the *lasagna process*: the core is not par
 
 -   If wires were used to bind the core they may have become embedded in the inner surface of the bronze (**fig. 96**). Such wires are evidence that the core was formed directly, before the wax, and reinforced in this way. Although our sole written mention of the procedure is in Benvenuto Cellini’s (Italian, 1500–1571) description of the lasagna technique (see [Case Study 5](#CaseStudy5)), this procedure is not necessarily exclusive to the lasagna process.
 
-#### 1.4.3 Radiographic evidence
+#### <span class="head-num">1.4.3 </span>Radiographic evidence
 
 Both the lasagna and cut-back-core processes share some common radiographic features:
 
@@ -286,11 +303,11 @@ The differences between the two processes as evident through observation of the 
 
 -   As stated above ([I.1§1.4.2](#I.1§1.4.2)), wrapping the core with wires is not necessarily exclusive to either the lasagna or the cut-back-core processes.
 
-### 1.5 Characteristic features of the life-casting process
+### <span class="head-num">1.5 </span>Characteristic features of the life-casting process
 
 This process shares common features with lost-wax casting, as it entails the use of organic materials (for instance animal and vegetable forms or textiles) that can be fully or partially burned out of the mold (**fig. 11**, see [GI§2.5.1](#GI§2.5.1)).
 
-#### 1.5.1 Evidence on the external surface
+#### <span class="head-num">1.5.1 </span>Evidence on the external surface
 
 On the external surface, this process:
 
@@ -304,7 +321,7 @@ On the external surface, this process:
 
 Animals and plant forms can also be reproduced in bronze by an indirect process, which can look very similar to these life-casts. In this case, reusable molds are taken from such models in order to produce wax inter-models that are often hollow and can be altered further at the wax stage.[^8] It can be difficult to distinguish between realistic casts that were molded directly versus indirectly on an animal or plant. For example, both may have seam lines.[^9]
 
-#### 1.5.2 Radiographic evidence
+#### <span class="head-num">1.5.2 </span>Radiographic evidence
 
 A hollow cast may reveal drip marks or the use of core pins, both of which will suggest that a wax inter-model was used and therefore point to a cast from life.
 
@@ -312,15 +329,15 @@ A hollow cast may reveal drip marks or the use of core pins, both of which will 
 
 A direct life-cast can be hollow, albeit rarely (see [GI§2.5.1](#GI§2.5.1)).
 
-## 2 Characteristic features associated with sand casting and piece-mold casting
+## <span class="head-num">2 </span>Characteristic features associated with sand casting and piece-mold casting
 
 Both of these processes consist of making the refractory mold in discrete pieces.
 
-### 2.1 Characteristic features of sand casting
+### <span class="head-num">2.1 </span>Characteristic features of sand casting
 
 In sand casting, a special sand is pressed onto the pattern within a sturdy frame structure to create removable sections (**fig. 9**, see [GI§2.4.1](#GI§2.4.1)). Simple shapes (for example medals and small, low reliefs such as Renaissance plaquettes) may only require a two-piece mold. Complex models will necessitate more complex molds.
 
-#### 2.1.1 Evidence on the outer surface
+#### <span class="head-num">2.1.1 </span>Evidence on the outer surface
 
 -   Relative lack of undercuts may point to a simplification of the model (or filling of the undercuts in the model) to create a piece mold.
 
@@ -348,7 +365,7 @@ In sand casting, a special sand is pressed onto the pattern within a sturdy fram
 
 -   Identifying whether or not the casting plan used for a specific bronze is indicative of the sand-casting process requires specialized skills, typically those of a founder.[^10]
 
-#### 2.1.2 Evidence on the inner surface
+#### <span class="head-num">2.1.2 </span>Evidence on the inner surface
 
 The only feature that may be specific to sand casting is the grainy texture on the inner surface of a hollow cast or back side of a relief (**figs. 101, 106, 107**). The following features could also be observed inside or at the back of a sand cast, but are not specific to sand casting:
 
@@ -370,21 +387,21 @@ The only feature that may be specific to sand casting is the grainy texture on t
 
 -   Although sand casting is the most common reason for a coarse, grainy texture, a coarse clay or plaster-based core can produce a similar appearance in the bronze.
 
-#### 2.1.3 Radiographic evidence
+#### <span class="head-num">2.1.3 </span>Radiographic evidence
 
 Much of the aforementioned evidence will be visible on radiographs (for example metal joints, shape of core, core flashing).
 
-### 2.2 Piece-mold casting
+### <span class="head-num">2.2 </span>Piece-mold casting
 
 Here, the mold is formed over the model in separate sections made directly of refractory investment material (for instance kaolin or loam). The piece molds thus obtained may then be further reworked from the inside to create or enhance the decoration, before being reassembled over the pared-down core (**fig. 26**, [Case Study 3](#CaseStudy3)).
 
-#### 2.2.1 Evidence on the outer surface
+#### <span class="head-num">2.2.1 </span>Evidence on the outer surface
 
 -   Seam lines develop along mold joints (see **figs. 110, 111, 112, 113, 114, 115, 116, 117** in [Case Study 3](#CaseStudy3)).
 
 -   The form of the surface details can reflect carving into the mold.
 
-#### 2.2.2 Evidence on the inner surface
+#### <span class="head-num">2.2.2 </span>Evidence on the inner surface
 
 This may include:
 
@@ -392,7 +409,7 @@ This may include:
 
 -   raised inscriptions on the inside that represent carving or impressing into the core.
 
-#### 2.2.3 Radiographic evidence
+#### <span class="head-num">2.2.3 </span>Radiographic evidence
 
 This may include:
 
@@ -406,11 +423,11 @@ This may include:
 
 All of the aforementioned evidence may be encountered in other processes. The combination of a large number of these clues, however, may be indicative of this technique.
 
-## 3 Characterization of features related to the armatures and core supports
+## <span class="head-num">3 </span>Characterization of features related to the armatures and core supports
 
 Armatures, core pins, chaplets, and other core supports are generally made of metal, and this section aims to provide guidance for identifying their characteristics. Their functions are fully described in [GI§2.6](#GI§2.6), together with the reasons for investigating them. The features that provide a focus for documenting these various features are their shape, size, and placement, as well as the material from which they are made.[^11]
 
-### 3.1 Armatures
+### <span class="head-num">3.1 </span>Armatures
 
 -   Armature rods may project from the base or bottom of the sculpture and be used to mount the work.
 
@@ -432,7 +449,7 @@ Armatures, core pins, chaplets, and other core supports are generally made of me
 
 -   Relatively high amounts of iron in a copper alloy may be the cause of magnetic attraction as well, and so may confound identification of the presence of an iron armature using a magnet.[^13]
 
-### 3.2 Core supports (metal and other)
+### <span class="head-num">3.2 </span>Core supports (metal and other)
 
 Below are clues that help characterize the categories of metal elements that support the core, the so-called core supports (core pins, chaplets), as well as mold extensions, all of which are defined in the general introduction and [Vocabulary](#Vocabulary). Armatures may also serve as core supports.
 
@@ -466,9 +483,9 @@ Mold extensions usually leave large regular openings in the metal wall, and are 
 
 -   Magnetic attraction may be due to an iron-rich copper alloy rather than indicating the presence of an iron armature (see [I.1§3.1](#I.1§3.1) above).
 
-## 4 Sprueing and casting orientation
+## <span class="head-num">4 </span>Sprueing and casting orientation
 
-### 4.1 Sprueing system
+### <span class="head-num">4.1 </span>Sprueing system
 
 Determining from the close study of a finished cast how the metal was fed through the mold (for instance in the case of a lost-wax cast, how the model was sprued) is virtually impossible. In most finished bronzes, sprues tend to be cut off and the surface chased, making reconstruction of the sprueing disposition very difficult. On rare occasions the entire network, including the casting cup, is preserved. This can range from designing the sculpture itself in such a way as to take into account the distribution of the metal (**fig. 71**) to preserving the full network of sprues for demonstration purposes (**fig. 46**). In most cases only occasional traces survive. These can take various forms:
 
@@ -486,7 +503,7 @@ Determining from the close study of a finished cast how the metal was fed throug
 
 -   Differential corrosion may stem from a variety of reasons other than the aforementioned microstructural differences in sprue areas (**fig. 125**).
 
-### 4.2 Evidence of the orientation of a cast
+### <span class="head-num">4.2 </span>Evidence of the orientation of a cast
 
 It is a challenge to determine whether a sculpture was cast upside down, vertically, or horizontally, and also whether the metal was poured directly into the sculpture or fed in in a more controlled fashion by directing the metal to the bottom of the mold first (that is, via an “indirect feed”).
 
@@ -502,9 +519,9 @@ The following features may help to determine some of this, and are all considere
 
 Surface cavities may originate from a variety of reasons, not just floating debris.
 
-## 5 Why investigate casting processes? and other FAQs
+## <span class="head-num">5 </span>Why investigate casting processes? and other FAQs
 
-### 5.1 Can I tell whether a bronze is cast by the lost wax or another method, and can I precisely figure out which variation has been used?
+### <span class="head-num">5.1 </span>Can I tell whether a bronze is cast by the lost wax or another method, and can I precisely figure out which variation has been used?
 
 This is a big question. It is possible, but depends on many factors. See all the indications above, and bear in mind:
 
@@ -512,7 +529,7 @@ This is a big question. It is possible, but depends on many factors. See all the
 
 -   that different processes may produce similar features (see all “risks of misidentification/misinterpretation” enumerated above, and [Case Study 5](#CaseStudy5)).[^19]
 
-### 5.2 Can I determine more clearly how different casts relate (or not) to the same model?
+### <span class="head-num">5.2 </span>Can I determine more clearly how different casts relate (or not) to the same model?
 
 Casts of the same model may be any number of things: parts of an edition, replicas, %%after-casts%%, et cetera (see [GI§1.3](#GI§1.3)). But a few clues can point to the relationship between two casts:
 
@@ -524,7 +541,7 @@ Casts of the same model may be any number of things: parts of an edition, replic
 
 While this evidence can point to the fact that other versions are likely to exist, it will not necessarily identify the bronze after which it was cast. However, replication of distinctive marks can point to a specific bronze original, such as lacunae filled during the after-casting process (for example suspension holes in medals).[^21]
 
-### 5.3 Can I determine what the original model was made of?
+### <span class="head-num">5.3 </span>Can I determine what the original model was made of?
 
 This requires both traditional art historical research and close observation. Given the variety of intermediate models between the original and the finished bronze, unless the model is known, it is often impossible to be sure. However:
 
@@ -534,7 +551,7 @@ This requires both traditional art historical research and close observation. Gi
 
 -   Tool marks may be diagnostic (**figs. 101, 130,** see [I.6§1.1.1](#I.6§1.1.1)).
 
-### 5.4 Can different artists, founders, or workshops be distinguished based on specific casting processes?
+### <span class="head-num">5.4 </span>Can different artists, founders, or workshops be distinguished based on specific casting processes?
 
 To make such an assessment, art historical (or archaeological) and technical data must be available in connection with a significant enough group of securely attributed, provenanced (this means known excavation context in the case of archaeological materials), and/or dated comparable bronzes. The specificity of a workshop’s practices will be reflected in a combination of parameters in addition to the casting process (metal and core composition, chasing, patina, et cetera).
 
@@ -546,11 +563,11 @@ In cases where enough data is available, the answers can vary. For instance:
 
 Remember as well that for various reasons, artists and/or founders experiment. This seems to have been the case, for instance, with sculptors who were closely involved in the entire process, such as Jean-Antoine Houdon (French, 1741–1828).[^25] See also [Case Study 7](#CaseStudy7).
 
-### 5.5 What can be learned from understanding the original casting orientation?
+### <span class="head-num">5.5 </span>What can be learned from understanding the original casting orientation?
 
 This can help us better understand some of the defects and challenges faced by the founder. Certain orientations may be characteristic of a culture, region, or period. For instance, we have little evidence of horizontal casting so far in the West, but it is still current in South and Southeast Asia (see [Case Study 4](#CaseStudy4)).[^26]
 
-## 6 Checklist: How do we investigate the casting technique?
+## <span class="head-num">6 </span>Checklist: How do we investigate the casting technique?
 
 The most important and readily available way of gathering information is close visual examination. This primary and necessary step in the investigation may be assisted by the following (see **table 5** for a synthesis of available techniques):
 

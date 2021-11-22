@@ -23,7 +23,7 @@
 }
 .quire-page .content h3 {
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.3125rem;
   font-style: normal;
   margin-top: 1.5rem;
   border-top: 2px solid #000;
@@ -33,7 +33,7 @@
 }
 .quire-page .content h4 {
   font-weight: 700;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-style: normal;
   margin-top: 1rem;
 }
@@ -72,6 +72,105 @@
 }
 .accordion .no-content-expander button svg {
   display: none;
+}
+
+
+/* ESSAY SECTION
+============================================================================= */
+
+.quire-page--gray-cards .content ul:not(.warning *) {
+  margin-left: 0;
+}
+.quire-page--gray-cards .content p + ul:not(.warning *) {
+  margin-top: 1.5em;
+}
+.quire-page--gray-cards .quire-page__content .container .content ul:not(.warning *) li::before {
+  font-size: 3rem;
+  margin-left: -.85em;
+  margin-top: -1.8rem;
+  color: #fff;
+}
+.quire-page--gray-cards .quire-page__content .container .content ul:not(.warning *) li {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem 1rem 1.5rem;
+  border-radius: 4px;
+  background-color: #EBEBEA;
+  margin-left: 0;
+}
+.quire-page--gray-cards .quire-page__content .container .content .quire-figure {
+  border-width: 0;
+  padding: 0;
+  margin: 1.5rem 0 1rem 0;
+}
+.quire-page--gray-cards .quire-page__content .container .content ul li .quire-figure {
+  margin: 0;
+}
+.quire-page--gray-cards .content .warning {
+  margin-bottom: 2rem;
+}
+.quire-page--gray-cards .content .warning > :first-child {
+  font-weight: 700;
+  color: #d0773f;
+}
+.quire-page--gray-cards .content .warning ul {
+  margin-left: 1rem;
+}
+.quire-page--gray-cards .content .warning ul li::before {
+  color: #d0773f;
+  font-size: 1.15rem;
+}
+
+.quire-page--indent h2,
+.quire-page--indent h3,
+.quire-page--indent h4 {
+  font-weight: 700 !important;
+  text-indent: -6rem;
+}
+.quire-page--indent .head-num {
+  width: 6rem;
+  display: inline-block;
+  text-align: right;
+  padding-right: 2rem;
+}
+.quire-page--indent .quire-page__content .container .content ul {
+  margin-left: 0;
+}
+.quire-page--indent .quire-page__content .container .content ul li {
+  margin-left: 0;
+}
+.quire-page--indent .quire-page__content .container .content ul li::before {
+  font-size: 1.2rem;
+  margin-top: -.15rem;
+  margin-left: -2.7rem;
+  color: #656360;
+}
+.quire-page--indent .quire-page__content .container .content .warning ul li::before {
+  color: #d0773f;
+}
+.quire-page--indent .quire-page__content .container .content .warning > p:first-child {
+  color: #d0773f;
+  font-weight: 700;
+}
+.quire-page--indent .quire-page__content .container .content .quire-figure {
+  border-top: 1px solid #59ac46;
+  border-top: 1px solid #000;
+  border-bottom-width: 0;
+  padding-top: 1.5rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  border-width: 0;
+  padding-top: 0;
+}
+.quire-page--indent .quire-page__content .container .content > .quire-figure {
+  /* keeps figures the same width as when they're in an <li> */
+  margin-right: 1.5rem;
+}
+.quire-page--indent .content .quire-figure--group.column figure {
+  display: inline-block;
+}
+.quire-page--indent .quire-page__content .container .content .quire-figure {
+  margin-bottom: -1rem;
 }
 
 
