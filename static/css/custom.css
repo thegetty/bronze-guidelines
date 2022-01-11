@@ -1,4 +1,19 @@
+:root {
+  /* Should match $accent-color in variables.scss
+  #427f34 is a darker, accessible version of --green-wax */
+  --accent-color: #427f34;
 
+  --green-wax: #59ac46;
+  --yellow-bronze: #fbda00;
+  --orange-clay: #d0773f;
+  --brown-sand: #b68b73;
+  --brown-bronze: #784721;
+  --gray-background: #656360;
+
+  --black: #54524f;
+  --white: #f9f9f1;
+  
+}
 
 /* GENERAL
 ============================================================================= */
@@ -14,7 +29,7 @@
   font-size: 1.5rem;
   line-height: 1.3;
   margin-top: 1.5rem;
-  border-top: 2px solid #000;
+  border-top: 2px solid var(--black);
   padding-top: 2rem;
 }
 .quire-page .content h3,
@@ -26,7 +41,7 @@
   font-size: 1.3125rem;
   font-style: normal;
   margin-top: 1.5rem;
-  border-top: 2px solid #000;
+  border-top: 2px solid var(--black);
 }
 .quire-page .content h3 strong {
   font-weight: 700;
@@ -55,7 +70,7 @@
   cursor: pointer;
 }
 .quire-page .content .accordion {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--black);
 }
 .quire-page .content .accordion div:last-child {
   margin-bottom: 1.5rem;
@@ -88,14 +103,14 @@
   font-size: 3rem;
   margin-left: -.85em;
   margin-top: -1.8rem;
-  color: #fff;
+  color: var(--white);
 }
 .quire-page--gray-cards .quire-page__content .container .content ul:not(.warning *) li {
   margin-top: 0;
   margin-bottom: 1.5rem;
   padding: 1rem 1rem 1rem 1.5rem;
   border-radius: 4px;
-  background-color: #EBEBEA;
+  background-color: #edede4; /* dark version of --white */
   margin-left: 0;
 }
 .quire-page--gray-cards .quire-page__content .container .content .quire-figure {
@@ -111,13 +126,13 @@
 }
 .quire-page--gray-cards .content .warning > :first-child {
   font-weight: 700;
-  color: #d0773f;
+  color: var(--orange-clay);
 }
 .quire-page--gray-cards .content .warning ul {
   margin-left: 1rem;
 }
 .quire-page--gray-cards .content .warning ul li::before {
-  color: #d0773f;
+  color: var(--orange-clay);
   font-size: 1.15rem;
 }
 
@@ -143,13 +158,13 @@
   font-size: 1.2rem;
   margin-top: -.15rem;
   margin-left: -2.7rem;
-  color: #656360;
+  color: var(--black);
 }
 .quire-page--indent .quire-page__content .container .content .warning ul li::before {
-  color: #d0773f;
+  color: var(--orange-clay);
 }
 .quire-page--indent .quire-page__content .container .content .warning > p:first-child {
-  color: #d0773f;
+  color: var(--orange-clay);
   font-weight: 700;
 }
 .quire-page--indent .quire-page__content .container .content .quire-figure {
@@ -190,22 +205,23 @@
 }
 .quire-page--indent.quire-page--indent-full-width .quire-page__content .container .content h2 {
   margin-top: 6rem;
-  color: #000;
+  color: var(--black);
 }
 .quire-page--indent.quire-page--indent-full-width .quire-page__content .container .content h2 + p {
   font-weight: 700;
-  color: #000;
+  color: var(--black);
 }
+/* TEMP for visual testing of figure callouts */
 .quire-page--indent.quire-page--indent-full-width .quire-page__content .container .content strong {
-  color: #398500;
+  color: var(--accent-color);
   font-weight: 400;
 }
 .quire-page--indent.quire-page--indent-full-width .quire-page__content .container .content h3,
 .quire-page--indent.quire-page--indent-full-width .quire-page__content .container .content h4 {
-  border-top: 2px solid #000;
+  border-top: 2px solid var(--black);
   padding-top: 1.5rem;
   margin-top: 4rem;
-  color: #000;
+  color: var(--black);
   font-size: 1.3125rem;
 }
 @media screen and (min-width: 1380px) {
@@ -360,7 +376,7 @@ requires class="column" in shortcode
       but might be fine on other pages as well */
     border-top-width: 2px;
     border-bottom-width: 0;
-    border-color: #000;
+    border-color: var(--black);
     padding: 2rem 0 0 0;
     margin: 2rem 0 0 0;
   }
