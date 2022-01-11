@@ -165,6 +165,8 @@ Conversely, in the indirect lost-wax casting process, the wax model that is inte
 
 -   The remnants of flashing or feathering can look very similar to seam or mold lines once filed down (compare **fig. 72** and **fig. 77**).
 
+    {{< q-figure-group grid="4" id="fig-072, fig-077" >}}
+
 </div>
 
 #### <span class="head-num">1.2.2 </span>Evidence on the inner surface (or verso of a relief)
@@ -172,6 +174,8 @@ Conversely, in the indirect lost-wax casting process, the wax model that is inte
 It is not always possible to identify evidence that is characteristic of direct casting on the inner surface of hollow casts. The internal contours of direct casts can vary widely, and can be smooth (see [Case Study 2](#CaseStudy2); the direct slab process also yields very smooth internal contours) or roughly shaped. As the wax layer is formed over the core it will capture its shape and textures, including for instance:
 
 -   tool and finger marks (**fig. 78**);
+
+    {{< q-figure-group grid="4" id="fig-078" >}}
 
 -   reinforcing wires that were used to bind the core.
 
@@ -187,6 +191,8 @@ The greater or lesser evenness in wall thickness of a bronze reflects the level 
 
 An armature reflecting the overall shape of the sculpture is more likely to be found in a direct cast, especially larger ones (**figs. 13, 79**), as it constitutes the structural “skeleton” of the sculpture over which the model is designed. But armatures might also be found in an indirect cast, inserted into the hollow wax inter-model before it is filled with core material.
 
+{{< q-figure-group grid="4" id="fig-028, fig-013, fig-079" >}}
+
 A synthesis of all physical evidence related to the direct lost-wax process is presented in **table 4**.
 
 *Risks of misidentification/misinterpretation*
@@ -194,6 +200,8 @@ A synthesis of all physical evidence related to the direct lost-wax process is p
 -   An indirect process such as the lasagna technique may lead to uneven thicknesses as well (see [I.1§1.4](#I.1§1.4) below).
 
 -   With slush molding there is likewise no assurance of an overall even thickness, as molten wax may pool and solidify more readily in some areas, such as the extremities of figures (**fig. 80**).
+
+    {{< q-figure-group grid="4" id="fig-080" >}}
 
 ### <span class="head-num">1.3 </span>Characteristic features of slush molding, wax painting, and indirect wax-slab processes
 
