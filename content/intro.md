@@ -478,7 +478,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^5]: For example {Bresc-Bautier 1989} and {Bresc-Bautier 2003} on archival work related to sixteenth-century Parisian founders; {Somigli 1958} on the *Perseus* by Benvenuto Cellini; and {Baxandall 1965} and {Baxandall 1966} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission.
 
-[^6]: For example {Theophilus \[ca. 1122\] 1979}; {Agricola \[1556\] 1950}; {Biringuccio \[1540\] 1990}.
+[^6]: For example {Theophilus [ca. 1122] 1979}; {Agricola [1556] 1950}; {Biringuccio [1540] 1990}.
 
 [^7]: {Beale 1996}.
 
@@ -560,7 +560,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^46]: Verbal communication, Christophe Bery, director, Coubertin Foundry, July 2016.
 
-[^47]: {Cellini \[1568\] 1967}, 114–26.
+[^47]: {Cellini [1568] 1967}, 114–26.
 
 [^48]: {Bewer, Bourgarit, and Bassett 2008}; {Castelle, Bourgarit, and Bewer 2018}.
 
@@ -586,7 +586,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^59]: {Chase 1991}; Strahan 2010}.
 
-[^60]: For bells see {Neri and Giannichedda 2018} and {Thomas and Bourgarit 2014}, 56. For cannons see {Biringuccio \[1540\] 1990}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({Bernardoni 2009}). For connections between cannon casting and sculpture see {Day and Allen 2014}; {Castelle, Bourgarit, and Bewer 2018}.
+[^60]: For bells see {Neri and Giannichedda 2018} and {Thomas and Bourgarit 2014}, 56. For cannons see {Biringuccio [1540] 1990}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({Bernardoni 2009}). For connections between cannon casting and sculpture see {Day and Allen 2014}; {Castelle, Bourgarit, and Bewer 2018}.
 
 [^61]: #  It has been speculated that this technique was used for the fabrication of at least several of the bronze statues of the tomb of Maximilian I, Holy Roman Emperor, in Innsbruck, which started in the early sixteenth century ({Knitel 1987}).
 
@@ -598,7 +598,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^65]: {Mattusch 1990}; {Mattusch 2014}.
 
-[^66]: {Theophilus \[ca. 1122\] 1979}, 132–38.
+[^66]: {Theophilus [ca. 1122] 1979}, 132–38.
 
 [^67]: {Craddock 2015}; {Craddock 2017}.
 

@@ -50,7 +50,7 @@ Art and Craft Textbooks: {Lambert 2002}, 272; {Rama 1988}, 374
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/anima/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {Giuffredi 2006}, 219; {Biringuccio \[1540\] 1990}, fols. 77–78; {Bruni 1994}, 81–82; {Brunhuber 1988}
+[Treccani](http://www.treccani.it/vocabolario/anima/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {Giuffredi 2006}, 219; {Biringuccio [1540] 1990}, fols. 77–78; {Bruni 1994}, 81–82; {Brunhuber 1988}
 
 #### Alternate Translation
 
