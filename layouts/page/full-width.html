@@ -21,7 +21,7 @@
       <div class="content">
 
         {{ $find := "<(h[2-5]) id=\"(.+?)\">([0-9|//.]+) (.+?)</(h[2-5])>" }}
-        {{ $replace := "<$1 id='$2'><span class='section-num'>$3 </span>$4</$1>" }}
+        {{ $replace := "<$1 class='indent' id='$2'><span class='section-num'>$3 </span>$4</$1>" }}
         {{ replaceRE $find $replace .Content | safeHTML }}
 
         {{ partial "page-bibliography.html" . }}

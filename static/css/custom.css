@@ -141,42 +141,44 @@
 }
 
 /* Set grid for each section */
-.quire-full-width .quire-page__content .container section {
+.quire-full-width .quire-page__content .container section:not(.footnotes),
+.quire-full-width .quire-page__content .container h2#notes,
+.quire-full-width .quire-page__content .container h2#bibliography {
   margin-top: 4rem;
 }
-.quire-full-width .quire-page__content .container section {
+.quire-full-width .quire-page__content .container section:not(.footnotes) {
   display: grid;
   grid-template-columns: 3fr 2fr;
   column-gap: 2rem;
 }
-.quire-full-width .quire-page__content .container section * {
+.quire-full-width .quire-page__content .container section:not(.footnotes) * {
   grid-column-start: 1;
 }
-.quire-full-width .quire-page__content .container section h2,
-.quire-full-width .quire-page__content .container section h3,
-.quire-full-width .quire-page__content .container section h4 {
+.quire-full-width .quire-page__content .container section:not(.footnotes) h2,
+.quire-full-width .quire-page__content .container section:not(.footnotes) h3,
+.quire-full-width .quire-page__content .container section:not(.footnotes) h4 {
   grid-column: 1/-1;
 }
-.quire-full-width .quire-page__content .container section figure {
+.quire-full-width .quire-page__content .container section:not(.footnotes) figure {
   grid-column-start: 2;
   grid-row: 2/100;
 }
 /* Add default margin to the bottom of each section */
-.quire-full-width .content section:not(:last-child) {
+.quire-full-width .content section:not(.footnotes):not(:last-child) {
   margin-bottom: 1em;
 }
 /* Remove bottom margins from second to last item, left side of grid, so that it doesn't push the next section lower, but also add a top margin to the last item if it's not a figure and so is also on the left side of the grid */
-.quire-full-width .content section > *:nth-last-child(2) {
+.quire-full-width .content section:not(.footnotes) > *:nth-last-child(2) {
   margin-bottom: 0;
 }
-.quire-full-width .content section > *:not(figure):nth-last-child(1) {
+.quire-full-width .content section:not(.footnotes) > *:not(figure):nth-last-child(1) {
   margin-top: 1em;
 }
 
 /* Indent all headings and lists out to the left */
-.quire-full-width .content h2,
-.quire-full-width .content h3,
-.quire-full-width .content h4 {
+.quire-full-width .content h2.indent,
+.quire-full-width .content h3.indent,
+.quire-full-width .content h4.indent {
   text-indent: -6rem;
 }
 .quire-full-width .content .section-num {
