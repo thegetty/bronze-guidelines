@@ -9,10 +9,12 @@ definition: "The term has at least three different meanings: 1) a pleasing surfa
 ---
 
 <div class="backmatter">
+
 Note: Some researchers do not consider applied organic coatings part of the patina layer.
+
 </div>
 
-{{< q-figure-group grid="3" id="293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503" >}}
+{{< q-figure-group grid="4" id="fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" class="column" >}}
 
 ## Sources
 
@@ -50,7 +52,7 @@ Cultural Heritage: {Aucouturier 2007}; {Baudry, Bozo, and Inventaire général d
 
 Copper Industry: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Historical: {Diderot et. al. 1751}, 12:173, entry « patine »
+Historical: {Diderot et al. 1751}, 12:173, entry « patine »
 
 Art and Craft Textbook: {Lambert 2002}, 273; {Rama 1988}, 374
 

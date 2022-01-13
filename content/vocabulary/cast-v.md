@@ -44,13 +44,13 @@ Cultural Heritage: {Rolley 1994}, 70; {Baudry, Bozo, and Inventaire général de
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Brunhuber 1988}
 
-Historical: {Diderot et. al. 1751}, 7:80–81, entry « fondre »
+Historical: {Diderot et al. 1751}, 7:80–81, entry « fondre »
 
 Art and Craft Textbook: {Lambert 2002}, 268
 
 #### Alternate Translations
 
-- *fondre* | Sources: Historical: {Boffrand 1743}; {Diderot et. al. 1751}, 7:80–81, entry « fondre »; {Mariette 1768}, 168; Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624
+- *fondre* | Sources: Historical: {Boffrand 1743}; {Diderot et al. 1751}, 7:80–81, entry « fondre »; {Mariette 1768}, 168; Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624
 
 - *jeter* / *jetter* | Sources: Historical: {Félibien 1690}, 320; {*Secrets concernant les arts et métiers* 1810}
 

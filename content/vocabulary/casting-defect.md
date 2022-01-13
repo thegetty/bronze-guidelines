@@ -38,7 +38,7 @@ Défaut non intentionnel dans l’objet survenant lors de la coulée.
 
 <div class="backmatter">
 
-Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({Boffrand 1743}, 59; {Diderot et. al. 1751}, 2:436–43, entry « bronze »; {Lambert 2002}, 241), fentes, crevasses, déchirures ({Boffrand 1743}, 59; {Diderot et. al. 1751}, 2:436–43, entry « bronze »), manques ({Lambert 2002}, 241).
+Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({Boffrand 1743}, 59; {Diderot et al. 1751}, 2:436–43, entry « bronze »; {Lambert 2002}, 241), fentes, crevasses, déchirures ({Boffrand 1743}, 59; {Diderot et al. 1751}, 2:436–43, entry « bronze »), manques ({Lambert 2002}, 241).
 
 </div>
 

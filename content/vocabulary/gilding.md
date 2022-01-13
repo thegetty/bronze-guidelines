@@ -36,7 +36,7 @@ Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {Fél
 
 Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 657; {Azéma and Mille 2013b}; {Aucouturier et al. 2003}
 
-Historical: {Diderot et. al. 1751}, 5:57–60, entry « dorure »
+Historical: {Diderot et al. 1751}, 5:57–60, entry « dorure »
 
 ### **Italian**: *doratura*
 

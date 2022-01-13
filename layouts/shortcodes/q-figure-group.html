@@ -1,0 +1,96 @@
+{{/*
+
+  THIS OVERRIDE REBUILDS THE SHORTCODE TO MIRROR THE WORK ON THE q-figure
+  SHORTCODE AND FIXES A PROBLEM WITH THE LABELS IN THE CURRENT VERSION OF
+  THE q-figure-group SHORTCODE.
+
+*/}}
+
+{{- $alt := "" -}}
+{{- $aspectRatio := "" -}}
+{{- $caption := "" -}}
+{{- $credit := "" -}}
+{{- $download := "" -}}
+{{- $id := "" -}}
+{{- $label := "" -}}
+{{- $mediaId := "" -}}
+{{- $mediaType := "" -}}
+{{- $src := "" -}}
+
+{{- $grid := "" -}}
+{{- if and (.Get "grid") ( gt (.Get "grid") 0 ) }}
+  {{- $grid = (.Get "grid") -}}
+{{- else -}}
+  {{- $grid = 1 -}}
+{{- end -}}
+
+{{- if .Get "id" -}}
+
+{{- $idList := replace (.Get "id") " " "" -}}
+{{- $idList = split $idList "," -}}
+
+<figure class='quire-figure quire-figure--group quire-figure--group--grid-{{ $grid }} {{ with .Get "class" }}{{ . }}{{ end }} {{ if eq $.Site.Params.pdf true }}quire-figure--group-pdf {{ end }}'>
+
+{{- range $idList -}}
+
+{{- range where $.Site.Data.figures.figure_list "id" "eq" . -}}
+
+  {{- with .alt }}{{ $alt = . }}{{ end -}}
+  {{- with .aspect_ratio }}{{ $aspectRatio = . }}{{ end -}}
+  {{- if ($.Get "caption") }}
+    {{ $caption = "" }}{{ else if .caption }}{{ $caption = .caption }}{{ end -}}
+  {{- if ($.Get "credit") }}
+    {{ $credit = "" }}{{ else if .credit }}{{ $credit = .credit }}{{ end -}}
+  {{- with .download }}{{ $download = . }}{{ end -}}
+  {{- with .id }}{{ $id = . }}{{ end -}}
+  {{- if ($.Get "label") }}
+    {{ $label = "" }}{{ else if .label }}{{ $label = .label }}{{ end -}}
+  {{- with .media_id }}{{ $mediaId = . }}{{ end -}}
+  {{- with .media_type }}{{ $mediaType = . }}{{ end -}}
+  {{- with .src }}{{ $src = . }}{{ end -}}
+
+{{- end -}}
+
+{{- $dict := dict "Site" $.Site "alt" $alt "aspectRatio" $aspectRatio "caption" $caption "credit" $credit "download" $download "id" $id "label" $label "mediaId" $mediaId "mediaType" $mediaType "src" $src -}}
+
+<figure
+  data="q-figure"
+  id="{{ $id }}"
+>
+  <div class="q-figure__wrapper">
+    {{ if eq $mediaType "youtube" -}}
+      {{- partial "figures/media-types/youtube.html" $dict -}}
+    {{- else if eq $mediaType "vimeo" -}}
+      {{- partial "figures/media-types/vimeo.html" $dict -}}
+    {{- else if eq $mediaType "soundcloud" -}}
+      {{- partial "figures/media-types/soundcloud.html" $dict -}}
+    {{- else if eq $mediaType "website" -}}
+      {{- partial "figures/media-types/website.html" $dict -}}
+    {{- else if eq $mediaType "table" -}}
+      {{- partial "figures/media-types/table.html" $dict -}}
+    {{- else -}}
+      {{- partial "figures/media-types/image.html" $dict -}}
+    {{- end -}}
+  </div>
+</figure>
+
+{{- end -}}
+
+{{- if or (or (.Get "caption") (.Get "credit")) (.Get "label") -}}
+
+  {{- if (.Get "caption") }}
+    {{ $caption = ($.Get "caption") }}{{ else }}{{ $caption = "" }}{{ end -}}
+  {{- if (.Get "credit") }}
+    {{ $credit = (.Get "credit") }}{{ else }}{{ $credit = "" }}{{ end -}}
+  {{- if ($.Get "label") }}
+    {{ $label = ($.Get "label") }}{{ else }}{{ $label = "" }}{{ end -}}
+
+  {{- $captionDict := dict "Site" .Site "caption" $caption "credit" $credit "label" $label -}}
+
+  {{- partial "figures/caption.html" $captionDict -}}
+
+{{- end -}}
+
+</figure>
+
+{{- end -}}

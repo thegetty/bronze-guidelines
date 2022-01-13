@@ -56,7 +56,7 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 Copper Industry: {Cuénin 1994}, 5
 
-Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–39, entry « bronze »
+Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et al. 1751}, 2:436–39, entry « bronze »
 
 Art and Craft Textbook: {Lambert 2002}, 272
 

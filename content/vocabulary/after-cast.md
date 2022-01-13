@@ -14,7 +14,7 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 </div>
 
-{{< q-figure-group grid="3" id="fig-1, fig-284" >}}
+{{< q-figure-group grid="3" id="1, 284" >}}
 
 ## To Be Distinguished From
 

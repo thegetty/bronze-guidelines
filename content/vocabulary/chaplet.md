@@ -70,7 +70,7 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 #### Alternate Translations
 
-- *chapelet* | Source: Historical: {Diderot et. al. 1751}, 11:267a, entry « noyau terme d’artillerie »
+- *chapelet* | Source: Historical: {Diderot et al. 1751}, 11:267a, entry « noyau terme d’artillerie »
 
 - *plaque porte noyau* (Terme réservé à la coulée sous pression.) | Source: Copper Industry: {Brunhuber 1988}
 

@@ -1,10 +1,14 @@
 {{/*
-  Single page default template. Normal page content will appear in the
-  .Content outlet below.
+  type: page
+  layout: vocabulary
+
+  This custom template is bassed on layouts/_default/single.html
+
+  It is used for the Vocabulary section of the Bronze Guidelines book. It adds the vocabulary term definition to the top of the page.
 */}}
 
 {{ define "main" }}
-<article class="{{ partial "page-class.html" . }} quire-page" id="main" role="main">
+<article class="{{ partial "page-class.html" . }} quire-page quire-vocabulary" id="main" role="main">
   {{ partial "page-header.html" . }}
   {{ if .Content }}
   <section class="section quire-page__content" id="content">

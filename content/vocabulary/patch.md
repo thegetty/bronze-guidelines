@@ -44,7 +44,7 @@ Cultural Heritage: {Azéma and Mille 2013b}; {Bourgarit, Bewer, and Bresc-Bautie
 
 #### Alternate Translation
 
-- *pièce* | Sources: Historical: {Boffrand 1743}, 60; {Mariette 1768}, 127; {Diderot et. al. 1751}, 2:442. entry « bronze »
+- *pièce* | Sources: Historical: {Boffrand 1743}, 60; {Mariette 1768}, 127; {Diderot et al. 1751}, 2:442. entry « bronze »
 
 ### **Italian**: *laminetta ad incastro*
 

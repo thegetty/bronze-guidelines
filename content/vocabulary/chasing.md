@@ -62,7 +62,7 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 
 Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 633
 
-Historical: {Boffrand 1743}, 59; {Diderot et. al. 1751}, 3:480, entry « ciseler »
+Historical: {Boffrand 1743}, 59; {Diderot et al. 1751}, 3:480, entry « ciseler »
 
 Art and Craft Textbooks: {De Bois 1999}, 16; {Rama 1988}, 328
 

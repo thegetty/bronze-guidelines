@@ -6,5 +6,5 @@ public
 site
 node_modules
 .tmp
-magick
-iiif
+static/img/magick
+static/img/iiif

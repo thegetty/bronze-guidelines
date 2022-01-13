@@ -48,7 +48,7 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
 
-Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et. al. 1751}, 2:436–38, entry « bronze »
+Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et al. 1751}, 2:436–38, entry « bronze »
 
 ### **Italian**: *modello*
 

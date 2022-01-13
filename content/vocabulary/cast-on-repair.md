@@ -48,7 +48,7 @@ Cultural Heritage: {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b
 
 #### Alternate Translations
 
-- *goutte* | Sources: Historical: {Boffrand 1743}, 59; {Diderot et. al. 1751}, 2:442, entry « bronze »
+- *goutte* | Sources: Historical: {Boffrand 1743}, 59; {Diderot et al. 1751}, 2:442, entry « bronze »
 
 - *grains de bronze* | Source: Historical: {Mariette 1768}, 131
 

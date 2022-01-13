@@ -49,7 +49,7 @@ Art and Craft Textbook: {De Bois 1999}, 54–55
 
 #### Alternate Translation
 
-- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({Diderot et. al. 1751}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 640; Historical: {Diderot et. al. 1751}, 3:480, entry « ciselets »; Art and Craft Textbook: {De Bois 1999}
+- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({Diderot et al. 1751}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 640; Historical: {Diderot et al. 1751}, 3:480, entry « ciselets »; Art and Craft Textbook: {De Bois 1999}
 
 ### **Italian**: *cesello*
 

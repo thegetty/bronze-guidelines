@@ -1,0 +1,33 @@
+{{/*
+
+  type: page
+  layout: full-width
+
+  This custom template is bassed on layouts/essay/single.html
+
+  It is used for the main parts of the Bronze Guidelines book. It adds a .quire-full-width class to make a full-width page. It also does a reg ex search of the content to find numbered section headings and add a .section-num class to them in order to indent them out to the left.
+
+*/}}
+
+{{ define "main" }}
+<article class="{{ partial "page-class.html" . }} quire-essay quire-full-width" id="main" role="main">
+  {{ partial "page-header.html" . }}
+
+  <section id="content" class="section quire-page__content">
+    {{ if .Params.abstract }}
+    {{ partial "page-abstract.html" . }}
+    {{ end }}
+    <div class="container">
+      <div class="content">
+
+        {{ $find := "<(h[2-5]) id=\"(.+?)\">([0-9|//.]+) (.+?)</(h[2-5])>" }}
+        {{ $replace := "<$1 class='indent' id='$2'><span class='section-num'>$3 </span>$4</$1>" }}
+        {{ replaceRE $find $replace .Content | safeHTML }}
+
+        {{ partial "page-bibliography.html" . }}
+      </div>
+      {{ partial "footer-buttons.html" . }}
+    </div>
+  </section>
+</article>
+{{ end }}
