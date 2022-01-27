@@ -16,9 +16,9 @@ Note: Sometimes very large sculptures—both reliefs and in the round—need to 
 
 ## Sources
 
-Cultural Heritage: {Beale 1975}; {Boulton 2006}
+Cultural Heritage: {{< q-cite "Beale 1975" >}}; {{< q-cite "Boulton 2006" >}}
 
-Art and Craft Textbook: {Rich 1988}
+Art and Craft Textbook: {{< q-cite "Rich 1988" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
@@ -41,12 +41,12 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 Moule constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
 
 <div class="backmatter">
-Note: pour la sculpture en bronze, un moule à pièces peut aussi bien désigner un moule à bon creux (pour la cire donc), un moule pour fonte au sable, qu’un moule pour la fonte à pièces (voir [Case Study 3](#CaseStudy3) et aussi {Rama 1988}, 196). Il arrive que les moules des très grands bronzes doivent être conçus en plusieurs sections non pas à cause de contre dépouilles, mais pour diminuer la trop grande adhérence du moule sur la surface du modèle et ainsi faciliter le démoulage (Andrew Lacey, pers. comm., July 2021).
+Note: pour la sculpture en bronze, un moule à pièces peut aussi bien désigner un moule à bon creux (pour la cire donc), un moule pour fonte au sable, qu’un moule pour la fonte à pièces (voir [Case Study 3](#CaseStudy3) et aussi {{< q-cite "Rama 1988" >}}, 196). Il arrive que les moules des très grands bronzes doivent être conçus en plusieurs sections non pas à cause de contre dépouilles, mais pour diminuer la trop grande adhérence du moule sur la surface du modèle et ainsi faciliter le démoulage (Andrew Lacey, pers. comm., July 2021).
 </div>
 
 #### Source
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 563
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 563
 
 ### **Italian**: *forma a tasselli*
 
@@ -54,16 +54,16 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/tassello1/); {Biringuccio [1540] 1990}, fols. 80v–81; {Bruni 1994}, 53–55
+[Treccani](https://www.treccani.it/vocabolario/tassello1/); {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 80v–81; {{< q-cite "Bruni 1994" >}}, 53–55
 
 #### Alternate Translation
 
-- *calco a tasselli* (This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+- *calco a tasselli* (This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
 ### **Chinese**: 块范
 
 #### Alternate Translation
 
-- 范块 | Source: {Zhang 2010}, 80
+- 范块 | Source: {{< q-cite "Zhang 2010" >}}, 80
 
 </div>

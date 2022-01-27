@@ -12,15 +12,15 @@ definition: "A copper alloy with zinc as the primary added element. As with bron
 
 ## Sources
 
-Cultural Heritage: {Bayley 1991}; {Dillon 2002}, 299; {Penny 1993}, 297
+Cultural Heritage: {{< q-cite "Bayley 1991" >}}; {{< q-cite "Dillon 2002" >}}, 299; {{< q-cite "Penny 1993" >}}, 297
 
-Copper Industry: {Brunhuber 1988}; {Campbell 2015}, 270; {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Campbell 2015" >}}, 270; {{< q-cite "Koch and Newell 1963" >}}
 
-Historical: {Buchanan 1903}, 23
+Historical: {{< q-cite "Buchanan 1903" >}}, 23
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/brass>
 
-Other: {Turner 1982}
+Other: {{< q-cite "Turner 1982" >}}
 
 ## Translations
 
@@ -30,7 +30,7 @@ Other: {Turner 1982}
 
 #### Sources
 
-{Maaz 2010}, 708; {Gesamtverband Deutscher Metallgiessereien 1982}; {Brunhuber 1988}; {Koch and Newell 1963}
+{{< q-cite "Maaz 2010" >}}, 708; {{< q-cite "Gesamtverband Deutscher Metallgiessereien 1982" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}
 
 ### **French**: *laiton*
 
@@ -38,21 +38,21 @@ Alliage à base de cuivre dans lequel le zinc est l’élément d’addition pri
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 643; {Garenne-Marot, Robion, and Mille 2003}; {Bewer, Bourgarit, and Bassett 2008}; {Thomas and Bourgarit 2018}; {Thomas 2009}, 510
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 643; {{< q-cite "Garenne-Marot, Robion, and Mille 2003" >}}; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Thomas and Bourgarit 2018" >}}; {{< q-cite "Thomas 2009" >}}, 510
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {“Glossaire de la fonderie et des domaines connexes | CTIF” n.d.}; {Comité international du dictionnaire technique de fonderie 1955}, 29; {Brunhuber 1988}; {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." >}}; {{< q-cite "Comité international du dictionnaire technique de fonderie 1955" >}}, 29; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}
 
-Historical: {Félibien 1690}, 335; {*Secrets concernant les arts et métiers* 1810}, 224
+Historical: {{< q-cite "Félibien 1690" >}}, 335; {{< q-cite "*Secrets concernant les arts et métiers* 1810" >}}, 224
 
-Art and Craft Textbooks: {Lambert 2002}, 271; {Rama 1988}, 374
+Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 271; {{< q-cite "Rama 1988" >}}, 374
 
 #### Alternate Translations
 
-- *archal* | Sources: Cultural Heritage: {Thomas 2009}, 505, 507–8; Historical: {Lespinasse and Bonnardot 1879}, 551
+- *archal* | Sources: Cultural Heritage: {{< q-cite "Thomas 2009" >}}, 505, 507–8; Historical: {{< q-cite "Lespinasse and Bonnardot 1879" >}}, 551
 
-- *cuivre jaune* | Sources: Historical: {Félibien 1690}, 335; {Boffrand 1743}; {Diderot et al. 1751}, 4:540–47, entry « cuivre »; {Mariette 1768}; {*Secrets concernant les arts et métiers* 1810}, 224; {Grandpierre and Avale 1867}, 7; {Delon 1877}, 180
+- *cuivre jaune* | Sources: Historical: {{< q-cite "Félibien 1690" >}}, 335; {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Diderot et al. 1751" >}}, 4:540–47, entry « cuivre »; {{< q-cite "Mariette 1768" >}}; {{< q-cite "*Secrets concernant les arts et métiers* 1810" >}}, 224; {{< q-cite "Grandpierre and Avale 1867" >}}, 7; {{< q-cite "Delon 1877" >}}, 180
 
-- *orichalque* | Source: Cultural Heritage: {Halleux 1973}
+- *orichalque* | Source: Cultural Heritage: {{< q-cite "Halleux 1973" >}}
 
 - *latten*
 
@@ -62,7 +62,7 @@ Art and Craft Textbooks: {Lambert 2002}, 271; {Rama 1988}, 374
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/ottone/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/), under “Bronzi e ottoni”; {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone)
+[Treccani](http://www.treccani.it/vocabolario/ottone/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/), under “Bronzi e ottoni”; {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone)
 
 ### **Chinese**: 铜锌合金
 
@@ -70,7 +70,7 @@ Literally “copper-zinc alloy”
 
 #### Source
 
-{Ming 2010}, 1440
+{{< q-cite "Ming 2010" >}}, 1440
 
 #### Alternate Translation
 

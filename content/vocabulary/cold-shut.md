@@ -16,13 +16,13 @@ definition: "The interface where two streams of metal come together in the mold 
 
 ## Sources
 
-Cultural Heritage: {Bassett 2008}
+Cultural Heritage: {{< q-cite "Bassett 2008" >}}
 
-Historical: {Bolland 1894}; {Buchanan 1903}
+Historical: {{< q-cite "Bolland 1894" >}}; {{< q-cite "Buchanan 1903" >}}
 
-Copper Industry: {Ammen 1980}; {American Foundry Society (AFS). n.d.}; {Palmer 1929}
+Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "American Foundry Society (AFS). n.d." >}}; {{< q-cite "Palmer 1929" >}}
 
-Art and Craft Textbook: {Rome and Young 2003}, 303
+Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}, 303
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 #### Sources
 
-{Brunhuber 1986}
+{{< q-cite "Brunhuber 1986" >}}
 
 #### Alternate Translation
 
@@ -55,14 +55,14 @@ Défaut de fonderie dû à la fusion imparfaite de deux flux de métal liquide q
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 647
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 647
 
-Copper Industry: {Hénon, Mascré, and Blanc 1971}, 27; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
-Historical: {Guettier 1858}, notice 616, p. 322–23
+Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 27; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+Historical: {{< q-cite "Guettier 1858" >}}, notice 616, p. 322–23
 
 #### Alternate Translation
 
-- *goutte froide* (Goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 648).) | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *goutte froide* (Goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 648).) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 ### **Italian**: *accostatura*
 
@@ -80,9 +80,9 @@ Historical: {Guettier 1858}, notice 616, p. 322–23
 
 #### Alternate Translations
 
-- 冷结 | Source: {Ming 2010}, 883
+- 冷结 | Source: {{< q-cite "Ming 2010" >}}, 883
 
-- 冷隔 | Source: {Ming 2010}, 883
+- 冷隔 | Source: {{< q-cite "Ming 2010" >}}, 883
 
 - 流界 | Source: [TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
 

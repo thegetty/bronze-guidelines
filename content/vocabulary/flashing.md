@@ -16,15 +16,15 @@ definition: "A ridge of excess metal that can occur when molten metal enters cra
 
 ## Sources
 
-Cultural Heritage: {Beale 1975}, 41
+Cultural Heritage: {{< q-cite "Beale 1975" >}}, 41
 
-Copper Industry: {Ammen 1980}; {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
-Art and Craft Textbook: {McCreight 1996}
+Art and Craft Textbook: {{< q-cite "McCreight 1996" >}}
 
 ## Synonyms
 
-- *finning* | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *finning* | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 - *veining*
 
@@ -58,31 +58,31 @@ Défaut de fonderie où le métal liquide pénètre dans des fissures du moule r
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 645; {Bourgarit, Bewer, and Bresc-Bautier 2014}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 645; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
 
-Copper Industry: {Hénon, Mascré, and Blanc 1971}, 17; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 17; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 #### Alternate Translations
 
-- *gerçure* | Sources: Historical: {Boffrand 1743}, 62; {Gonon 1876}, 6
+- *gerçure* | Sources: Historical: {{< q-cite "Boffrand 1743" >}}, 62; {{< q-cite "Gonon 1876" >}}, 6
 
-- *nervure* | Sources: Copper Industry: {Hénon, Mascré, and Blanc 1971}, 17; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *nervure* | Sources: Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 17; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 ### **Italian**: *bava*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {Biringuccio [1540] 1990}, fol. 78
+[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 78
 
 #### Alternate Synonym
 
-- *cresta di fusione* | Sources: {Carruba 2006}, 24; {Pecchioli 1999}, 192
+- *cresta di fusione* | Sources: {{< q-cite "Carruba 2006" >}}, 24; {{< q-cite "Pecchioli 1999" >}}, 192
 
 ### **Chinese**: 毛边
 
 #### Source
 
-{Ming 2010}, 997
+{{< q-cite "Ming 2010" >}}, 997
 
 #### Alternate Translations
 
@@ -90,6 +90,6 @@ Copper Industry: {Hénon, Mascré, and Blanc 1971}, 17; {Association Technique d
 
 - 溢边 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 飞边 | Sources: {Ming 2010}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- 飞边 | Sources: {{< q-cite "Ming 2010" >}}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
 </div>

@@ -16,11 +16,11 @@ Note: The terms “sprue,” “sprueing,” or “sprue system” are most comm
 
 ## Sources
 
-Historical: {Buchanan 1903}
+Historical: {{< q-cite "Buchanan 1903" >}}
 
-Copper Industry: {Campbell 1991}, 36–41
+Copper Industry: {{< q-cite "Campbell 1991" >}}, 36–41
 
-Art and Craft Textbook: {Rome and Young 2003}
+Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
@@ -32,11 +32,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
 #### Source
 
-{Maaz 2010}, 696
+{{< q-cite "Maaz 2010" >}}, 696
 
 #### Alternate Translations
 
-- *Kanalnetz* | Source: {Alscher 1987}, 555
+- *Kanalnetz* | Source: {{< q-cite "Alscher 1987" >}}, 555
 
 - *Versorgungskanäle*
 
@@ -45,24 +45,24 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 Conduit dans le moule réfractaire pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la coulée. Désigne, pour les procédés à la cire perdue, les éléments en cire servant cette fonction.
 
 <div class="backmatter">
-Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la coulée, et servant également de « masselote ». Les conduits servant pour l’évacuation des gaz portent des noms spécifiques : évents ({Félibien 1690}, 335; {Gonon 1876}, 5; {Launay 1827}, 2:264; {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 627; {Rolley 1994}, 66; {Rama 1988}, 254, 373; {Lambert 2002}, 269; {Dubos 2003}; {Lebon 2012}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}). Pour l’évacuation de la cire on parle de tire–cire ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({Saussus and Thomas 2019}, 59; {Lambert 2002}, 27). Pour certains d’entre eux ({Saussus and Thomas 2019}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
+Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la coulée, et servant également de « masselote ». Les conduits servant pour l’évacuation des gaz portent des noms spécifiques : évents ({{< q-cite "Félibien 1690" >}}, 335; {{< q-cite "Gonon 1876" >}}, 5; {{< q-cite "Launay 1827" >}}, 2:264; {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 627; {{< q-cite "Rolley 1994" >}}, 66; {{< q-cite "Rama 1988" >}}, 254, 373; {{< q-cite "Lambert 2002" >}}, 269; {{< q-cite "Dubos 2003" >}}; {{< q-cite "Lebon 2012" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}). Pour l’évacuation de la cire on parle de tire–cire ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({{< q-cite "Saussus and Thomas 2019" >}}, 59; {{< q-cite "Lambert 2002" >}}, 27). Pour certains d’entre eux ({{< q-cite "Saussus and Thomas 2019" >}}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 626; {Saussus and Thomas 2019}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 626; {{< q-cite "Saussus and Thomas 2019" >}}
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 #### Alternate Translations
 
-- *alimentation* (Il existe tout un répertoire de termes liés dont « système d’alimentation » ({Azéma and Mille 2013b}; Dubos pers. comm.; {Cuénin 1997a}, 2; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}). Dans l’industrie, le système d’alimentation a une définition très spécifique, c’est l’ensemble des conduits amenant du métal liquide pour compenser le retrait, ({Cuénin 1997a}, 2; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}).) | Sources: Cultural Heritage: {Azéma and Mille 2013b}; Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Cuénin 1997b}, 2; Art and Craft Textbook: {Dubos 2003}
+- *alimentation* (Il existe tout un répertoire de termes liés dont « système d’alimentation » ({{< q-cite "Azéma and Mille 2013b" >}}; Dubos pers. comm.; {{< q-cite "Cuénin 1997a" >}}, 2; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}). Dans l’industrie, le système d’alimentation a une définition très spécifique, c’est l’ensemble des conduits amenant du métal liquide pour compenser le retrait, ({{< q-cite "Cuénin 1997a" >}}, 2; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}).) | Sources: Cultural Heritage: {{< q-cite "Azéma and Mille 2013b" >}}; Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Cuénin 1997b" >}}, 2; Art and Craft Textbook: {{< q-cite "Dubos 2003" >}}
 
-- *canal de coulée* | Cultural Heritage: {Rolley 1994}, 66
+- *canal de coulée* | Cultural Heritage: {{< q-cite "Rolley 1994" >}}, 66
 
-- *jets* (Certains auteurs distinguent les jets des attaques, ces dernières désignant exclusivement les conduits reliant les jets à l’épreuve en cire ({Rama 1988}, 254; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}). Il existe tout un répertoire de termes liés : attaques de coulée ({Cuénin 1997a}, 2), système d’attaque ({Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}).) | Sources: Copper Industry: {Cuénin 1997b}, 2; Historical: {Félibien 1690}, 335; {Gonon 1876}, 5; Art and Craft Textbooks: {Rama 1988}, 253; {Lambert 2002}, 271
+- *jets* (Certains auteurs distinguent les jets des attaques, ces dernières désignant exclusivement les conduits reliant les jets à l’épreuve en cire ({{< q-cite "Rama 1988" >}}, 254; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}). Il existe tout un répertoire de termes liés : attaques de coulée ({{< q-cite "Cuénin 1997a" >}}, 2), système d’attaque ({{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}).) | Sources: Copper Industry: {{< q-cite "Cuénin 1997b" >}}, 2; Historical: {{< q-cite "Félibien 1690" >}}, 335; {{< q-cite "Gonon 1876" >}}, 5; Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 253; {{< q-cite "Lambert 2002" >}}, 271
 
-- *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 628; Art and Craft Textbook: {Rama 1988}, 253
+- *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 628; Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 253
 
 ### **Italian**: *getto*
 
@@ -70,39 +70,39 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Bruni 1994}, 72–73
+[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Bruni 1994" >}}, 72–73
 
 #### Alternate Translations
 
-- *attacco* (Small section of sprue that is often used between the wax model and the longer gate or vent; also referred to as *mozzicone*) | Source: {Bruni 1994}, 73
+- *attacco* (Small section of sprue that is often used between the wax model and the longer gate or vent; also referred to as *mozzicone*) | Source: {{< q-cite "Bruni 1994" >}}, 73
 
-- *isfiattatoio* (Refers to vents; alternative modern term: *sfiato*; another alternative early Italian pronunciation/spelling: *sfiatatoro*) | Source: {Cellini [1568] 1967}, fols. 48–50
+- *isfiattatoio* (Refers to vents; alternative modern term: *sfiato*; another alternative early Italian pronunciation/spelling: *sfiatatoro*) | Source: {{< q-cite "Cellini [1568] 1967" >}}, fols. 48–50
 
-- *mandata* (Refers to a sprue that feeds the metal into the mold vs. a vent that helps channel the air out) | Sources: {Giuffredi 2006}, 220; {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata)
+- *mandata* (Refers to a sprue that feeds the metal into the mold vs. a vent that helps channel the air out) | Sources: {{< q-cite "Giuffredi 2006" >}}, 220; {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata)
 
-- *mozzicone* (Small section of wax sprue that is often used between the wax model and the longer gate or vent; also referred to as *attacco*) | Source: {Bruni 1994}, 72–74
+- *mozzicone* (Small section of wax sprue that is often used between the wax model and the longer gate or vent; also referred to as *attacco*) | Source: {{< q-cite "Bruni 1994" >}}, 72–74
 
 - *aria* (Refers to vent)
 
-- *bocca* (Refers to gate/runner) | Source: {Cellini [1568] 1967}, fols. 51v–52
+- *bocca* (Refers to gate/runner) | Source: {{< q-cite "Cellini [1568] 1967" >}}, fols. 51v–52
 
 - *canale*
 
 - *canale di alimentazione*
 
-- *canale di colata* | Sources: {Reindell and Tommasi 1999}, 353; {Pecchioli 1999}, 193  
+- *canale di colata* | Sources: {{< q-cite "Reindell and Tommasi 1999" >}}, 353; {{< q-cite "Pecchioli 1999" >}}, 193  
 
-- *colonna di alimentazione* | Source: {Bruni 1994}, 72–74
+- *colonna di alimentazione* | Source: {{< q-cite "Bruni 1994" >}}, 72–74
 
-- *entrata* (Refers to gate/runner) | Source: {Biringuccio [1540] 1990}, fol. 81
+- *entrata* (Refers to gate/runner) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 81
 
-- *esalatorio* (Refers to vent) | Source: {Leonardo 1490}, fol. 149v
+- *esalatorio* (Refers to vent) | Source: {{< q-cite "Leonardo 1490" >}}, fol. 149v
 
-- *gitto* (Refers to a gate [sprue that feeds the metal into the mold]; also used to describe a cast [act of casting] and pour [act of pouring], as well as content of the crucible) | Source: {Biringuccio [1540] 1990}, fols. 75–78
+- *gitto* (Refers to a gate [sprue that feeds the metal into the mold]; also used to describe a cast [act of casting] and pour [act of pouring], as well as content of the crucible) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 75–78
 
-- *sfiatatoio* (Refers to vent; alternative term modern: *sfiato*; alternative early Italian: *sfiatatoro, isfiattatoio*) | Sources: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoio); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Leonardo 1490}, fol. 149r
+- *sfiatatoio* (Refers to vent; alternative term modern: *sfiato*; alternative early Italian: *sfiatatoro, isfiattatoio*) | Sources: {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoio); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Leonardo 1490" >}}, fol. 149r
 
-- *spiraculo* (Refers to vent) | Source: {Biringuccio [1540] 1990}, fol. 89
+- *spiraculo* (Refers to vent) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 89
 
 ### **Chinese**: 浇铸道
 
@@ -112,7 +112,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Alternate Translations
 
-- 浇口 | Sources: {Ming 2010}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
+- 浇口 | Sources: {{< q-cite "Ming 2010" >}}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
 
 - 竖浇道 | Source: [TNATD](https://terms.naer.edu.tw/detail/941804/?index=1)
 

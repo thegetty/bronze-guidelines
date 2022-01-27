@@ -21,9 +21,9 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 ## Sources
 
-Cultural Heritage: {Bassett and Fogelman 1997}, 74; {Penny 1993}, 308; {Dillon 2002}, 302
+Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}, 74; {{< q-cite "Penny 1993" >}}, 308; {{< q-cite "Dillon 2002" >}}, 302
 
-Art and Craft Textbook: {Untracht 1982}, 122
+Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 122
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
 
@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
 
 #### Source
 
-{Maaz 2010}, 718
+{{< q-cite "Maaz 2010" >}}, 718
 
 ### **French**: *ciselet mat*
 
@@ -43,28 +43,28 @@ Un des deux grands types de ciselets (dit aussi « mat », l’autre grand typ
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 642
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 642
 
-Art and Craft Textbook: {De Bois 1999}, 54–55
+Art and Craft Textbook: {{< q-cite "De Bois 1999" >}}, 54–55
 
 #### Alternate Translation
 
-- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({Diderot et al. 1751}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 640; Historical: {Diderot et al. 1751}, 3:480, entry « ciselets »; Art and Craft Textbook: {De Bois 1999}
+- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({{< q-cite "Diderot et al. 1751" >}}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 640; Historical: {{< q-cite "Diderot et al. 1751" >}}, 3:480, entry « ciselets »; Art and Craft Textbook: {{< q-cite "De Bois 1999" >}}
 
 ### **Italian**: *cesello*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/cesello/); {Battaglia 1961}, [here](http://www.gdli.it/JPG/GDLI03/00000019.jpg); {Cellini [1568] 1967}, fols. 21v, 33v
+[Treccani](https://www.treccani.it/vocabolario/cesello/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/JPG/GDLI03/00000019.jpg); {{< q-cite "Cellini [1568] 1967" >}}, fols. 21v, 33v
 
 #### Alternate Translation
 
-- *punzone* | Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {Cellini [1568] 1967}, fol. 27
+- *punzone* | Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {{< q-cite "Cellini [1568] 1967" >}}, fol. 27
 
 ### **Chinese**: 冲头
 
 #### Sources
 
-{Ming 2010}, 156; [TNATD](https://terms.naer.edu.tw/detail/625279/?index=1)
+{{< q-cite "Ming 2010" >}}, 156; [TNATD](https://terms.naer.edu.tw/detail/625279/?index=1)
 
 </div>

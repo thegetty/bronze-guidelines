@@ -16,15 +16,15 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 ## Sources
 
-Other: {Smith and Sepponen 2019}
+Other: {{< q-cite "Smith and Sepponen 2019" >}}
 
 ## Synonyms
 
 - *core extension*
 
-- *core print* | Source: Copper Industry: {Koch and Newell 1963}
+- *core print* | Source: Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
 
-- *core seat* | Source: Copper Industry: {Koch and Newell 1963}
+- *core seat* | Source: Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
 
 ## Translations
 
@@ -42,13 +42,13 @@ Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la renc
 
 #### Sources
 
-Copper Industry: {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
 
-Art and Craft Textbook: {Dubos 2003}
+Art and Craft Textbook: {{< q-cite "Dubos 2003" >}}
 
 #### Alternate Translation
 
-- *portée* | Sources: Copper Industry: {Bader and Théret 1961}; Art and Craft Textbook: {Rama 1988}, 140, 164
+- *portée* | Sources: Copper Industry: {{< q-cite "Bader and Théret 1961" >}}; Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 140, 164
 
 ### **Italian**: *morsa*
 
@@ -56,10 +56,10 @@ Art and Craft Textbook: {Dubos 2003}
 
 #### Source
 
-{Liu 2015}, 97
+{{< q-cite "Liu 2015" >}}, 97
 
 #### Alternate Translation
 
-- 芯撑 | Source: {Ming 2010}, 1572
+- 芯撑 | Source: {{< q-cite "Ming 2010" >}}, 1572
 
 </div>

@@ -16,11 +16,11 @@ Note: Metal is used rather than plaster because it can better withstand the wear
 
 ## Sources
 
-Cultural Heritage: {Grissom and Harvey 2003}; {Barbour and Sturman 2017}, 83; {Lebon 2003}, 14
+Cultural Heritage: {{< q-cite "Grissom and Harvey 2003" >}}; {{< q-cite "Barbour and Sturman 2017" >}}, 83; {{< q-cite "Lebon 2003" >}}, 14
 
 ## Synonyms
 
-- *pattern* (A more general term for such a hard model for sand casting. The term is more commonly used in the context of industrial production of machine parts, but may be applied to sculptures as well, though in the context of European bronzes from the early twentieth century onward, “chef-modèle” has been adopted more frequently.) | Sources: Cultural Heritage: {Motture 2019}; Historical: {Bolland 1894}; {Buchanan 1903}
+- *pattern* (A more general term for such a hard model for sand casting. The term is more commonly used in the context of industrial production of machine parts, but may be applied to sculptures as well, though in the context of European bronzes from the early twentieth century onward, “chef-modèle” has been adopted more frequently.) | Sources: Cultural Heritage: {{< q-cite "Motture 2019" >}}; Historical: {{< q-cite "Bolland 1894" >}}; {{< q-cite "Buchanan 1903" >}}
 
 ## Translations
 
@@ -40,19 +40,19 @@ Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle origina
 
 #### To Be Distinguished From
 
-- *modèle original* | Sources: Cultural Heritage: {Lebon 2012}; Art and Craft Textbooks: {Rama 1988}, 372
+- *modèle original* | Sources: Cultural Heritage: {{< q-cite "Lebon 2012" >}}; Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 372
 
 #### Alternate Translations
 
-- *cuivre* | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 759; {Lebon 2012}, Glossaire: <http://journals.openedition.org/inha/3448>
+- *cuivre* | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 759; {{< q-cite "Lebon 2012" >}}, Glossaire: <http://journals.openedition.org/inha/3448>
 
-- *maître-modèle* | Source: Art and Craft Textbook: {Rama 1988}, 372
+- *maître-modèle* | Source: Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 372
 
-- *modèle* | Sources: Cultural Heritage: {Lebon 2012}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {Koch and Newell 1963}; {Bader and Théret 1961}, 614; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Brunhuber 1988}; Art and Craft Textbooks: {Hamm 1924}, 43, 85; {Dubos 2003}
+- *modèle* | Sources: Cultural Heritage: {{< q-cite "Lebon 2012" >}}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {{< q-cite "Koch and Newell 1963" >}}; {{< q-cite "Bader and Théret 1961" >}}, 614; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Brunhuber 1988" >}}; Art and Craft Textbooks: {{< q-cite "Hamm 1924" >}}, 43, 85; {{< q-cite "Dubos 2003" >}}
 
-- *modèle mère* | Source: Copper Industry: {Bader and Théret 1961}, 615
+- *modèle mère* | Source: Copper Industry: {{< q-cite "Bader and Théret 1961" >}}, 615
 
-- *modèle-maître* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624
+- *modèle-maître* | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 624
 
 ### **Italian**: *modello*
 

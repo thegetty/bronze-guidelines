@@ -468,154 +468,154 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 # Notes
 
-[^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology ({Lemonnier 1992}). Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](#GI§1.2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze.
+[^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology {{< q-cite "Lemonnier 1992" >}}. Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](#GI§1.2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze.
 
-[^2]: {Formigli 2010}.
+[^2]: {{< q-cite "Formigli 2010" >}}.
 
-[^3]: {Rehren 2014}.
+[^3]: {{< q-cite "Rehren 2014" >}}.
 
 [^4]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
-[^5]: For example {Bresc-Bautier 1989} and {Bresc-Bautier 2003} on archival work related to sixteenth-century Parisian founders; {Somigli 1958} on the *Perseus* by Benvenuto Cellini; and {Baxandall 1965} and {Baxandall 1966} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission.
+[^5]: For example {{< q-cite "Bresc-Bautier 1989" >}} and {{< q-cite "Bresc-Bautier 2003" >}} on archival work related to sixteenth-century Parisian founders; {{< q-cite "Somigli 1958" >}} on the *Perseus* by Benvenuto Cellini; and {{< q-cite "Baxandall 1965" >}} and {{< q-cite "Baxandall 1966" >}} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission.
 
-[^6]: For example {Theophilus [ca. 1122] 1979}; {Agricola [1556] 1950}; {Biringuccio [1540] 1990}.
+[^6]: For example {{< q-cite "Theophilus [ca. 1122] 1979" >}}; {{< q-cite "Agricola [1556] 1950" >}}; {{< q-cite "Biringuccio [1540] 1990" >}}.
 
-[^7]: {Beale 1996}.
+[^7]: {{< q-cite "Beale 1996" >}}.
 
 [^8]: The specialized study of historical metal production from extraction to refinement and trade is more commonly referred to as archaeometallurgy.
 
-[^9]: Houma in China’s southwest Shanxi province was first excavated in 1957. On the Greek site see {Mattusch 1975}.
+[^9]: Houma in China’s southwest Shanxi province was first excavated in 1957. On the Greek site see {{< q-cite "Mattusch 1975" >}}.
 
-[^10]: On the Riace bronzes see {Formigli 1984}. For recent publications of the Riace Bronzes and for new developments in studies of classical bronzes, see {Daehner and Lapatin 2015}. For another opinion on the production of these statues, not widely adopted, see {Konstam and Hoffmann 2002}; {Konstam and Hoffmann 2004}.
+[^10]: On the Riace bronzes see {{< q-cite "Formigli 1984" >}}. For recent publications of the Riace Bronzes and for new developments in studies of classical bronzes, see {{< q-cite "Daehner and Lapatin 2015" >}}. For another opinion on the production of these statues, not widely adopted, see {{< q-cite "Konstam and Hoffmann 2002" >}}; {{< q-cite "Konstam and Hoffmann 2004" >}}.
 
-[^11]: For example {Bearzi 1950}; {Leoni 1979}.
+[^11]: For example {{< q-cite "Bearzi 1950" >}}; {{< q-cite "Leoni 1979" >}}.
 
-[^12]: The 1930 conference “Study of Scientific Methods Applied to the Examination and Conservation of Works of Art,” organized by the International Museums Office, was the first of such conferences. The organization’s journal *Mouseion* was one vehicle of communication for such work. And *Technical Studies in the Field of the Fine Arts*, published by the Fogg Museum (1932–42), was the first international journal to be dedicated to this interdisciplinary area of research. The International Institute for the Conservation of Museum Objects was established in 1950. See {Bewer 2010}.
+[^12]: The 1930 conference “Study of Scientific Methods Applied to the Examination and Conservation of Works of Art,” organized by the International Museums Office, was the first of such conferences. The organization’s journal *Mouseion* was one vehicle of communication for such work. And *Technical Studies in the Field of the Fine Arts*, published by the Fogg Museum (1932–42), was the first international journal to be dedicated to this interdisciplinary area of research. The International Institute for the Conservation of Museum Objects was established in 1950. See {{< q-cite "Bewer 2010" >}}.
 
-[^13]: For instance, in the 1960s and 1970s, the Oxford University Research Laboratory for Archaeology and History of Art led in the development of thermoluminescence (TL) dating of archaeological materials. And in the 1970s and 1980s, the Rathgen-Forschungslabor of the State Museums of Berlin and the British Museum’s Department of Scientific Research performed large-scale systematic analyses of alloy composition for works from different cultures and also entire museum collections. X-ray fluorescence (XRF) was applied to (among other things) the study of alloys used in Renaissance medals, and TL dating made a splash almost immediately, with controversy over the dating of medieval statuettes, alerting people to the possible pitfalls of interpreting analytical data in the absence of the full life history of an artwork ({Glinsman and Hayek 1993}; {Craddock 2009}, 143–44).
+[^13]: For instance, in the 1960s and 1970s, the Oxford University Research Laboratory for Archaeology and History of Art led in the development of thermoluminescence (TL) dating of archaeological materials. And in the 1970s and 1980s, the Rathgen-Forschungslabor of the State Museums of Berlin and the British Museum’s Department of Scientific Research performed large-scale systematic analyses of alloy composition for works from different cultures and also entire museum collections. X-ray fluorescence (XRF) was applied to (among other things) the study of alloys used in Renaissance medals, and TL dating made a splash almost immediately, with controversy over the dating of medieval statuettes, alerting people to the possible pitfalls of interpreting analytical data in the absence of the full life history of an artwork ({{< q-cite "Glinsman and Hayek 1993" >}}; {{< q-cite "Craddock 2009" >}}, 143–44).
 
-[^14]: For example {Stone 1981}; {Werner 1972}; {Beale 1975}; {Ashley-Smith 1977}; {Larsson 1979}; {von Schroeder 1981}; {Riederer 1982}; [{Craddock 1985](https://www.bcin.ca/bcin/detail.app?id=40395&lang=en&asq=&csq=craddock+africa+bronze&csa=&ps=50&pId=1)}; {Craddock and Picton 1986}; {Bagley 1987}; {Reedy and Meyers 1987}.
+[^14]: For example {{< q-cite "Stone 1981" >}}; {{< q-cite "Werner 1972" >}}; {{< q-cite "Beale 1975" >}}; {{< q-cite "Ashley-Smith 1977" >}}; {{< q-cite "Larsson 1979" >}}; {{< q-cite "von Schroeder 1981" >}}; {{< q-cite "Riederer 1982" >}}; {{< q-cite "Craddock 1985" >}}; {{< q-cite "Craddock and Picton 1986" >}}; {{< q-cite "Bagley 1987" >}}; {{< q-cite "Reedy and Meyers 1987" >}}.
 
-[^15]: {Doeringer, Mitten, and Steinberg 1970}; {Mitten and Doeringer 1967}; {Wasserman 1969}; {Wasserman 1975}; {Born 1985}.
+[^15]: {{< q-cite "Doeringer, Mitten, and Steinberg 1970" >}}; {{< q-cite "Mitten and Doeringer 1967" >}}; {{< q-cite "Wasserman 1969" >}}; {{< q-cite "Wasserman 1975" >}}; {{< q-cite "Born 1985" >}}.
 
-[^16]: {Pope and Gettens 1969}; {Milam, Reedy, and Sussman 1988}.
+[^16]: {{< q-cite "Pope and Gettens 1969" >}}; {{< q-cite "Milam, Reedy, and Sussman 1988" >}}.
 
-[^17]: The Application of Science in Examination of Works of Art seminars were held at the Museum of Fine Arts, Boston, in 1958, 1965, and 1970, and the proceedings were published respectively as {Museum of Fine Arts (Boston) Research Laboratory 1970}; {Museum of Fine Arts (Boston) Research Laboratory 1967}; {Young 1973}.
+[^17]: The Application of Science in Examination of Works of Art seminars were held at the Museum of Fine Arts, Boston, in 1958, 1965, and 1970, and the proceedings were published respectively as {{< q-cite "Museum of Fine Arts (Boston) Research Laboratory 1970" >}}; {{< q-cite "Museum of Fine Arts (Boston) Research Laboratory 1967" >}}; {{< q-cite "Young 1973" >}}.
 
 [^18]: The initial meeting of the series took place in Nijmegen, the Netherlands, in 1970, and the most recent (XX International Congress on Ancient Bronzes) took place in Tübingen, Germany, in 2018.
 
-[^19]: Among these was a series of experimental archaeology workshops on ancient bronzes organized by Edilberto Formigli ({Formigli 1993}; {Formigli 1999a}).
+[^19]: Among these was a series of experimental archaeology workshops on ancient bronzes organized by Edilberto Formigli ({{< q-cite "Formigli 1993" >}}; {{< q-cite "Formigli 1999a" >}}).
 
-[^20]: Examples include {Bewer 2001}; {Dillon 2002}; {Bewer, Stone, and Sturman 2007}; {Bassett 2008}; {Stone 2011}; {van Langh 2012}; {Smith 2013}; {Bourgarit et al. 2014}.
+[^20]: Examples include {{< q-cite "Bewer 2001" >}}; {{< q-cite "Dillon 2002" >}}; {{< q-cite "Bewer, Stone, and Sturman 2007" >}}; {{< q-cite "Bassett 2008" >}}; {{< q-cite "Stone 2011" >}}; {{< q-cite "Van Langh 2012" >}}; {{< q-cite "Smith 2013" >}}; {{< q-cite "Bourgarit et al. 2014" >}}.
 
-[^21]: The 2012 conference in Paris on French bronzes is one example among others ({Bourgarit et al. 2014}).
+[^21]: The 2012 conference in Paris on French bronzes is one example among others ({{< q-cite "Bourgarit et al. 2014" >}}).
 
-[^22]: {Janietz 2000}; {Peltz 2011}; {Zimmer et al. 2011}; {Mattusch 2014}; {Descamps-Lequime and Mille 2017}; {Willer, Schwab, and Mirschenz 2017}.
+[^22]: {{< q-cite "Janietz 2000" >}}; {{< q-cite "Peltz 2011" >}}; {{< q-cite "Zimmer et al. 2011" >}}; {{< q-cite "Mattusch 2014" >}}; {{< q-cite "Descamps-Lequime and Mille 2017" >}}; {{< q-cite "Willer, Schwab, and Mirschenz 2017" >}}.
 
-[^23]: See {Thomas and Dandridge 2018} for a recent survey of technological studies on medieval bronzes.
+[^23]: See {{< q-cite "Thomas and Dandridge 2018" >}} for a recent survey of technological studies on medieval bronzes.
 
-[^24]: {Reedy and Meyers 1987}.
+[^24]: {{< q-cite "Reedy and Meyers 1987" >}}.
 
-[^25]: Technical papers on bronzes were presented at three of the five Forbes Symposia ({Bourgarit et al. 2003}; {Reedy and Meyers 2007}; {Bewer 2012}). See also {Vincent, Bourgarit, and Jett 2012}; {Mechling et al. 2018}; {Strahan 2019}.
+[^25]: Technical papers on bronzes were presented at three of the five Forbes Symposia ({{< q-cite "Bourgarit et al. 2003" >}}; {{< q-cite "Reedy and Meyers 2007" >}}; {{< q-cite "Bewer 2012" >}}). See also {{< q-cite "Vincent, Bourgarit, and Jett 2012" >}}; {{< q-cite "Mechling et al. 2018" >}}; {{< q-cite "Strahan 2019" >}}.
 
-[^26]: For an early technical examination of an African bronze see {Fagg and Underwood 1949; {Junge 2007}; {Craddock 2009}; {Pernicka and Berswordt-Wallrabe 2008}; {Peek 2021}.
+[^26]: For an early technical examination of an African bronze see {{< q-cite "Fagg and Underwood 1949">}}; {{< q-cite "Junge 2007" >}}; {{< q-cite "Craddock 2009" >}}; {{< q-cite "Pernicka and Berswordt-Wallrabe 2008" >}}; {{< q-cite "Peek 2021" >}}.
 
-[^27]: {Polkinghorne et al. 2014}; {Meyer, Thomas, and Wyss 2014}.
+[^27]: {{< q-cite "Polkinghorne et al. 2014" >}}; {{< q-cite "Meyer, Thomas, and Wyss 2014" >}}.
 
-[^28]: For the work on French bronzes see {Bewer, Bourgarit, and Bassett 2009}; {Bourgarit et al. 2014}. The production of specific sculptors is a subject of increasing investigation, and the publications are too many to mention exhaustively here. See for example Adriaen de Vries (Netherlandish, ca. 1556–1626) ({Bewer 1999}; {Bassett 2008}), Edgar Degas (French, 1834–1917) ({Lindsay, Barbour, and Sturman 2010}), Gaston Lachaise (French, 1882–1935) ({Day et al. 2010}), Medardo Rosso (Italian, 1858–1928) ({Cooper and Hecker 2003}; {Hecker 2020}).
+[^28]: For the work on French bronzes see {{< q-cite "Bewer, Bourgarit, and Bassett 2009" >}}; {{< q-cite "Bourgarit et al. 2014" >}}. The production of specific sculptors is a subject of increasing investigation, and the publications are too many to mention exhaustively here. See for example Adriaen de Vries (Netherlandish, ca. 1556–1626) ({{< q-cite "Bewer 1999" >}}; {{< q-cite "Bassett 2008" >}}), Edgar Degas (French, 1834–1917) ({{< q-cite "Lindsay, Barbour, and Sturman 2010" >}}), Gaston Lachaise (French, 1882–1935) ({{< q-cite "Day et al. 2010" >}}), Medardo Rosso (Italian, 1858–1928) ({{< q-cite "Cooper and Hecker 2003" >}}; {{< q-cite "Hecker 2020" >}}).
 
-[^29]: For recent examples of this see {Smith and Beentjes 2010}; {Bilak et al. 2016}; {Lacey 2018}; {Lacey and Lewis 2020}. For a broader discussion of this methodology see {Dupré et al. 2020}.
+[^29]: For recent examples of this see {{< q-cite "Smith and Beentjes 2010" >}}; {{< q-cite "Bilak et al. 2016" >}}; {{< q-cite "Lacey 2018" >}}; {{< q-cite "Lacey and Lewis 2020" >}}. For a broader discussion of this methodology see {{< q-cite "Dupré et al. 2020" >}}.
 
-[^30]: {Boulton 2007; Boulton 2006}; {Lindsay, Barbour, and Sturman 2010}; {Beentjes 2019}; {Hecker 2020}.
+[^30]: {{< q-cite "Boulton 2007" >}} ; {{< q-cite "Boulton 2006" >}}; {{< q-cite "Lindsay, Barbour, and Sturman 2010" >}}; {{< q-cite "Beentjes 2019" >}}; {{< q-cite "Hecker 2020" >}}.
 
-[^31]: A technical database on antique large bronzes has been set up recently that gathers more than three hundred statues ({Descamps-Lequime and Mille 2017}). See also the aforementioned studies on Southeast Asian bronzes.
+[^31]: A technical database on antique large bronzes has been set up recently that gathers more than three hundred statues ({{< q-cite "Descamps-Lequime and Mille 2017" >}}). See also the aforementioned studies on Southeast Asian bronzes.
 
-[^32]: Developed in the 1950s for industry ({Campbell 2011}, 915), ceramic shells have been increasingly applied to fine art casting since the 1970s.
+[^32]: Developed in the 1950s for industry ({{< q-cite "Campbell 2011" >}}, 915), ceramic shells have been increasingly applied to fine art casting since the 1970s.
 
-[^33]: See for example the monumental equestrian statues by François Girardon (French, 1628–1715), *Louis XIV on Horseback* (1685–87), cast by Balthasar Keller (Helvetian, 1638–1702) in 1692 in Paris, and Jean-Louis Lemoyne (French, 1665–1755) and Jean-Baptiste II Lemoyne (French, 1704–1778), *Louis XV on Horseback* (1731–35), cast by Pierre Varin (French, active 1736–53) in 1758 in Paris ({Desmas 2014}).
+[^33]: See for example the monumental equestrian statues by François Girardon (French, 1628–1715), *Louis XIV on Horseback* (1685–87), cast by Balthasar Keller (Helvetian, 1638–1702) in 1692 in Paris, and Jean-Louis Lemoyne (French, 1665–1755) and Jean-Baptiste II Lemoyne (French, 1704–1778), *Louis XV on Horseback* (1731–35), cast by Pierre Varin (French, active 1736–53) in 1758 in Paris ({{< q-cite "Desmas 2014" >}}).
 
-[^34]: As seen notably in numerous sixteenth- and seventeenth-century life-size French bronzes ({Castelle 2016}) and medium-scale functional bronzes, for instance bases of sculptural Venetian firedogs and andirons (e.g. early seventeenth-century casts). See ({Motture 2003b}, 296, no. 4).
+[^34]: As seen notably in numerous sixteenth- and seventeenth-century life-size French bronzes ({{< q-cite "Castelle 2016" >}}) and medium-scale functional bronzes, for instance bases of sculptural Venetian firedogs and andirons (e.g. early seventeenth-century casts). See ({{< q-cite "Motture 2003b" >}}, 296, no. 4).
 
-[^35]: {Mille 2012}.
+[^35]: {{< q-cite "Mille 2012" >}}.
 
-[^36]: For instance, in antiquity the production of hollow casts may be related to the quality required by the commission and may therefore be encountered in very small figures (see {Mille 2019a}). Conversely, relatively large statuettes may be cast solid, as seen notably in South India or in Indonesia ({Mechling et al. 2018}).
+[^36]: For instance, in antiquity the production of hollow casts may be related to the quality required by the commission and may therefore be encountered in very small figures (see {{< q-cite "Mille 2019a" >}}). Conversely, relatively large statuettes may be cast solid, as seen notably in South India or in Indonesia ({{< q-cite "Mechling et al. 2018" >}}).
 
-[^37]: For more on the use of latex (a West African practice) see ({Herbert 1984}, 85), and on carved banana stems (specific to the Kingdom of Congo, now Congo Republic) see ({Herbert 1984}, 87).
+[^37]: For more on the use of latex (a West African practice) see ({{< q-cite "Herbert 1984" >}}, 85), and on carved banana stems (specific to the Kingdom of Congo, now Congo Republic) see ({{< q-cite "Herbert 1984" >}}, 87).
 
-[^38]: The first known metallic sculpture is *Bull*, found at Nausharo, Pakistan (inv. NS.90.09.00.12) ({Mille 2017}).
+[^38]: The first known metallic sculpture is *Bull*, found at Nausharo, Pakistan (inv. NS.90.09.00.12) ({{< q-cite "Mille 2017" >}}).
 
-[^39]: As with alloys, a variety of wax compositions have been used by founders and sculptors for a variety of reasons (cost, availability, properties, et cetera). See notably ({Lebon 2020}) and the appendix for French nineteenth-century recipes ({Rome and Young 2003}, 139–40) and [Case Study 7](#CaseStudy7) for examples of current practices.
+[^39]: As with alloys, a variety of wax compositions have been used by founders and sculptors for a variety of reasons (cost, availability, properties, et cetera). See notably ({{< q-cite "Lebon 2020" >}}) and the appendix for French nineteenth-century recipes ({{< q-cite "Rome and Young 2003" >}}, 139–40) and [Case Study 7](#CaseStudy7) for examples of current practices.
 
-[^40]: The earliest examples are Egyptian statues dated to the beginning of the first millennium BCE ({Mille 2017}). See also [GI§2.3.1](#GI§2.3.1).
+[^40]: The earliest examples are Egyptian statues dated to the beginning of the first millennium BCE ({{< q-cite "Mille 2017" >}}). See also [GI§2.3.1](#GI§2.3.1).
 
-[^41]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {Motture 2019}, 61, with refs, 242n119–20.)
+[^41]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {{< q-cite "Motture 2019" >}}, 61, with refs, 242n119–20.)
 
-[^42]: For an example of this see {Diemer 1996}.
+[^42]: For an example of this see {{< q-cite "Diemer 1996" >}}.
 
-[^43]: {Mille 2017}. It was not possible to characterize more precisely which process(es) were used (wax slabs or painting).
+[^43]: {{< q-cite "Mille 2017" >}}. It was not possible to characterize more precisely which process(es) were used (wax slabs or painting).
 
-[^44]: {Mille 2017}; see also [Case Study 1](#CaseStudy1).
+[^44]: {{< q-cite "Mille 2017" >}}; see also [Case Study 1](#CaseStudy1).
 
-[^45]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish based in Florence, 1529–1608, fountain completed in 1565) were made this way ({Morigi 1990}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {Castelle 2016}).
+[^45]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish based in Florence, 1529–1608, fountain completed in 1565) were made this way ({{< q-cite "Morigi 1990" >}}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {{< q-cite "Castelle 2016" >}}).
 
 [^46]: Verbal communication, Christophe Bery, director, Coubertin Foundry, July 2016.
 
-[^47]: {Cellini [1568] 1967}, 114–26.
+[^47]: {{< q-cite "Cellini [1568] 1967" >}}, 114–26.
 
-[^48]: {Bewer, Bourgarit, and Bassett 2008}; {Castelle, Bourgarit, and Bewer 2018}.
+[^48]: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Castelle, Bourgarit, and Bewer 2018" >}}.
 
 [^49]: Jean Dubos, former director of Fonderie de Coubertin, personal communication to authors, June 2019.
 
-[^50]: {Bassett and Bewer 2014}.
+[^50]: {{< q-cite "Bassett and Bewer 2014" >}}.
 
-[^51]: Such a process and material has been used to cast copper-based objects since protohistoric times ({Ottaway and Seibel 1998}).
+[^51]: Such a process and material has been used to cast copper-based objects since protohistoric times ({{< q-cite "Ottaway and Seibel 1998" >}}).
 
-[^52]: Casting with “green sand” or powders was used to make medals, plaquettes, small lamps, and so on, but these are still often classed and studied as sculpture by Renaissance art historians. See for example ({Motture 2019}, 55–57) for various recipes and references.
+[^52]: Casting with “green sand” or powders was used to make medals, plaquettes, small lamps, and so on, but these are still often classed and studied as sculpture by Renaissance art historians. See for example ({{< q-cite "Motture 2019" >}}, 55–57) for various recipes and references.
 
-[^53]: {Lebon 2012}.
+[^53]: {{< q-cite "Lebon 2012" >}}.
 
-[^54]: For example, in the Indian state of Himachal Pradesh they use molasses ({Reedy 1987}), and one expects other traditional workshops in various geographic regions may add other substances to obtain a better impression of the model.
+[^54]: For example, in the Indian state of Himachal Pradesh they use molasses ({{< q-cite "Reedy 1987" >}}), and one expects other traditional workshops in various geographic regions may add other substances to obtain a better impression of the model.
 
 [^55]: This is by far the most common technique. However, in large commercial art foundries that use resin set sand, it is common to use thin foam sheets to form the metal thickness. The foam sheets are placed or stuck on to the internal surface of the sand mold and back filled with more sand to form the core. Once set with gas, the foam sheets are removed and the mold reassembled as per normal. If the mold is complicated, the foam is burned out as the bronze is poured in.
 
-[^56]: “It occurred to Mr. Eugene Aucaigne to ask the sculptor to make his last touches in the sand mold instead of on the model, in other words to finish with intaglio carving rather than by going over the round, and the result justified his reasoning completely.” *New York Times*, March 25, 1904, cited in {Boulton 2018}.
+[^56]: “It occurred to Mr. Eugene Aucaigne to ask the sculptor to make his last touches in the sand mold instead of on the model, in other words to finish with intaglio carving rather than by going over the round, and the result justified his reasoning completely.” *New York Times*, March 25, 1904, cited in {{< q-cite "Boulton 2018" >}}.
 
-[^57]: {Lebon 2012}.
+[^57]: {{< q-cite "Lebon 2012" >}}.
 
-[^58]: {Suverkrop 1912}.
+[^58]: {{< q-cite "Suverkrop 1912" >}}.
 
-[^59]: {Chase 1991}; Strahan 2010}.
+[^59]: {{< q-cite "Chase 1991" >}}; Strahan 2010}.
 
-[^60]: For bells see {Neri and Giannichedda 2018} and {Thomas and Bourgarit 2014}, 56. For cannons see {Biringuccio [1540] 1990}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({Bernardoni 2009}). For connections between cannon casting and sculpture see {Day and Allen 2014}; {Castelle, Bourgarit, and Bewer 2018}.
+[^60]: For bells see {{< q-cite "Neri and Giannichedda 2018" >}} and {{< q-cite "Thomas and Bourgarit 2014" >}}, 56. For cannons see {{< q-cite "Biringuccio [1540] 1990" >}}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({{< q-cite "Bernardoni 2009" >}}). For connections between cannon casting and sculpture see {{< q-cite "Day and Allen 2014" >}}; {{< q-cite "Castelle, Bourgarit, and Bewer 2018" >}}.
 
-[^61]: #  It has been speculated that this technique was used for the fabrication of at least several of the bronze statues of the tomb of Maximilian I, Holy Roman Emperor, in Innsbruck, which started in the early sixteenth century ({Knitel 1987}).
+[^61]: It has been speculated that this technique was used for the fabrication of at least several of the bronze statues of the tomb of Maximilian I, Holy Roman Emperor, in Innsbruck, which started in the early sixteenth century ({{< q-cite "Knitel 1987" >}}).
 
-[^62]: {Wallack 1840}, cited by {Lebon 2012}. In the 1950s, the Gorham foundry, headquartered in Providence, Rhode Island, set up a variant of piece-mold casting to produce bronze statuettes in series using what they advertised as “plaster molding.” Here, rather than filling the void left by the lasagna, it is filled directly with the molten metal, much like the process used for casting cannons in the Renaissance.
+[^62]: {{< q-cite "Wallack 1840" >}}, cited by {{< q-cite "Lebon 2012" >}}. In the 1950s, the Gorham foundry, headquartered in Providence, Rhode Island, set up a variant of piece-mold casting to produce bronze statuettes in series using what they advertised as “plaster molding.” Here, rather than filling the void left by the lasagna, it is filled directly with the molten metal, much like the process used for casting cannons in the Renaissance.
 
-[^63]: {Papet 2001}; {Smith and Beentjes 2010}.
+[^63]: {{< q-cite "Papet 2001" >}}; {{< q-cite "Smith and Beentjes 2010" >}}.
 
-[^64]: See for example the molding of a turtle in {Making and Knowing Project et al. 2020}, folio 148v.
+[^64]: See for example the molding of a turtle in {{< q-cite "Making and Knowing Project et al. 2020" >}}, folio 148v.
 
-[^65]: {Mattusch 1990}; {Mattusch 2014}.
+[^65]: {{< q-cite "Mattusch 1990" >}}; {{< q-cite "Mattusch 2014" >}}.
 
-[^66]: {Theophilus [ca. 1122] 1979}, 132–38.
+[^66]: {{< q-cite "Theophilus [ca. 1122] 1979" >}}, 132–38.
 
-[^67]: {Craddock 2015}; {Craddock 2017}.
+[^67]: {{< q-cite "Craddock 2015" >}}; {{< q-cite "Craddock 2017" >}}.
 
-[^68]: It is used for production of series of statuettes in contemporary Nepal ({Craddock 2015}).
+[^68]: It is used for production of series of statuettes in contemporary Nepal ({{< q-cite "Craddock 2015" >}}).
 
-[^69]: {Jett 2010}.
+[^69]: {{< q-cite "Jett 2010" >}}.
 
-[^70]: See for example {Washizuka, Tomii, and Friello 1997}, 60; {Strahan 1997}, 28, fig. 10.
+[^70]: See for example {{< q-cite "Washizuka, Tomii, and Friello 1997" >}}, 60; {{< q-cite "Strahan 1997" >}}, 28, fig. 10.
 
-[^71]: Other materials, such as reeds dipped in wax, have also been used. Benvenuto Cellini described how he adapted clay water piping to use as sprues, of which traces remain on the bust of Bindo Altoviti (1549; Isabella Stewart Gardner Museum, Boston, inv. S26e21)—an astute idea, as it would prevent “scouring,” or erosion, of mold along the channels during the pour. {Cellini 1956, 344}; {Bewer and MacNamara 2012}, 73.
+[^71]: Other materials, such as reeds dipped in wax, have also been used. Benvenuto Cellini described how he adapted clay water piping to use as sprues, of which traces remain on the bust of Bindo Altoviti (1549; Isabella Stewart Gardner Museum, Boston, inv. S26e21)—an astute idea, as it would prevent “scouring,” or erosion, of mold along the channels during the pour. {{< q-cite "Cellini 1956" >}}, 344; {{< q-cite "Bewer and MacNamara 2012" >}}, 73.
 
-[^72]: For more on sprueing systems see {Rama 1988}; {Rome and Young 2003}.
+[^72]: For more on sprueing systems see {{< q-cite "Rama 1988" >}}; {{< q-cite "Rome and Young 2003" >}}.
 
-[^73]: See for example how Pierre-Jean Mariette (1694–1774) criticized Germain Boffrand’s (1667–1754) choice for the casting of a monumental equestrian statue of Louis XIV by not having used a bottom-to-top gate system ({Desmas 2014}, note 39).
+[^73]: See for example how Pierre-Jean Mariette (1694–1774) criticized Germain Boffrand’s (1667–1754) choice for the casting of a monumental equestrian statue of Louis XIV by not having used a bottom-to-top gate system ({{< q-cite "Desmas 2014" >}}, note 39).
 
-[^74]: For a brief synthesis on this see {Mechling et al. 2018}.
+[^74]: For a brief synthesis on this see {{< q-cite "Mechling et al. 2018" >}}.
 
-[^75]: This is one main area of research in modern industry ({Campbell 2011}, 939).
+[^75]: This is one main area of research in modern industry ({{< q-cite "Campbell 2011" >}}, 939).
 
-[^76]: Based on traces of attachments and inscriptions on 387 bases of Greek statues from the end of the seventh century to the first century BCE (in Delphi, Delos, Athens), Rachel Nouet ({Nouet forthcoming}) was able to infer not only attachment techniques, but also materials (bronze versus marble), sizes, and artisans. Warm thanks to the author for sharing this information. For Renaissance bases and socles see for example {Bewer 1995}, 704; {Bewer 1996b}, 86–88, and for further references see {Motture 2019}, 250n168.
+[^76]: Based on traces of attachments and inscriptions on 387 bases of Greek statues from the end of the seventh century to the first century BCE (in Delphi, Delos, Athens), Rachel Nouet ({{< q-cite "Nouet forthcoming" >}}) was able to infer not only attachment techniques, but also materials (bronze versus marble), sizes, and artisans. Warm thanks to the author for sharing this information. For Renaissance bases and socles see for example {{< q-cite "Bewer 1995" >}}, 704; {{< q-cite "Bewer 1996b" >}}, 86–88, and for further references see {{< q-cite "Motture 2019" >}}, 250n168.

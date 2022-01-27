@@ -23,13 +23,13 @@ Note: The terms “%%inlay%%” and “overlay” are often used indiscriminatel
 
 ## Sources
 
-Cultural Heritage: {Hemingway and Abramitis 2017}
+Cultural Heritage: {{< q-cite "Hemingway and Abramitis 2017" >}}
 
-Art and Craft Textbook: {Untracht 1982}, 315
+Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
 
 ## Synonyms
 
-- *encrustation* | Source: Art and Craft Textbook: {Untracht 1982}, 315
+- *encrustation* | Source: Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
 
 - *foil*
 
@@ -43,7 +43,7 @@ Art and Craft Textbook: {Untracht 1982}, 315
 
 #### Alternate Translation
 
-- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {Lein 2004}, 51  
+- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {{< q-cite "Lein 2004" >}}, 51  
 
 ### **French**: *incrustation*
 
@@ -59,19 +59,19 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 #### Alternate Translation
 
-- *damasquinure* (Pour certains auteurs ({Arminjon and Bilimoff 1998}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({Arminjon and Bilimoff 1998}, 162–63; {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 661). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({Félibien 1690}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {Arminjon and Bilimoff 1998}, 162–63; Historical: {Félibien 1690}, 460
+- *damasquinure* (Pour certains auteurs ({{< q-cite "Arminjon and Bilimoff 1998" >}}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({{< q-cite "Arminjon and Bilimoff 1998" >}}, 162–63; {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 661). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({{< q-cite "Félibien 1690" >}}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {{< q-cite "Arminjon and Bilimoff 1998" >}}, 162–63; Historical: {{< q-cite "Félibien 1690" >}}, 460
 
 ### **Italian**: *incrostazione*
 
 #### Alternate Translation
 
-- *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
+- *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
 
 ### **Chinese**: 包覆
 
 #### Source
 
-{Ming 2010}, 36
+{{< q-cite "Ming 2010" >}}, 36
 
 #### Alternate Translation
 

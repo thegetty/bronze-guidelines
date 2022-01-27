@@ -16,9 +16,9 @@ Note: Molds of varying types may be used at different stages of the bronze casti
 
 ## Sources
 
-Cultural Heritage: {Bassett and Fogelman 1997}; {Beale 1975}
+Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}; {{< q-cite "Beale 1975" >}}
 
-Art and Craft Textbook: {Reliance Foundry n.d.}
+Art and Craft Textbook: {{< q-cite "Reliance Foundry n.d." >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
@@ -34,7 +34,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 #### Source
 
-{Müller 2014}, 170–71
+{{< q-cite "Müller 2014" >}}, 170–71
 
 #### Alternate Translations
 
@@ -52,29 +52,29 @@ Note: Dans l’industrie moderne, le moule désigne généralement le moule réf
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 562
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 562
 
-Copper Industry: {Cuénin 1994}, 5
+Copper Industry: {{< q-cite "Cuénin 1994" >}}, 5
 
-Historical: {Boffrand 1743}; {Mariette 1768}; {Diderot et al. 1751}, 2:436–39, entry « bronze »
+Historical: {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Mariette 1768" >}}; {{< q-cite "Diderot et al. 1751" >}}, 2:436–39, entry « bronze »
 
-Art and Craft Textbook: {Lambert 2002}, 272
+Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 272
 
 #### Alternate Translations
 
-- *creux* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 759
+- *creux* | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 759
 
 ### **Italian**: *calco*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/calco1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+[Treccani](http://www.treccani.it/vocabolario/calco1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
 #### Alternate Translations
 
-- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {Cellini [1568] 1967}, fols. 45v–46
+- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {{< q-cite "Cellini [1568] 1967" >}}, fols. 45v–46
 
-- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {Biringuccio [1540] 1990}, fols. 77v, 80v; {Bruni 1994}, 85–86
+- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 77v, 80v; {{< q-cite "Bruni 1994" >}}, 85–86
 
 - *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
@@ -82,6 +82,6 @@ Art and Craft Textbook: {Lambert 2002}, 272
 
 #### Source
 
-{Zhang 2010}
+{{< q-cite "Zhang 2010" >}}
 
 </div>

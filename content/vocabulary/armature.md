@@ -12,11 +12,11 @@ definition: "Assemblage of joined metal rods, tubes, and/or wires (and/or other 
 
 ## Sources
 
-Cultural Heritage: {Mattusch 1996}; {Boulton 2006}; {Dillon 2002}
+Cultural Heritage: {{< q-cite "Mattusch 1996" >}}; {{< q-cite "Boulton 2006" >}}; {{< q-cite "Dillon 2002" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/armature>
 
-Copper Industry: {Brunhuber 1988}
+Copper Industry: {{< q-cite "Brunhuber 1988" >}}
 
 ## Synonym
 
@@ -30,13 +30,13 @@ Copper Industry: {Brunhuber 1988}
 
 #### Sources
 
-{Brunhuber 1988}
+{{< q-cite "Brunhuber 1988" >}}
 
 #### Alternate Translations
 
 - *Stütz-konstruktion*
 
-- *Armierung* | Source: {Maaz 2010}, 695
+- *Armierung* | Source: {{< q-cite "Maaz 2010" >}}, 695
 
 ### **French**: *armature*
 
@@ -44,43 +44,43 @@ Copper Industry: {Brunhuber 1988}
 
 <div class="backmatter">
 
-Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les fondeurs pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({Delon 1877}, 144; {Rama 1988}, 374).
+Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les fondeurs pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({{< q-cite "Delon 1877" >}}, 144; {{< q-cite "Rama 1988" >}}, 374).
 
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 626; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 626; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}
 
-Historical: {Gonon 1876}, 38; {Guettier 1858}, 300; {Delon 1877}, 144
+Historical: {{< q-cite "Gonon 1876" >}}, 38; {{< q-cite "Guettier 1858" >}}, 300; {{< q-cite "Delon 1877" >}}, 144
 
-Art and Craft Textbooks: {Lambert 2002}, 266; {Rama 1988}, 372; {Dubos 2003}
+Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 266; {{< q-cite "Rama 1988" >}}, 372; {{< q-cite "Dubos 2003" >}}
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 #### Alternate Translation
 
-- *armature de noyau* | Source: Copper Industry: {Brunhuber 1988}
+- *armature de noyau* | Source: Copper Industry: {{< q-cite "Brunhuber 1988" >}}
 
 ### **Italian**: *armatura*
 
 #### Sources
 
-{Giuffredi 2006}, 19–21; [Treccani](http://www.treccani.it/vocabolario/armatura); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura)
+{{< q-cite "Giuffredi 2006" >}}, 19–21; [Treccani](http://www.treccani.it/vocabolario/armatura); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura)
 
 #### Alternate Translations
 
-- *armadura* (Early italian spelling of *armatura*) | Source: {Leonardo 1490}, fols. 155, 157v, 144v
+- *armadura* (Early italian spelling of *armatura*) | Source: {{< q-cite "Leonardo 1490" >}}, fols. 155, 157v, 144v
 
-- *ferramenta* (Relates more specifically to the ferrous materials used for the armature) | Source: {Biringuccio [1540] 1990}, fol. 80v
+- *ferramenta* (Relates more specifically to the ferrous materials used for the armature) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 80v
 
-- *rinforzo per anime* | Source: {Brunhuber 1988}
+- *rinforzo per anime* | Source: {{< q-cite "Brunhuber 1988" >}}
 
 ### **Chinese**: 塑像內部支架
 
 #### Source
 
-{Ming 2010}, 1783
+{{< q-cite "Ming 2010" >}}, 1783
 
 #### Alternate Translation
 

@@ -16,7 +16,7 @@ Note: In sand casting, a foundry model is referred to as a “pattern” or “%
 
 ## Sources
 
-Cultural Heritage: {Boulton 2006}; {Beale 1975}; {Beentjes 2019}
+Cultural Heritage: {{< q-cite "Boulton 2006" >}}; {{< q-cite "Beale 1975" >}}; {{< q-cite "Beentjes 2019" >}}
 
 ## Translations
 
@@ -26,7 +26,7 @@ Cultural Heritage: {Boulton 2006}; {Beale 1975}; {Beentjes 2019}
 
 #### Sources
 
-{Maaz 2010}, 671
+{{< q-cite "Maaz 2010" >}}, 671
 
 ### **French**: *modèle de fonderie*
 
@@ -38,19 +38,19 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 #### Alternate Translations
 
-- *modèle* | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624; Historical: {Launay 1827}, 2:275; Art and Craft Textbooks: {Hamm 1924}, 74–82; {Rama 1988}, 36; {Lambert 2002}, 26
+- *modèle* | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 624; Historical: {{< q-cite "Launay 1827" >}}, 2:275; Art and Craft Textbooks: {{< q-cite "Hamm 1924" >}}, 74–82; {{< q-cite "Rama 1988" >}}, 36; {{< q-cite "Lambert 2002" >}}, 26
 
-- *modèle servant à la fonte* | Source: Cultural Heritage: {Bewer, Bourgarit, and Bassett 2008}
+- *modèle servant à la fonte* | Source: Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}
 
-- *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {Lebon et al. 2016}, 331
+- *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {{< q-cite "Lebon et al. 2016" >}}, 331
 
-- *pré-modèle* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 624
+- *pré-modèle* | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 624
 
 ### **Italian**: *forma da gittar di bronzo*
 
 #### Source
 
-{Biringuccio [1540] 1990}, fol. 82v
+{{< q-cite "Biringuccio [1540] 1990" >}}, fol. 82v
 
 #### Alternate Translation
 

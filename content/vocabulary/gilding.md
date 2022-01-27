@@ -12,7 +12,7 @@ definition: "The application of gold to the surface of a bronze sculpture. This 
 
 ## Sources
 
-Cultural Heritage: {Drayman-Weisser 2000}; {Oddy 1993}; {Salter and Gilmour n.d.}; {Motture 2019}, 39
+Cultural Heritage: {{< q-cite "Drayman-Weisser 2000" >}}; {{< q-cite "Oddy 1993" >}}; {{< q-cite "Salter and Gilmour n.d." >}}; {{< q-cite "Motture 2019" >}}, 39
 
 ## Translations
 
@@ -22,33 +22,33 @@ Cultural Heritage: {Drayman-Weisser 2000}; {Oddy 1993}; {Salter and Gilmour n.d.
 
 #### Source
 
-{Lein 2004}, 58
+{{< q-cite "Lein 2004" >}}, 58
 
 ### **French**: *dorure*
 
 Opération consistant à appliquer une couche d’or en surface, quel que soit le procédé. Désigne également le résultat.
 
 <div class="backmatter">
-Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {Félibien 1690}, mais uniquement du verbe (« dorer », p. 334).
+Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {{< q-cite "Félibien 1690" >}}, mais uniquement du verbe (« dorer », p. 334).
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 657; {Azéma and Mille 2013b}; {Aucouturier et al. 2003}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 657; {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Aucouturier et al. 2003" >}}
 
-Historical: {Diderot et al. 1751}, 5:57–60, entry « dorure »
+Historical: {{< q-cite "Diderot et al. 1751" >}}, 5:57–60, entry « dorure »
 
 ### **Italian**: *doratura*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/doratura/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI04/GDLI_04_ocr_970.pdf&parola=doratura); {Cellini [1568] 1967}, fol. 41
+[Treccani](http://www.treccani.it/vocabolario/doratura/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI04/GDLI_04_ocr_970.pdf&parola=doratura); {{< q-cite "Cellini [1568] 1967" >}}, fol. 41
 
 ### **Chinese**: 镀金
 
 #### Sources
 
-{Ming 2010}, 328; [TNATD](https://terms.naer.edu.tw/detail/633619/?index=1)
+{{< q-cite "Ming 2010" >}}, 328; [TNATD](https://terms.naer.edu.tw/detail/633619/?index=1)
 
 #### Alternate Translation
 

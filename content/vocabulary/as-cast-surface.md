@@ -23,9 +23,9 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 ## Sources
 
-Cultural Heritage: {Kienlin, Bischoff, and Opielka 2006}
+Cultural Heritage: {{< q-cite "Kienlin, Bischoff, and Opielka 2006" >}}
 
-Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
+Other: {{< q-cite "Burd and Greene 1948" >}}; {{< q-cite "Mödlinger and Sabatini 2016" >}}
 
 ## Translations
 
@@ -35,7 +35,7 @@ Other: {Burd and Greene 1948}; {Mödlinger and Sabatini 2016}
 
 #### Sources
 
-{Maaz 2010}, 696; {Alscher 1987}, 555
+{{< q-cite "Maaz 2010" >}}, 696; {{< q-cite "Alscher 1987" >}}, 555
 
 #### Alternate Translation
 
@@ -53,11 +53,11 @@ Note: Une belle surface faisant apparaître la qualité de la « peau de pièce
 
 #### Sources
 
-Art and Craft Textbook: {Lambert 2002}, 238
+Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 238
 
 #### Alternate Translations
 
-- *surface brute de fonderie* | Source: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632, on parle d’un état « brut de fonderie »
+- *surface brute de fonderie* | Source: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
 
@@ -67,7 +67,7 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Source
 
-{Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
+{{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
 
 #### Alternate Translation
 
@@ -77,6 +77,6 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Source
 
-{Ming 2010}, 998
+{{< q-cite "Ming 2010" >}}, 998
 
 </div>

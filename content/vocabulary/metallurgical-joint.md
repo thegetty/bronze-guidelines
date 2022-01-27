@@ -20,7 +20,7 @@ Note: The correct use of this term has been disputed among CAST:ING members, but
 
 ## Sources
 
-Cultural Heritage: {Lechtman and Steinberg 1970}; {Dillon 2002}, 299; {Tzachou-Alexandri 2000}, 92
+Cultural Heritage: {{< q-cite "Lechtman and Steinberg 1970" >}}; {{< q-cite "Dillon 2002" >}}, 299; {{< q-cite "Tzachou-Alexandri 2000" >}}, 92
 
 ## Translations
 
@@ -38,20 +38,20 @@ Cultural Heritage: {Lechtman and Steinberg 1970}; {Dillon 2002}, 299; {Tzachou-A
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/saldatura/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {Formigli 2010}, 19
+[Treccani](https://www.treccani.it/vocabolario/saldatura/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {{< q-cite "Formigli 2010" >}}, 19
 
 #### Alternate Translation
 
 - *giunzione metallurgica*
 
-- *saldatura* ((metallurgica) per colata; flow fusion welding [used in antiquity]); {Formigli 2010}, 20; {Formigli 1999c}, 318–19
+- *saldatura* ((metallurgica) per colata; flow fusion welding [used in antiquity]); {{< q-cite "Formigli 2010" >}}, 20; {{< q-cite "Formigli 1999c" >}}, 318–19
 
-- *saldatura* | Sources: {Formigli 2010}, 20; {Formigli 1999c}, 318–19
+- *saldatura* | Sources: {{< q-cite "Formigli 2010" >}}, 20; {{< q-cite "Formigli 1999c" >}}, 318–19
 
 ### **Chinese**: 冶金接合
 
 #### Source
 
-{Ming 2010}, 1643  
+{{< q-cite "Ming 2010" >}}, 1643  
 
 </div>

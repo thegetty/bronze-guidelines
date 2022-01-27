@@ -10,7 +10,7 @@ definition: "An unintended imperfection on a bronze that occurs during casting a
 
 <div class="backmatter">
 
-Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the model) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({Rome and Young 2003}).
+Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the model) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({{< q-cite "Rome and Young 2003" >}}).
 
 </div>
 
@@ -18,9 +18,9 @@ Note: Casting defects should not be confused with other defects generated before
 
 ## Sources
 
-Art and Craft Textbook: {Rome and Young 2003}
+Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}
 
-Copper Industry: {Ammen 1980}; {Campbell 2015}; {Neff 2011}
+Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "Campbell 2015" >}}; {{< q-cite "Neff 2011" >}}
 
 ## Synonym
 
@@ -38,31 +38,31 @@ Défaut non intentionnel dans l’objet survenant lors de la coulée.
 
 <div class="backmatter">
 
-Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({Boffrand 1743}, 59; {Diderot et al. 1751}, 2:436–43, entry « bronze »; {Lambert 2002}, 241), fentes, crevasses, déchirures ({Boffrand 1743}, 59; {Diderot et al. 1751}, 2:436–43, entry « bronze »), manques ({Lambert 2002}, 241).
+Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({{< q-cite "Boffrand 1743" >}}, 59; {{< q-cite "Diderot et al. 1751" >}}, 2:436–43, entry « bronze »; {{< q-cite "Lambert 2002" >}}, 241), fentes, crevasses, déchirures ({{< q-cite "Boffrand 1743" >}}, 59; {{< q-cite "Diderot et al. 1751" >}}, 2:436–43, entry « bronze »), manques ({{< q-cite "Lambert 2002" >}}, 241).
 
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 645; {Azéma and Mille 2013b}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 645; {{< q-cite "Azéma and Mille 2013b" >}}
 
-Copper Industry: {Mascré, Thomas, and Hénon 1952}; {Cuénin 1997a}, 6
+Copper Industry: {{< q-cite "Mascré, Thomas, and Hénon 1952" >}}; {{< q-cite "Cuénin 1997a" >}}, 6
 
 #### Alternate Translations
 
-- *anomalie de fonderie* | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *anomalie de fonderie* | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
-- *défaut de coulée* | Sources: Cultural Heritage: {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}
+- *défaut de coulée* | Sources: Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}
 
 ### **Italian**: *difetto di fusione*
 
 #### Sources
 
-{Pecchioli 1999}, 193; [Treccani](http://www.treccani.it/vocabolario/sbollitura/)
+{{< q-cite "Pecchioli 1999" >}}, 193; [Treccani](http://www.treccani.it/vocabolario/sbollitura/)
 
 #### Alternate Translations
 
-- *difetto di fonderia* | Sources: {Carruba 2006}, 24; {Pecchioli 1999}, 192
+- *difetto di fonderia* | Sources: {{< q-cite "Carruba 2006" >}}, 24; {{< q-cite "Pecchioli 1999" >}}, 192
 
 - *manchevolezza* (General term for describing defects) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
@@ -76,6 +76,6 @@ Copper Industry: {Mascré, Thomas, and Hénon 1952}; {Cuénin 1997a}, 6
 
 - 铸疵 | Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
 
-- 铸造缺陷 | Source: {Ming 2010}, 1832
+- 铸造缺陷 | Source: {{< q-cite "Ming 2010" >}}, 1832
 
 </div>
