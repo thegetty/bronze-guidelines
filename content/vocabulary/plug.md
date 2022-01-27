@@ -20,9 +20,9 @@ Note: It is not always easy to distinguish a plug from a %%patch%%. Radiography 
 
 ## Sources
 
-Cultural Heritage: {Dillon 2002}; {Penny 1993}; {Sturman 2004}
+Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Penny 1993" >}}; {{< q-cite "Sturman 2004" >}}
 
-Art and Craft Textbook: {Rome and Young 2003}, 311
+Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}, 311
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 
@@ -36,11 +36,11 @@ Used primarily in speech
 
 #### Alternate Translations
 
-- *Flicken* | Sources: {Meissner, Haber, and Mach 2000}, 102; {Maaz 2010}, 688
+- *Flicken* | Sources: {{< q-cite "Meissner, Haber, and Mach 2000" >}}, 102; {{< q-cite "Maaz 2010" >}}, 688
 
-- *Plombe* (Used primarily in speech) | Source: {Maaz 2010}, 716
+- *Plombe* (Used primarily in speech) | Source: {{< q-cite "Maaz 2010" >}}, 716
 
-- *Stift* (Used primarily in speech) | Source: {Bol 1985}, 139
+- *Stift* (Used primarily in speech) | Source: {{< q-cite "Bol 1985" >}}, 139
 
 ### **French**: *insert*
 
@@ -58,13 +58,13 @@ Note: Il n’est pas toujours aisé de distinguer un insert d’une plaquette de
 
 #### Source
 
-Cultural Heritage Publication: {Bourgarit, Bewer, and Bresc-Bautier 2014}
+Cultural Heritage Publication: {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
 
 #### Alternate Translations
 
-- *goupille* (On rencontre aussi le terme goupillage, {Lambert 2002}, 241.) | Source: Cultural Heritage: {Bewer, Bourgarit, and Bassett 2008}
+- *goupille* (On rencontre aussi le terme goupillage, {{< q-cite "Lambert 2002" >}}, 241.) | Source: Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}
 
-- *tige* | Source: Art and Craft Textbook: {Rama 1988}, 326
+- *tige* | Source: Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 326
 
 ### **Italian**: *tappo*
 
@@ -74,7 +74,7 @@ Cultural Heritage Publication: {Bourgarit, Bewer, and Bresc-Bautier 2014}
 
 #### Alternate Translations
 
-- *perno* | Source: {Bruni 1994}, 124–250
+- *perno* | Source: {{< q-cite "Bruni 1994" >}}, 124–250
 
 - *perno filettato* (Threaded plug)
 
@@ -82,7 +82,7 @@ Cultural Heritage Publication: {Bourgarit, Bewer, and Bresc-Bautier 2014}
 
 #### Source
 
-{Ming 2010}, 1233
+{{< q-cite "Ming 2010" >}}, 1233
 
 #### Alternate Translation
 

@@ -18,7 +18,7 @@ Note: The term is subject to dispute among the CAST:ING members. Depending on di
 
 ## Sources
 
-Cultural Heritage: {Motture 2019}; {Dillon 2002}; {Beentjes 2019}
+Cultural Heritage: {{< q-cite "Motture 2019" >}}; {{< q-cite "Dillon 2002" >}}; {{< q-cite "Beentjes 2019" >}}
 
 ## Synonym
 
@@ -32,7 +32,7 @@ Cultural Heritage: {Motture 2019}; {Dillon 2002}; {Beentjes 2019}
 
 #### Sources
 
-{Alscher 1987}, 554; {Mietzsch 2009}, 6
+{{< q-cite "Alscher 1987" >}}, 554; {{< q-cite "Mietzsch 2009" >}}, 6
 
 ### **French**: *modèle intermédiaire*
 
@@ -44,19 +44,19 @@ Note: Terme très débattu parmi les spécialistes du bronze et en particulier l
 
 #### Source
 
-Cultural Heritage: {Lamouche 2021}
+Cultural Heritage: {{< q-cite "Lamouche 2021" >}}
 
 #### Alternate Translations
 
-- *cire* (Ce terme est ambigu : une cire peut être à la fois le produit final désiré par l’artiste le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Source: Cultural Heritage: {Bresc-Bautier 1989}
+- *cire* (Ce terme est ambigu : une cire peut être à la fois le produit final désiré par l’artiste le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Source: Cultural Heritage: {{< q-cite "Bresc-Bautier 1989" >}}
 
-- *épreuve en cire* (Ce terme est ambigu : une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 254; {Bewer, Bourgarit, and Bassett 2008}; {Azéma and Mille 2013b}; {Bourgarit, Bewer, and Bresc-Bautier 2014}; Art and Craft Textbook: {Lambert 2002}, 214
+- *épreuve en cire* (Ce terme est ambigu : une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 254; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}; Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 214
 
-- *intermodèle* | Source: Cultural Heritage: {Lamouche 2021}
+- *intermodèle* | Source: Cultural Heritage: {{< q-cite "Lamouche 2021" >}}
 
-- *modèle auxiliaire* | Source: Cultural Heritage: {Mille 2007}
+- *modèle auxiliaire* | Source: Cultural Heritage: {{< q-cite "Mille 2007" >}}
 
-- *modèle de cire* (Ce terme est ambigu : un modèle en cire; peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {Rolley 1994}; {Bresc-Bautier 1989}
+- *modèle de cire* (Ce terme est ambigu : un modèle en cire; peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {{< q-cite "Rolley 1994" >}}; {{< q-cite "Bresc-Bautier 1989" >}}
 
 ### **Italian**: *modello intermedio*
 

@@ -18,11 +18,11 @@ definition: "Ability of a liquid metal to fill and pick up every detail of a mol
 
 ## Sources
 
-Copper Industry: {Schmidt and Schmidt 1992}; {Brunhuber 1988}; {Koch and Newell 1963}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Schmidt and Schmidt 1992" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 ## Synonym
 
-- *feeding power* | Source: {Hanson and Pell-Walpole 1951}, 151–52
+- *feeding power* | Source: {{< q-cite "Hanson and Pell-Walpole 1951" >}}, 151–52
 
 ## Translations
 
@@ -32,19 +32,19 @@ Copper Industry: {Schmidt and Schmidt 1992}; {Brunhuber 1988}; {Koch and Newell 
 
 #### Source
 
-{Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+{{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 #### Alternate Translations
 
-- *Formfüllungsvermögen* | Source: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Formfüllungsvermögen* | Source: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
-- *Giessbarkeit* | Sources: {Brunhuber 1988}; {Koch and Newell 1963}; {Brunhuber 1986}
+- *Giessbarkeit* | Sources: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}; {{< q-cite "Brunhuber 1986" >}}
 
-- *Giesseingeschaften* | Source: {Brunhuber 1988}
+- *Giesseingeschaften* | Source: {{< q-cite "Brunhuber 1988" >}}
 
-- *Giessfähigkeit* | Source: {Koch and Newell 1963}
+- *Giessfähigkeit* | Source: {{< q-cite "Koch and Newell 1963" >}}
 
-- *Vergiessbarkeit* | Sources: {Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *Vergiessbarkeit* | Sources: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 ### **French**: *coulabilité*
 
@@ -58,11 +58,11 @@ Aptitude d’un métal à remplir un moule dans tous ses détails, lorsqu’on l
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632; {Mille 2017}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 632; {{< q-cite "Mille 2017" >}}
 
-Copper Industry: {Cuénin 1997a}, 5; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Brunhuber 1988}; {“Glossaire de la fonderie et des domaines connexes | CTIF” n.d.}; {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Cuénin 1997a" >}}, 5; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." >}}; {{< q-cite "Koch and Newell 1963" >}}
 
-Art and Craft Textbooks: {Rama 1988}, 279; {Lambert 2002}, 174
+Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 279; {{< q-cite "Lambert 2002" >}}, 174
 
 General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788>
 
@@ -70,7 +70,7 @@ General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788
 
 #### Sources
 
-{Brunhuber 1988}
+{{< q-cite "Brunhuber 1988" >}}
 
 #### Alternate Translations
 
@@ -84,10 +84,10 @@ General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788
 
 #### Sources
 
-{Ming 2010}, 838; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+{{< q-cite "Ming 2010" >}}, 838; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
 
 #### Alternate Translations
 
-- 铸造性 | Sources: {Ming 2010}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+- 铸造性 | Sources: {{< q-cite "Ming 2010" >}}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
 
 </div>

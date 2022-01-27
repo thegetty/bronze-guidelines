@@ -16,11 +16,11 @@ Note: The surface markings can be similar to those made by a punch and thus easi
 
 ## Sources
 
-Cultural Heritage: {Smith 2015}
+Cultural Heritage: {{< q-cite "Smith 2015" >}}
 
-Historical: {Bolland 1894}, 298
+Historical: {{< q-cite "Bolland 1894" >}}, 298
 
-Copper Industry: {Palmer 1929}, 294
+Copper Industry: {{< q-cite "Palmer 1929" >}}, 294
 
 ## Translations
 
@@ -30,7 +30,7 @@ Copper Industry: {Palmer 1929}, 294
 
 #### Source
 
-{Bol 1985}, 142    
+{{< q-cite "Bol 1985" >}}, 142    
 
 ### **French**: *matage au marteau*
 
@@ -44,7 +44,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/martellatura/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura)
+[Treccani](http://www.treccani.it/vocabolario/martellatura/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura)
 
 ### **Chinese**: 轻敲
 

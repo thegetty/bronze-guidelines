@@ -18,13 +18,13 @@ Note: In common parlance, most copper alloy sculptures are referred to as “bro
 
 ## Sources
 
-Cultural Heritage: {Bayley 1991}; {Bassett 2008}, 274; {Dillon 2002}, 299; {Penny 1993}, 297; {Welter 2018}
+Cultural Heritage: {{< q-cite "Bayley 1991" >}}; {{< q-cite "Bassett 2008" >}}, 274; {{< q-cite "Dillon 2002" >}}, 299; {{< q-cite "Penny 1993" >}}, 297; {{< q-cite "Welter 2018" >}}
 
-Historical: {Buchanan 1903}, 24
+Historical: {{< q-cite "Buchanan 1903" >}}, 24
 
-Art and Craft Textbook: {Rome and Young 2003}, 302
+Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}, 302
 
-Copper Industry: {Brunhuber 1988}; {Campbell 2015}, 270; {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Campbell 2015" >}}, 270; {{< q-cite "Koch and Newell 1963" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
@@ -36,11 +36,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
 #### Sources
 
-{Weihrauch 1944}; {Maaz 2010}, 677; {Brunhuber 1988}; {Koch and Newell 1963}    
+{{< q-cite "Weihrauch 1944" >}}; {{< q-cite "Maaz 2010" >}}, 677; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}    
 
 ### **French**: *bronze*
 
-Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({Félibien 1690}, 333; {Launay 1827}, 2:251–52; {Hamm 1924}, 83; voir aussi [I.2](#I.2)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
+Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({{< q-cite "Félibien 1690" >}}, 333; {{< q-cite "Launay 1827" >}}, 2:251–52; {{< q-cite "Hamm 1924" >}}, 83; voir aussi [I.2](#I.2)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
 
 <div class="backmatter">
 
@@ -50,26 +50,26 @@ Note: Le terme désigne souvent tout objet fabriqué en alliage à base de cuivr
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 300, 643; {Rolley 1994}, 64; {Bewer, Bourgarit, and Bassett 2008}; {Welter 2008}; {Thomas 2009}, 510
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 300, 643; {{< q-cite "Rolley 1994" >}}, 64; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Welter 2008" >}}; {{< q-cite "Thomas 2009" >}}, 510
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {“Glossaire de la fonderie et des domaines connexes | CTIF” n.d.}; {Comité international du dictionnaire technique de fonderie 1955}, 7; {Brunhuber 1988}; {Koch and Newell 1963}
+Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." >}}; {{< q-cite "Comité international du dictionnaire technique de fonderie 1955" >}}, 7; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}
 
-Historical: {Diderot et al. 1751}, 2:436–43, entry « bronze »; {Launay 1827}, 2:251; {Félibien 1690}, 335; {Boffrand 1743}; {Mariette 1768}
+Historical: {{< q-cite "Diderot et al. 1751" >}}, 2:436–43, entry « bronze »; {{< q-cite "Launay 1827" >}}, 2:251; {{< q-cite "Félibien 1690" >}}, 335; {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Mariette 1768" >}}
 
-Art and Craft Textbooks: {Rama 1988}, 372; {Lambert 2002}, 266
+Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 372; {{< q-cite "Lambert 2002" >}}, 266
 
-General Dictionary: {Office québécois de la langue française. n.d.}
+General Dictionary: {{< q-cite "Office québécois de la langue française. n.d." >}}
 
 #### Alternate Translations
 
-- *airain* (Ce terme est très fréquent dans les sources écrites depuis l'antiquité comme terme générique pour décrire tout alliage à base de cuivre, bien que souvent assimilé au bronze (à l'étain) par les historiens. Terme ambigu donc.) | Source: Cultural Heritage: {Thomas 2009}, 505, 507
+- *airain* (Ce terme est très fréquent dans les sources écrites depuis l'antiquité comme terme générique pour décrire tout alliage à base de cuivre, bien que souvent assimilé au bronze (à l'étain) par les historiens. Terme ambigu donc.) | Source: Cultural Heritage: {{< q-cite "Thomas 2009" >}}, 505, 507
 
-- *bronze d’art* (Au 19e siècle, les fabricants de zinc bronzés et des autres matières imitant le bronze les appelaient « bronze d’art », jusqu’en 1910 où la réunion des fabricants obtint que tous les alliages non cuivreux devraient s’appeler « bronze imitation » ou bronze d’art –imitation (tous les alliages cuivreux avec Cu supérieur ou égale à 65%, cf loi Lebrun 1935 dans {Rama 1988}, 372). Il existe de nombreuses définitions plus ou moins divergentes. Voir par exemple ({Hamm 1924}, 83; {Launay 1827}, 2:251–52).) | Sources: Historical: {Launay d'Avranches 1827}, 2:251–52; Art and Craft Textbooks: {Rama 1988}, 372; {Hamm 1924}, 83
+- *bronze d’art* (Au 19e siècle, les fabricants de zinc bronzés et des autres matières imitant le bronze les appelaient « bronze d’art », jusqu’en 1910 où la réunion des fabricants obtint que tous les alliages non cuivreux devraient s’appeler « bronze imitation » ou bronze d’art –imitation (tous les alliages cuivreux avec Cu supérieur ou égale à 65%, cf loi Lebrun 1935 dans {{< q-cite "Rama 1988" >}}, 372). Il existe de nombreuses définitions plus ou moins divergentes. Voir par exemple ({{< q-cite "Hamm 1924" >}}, 83; {{< q-cite "Launay 1827" >}}, 2:251–52).) | Sources: Historical: {{< q-cite "Launay 1827" >}}, 2:251–52; Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 372; {{< q-cite "Hamm 1924" >}}, 83
 
 ### **Italian**: *bronzo*
 
 #### Sources
-[Treccani](http://www.treccani.it/vocabolario/bronzo/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola); {Biringuccio [1540] 1990}, fols. 80v–81; {Brunhuber 1988}
+[Treccani](http://www.treccani.it/vocabolario/bronzo/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola); {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 80v–81; {{< q-cite "Brunhuber 1988" >}}
 
 ### **Chinese**: 铜锡合金
 
@@ -77,7 +77,7 @@ Literally “copper-tin alloy”
 
 #### Source
 
-{Ming 2010}, 1440
+{{< q-cite "Ming 2010" >}}, 1440
 
 #### Alternate Translation
 

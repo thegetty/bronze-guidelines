@@ -16,7 +16,7 @@ definition: "A type of repair most often mechanically set into the bronze surfac
 
 ## Sources
 
-Cultural Heritage: {Bassett 2008}, 280, 283; {Dillon 2002}, 301–2; {Mattusch 1996}, 169–70
+Cultural Heritage: {{< q-cite "Bassett 2008" >}}, 280, 283; {{< q-cite "Dillon 2002" >}}, 301–2; {{< q-cite "Mattusch 1996" >}}, 169–70
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
@@ -28,7 +28,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 #### Sources
 
-{Meissner, Haber, and Mach 2000}, 102; {Maaz 2010}, 688
+{{< q-cite "Meissner, Haber, and Mach 2000" >}}, 102; {{< q-cite "Maaz 2010" >}}, 688
 
 ### **French**: *plaquette de réparation*
 
@@ -40,23 +40,23 @@ Note: Le métal peut être très différent de celui du bronze à réparer (voir
 
 #### Sources
 
-Cultural Heritage: {Azéma and Mille 2013b}; {Bourgarit, Bewer, and Bresc-Bautier 2014}
+Cultural Heritage: {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
 
 #### Alternate Translation
 
-- *pièce* | Sources: Historical: {Boffrand 1743}, 60; {Mariette 1768}, 127; {Diderot et al. 1751}, 2:442. entry « bronze »
+- *pièce* | Sources: Historical: {{< q-cite "Boffrand 1743" >}}, 60; {{< q-cite "Mariette 1768" >}}, 127; {{< q-cite "Diderot et al. 1751" >}}, 2:442. entry « bronze »
 
 ### **Italian**: *laminetta ad incastro*
 
 #### Sources
 
-{Pecchioli 1999}, 192–93
+{{< q-cite "Pecchioli 1999" >}}, 192–93
 
 #### Alternate Translations
 
-- *tassellatura* | Sources: {Pecchioli 1999}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
+- *tassellatura* | Sources: {{< q-cite "Pecchioli 1999" >}}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
 
-- *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
+- *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
 
 ### **Chinese**: 补修
 

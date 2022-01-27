@@ -16,7 +16,7 @@ Note: %%Founders%% do not work with such charts or maps, although strategizing o
 
 ## Source
 
-Cultural Heritage: {Mille and Descamps-Lequime 2017}
+Cultural Heritage: {{< q-cite "Mille and Descamps-Lequime 2017" >}}
 
 ## Translations
 
@@ -34,7 +34,7 @@ Note: Ce terme est très récent, il a été proposé par Benoît Mille comme é
 
 #### Source
 
-Cultural Heritage: {Azéma and Mille 2013b}
+Cultural Heritage: {{< q-cite "Azéma and Mille 2013b" >}}
 
 ### **Italian**: *schema di fusione*
 

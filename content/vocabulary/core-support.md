@@ -12,9 +12,9 @@ definition: "A general term for a variety of metal or other features that reinfo
 
 ## Sources
 
-Cultural Heritage: {Dillon 2002}; {Bassett 2008}; {Sturman 2004}; {Stone 2008}
+Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Bassett 2008" >}}; {{< q-cite "Sturman 2004" >}}; {{< q-cite "Stone 2008" >}}
 
-Copper Industry: {American Foundrymen’s Society 1984}
+Copper Industry: {{< q-cite "American Foundrymen’s Society 1984" >}}
 
 ## Translations
 
@@ -24,7 +24,7 @@ Copper Industry: {American Foundrymen’s Society 1984}
 
 #### Sources:
 
-{Brunhuber 1988}; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+{{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 ### **French**: *support de noyau*
 
@@ -36,11 +36,11 @@ Note: En anglais, à cette définition propre à la fonderie industrielle vient 
 
 #### Sources
 
-Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; {Brunhuber 1988}
+Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Brunhuber 1988" >}}
 
 #### Alternate translations
 
-- *support pour noyau* | Source: Copper Industry: {Brunhuber 1988}
+- *support pour noyau* | Source: Copper Industry: {{< q-cite "Brunhuber 1988" >}}
 
 ### **Italian**: *chiodo di sostegno*
 
@@ -54,9 +54,9 @@ Same as “core pin”
 
 - *armatura interna*
 
-- *sopporto reggi anime* | Source: {Brunhuber 1988}
+- *sopporto reggi anime* | Source: {{< q-cite "Brunhuber 1988" >}}
 
-- *sostegno di bronzo* (Also found with alternative spelling: *sustegno*) | Source: {Biringuccio [1540] 1990}, fol. 82
+- *sostegno di bronzo* (Also found with alternative spelling: *sustegno*) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 82
 
 - *supporto dell'anima di fusione*
 
@@ -64,6 +64,6 @@ Same as “core pin”
 
 #### Source
 
-{Ming 2010}, 1572
+{{< q-cite "Ming 2010" >}}, 1572
 
 </div>

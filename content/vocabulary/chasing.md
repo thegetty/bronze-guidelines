@@ -23,11 +23,11 @@ Note: In common art historical usage, the term “chasing,” when used for bron
 
 ## Sources
 
-Cultural Heritage: {Beale 1975}; {Penny 1993}, 298; {Dillon 2002}, 299; {Bassett 2008}, 274
+Cultural Heritage: {{< q-cite "Beale 1975" >}}; {{< q-cite "Penny 1993" >}}, 298; {{< q-cite "Dillon 2002" >}}, 299; {{< q-cite "Bassett 2008" >}}, 274
 
-Art and Craft Textbooks: {Rome and Young 2003}, 273; {Untracht 1982}, 122
+Art and Craft Textbooks: {{< q-cite "Rome and Young 2003" >}}, 273; {{< q-cite "Untracht 1982" >}}, 122
 
-Other: {Van Langh 2012}
+Other: {{< q-cite "Van Langh 2012" >}}
 
 ## Translations
 
@@ -37,14 +37,14 @@ Other: {Van Langh 2012}
 
 #### Sources
 
-{Maaz 2010}, 744; {Alscher 1987}, 555
+{{< q-cite "Maaz 2010" >}}, 744; {{< q-cite "Alscher 1987" >}}, 555
 
 ### **French**: *ciselure*
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
 <div class="backmatter">
-Note: Le terme a un sens plus général que celui utilisé par les orfèvres et monteurs en bronze, pour qui la ciselure désigne exclusivement le travail réalisé au ciselet ({Félibien 1690}, 337; {De Bois 1999}), par opposition à la gravure ({Hamm 1924}, 269; {De Bois 1999}). Aujourd’hui en fonderie d’art, si la réparure comprend tout le gros œuvre sur le bronze au sortir du moule (opération de décochage), souvent exécuté à l’outil tournant, la ciselure n’intervient qu’après et est le fait d’un savoir-faire spécifique.
+Note: Le terme a un sens plus général que celui utilisé par les orfèvres et monteurs en bronze, pour qui la ciselure désigne exclusivement le travail réalisé au ciselet ({{< q-cite "Félibien 1690" >}}, 337; {{< q-cite "De Bois 1999" >}}), par opposition à la gravure ({{< q-cite "Hamm 1924" >}}, 269; {{< q-cite "De Bois 1999" >}}). Aujourd’hui en fonderie d’art, si la réparure comprend tout le gros œuvre sur le bronze au sortir du moule (opération de décochage), souvent exécuté à l’outil tournant, la ciselure n’intervient qu’après et est le fait d’un savoir-faire spécifique.
 </div>
 
 #### To Be Distinguished From
@@ -60,11 +60,11 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 633
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 633
 
-Historical: {Boffrand 1743}, 59; {Diderot et al. 1751}, 3:480, entry « ciseler »
+Historical: {{< q-cite "Boffrand 1743" >}}, 59; {{< q-cite "Diderot et al. 1751" >}}, 3:480, entry « ciseler »
 
-Art and Craft Textbooks: {De Bois 1999}, 16; {Rama 1988}, 328
+Art and Craft Textbooks: {{< q-cite "De Bois 1999" >}}, 16; {{< q-cite "Rama 1988" >}}, 328
 
 #### Alternate Translation
 
@@ -76,15 +76,15 @@ Not reserved specifically for metals
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura)
+[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura)
 
 #### Alternate Translations
 
-- *rinettare* (v.) | Source: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
+- *rinettare* (v.) | Source: {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
 
-- *cesellare* | Source: {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+- *cesellare* | Source: {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
 
-- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {Formigli 2010}, 20–21    
+- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {{< q-cite "Formigli 2010" >}}, 20–21    
 
 ### **Chinese**: 铸件表面加工
 

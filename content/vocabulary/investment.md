@@ -12,9 +12,9 @@ definition: "The term can refer to the %%refractory mold%% used in the %%lost-wa
 
 ## Sources
 
-Cultural Heritage: {Motture 2019}, 35; {Salter and Gilmour n.d.}
+Cultural Heritage: {{< q-cite "Motture 2019" >}}, 35; {{< q-cite "Salter and Gilmour n.d." >}}
 
-Art and Craft Textbook: {Untracht 1982}
+Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}
 
 ## Translations
 
@@ -24,35 +24,35 @@ Art and Craft Textbook: {Untracht 1982}
 
 #### Sources
 
-{Alscher 1987}, 554
+{{< q-cite "Alscher 1987" >}}, 554
 
 #### Alternate Translation
 
-- *Gussmantel* | Source: {Maaz 2010}, 706
+- *Gussmantel* | Source: {{< q-cite "Maaz 2010" >}}, 706
 
 ### **French**: *moule de potée*
 
 Terme réservé à la fonte à la cire perdue. Désigne la partie externe du moule réfractaire, qui peut être en plâtre ou en terre.
 
 <div class="backmatter">
-Note: La potée désigne le mélange argileux servant -à l’origine- à fabriquer le moule ({Félibien 1690}, 327; {Lambert 2002}, 216), mais peut aussi parfois désigner le moule réfractaire ({Rama 1988}, 375; {Lambert 2002}, 274). En anglais, potée et moule de potée sont désignés par le même terme (investment).
+Note: La potée désigne le mélange argileux servant -à l’origine- à fabriquer le moule ({{< q-cite "Félibien 1690" >}}, 327; {{< q-cite "Lambert 2002" >}}, 216), mais peut aussi parfois désigner le moule réfractaire ({{< q-cite "Rama 1988" >}}, 375; {{< q-cite "Lambert 2002" >}}, 274). En anglais, potée et moule de potée sont désignés par le même terme (investment).
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 625; {Bewer, Bourgarit, and Bassett 2008}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 625; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}
 
-Historical: {Boffrand 1743}; {Diderot et al. 1751}, 2:436–43, entry « bronze terme de fonderie »; {Mariette 1768}
+Historical: {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Diderot et al. 1751" >}}, 2:436–43, entry « bronze terme de fonderie »; {{< q-cite "Mariette 1768" >}}
 
-Art and Craft Textbooks: {Rama 1988}, 260; {Lambert 2002}, 216
+Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 260; {{< q-cite "Lambert 2002" >}}, 216
 
 #### Alternate Translations
 
-- *moule* (Terme non univoque.) | Sources: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}; Historical: {Félibien 1690}, 329
+- *moule* (Terme non univoque.) | Sources: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; Historical: {{< q-cite "Félibien 1690" >}}, 329
 
-- *moule de coulée* | Sources: Cultural Heritage: {Rolley 1994}, 69; {Mille and Robcis 2012}; {Azéma and Mille 2013b}; Historical: {Gonon 1876}, 6; Art and Craft Textbook: {Dubos 2003}
+- *moule de coulée* | Sources: Cultural Heritage: {{< q-cite "Rolley 1994" >}}, 69; {{< q-cite "Mille and Robcis 2012" >}}; {{< q-cite "Azéma and Mille 2013b" >}}; Historical: {{< q-cite "Gonon 1876" >}}, 6; Art and Craft Textbook: {{< q-cite "Dubos 2003" >}}
 
-- *potée* | Art and Craft Textbooks: {Rama 1988}, 375; {Lambert 2002}, 274
+- *potée* | Art and Craft Textbooks: {{< q-cite "Rama 1988" >}}, 375; {{< q-cite "Lambert 2002" >}}, 274
 
 ### **Italian**: *forma*
 
@@ -60,21 +60,21 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 #### Sources
 
-{Morigi 1990}, quaderni di restauro, 3; {Pecchioli 1999}, 193; {Leonardo 1490}, fols. 154v, 142v; {Biringuccio [1540] 1990}, fols. 77v–78
+{{< q-cite "Morigi 1990" >}}, quaderni di restauro, 3; {{< q-cite "Pecchioli 1999" >}}, 193; {{< q-cite "Leonardo 1490" >}}, fols. 154v, 142v; {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 77v–78
 
 #### Alternate Translations
 
-- *camicia* (Literally “shirt”) | Source: {Biringuccio [1540] 1990}, fol. 95
+- *camicia* (Literally “shirt”) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 95
 
 - *cappa* (Layer of the investment mold)
 
-- *chappa* (Early Tuscan spelling of *cappa*) | Source: {Leonardo 1490}, fol. 156v
+- *chappa* (Early Tuscan spelling of *cappa*) | Source: {{< q-cite "Leonardo 1490" >}}, fol. 156v
 
-- *mantello (di fusione)* (Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {Carruba 2006}, 24; {Formigli and Hackländer 1999}, 301
+- *mantello (di fusione)* (Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {{< q-cite "Carruba 2006" >}}, 24; {{< q-cite "Formigli and Hackländer 1999" >}}, 301
 
-- *refrattario* (Refers to the investment material and investment mold) | Source: {Bruni 1994}, 75
+- *refrattario* (Refers to the investment material and investment mold) | Source: {{< q-cite "Bruni 1994" >}}, 75
 
-- *terra da forme* (Refers to the investment material) | Source: {Biringuccio [1540] 1990}, fols. 76v, 80v
+- *terra da forme* (Refers to the investment material) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 76v, 80v
 
 - *tunica* (*tonaca di terra*, and even more often: *involucro*) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
@@ -82,8 +82,8 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 #### Alternate Translations
 
-- 熔模材料 | Source: {Ming 2010}, 1214
+- 熔模材料 | Source: {{< q-cite "Ming 2010" >}}, 1214
 
-- 耐火材料 | Sources: {Ming 2010}, 1036; {Hua 2013}, 347
+- 耐火材料 | Sources: {{< q-cite "Ming 2010" >}}, 1036; {{< q-cite "Hua 2013" >}}, 347
 
 </div>

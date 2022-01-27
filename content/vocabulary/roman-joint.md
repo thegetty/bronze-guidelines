@@ -16,11 +16,11 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 ## Sources
 
-Cultural Heritage: {Bassett 2008}; {Beentjes 2019}; {Grissom and Harvey 2003}
+Cultural Heritage: {{< q-cite "Bassett 2008" >}}; {{< q-cite "Beentjes 2019" >}}; {{< q-cite "Grissom and Harvey 2003" >}}
 
 ## Synonyms
 
-- *mortise and tenon join* | Source: Cultural Heritage: {Bourgarit et al. 2003}
+- *mortise and tenon join* | Source: Cultural Heritage: {{< q-cite "Bourgarit et al. 2003" >}}
 - *Roman join* (alternate spelling)
 - *sleeve join*
 - *socket and tenon join*
@@ -33,7 +33,7 @@ Cultural Heritage: {Bassett 2008}; {Beentjes 2019}; {Grissom and Harvey 2003}
 
 #### Source
 
-{Willer, Schwab, and Mirschenz 2016b}, 158–59
+{{< q-cite "Willer, Schwab, and Mirschenz 2016b" >}}, 158–59
 
 ### **French**: *assemblage à la romaine*
 
@@ -45,7 +45,7 @@ Note: Des goujons (ou clavettes ou chevilles) peuvent être ajoutés. On parle a
 
 #### Sources
 
-Art and Craft Textbook: {Rama 1988}, 125
+Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 125
 
 #### Alternate Translation
 
@@ -55,7 +55,7 @@ Art and Craft Textbook: {Rama 1988}, 125
 
 #### Source
 
-{Bruni 1994}, 123
+{{< q-cite "Bruni 1994" >}}, 123
 
 #### Alternate Translation
 

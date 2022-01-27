@@ -9,16 +9,16 @@ definition: "The contraction of molten metal as it cools and solidifies after ca
 ---
 
 <div class="backmatter">
-Note: Defects resulting from shrinkage may also be called “shrinkage” ({Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}). To avoid confusion, we recommend that such casting defects be referred to as “shrinkage porosity” ({Campbell 2015}).
+Note: Defects resulting from shrinkage may also be called “shrinkage” ({{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}). To avoid confusion, we recommend that such casting defects be referred to as “shrinkage porosity” ({{< q-cite "Campbell 2015" >}}).
 </div>
 
 {{< q-figure-group grid="3" id="41" >}}
 
 ## Sources
 
-Historical: {Buchanan 1903}; {Bolland 1894}
+Historical: {{< q-cite "Buchanan 1903" >}}; {{< q-cite "Bolland 1894" >}}
 
-Copper Industry: {Ammen 1980}; {American Foundrymen’s Society 1984}; {Campbell 2015}; {Brunhuber 1988}
+Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "American Foundrymen’s Society 1984" >}}; {{< q-cite "Campbell 2015" >}}; {{< q-cite "Brunhuber 1988" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
@@ -42,11 +42,11 @@ Contraction du métal lors du refroidissement conduisant à une perte dimensionn
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 644
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 644
 
-Copper Industry: {Hénon, Mascré, and Blanc 1971}, 38; {Cuénin 1997a}, 5; {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 38; {{< q-cite "Cuénin 1997a" >}}, 5; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
-Art and Craft Textbooks: {Lambert 2002}, 275; {Rama 1988}, 375
+Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 275; {{< q-cite "Rama 1988" >}}, 375
 
 ### **Italian**: *ritiro*
 
@@ -58,6 +58,6 @@ Art and Craft Textbooks: {Lambert 2002}, 275; {Rama 1988}, 375
 
 #### Sources
 
-{Ming 2010}, 1313; [TNATD](https://terms.naer.edu.tw/detail/941509/?index=5)
+{{< q-cite "Ming 2010" >}}, 1313; [TNATD](https://terms.naer.edu.tw/detail/941509/?index=5)
 
 </div>

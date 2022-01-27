@@ -22,7 +22,7 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 ## Sources
 
-Cultural Heritage: {Dillon 2002}, 300
+Cultural Heritage: {{< q-cite "Dillon 2002" >}}, 300
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
@@ -34,30 +34,30 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 #### Source
 
-{Maaz 2010}, 720
+{{< q-cite "Maaz 2010" >}}, 720
 
 ### **French**: *épreuve d’édition*
 
 Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même modèle. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](#II.4§1.1.1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
 <div class="backmatter">
-Note: Non spécifique au bronze. On parle de « multiples » pour désigner plusieurs épreuves ({Lebon et al. 2016}, 330).
+Note: Non spécifique au bronze. On parle de « multiples » pour désigner plusieurs épreuves ({{< q-cite "Lebon et al. 2016" >}}, 330).
 </div>
 
 #### To Be Distinguished From
 
 - *copie*
-- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
+- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
 - *variante*
 - *version*
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 545
 
 #### Alternate Translation
 
-- *épreuve de série* | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545
+- *épreuve de série* | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 545
 
 ### **Italian**: *multiplo*
 
@@ -65,12 +65,12 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 - *replica* (An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
 
-- *riproduzione* (general term) | Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
+- *riproduzione* (general term) | Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
 
 ### **Chinese**: 复制品
 
 #### Sources
 
-{Ming 2010}, 457; [TNATD](https://terms.naer.edu.tw/detail/625076/?index=1)
+{{< q-cite "Ming 2010" >}}, 457; [TNATD](https://terms.naer.edu.tw/detail/625076/?index=1)
 
 </div>

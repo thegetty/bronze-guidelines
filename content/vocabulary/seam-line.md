@@ -22,9 +22,9 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 ## Sources
 
-Cultural Heritage: {Lie and Bewer 2014}, 47
+Cultural Heritage: {{< q-cite "Lie and Bewer 2014" >}}, 47
 
-Art and Craft Textbooks: {Rome and Young 2003}; {Rich 1988}, 410
+Art and Craft Textbooks: {{< q-cite "Rome and Young 2003" >}}; {{< q-cite "Rich 1988" >}}, 410
 
 ## Translations
 
@@ -34,37 +34,37 @@ Art and Craft Textbooks: {Rome and Young 2003}; {Rich 1988}, 410
 
 #### Source
 
-{Maaz 2010}, 696
+{{< q-cite "Maaz 2010" >}}, 696
 
 ### **French**: *couture*
 
-Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du moule réfractaire mais aussi de tous les moules possiblement utilisés avant la coulée pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf {Mille and Robcis 2012}, etc., voir [I.1](#I.1)).
+Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du moule réfractaire mais aussi de tous les moules possiblement utilisés avant la coulée pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf {{< q-cite "Mille and Robcis 2012" >}}, etc., voir [I.1](#I.1)).
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 565
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 565
 
-Art and Craft Textbooks: {Lambert 2002}, 268; {Rama 1988}, 373
+Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 268; {{< q-cite "Rama 1988" >}}, 373
 
 #### Alternate Translations
 
-- *balesvre* / *balevre* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 758
+- *balesvre* / *balevre* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
 
-- *barbe* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *barbe* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
-- *barbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 758
+- *barbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
 
-- *bavochure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 758
+- *bavochure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
 
-- *bavure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les références données ne concernent que la fonte au sable.) | Sources: Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 632; Art and Craft Textbook: {Rama 1988}, 373
+- *bavure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les références données ne concernent que la fonte au sable.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 632; Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 373
 
-- *bavure de joint* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979}
+- *bavure de joint* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
 
 - *ébarbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
 - *suture* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
-- *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {Launay 1827}, 2:261
+- *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {{< q-cite "Launay 1827" >}}, 2:261
 
 ### **Italian**: *linea di giunzione*
 
@@ -80,6 +80,6 @@ Literally “line of joint”
 
 #### Source
 
-{Zhang 2010}, 80
+{{< q-cite "Zhang 2010" >}}, 80
 
 </div>

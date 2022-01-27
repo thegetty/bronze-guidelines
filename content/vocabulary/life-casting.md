@@ -20,7 +20,7 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 ## Sources
 
-Cultural Heritage: {Smith and Beentjes 2010}
+Cultural Heritage: {{< q-cite "Smith and Beentjes 2010" >}}
 
 ## Synonym
 
@@ -34,23 +34,23 @@ Cultural Heritage: {Smith and Beentjes 2010}
 
 #### Source
 
-{Lein 2004}, 42–45
+{{< q-cite "Lein 2004" >}}, 42–45
 
 #### Alternate Translation
 
-- *Abguss über die Natur* | Source: {Uhlenhuth 1920}, 51–53
+- *Abguss über die Natur* | Source: {{< q-cite "Uhlenhuth 1920" >}}, 51–53
 
 ### **French**: *fonte sur le vif*
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un moule réfractaire, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
 <div class="backmatter">
-Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé apparaît sous la forme « mouler sur le naturel » ({Making and Knowing Project et al. 2020}, folio 110v). Remarquer qu’une fonte sur le vif peut être creuse.
+Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé apparaît sous la forme « mouler sur le naturel » ({{< q-cite "Making and Knowing Project et al. 2020" >}}, folio 110v). Remarquer qu’une fonte sur le vif peut être creuse.
 </div>
 
 #### Source
 
-Cultural Heritage: {Making and Knowing Project et al. 2020}
+Cultural Heritage: {{< q-cite "Making and Knowing Project et al. 2020" >}}
 
 ### **Italian**: *fusione dal vero*
 

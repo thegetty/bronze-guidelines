@@ -16,11 +16,11 @@ Note: Most metals undergo natural corrosion, except for pure so-called noble met
 
 ## Sources
 
-Cultural Heritage: {Gettens 1970}; {Scott 2002}; {Chase 1994}; {Selwyn and Canadian Conservation Institute 2004}
+Cultural Heritage: {{< q-cite "Gettens 1970" >}}; {{< q-cite "Scott 2002" >}}; {{< q-cite "Chase 1994" >}}; {{< q-cite "Selwyn and Canadian Conservation Institute 2004" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/corrosion>
 
-Other: {Scott 1991}, 43–47, 81
+Other: {{< q-cite "Scott 1991" >}}, 43–47, 81
 
 ## Translations
 
@@ -34,24 +34,24 @@ Pour un bronze, transformation chimique du métal en un composé non métallique
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 648; {Aucouturier et al. 2003}; {Robbiola 2015}
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 648; {{< q-cite "Aucouturier et al. 2003" >}}; {{< q-cite "Robbiola 2015" >}}
 
-Art and Craft Textbook: {Rama 1988}, 372
+Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 372
 
 ### **Italian**: *corrosione*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/corrosione); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione)
+[Treccani](http://www.treccani.it/vocabolario/corrosione); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione)
 
 ### **Chinese**: 腐蚀
 
 #### Sources
 
-{Ming 2010}, 452; [TNATD](https://terms.naer.edu.tw/detail/655779/?index=2)
+{{< q-cite "Ming 2010" >}}, 452; [TNATD](https://terms.naer.edu.tw/detail/655779/?index=2)
 
 #### Alternate Translation
 
-- 锈蚀 | Sources: {Ming 2010}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
+- 锈蚀 | Sources: {{< q-cite "Ming 2010" >}}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
 
 </div>

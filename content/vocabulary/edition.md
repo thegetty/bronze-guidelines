@@ -23,7 +23,7 @@ Note: Casts from any given edition will be essentially identical in form and siz
 
 ## Sources
 
-Cultural Heritage: {Bassett and Fogelman 1997}, 32; {Beale 1975}; {Dillon 2002}
+Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}, 32; {{< q-cite "Beale 1975" >}}; {{< q-cite "Dillon 2002" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
@@ -39,25 +39,25 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 #### Source
 
-{Maaz 2010}, 671, 683
+{{< q-cite "Maaz 2010" >}}, 671, 683
 
 #### Alternate Translation
 
-- *Edition* | Source: {Mietzsch 2009}, 103
+- *Edition* | Source: {{< q-cite "Mietzsch 2009" >}}, 103
 
 ### **French**: *édition*
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
 <div class="backmatter">
-Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {Rama 1988}, 372), épreuves d’édition, exemplaires d’édition ({Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 545), etc..
+Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {{< q-cite "Rama 1988" >}}, 372), épreuves d’édition, exemplaires d’édition ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 545), etc..
 </div>
 
 #### Sources
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}; {Lebon et al. 2016}, 330
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}; {{< q-cite "Lebon et al. 2016" >}}, 330
 
-Art and Craft Textbook: {Rama 1988}
+Art and Craft Textbook: {{< q-cite "Rama 1988" >}}
 
 ### **Italian**: *edizione*
 
@@ -75,7 +75,7 @@ Art and Craft Textbook: {Rama 1988}
 
 #### Sources:
 
-{Ming 2010}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
+{{< q-cite "Ming 2010" >}}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
 
 #### Alternate Translation
 

@@ -19,7 +19,7 @@ definition: "A bronze that is similar in form to another, but with some differen
 
 ## Sources
 
-Cultural Heritage: {Dillon 2002}; {Frapiccini 2017}; {Bassett 2008}
+Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Frapiccini 2017" >}}; {{< q-cite "Bassett 2008" >}}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 #### Source
 
-{Weihrauch 1967}, 476
+{{< q-cite "Weihrauch 1967" >}}, 476
 
 ### **French**: *version*
 
@@ -43,7 +43,7 @@ Déclinaison d’un modèle avec des variations dans la forme ou dans les dimens
 
 #### Source
 
-Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978}, 549
+Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 549
 
 #### Alternate Translations
 
@@ -54,7 +54,7 @@ Cultural Heritage: {Baudry, Bozo, and Inventaire général des monuments et des 
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/variante1/); {Battaglia 1961}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)  
+[Treccani](http://www.treccani.it/vocabolario/variante1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)  
 
 ### **Chinese**: 变体
 
@@ -62,10 +62,10 @@ Literally “modification"
 
 #### Sources
 
-{Ming 2010}, 65; [TNATD](https://terms.naer.edu.tw/detail/1092446/?index=4)
+{{< q-cite "Ming 2010" >}}, 65; [TNATD](https://terms.naer.edu.tw/detail/1092446/?index=4)
 
 #### Alternate Translation
 
-- 变型 (Literally “modification”) | Sources: {Ming 2010}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
+- 变型 (Literally “modification”) | Sources: {{< q-cite "Ming 2010" >}}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
 
 </div>
