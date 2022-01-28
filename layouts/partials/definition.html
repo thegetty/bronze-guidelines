@@ -15,11 +15,15 @@
 */}}
 {{- $term := .Term -}}
 {{- $termDisplay := .Display -}}
+{{- $title := "" -}}
 {{- $def := "" -}}
 {{- $link := "" -}}
 
 {{- range where .Site.Pages "Layout" "vocabulary" -}}
-  {{- if eq $term .Title -}}
+  {{- $regularizedTerm := $term | urlize | replaceRE "hes$" "h" | replaceRE "s$" "" -}}
+  {{- $regularizedTitle := .Title | urlize -}}
+  {{- if eq $regularizedTerm $regularizedTitle -}}
+    {{- $title = .Title -}}
     {{- $def = .Params.definition -}}
     {{- $link = .Permalink -}}
   {{- end -}}
@@ -35,6 +39,6 @@
   {{- $def = replaceRE "{{< q-def \"(.[^\"]*?)\" >}}" "$1" $def }}
   {{- $def = replaceRE "{{< q-def \"(.[^\"]*?)\" \"(.[^\"]*?)\" >}}" "$2" $def -}}
 
-  <span class="quire-citation quire-definition expandable"><span class="quire-citation__button quire-definition__button" role="button" tabindex="0" aria-expanded="false">{{ if $termDisplay }}{{ $termDisplay | markdownify }}{{ else }}{{ $term }}{{ end }}</span><span hidden class="quire-citation__content quire-definition__content"><span class="visually-hidden">Definition: </span><strong>{{ $term }}: </strong>{{ markdownify $def | truncate 420 }} <a href="{{ $link | relURL }}" class="quire-definition__content__more-link">More</a></span></span>
+  <span class="quire-citation quire-definition expandable"><span class="quire-citation__button quire-definition__button" role="button" tabindex="0" aria-expanded="false">{{ if $termDisplay }}{{ $termDisplay | markdownify }}{{ else }}{{ $term }}{{ end }}</span><span hidden class="quire-citation__content quire-definition__content"><span class="visually-hidden">Definition: </span><strong>{{ $title }}: </strong>{{ markdownify $def | truncate 420 }} <a href="{{ $link | relURL }}" class="quire-definition__content__more-link">More</a></span></span>
 
 {{- end -}}
