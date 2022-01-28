@@ -21,7 +21,7 @@
 
 {{- range where .Site.Pages "Layout" "vocabulary" -}}
   {{- $regularizedTerm := $term | urlize | replaceRE "hes$" "h" | replaceRE "s$" "" -}}
-  {{- $regularizedTitle := .Title | urlize -}}
+  {{- $regularizedTitle := .Title | urlize | replaceRE "[.]$" "" -}}
   {{- if eq $regularizedTerm $regularizedTitle -}}
     {{- $title = .Title -}}
     {{- $def = .Params.definition -}}
