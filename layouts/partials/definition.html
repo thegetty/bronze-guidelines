@@ -1,0 +1,40 @@
+{{/*
+
+  This partial is an adaptation of the q-cite shortcode, but instead displays terms and definitions from the Vocabulary pages of the book. And provides a direct link to those pages for more information.
+
+  This partial expects at least a "Term" which must match a `title` from any markdown file in the book that has `layout: vocabulary` set.
+
+  The optional "Display" value allows you to customize the linked text as it will appear. In this way you can control capitalization when neceessary or link from alternate forms of the term.
+
+  dict "Site" $.Site "Term" "UVR" "Display" "Ultraviolet radiation"
+
+  This custom partial is used in the q-def shortcode, and also in the `layouts/page/vocabulary.html` template, which uses findRE and replaceRE to process q-def shortcodes in the YAML definition text.
+
+  When a term does not match a vocabulary page, it is returned in bold red text with a † marker to facilitate proofreading and corrections.
+
+*/}}
+{{- $term := .Term -}}
+{{- $termDisplay := .Display -}}
+{{- $def := "" -}}
+{{- $link := "" -}}
+
+{{- range where .Site.Pages "Layout" "vocabulary" -}}
+  {{- if eq $term .Title -}}
+    {{- $def = .Params.definition -}}
+    {{- $link = .Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if eq $def "" -}}
+
+  <strong style="font-weight: bold; color: red;">{{ $term }}<sup>†</sup></strong>
+
+{{- else -}}
+
+  {{/* STRIP OUT SHORTCODES */}}
+  {{- $def = replaceRE "{{< q-def \"(.[^\"]*?)\" >}}" "$1" $def }}
+  {{- $def = replaceRE "{{< q-def \"(.[^\"]*?)\" \"(.[^\"]*?)\" >}}" "$2" $def -}}
+
+  <span class="quire-citation quire-definition expandable"><span class="quire-citation__button quire-definition__button" role="button" tabindex="0" aria-expanded="false">{{ if $termDisplay }}{{ $termDisplay | markdownify }}{{ else }}{{ $term }}{{ end }}</span><span hidden class="quire-citation__content quire-definition__content"><span class="visually-hidden">Definition: </span><strong>{{ $term }}: </strong>{{ markdownify $def | truncate 420 }} <a href="{{ $link | relURL }}" class="quire-definition__content__more-link">More</a></span></span>
+
+{{- end -}}

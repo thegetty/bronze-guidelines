@@ -216,9 +216,13 @@
 }
 
 /* TEMP for visual testing of figure callouts */
-.quire-full-width .quire-page__content .container .content strong {
+.quire-full-width .quire-page__content strong {
   color: var(--accent-color);
   font-weight: 400;
+}
+.quire-full-width .quire-page__content .quire-definition__content strong {
+  color: inherit;
+  font-weight: 700;
 }
 
 
@@ -236,6 +240,12 @@
   margin-top: 4rem;
 }
 
+.quire-definition__content__more-link {
+  display: block;
+  width: max-content;
+  margin-top: .5em;
+  margin-left: 330px;
+}
 
 /* FIGURES
 ============================================================================= */
