@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The term has at least three different meanings: 1) a pleasing surface alteration acquired over time—whether on a bronze or marble sculpture, furniture, or a painting—that may add aesthetic value; 2) the chemical transformation of a metal surface to a mineral layer (sometimes referred to as chemical patina, see %%corrosion%%) that usually has a different color from and reduces the bright metallic reflectance of the polished original cast surface; or 3) (as opposed to chemically induced patinas) organic %%coatings%% such as resin, lacquer, oil, wax, or synthetic resins applied to the surface of metals that can change the color, texture, saturation, and/or reflectance."
+definition: 'The term has at least three different meanings: 1) a pleasing surface alteration acquired over time—whether on a bronze or marble sculpture, furniture, or a painting—that may add aesthetic value; 2) the chemical transformation of a metal surface to a mineral layer (sometimes referred to as chemical patina, see %%corrosion%%) that usually has a different color from and reduces the bright metallic reflectance of the polished original cast surface; or 3) (as opposed to chemically induced patinas) organic %%coatings%% such as resin, lacquer, oil, wax, or synthetic resins applied to the surface of metals that can change the color, texture, saturation, and/or reflectance.'
 ---
 
 <div class="backmatter">

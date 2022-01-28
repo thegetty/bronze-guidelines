@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other %%casting defects%%. Cast-on repairs may fill a void in the sculpture or secure a separately formed %%patch%% or element to the cast. See [I.4](#I.4)."
+definition: '{{< q-def "brass" >}} ABBB type of repair consisting of a localized cast of molten copper alloy to fill cavities or other %%casting defects%%. Cast-on repairs may fill a void in the sculpture or secure a separately formed %%patch%% {{< q-def "brass" >}} {{< q-def "chaplet" "Chaplets" >}} {{< q-def "bronzish" >}} or element to the cast. See [I.4](#I.4).'
 ---
 
 {{< q-figure-group grid="3" id="65, 123, 169, 177, 179, 180, 181, 182, 184, 196">}}
@@ -60,13 +60,13 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 #### Sources
 
-{{< q-cite "Rohnstock 1999" >}}  
+{{< q-cite "Rohnstock 1999" >}}
 
 #### Alternate Translations
 
 - *rifusione* | Source: {{< q-cite "Morigi and Morigi 2008" >}}
 
-- *rigetto* | Source: {{< q-cite "Morigi and Morigi 2008" >}}  
+- *rigetto* | Source: {{< q-cite "Morigi and Morigi 2008" >}}
 
 ### **Chinese**: 修补浇铸
 

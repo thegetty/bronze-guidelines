@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied."
+definition: 'A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
 ---
 
 <div class="backmatter">

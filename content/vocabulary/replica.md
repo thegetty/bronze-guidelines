@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "Here used to describe the precise reproduction of a bronze made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a model made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the %%core%% in %%sand casting%% or piece-mold casting). In lost-wax casting, bronzes fashioned from %%inter-models%% made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same %%chef-modèle%%. Numerous replicas of the same bronze are called “multiples.”"
+definition: 'Here used to describe the precise reproduction of a bronze made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a model made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the %%core%% in %%sand casting%% or piece-mold casting). In lost-wax casting, bronzes fashioned from %%inter-models%% made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same %%chef-modèle%%. Numerous replicas of the same bronze are called “multiples.”'
 ---
 
 <div class="backmatter">

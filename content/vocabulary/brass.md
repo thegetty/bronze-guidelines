@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A copper alloy with zinc as the primary added element. As with bronzes, there are a wide variety of brass alloys."
+definition: 'A copper alloy with zinc as the primary added element. As with bronzes, there are a wide variety of brass alloys.'
 ---
 
 {{< q-figure-group grid="3" id="133" >}}

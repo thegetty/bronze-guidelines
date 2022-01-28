@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "In relation to bronzes, the process of decorating the surface by removing material with a chisel, burin, or graver that creates a V-shaped groove."
+definition: 'In relation to bronzes, the process of decorating the surface by removing material with a chisel, burin, or graver that creates a V-shaped groove.'
 ---
 
 <div class="backmatter">

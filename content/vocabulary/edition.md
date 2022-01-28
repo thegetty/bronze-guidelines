@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value."
+definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'
 ---
 
 <div class="backmatter">

@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A three-dimensional negative form made of one or more parts that serves as a matrix for the production of a positive by casting or pressing malleable material into it. Molds allow for the production of one or more copies of an original sculpture."
+definition: 'A three-dimensional negative form made of one or more parts that serves as a matrix for the production of a positive by casting or pressing malleable material into it. Molds allow for the production of one or more copies of an original sculpture.'
 ---
 
 <div class="backmatter">

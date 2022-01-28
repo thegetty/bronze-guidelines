@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A metal rod, nail, or wire that is embedded in both the %%core%% and the outer mold and serves to secure the core in place during the pour. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel."
+definition: 'A metal rod, nail, or wire that is embedded in both the %%core%% and the outer mold and serves to secure the core in place during the pour. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'
 ---
 
 <div class="backmatter">

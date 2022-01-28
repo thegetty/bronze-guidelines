@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "Decorative element on a sculpture usually added for visual contrast through color and/or texture. The top surface of an inlay is generally flush with the surrounding metal. A wide range of attachment methods may be used, including solder, adhesives, cements, burrs, undercuts, and/or rivets, but the basic technique involves shaping the inlay and incising the ground metal to produce a cavity of the inlay shape. Inlay materials may include metals, glass, stone, or bone, among others."
+definition: 'Decorative element on a sculpture usually added for visual contrast through color and/or texture. The top surface of an inlay is generally flush with the surrounding metal. A wide range of attachment methods may be used, including solder, adhesives, cements, burrs, undercuts, and/or rivets, but the basic technique involves shaping the inlay and incising the ground metal to produce a cavity of the inlay shape. Inlay materials may include metals, glass, stone, or bone, among others.'
 ---
 
 <div class="backmatter">

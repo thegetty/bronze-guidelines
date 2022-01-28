@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).
+definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).'
 ---
 
 {{< q-figure-group grid="3" id="549">}}
@@ -71,7 +71,7 @@ Foundry-specific term that relates to the pouring of metal
 
 - *fondere* (Used in reference to the melting of the metal) | Sources: [Treccani](http://www.treccani.it/vocabolario/fondere/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {{< q-cite "Leonardo 1490" >}}, fol. 150r
 
-- *gittare* (Early Italian spelling of *gettare*) | Sources: {{< q-cite "Leonardo 1490" >}}, fol. 143; {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 89v–90  
+- *gittare* (Early Italian spelling of *gettare*) | Sources: {{< q-cite "Leonardo 1490" >}}, fol. 143; {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 89v–90
 
 ### **Chinese**: 铸造
 

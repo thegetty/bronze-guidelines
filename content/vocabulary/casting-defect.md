@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](#I.3)."
+definition: 'An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](#I.3).'
 ---
 
 <div class="backmatter">

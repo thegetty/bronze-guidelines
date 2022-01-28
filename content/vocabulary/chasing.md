@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The process of fine detailed “cold work” after casting and %%fettling%% that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, %%engraving%%, and/or %%chiseling%%, and in modern times also with power and pneumatic tools."
+definition: 'The process of fine detailed “cold work” after casting and %%fettling%% that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, %%engraving%%, and/or %%chiseling%%, and in modern times also with power and pneumatic tools.'
 ---
 
 <div class="backmatter">

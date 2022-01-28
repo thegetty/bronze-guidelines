@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting."
+definition: 'A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting.'
 ---
 
 <div class="backmatter">

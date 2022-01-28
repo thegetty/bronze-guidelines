@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a %%piece mold%%. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a %%refractory%% %%piece mold%% join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme %%flashing%% occurs with ill-fitting pieces."
+definition: 'A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a %%piece mold%%. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a %%refractory%% %%piece mold%% join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme %%flashing%% occurs with ill-fitting pieces.'
 ---
 
 <div class="backmatter">

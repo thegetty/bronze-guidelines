@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The application of gold to the surface of a bronze sculpture. This can be achieved by a variety of methods. Traditionally gilding was mainly undertaken using leaf gilding or mercury gilding. Starting in the nineteenth century, electrochemical plating or deposition began to be used, as well as gold powder paint or wax. See [I.7](#I.7)."
+definition: 'The application of gold to the surface of a bronze sculpture. This can be achieved by a variety of methods. Traditionally gilding was mainly undertaken using leaf gilding or mercury gilding. Starting in the nineteenth century, electrochemical plating or deposition began to be used, as well as gold powder paint or wax. See [I.7](#I.7).'
 ---
 
 {{< q-figure-group grid="3" id="287, 290, 293, 294, 295, 296, 297, 299, 301, 555">}}

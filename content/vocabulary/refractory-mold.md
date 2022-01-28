@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the model to be reproduced and forms the void into which the molten metal will be cast. Investment, green sand, and ceramic shell are examples of refractory molds."
+definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the model to be reproduced and forms the void into which the molten metal will be cast. Investment, green sand, and ceramic shell are examples of refractory molds.'
 ---
 
 <div class="backmatter">

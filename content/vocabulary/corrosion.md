@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A chemical process that causes a metal such as bronze to change from a metallic state into a chemically more stable mineral compound known as a corrosion product."
+definition: 'A chemical process that causes a metal such as bronze to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.'
 ---
 
 <div class="backmatter">

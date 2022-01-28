@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A type of repair that fills a flaw that extends through the full thickness of the metal wall, for example those that occur with the removal of core pins and armature rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](#I.4)."
+definition: 'A type of repair that fills a flaw that extends through the full thickness of the metal wall, for example those that occur with the removal of core pins and armature rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](#I.4).'
 ---
 
 <div class="backmatter">

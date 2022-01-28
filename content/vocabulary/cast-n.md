@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A sculpture or more generally an object that is shaped by pouring a molten material or a slurry into a mold in which it will solidify. Plaster of paris, metal, and wax are among the cast-forming sculptural materials routinely involved in bronze production. The term may also refer to the amount of homogenous molten metal resulting from a single pour."
+definition: 'A sculpture or more generally an object that is shaped by pouring a molten material or a slurry into a mold in which it will solidify. Plaster of paris, metal, and wax are among the cast-forming sculptural materials routinely involved in bronze production. The term may also refer to the amount of homogenous molten metal resulting from a single pour.'
 ---
 
 <div class="backmatter">

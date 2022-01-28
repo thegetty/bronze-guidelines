@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "Refers to the surface immediately after removal from the mold, before fettling and chasing."
+definition: 'Refers to the surface immediately after removal from the mold, before fettling and chasing.'
 ---
 
 <div class="backmatter">

@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "Purposefully applied surface deposits or films on bronze sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”"
+definition: 'Purposefully applied surface deposits or films on bronze sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
 ---
 
 <div class="backmatter">

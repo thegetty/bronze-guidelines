@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The creation of a bronze may involve a series of models and %%molds%% that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](#I.1)."
+definition: 'The creation of a bronze may involve a series of models and %%molds%% that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](#I.1).'
 ---
 
 <div class="backmatter">

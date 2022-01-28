@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "A tool usually made of a steel rod that may be struck with a hammer at one end in order to create a pattern in the surface of the sculpture with the other end by compressing the metal."
+definition: 'A tool usually made of a steel rod that may be struck with a hammer at one end in order to create a pattern in the surface of the sculpture with the other end by compressing the metal.'
 ---
 
 <div class="backmatter">

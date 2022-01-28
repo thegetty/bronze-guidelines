@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: "The operation of pouring or casting metal into the refractory mold."
+definition: 'The operation of pouring or casting metal into the refractory mold.'
 ---
 
 {{< q-figure-group grid="3" id="549, 560" >}}
