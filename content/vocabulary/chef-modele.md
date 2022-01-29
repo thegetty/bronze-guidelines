@@ -9,7 +9,7 @@ definition: 'French term for a bronze replica of the artist’s model that is us
 ---
 
 <div class="backmatter">
-Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often cast in sections to allow their removal from the sand mold without damaging the piece-mold sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of %%after-cast%%.
+Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often cast in sections to allow their removal from the sand mold without damaging the piece-mold sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {{< q-def "after-cast" >}}.
 </div>
 
 {{< q-figure-group grid="3" id="102, 103, 210, 531, 553" >}}

@@ -9,7 +9,7 @@ definition: 'Decorative element on a sculpture usually added for visual contrast
 ---
 
 <div class="backmatter">
-Note: The terms “inlay” and “%%overlay%%” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
+Note: The terms “inlay” and “{{< q-def "overlay" >}}” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
 {{< q-figure-group grid="3" id="309, 340, 342, 343, 345, 346, 349, 351, 365" >}}

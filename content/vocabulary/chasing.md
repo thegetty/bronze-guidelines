@@ -5,11 +5,11 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'The process of fine detailed “cold work” after casting and %%fettling%% that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, %%engraving%%, and/or %%chiseling%%, and in modern times also with power and pneumatic tools.'
+definition: 'The process of fine detailed “cold work” after casting and {{< q-def "fettling" >}} that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, {{< q-def "engraving" >}}, and/or {{< q-def "chiseling" >}}, and in modern times also with power and pneumatic tools.'
 ---
 
 <div class="backmatter">
-Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing %%casting defects%%. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to %%engraving%%.
+Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing {{< q-def "casting defects" >}}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to {{< q-def "engraving" >}}.
 </div>
 
 {{< q-figure-group grid="3" id="105, 248, 249, 252, 253, 255, 511, 550" >}}

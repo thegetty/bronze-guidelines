@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the %%refractory mold%% that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](#GI§2.1.1)).'
+definition: 'The portion of the {{< q-def "refractory mold" >}} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](#GI§2.1.1)).'
 ---
 
 {{< q-figure-group grid="3" id="8, 10, 57, 61, 69, 112, 428, 431, 473, 475" >}}

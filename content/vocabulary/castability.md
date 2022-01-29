@@ -12,7 +12,7 @@ definition: 'Ability of a liquid metal to fill and pick up every detail of a mol
 
 ## To Be Distinguished From
 
-- *fluidity
+- *fluidity*
 - *fusibility*
 - *viscosity*
 
