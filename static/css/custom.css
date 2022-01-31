@@ -129,6 +129,8 @@
     layout: full-width
 ============================================================================= */
 
+@media screen {
+
 /* Set page as full-width */
 .quire-full-width .quire-page__content .container {
   margin: 0 4rem 0 8rem;
@@ -223,6 +225,8 @@
 .quire-full-width .quire-page__content .quire-definition__content strong {
   color: inherit;
   font-weight: 700;
+}
+
 }
 
 
@@ -343,5 +347,122 @@ requires class="column" in shortcode
   }
   .quire-page__content .content figure.quire-figure--group.column .q-figure__wrapper > a:hover {
     border-bottom-width: 0px !important;
+  }
+}
+
+
+@media print {
+  .quire-vocabulary .quire-page__header h1 {
+    prince-bookmark-level: none;
+  }
+  .quire-page__content__references.backmatter,
+  .quire-page__content figure.quire-figure--group {
+    display: none;
+  }
+  .quire-page__abstract {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .quire-page__abstract .container {
+    margin: 0 .75in;
+  }
+  .quire-figure__caption-content {
+    display: initial;
+  }
+  .quire-vocabulary .quire-page__content,
+  .quire-page--pdf-backmatter .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+    /* column-count: 3; */
+    font-size: .875em;
+  }
+  #vocabulary .quire-page--pdf-backmatter .quire-page__content {
+    column-count: 1;
+  }
+  .quire-vocabulary .quire-page__header,
+  .quire-page--pdf-backmatter .quire-page__header {
+    margin-bottom: .375in;
+  }
+  .quire-vocabulary.quire-page h1,
+  .quire-vocabulary .quire-page__header__title,
+  .quire-page--pdf-backmatter.quire-page h1,
+  .quire-page--pdf-backmatter .quire-page__header__title  {
+    margin-top: 0;
+  }
+  .quire-vocabulary.quire-page h1,
+  .quire-vocabulary .quire-page__header__title {
+    font-weight: normal;
+  }
+  .quire-vocabulary .content h2,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1.375em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary .content h3,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1.125em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary .content h4,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary.quire-page .content :not(:last-child),
+  .quire-page--pdf-backmatter.quire-page .content :not(:last-child) {
+    margin-bottom: .75em !important;
+  }
+  .quire-vocabulary.quire-page .content li:not(:last-child),
+  .quire-page--pdf-backmatter.quire-page .content dt:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+  .quire-page--pdf-backmatter.quire-page .content dt:not(:last-child) {
+    page-break-after: avoid;
+  }
+  .quire-vocabulary.quire-page h1:not(:first-child),
+  .quire-vocabulary.quire-page h2:not(:first-child),
+  .quire-vocabulary.quire-page h3:not(:first-child),
+  .quire-vocabulary.quire-page h4:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h1:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h2:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h3:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h4:not(:first-child) {
+    margin-top: 0;
+  }
+  .quire-page .content .accordion {
+    border-bottom-width: 0;
+  }
+  .quire-vocabulary .content h3 em {
+    font-weight: normal;
+  }
+  .quire-vocabulary .content h2,
+  .quire-page .content h2 {
+    margin-top: 0;
+  }
+  .quire-page__content .content .footnotes ol li {
+    margin-bottom: 0;
+  }
+  .quire-page__content .content ul,
+  .content section:not(:last-child),
+  .content div:not(:last-child) {
+    margin-bottom: 1em;
+  }
+  .quire-page__content .container .content ul li::before {
+    page-break-after: avoid;
+  }
+
+  .quire-contributor__bio {
+    line-height: 1.6;
+  }
+  .quire-contributor .title {
+    display: none;
+  }
+  .quire-contributor .media {
+    padding-bottom: 0;
   }
 }
