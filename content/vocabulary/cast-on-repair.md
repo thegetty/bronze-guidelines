@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: '{{< q-def "brass" >}} ABBB type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {{< q-def "casting defects" >}}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {{< q-def "patch" >}} {{< q-def "brass" >}} {{< q-def "chaplet" "Chaplets" >}} {{< q-def "bronze" "bronzish" >}} or element to the cast. See [I.4](#I.4).'
+definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {{< q-def "casting defects" >}}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {{< q-def "patch" >}} or element to the cast.'
 ---
 
 {{< q-figure-group grid="3" id="65, 123, 169, 177, 179, 180, 181, 182, 184, 196">}}
