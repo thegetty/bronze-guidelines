@@ -5,11 +5,11 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a %%piece mold%%. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a %%refractory%% %%piece mold%% join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme %%flashing%% occurs with ill-fitting pieces.'
+definition: 'A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a {{< q-def "piece mold" >}}. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a {{< q-def "refractory mold" "refractory" >}} {{< q-def "piece mold" >}} join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme {{< q-def "flashing" >}} occurs with ill-fitting pieces.'
 ---
 
 <div class="backmatter">
-Note: Compared with flashing, which generally forms in uneven, sharp, rough flanges of metal, seam lines on the bronze surface are commonly linear, rounded, and relatively smooth, and run along the high points of convex surfaces. Seam lines are generally removed as part of the %%fettling%% and %%chasing%% processes. Some modern artists leave them intentionally as evidence of the working process (**fig. 75**).
+Note: Compared with flashing, which generally forms in uneven, sharp, rough flanges of metal, seam lines on the bronze surface are commonly linear, rounded, and relatively smooth, and run along the high points of convex surfaces. Seam lines are generally removed as part of the {{< q-def "fettling" >}} and {{< q-def "chasing" >}} processes. Some modern artists leave them intentionally as evidence of the working process (**fig. 75**).
 </div>
 
 {{< q-figure-group grid="3" id="6, 43, 61, 72, 73, 74, 75" >}}

@@ -9,7 +9,7 @@ definition: 'A type of repair that fills a flaw that extends through the full th
 ---
 
 <div class="backmatter">
-Note: It is not always easy to distinguish a plug from a %%patch%%. Radiography is often necessary.
+Note: It is not always easy to distinguish a plug from a {{< q-def "patch" >}}. Radiography is often necessary.
 </div>
 
 {{< q-figure-group grid="3" id="177, 178, 193, 195, 197, 478" >}}

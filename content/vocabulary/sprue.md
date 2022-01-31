@@ -5,11 +5,11 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates bronze from the pouring cup through the %%refractory mold%% and allows air and casting vapors such as steam to be released. In %%lost-wax casting%%, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during %%fettling%%.'
+definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates bronze from the pouring cup through the {{< q-def "refractory mold" >}} and allows air and casting vapors such as steam to be released. In {{< q-def "lost-wax casting" >}}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {{< q-def "fettling" >}}.'
 ---
 
 <div class="backmatter">
-Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For %%sand casting%% the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and %%piece-mold%% casting the channels are cut directly into the refractory mold. See [GI§2.7](#GI§2.7). Depending on the complexity of the cast, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
+Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {{< q-def "sand casting" >}} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {{< q-def "piece-mold" >}} casting the channels are cut directly into the refractory mold. See [GI§2.7](#GI§2.7). Depending on the complexity of the cast, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
 </div>
 
 {{< q-figure-group grid="3" id="44, 46, 71, 86, 124, 539" >}}

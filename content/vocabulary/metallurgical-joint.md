@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'A type of joint between two metal parts that is undertaken using molten metal. Examples of metallurgical joints include those made using %%welding%%, %%brazing%%, %%soldering%%, and interlock casting.'
+definition: 'A type of joint between two metal parts that is undertaken using molten metal. Examples of metallurgical joints include those made using {{< q-def "welding" >}}, {{< q-def "brazing" >}}, {{< q-def "soldering" >}}, and interlock casting.'
 ---
 
 <div class="backmatter">

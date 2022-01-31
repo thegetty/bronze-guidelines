@@ -9,7 +9,7 @@ definition: 'A methodological tool that has been developed by researchers to rev
 ---
 
 <div class="backmatter">
-Note: %%Founders%% do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
+Note: {{< q-def "Founders" >}} do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
 </div>
 
 {{< q-figure-group grid="3" id="367" >}}

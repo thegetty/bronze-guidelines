@@ -20,7 +20,8 @@
 {{- $link := "" -}}
 
 {{- range where .Site.Pages "Layout" "vocabulary" -}}
-  {{- $regularizedTerm := $term | urlize | replaceRE "hes$" "h" | replaceRE "s$" "" -}}
+  {{/* regularize for plurals "s" and "es", revert changing brass to bras */}}
+  {{- $regularizedTerm := $term | urlize | replaceRE "hes$" "h" | replaceRE "s$" "" | replaceRE "s$" "ss" -}}
   {{- $regularizedTitle := .Title | urlize | replaceRE "[.]$" "" -}}
   {{- if eq $regularizedTerm $regularizedTitle -}}
     {{- $title = .Title -}}

@@ -9,7 +9,7 @@ definition: 'Purposefully applied surface deposits or films on bronze sculpture 
 ---
 
 <div class="backmatter">
-Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under %%patina%%. Though metals are also used to coat surfaces, they are referred to here as %%plating%%.
+Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {{< q-def "patina" >}}. Though metals are also used to coat surfaces, they are referred to here as {{< q-def "metal-plating" "plating" >}}.
 </div>
 
 {{< q-figure-group grid="3" id="322, 323, 324, 326, 330">}}

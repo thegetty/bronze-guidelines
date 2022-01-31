@@ -5,7 +5,7 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by %%soldering%%.'
+definition: 'A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {{< q-def "soldering" >}}.'
 ---
 
 <div class="backmatter">

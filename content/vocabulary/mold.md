@@ -9,7 +9,7 @@ definition: 'A three-dimensional negative form made of one or more parts that se
 ---
 
 <div class="backmatter">
-Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a %%chef-modèle%%, a wax %%inter-model%%, or %%core%%, or to cast a bronze). See [I.1](#I.1).
+Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {{< q-def "chef-modèle" >}}, a wax {{< q-def "inter-model" >}}, or {{< q-def "core" >}}, or to cast a bronze). See [I.1](#I.1).
 </div>
 
 {{< q-figure-group grid="3" id="7, 27, 101, 112, 542, 549, 557" >}}

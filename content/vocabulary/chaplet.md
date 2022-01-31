@@ -5,11 +5,11 @@ type: page
 layout: vocabulary
 toc: false
 menu: false
-definition: 'A type of metal insertion placed in the gap between the %%core%% and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in %%sand casting%%, but they have been encountered in historic lost-wax castings as well.'
+definition: 'A type of metal insertion placed in the gap between the {{< q-def "core" >}} and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in {{< q-def "sand casting" >}}, but they have been encountered in historic lost-wax castings as well.'
 ---
 
 <div class="backmatter">
-Note: The term “chaplet” has occasionally been used in the context of technical studies to refer to nails or pins that extend from the core to the mold and serve to hold the core in place ({{< q-cite "Beale 1975" >}}, {{< q-cite "Mattusch 1996" >}}). More commonly these are referred to as %%core pins%%.
+Note: The term “chaplet” has occasionally been used in the context of technical studies to refer to nails or pins that extend from the core to the mold and serve to hold the core in place ({{< q-cite "Beale 1975" >}}, {{< q-cite "Mattusch 1996" >}}). More commonly these are referred to as {{< q-def "core pins" >}}.
 </div>
 
 {{< q-figure-group grid="3" id="38, 39, 40, 122" >}}
