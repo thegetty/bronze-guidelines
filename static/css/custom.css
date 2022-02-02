@@ -236,36 +236,50 @@
 ============================================================================= */
 
 @media screen {
-  /* Set page as full-width */
+  /* Set page as full-width and set alternate background color */
   .quire-visual-atlas .quire-page__content .container {
     margin: 0 4rem 0 4rem;
     max-width: inherit;
     width: inherit;
   }
   .quire-visual-atlas .quire-page__content .container .content {
-    padding-left: 0;
-    padding-right: 0;
+    margin-top: calc(45px + 2.5rem);
+    padding: 0;
+    background-color: transparent;
+  }
+  .quire .quire__primary .quire-visual-atlas#main {
+    background-color: var(--gray-background) !important;
+  }
+  /* Style header and top area of grid with search box */
+  .quire-visual-atlas .quire-page__header {
+    background-color: transparent;
+  }
+  .quire-visual-atlas.quire-page h1,
+  .quire-visual-atlas .quire-page__header__title {
+    color: var(--white);
   }
   .quire-visual-atlas .quire-page__content .container .content #image-grid-header {
-    background-color: var(--gray-background);
     color: var(--white);
     padding-bottom: 4rem;
   }
-
   .quire-visual-atlas .quire-page__content .container .content .image-grid-search-box {
     margin: 0 auto;
     display: block;
     width: 32rem;
+    max-width: calc(100vw - 4rem);
   }
   .quire-visual-atlas .quire-page__content .container .content #image-grid-search {
     height: 3rem;
-    width: 30rem;
-    background-color: var(--gray-background);
+    width: calc(100% - 2rem);
+    background-color: transparent;
     color: var(--white);
     border: none;
     border-bottom: 1px solid var(--white);
     font-size: 1.5rem;
     display: inline;
+  }
+  .quire-visual-atlas .quire-page__content .container .content #image-grid-search:focus-visible {
+    outline: none;
   }
   .quire-visual-atlas .quire-page__content .container .content .image-grid-search-box svg {
     width: 2rem;
@@ -282,10 +296,11 @@
     font-style: italic;
     text-align: center;
   }
+  /* Style image grid and images */
   .quire-visual-atlas .quire-page__content .container .content #image-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--white);
   }
   .quire-figure.grid-figure.match {
     display: block;
@@ -301,56 +316,55 @@
   .quire-visual-atlas .quire-page__content .container .content figure:not(:first-child) {
     margin: 0;
     padding: 2rem;
-    border-width: 0;
-    background-color: var(--gray-background);
+    padding-bottom: 3rem;
+    border: 1px solid var(--white);
+    position: relative;
   }
-  /* .quire-visual-atlas .quire-page__content .container .content figure {
-    border-right: 2px solid magenta;
-    border-bottom: 2px solid magenta;
-    border-top: none;
-  }
-  .quire-visual-atlas .quire-page__content .container .content figure:nth-child(4n) {
-    border-right: none;
-  }
-  .quire-visual-atlas .quire-page__content .container .content figure:nth-last-child(-n+4) {
-    border-bottom: none;
-  } */
-  .quire:not(.no-js) .quire__primary .quire-visual-atlas#main {
-    background-color: var(--gray-background);
-  }
-  .quire-visual-atlas .quire-page__header {
-    background-color: var(--gray-background);
-  }
-  .quire-visual-atlas .quire-page__content .container .content {
-    margin-top: calc(45px + 2.5rem);
-    padding: 0;
-  }
-  .quire-visual-atlas.quire-page h1,
-  .quire-visual-atlas .quire-page__header__title {
-    color: var(--white);
-  }
-  .quire-figure__label {
-    color: var(--white);
-  }
-  .quire-figure__label .quire-figure__label-icon svg {
-    fill: var(--white);
+  .quire-visual-atlas .content figure .quire-figure__caption {
+    display: none;
   }
   .quire-visual-atlas .grid-label {
     position: absolute;
     bottom: tom;
     bottom: 3px;
     left: 6px;
-    color: #a8a8a8;
+    color: var(--white);
+    opacity: .5;
     font-size: .875rem;
   }
-  .quire-visual-atlas .quire-page__content .container .content figure:not(:last-child), .quire-visual-atlas .quire-page__content .container .content figure:not(:first-child) {
-    position: relative;
+  /* Add media queries to responsively adjust grid width and outer margins */
+  @media (max-width: 1888px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
   }
-  .quire-visual-atlas .content figure .quire-figure__caption {
-    display: none;
+  @media (max-width: 1568px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 1248px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 928px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .quire-visual-atlas .quire-page__content .container {
+      margin: 0 2rem 0 2rem;
+    }
+  }
+  @media (max-width: 609px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr;
+    }
+    .quire-visual-atlas .quire-page__content .container {
+      margin: 0 1rem 0 1rem;
+    }
   }
 }
-
 
 
 /* VOCABULARY SECTION
