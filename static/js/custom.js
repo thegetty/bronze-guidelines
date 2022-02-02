@@ -1,3 +1,32 @@
+// To Filter the image grid in the Visual Atlas of Features
+// Filters based on the figure caption text
+// Modified from https://www.w3schools.com/howto/howto_js_filter_lists.asp
+//
+function filterImageGrid() {
+
+  var input, filter, grid, figure, count, counter, caption, i, captionValue, results;
+  input = document.getElementById("image-grid-search");
+  filter = input.value.toLowerCase();
+  grid = document.getElementById("image-grid");
+  figure = grid.getElementsByClassName("grid-figure");
+  counter = document.getElementById("image-grid-counter");
+
+  // Loop through the figures, and hide those that don't match the search query
+  count = 0;
+  for (i = 0; i < figure.length; i++) {
+    caption = figure[i].getElementsByClassName("quire-figure__caption-content")[0];
+    captionValue = caption.textContent || caption.innerText;
+    if (captionValue.toLowerCase().indexOf(filter) > -1) {
+      figure[i].classList.add("match");
+      count++;
+    } else {
+      figure[i].classList.remove("match");
+    }
+    // Count figures that are showing and display the result
+    counter.innerHTML = count + " images";
+  }
+}
+
 // From https://inclusive-components.design/collapsible-sections/
 
 (function() {

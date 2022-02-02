@@ -5,7 +5,7 @@
 */}}
 
 {{ define "main" }}
-<article class="{{ partial "page-class.html" . }} quire-essay" id="main" role="main">
+<article class="{{ partial "page-class.html" . }} quire-page quire-visual-atlas" id="main" role="main">
   {{ partial "page-header.html" . }}
 
   <section id="content" class="section quire-page__content">
@@ -14,7 +14,16 @@
     {{ end }}
     <div class="container">
       <div class="content">
-        {{ .Content }}
+        <div id="image-grid-header">
+
+          <div class="image-grid-search-box">
+          <input type="text" id="image-grid-search" onkeyup="filterImageGrid()" placeholder="Search images ..."> {{- partial "icon.html" (dict "type" "search" "description" "search") -}}
+          </div>
+          <span id="image-grid-counter"></span>
+
+          {{ .Content }}
+        </div>
+        <div id="image-grid">
 
         {{ range .Site.Data.figures.figure_list }}
 
@@ -44,7 +53,7 @@
 
         <figure
           data="q-figure"
-          class="quire-figure"
+          class="quire-figure grid-figure match"
           id="{{ $id }}"
         >
           <div class="q-figure__wrapper">
@@ -62,9 +71,11 @@
               {{- partial "figures/media-types/image.html" $dict -}}
             {{- end -}}
           </div>
+          <span class="grid-label">{{ replace $label "Figure " "" }}</span>
         </figure>
 
         {{ end }}
+        </div>
 
       </div>
       {{ partial "footer-buttons.html" . }}
