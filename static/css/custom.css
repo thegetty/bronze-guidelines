@@ -229,6 +229,16 @@
 
 }
 
+@media print {
+  .quire-full-width .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
 
 /*  VISUAL ATLAS PAGE
     type: page
@@ -520,6 +530,7 @@ requires class="column" in shortcode
     display: initial;
   }
   .quire-vocabulary .quire-page__content,
+  .quire-visual-atlas .quire-page__content,
   .quire-page--pdf-backmatter .quire-page__content {
     column-count: 2;
     column-fill: balance;

@@ -14,6 +14,7 @@
     {{ end }}
     <div class="container">
       <div class="content">
+        {{ if ne .Site.Params.pdf true }}
         <div id="image-grid-header">
 
           <div class="image-grid-search-box">
@@ -24,6 +25,7 @@
           {{ .Content }}
         </div>
         <div id="image-grid">
+        {{ end }}
 
         {{ range .Site.Data.figures.figure_list }}
 
@@ -71,11 +73,15 @@
               {{- partial "figures/media-types/image.html" $dict -}}
             {{- end -}}
           </div>
+          {{ if ne $.Site.Params.pdf true }}
           <span class="grid-label">{{ replace $label "Figure " "" }}</span>
+          {{ end }}
         </figure>
 
         {{ end }}
+        {{ if ne $.Site.Params.pdf true }}
         </div>
+        {{ end }}
 
       </div>
       {{ partial "footer-buttons.html" . }}
