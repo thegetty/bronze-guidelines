@@ -14,7 +14,7 @@ Note: Casting defects should not be confused with other defects generated before
 
 </div>
 
-{{< q-figure-group grid="3" id="73, 150, 151, 153, 154, 155, 158, 159, 161">}}
+{{< q-figure-group grid="3" id="fig-073, fig-150, fig-151, fig-153, fig-154, fig-155, fig-158, fig-159, fig-161">}}
 
 ## Sources
 

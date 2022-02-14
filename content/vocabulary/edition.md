@@ -12,7 +12,7 @@ definition: 'The intentional production of a sculpture in several virtually iden
 Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in chasing, patination, or deterioration of the molds/chef-modèle over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern bronze casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
 </div>
 
-{{< q-figure-group grid="3" id="1, 261, 551" >}}
+{{< q-figure-group grid="3" id="fig-001, fig-261, fig-551" >}}
 
 ## To Be Distinguished From
 

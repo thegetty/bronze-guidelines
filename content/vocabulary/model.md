@@ -12,7 +12,7 @@ definition: 'The creation of a bronze may involve a series of models and {{< q-d
 Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a cast may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the investment to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
 </div>
 
-{{< q-figure-group grid="3" id="1, 52, 75, 130, 472, 559" >}}
+{{< q-figure-group grid="3" id="fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" >}}
 
 ## Sources
 
@@ -54,7 +54,7 @@ Historical: {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Mariette 1768" >}}; {{< 
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/modello/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {{< q-cite "Cellini [1568] 1967" >}}, fol. 46    
+[Treccani](http://www.treccani.it/vocabolario/modello/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {{< q-cite "Cellini [1568] 1967" >}}, fol. 46
 
 #### Alternate Translations
 

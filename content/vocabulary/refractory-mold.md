@@ -12,7 +12,7 @@ definition: 'A temporary, heat-resistant, cohesive, porous mass that captures th
 Note: When present, the core is considered part of the refractory mold. It may be designated as the inner refractory mold as opposed to the outer refractory mold. The material used for the refractory mold tends to be similar to—if not the same as—that of the core. To avoid confusion between types of refractory molds, spelling out the nature of the mold is recommended. An {{< q-def "investment" >}} is a type of refractory mold used specifically for lost-wax casting.
 </div>
 
-{{< q-figure-group grid="3" id="7, 27, 542, 549, 557" >}}
+{{< q-figure-group grid="3" id="fig-007, fig-027, fig-542, fig-549, fig-557" >}}
 
 ## Sources
 
@@ -77,7 +77,7 @@ Also refers to the refractory investment material
 
 - *mantello* (Refers to outer investment/refractory mold) | Source: {{< q-cite "Formigli and Hackländer 1999" >}}, 301
 
-- *refrattario* (Also refers to the refractory investment material) | Source: {{< q-cite "Bruni 1994" >}}, 75       
+- *refrattario* (Also refers to the refractory investment material) | Source: {{< q-cite "Bruni 1994" >}}, 75
 
 - *stampo refrattario*
 
@@ -85,6 +85,6 @@ Also refers to the refractory investment material
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 1037    
+{{< q-cite "Ming 2010" >}}, 1037
 
 </div>

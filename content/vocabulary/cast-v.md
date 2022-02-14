@@ -8,7 +8,7 @@ menu: false
 definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).'
 ---
 
-{{< q-figure-group grid="3" id="549">}}
+{{< q-figure-group grid="3" id="fig-549">}}
 
 ## Sources
 

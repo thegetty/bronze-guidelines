@@ -12,7 +12,7 @@ definition: 'Decorative element on a sculpture usually added for visual contrast
 Note: The terms “inlay” and “{{< q-def "overlay" >}}” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
-{{< q-figure-group grid="3" id="309, 340, 342, 343, 345, 346, 349, 351, 365" >}}
+{{< q-figure-group grid="3" id="fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" >}}
 
 ## To Be Distinguished From
 
@@ -73,7 +73,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
 - *damaschinatura* (More specifically referring to inlaid decoration on bronze, brass, or iron with contrasting colored metals)
 
-- *inserto*    
+- *inserto*
 
 - *intarsio* (General term referring to the insertion of different materials on a decorated surface) | Sources: [Treccani](http://www.treccani.it/vocabolario/intarsio); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
 

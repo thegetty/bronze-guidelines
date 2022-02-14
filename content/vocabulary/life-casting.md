@@ -12,7 +12,7 @@ definition: 'Refers specifically to the reproduction of a once-living form (eith
 Note: The related term “burn-out method” is used for the replication of nonliving forms (such as textiles) in which the form is burned out in order to create the mold.
 </div>
 
-{{< q-figure-group grid="3" id="11, 27" >}}
+{{< q-figure-group grid="3" id="fig-011, fig-027" >}}
 
 ## To Be Distinguished From
 

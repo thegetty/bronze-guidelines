@@ -12,7 +12,7 @@ definition: 'Decorative element resting on the surface of a sculpture via any of
 Note: The terms “{{< q-def "inlay" >}}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
-{{< q-figure-group grid="3" id="223, 340, 346, 347" >}}
+{{< q-figure-group grid="3" id="fig-223, fig-340, fig-346, fig-347" >}}
 
 ## To Be Distinguished From
 
@@ -43,7 +43,7 @@ Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
 
 #### Alternate Translation
 
-- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {{< q-cite "Lein 2004" >}}, 51  
+- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {{< q-cite "Lein 2004" >}}, 51
 
 ### **French**: *incrustation*
 

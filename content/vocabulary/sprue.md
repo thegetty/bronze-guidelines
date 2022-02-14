@@ -12,7 +12,7 @@ definition: 'Any channel that feeds metal to the mold, in contrast to a vent, wh
 Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {{< q-def "sand casting" >}} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {{< q-def "piece-mold" >}} casting the channels are cut directly into the refractory mold. See [GI§2.7](#GI§2.7). Depending on the complexity of the cast, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
 </div>
 
-{{< q-figure-group grid="3" id="44, 46, 71, 86, 124, 539" >}}
+{{< q-figure-group grid="3" id="fig-044, fig-046, fig-071, fig-086, fig-124, fig-539" >}}
 
 ## Sources
 
@@ -90,7 +90,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 - *canale di alimentazione*
 
-- *canale di colata* | Sources: {{< q-cite "Reindell and Tommasi 1999" >}}, 353; {{< q-cite "Pecchioli 1999" >}}, 193  
+- *canale di colata* | Sources: {{< q-cite "Reindell and Tommasi 1999" >}}, 353; {{< q-cite "Pecchioli 1999" >}}, 193
 
 - *colonna di alimentazione* | Source: {{< q-cite "Bruni 1994" >}}, 72–74
 

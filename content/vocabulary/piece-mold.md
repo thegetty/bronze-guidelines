@@ -12,7 +12,7 @@ definition: 'A type of {{< q-def "mold" >}} comprised of two or more individuall
 Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of bronze sculpture, the term may denote molds used to cast {{< q-def "inter-models" >}} in the indirect lost-wax process. Sand casting molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece-mold casting process (aka “section-mold process”), baked {{< q-def "refractory mold" >}} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](#CaseStudy3)).
 </div>
 
-{{< q-figure-group grid="3" id="9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556" >}}
+{{< q-figure-group grid="3" id="fig-009, fig-015, fig-018, fig-025, fig-026, fig-062, fig-074, fig-111, fig-116, fig-536, fig-556" >}}
 
 ## Sources
 

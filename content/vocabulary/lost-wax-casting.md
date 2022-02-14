@@ -12,7 +12,7 @@ definition: 'A technique in which a model made of wax is embedded in a {{< q-def
 Note: The French term “cire perdue” is often adopted in English as well. The wax model can be supplemented by other materials that can be burned out, such as cloth.
 </div>
 
-{{< q-figure-group grid="3" id="13, 16, 18, 23, 25, 28" >}}
+{{< q-figure-group grid="3" id="fig-013, fig-016, fig-018, fig-023, fig-025, fig-028" >}}
 
 ## Sources
 
@@ -64,7 +64,7 @@ Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-ci
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/cera1/); {{< q-cite "Giuffredi 2006" >}}, 61–62   
+[Treccani](http://www.treccani.it/vocabolario/cera1/); {{< q-cite "Giuffredi 2006" >}}, 61–62
 
 #### Alternate Translation
 

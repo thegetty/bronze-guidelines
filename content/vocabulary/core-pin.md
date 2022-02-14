@@ -12,7 +12,7 @@ definition: 'A metal rod, nail, or wire that is embedded in both the {{< q-def "
 Note: The term “transverse core pin” (or “transfixing core pin”) is used to describe long core pins that extend through both sides of the core (e.g., straight through a limb) (**figs. 35, 64, 122**).
 </div>
 
-{{< q-figure-group grid="3" id="35, 36, 37, 122, 547">}}
+{{< q-figure-group grid="3" id="fig-035, fig-036, fig-037, fig-122, fig-547">}}
 
 ## To Be Distinguished From
 

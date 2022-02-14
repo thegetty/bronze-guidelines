@@ -12,7 +12,7 @@ definition: 'A tool usually made of a steel rod that may be struck with a hammer
 Note: During chasing, a number of punches with a variety of custom-made textures are often used, allowing a range of possible surface patterns. The texture of some punches may be confused with peening.
 </div>
 
-{{< q-figure-group grid="3" id="238, 239, 240, 242, 244, 256, 272, 494" >}}
+{{< q-figure-group grid="3" id="fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" >}}
 
 ## To Be Distinguished From
 

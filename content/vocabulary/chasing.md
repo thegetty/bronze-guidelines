@@ -12,7 +12,7 @@ definition: 'The process of fine detailed “cold work” after casting and {{< 
 Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing {{< q-def "casting defects" >}}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to {{< q-def "engraving" >}}.
 </div>
 
-{{< q-figure-group grid="3" id="105, 248, 249, 252, 253, 255, 511, 550" >}}
+{{< q-figure-group grid="3" id="fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" >}}
 
 ## To Be Distinguished From
 
@@ -84,7 +84,7 @@ Not reserved specifically for metals
 
 - *cesellare* | Source: {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
 
-- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {{< q-cite "Formigli 2010" >}}, 20–21    
+- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {{< q-cite "Formigli 2010" >}}, 20–21
 
 ### **Chinese**: 铸件表面加工
 

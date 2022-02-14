@@ -12,7 +12,7 @@ definition: 'A technique for joining separately cast parts using high temperatur
 Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](#I.5), **video 12**.
 </div>
 
-{{< q-figure-group grid="3" id="59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548" >}}
+{{< q-figure-group grid="3" id="fig-59, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" >}}
 
 ## To Be Distinguished From
 
@@ -61,7 +61,7 @@ Often specified by *a fusione* or *per fusione*
 
 #### Alternate translations
 
-- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {{< q-cite "Formigli 2010" >}}, 20; {{< q-cite "Formigli 1999c" >}}, 318–19    
+- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {{< q-cite "Formigli 2010" >}}, 20; {{< q-cite "Formigli 1999c" >}}, 318–19
 
 ### **Chinese**: 熔焊
 

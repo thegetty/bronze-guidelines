@@ -14,7 +14,7 @@ Note: In common parlance, most copper alloy sculptures are referred to as “bro
 
 </div>
 
-{{< q-figure-group grid="3" id="133, 134">}}
+{{< q-figure-group grid="3" id="fig-133, fig-134">}}
 
 ## Sources
 
@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
 #### Sources
 
-{{< q-cite "Weihrauch 1944" >}}; {{< q-cite "Maaz 2010" >}}, 677; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}    
+{{< q-cite "Weihrauch 1944" >}}; {{< q-cite "Maaz 2010" >}}, 677; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Koch and Newell 1963" >}}
 
 ### **French**: *bronze*
 

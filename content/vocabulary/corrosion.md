@@ -12,7 +12,7 @@ definition: 'A chemical process that causes a metal such as bronze to change fro
 Note: Most metals undergo natural corrosion, except for pure so-called noble metals such as gold and platinum-group metals. A chemical patina refers to corrosion of the surface by either natural causes (e.g., burial) or the intentional application of chemicals. The minerals formed during the process may be similar to ones from which the metal was smelted or refined prior to manufacture. Sometimes artificially induced chemical patinas intentionally mimic natural corrosion products.
 </div>
 
-{{< q-figure-group grid="3" id="310, 311, 312, 314, 315, 318, 334, 348, 503">}}
+{{< q-figure-group grid="3" id="fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-503">}}
 
 ## Sources
 

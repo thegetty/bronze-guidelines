@@ -12,7 +12,7 @@ definition: 'In bronze sculpture, a technique for joining separately cast parts,
 Note: The use of hard solder (a silver alloy) is sometimes referred to as brazing, but to avoid confusion, we suggest it should be referred to as soldering.
 </div>
 
-{{< q-figure-group grid="3" id="187, 364, 488" >}}
+{{< q-figure-group grid="3" id="fig-187, fig-364, fig-488" >}}
 
 ## To Be Distinguished From
 

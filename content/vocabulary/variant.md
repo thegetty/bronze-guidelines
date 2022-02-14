@@ -8,7 +8,7 @@ menu: false
 definition: 'A bronze that is similar in form to another, but with some differences due to one having been cast from an altered or adapted wax model, or from an entirely new model. Artists can make variants of their own work, for example, by adjusting the positions of limbs between casts, or variants may be the result of others imitating the artist’s work.'
 ---
 
-{{< q-figure-group grid="3" id="1, 76, 544" >}}
+{{< q-figure-group grid="3" id="fig-001, fig-076, fig-544" >}}
 
 ## To Be Distinguished From
 
@@ -54,7 +54,7 @@ Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monume
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/variante1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)  
+[Treccani](http://www.treccani.it/vocabolario/variante1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)
 
 ### **Chinese**: 变体
 

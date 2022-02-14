@@ -12,7 +12,7 @@ definition: 'The contraction of molten metal as it cools and solidifies after ca
 Note: Defects resulting from shrinkage may also be called “shrinkage” ({{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}). To avoid confusion, we recommend that such casting defects be referred to as “shrinkage porosity” ({{< q-cite "Campbell 2015" >}}).
 </div>
 
-{{< q-figure-group grid="3" id="41" >}}
+{{< q-figure-group grid="3" id="fig-041" >}}
 
 ## Sources
 

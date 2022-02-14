@@ -12,7 +12,7 @@ definition: 'A common type of casting flaw that includes a group or area of cavi
 Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](#I.3)).
 </div>
 
-{{< q-figure-group grid="3" id="127, 152, 153, 155, 165, 184, 205, 464" >}}
+{{< q-figure-group grid="3" id="fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" >}}
 
 ## Sources
 
@@ -50,7 +50,7 @@ Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 23; {{< q-cit
 
 #### Alternate Translation
 
-- *spugnoso* (In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 90  
+- *spugnoso* (In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 90
 
 ### **Chinese**: 气孔
 

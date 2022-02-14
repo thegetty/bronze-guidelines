@@ -12,7 +12,7 @@ definition: 'The act of embellishing/texturing the metal surface by repeatedly u
 Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
 </div>
 
-{{< q-figure-group grid="3" id="246" >}}
+{{< q-figure-group grid="3" id="fig-246" >}}
 
 ## Sources
 
@@ -30,7 +30,7 @@ Copper Industry: {{< q-cite "Palmer 1929" >}}, 294
 
 #### Source
 
-{{< q-cite "Bol 1985" >}}, 142    
+{{< q-cite "Bol 1985" >}}, 142
 
 ### **French**: *matage au marteau*
 

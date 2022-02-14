@@ -14,7 +14,7 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 </div>
 
-{{< q-figure-group grid="3" id="5, 62, 104, 277" >}}
+{{< q-figure-group grid="3" id="fig-005, fig-062, fig-104, fig-277" >}}
 
 ## To Be Distinguished From
 
