@@ -12,7 +12,7 @@ definition: 'A general term for any model or replica of the artist’s model tha
 Note: In sand casting, a foundry model is referred to as a “pattern” or “{{< q-def "chef-modèle" >}}.”
 </div>
 
-{{< q-figure-group grid="3" id="fig-210, fig-531, fig-544, fig-553, fig-554" >}}
+{{< q-figure-group grid="3" id="fig-210, fig-531, fig-544, fig-553, fig-554" class="column" >}}
 
 ## Sources
 

@@ -8,7 +8,7 @@ menu: false
 definition: 'A bronze that is similar in form to another, but with some differences due to one having been cast from an altered or adapted wax model, or from an entirely new model. Artists can make variants of their own work, for example, by adjusting the positions of limbs between casts, or variants may be the result of others imitating the artist’s work.'
 ---
 
-{{< q-figure-group grid="3" id="fig-001, fig-076, fig-544" >}}
+{{< q-figure-group grid="3" id="fig-001, fig-076, fig-544" class="column" >}}
 
 ## To Be Distinguished From
 

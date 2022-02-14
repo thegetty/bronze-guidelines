@@ -12,7 +12,7 @@ definition: 'Decorative element resting on the surface of a sculpture via any of
 Note: The terms “{{< q-def "inlay" >}}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
-{{< q-figure-group grid="3" id="fig-223, fig-340, fig-346, fig-347" >}}
+{{< q-figure-group grid="3" id="fig-223, fig-340, fig-346, fig-347" class="column" >}}
 
 ## To Be Distinguished From
 

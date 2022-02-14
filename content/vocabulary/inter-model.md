@@ -14,7 +14,7 @@ Note: The term is subject to dispute among the CAST:ING members. Depending on di
 
 </div>
 
-{{< q-figure-group grid="4" id="fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" class="column" >}}
+{{< q-figure-group grid="4" id="fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" >}}
 
 ## Sources
 

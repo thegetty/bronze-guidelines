@@ -8,7 +8,7 @@ menu: false
 definition: 'The application of gold to the surface of a bronze sculpture. This can be achieved by a variety of methods. Traditionally gilding was mainly undertaken using leaf gilding or mercury gilding. Starting in the nineteenth century, electrochemical plating or deposition began to be used, as well as gold powder paint or wax. See [I.7](#I.7).'
 ---
 
-{{< q-figure-group grid="3" id="fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555">}}
+{{< q-figure-group grid="3" id="fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555" class="column" >}}
 
 ## Sources
 

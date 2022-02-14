@@ -14,7 +14,7 @@ Note: In common parlance, most copper alloy sculptures are referred to as “bro
 
 </div>
 
-{{< q-figure-group grid="3" id="fig-133, fig-134">}}
+{{< q-figure-group grid="3" id="fig-133, fig-134" class="column" >}}
 
 ## Sources
 

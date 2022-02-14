@@ -12,7 +12,7 @@ definition: 'Here used to describe the precise reproduction of a bronze made by 
 Note: Slight differences are inevitable between replicas due to deterioration of the {{< q-def "mold" >}} or variations in the finishing of the wax or {{< q-def "chasing" >}} of the bronze. With regard to modern bronze production, a {{< q-def "replica" >}} may refer specifically to a cast made by someone other than the artist, but who is under license to make the cast. An “artist’s replica” is a cast made by the artist or someone sanctioned by the artist. An “authenticated replica” is certified as having been made by the artist or someone sanctioned by the artist (see [Tate Papers No. 8](https://www.tate.org.uk/research/publications/tate-papers/08/terminology-for-further-expansion)).
 </div>
 
-{{< q-figure-group grid="3" id="fig-001, fig-554" >}}
+{{< q-figure-group grid="3" id="fig-001, fig-554" class="column" >}}
 
 ## To Be Distinguished From
 

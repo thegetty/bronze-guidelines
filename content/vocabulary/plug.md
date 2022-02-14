@@ -12,7 +12,7 @@ definition: 'A type of repair that fills a flaw that extends through the full th
 Note: It is not always easy to distinguish a plug from a {{< q-def "patch" >}}. Radiography is often necessary.
 </div>
 
-{{< q-figure-group grid="3" id="fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" >}}
+{{< q-figure-group grid="3" id="fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" class="column" >}}
 
 ## To Be Distinguished From
 

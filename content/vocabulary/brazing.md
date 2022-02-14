@@ -14,7 +14,7 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 </div>
 
-{{< q-figure-group grid="3" id="fig-188, fig-206, fig-229">}}
+{{< q-figure-group grid="3" id="fig-188, fig-206, fig-229" class="column" >}}
 
 ## To Be Distinguished From
 

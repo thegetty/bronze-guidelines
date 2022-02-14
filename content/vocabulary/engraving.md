@@ -12,7 +12,7 @@ definition: 'In relation to bronzes, the process of decorating the surface by re
 Note: Engraving may be undertaken in the chasing process, and/or to form or enhance signatures. See [I.6§2.3](#I.6§2.3).
 </div>
 
-{{< q-figure-group grid="3" id="fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" >}}
+{{< q-figure-group grid="3" id="fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" class="column" >}}
 
 ## To Be Distinguished From
 

@@ -12,7 +12,7 @@ definition: 'A type of metal insertion placed in the gap between the {{< q-def "
 Note: The term “chaplet” has occasionally been used in the context of technical studies to refer to nails or pins that extend from the core to the mold and serve to hold the core in place ({{< q-cite "Beale 1975" >}}, {{< q-cite "Mattusch 1996" >}}). More commonly these are referred to as {{< q-def "core pins" >}}.
 </div>
 
-{{< q-figure-group grid="3" id="fig-038, fig-039, fig-040, fig-122" >}}
+{{< q-figure-group grid="3" id="fig-038, fig-039, fig-040, fig-122" class="column" >}}
 
 ## To Be Distinguished From
 
