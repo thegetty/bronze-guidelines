@@ -3,6 +3,7 @@ title: General Introduction
 weight: 50
 type: page
 layout: full-width
+class: accordion
 contributor:
   - id: fbrewer
   - id: dbourgarit
@@ -25,7 +26,6 @@ The question of “what” (is a bronze)—bronze meant here in the sense of the
 
 ## 1 Why?: The *Guidelines*
 
-</section>
 <section id="S1.1">
 
 ### 1.1 Current issues
@@ -204,6 +204,7 @@ Among the more recent phenomena are studies of larger corpuses of related works 
 {{< q-figure-group grid="3" class="column" id="fig-002" >}}
 
 </section>
+</section>
 <section id="S2">
 
 ## 2 What?: The basics of making a bronze sculpture
@@ -212,12 +213,10 @@ Casting a bronze is in essence the translation of an original model into metal b
 
 {{< q-figure-group grid="3" class="column" id="fig-003" >}}
 
-</section>
 <section id="S2.1">
 
 ### 2.1 Casting: Primarily the impression of a model in a refractory mold
 
-</section>
 <section id="S2.1.1">
 
 #### 2.1.1 The refractory mold and core material
@@ -317,11 +316,11 @@ Most of these casting processes are explained in greater detail below. The terms
 {{< q-figure-group grid="3" class="column" id="fig-011" >}}
 
 </section>
+</section>
 <section id="S2.2">
 
 ### 2.2 Lost-wax casting overview
 
-</section>
 <section id="S2.2.1">
 
 #### 2.2.1 Direct lost-wax casting
@@ -348,6 +347,7 @@ The main advantages of indirect lost-wax casting include the preservation and po
 {{< q-figure-group grid="3" class="column" id="fig-015" >}}
 
 </section>
+</section>
 <section id="S2.3">
 
 ### 2.3 Variations on indirect lost-wax casting: slush molding, indirect wax slabs, lasagna, cut-back core
@@ -360,7 +360,6 @@ The wax replica that is made for casting in the indirect process (the inter-mode
 
 Within these, four processes have been most commonly documented in historical bronzes.
 
-</section>
 <section id="S2.3.1">
 
 #### 2.3.1 Wax first, then core
@@ -397,13 +396,13 @@ The cut-back core process (**fig. 25**) has been identified on eighteenth-centur
 {{< q-figure-group grid="3" class="column" id="fig-023, fig-024, fig-025" >}}
 
 </section>
+</section>
 <section id="S2.4">
 
 ### 2.4 Refractory piece-molding processes
 
 This consists of packing a refractory material (sand and clay) over a hard, reusable model in order to form the desired matrix of rigid pieces, like a three-dimensional jigsaw puzzle designed to circumvent undercuts. Several processes of this kind have been used for sculptural casting. The one most familiar today is sand casting. Piece-mold casting, such as that used to make ancient Chinese vessels, is a much older form.
 
-</section>
 <section id="S2.4.1">
 
 #### 2.4.1 Sand casting
@@ -432,11 +431,11 @@ The piece-mold process allows for a very even thickness and a good dimensional s
 {{< q-figure-group grid="3" class="column" id="fig-026" >}}
 
 </section>
+</section>
 <section id="S2.5">
 
 ### 2.5 Other casting methods/variations for bronze sculpture
 
-</section>
 <section id="S2.5.1">
 
 #### 2.5.1 Direct life-casting
@@ -468,13 +467,13 @@ Another approach that has been used mostly for simpler sculptural forms involves
 {{< q-figure-group grid="3" class="column" id="fig-030" >}}
 
 </section>
+</section>
 <section id="S2.6">
 
 ### 2.6 Armatures, core supports, and core vents
 
 Many models used for casting may be built up on an armature for structural support. This can apply not only to models with a refractory core intended for hollow casts, but also to solid ones.[^69] In both lost-wax and sand casting, an armature will further help support the core during the {{< q-def "bronze" >}}. As the name implies, core supports help to both strengthen and support the core. The inclusion and placement of armatures and other supporting elements (and in some cases, core vents as found in sand casting) are crucial to the success of a hollow cast in particular. Shaped most often out of metal, their remains might be preserved in the cast.
 
-</section>
 <section id="S2.6.1">
 
 #### 2.6.1 Armatures
@@ -526,6 +525,7 @@ Core vents (also called lanterns, **figs. 6, 43**) provide an exhaust route for 
 {{< q-figure-group grid="3" class="column" id="fig-006, fig-043, fig-009" >}}
 
 </section>
+</section>
 <section id="S2.7">
 
 ### 2.7 Sprues
@@ -561,13 +561,13 @@ Not all sculptures are cast in one piece, and the rich variety of assembly techn
 {{< q-figure-group grid="3" class="column" id="fig-047" >}}
 
 </section>
+</section>
 <section id="S3">
 
 ## 3 How?: User Guide
 
 The *Guidelines* are accessible in a variety of ways.
 
-</section>
 <section id="S3.1">
 
 ### 3.1 Evidence of the fabrication process (volume I)
@@ -621,6 +621,7 @@ The case studies offer readers a representative example of investigations into t
 One overall bibliography serves as reference for all sections of the *Guidelines* and is unique in its diversity, as it draws on the expertise of an interdisciplinary cast of contributing members. Yet while many of the key publications on bronze casting and related disciplines have been included, the bibliography does not pretend to cover every publication about this expansive field. The bulk of the publications cited are in English and French, reflecting the makeup of the primary organizers of the publication, but every effort has been made to incorporate important works in other languages.
 
 </section>
+</section>
 <section id="S4">
 
 ## 4 Overall disclaimer
@@ -633,11 +634,8 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 </section>
 
-<div class="backmatter">
-
 ## Notes
 
-</div>
 
 [^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology {{< q-cite "Lemonnier 1992" >}}. Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](#GI§1.2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze.
 
