@@ -187,7 +187,7 @@ function filterImageGrid() {
 
 (function() {
   // Get all the <h2> headings
-  const headings = document.querySelectorAll('.quire-page--accordion .content h2.fold-up')
+  const headings = document.querySelectorAll('.quire-page--accordion .content h2[id=notes]')
 
   Array.prototype.forEach.call(headings, heading => {
 

@@ -24,7 +24,6 @@
         {{ $replace := "<$1 class='indent' id='$2'><span class='section-num'>$3 </span>$4</$1>" }}
         {{ replaceRE $find $replace .Content | safeHTML }}
 
-        {{ partial "page-bibliography.html" . }}
       </div>
       {{ partial "footer-buttons.html" . }}
     </div>
