@@ -467,6 +467,29 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
 }
 
+/*  Alter the figure modal to display the figure at the left,
+    and the caption at the right */
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  width: 65vw;
+}
+div.quire-caption-container {
+  position: fixed;
+  width: 35vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: auto;
+  padding: 1.5rem;
+  padding: 4.5rem 3rem 1.5rem 1.5rem ;
+}
+div.quire-caption-container > .caption {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Noto Sans", sans-serif;
+}
+
 
 /* Q-FIGURE-GROUP SHORTCODE: GRID (DEFAULT)
 ------------------------------------------------ */
