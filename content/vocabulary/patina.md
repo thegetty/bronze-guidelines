@@ -14,7 +14,7 @@ Note: Some researchers do not consider applied organic coatings part of the pati
 
 </div>
 
-{{< q-figure-group grid="4" id="fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" >}}
+{{< q-figure-group grid="4" id="fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" class="column" >}}
 
 ## Sources
 
