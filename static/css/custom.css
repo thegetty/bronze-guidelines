@@ -44,39 +44,31 @@
 }
 
 
-/*  ACCORDION
-    <div class="accordion">
+/*  ACCORDION BUTTONS
+    <div class="accordion">   <-- used in VOCABULARY SECTION
+    class: accordion          <-- used on INDENTED FULL WIDTH PAGES
 ============================================================================= */
-.quire-page .content .accordion h3 button {
+
+button.accordion-expander {
   all: inherit;
-  border: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 2rem 0 1rem 0;
-  border-top: 2px solid var(--black);
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
   cursor: pointer;
-  font-weight: 400;
 }
-.quire-page .content .accordion {
-  border-bottom: 2px solid var(--black);
-  margin-top: 2rem;
-}
-.quire-page .content .accordion div {
-  margin-bottom: 2rem;
-}
-.quire-page .content .accordion button svg {
+button.accordion-expander svg {
   height: 1rem;
   width: 1rem;
-}
-.quire-page .content .accordion [aria-expanded="true"] .vert {
-  display: none;
-}
-.quire-page .content .accordion [aria-expanded] rect {
   fill: currentColor;
 }
-.quire-page .content .accordion .no-content-expander button svg {
+button.accordion-expander[aria-expanded="true"] svg {
+  fill: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"],
+button.accordion-expander[aria-expanded="true"] * {
+  color: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"] .vert {
   display: none;
 }
 
@@ -115,6 +107,9 @@
     <div class="warning">
 ============================================================================= */
 
+.quire-page__content .container .content .warning {
+  margin-bottom: 1rem;
+}
 .quire-page__content .container .content .warning ul li::before {
   color: var(--orange-clay);
 }
@@ -131,7 +126,7 @@
 
 @media screen {
 
-/* Set page as full-width */
+/*  Set page as full-width */
 .quire-full-width .quire-page__content .container {
   margin: 0 4rem 0 8rem;
   max-width: inherit;
@@ -142,53 +137,82 @@
   padding-right: 0;
 }
 
-/* Set grid for each section */
-.quire-full-width .quire-page__content .container section:not(.footnotes),
-.quire-full-width .quire-page__content .container h2#notes,
-.quire-full-width .quire-page__content .container h2#bibliography {
-  margin-top: 4rem;
+/*  Style H2s to be primary visual waypoints */
+.quire-full-width .quire-page__content .content h2 {
+  margin-top: 6rem;
+  border-top: 3px solid var(--green-wax);
+  padding-top: 2rem;
 }
-.quire-full-width .quire-page__content .container section:not(.footnotes) {
+.quire-full-width .quire-page__content .content h2 + p {
+  font-weight: 700;
+}
+
+/*  Style H3s and H4s
+    H5 is not used and so not styled here currently */
+.quire-full-width .quire-page__content .content h3,
+.quire-full-width .quire-page__content .content h4 {
+  padding: .5rem 0;
+}
+/*  Add some margin on top, but not for accordion full-width pages
+    on accordion pages, margins are handled on the button element */
+.quire-full-width .quire-page__content .content h3,
+.quire-full-width .quire-page__content .content h4 {
+  margin-top: 1em;
+}
+.quire-full-width.quire-page--accordion .quire-page__content .content h3,
+.quire-full-width.quire-page--accordion .quire-page__content .content h4 {
+  margin-top: 0;
+}
+
+/*  Set the grid for the accordion sections
+    Text elements to the left, and figures to the right
+    Adjust spacing as needed */
+.quire-full-width .quire-page__content .content .display-accordion {
   display: grid;
   grid-template-columns: 3fr 2fr;
   column-gap: 2rem;
 }
-.quire-full-width .quire-page__content .container section:not(.footnotes) * {
+.quire-full-width .quire-page__content .content .display-accordion > * {
   grid-column-start: 1;
 }
-.quire-full-width .quire-page__content .container section:not(.footnotes) h2,
-.quire-full-width .quire-page__content .container section:not(.footnotes) h3,
-.quire-full-width .quire-page__content .container section:not(.footnotes) h4 {
+.quire-full-width .quire-page__content .content .display-accordion > figure {
+  grid-column-start: 2;
+  grid-row: 1/100;
+}
+.quire-full-width .quire-page__content .content .display-accordion > section {
   grid-column: 1/-1;
 }
-.quire-full-width .quire-page__content .container section:not(.footnotes) figure {
-  grid-column-start: 2;
-  grid-row: 2/100;
+.quire-full-width .quire-page__content .content .display-accordion > section:last-of-type {
+  margin-bottom: 2rem;
 }
-/* Add default margin to the bottom of each section */
-.quire-full-width .content section:not(.footnotes):not(:last-child) {
+.quire-full-width .content .display-accordion > *:not(figure):nth-last-child(1) {
   margin-bottom: 1em;
 }
-/* Remove bottom margins from second to last item, left side of grid, so that it doesn't push the next section lower, but also add a top margin to the last item if it's not a figure and so is also on the left side of the grid */
-.quire-full-width .content section:not(.footnotes) > *:nth-last-child(2) {
-  margin-bottom: 0;
-}
-.quire-full-width .content section:not(.footnotes) > *:not(figure):nth-last-child(1) {
-  margin-top: 1em;
-}
 
-/* Indent all headings and lists out to the left */
+/*  Indent all headings and lists out to the left,
+    but on accordion full-width pages, change the H4 indent */
 .quire-full-width .content h2.indent,
 .quire-full-width .content h3.indent,
 .quire-full-width .content h4.indent {
   text-indent: -6rem;
 }
-.quire-full-width .content .section-num {
+.quire-full-width .content h2.indent .section-num,
+.quire-full-width .content h3.indent .section-num,
+.quire-full-width .content h4.indent .section-num {
   width: 6rem;
   display: inline-block;
   text-align: right;
   padding-right: 2rem;
 }
+.quire-full-width.quire-page--accordion .content h4.indent {
+  text-indent: 0;
+}
+.quire-full-width.quire-page--accordion .content h4.indent .section-num {
+  width: 4rem;
+  text-align: left;
+}
+
+/*  Indent lists to match headings */
 .quire-full-width .quire-page__content .container .content ul,
 .quire-full-width .quire-page__content .container .content ul li {
   margin-left: 0;
@@ -199,25 +223,25 @@
   margin-left: -2.7rem;
 }
 
-/* Remove default borders, margins and padding from figures */
+/*  Make images smaller on full-width pages that aren't also accordions */
+.quire-full-width:not(.quire-page--accordion) .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-3 {
+  column-count: 6;
+}
+
+/*  Remove default borders, margins and padding from figures */
 .quire-full-width .quire-page__content .container .content .quire-figure {
   border-width: 0;
   margin-top: .75rem;
   margin-bottom: -1rem;
   padding: 0;
 }
-/* Remove modal icon to aid legibility */
+
+/*  Remove modal icon to aid legibility */
 .quire-full-width .quire-page__content .container .content .quire-figure .quire-figure__label-icon {
   display: none;
 }
 
-/* Make first paragraph of main sections bold so they stand out */
-.quire-full-width .quire-page__content .container .content h2 + p {
-  font-weight: 700;
-  color: var(--black);
-}
-
-/* TEMP for visual testing of figure callouts */
+/*  TEMP for visual testing of figure callouts */
 .quire-full-width .quire-page__content strong {
   color: var(--accent-color);
   font-weight: 400;
@@ -382,7 +406,8 @@
     layout: vocabulary
 ============================================================================= */
 
-/* On the section landing page, make the Chinese language column wide enough to not break words */
+/*  On the section landing page, make the Chinese language column
+    wide enough to not break words */
 #vocabulary table th:last-child {
   min-width: 8rem;
 }
@@ -397,6 +422,28 @@
   margin-top: .5em;
   margin-left: 330px;
 }
+
+/*  Accordion section for translations */
+.quire-page .content h2 + .accordion {
+  margin-top: 2rem;
+  border-bottom: 2px solid var(--black);
+}
+.quire-page .content .accordion h3 {
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 2px solid var(--black);
+  margin: 0;
+  font-weight: 400;
+}
+.quire-page .content .accordion h3 button.accordion-expander svg {
+  float: right;
+  margin-right: .5rem;
+  margin-top: .5rem;
+}
+.quire-page .content .accordion .display-accordion {
+  margin-bottom: 2rem;
+}
+
 
 /* FIGURES
 ============================================================================= */
