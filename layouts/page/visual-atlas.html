@@ -53,6 +53,7 @@
 
         {{- $dict := dict "Site" $.Site "alt" $alt "aspectRatio" $aspectRatio "caption" $caption "credit" $credit "download" $download "id" $id "label" $label "mediaId" $mediaId "mediaType" $mediaType "src" $src -}}
 
+        {{ if ne $mediaType "table" }}
         <figure
           data="q-figure"
           class="quire-figure grid-figure match"
@@ -77,6 +78,7 @@
           <span class="grid-label">{{ replace $label "Figure " "" }}</span>
           {{ end }}
         </figure>
+        {{ end }}
 
         {{ end }}
         {{ if ne $.Site.Params.pdf true }}
