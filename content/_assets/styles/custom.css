@@ -1,0 +1,697 @@
+:root {
+  /* Should match $accent-color in variables.scss
+  #427f34 is a darker, accessible version of --green-wax */
+  --accent-color: #427f34;
+
+  --green-wax: #59ac46;
+  --yellow-bronze: #fbda00;
+  --orange-clay: #d0773f;
+  --brown-sand: #b68b73;
+  --brown-bronze: #784721;
+  --gray-background: #656360;
+
+  /* Should match $black and $white in colors.scss */
+  --black: #54524f;
+  --white: #f9f9f1;
+
+}
+
+/* GENERAL
+============================================================================= */
+
+/* Add some more space between content and footer buttons */
+.quire-contents-buttons {
+  margin-top: 3rem;
+}
+
+/* Fix default spacing on lists to match other elements */
+.content ul,
+.content ol {
+  margin-top: 0;
+}
+
+/* Adjust default heading styles and spacing */
+.quire-page .content h2 {
+  text-transform: none;
+  line-height: 1.3;
+}
+.quire-page .content h3 {
+  font-style: normal;
+  font-size: 1.5625rem;
+}
+.quire-page .content h4 {
+  font-size: 1.3125rem;
+}
+
+
+/*  ACCORDION BUTTONS
+    <div class="accordion">   <-- used in VOCABULARY SECTION
+    class: accordion          <-- used on INDENTED FULL WIDTH PAGES
+============================================================================= */
+
+button.accordion-expander {
+  all: inherit;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: pointer;
+}
+button.accordion-expander svg {
+  height: 1rem;
+  width: 1rem;
+  fill: currentColor;
+}
+button.accordion-expander[aria-expanded="true"] svg {
+  fill: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"],
+button.accordion-expander[aria-expanded="true"] * {
+  color: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"] .vert {
+  display: none;
+}
+
+
+/*  CARDS
+    <div class="card">
+============================================================================= */
+.quire-page .content .cards ul {
+  margin-left: 0;
+}
+.quire-page .content .cards ul li::before {
+  font-size: 3rem;
+  margin-left: -.85em;
+  margin-top: -1.8rem;
+  color: var(--white);
+}
+.quire-page .content .cards ul li {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1rem 1rem 1.5rem;
+  border-radius: 4px;
+  background-color: #edede4; /* dark version of --white */
+  margin-left: 0;
+}
+.quire-page .content .cards .quire-figure {
+  border-width: 0;
+  padding: 0;
+  margin: 1.5rem 0 1rem 0;
+}
+.quire-page .content .cards ul li .quire-figure {
+  margin: 0;
+}
+
+
+/*  WARNING BOXES
+    <div class="warning">
+============================================================================= */
+
+.quire-page__content .container .content .warning {
+  margin-bottom: 1rem;
+}
+.quire-page__content .container .content .warning ul li::before {
+  color: var(--orange-clay);
+}
+.quire-page__content .container .content .warning > p:first-child {
+  color: var(--orange-clay);
+  font-weight: 700;
+}
+
+
+/*  INDENTED FULL WIDTH PAGES
+    type: page
+    layout: full-width
+============================================================================= */
+
+@media screen {
+
+/*  Set page as full-width */
+.quire-full-width .quire-page__content .container {
+  margin: 0 4rem 0 8rem;
+  max-width: inherit;
+  width: inherit;
+}
+.quire-full-width .quire-page__content .container .content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*  Style H2s to be primary visual waypoints */
+.quire-full-width .quire-page__content .content h2 {
+  margin-top: 6rem;
+  border-top: 3px solid var(--green-wax);
+  padding-top: 2rem;
+}
+.quire-full-width .quire-page__content .content h2 + p {
+  font-weight: 700;
+}
+
+/*  Style H3s and H4s
+    H5 is not used and so not styled here currently */
+.quire-full-width .quire-page__content .content h3,
+.quire-full-width .quire-page__content .content h4 {
+  padding: .5rem 0;
+}
+/*  Add some margin on top, but not for accordion full-width pages
+    on accordion pages, margins are handled on the button element */
+.quire-full-width .quire-page__content .content h3,
+.quire-full-width .quire-page__content .content h4 {
+  margin-top: 1em;
+}
+.quire-full-width.quire-page--accordion .quire-page__content .content h3,
+.quire-full-width.quire-page--accordion .quire-page__content .content h4 {
+  margin-top: 0;
+}
+
+/*  Set the grid for the accordion sections
+    Text elements to the left, and figures to the right
+    Adjust spacing as needed */
+.quire-full-width .quire-page__content .content .display-accordion {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  column-gap: 2rem;
+}
+.quire-full-width .quire-page__content .content .display-accordion > * {
+  grid-column-start: 1;
+}
+.quire-full-width .quire-page__content .content .display-accordion > figure {
+  grid-column-start: 2;
+  grid-row: 1/100;
+}
+.quire-full-width .quire-page__content .content .display-accordion > section {
+  grid-column: 1/-1;
+}
+.quire-full-width .quire-page__content .content .display-accordion > section:last-of-type {
+  margin-bottom: 2rem;
+}
+.quire-full-width .content .display-accordion > *:not(figure):nth-last-child(1) {
+  margin-bottom: 1em;
+}
+
+/*  Indent all headings and lists out to the left,
+    but on accordion full-width pages, change the H4 indent */
+.quire-full-width .content h2.indent,
+.quire-full-width .content h3.indent,
+.quire-full-width .content h4.indent {
+  text-indent: -6rem;
+}
+.quire-full-width .content h2.indent .section-num,
+.quire-full-width .content h3.indent .section-num,
+.quire-full-width .content h4.indent .section-num {
+  width: 6rem;
+  display: inline-block;
+  text-align: right;
+  padding-right: 2rem;
+}
+.quire-full-width.quire-page--accordion .content h4.indent {
+  text-indent: 0;
+}
+.quire-full-width.quire-page--accordion .content h4.indent .section-num {
+  width: 4rem;
+  text-align: left;
+}
+
+/*  Indent lists to match headings */
+.quire-full-width .quire-page__content .container .content ul,
+.quire-full-width .quire-page__content .container .content ul li {
+  margin-left: 0;
+}
+.quire-full-width .quire-page__content .container .content ul li::before {
+  font-size: 1.2rem;
+  margin-top: -.15rem;
+  margin-left: -2.7rem;
+}
+
+/*  Make images smaller on full-width pages that aren't also accordions */
+.quire-full-width:not(.quire-page--accordion) .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-3 {
+  column-count: 6;
+}
+
+/*  Remove default borders, margins and padding from figures */
+.quire-full-width .quire-page__content .container .content .quire-figure {
+  border-width: 0;
+  margin-top: .75rem;
+  margin-bottom: -1rem;
+  padding: 0;
+}
+
+/*  Remove modal icon to aid legibility */
+.quire-full-width .quire-page__content .container .content .quire-figure .quire-figure__label-icon {
+  display: none;
+}
+
+/*  TEMP for visual testing of figure callouts */
+.quire-full-width .quire-page__content strong {
+  color: var(--accent-color);
+  font-weight: 400;
+}
+.quire-full-width .quire-page__content .quire-definition__content strong {
+  color: inherit;
+  font-weight: 700;
+}
+
+}
+
+@media print {
+  .quire-full-width .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+
+/*  VISUAL ATLAS PAGE
+    type: page
+    layout: visual-atlas
+============================================================================= */
+
+@media screen {
+  /* Set page as full-width and set alternate background color */
+  .quire-visual-atlas .quire-page__content .container {
+    margin: 0 4rem 0 4rem;
+    max-width: inherit;
+    width: inherit;
+  }
+  .quire-visual-atlas .quire-page__content .container .content {
+    margin-top: calc(45px + 2.5rem);
+    padding: 0;
+    background-color: transparent;
+  }
+  .quire .quire__primary .quire-visual-atlas#main {
+    background-color: var(--gray-background) !important;
+  }
+  /* Style header and top area of grid with search box */
+  .quire-visual-atlas .quire-page__header {
+    background-color: transparent;
+  }
+  .quire-visual-atlas.quire-page h1,
+  .quire-visual-atlas .quire-page__header__title {
+    color: var(--white);
+  }
+  .quire-visual-atlas .quire-page__content .container .content #image-grid-header {
+    color: var(--white);
+    padding-bottom: 4rem;
+  }
+  .quire-visual-atlas .quire-page__content .container .content .image-grid-search-box {
+    margin: 0 auto;
+    display: block;
+    width: 32rem;
+    max-width: calc(100vw - 4rem);
+  }
+  .quire-visual-atlas .quire-page__content .container .content #image-grid-search {
+    height: 3rem;
+    width: calc(100% - 2rem);
+    background-color: transparent;
+    color: var(--white);
+    border: none;
+    border-bottom: 1px solid var(--white);
+    font-size: 1.5rem;
+    display: inline;
+  }
+  .quire-visual-atlas .quire-page__content .container .content #image-grid-search:focus-visible {
+    outline: none;
+  }
+  .quire-visual-atlas .quire-page__content .container .content .image-grid-search-box svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--white);
+    display: inline;
+    position: absolute;
+    top: .75rem;
+  }
+  #image-grid-counter {
+    display: block;
+    height: 2rem;
+    color: var(--white);
+    font-style: italic;
+    text-align: center;
+  }
+  /* Style image grid and images */
+  .quire-visual-atlas .quire-page__content .container .content #image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--white);
+  }
+  .quire-figure.grid-figure.match {
+    display: block;
+  }
+  .quire-figure.grid-figure {
+    display: none;
+  }
+  .quire-visual-atlas .quire-page__content .container .content figure .quire-figure__image {
+    max-height: 240px;
+    width: auto;
+  }
+  .quire-visual-atlas .quire-page__content .container .content figure:not(:last-child),
+  .quire-visual-atlas .quire-page__content .container .content figure:not(:first-child) {
+    margin: 0;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    border: 1px solid var(--white);
+    position: relative;
+  }
+  .quire-visual-atlas .content figure .quire-figure__caption {
+    display: none;
+  }
+  .quire-visual-atlas .grid-label {
+    position: absolute;
+    bottom: tom;
+    bottom: 3px;
+    left: 6px;
+    color: var(--white);
+    opacity: .5;
+    font-size: .875rem;
+  }
+  /* Add media queries to responsively adjust grid width and outer margins */
+  @media (max-width: 1888px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 1568px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 1248px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 928px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .quire-visual-atlas .quire-page__content .container {
+      margin: 0 2rem 0 2rem;
+    }
+  }
+  @media (max-width: 609px)  {
+    .quire-visual-atlas .quire-page__content .container .content #image-grid {
+      grid-template-columns: 1fr;
+    }
+    .quire-visual-atlas .quire-page__content .container {
+      margin: 0 1rem 0 1rem;
+    }
+  }
+}
+
+
+/* VOCABULARY SECTION
+    type: page
+    layout: vocabulary
+============================================================================= */
+
+/*  On the section landing page, make the Chinese language column
+    wide enough to not break words */
+#vocabulary table th:last-child {
+  min-width: 8rem;
+}
+
+.quire-vocabulary .content h2 {
+  margin-top: 4rem;
+}
+
+.quire-definition__content__more-link {
+  display: block;
+  width: max-content;
+  margin-top: .5em;
+  margin-left: 330px;
+}
+
+/*  Accordion section for translations */
+.quire-page .content h2 + .accordion {
+  margin-top: 2rem;
+  border-bottom: 2px solid var(--black);
+}
+.quire-page .content .accordion h3 {
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 2px solid var(--black);
+  margin: 0;
+  font-weight: 400;
+}
+.quire-page .content .accordion h3 button.accordion-expander svg {
+  float: right;
+  margin-right: .5rem;
+  margin-top: .5rem;
+}
+.quire-page .content .accordion .display-accordion {
+  margin-bottom: 2rem;
+}
+
+
+/* FIGURES
+============================================================================= */
+
+/* Hide figure captions inline and only display in modal */
+.quire-figure__caption-content {
+  display: none;
+}
+.quire-caption-container .quire-figure__caption-content {
+  display: inline;
+}
+@media screen {
+  .content figure .quire-figure__caption {
+    margin-top: 0;
+  }
+}
+@media print {
+  .quire-figure {
+    border-width: 0;
+    padding: 0;
+  }
+}
+
+/*  Alter the figure modal to display the figure at the left,
+    and the caption at the right */
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  width: 65vw;
+}
+div.quire-caption-container {
+  position: fixed;
+  width: 35vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: auto;
+  padding: 1.5rem;
+  padding: 4.5rem 3rem 1.5rem 1.5rem ;
+}
+div.quire-caption-container > .caption {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+/* Q-FIGURE-GROUP SHORTCODE: GRID (DEFAULT)
+------------------------------------------------ */
+@media screen {
+  .content .quire-figure--group figure,
+  .content .quire-figure--group figure:not(:first-child) {
+    margin: 0;
+  }
+  .quire-page__content figure.quire-figure--group {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  .quire-page__content figure.quire-figure--group.quire-figure--group--grid-1 {
+    grid-template-columns: 1fr;
+  }
+  .quire-page__content figure.quire-figure--group.quire-figure--group--grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .quire-page__content figure.quire-figure--group.quire-figure--group--grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .quire-page__content figure.quire-figure--group.quire-figure--group--grid-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .quire-page__content figure.quire-figure--group > .quire-figure__caption {
+    grid-column: 1/-1;
+    margin-top: 0;
+  }
+}
+@media print {
+  .quire-page__content figure.quire-figure--group {
+    display: block;
+    white-space: nowrap;
+  }
+  .quire-page__content figure.quire-figure--group figcaption {
+    white-space: normal;
+  }
+  .content .quire-figure--group.quire-figure--group--grid-2 figure,
+  .content .quire-figure--group.quire-figure--group--grid-2 figure:not(:first-child) {
+    margin: 0;
+    width: calc(50% - .75rem);
+    display: inline-block;
+  }
+  .content .quire-figure--group.quire-figure--group--grid-2 figure:not(:first-child) {
+    margin-left: 1.5rem;
+  }
+}
+
+/* Q-FIGURE-GROUP SHORTCODE: COLUMN
+requires class="column" in shortcode
+------------------------------------------------ */
+@media screen {
+  .quire-page__content figure.quire-figure--group.column {
+    display: block;
+    column-gap: 1rem;
+    /* The following are currently specific for the vocabulary pages
+      but might be fine on other pages as well */
+    border-top-width: 2px;
+    border-bottom-width: 0;
+    border-color: var(--black);
+    padding: 2rem 0 0 0;
+    margin: 2rem 0 0 0;
+  }
+  .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-1 {
+    column-count: 1;
+  }
+  .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-2 {
+    column-count: 2;
+  }
+  .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-3 {
+    column-count: 3;
+  }
+  .quire-page__content figure.quire-figure--group.column.quire-figure--group--grid-4 {
+    column-count: 4;
+  }
+  .content .quire-figure--group.column figure,
+  .content .quire-figure--group.column figure:not(:first-child) {
+    margin: 0;
+    margin-bottom: .75rem;
+    /* this keeps the captions from breaking across columns */
+    display: inline-block;
+    break-inside: avoid;
+  }
+  .quire-page__content .content figure.quire-figure--group.column .q-figure__wrapper > a:hover {
+    border-bottom-width: 0px !important;
+  }
+}
+
+
+@media print {
+  .quire-vocabulary .quire-page__header h1 {
+    prince-bookmark-level: none;
+  }
+  .quire-page__content__references.backmatter,
+  .quire-page__content figure.quire-figure--group {
+    display: none;
+  }
+  .quire-page__abstract {
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .quire-page__abstract .container {
+    margin: 0 .75in;
+  }
+  .quire-figure__caption-content {
+    display: initial;
+  }
+  .quire-vocabulary .quire-page__content,
+  .quire-visual-atlas .quire-page__content,
+  .quire-page--pdf-backmatter .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+    /* column-count: 3; */
+    font-size: .875em;
+  }
+  #vocabulary .quire-page--pdf-backmatter .quire-page__content {
+    column-count: 1;
+  }
+  .quire-vocabulary .quire-page__header,
+  .quire-page--pdf-backmatter .quire-page__header {
+    margin-bottom: .375in;
+  }
+  .quire-vocabulary.quire-page h1,
+  .quire-vocabulary .quire-page__header__title,
+  .quire-page--pdf-backmatter.quire-page h1,
+  .quire-page--pdf-backmatter .quire-page__header__title  {
+    margin-top: 0;
+  }
+  .quire-vocabulary.quire-page h1,
+  .quire-vocabulary .quire-page__header__title {
+    font-weight: normal;
+  }
+  .quire-vocabulary .content h2,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1.375em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary .content h3,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1.125em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary .content h4,
+  .quire-page--pdf-backmatter .content h2 {
+    font-size: 1em;
+    margin-bottom: .75em;
+  }
+  .quire-vocabulary.quire-page .content :not(:last-child),
+  .quire-page--pdf-backmatter.quire-page .content :not(:last-child) {
+    margin-bottom: .75em !important;
+  }
+  .quire-vocabulary.quire-page .content li:not(:last-child),
+  .quire-page--pdf-backmatter.quire-page .content dt:not(:last-child) {
+    margin-bottom: 0 !important;
+  }
+  .quire-page--pdf-backmatter.quire-page .content dt:not(:last-child) {
+    page-break-after: avoid;
+  }
+  .quire-vocabulary.quire-page h1:not(:first-child),
+  .quire-vocabulary.quire-page h2:not(:first-child),
+  .quire-vocabulary.quire-page h3:not(:first-child),
+  .quire-vocabulary.quire-page h4:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h1:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h2:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h3:not(:first-child),
+  .quire-page--pdf-backmatter.quire-page h4:not(:first-child) {
+    margin-top: 0;
+  }
+  .quire-page .content .accordion {
+    border-bottom-width: 0;
+  }
+  .quire-vocabulary .content h3 em {
+    font-weight: normal;
+  }
+  .quire-vocabulary .content h2,
+  .quire-page .content h2 {
+    margin-top: 0;
+  }
+  .quire-page__content .content .footnotes ol li {
+    margin-bottom: 0;
+  }
+  .quire-page__content .content ul,
+  .content section:not(:last-child),
+  .content div:not(:last-child) {
+    margin-bottom: 1em;
+  }
+  .quire-page__content .container .content ul li::before {
+    page-break-after: avoid;
+  }
+
+  .quire-contributor__bio {
+    line-height: 1.6;
+  }
+  .quire-contributor .title {
+    display: none;
+  }
+  .quire-contributor .media {
+    padding-bottom: 0;
+  }
+}
