@@ -1,8 +1,8 @@
 ---
 title: cast-on repair
 weight: 445
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {{< q-def "casting defects" >}}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {{< q-def "patch" >}} or element to the cast.'

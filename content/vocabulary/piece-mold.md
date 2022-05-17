@@ -1,8 +1,8 @@
 ---
 title: piece mold
 weight: 620
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A type of {{< q-def "mold" >}} comprised of two or more individually formed, interlocking sections designed to circumvent undercuts and/or be disassembled without damage to the model or to the mold sections. Most often refers to molds made of a rigid material such as plaster. Smaller piece-mold sections are generally held together by a rigid outer mother mold. Starting in the nineteenth century, flexible piece molds (at first gelatin, later replaced by rubber, alginate, and silicone molds) were used instead of plaster, reducing the overall number of sections required to make a wax cast.'

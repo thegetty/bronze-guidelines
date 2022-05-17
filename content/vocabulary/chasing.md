@@ -1,8 +1,8 @@
 ---
 title: chasing
 weight: 470
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'The process of fine detailed “cold work” after casting and {{< q-def "fettling" >}} that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, {{< q-def "engraving" >}}, and/or {{< q-def "chiseling" >}}, and in modern times also with power and pneumatic tools.'

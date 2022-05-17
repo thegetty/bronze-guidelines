@@ -1,8 +1,8 @@
 ---
 title: castability
 weight: 450
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Ability of a liquid metal to fill and pick up every detail of a mold. See [I.2§2.2](#I.2§2.2).'

@@ -1,8 +1,8 @@
 ---
 title: pour
 weight: 635
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'The operation of pouring or casting metal into the refractory mold.'

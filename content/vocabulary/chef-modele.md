@@ -1,8 +1,8 @@
 ---
 title: chef modèle
 weight: 475
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'French term for a bronze replica of the artist’s model that is used to make molds for the production of large editions in sand casting. In rare cases, a chef-modèle has been used in lost-wax casting.'

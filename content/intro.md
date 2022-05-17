@@ -1,8 +1,8 @@
 ---
 title: General Introduction
 weight: 50
-type: page
-layout: full-width
+layout: page
+hugo_layout: full-width
 class: accordion
 contributor:
   - id: fbrewer

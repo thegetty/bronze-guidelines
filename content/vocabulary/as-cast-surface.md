@@ -1,8 +1,8 @@
 ---
 title: as-cast surface
 weight: 415
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Refers to the surface immediately after removal from the mold, before fettling and chasing.'

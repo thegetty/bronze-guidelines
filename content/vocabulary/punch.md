@@ -1,8 +1,8 @@
 ---
 title: punch
 weight: 640
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A tool usually made of a steel rod that may be struck with a hammer at one end in order to create a pattern in the surface of the sculpture with the other end by compressing the metal.'

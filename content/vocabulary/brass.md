@@ -1,8 +1,8 @@
 ---
 title: brass
 weight: 420
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A copper alloy with zinc as the primary added element. As with bronzes, there are a wide variety of brass alloys.'

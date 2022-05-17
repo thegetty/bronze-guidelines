@@ -1,8 +1,8 @@
 ---
 title: core pin
 weight: 500
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A metal rod, nail, or wire that is embedded in both the {{< q-def "core" >}} and the outer mold and serves to secure the core in place during the pour. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'

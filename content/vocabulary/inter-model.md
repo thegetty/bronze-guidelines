@@ -1,8 +1,8 @@
 ---
 title: inter-model
 weight: 555
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Replica in wax obtained from the reusable {{< q-def "mold" >}} of an original {{< q-def "model" >}}. Inter-models are used in indirect {{< q-def "lost-wax casting" >}}. Inter-models are often slush molded (**fig. 16**, [Case Study 7](#CaseStudy7)). One inter-model may vary from another through additions or changes made in the wax before the {{< q-def "investment" >}} is applied.'

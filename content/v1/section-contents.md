@@ -2,7 +2,7 @@
 title: Volume I
 subtitle: Evidence of Process Steps
 weight: 100
-type: contents
+layout: contents
 class: abstracts
 slug: .
 ---

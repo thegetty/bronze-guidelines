@@ -2,7 +2,7 @@
 title: Volume II
 subtitle: Analytical Techniques
 weight: 200
-type: contents
+layout: contents
 class: list
 slug: .
 ---

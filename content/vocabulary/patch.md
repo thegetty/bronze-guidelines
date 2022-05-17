@@ -1,8 +1,8 @@
 ---
 title: patch
 weight: 605
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair most often mechanically set into the bronze surface, but which may also be soldered, welded, or cast into place (see [I.4](#I.4)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'

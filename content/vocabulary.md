@@ -1,7 +1,7 @@
 ---
 title: Vocabulary
 weight: 400
-type: page
+layout: page
 class: pdf-backmatter
 ---
 

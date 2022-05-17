@@ -1,7 +1,7 @@
 ---
 title: Acknowledgments
 weight: 40
-type: page
+layout: page
 ---
 
 TK

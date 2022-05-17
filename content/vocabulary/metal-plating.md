@@ -1,8 +1,8 @@
 ---
 title: metal plating
 weight: 575
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Generic term referring to the application of a different metal to the surface of a bronze sculpture by a variety of means (mechanical, chemical, electrochemical). Typically, gold and silver are used to plate sculptures, but nickel, zinc, and tin have been used for aesthetic and/or protective reasons. When the applied metal is gold or an alloy of gold, it is referred to as {{< q-def "gilding" >}}.'

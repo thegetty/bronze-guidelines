@@ -1,8 +1,8 @@
 ---
 title: shrinkage
 weight: 670
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the cast as well as possible casting defects. See [II.4§1.1.1](#II.4§1.1.1).'

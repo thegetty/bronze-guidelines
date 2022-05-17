@@ -1,8 +1,8 @@
 ---
 title: mold extension
 weight: 595
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Bridge or spacer made of refractory material between the {{< q-def "core" >}} and the outer mold. It serves a double function as {{< q-def "core support" >}} while also providing better air flow into the core to aid in its drying before the bronze is poured.'

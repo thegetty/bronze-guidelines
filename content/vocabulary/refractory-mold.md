@@ -1,8 +1,8 @@
 ---
 title: refractory mold
 weight: 645
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the model to be reproduced and forms the void into which the molten metal will be cast. Investment, green sand, and ceramic shell are examples of refractory molds.'

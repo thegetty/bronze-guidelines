@@ -1,8 +1,8 @@
 ---
 title: overlay
 weight: 600
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Decorative element resting on the surface of a sculpture via any of a variety of attachment methods, including solder, adhesives, cements, and/or rivets. Overlay materials may include a range of materials, among them metals, glass, stone, or bone.'

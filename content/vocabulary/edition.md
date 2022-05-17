@@ -1,8 +1,8 @@
 ---
 title: edition
 weight: 515
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'

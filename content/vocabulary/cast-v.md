@@ -1,8 +1,8 @@
 ---
 title: cast (v.)
 weight: 440
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).'

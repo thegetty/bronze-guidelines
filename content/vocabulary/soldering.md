@@ -1,8 +1,8 @@
 ---
 title: soldering
 weight: 675
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'In bronze sculpture, a technique for joining separately cast parts, {{< q-def "inlays" >}}, {{< q-def "overlays" >}}, or repairs, or for filling {{< q-def "casting defects" >}}, by adding a metal with a lower melting temperature than that of the primary cast. As a rule of thumb, solder is white (alloys of silver, tin, lead, etc.), whereas {{< q-def "brazing" >}} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'

@@ -1,8 +1,8 @@
 ---
 title: flashing
 weight: 530
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the refractory mold (both outer and core). Flashing most often rises perpendicularly to the inner or outer wall of bronze, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during fettling. Flashing may also occur along seam lines of an ill-fitted piece mold.'

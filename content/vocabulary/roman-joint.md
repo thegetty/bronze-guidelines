@@ -1,8 +1,8 @@
 ---
 title: Roman joint
 weight: 655
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {{< q-def "soldering" >}}.'

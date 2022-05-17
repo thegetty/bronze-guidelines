@@ -1,7 +1,7 @@
 ---
 title: About the Contributors
 weight: 1010
-type: page
+layout: page
 class: pdf-backmatter
 ---
 

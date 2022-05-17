@@ -1,8 +1,8 @@
 ---
 title: foundry model
 weight: 540
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A general term for any model or replica of the artist’s model that is used to make a mold. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a bronze for the purpose of quality control.'

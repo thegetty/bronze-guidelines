@@ -1,8 +1,8 @@
 ---
 title: casting plan
 weight: 460
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A methodological tool that has been developed by researchers to reverse engineer the casting sequence of a bronze sculpture and visually represent the separately cast parts. It is based on the evidence presented in the object and attempts to map the decisions made by a foundry regarding the number and position of separately cast pieces.'

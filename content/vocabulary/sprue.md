@@ -1,8 +1,8 @@
 ---
 title: sprue
 weight: 680
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates bronze from the pouring cup through the {{< q-def "refractory mold" >}} and allows air and casting vapors such as steam to be released. In {{< q-def "lost-wax casting" >}}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {{< q-def "fettling" >}}.'

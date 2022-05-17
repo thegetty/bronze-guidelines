@@ -1,7 +1,7 @@
 ---
 title: Bibliography
 weight: 1000
-type: page
+layout: page
 class: pdf-backmatter
 ---
 

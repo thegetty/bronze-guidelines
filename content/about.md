@@ -1,7 +1,7 @@
 ---
 title: About
 weight: 1020
-type: page
+layout: page
 pdf: false
 epub: false
 ---

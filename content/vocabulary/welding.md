@@ -1,8 +1,8 @@
 ---
 title: welding
 weight: 690
-type: page
-layout: vocabulary
+layout: page
+hugo_layout: vocabulary
 toc: false
 menu: false
 definition: 'A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
