@@ -1,7 +1,7 @@
 ---
 title: Contents
 weight: 20
-layout: contents
+layout: table-of-contents
 class: list
 search: false
 ---

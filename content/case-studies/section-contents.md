@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 weight: 300
-layout: contents
+layout: table-of-contents
 class: list
 slug: .
 pdf: false
