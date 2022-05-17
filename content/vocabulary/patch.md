@@ -8,7 +8,7 @@ menu: false
 definition: 'A type of repair most often mechanically set into the bronze surface, but which may also be soldered, welded, or cast into place (see [I.4](#I.4)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
 ---
 
-{{< q-figure-group grid="3" id="fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198" class="column" >}}
+{% figuregroup "3", "fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198", "column" %}
 
 ## To Be Distinguished From
 
@@ -16,7 +16,7 @@ definition: 'A type of repair most often mechanically set into the bronze surfac
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Bassett 2008" >}}, 280, 283; {{< q-cite "Dillon 2002" >}}, 301–2; {{< q-cite "Mattusch 1996" >}}, 169–70
+Cultural Heritage: {% cite "Bassett 2008" %}, 280, 283; {% cite "Dillon 2002" %}, 301–2; {% cite "Mattusch 1996" %}, 169–70
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
@@ -28,7 +28,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 #### Sources
 
-{{< q-cite "Meissner, Haber, and Mach 2000" >}}, 102; {{< q-cite "Maaz 2010" >}}, 688
+{% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
 ### **French**: *plaquette de réparation*
 
@@ -40,23 +40,23 @@ Note: Le métal peut être très différent de celui du bronze à réparer (voir
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
+Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
 
 #### Alternate Translation
 
-- *pièce* | Sources: Historical: {{< q-cite "Boffrand 1743" >}}, 60; {{< q-cite "Mariette 1768" >}}, 127; {{< q-cite "Diderot et al. 1751" >}}, 2:442. entry « bronze »
+- *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442. entry « bronze »
 
 ### **Italian**: *laminetta ad incastro*
 
 #### Sources
 
-{{< q-cite "Pecchioli 1999" >}}, 192–93
+{% cite "Pecchioli 1999" %}, 192–93
 
 #### Alternate Translations
 
-- *tassellatura* | Sources: {{< q-cite "Pecchioli 1999" >}}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
+- *tassellatura* | Sources: {% cite "Pecchioli 1999" %}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
 
-- *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
+- *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
 
 ### **Chinese**: 补修
 

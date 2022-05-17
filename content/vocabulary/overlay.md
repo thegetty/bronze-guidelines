@@ -9,10 +9,10 @@ definition: 'Decorative element resting on the surface of a sculpture via any of
 ---
 
 <div class="backmatter">
-Note: The terms “{{< q-def "inlay" >}}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
+Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
-{{< q-figure-group grid="3" id="fig-223, fig-340, fig-346, fig-347" class="column" >}}
+{% figuregroup "3", "fig-223, fig-340, fig-346, fig-347", "column" %}
 
 ## To Be Distinguished From
 
@@ -23,13 +23,13 @@ Note: The terms “{{< q-def "inlay" >}}” and “overlay” are often used ind
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Hemingway and Abramitis 2017" >}}
+Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
 
-Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
+Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 ## Synonyms
 
-- *encrustation* | Source: Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
+- *encrustation* | Source: Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 - *foil*
 
@@ -43,7 +43,7 @@ Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 315
 
 #### Alternate Translation
 
-- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {{< q-cite "Lein 2004" >}}, 51
+- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
 
 ### **French**: *incrustation*
 
@@ -59,19 +59,19 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 #### Alternate Translation
 
-- *damasquinure* (Pour certains auteurs ({{< q-cite "Arminjon and Bilimoff 1998" >}}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({{< q-cite "Arminjon and Bilimoff 1998" >}}, 162–63; {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 661). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({{< q-cite "Félibien 1690" >}}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {{< q-cite "Arminjon and Bilimoff 1998" >}}, 162–63; Historical: {{< q-cite "Félibien 1690" >}}, 460
+- *damasquinure* (Pour certains auteurs ({% cite "Arminjon and Bilimoff 1998" %}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 661). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({% cite "Félibien 1690" %}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
 ### **Italian**: *incrostazione*
 
 #### Alternate Translation
 
-- *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
+- *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
 
 ### **Chinese**: 包覆
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 36
+{% cite "Ming 2010" %}, 36
 
 #### Alternate Translation
 

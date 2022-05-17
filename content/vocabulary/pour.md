@@ -8,11 +8,11 @@ menu: false
 definition: 'The operation of pouring or casting metal into the refractory mold.'
 ---
 
-{{< q-figure-group grid="3" id="fig-549, fig-560" class="column" >}}
+{% figuregroup "3", "fig-549, fig-560", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Mattusch 1996" >}}, 25; {{< q-cite "Maish 2017" >}}, 342
+Cultural Heritage: {% cite "Mattusch 1996" %}, 25; {% cite "Maish 2017" %}, 342
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
@@ -20,7 +20,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 - *casting*
 
-- *heat* | Source: Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
+- *heat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
 ## Translations
 
@@ -37,16 +37,16 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 Opération consistant à verser du métal liquide dans un moule réfractaire.
 
 <div class="backmatter">
-Note: Le terme a généré de nombreuses locutions liées à la fonderie : fosse de coulée, défaut de coulée, coulée de rappel ({{< q-cite "Rama 1988" >}}, 373), etc.
+Note: Le terme a généré de nombreuses locutions liées à la fonderie : fosse de coulée, défaut de coulée, coulée de rappel ({% cite "Rama 1988" %}, 373), etc.
 </div>
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Rolley 1994" >}}, 70; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}
+Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
-Copper Industry: {{< q-cite "Bader and Théret 1961" >}}; {{< q-cite "Koch and Newell 1963" >}}
+Copper Industry: {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 
-Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 371
+Art and Craft Textbook: {% cite "Rama 1988" %}, 371
 
 ### **Italian**: *colata*
 
@@ -54,22 +54,22 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/colata/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {{< q-cite "Bruni 1994" >}}, 106
+[Treccani](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
 
 #### Alternate Translations
 
-- *getto* (Also refers to the cast); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {{< q-cite "Bruni 1994" >}}, 106
+- *getto* (Also refers to the cast); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
 
-- *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 108–10
+- *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 
 ### **Chinese**: 浇注
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 741
+{% cite "Ming 2010" %}, 741
 
 #### Alternate Translation
 
-- 浇铸 | Sources: {{< q-cite "Ming 2010" >}}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
+- 浇铸 | Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
 
 </div>

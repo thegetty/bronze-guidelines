@@ -12,7 +12,7 @@ definition: 'A technique for joining separately cast parts using high temperatur
 Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](#I.5), **video 12**.
 </div>
 
-{{< q-figure-group grid="3" id="fig-59, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" class="column" >}}
+{% figuregroup "3", "fig-59, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548", "column" %}
 
 ## To Be Distinguished From
 
@@ -21,11 +21,11 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Salter and Gilmour n.d." >}}; {{< q-cite "Beale 1975" >}}, 28–55
+Cultural Heritage: {% cite "Salter and Gilmour n.d." %}; {% cite "Beale 1975" %}, 28–55
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}
 
-Art and Craft Textbooks: {{< q-cite "Rome and Young 2003" >}}, 312; {{< q-cite "Untracht 1982" >}}
+Art and Craft Textbooks: {% cite "Rome and Young 2003" %}, 312; {% cite "Untracht 1982" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
@@ -37,19 +37,19 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 #### Source
 
-{{< q-cite "Deutsches Kupferinstitut 2005" >}}, 18
+{% cite "Deutsches Kupferinstitut 2005" %}, 18
 
 ### **French**: *soudage*
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au brasage qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
 <div class="backmatter">
-Note: L’assemblage peut se faire sans apport de métal, par soudure dite autogène ({{< q-cite "Bader and Théret 1961" >}}, par exemple au moyen d’un arc électrique ou d’un TIG). L’assemblage peut aussi se faire par apport d’un métal de composition proche de celui des parties à assembler. Pour la sculpture en bronze et en particulier les grands bronzes antiques, on parle de soudage par fusion au bronze liquide ({{< q-cite "Azéma and Mille 2013b" >}}). Dans l’industrie moderne, le soudage des métaux peut se faire à l’état solide, sans fusion, par exemple par soudage par diffusion, cf {{< q-cite "Murry 1994" >}}).
+Note: L’assemblage peut se faire sans apport de métal, par soudure dite autogène ({% cite "Bader and Théret 1961" %}, par exemple au moyen d’un arc électrique ou d’un TIG). L’assemblage peut aussi se faire par apport d’un métal de composition proche de celui des parties à assembler. Pour la sculpture en bronze et en particulier les grands bronzes antiques, on parle de soudage par fusion au bronze liquide ({% cite "Azéma and Mille 2013b" %}). Dans l’industrie moderne, le soudage des métaux peut se faire à l’état solide, sans fusion, par exemple par soudage par diffusion, cf {% cite "Murry 1994" %}).
 </div>
 
 #### Sources
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Murry 1994" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Murry 1994" %}
 
 ### **Italian**: *saldatura*
 
@@ -57,16 +57,16 @@ Often specified by *a fusione* or *per fusione*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/saldatura/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {{< q-cite "Bruni 1994" >}}, 122–23; {{< q-cite "Brunhuber 1988" >}}
+[Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Bruni 1994" %}, 122–23; {% cite "Brunhuber 1988" %}
 
 #### Alternate translations
 
-- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {{< q-cite "Formigli 2010" >}}, 20; {{< q-cite "Formigli 1999c" >}}, 318–19
+- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
 ### **Chinese**: 熔焊
 
 #### Sources
 
-{{< q-cite "Ming 2010" >}}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
+{% cite "Ming 2010" %}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
 
 </div>

@@ -5,14 +5,14 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a {{< q-def "piece mold" >}}. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a {{< q-def "refractory mold" "refractory" >}} {{< q-def "piece mold" >}} join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme {{< q-def "flashing" >}} occurs with ill-fitting pieces.'
+definition: 'A faintly raised line that forms at the joints between mold sections when a molten material or slurry is poured into a {% def "piece mold" %}. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](#CaseStudy3) (**fig. 26**). The term also refers to the line along which the pieces of a {% def "refractory mold" "refractory" %} {% def "piece mold" %} join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme {% def "flashing" %} occurs with ill-fitting pieces.'
 ---
 
 <div class="backmatter">
-Note: Compared with flashing, which generally forms in uneven, sharp, rough flanges of metal, seam lines on the bronze surface are commonly linear, rounded, and relatively smooth, and run along the high points of convex surfaces. Seam lines are generally removed as part of the {{< q-def "fettling" >}} and {{< q-def "chasing" >}} processes. Some modern artists leave them intentionally as evidence of the working process (**fig. 75**).
+Note: Compared with flashing, which generally forms in uneven, sharp, rough flanges of metal, seam lines on the bronze surface are commonly linear, rounded, and relatively smooth, and run along the high points of convex surfaces. Seam lines are generally removed as part of the {% def "fettling" %} and {% def "chasing" %} processes. Some modern artists leave them intentionally as evidence of the working process (**fig. 75**).
 </div>
 
-{{< q-figure-group grid="3" id="fig-006, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" class="column" >}}
+{% figuregroup "3", "fig-006, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075", "column" %}
 
 ## To Be Distinguished From
 
@@ -22,9 +22,9 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Lie and Bewer 2014" >}}, 47
+Cultural Heritage: {% cite "Lie and Bewer 2014" %}, 47
 
-Art and Craft Textbooks: {{< q-cite "Rome and Young 2003" >}}; {{< q-cite "Rich 1988" >}}, 410
+Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %}, 410
 
 ## Translations
 
@@ -34,37 +34,37 @@ Art and Craft Textbooks: {{< q-cite "Rome and Young 2003" >}}; {{< q-cite "Rich 
 
 #### Source
 
-{{< q-cite "Maaz 2010" >}}, 696
+{% cite "Maaz 2010" %}, 696
 
 ### **French**: *couture*
 
-Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du moule réfractaire mais aussi de tous les moules possiblement utilisés avant la coulée pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf {{< q-cite "Mille and Robcis 2012" >}}, etc., voir [I.1](#I.1)).
+Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du moule réfractaire mais aussi de tous les moules possiblement utilisés avant la coulée pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](#I.1)).
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 565
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 565
 
-Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 268; {{< q-cite "Rama 1988" >}}, 373
+Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %}, 373
 
 #### Alternate Translations
 
-- *balesvre* / *balevre* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
+- *balesvre* / *balevre* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 758
 
-- *barbe* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+- *barbe* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *barbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
+- *barbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 758
 
-- *bavochure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 758
+- *bavochure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 758
 
-- *bavure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les références données ne concernent que la fonte au sable.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 632; Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 373
+- *bavure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les références données ne concernent que la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 632; Art and Craft Textbook: {% cite "Rama 1988" %}, 373
 
-- *bavure de joint* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+- *bavure de joint* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *ébarbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
 - *suture* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
-- *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {{< q-cite "Launay 1827" >}}, 2:261
+- *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {% cite "Launay 1827" %}, 2:261
 
 ### **Italian**: *linea di giunzione*
 
@@ -80,6 +80,6 @@ Literally “line of joint”
 
 #### Source
 
-{{< q-cite "Zhang 2010" >}}, 80
+{% cite "Zhang 2010" %}, 80
 
 </div>

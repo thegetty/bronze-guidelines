@@ -5,7 +5,7 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'Replica in wax obtained from the reusable {{< q-def "mold" >}} of an original {{< q-def "model" >}}. Inter-models are used in indirect {{< q-def "lost-wax casting" >}}. Inter-models are often slush molded (**fig. 16**, [Case Study 7](#CaseStudy7)). One inter-model may vary from another through additions or changes made in the wax before the {{< q-def "investment" >}} is applied.'
+definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded (**fig. 16**, [Case Study 7](#CaseStudy7)). One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
 ---
 
 <div class="backmatter">
@@ -14,11 +14,11 @@ Note: The term is subject to dispute among the CAST:ING members. Depending on di
 
 </div>
 
-{{< q-figure-group grid="4" id="fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" class="column" >}}
+{% figuregroup "3", "fig-001, fig-016, fig-041, fig-055, fig-072, fig-556", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Motture 2019" >}}; {{< q-cite "Dillon 2002" >}}; {{< q-cite "Beentjes 2019" >}}
+Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite "Beentjes 2019" %}
 
 ## Synonym
 
@@ -32,7 +32,7 @@ Cultural Heritage: {{< q-cite "Motture 2019" >}}; {{< q-cite "Dillon 2002" >}}; 
 
 #### Sources
 
-{{< q-cite "Alscher 1987" >}}, 554; {{< q-cite "Mietzsch 2009" >}}, 6
+{% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
 ### **French**: *modèle intermédiaire*
 
@@ -44,19 +44,19 @@ Note: Terme très débattu parmi les spécialistes du bronze et en particulier l
 
 #### Source
 
-Cultural Heritage: {{< q-cite "Lamouche 2021" >}}
+Cultural Heritage: {% cite "Lamouche 2021" %}
 
 #### Alternate Translations
 
-- *cire* (Ce terme est ambigu : une cire peut être à la fois le produit final désiré par l’artiste le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Source: Cultural Heritage: {{< q-cite "Bresc-Bautier 1989" >}}
+- *cire* (Ce terme est ambigu : une cire peut être à la fois le produit final désiré par l’artiste le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Source: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}
 
-- *épreuve en cire* (Ce terme est ambigu : une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 254; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}; Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 214
+- *épreuve en cire* (Ce terme est ambigu : une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 254; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}; Art and Craft Textbook: {% cite "Lambert 2002" %}, 214
 
-- *intermodèle* | Source: Cultural Heritage: {{< q-cite "Lamouche 2021" >}}
+- *intermodèle* | Source: Cultural Heritage: {% cite "Lamouche 2021" %}
 
-- *modèle auxiliaire* | Source: Cultural Heritage: {{< q-cite "Mille 2007" >}}
+- *modèle auxiliaire* | Source: Cultural Heritage: {% cite "Mille 2007" %}
 
-- *modèle de cire* (Ce terme est ambigu : un modèle en cire; peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {{< q-cite "Rolley 1994" >}}; {{< q-cite "Bresc-Bautier 1989" >}}
+- *modèle de cire* (Ce terme est ambigu : un modèle en cire; peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
 
 ### **Italian**: *modello intermedio*
 

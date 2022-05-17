@@ -8,7 +8,7 @@ menu: false
 definition: 'The interface where two streams of metal come together in the mold but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a cast caused by premature cooling ({Rome and Young 2003}, 303). The cooled metal edges will be rounded in profile.'
 ---
 
-{{< q-figure-group grid="3" id="fig-006, fig-159" class="column" >}}
+{% figuregroup "3", "fig-006, fig-159", "column" %}
 
 ## To Be Distinguished From
 
@@ -16,13 +16,13 @@ definition: 'The interface where two streams of metal come together in the mold 
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Bassett 2008" >}}
+Cultural Heritage: {% cite "Bassett 2008" %}
 
-Historical: {{< q-cite "Bolland 1894" >}}; {{< q-cite "Buchanan 1903" >}}
+Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
 
-Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "American Foundry Society (AFS). n.d." >}}; {{< q-cite "Palmer 1929" >}}
+Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundry Society (AFS). n.d." %}; {% cite "Palmer 1929" %}
 
-Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}, 303
+Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 303
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 #### Sources
 
-{{< q-cite "Brunhuber 1986" >}}
+{% cite "Brunhuber 1986" %}
 
 #### Alternate Translation
 
@@ -55,14 +55,14 @@ Défaut de fonderie dû à la fusion imparfaite de deux flux de métal liquide q
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 647
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 647
 
-Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 27; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
-Historical: {{< q-cite "Guettier 1858" >}}, notice 616, p. 322–23
+Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 27; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+Historical: {% cite "Guettier 1858" %}, notice 616, p. 322–23
 
 #### Alternate Translation
 
-- *goutte froide* (Goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 648).) | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+- *goutte froide* (Goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 648).) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *accostatura*
 
@@ -80,9 +80,9 @@ Historical: {{< q-cite "Guettier 1858" >}}, notice 616, p. 322–23
 
 #### Alternate Translations
 
-- 冷结 | Source: {{< q-cite "Ming 2010" >}}, 883
+- 冷结 | Source: {% cite "Ming 2010" %}, 883
 
-- 冷隔 | Source: {{< q-cite "Ming 2010" >}}, 883
+- 冷隔 | Source: {% cite "Ming 2010" %}, 883
 
 - 流界 | Source: [TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
 

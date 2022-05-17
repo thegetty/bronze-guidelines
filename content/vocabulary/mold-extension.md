@@ -5,26 +5,26 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'Bridge or spacer made of refractory material between the {{< q-def "core" >}} and the outer mold. It serves a double function as {{< q-def "core support" >}} while also providing better air flow into the core to aid in its drying before the bronze is poured.'
+definition: 'Bridge or spacer made of refractory material between the {% def "core" %} and the outer mold. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the bronze is poured.'
 ---
 
 <div class="backmatter">
 Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and armature. The hole may later be sealed with a metal patch.
 </div>
 
-{{< q-figure-group grid="3" id="fig-041, fig-122, fig-123" class="column" >}}
+{% figuregroup "3", "fig-041, fig-122, fig-123", "column" %}
 
 ## Sources
 
-Other: {{< q-cite "Smith and Sepponen 2019" >}}
+Other: {% cite "Smith and Sepponen 2019" %}
 
 ## Synonyms
 
 - *core extension*
 
-- *core print* | Source: Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
+- *core print* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-- *core seat* | Source: Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
+- *core seat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
 ## Translations
 
@@ -42,13 +42,13 @@ Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la renc
 
 #### Sources
 
-Copper Industry: {{< q-cite "Koch and Newell 1963" >}}
+Copper Industry: {% cite "Koch and Newell 1963" %}
 
-Art and Craft Textbook: {{< q-cite "Dubos 2003" >}}
+Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- *portée* | Sources: Copper Industry: {{< q-cite "Bader and Théret 1961" >}}; Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 140, 164
+- *portée* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
 ### **Italian**: *morsa*
 
@@ -56,10 +56,10 @@ Art and Craft Textbook: {{< q-cite "Dubos 2003" >}}
 
 #### Source
 
-{{< q-cite "Liu 2015" >}}, 97
+{% cite "Liu 2015" %}, 97
 
 #### Alternate Translation
 
-- 芯撑 | Source: {{< q-cite "Ming 2010" >}}, 1572
+- 芯撑 | Source: {% cite "Ming 2010" %}, 1572
 
 </div>

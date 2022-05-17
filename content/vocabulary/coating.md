@@ -9,18 +9,18 @@ definition: 'Purposefully applied surface deposits or films on bronze sculpture 
 ---
 
 <div class="backmatter">
-Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {{< q-def "patina" >}}. Though metals are also used to coat surfaces, they are referred to here as {{< q-def "metal-plating" "plating" >}}.
+Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal-plating" "plating" %}.
 </div>
 
-{{< q-figure-group grid="3" id="fig-322, fig-323, fig-324, fig-326, fig-330" class="column" >}}
+{% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330", "column" %}
 
 ## Sources
 
-Art and Craft Textbook: {{< q-cite "Hughes and Rowe 1989" >}}, 45–46
+Art and Craft Textbook: {% cite "Hughes and Rowe 1989" %}, 45–46
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/coat>
 
-Other: {{< q-cite "Weil 1977" >}}; {{< q-cite "Considine et al. 2010" >}}, 94–95
+Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
 ## Translations
 
@@ -30,7 +30,7 @@ Other: {{< q-cite "Weil 1977" >}}; {{< q-cite "Considine et al. 2010" >}}, 94–
 
 #### Source
 
-{{< q-cite "Koller and Baumer 2000" >}}
+{% cite "Koller and Baumer 2000" %}
 
 ### **French**: *revêtement*
 
@@ -42,24 +42,24 @@ Note: ne pas confondre avec les patines chimiques, qui contrairement aux revête
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 656; {{< q-cite "Aucouturier et al. 2003" >}}
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 656; {% cite "Aucouturier et al. 2003" %}
 
-Copper Industry: {{< q-cite "Levy and Saurat 2005" >}}
+Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 ### **Italian**: *rivestimento*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/rivestimento); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento);
+[Treccani](https://www.treccani.it/vocabolario/rivestimento); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento);
 
 ### **Chinese**: 涂层
 
 #### Sources
 
-{{< q-cite "Ming 2010" >}}, 1448; [TNATD](https://terms.naer.edu.tw/detail/207700/?index=8); {{< q-cite "Giuffredi 2006" >}}, 221
+{% cite "Ming 2010" %}, 1448; [TNATD](https://terms.naer.edu.tw/detail/207700/?index=8); {% cite "Giuffredi 2006" %}, 221
 
 #### Alternate Translation
 
-- 涂料 | Sources: {{< q-cite "Ming 2010" >}}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
+- 涂料 | Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
 
 </div>

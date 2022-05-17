@@ -5,16 +5,16 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'A general term for a variety of metal or other features that reinforce or support the core during the casting process. This term is used in different ways depending on the context. In industry, it is applied to metal inserts or spacers that hold the core in place during the pour; therefore, {{< q-def "core pins" >}}, {{< q-def "chaplets" >}}, and {{< q-def "mold extensions" >}} are examples of core supports. In cultural contexts, the term is applied to internal wires or rods that help strengthen the core during assembly of the casting model and/or during the pour. Generally reserved for smaller wires in projecting limbs, or wires and rods used to strengthen joints between separately molded wax sections in the indirect lost-wax process. For clarity, when the second definition is intended, the term “internal core support” should be used.'
+definition: 'A general term for a variety of metal or other features that reinforce or support the core during the casting process. This term is used in different ways depending on the context. In industry, it is applied to metal inserts or spacers that hold the core in place during the pour; therefore, {% def "core pins" %}, {% def "chaplets" %}, and {% def "mold extensions" %} are examples of core supports. In cultural contexts, the term is applied to internal wires or rods that help strengthen the core during assembly of the casting model and/or during the pour. Generally reserved for smaller wires in projecting limbs, or wires and rods used to strengthen joints between separately molded wax sections in the indirect lost-wax process. For clarity, when the second definition is intended, the term “internal core support” should be used.'
 ---
 
-{{< q-figure-group grid="3" id="fig-009, fig-016, fig-025, fig-042, fig-122, fig-195" class="column" >}}
+{% figuregroup "3", "fig-009, fig-016, fig-025, fig-042, fig-122, fig-195", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Bassett 2008" >}}; {{< q-cite "Sturman 2004" >}}; {{< q-cite "Stone 2008" >}}
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Bassett 2008" %}; {% cite "Sturman 2004" %}; {% cite "Stone 2008" %}
 
-Copper Industry: {{< q-cite "American Foundrymen’s Society 1984" >}}
+Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 
 ## Translations
 
@@ -24,7 +24,7 @@ Copper Industry: {{< q-cite "American Foundrymen’s Society 1984" >}}
 
 #### Sources:
 
-{{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+{% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *support de noyau*
 
@@ -36,11 +36,11 @@ Note: En anglais, à cette définition propre à la fonderie industrielle vient 
 
 #### Sources
 
-Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Brunhuber 1988" >}}
+Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
 #### Alternate translations
 
-- *support pour noyau* | Source: Copper Industry: {{< q-cite "Brunhuber 1988" >}}
+- *support pour noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 ### **Italian**: *chiodo di sostegno*
 
@@ -54,9 +54,9 @@ Same as “core pin”
 
 - *armatura interna*
 
-- *sopporto reggi anime* | Source: {{< q-cite "Brunhuber 1988" >}}
+- *sopporto reggi anime* | Source: {% cite "Brunhuber 1988" %}
 
-- *sostegno di bronzo* (Also found with alternative spelling: *sustegno*) | Source: {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 82
+- *sostegno di bronzo* (Also found with alternative spelling: *sustegno*) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82
 
 - *supporto dell'anima di fusione*
 
@@ -64,6 +64,6 @@ Same as “core pin”
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 1572
+{% cite "Ming 2010" %}, 1572
 
 </div>

@@ -14,7 +14,7 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 </div>
 
-{{< q-figure-group grid="3" id="fig-005, fig-062, fig-104, fig-277" class="column" >}}
+{% figuregroup "3", "fig-005, fig-062, fig-104, fig-277", "column" %}
 
 ## To Be Distinguished From
 
@@ -23,9 +23,9 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Kienlin, Bischoff, and Opielka 2006" >}}
+Cultural Heritage: {% cite "Kienlin, Bischoff, and Opielka 2006" %}
 
-Other: {{< q-cite "Burd and Greene 1948" >}}; {{< q-cite "Mödlinger and Sabatini 2016" >}}
+Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016" %}
 
 ## Translations
 
@@ -35,7 +35,7 @@ Other: {{< q-cite "Burd and Greene 1948" >}}; {{< q-cite "Mödlinger and Sabatin
 
 #### Sources
 
-{{< q-cite "Maaz 2010" >}}, 696; {{< q-cite "Alscher 1987" >}}, 555
+{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
 
 #### Alternate Translation
 
@@ -53,11 +53,11 @@ Note: Une belle surface faisant apparaître la qualité de la « peau de pièce
 
 #### Sources
 
-Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 238
+Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 #### Alternate Translations
 
-- *surface brute de fonderie* | Source: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 632, on parle d’un état « brut de fonderie »
+- *surface brute de fonderie* | Source: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
 
@@ -67,7 +67,7 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Source
 
-{{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
+{% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
 
 #### Alternate Translation
 
@@ -77,6 +77,6 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 998
+{% cite "Ming 2010" %}, 998
 
 </div>

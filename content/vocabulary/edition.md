@@ -12,7 +12,7 @@ definition: 'The intentional production of a sculpture in several virtually iden
 Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in chasing, patination, or deterioration of the molds/chef-modèle over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern bronze casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
 </div>
 
-{{< q-figure-group grid="3" id="fig-001, fig-261, fig-551" class="column" >}}
+{% figuregroup "3", "fig-001, fig-261, fig-551", "column" %}
 
 ## To Be Distinguished From
 
@@ -23,7 +23,7 @@ Note: Casts from any given edition will be essentially identical in form and siz
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}, 32; {{< q-cite "Beale 1975" >}}; {{< q-cite "Dillon 2002" >}}
+Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 1975" %}; {% cite "Dillon 2002" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
@@ -39,25 +39,25 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 #### Source
 
-{{< q-cite "Maaz 2010" >}}, 671, 683
+{% cite "Maaz 2010" %}, 671, 683
 
 #### Alternate Translation
 
-- *Edition* | Source: {{< q-cite "Mietzsch 2009" >}}, 103
+- *Edition* | Source: {% cite "Mietzsch 2009" %}, 103
 
 ### **French**: *édition*
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
 <div class="backmatter">
-Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {{< q-cite "Rama 1988" >}}, 372), épreuves d’édition, exemplaires d’édition ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 545), etc..
+Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545), etc..
 </div>
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}; {{< q-cite "Lebon et al. 2016" >}}, 330
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Lebon et al. 2016" %}, 330
 
-Art and Craft Textbook: {{< q-cite "Rama 1988" >}}
+Art and Craft Textbook: {% cite "Rama 1988" %}
 
 ### **Italian**: *edizione*
 
@@ -75,7 +75,7 @@ Art and Craft Textbook: {{< q-cite "Rama 1988" >}}
 
 #### Sources:
 
-{{< q-cite "Ming 2010" >}}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
+{% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
 
 #### Alternate Translation
 

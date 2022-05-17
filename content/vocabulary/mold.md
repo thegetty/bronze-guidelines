@@ -9,16 +9,16 @@ definition: 'A three-dimensional negative form made of one or more parts that se
 ---
 
 <div class="backmatter">
-Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {{< q-def "chef-modèle" >}}, a wax {{< q-def "inter-model" >}}, or {{< q-def "core" >}}, or to cast a bronze). See [I.1](#I.1).
+Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](#I.1).
 </div>
 
-{{< q-figure-group grid="3" id="fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" class="column" >}}
+{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}; {{< q-cite "Beale 1975" >}}
+Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}; {% cite "Beale 1975" %}
 
-Art and Craft Textbook: {{< q-cite "Reliance Foundry n.d." >}}
+Art and Craft Textbook: {% cite "Reliance Foundry n.d." %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
@@ -34,7 +34,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 #### Source
 
-{{< q-cite "Müller 2014" >}}, 170–71
+{% cite "Müller 2014" %}, 170–71
 
 #### Alternate Translations
 
@@ -52,29 +52,29 @@ Note: Dans l’industrie moderne, le moule désigne généralement le moule réf
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 562
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 562
 
-Copper Industry: {{< q-cite "Cuénin 1994" >}}, 5
+Copper Industry: {% cite "Cuénin 1994" %}, 5
 
-Historical: {{< q-cite "Boffrand 1743" >}}; {{< q-cite "Mariette 1768" >}}; {{< q-cite "Diderot et al. 1751" >}}, 2:436–39, entry « bronze »
+Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Diderot et al. 1751" %}, 2:436–39, entry « bronze »
 
-Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 272
+Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Alternate Translations
 
-- *creux* | Source: Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 759
+- *creux* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759
 
 ### **Italian**: *calco*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/calco1/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+[Treccani](http://www.treccani.it/vocabolario/calco1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
 #### Alternate Translations
 
-- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {{< q-cite "Cellini [1568] 1967" >}}, fols. 45v–46
+- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
 
-- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 77v, 80v; {{< q-cite "Bruni 1994" >}}, 85–86
+- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
@@ -82,6 +82,6 @@ Art and Craft Textbook: {{< q-cite "Lambert 2002" >}}, 272
 
 #### Source
 
-{{< q-cite "Zhang 2010" >}}
+{% cite "Zhang 2010" %}
 
 </div>

@@ -8,7 +8,7 @@ menu: false
 definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the refractory mold (both outer and core). Flashing most often rises perpendicularly to the inner or outer wall of bronze, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during fettling. Flashing may also occur along seam lines of an ill-fitted piece mold.'
 ---
 
-{{< q-figure-group grid="3" id="fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" class="column" >}}
+{% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545", "column" %}
 
 ## To Be Distinguished From
 
@@ -16,15 +16,15 @@ definition: 'A ridge of excess metal that can occur when molten metal enters cra
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Beale 1975" >}}, 41
+Cultural Heritage: {% cite "Beale 1975" %}, 41
 
-Copper Industry: {{< q-cite "Ammen 1980" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+Copper Industry: {% cite "Ammen 1980" %}; {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-Art and Craft Textbook: {{< q-cite "McCreight 1996" >}}
+Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 ## Synonyms
 
-- *finning* | Source: Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+- *finning* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *veining*
 
@@ -58,31 +58,31 @@ Défaut de fonderie où le métal liquide pénètre dans des fissures du moule r
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 645; {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 645; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
 
-Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 17; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 #### Alternate Translations
 
-- *gerçure* | Sources: Historical: {{< q-cite "Boffrand 1743" >}}, 62; {{< q-cite "Gonon 1876" >}}, 6
+- *gerçure* | Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
 
-- *nervure* | Sources: Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 17; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+- *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *bava*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {{< q-cite "Biringuccio [1540] 1990" >}}, fol. 78
+[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {% cite "Biringuccio [1540] 1990" %}, fol. 78
 
 #### Alternate Synonym
 
-- *cresta di fusione* | Sources: {{< q-cite "Carruba 2006" >}}, 24; {{< q-cite "Pecchioli 1999" >}}, 192
+- *cresta di fusione* | Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
 
 ### **Chinese**: 毛边
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 997
+{% cite "Ming 2010" %}, 997
 
 #### Alternate Translations
 
@@ -90,6 +90,6 @@ Copper Industry: {{< q-cite "Hénon, Mascré, and Blanc 1971" >}}, 17; {{< q-cit
 
 - 溢边 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 飞边 | Sources: {{< q-cite "Ming 2010" >}}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- 飞边 | Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
 </div>

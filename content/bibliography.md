@@ -1,8 +1,6 @@
 ---
 title: Bibliography
 weight: 1000
-layout: page
+layout: bibliography
 class: pdf-backmatter
 ---
-
-{{< q-bibliography >}}

@@ -12,7 +12,7 @@ definition: 'In relation to bronzes, the process of decorating the surface by re
 Note: Engraving may be undertaken in the chasing process, and/or to form or enhance signatures. See [I.6§2.3](#I.6§2.3).
 </div>
 
-{{< q-figure-group grid="3" id="fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" class="column" >}}
+{% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495", "column" %}
 
 ## To Be Distinguished From
 
@@ -20,11 +20,11 @@ Note: Engraving may be undertaken in the chasing process, and/or to form or enha
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Beale 1975" >}}, 43
+Cultural Heritage: {% cite "Beale 1975" %}, 43
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Maskinaktiebolaget Karlebo 1982" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-Art and Craft Textbook: {{< q-cite "Untracht 1982" >}}, 283
+Art and Craft Textbook: {% cite "Untracht 1982" %}, 283
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
@@ -36,11 +36,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 #### Source
 
-{{< q-cite "Brunhuber 1988" >}}
+{% cite "Brunhuber 1988" %}
 
 #### Alternate Translation
 
-- *Gravur* | Sources: {{< q-cite "Weihrauch 1944" >}}; {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Maskinaktiebolaget Karlebo 1982" >}}
+- *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
 ### **French**: *gravure*
 
@@ -48,17 +48,17 @@ Technique de décoration des bronzes par enlèvement de matière à l’aide de 
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 578
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 578
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Maskinaktiebolaget Karlebo 1982" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-Art and Craft Textbook: {{< q-cite "Hamm 1924" >}}
+Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 ### **Italian**: *incisione*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/incisione/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione); {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Maskinaktiebolaget Karlebo 1982" >}}
+[Treccani](http://www.treccani.it/vocabolario/incisione/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione); {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
 ### **Chinese**: 阴刻
 
@@ -68,6 +68,6 @@ Art and Craft Textbook: {{< q-cite "Hamm 1924" >}}
 
 #### Alternate Translation
 
-- 雕刻 | Sources: {{< q-cite "Ming 2010" >}}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
+- 雕刻 | Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
 
 </div>

@@ -9,10 +9,10 @@ definition: 'A type of repair that fills a flaw that extends through the full th
 ---
 
 <div class="backmatter">
-Note: It is not always easy to distinguish a plug from a {{< q-def "patch" >}}. Radiography is often necessary.
+Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radiography is often necessary.
 </div>
 
-{{< q-figure-group grid="3" id="fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" class="column" >}}
+{% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478", "column" %}
 
 ## To Be Distinguished From
 
@@ -20,9 +20,9 @@ Note: It is not always easy to distinguish a plug from a {{< q-def "patch" >}}. 
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Penny 1993" >}}; {{< q-cite "Sturman 2004" >}}
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "Sturman 2004" %}
 
-Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}, 311
+Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 311
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 
@@ -36,11 +36,11 @@ Used primarily in speech
 
 #### Alternate Translations
 
-- *Flicken* | Sources: {{< q-cite "Meissner, Haber, and Mach 2000" >}}, 102; {{< q-cite "Maaz 2010" >}}, 688
+- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
-- *Plombe* (Used primarily in speech) | Source: {{< q-cite "Maaz 2010" >}}, 716
+- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
 
-- *Stift* (Used primarily in speech) | Source: {{< q-cite "Bol 1985" >}}, 139
+- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
 
 ### **French**: *insert*
 
@@ -58,13 +58,13 @@ Note: Il n’est pas toujours aisé de distinguer un insert d’une plaquette de
 
 #### Source
 
-Cultural Heritage Publication: {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2014" >}}
+Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
 
 #### Alternate Translations
 
-- *goupille* (On rencontre aussi le terme goupillage, {{< q-cite "Lambert 2002" >}}, 241.) | Source: Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}
+- *goupille* (On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.) | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
-- *tige* | Source: Art and Craft Textbook: {{< q-cite "Rama 1988" >}}, 326
+- *tige* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
 
 ### **Italian**: *tappo*
 
@@ -74,7 +74,7 @@ Cultural Heritage Publication: {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2
 
 #### Alternate Translations
 
-- *perno* | Source: {{< q-cite "Bruni 1994" >}}, 124–250
+- *perno* | Source: {% cite "Bruni 1994" %}, 124–250
 
 - *perno filettato* (Threaded plug)
 
@@ -82,7 +82,7 @@ Cultural Heritage Publication: {{< q-cite "Bourgarit, Bewer, and Bresc-Bautier 2
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 1233
+{% cite "Ming 2010" %}, 1233
 
 #### Alternate Translation
 

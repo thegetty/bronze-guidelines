@@ -9,14 +9,14 @@ definition: 'A methodological tool that has been developed by researchers to rev
 ---
 
 <div class="backmatter">
-Note: {{< q-def "Founders" >}} do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
+Note: {% def "Founders" %} do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
 </div>
 
-{{< q-figure-group grid="3" id="fig-367" class="column" >}}
+{% figuregroup "3", "fig-367", "column" %}
 
 ## Source
 
-Cultural Heritage: {{< q-cite "Mille and Descamps-Lequime 2017" >}}
+Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
 ## Translations
 
@@ -34,7 +34,7 @@ Note: Ce terme est très récent, il a été proposé par Benoît Mille comme é
 
 #### Source
 
-Cultural Heritage: {{< q-cite "Azéma and Mille 2013b" >}}
+Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
 
 ### **Italian**: *schema di fusione*
 

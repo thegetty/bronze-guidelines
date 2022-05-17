@@ -5,4 +5,4 @@ layout: page
 class: pdf-backmatter
 ---
 
-{{< q-contributor range="primary" format="bio" >}}
+contributor range="primary" format="bio"

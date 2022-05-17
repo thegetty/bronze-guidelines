@@ -14,7 +14,7 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 </div>
 
-{{< q-figure-group grid="3" id="fig-188, fig-206, fig-229" class="column" >}}
+{% figuregroup "3", "fig-188, fig-206, fig-229", "column" %}
 
 ## To Be Distinguished From
 
@@ -27,13 +27,13 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 ## Sources
 
-Historical: {{< q-cite "Buchanan 1903" >}}, 23, 60; {{< q-cite "Bolland 1894" >}}, 72
+Historical: {% cite "Buchanan 1903" %}, 23, 60; {% cite "Bolland 1894" %}, 72
 
-Copper Industry: {{< q-cite "Schwartz and Aircraft 1951" >}}
+Copper Industry: {% cite "Schwartz and Aircraft 1951" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/brazing>
 
-Other: {{< q-cite "Scott 1991" >}}, 138
+Other: {% cite "Scott 1991" %}, 138
 
 ## Translations
 
@@ -47,19 +47,19 @@ Technique d’assemblage de deux pièces métalliques ou plus, par addition d’
 
 <div class="backmatter">
 
-Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », celui utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634). Par ailleurs, la brasure désigne le métal de brasure ({{< q-cite "Bader and Théret 1961" >}}, 102) ainsi que l’assemblage lui-même.
+Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », celui utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634). Par ailleurs, la brasure désigne le métal de brasure ({% cite "Bader and Théret 1961" %}, 102) ainsi que l’assemblage lui-même.
 
 </div>
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634
 
-Copper Industry: {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}
+Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 #### Alternate Translations
 
-- *soudure indirecte* (Les termes soudage ou soudure ({{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 634; {{< q-cite "Bader and Théret 1961" >}}) et souder ({{< q-cite "Félibien 1690" >}}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {{< q-cite "Bader and Théret 1961" >}}, 595
+- *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **Italian**: *brasatura*
 
@@ -67,18 +67,18 @@ A subset of *saldatura*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/brasatura/); {{< q-cite "Battaglia 1961" >}} [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
+[Treccani](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %} [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
 ### **Chinese**: 硬焊
 
 #### Sources
-{{< q-cite "Ming 2010" >}}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
+{% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
 
 #### Alternate Translations:
 
-- 钎接 | Source: {{< q-cite "Ming 2010" >}}, 1137–38
+- 钎接 | Source: {% cite "Ming 2010" %}, 1137–38
 
-- 钎焊 | Source: {{< q-cite "Ming 2010" >}}, 1436
+- 钎焊 | Source: {% cite "Ming 2010" %}, 1436
 
 - 铜焊 | Source: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1)
 

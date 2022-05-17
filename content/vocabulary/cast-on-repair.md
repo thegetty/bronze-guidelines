@@ -5,10 +5,10 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {{< q-def "casting defects" >}}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {{< q-def "patch" >}} or element to the cast.'
+definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
 ---
 
-{{< q-figure-group grid="3" id="fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" class="column" >}}
+{% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196", "column" %}
 
 ## To Be Distinguished From
 
@@ -16,7 +16,7 @@ definition: 'A type of repair consisting of a localized cast of molten copper al
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Dillon 2002" >}}; {{< q-cite "Salter and Gilmour n.d." >}}; {{< q-cite "Motture and Martin 2001" >}}, 222
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture and Martin 2001" %}, 222
 
 ## Translations
 
@@ -28,7 +28,7 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 #### Sources
 
-{{< q-cite "Drescher 1958" >}}; {{< q-cite "Willer 2016" >}}
+{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}
 
 #### Alternate Translations
 
@@ -36,7 +36,7 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 - *Angussverfahren*
 
-- *Angießverfahren* (Used in reference to modern processes) | Source: {{< q-cite "Brunhuber 2001" >}}
+- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 2001" %}
 
 ### **French**: *réparation par coulée secondaire*
 
@@ -44,13 +44,13 @@ Type de réparation utilisé pour combler un trou ou un manque sur un bronze en 
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}
+Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 #### Alternate Translations
 
-- *goutte* | Sources: Historical: {{< q-cite "Boffrand 1743" >}}, 59; {{< q-cite "Diderot et al. 1751" >}}, 2:442, entry « bronze »
+- *goutte* | Sources: Historical: {% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
 
-- *grains de bronze* | Source: Historical: {{< q-cite "Mariette 1768" >}}, 131
+- *grains de bronze* | Source: Historical: {% cite "Mariette 1768" %}, 131
 
 - *réparation par surcoulée*
 
@@ -60,23 +60,23 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 #### Sources
 
-{{< q-cite "Rohnstock 1999" >}}
+{% cite "Rohnstock 1999" %}
 
 #### Alternate Translations
 
-- *rifusione* | Source: {{< q-cite "Morigi and Morigi 2008" >}}
+- *rifusione* | Source: {% cite "Morigi and Morigi 2008" %}
 
-- *rigetto* | Source: {{< q-cite "Morigi and Morigi 2008" >}}
+- *rigetto* | Source: {% cite "Morigi and Morigi 2008" %}
 
 ### **Chinese**: 修补浇铸
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 1585
+{% cite "Ming 2010" %}, 1585
 
 #### Alternate Translations
 
-- 浇补 | Sources: {{< q-cite "Ming 2010" >}}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+- 浇补 | Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
 
 - 补铸 | Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
 

@@ -5,20 +5,20 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the {{< q-def "refractory mold" >}} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](#GI§2.1.1)).'
+definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](#GI§2.1.1)).'
 ---
 
-{{< q-figure-group grid="3" id="fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" class="column" >}}
+{% figuregroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Bassett and Fogelman 1997" >}}
+Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}
 
-Historical Source: {{< q-cite "Bolland 1894" >}}
+Historical Source: {% cite "Bolland 1894" %}
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Palmer 1929" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Palmer 1929" %}
 
-Art and Craft Textbook: {{< q-cite "Rome and Young 2003" >}}
+Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/core>
 
@@ -34,40 +34,40 @@ Partie interne du moule réfractaire déterminant le volume interne d’une font
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Rolley 1994" >}}, 70; {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 625; {{< q-cite "Bewer, Bourgarit, and Bassett 2008" >}}; {{< q-cite "Azéma and Mille 2013b" >}}; {{< q-cite "Lebon 2012" >}}, Glossaire: <http://journals.openedition.org/inha/3448>
+Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
 
-Copper Industry: {{< q-cite "Cuénin 1994" >}}, 5; {{< q-cite "Koch and Newell 1963" >}}; {{< q-cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" >}}; {{< q-cite "Brunhuber 1988" >}}
+Copper Industry: {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
-Historical: {{< q-cite "Mariette 1768" >}}; {{< q-cite "Félibien 1690" >}}, 324; {{< q-cite "Launay 1827" >}}, 2:277; {{< q-cite "Guettier 1858" >}}, notice 605, pp. 311–12; {{< q-cite "Boffrand 1743" >}}, 27 et sq; {{< q-cite "Diderot et al. 1751" >}}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+Historical: {% cite "Mariette 1768" %}; {% cite "Félibien 1690" %}, 324; {% cite "Launay 1827" %}, 2:277; {% cite "Guettier 1858" %}, notice 605, pp. 311–12; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
-Art and Craft Textbooks: {{< q-cite "Lambert 2002" >}}, 272; {{< q-cite "Rama 1988" >}}, 374
+Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %}, 374
 
 #### Alternate Translation
 
-- *âme* | Sources: Historical: {{< q-cite "Félibien 1690" >}}, 325; {{< q-cite "Boffrand 1743" >}}, 27 et sq; {{< q-cite "Diderot et al. 1751" >}}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+- *âme* | Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
 ### **Italian**: *anima*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/anima/); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {{< q-cite "Giuffredi 2006" >}}, 219; {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 77–78; {{< q-cite "Bruni 1994" >}}, 81–82; {{< q-cite "Brunhuber 1988" >}}
+[Treccani](http://www.treccani.it/vocabolario/anima/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {% cite "Giuffredi 2006" %}, 219; {% cite "Biringuccio [1540] 1990" %}, fols. 77–78; {% cite "Bruni 1994" %}, 81–82; {% cite "Brunhuber 1988" %}
 
 #### Alternate Translation
 
-- *anima di fusione* | Source: {{< q-cite "Bruni 1994" >}}, 81–82
+- *anima di fusione* | Source: {% cite "Bruni 1994" %}, 81–82
 
-- *maschio* (Early Italian term for core that literally translates as “male.”) | Sources: {{< q-cite "Leonardo 1490" >}}, fols 156, 157v; {{< q-cite "Biringuccio [1540] 1990" >}}, fols. 77v, 84
+- *maschio* (Early Italian term for core that literally translates as “male.”) | Sources: {% cite "Leonardo 1490" %}, fols 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
 
-- *nocciolo* (Early Italian term for core that means “nut.”) | Source: {{< q-cite "Cellini [1568] 1967" >}}, fols. 48, 49
+- *nocciolo* (Early Italian term for core that means “nut.”) | Source: {% cite "Cellini [1568] 1967" %}, fols. 48, 49
 
 ### **Chinese**: 芯型
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 1573
+{% cite "Ming 2010" %}, 1573
 
 #### Alternate Translation
 
-- 芯范 | Source: {{< q-cite "Zhang 2010" >}}, 82
+- 芯范 | Source: {% cite "Zhang 2010" %}, 82
 
 </div>

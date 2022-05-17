@@ -5,16 +5,16 @@ layout: page
 hugo_layout: vocabulary
 toc: false
 menu: false
-definition: 'Generic term referring to the application of a different metal to the surface of a bronze sculpture by a variety of means (mechanical, chemical, electrochemical). Typically, gold and silver are used to plate sculptures, but nickel, zinc, and tin have been used for aesthetic and/or protective reasons. When the applied metal is gold or an alloy of gold, it is referred to as {{< q-def "gilding" >}}.'
+definition: 'Generic term referring to the application of a different metal to the surface of a bronze sculpture by a variety of means (mechanical, chemical, electrochemical). Typically, gold and silver are used to plate sculptures, but nickel, zinc, and tin have been used for aesthetic and/or protective reasons. When the applied metal is gold or an alloy of gold, it is referred to as {% def "gilding" %}.'
 ---
 
-{{< q-figure-group grid="3" id="fig-293, fig-304, fig-343, fig-365" class="column" >}}
+{% figuregroup "3", "fig-293, fig-304, fig-343, fig-365", "column" %}
 
 ## Sources
 
-Cultural Heritage: {{< q-cite "Salter and Gilmour n.d." >}}
+Cultural Heritage: {% cite "Salter and Gilmour n.d." %}
 
-Copper Industry: {{< q-cite "Brunhuber 1988" >}}
+Copper Industry: {% cite "Brunhuber 1988" %}
 
 ## Translations
 
@@ -26,7 +26,7 @@ In German, *Plattierung* [the result] and *Plattieren* [the action] are specific
 
 #### Source
 
-{{< q-cite "Wallack 1840" >}}, 191–219
+{% cite "Wallack 1840" %}, 191–219
 
 ### **French**: *placage métallique*
 
@@ -38,18 +38,18 @@ Note: La dorure, l’argenture, et dans une moindre mesure l’étamage sont les
 
 #### Sources
 
-Cultural Heritage: {{< q-cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" >}}, 657; {{< q-cite "Darque-Ceretti and Aucouturier 2012" >}}
+Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
 
 ### **Italian**: *placcatura*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/placcatura); {{< q-cite "Battaglia 1961" >}}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
+[Treccani](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
 
 ### **Chinese**: 镀覆
 
 #### Source
 
-{{< q-cite "Ming 2010" >}}, 327
+{% cite "Ming 2010" %}, 327
 
 </div>
