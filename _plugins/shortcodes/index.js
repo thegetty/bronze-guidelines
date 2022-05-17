@@ -9,6 +9,7 @@ const figureGroup = require('./figureGroup.js')
 const ref = require('./figureRef.js')
 const title = require('./title.js')
 const tombstone = require('./tombstone.js')
+const def = require('./def.js')
 
 module.exports = function(eleventyConfig, options) {
   eleventyConfig.addPairedShortcode('backmatter', function(content, ...args) {
@@ -22,7 +23,7 @@ module.exports = function(eleventyConfig, options) {
   eleventyConfig.addPairedShortcode('class', function(content, ...args) {
     return div(eleventyConfig)(content, ...args)
   })
-  
+
   eleventyConfig.addShortcode('cite', function(...args) {
     return cite(eleventyConfig, { page: this.page })(...args)
   })
@@ -47,5 +48,9 @@ module.exports = function(eleventyConfig, options) {
 
   eleventyConfig.addShortcode('tombstone', function(...args) {
     return tombstone(eleventyConfig)(...args)
+  })
+
+  eleventyConfig.addShortcode('def', function(content, ...args) {
+    return def(eleventyConfig)(content, ...args)
   })
 }
