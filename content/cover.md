@@ -3,6 +3,7 @@ title: Cover
 weight: 1
 menu: false
 layout: cover
+class: page-one
 slug: .
 toc: false
 image: pattern-spiral-overlay.png
