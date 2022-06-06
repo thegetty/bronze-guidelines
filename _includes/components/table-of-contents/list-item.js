@@ -36,14 +36,13 @@ module.exports = function (eleventyConfig) {
       short_title,
       subtitle,
       summary,
-      title,
-      weight
+      title
     } = page.data
 
     const isOnline = online !== false
 
     const pageContributorsElement = pageContributors
-      ? `<span class="contributor"> — ${contributors({ contributors: pageContributors, format: 'string' })}</span>`
+      ? `<span class="contributor"> — ${contributors({ context: pageContributors, format: 'string' })}</span>`
       : ''
 
     let pageTitleElement

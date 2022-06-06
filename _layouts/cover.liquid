@@ -6,7 +6,7 @@ layout: base.11ty.js
 {% assign coverImage = image || publication.promo_image %}
 {% assign imagePath = config.params.imageDir | concat: coverImage | join: '/' %}
 
-<div id="main" class="{% pageClass pages=pages, pagination=pagination %} quire-cover" role="main">
+<div id="main" class="quire-cover" role="main">
 
   <section class="quire-cover__hero hero is-fullheight">
     <div
@@ -24,9 +24,8 @@ layout: base.11ty.js
         </h1>
         <p class="reading-line">{{ publication.reading_line | markdownify }}</p>
         <div class="contributor">
-          {{ publication.contributor_as_it_appears }}
           <span class="visually-hidden">Contributors:&nbsp;</span>
-          <em>{% contributors contributors=publicationContributors, type='primary' %}</em>
+          <em>{% contributors context=publicationContributors, format='string', type='primary' %}</em>
         </div>
       </div>
     </div>
