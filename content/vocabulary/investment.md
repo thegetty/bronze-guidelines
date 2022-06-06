@@ -1,6 +1,6 @@
 ---
 title: investment
-weight: 560
+order: 560
 layout: page
 hugo_layout: vocabulary
 toc: false

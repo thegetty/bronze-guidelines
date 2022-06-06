@@ -1,6 +1,6 @@
 ---
 title: brazing
-weight: 425
+order: 425
 layout: page
 hugo_layout: vocabulary
 toc: false

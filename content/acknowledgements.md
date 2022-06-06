@@ -1,6 +1,6 @@
 ---
 title: Acknowledgments
-weight: 40
+order: 40
 layout: page
 ---
 

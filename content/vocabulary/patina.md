@@ -1,6 +1,6 @@
 ---
 title: patina
-weight: 610
+order: 610
 layout: page
 hugo_layout: vocabulary
 toc: false

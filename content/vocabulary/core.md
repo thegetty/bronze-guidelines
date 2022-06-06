@@ -1,6 +1,6 @@
 ---
 title: core
-weight: 495
+order: 495
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: brass
-weight: 420
+order: 420
 layout: page
 hugo_layout: vocabulary
 toc: false

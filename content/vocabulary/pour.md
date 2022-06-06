@@ -1,6 +1,6 @@
 ---
 title: pour
-weight: 635
+order: 635
 layout: page
 hugo_layout: vocabulary
 toc: false

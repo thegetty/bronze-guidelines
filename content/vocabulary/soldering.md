@@ -1,6 +1,6 @@
 ---
 title: soldering
-weight: 675
+order: 675
 layout: page
 hugo_layout: vocabulary
 toc: false

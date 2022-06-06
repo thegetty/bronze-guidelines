@@ -1,6 +1,6 @@
 ---
 title: shrinkage
-weight: 670
+order: 670
 layout: page
 hugo_layout: vocabulary
 toc: false

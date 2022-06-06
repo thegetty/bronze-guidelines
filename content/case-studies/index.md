@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-weight: 300
+order: 300
 layout: table-of-contents
 presentation: list
 slug: .

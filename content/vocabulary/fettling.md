@@ -1,6 +1,6 @@
 ---
 title: fettling
-weight: 525
+order: 525
 layout: page
 hugo_layout: vocabulary
 toc: false

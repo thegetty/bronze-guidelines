@@ -1,6 +1,6 @@
 ---
 title: porosity
-weight: 630
+order: 630
 layout: page
 hugo_layout: vocabulary
 toc: false

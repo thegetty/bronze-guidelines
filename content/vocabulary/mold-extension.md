@@ -1,6 +1,6 @@
 ---
 title: mold extension
-weight: 595
+order: 595
 layout: page
 hugo_layout: vocabulary
 toc: false

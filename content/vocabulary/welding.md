@@ -1,6 +1,6 @@
 ---
 title: welding
-weight: 690
+order: 690
 layout: page
 hugo_layout: vocabulary
 toc: false

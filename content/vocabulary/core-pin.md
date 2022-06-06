@@ -1,6 +1,6 @@
 ---
 title: core pin
-weight: 500
+order: 500
 layout: page
 hugo_layout: vocabulary
 toc: false

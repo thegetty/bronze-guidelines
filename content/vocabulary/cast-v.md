@@ -1,6 +1,6 @@
 ---
 title: cast (v.)
-weight: 440
+order: 440
 layout: page
 hugo_layout: vocabulary
 toc: false

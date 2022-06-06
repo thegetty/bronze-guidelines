@@ -1,6 +1,6 @@
 ---
 title: casting plan
-weight: 460
+order: 460
 layout: page
 hugo_layout: vocabulary
 toc: false

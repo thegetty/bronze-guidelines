@@ -1,6 +1,6 @@
 ---
 title: as-cast surface
-weight: 415
+order: 415
 layout: page
 hugo_layout: vocabulary
 toc: false

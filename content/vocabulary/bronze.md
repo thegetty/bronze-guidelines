@@ -1,6 +1,6 @@
 ---
 title: bronze
-weight: 430
+order: 430
 layout: page
 hugo_layout: vocabulary
 toc: false

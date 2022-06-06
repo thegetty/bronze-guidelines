@@ -1,6 +1,6 @@
 ---
 title: variant
-weight: 685
+order: 685
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: casting defect
-weight: 455
+order: 455
 layout: page
 hugo_layout: vocabulary
 toc: false

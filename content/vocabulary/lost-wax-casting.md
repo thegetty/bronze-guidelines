@@ -1,6 +1,6 @@
 ---
 title: lost-wax casting
-weight: 570
+order: 570
 layout: page
 hugo_layout: vocabulary
 toc: false

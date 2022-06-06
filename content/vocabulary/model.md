@@ -1,6 +1,6 @@
 ---
 title: model
-weight: 585
+order: 585
 layout: page
 hugo_layout: vocabulary
 toc: false

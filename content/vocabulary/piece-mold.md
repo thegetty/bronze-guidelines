@@ -1,6 +1,6 @@
 ---
 title: piece mold
-weight: 620
+order: 620
 layout: page
 hugo_layout: vocabulary
 toc: false

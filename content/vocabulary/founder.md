@@ -1,6 +1,6 @@
 ---
 title: founder
-weight: 535
+order: 535
 layout: page
 hugo_layout: vocabulary
 toc: false

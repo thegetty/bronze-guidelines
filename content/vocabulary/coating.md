@@ -1,6 +1,6 @@
 ---
 title: coating
-weight: 485
+order: 485
 layout: page
 hugo_layout: vocabulary
 toc: false

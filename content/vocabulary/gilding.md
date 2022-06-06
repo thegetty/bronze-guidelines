@@ -1,6 +1,6 @@
 ---
 title: gilding
-weight: 545
+order: 545
 layout: page
 hugo_layout: vocabulary
 toc: false

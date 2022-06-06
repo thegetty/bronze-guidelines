@@ -1,6 +1,6 @@
 ---
 title: chasing
-weight: 470
+order: 470
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: castability
-weight: 450
+order: 450
 layout: page
 hugo_layout: vocabulary
 toc: false

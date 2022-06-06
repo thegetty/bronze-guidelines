@@ -1,6 +1,6 @@
 ---
 title: life-casting
-weight: 565
+order: 565
 layout: page
 hugo_layout: vocabulary
 toc: false

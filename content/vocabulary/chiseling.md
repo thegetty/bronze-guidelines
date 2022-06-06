@@ -1,6 +1,6 @@
 ---
 title: chiseling
-weight: 480
+order: 480
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: Director’s Foreword
-weight: 30
+order: 30
 layout: page
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Vocabulary
-weight: 400
+order: 400
 layout: page
 class: pdf-backmatter
 ---

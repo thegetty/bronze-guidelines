@@ -1,6 +1,6 @@
 ---
 title: inter-model
-weight: 555
+order: 555
 layout: page
 hugo_layout: vocabulary
 toc: false

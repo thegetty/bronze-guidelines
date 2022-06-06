@@ -1,6 +1,6 @@
 ---
 title: mold
-weight: 590
+order: 590
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: About
-weight: 1020
+order: 1020
 layout: page
 pdf: false
 epub: false

@@ -1,6 +1,6 @@
 ---
 title: cast (n.)
-weight: 435
+order: 435
 layout: page
 hugo_layout: vocabulary
 toc: false

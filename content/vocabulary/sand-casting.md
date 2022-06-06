@@ -1,6 +1,6 @@
 ---
 title: sand casting
-weight: 660
+order: 660
 layout: page
 hugo_layout: vocabulary
 toc: false

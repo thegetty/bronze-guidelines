@@ -1,6 +1,6 @@
 ---
 title: after-cast
-weight: 405
+order: 405
 layout: page
 hugo_layout: vocabulary
 toc: false

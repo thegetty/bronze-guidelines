@@ -1,6 +1,6 @@
 ---
 title: punch
-weight: 640
+order: 640
 layout: page
 hugo_layout: vocabulary
 toc: false

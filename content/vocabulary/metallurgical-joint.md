@@ -1,6 +1,6 @@
 ---
 title: metallurgical joint
-weight: 580
+order: 580
 layout: page
 hugo_layout: vocabulary
 toc: false

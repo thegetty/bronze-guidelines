@@ -1,6 +1,6 @@
 ---
 title: refractory mold
-weight: 645
+order: 645
 layout: page
 hugo_layout: vocabulary
 toc: false

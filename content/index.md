@@ -1,6 +1,6 @@
 ---
 title: Cover
-weight: 1
+order: 1
 menu: false
 layout: cover
 toc: false

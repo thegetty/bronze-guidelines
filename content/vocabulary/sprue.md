@@ -1,6 +1,6 @@
 ---
 title: sprue
-weight: 680
+order: 680
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: replica
-weight: 650
+order: 650
 layout: page
 hugo_layout: vocabulary
 toc: false

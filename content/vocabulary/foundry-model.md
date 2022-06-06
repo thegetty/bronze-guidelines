@@ -1,6 +1,6 @@
 ---
 title: foundry model
-weight: 540
+order: 540
 layout: page
 hugo_layout: vocabulary
 toc: false

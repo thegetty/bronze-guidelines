@@ -1,6 +1,6 @@
 ---
 title: General Introduction
-weight: 50
+order: 50
 layout: page
 hugo_layout: full-width
 class: accordion

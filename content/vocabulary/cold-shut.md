@@ -1,6 +1,6 @@
 ---
 title: cold shut
-weight: 490
+order: 490
 layout: page
 hugo_layout: vocabulary
 toc: false

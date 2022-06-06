@@ -1,6 +1,6 @@
 ---
 title: seam line
-weight: 665
+order: 665
 layout: page
 hugo_layout: vocabulary
 toc: false

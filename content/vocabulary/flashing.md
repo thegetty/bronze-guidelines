@@ -1,6 +1,6 @@
 ---
 title: flashing
-weight: 530
+order: 530
 layout: page
 hugo_layout: vocabulary
 toc: false

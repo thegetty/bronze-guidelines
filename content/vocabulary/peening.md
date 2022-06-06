@@ -1,6 +1,6 @@
 ---
 title: peening
-weight: 615
+order: 615
 layout: page
 hugo_layout: vocabulary
 toc: false

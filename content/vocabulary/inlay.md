@@ -1,6 +1,6 @@
 ---
 title: inlay
-weight: 550
+order: 550
 layout: page
 hugo_layout: vocabulary
 toc: false

@@ -1,6 +1,6 @@
 ---
 title: armature
-weight: 410
+order: 410
 layout: page
 hugo_layout: vocabulary
 toc: false

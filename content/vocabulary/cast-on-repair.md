@@ -1,6 +1,6 @@
 ---
 title: cast-on repair
-weight: 445
+order: 445
 layout: page
 hugo_layout: vocabulary
 toc: false

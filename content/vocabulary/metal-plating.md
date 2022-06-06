@@ -1,6 +1,6 @@
 ---
 title: metal plating
-weight: 575
+order: 575
 layout: page
 hugo_layout: vocabulary
 toc: false

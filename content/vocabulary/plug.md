@@ -1,6 +1,6 @@
 ---
 title: plug
-weight: 625
+order: 625
 layout: page
 hugo_layout: vocabulary
 toc: false

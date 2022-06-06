@@ -1,6 +1,6 @@
 ---
 title: corrosion
-weight: 510
+order: 510
 layout: page
 hugo_layout: vocabulary
 toc: false

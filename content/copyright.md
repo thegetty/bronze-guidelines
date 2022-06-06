@@ -1,6 +1,8 @@
 ---
 title: Copyright
-weight: 10
-layout: page
+order: 10
 online: false
+toc: false
+menu: false
 ---
+

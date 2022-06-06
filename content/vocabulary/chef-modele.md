@@ -1,6 +1,6 @@
 ---
 title: chef modèle
-weight: 475
+order: 475
 layout: page
 hugo_layout: vocabulary
 toc: false

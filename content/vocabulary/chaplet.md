@@ -1,6 +1,6 @@
 ---
 title: chaplet
-weight: 465
+order: 465
 layout: page
 hugo_layout: vocabulary
 toc: false

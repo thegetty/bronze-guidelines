@@ -1,6 +1,6 @@
 ---
 title: core support
-weight: 505
+order: 505
 layout: page
 hugo_layout: vocabulary
 toc: false

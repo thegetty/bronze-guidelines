@@ -1,6 +1,6 @@
 ---
 title: overlay
-weight: 600
+order: 600
 layout: page
 hugo_layout: vocabulary
 toc: false
