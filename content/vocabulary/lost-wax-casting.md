@@ -79,3 +79,5 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 #### Alternate Translation
 
 - 失蜡铸造 | Sources: {% cite "Ming 2010" %}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
+
+</div>
