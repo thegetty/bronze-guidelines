@@ -36,7 +36,7 @@ Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sa
 Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle original de l’artiste.
 </div>
 
-</br>
+<br />
 
 #### To Be Distinguished From
 

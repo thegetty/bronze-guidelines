@@ -1,23 +1,27 @@
+const filters = require('./filters')
+const sortCollection = require('./sort')
+
 /**
- * Add custom collections
+ * Add Collections and Apply Transforms
+ * 
+ * Nota bene: The Eleventy API does not make collections data accessible
+ * from the plugin context. Adding `collections` and `transforms` sequentially
+ * in the same file allows access to `collections` data from `transforms`
+ *
  * @param  {Object} eleventyConfig
  * @param  {Object} options
+ * @return {Object} collections
  */
 module.exports = function (eleventyConfig, options = {}) {
-  /**
-   * Collection of pages to display in the menu
-   */
-  eleventyConfig.addCollection('menu', function (collectionApi) {
-    return collectionApi.getAll().filter(function ({ data }) {
-      return data.menu !== false && data.type !== 'data';
-    });
-  });
-  /**
-   * Collection of pages to display in Table of Contents
-   */
-  eleventyConfig.addCollection('tableOfContents', function (collectionApi) {
-    return collectionApi.getAll().filter(function ({ data }) {
-      return data.toc !== false && data.type !== 'data';
-    });
-  });
-};
+  const collections = {}
+  for (const name in filters) {
+    eleventyConfig.addCollection(name, function (collectionApi) {
+      collections[name] = collectionApi
+        .getAll()
+        .filter(filters[name])
+        .sort(sortCollection)
+      return collections[name]
+    })
+  }
+  return collections
+}

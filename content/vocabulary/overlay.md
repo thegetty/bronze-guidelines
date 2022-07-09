@@ -76,3 +76,5 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 #### Alternate Translation
 
 - 覆盖 | Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
+
+</div>

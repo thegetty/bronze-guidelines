@@ -7,10 +7,7 @@ const sharp = require('sharp')
  * @return {Function}      createImage()
  */
 module.exports = (eleventyConfig) => {
-  const {
-    output, 
-    root
-  } = eleventyConfig.globalData.iiifConfig
+  const { inputDir, outputDir, outputRoot } = eleventyConfig.globalData.iiifConfig
 
   /**
    * Creates an image in the output directory with the name `${name}${ext}`
@@ -20,32 +17,26 @@ module.exports = (eleventyConfig) => {
    * @property  {String} name The name of the file
    * @property  {Object} resize Resize options for `sharp`
    */
-  return async (input, transformation = {}, options) => {
+  return async (filename, transformation = {}, options) => {
     const { debug, lazy } = options
-    const { name, resize } = transformation
-    const outputDir = path.join(root, output)
 
-    const ext = path.parse(input).ext
-    const id = path.parse(input).name
-    const filename = `${name}${ext}`
+    const { ext, name } = path.parse(filename)
+    const inputPath = path.join(inputDir, filename)
+    const outputPath = path.join(outputRoot, outputDir, name, `${transformation.name}${ext}`)
 
-    fs.ensureDirSync(path.join(outputDir, id))
-    const fileOutput = path.join(outputDir, id, filename)
+    fs.ensureDirSync(path.parse(outputPath).dir)
 
-    if (!lazy || !fs.pathExistsSync(fileOutput)) {
-      await sharp(input)
-        .resize(resize)
-        .withMetadata()
-        .toFile(fileOutput)
-
+    if (!lazy || !fs.pathExistsSync(outputPath)) {
       if (debug) {
-        console.warn(`[iiif:createImage:${id}] Created ${filename}`)
+        console.warn(`[iiif:createImage:${name}] Created ${filename}`)
       }
-    } else {
-      if (debug) {
-        console.warn(
-          `[iiif:createImage:${id}] ${filename} already exists, skipping`
-        )
+      try {
+        return await sharp(inputPath)
+          .resize(resize)
+          .withMetadata()
+          .toFile(outputPath)
+      } catch(error) {
+        return { error, filename }
       }
     }
   }

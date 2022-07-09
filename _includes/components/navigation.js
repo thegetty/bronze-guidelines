@@ -1,4 +1,4 @@
-const { html } = require('common-tags');
+const { html } = require('~lib/common-tags');
 
 /**
  * This controls the various navigation elements (nav, skip-link, menu and
@@ -18,8 +18,17 @@ module.exports = function(eleventyConfig) {
   const { imageDir } = eleventyConfig.globalData.config.params
 
   return function (params) {
-    const { pages, pagination, title } = params
-    const { currentPage, currentPageIndex, nextPage, previousPage } = pagination
+    const { collections, pagination, title } = params
+    const {
+      currentPage,
+      currentPageIndex,
+      nextPage,
+      percentProgress,
+      previousPage
+    } = pagination
+
+    if (!currentPage) return
+    
     const home = '/'
     const isHomePage = currentPage.url === home
 
@@ -32,7 +41,7 @@ module.exports = function(eleventyConfig) {
 
     const navBarStartButton = () => {
       if (!isHomePage) return ''
-      const secondPageLink = pages[1].url
+      const secondPageLink = collections.navigation[1].url
       return `
         <li class="quire-navbar-page-controls__item quire-home-page">
           <a href="${secondPageLink}" rel="next">
@@ -170,8 +179,8 @@ module.exports = function(eleventyConfig) {
           </div>
         </nav>
         <div class="quire-progress-bar">
-          <div style="width: calc(100% * (${currentPageIndex + 1} / ${pages.length}));">
-            <span>${currentPageIndex + 1}/${pages.length}</span>
+          <div style="width: ${percentProgress}%;">
+            <span>${currentPageIndex + 1}/${collections.navigation.length}</span>
           </div>
         </div>
       </div>
