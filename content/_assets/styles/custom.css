@@ -30,6 +30,61 @@
   font-style: italic;
 }
 
+/* FULL-WIDTH PAGE
+    layout: page
+    presentation: full-width
+============================================================================= */
+.quire-page.full-width .quire-page__content .container {
+  max-width: 1400px;
+  width: inherit;
+}
+/* Set grid, text to the left, figuregroups to right, headers span across */
+.quire-page.full-width .quire-page__content .content section {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.quire-page.full-width .quire-page__content .content section > * {
+  grid-column-start: 1;
+}
+.quire-page.full-width .quire-page__content .content section > figure {
+  grid-column-start: 2;
+  grid-row: 2/100;
+  margin-top: 0;
+}
+.quire-page.full-width .quire-page__content .content section > section {
+  grid-column: 1/-1;
+}
+.quire-page.full-width .quire-page__content .content section > h2,
+.quire-page.full-width .quire-page__content .content section > h3,
+.quire-page.full-width .quire-page__content .content section > h4 {
+  grid-column: 1/-1;
+}
+@media screen and (max-width:810px) {
+  .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+    column-count: 2;
+  }
+}
+@media screen and (max-width:640px) {
+  .quire-page.full-width .quire-page__content .content section {
+    display: block;
+  }
+  .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+    column-count: 3;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width:500px) {
+  .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+    column-count: 2;
+  }
+}
+/* Ensure proper spacing between sections */
+.content section:not(:last-child){
+  margin-bottom: 1em;
+}
+
 /* FIGURE GROUP
 ============================================================================= */
 .q-figure.q-figure--group.quire-grid-3 {

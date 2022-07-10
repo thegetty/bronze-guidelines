@@ -62,3 +62,9 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 **_plugins/shortcodes/def.js**
 **_plugins/shortcodes/index.js**
 Placeholder shortcode for {% def %} which is to display vocabulary terms.
+
+**_plugins/shortcodes/figureGroup.js**
+Rewrote to output a wrapped set of figures, not broken down into rows.
+
+**_layouts/page.liquid**
+Addded class to markup based on value of `presentation` in the frontmatter.
