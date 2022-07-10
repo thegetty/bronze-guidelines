@@ -12,7 +12,7 @@ definition: 'A common type of casting flaw that includes a group or area of cavi
 Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](#I.3)).
 </div>
 
-{% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464", "column" %}
+{% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
 ## Sources
 

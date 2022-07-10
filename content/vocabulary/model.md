@@ -12,7 +12,7 @@ definition: 'The creation of a bronze may involve a series of models and {% def 
 Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a cast may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the investment to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
 </div>
 
-{% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559", "column" %}
+{% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
 
 ## Sources
 

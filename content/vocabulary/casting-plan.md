@@ -12,7 +12,7 @@ definition: 'A methodological tool that has been developed by researchers to rev
 Note: {% def "Founders" %} do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
 </div>
 
-{% figuregroup "3", "fig-367", "column" %}
+{% figuregroup "3", "fig-367" %}
 
 ## Source
 

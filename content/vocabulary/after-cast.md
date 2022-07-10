@@ -14,7 +14,7 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 </div>
 
-{% figuregroup "3", "fig-001, fig-284", "column" %}
+{% figuregroup "3", "fig-001, fig-284" %}
 
 ## To Be Distinguished From
 

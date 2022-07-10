@@ -12,7 +12,7 @@ definition: 'Decorative element resting on the surface of a sculpture via any of
 Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>
 
-{% figuregroup "3", "fig-223, fig-340, fig-346, fig-347", "column" %}
+{% figuregroup "3", "fig-223, fig-340, fig-346, fig-347" %}
 
 ## To Be Distinguished From
 

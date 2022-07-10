@@ -8,7 +8,7 @@ menu: false
 definition: 'The operation of pouring or casting metal into the refractory mold.'
 ---
 
-{% figuregroup "3", "fig-549, fig-560", "column" %}
+{% figuregroup "3", "fig-549, fig-560" %}
 
 ## Sources
 

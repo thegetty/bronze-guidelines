@@ -8,7 +8,7 @@ menu: false
 definition: 'Ability of a liquid metal to fill and pick up every detail of a mold. See [I.2§2.2](#I.2§2.2).'
 ---
 
-{% figuregroup "3", "fig-437, fig-438", "column" %}
+{% figuregroup "3", "fig-437, fig-438" %}
 
 ## To Be Distinguished From
 

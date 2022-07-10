@@ -12,7 +12,7 @@ definition: 'A technique for joining separately cast parts using high temperatur
 Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](#I.5), **video 12**.
 </div>
 
-{% figuregroup "3", "fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548", "column" %}
+{% figuregroup "3", "fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
 ## To Be Distinguished From
 

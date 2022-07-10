@@ -12,7 +12,7 @@ definition: 'Bridge or spacer made of refractory material between the {% def "co
 Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and armature. The hole may later be sealed with a metal patch.
 </div>
 
-{% figuregroup "3", "fig-041, fig-122, fig-123", "column" %}
+{% figuregroup "3", "fig-041, fig-122, fig-123" %}
 
 ## Sources
 

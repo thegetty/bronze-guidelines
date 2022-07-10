@@ -12,7 +12,7 @@ definition: 'Purposefully applied surface deposits or films on bronze sculpture 
 Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal-plating" "plating" %}.
 </div>
 
-{% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330", "column" %}
+{% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
 ## Sources
 

@@ -12,7 +12,7 @@ definition: 'A type of joint between two metal parts that is undertaken using mo
 Note: The correct use of this term has been disputed among CAST:ING members, but it is often used generally to distinguish from mechanical joints. Diffusion welding (an expensive twentieth-century solid-state welding technique) does not involve the use of molten metal but to our knowledge is not used for bronze sculpture.
 </div>
 
-{% figuregroup "3", "fig-059, fig-146, fig-187, fig-188, fig-203, fig-204, fig-206, fig-207, fig-364", "column" %}
+{% figuregroup "3", "fig-059, fig-146, fig-187, fig-188, fig-203, fig-204, fig-206, fig-207, fig-364" %}
 
 ## To Be Distinguished From
 

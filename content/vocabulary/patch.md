@@ -8,7 +8,7 @@ menu: false
 definition: 'A type of repair most often mechanically set into the bronze surface, but which may also be soldered, welded, or cast into place (see [I.4](#I.4)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
 ---
 
-{% figuregroup "3", "fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198", "column" %}
+{% figuregroup "3", "fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198" %}
 
 ## To Be Distinguished From
 

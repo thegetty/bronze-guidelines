@@ -14,7 +14,7 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 </div>
 
-{% figuregroup "3", "fig-005, fig-062, fig-104, fig-277", "column" %}
+{% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
 ## To Be Distinguished From
 

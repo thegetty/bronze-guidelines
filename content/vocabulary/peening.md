@@ -12,7 +12,7 @@ definition: 'The act of embellishing/texturing the metal surface by repeatedly u
 Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
 </div>
 
-{% figuregroup "3", "fig-246", "column" %}
+{% figuregroup "3", "fig-246" %}
 
 ## Sources
 

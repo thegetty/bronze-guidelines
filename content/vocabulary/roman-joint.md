@@ -12,7 +12,7 @@ definition: 'A type of joint between two separately cast elements in which one e
 Note: “Join” is a verb and “joint” is a noun. We have chosen here to use the latter, but it is common to find references to Roman joins, sleeve joins, etc.
 </div>
 
-{% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218", "column" %}
+{% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
 ## Sources
 

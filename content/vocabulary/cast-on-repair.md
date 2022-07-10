@@ -8,7 +8,7 @@ menu: false
 definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
 ---
 
-{% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196", "column" %}
+{% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 
 ## To Be Distinguished From
 

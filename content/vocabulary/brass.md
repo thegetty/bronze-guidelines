@@ -8,7 +8,7 @@ menu: false
 definition: 'A copper alloy with zinc as the primary added element. As with bronzes, there are a wide variety of brass alloys.'
 ---
 
-{% figuregroup "3", "fig-133", "column" %}
+{% figuregroup "3", "fig-133" %}
 
 ## Sources
 

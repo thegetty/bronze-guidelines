@@ -8,7 +8,7 @@ menu: false
 definition: 'The interface where two streams of metal come together in the mold but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a cast caused by premature cooling ({Rome and Young 2003}, 303). The cooled metal edges will be rounded in profile.'
 ---
 
-{% figuregroup "3", "fig-006, fig-159", "column" %}
+{% figuregroup "3", "fig-006, fig-159" %}
 
 ## To Be Distinguished From
 

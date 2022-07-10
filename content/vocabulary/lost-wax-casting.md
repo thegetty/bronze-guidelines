@@ -12,7 +12,7 @@ definition: 'A technique in which a model made of wax is embedded in a {% def "r
 Note: The French term “cire perdue” is often adopted in English as well. The wax model can be supplemented by other materials that can be burned out, such as cloth.
 </div>
 
-{% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028", "column" %}
+{% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028" %}
 
 ## Sources
 

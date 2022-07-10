@@ -8,7 +8,7 @@ menu: false
 definition: 'Steps carried out directly after casting to remove unwanted features, including oxidized metal, {% def "sprues" %}, {% def "core pins" %}, {% def "flashing" %}, etc. Fettling may entail the use of power tools and/or hand tools such as saws, chisels, hammers, coarse files, and abrasives.'
 ---
 
-{% figuregroup "3", "fig-104, fig-552", "column" %}
+{% figuregroup "3", "fig-104, fig-552" %}
 
 ## To Be Distinguished From
 

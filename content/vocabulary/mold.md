@@ -12,7 +12,7 @@ definition: 'A three-dimensional negative form made of one or more parts that se
 Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](#I.1).
 </div>
 
-{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557", "column" %}
+{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
 ## Sources
 

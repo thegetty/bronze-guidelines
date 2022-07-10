@@ -12,7 +12,7 @@ definition: 'The process of fine detailed “cold work” after casting and {% d
 Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to {% def "engraving" %}.
 </div>
 
-{% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550", "column" %}
+{% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
 ## To Be Distinguished From
 
