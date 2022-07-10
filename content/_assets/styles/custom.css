@@ -29,3 +29,31 @@
   font-size: 1.25rem;
   font-style: italic;
 }
+
+/* FIGURE GROUP
+============================================================================= */
+.q-figure.q-figure--group.quire-grid-3 {
+  border-width: 0;
+  column-count: 3;
+  padding: 0;
+}
+@media screen and (max-width:500px) {
+  .q-figure.q-figure--group.quire-grid-3 {
+    column-count: 2;
+  }
+}
+.q-figure.q-figure--group figure {
+  border-width: 0;
+  break-inside: avoid;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 0;
+}
+.q-figure.q-figure--group .q-figure__caption {
+  margin-top: 0;
+}
+.q-figure.q-figure--group .q-figure__caption-content,
+.q-figure.q-figure--group .q-figure__credit-content {
+  display: none;
+}
