@@ -2,10 +2,15 @@
 title: porosity
 order: 630
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A common type of casting flaw that includes a group or area of cavities caused by shrinkage or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the bronze. See [I.3§1.3.1](#I.3§1.3.1).'
+lang:
+  de: Porosität
+  fr: porosité
+  it: porosità
+  zh: 气孔
 ---
 
 <div class="backmatter">

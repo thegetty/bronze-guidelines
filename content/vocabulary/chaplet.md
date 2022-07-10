@@ -2,10 +2,15 @@
 title: chaplet
 order: 465
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of metal insertion placed in the gap between the {% def "core" %} and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in {% def "sand casting" %}, but they have been encountered in historic lost-wax castings as well.'
+lang:
+  de: Kernhalteplatte
+  fr: cale à noyau
+  it: chiodo distanziatore
+  zh: 墊片
 ---
 
 <div class="backmatter">

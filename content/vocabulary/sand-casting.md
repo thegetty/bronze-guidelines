@@ -2,10 +2,15 @@
 title: sand casting
 order: 660
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A casting technique in which metal is poured into a piece mold made of a specific type of sand that is bound by clay (or resin in modern foundries). The piece mold is made by ramming the sand around a rigid model or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](#GI§2.4.1).'
+lang:
+  de: Sandformguss
+  fr: fonte au sable
+  it: fusione a staffa
+  zh: fusione a staffa
 ---
 
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}

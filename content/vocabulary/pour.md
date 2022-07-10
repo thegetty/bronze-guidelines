@@ -2,10 +2,15 @@
 title: pour
 order: 635
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'The operation of pouring or casting metal into the refractory mold.'
+lang:
+  de: Gießen
+  fr: coulée
+  it: colata
+  zh: 浇注
 ---
 
 {% figuregroup "3", "fig-549, fig-560" %}

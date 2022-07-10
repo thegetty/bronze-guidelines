@@ -2,10 +2,15 @@
 title: cast (v.)
 order: 440
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).'
+lang:
+  de: gießen
+  fr: couler
+  it: gettare
+  zh: 铸造
 ---
 
 {% figuregroup "3", "fig-549" %}

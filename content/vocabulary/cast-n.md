@@ -2,10 +2,15 @@
 title: cast (n.)
 order: 435
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A sculpture or more generally an object that is shaped by pouring a molten material or a slurry into a mold in which it will solidify. Plaster of paris, metal, and wax are among the cast-forming sculptural materials routinely involved in bronze production. The term may also refer to the amount of homogenous molten metal resulting from a single pour.'
+lang:
+  de: Guss
+  fr: fonte
+  it: getto
+  zh: 铸件
 ---
 
 <div class="backmatter">
@@ -59,7 +64,7 @@ Foundry-specific term
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto); {% cite "Baglione 1642" %}, 324–25  
+[Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto); {% cite "Baglione 1642" %}, 324–25
 
 #### Alternate Translations
 
@@ -75,6 +80,6 @@ Foundry-specific term
 
 #### Alternate Translation
 
-- 铸品  
+- 铸品
 
 </div>

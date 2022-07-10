@@ -2,10 +2,15 @@
 title: life-casting
 order: 565
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a cast characterized by its high realism and fine detail. Life-casts are made by encasing the form in a refractory mold and burning out the form, and are therefore generally solid, though there are some exceptions.'
+lang:
+  de: Naturabguss
+  fr: fonte sur le vif
+  it: fusione dal vero
+  zh: 活体模铸
 ---
 
 <div class="backmatter">

@@ -2,10 +2,15 @@
 title: coating
 order: 485
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Purposefully applied surface deposits or films on bronze sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
+lang:
+  de: Überzug
+  fr: revêtement
+  it: rivestimento
+  zh: 涂层
 ---
 
 <div class="backmatter">

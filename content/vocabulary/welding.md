@@ -2,10 +2,15 @@
 title: welding
 order: 690
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
+lang:
+  de: Schweissen
+  fr: soudage
+  it: saldatura
+  zh: 熔焊
 ---
 
 <div class="backmatter">

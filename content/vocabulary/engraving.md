@@ -2,10 +2,15 @@
 title: engraving
 order: 520
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'In relation to bronzes, the process of decorating the surface by removing material with a chisel, burin, or graver that creates a V-shaped groove.'
+lang:
+  de: gravieren
+  fr: gravure
+  it: incisione
+  zh: 阴刻
 ---
 
 <div class="backmatter">

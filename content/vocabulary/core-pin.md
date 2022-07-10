@@ -2,10 +2,15 @@
 title: core pin
 order: 500
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A metal rod, nail, or wire that is embedded in both the {% def "core" %} and the outer mold and serves to secure the core in place during the pour. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'
+lang:
+  de: Kernstift
+  fr: fer à noyau
+  it: chiodo di sostegno
+  zh: 支釘
 ---
 
 <div class="backmatter">

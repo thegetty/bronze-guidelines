@@ -2,10 +2,15 @@
 title: brass
 order: 420
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A copper alloy with zinc as the primary added element. As with bronzes, there are a wide variety of brass alloys.'
+lang:
+  de: Messing
+  fr: laiton
+  it: ottone
+  zh: 铜锌合金
 ---
 
 {% figuregroup "3", "fig-133" %}

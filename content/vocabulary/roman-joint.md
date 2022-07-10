@@ -2,10 +2,15 @@
 title: Roman joint
 order: 655
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.'
+lang:
+  de: Steckverbindung
+  fr: assemblage à la romaine
+  it: ghiera alla romana
+  zh: 罗馬式接合
 ---
 
 <div class="backmatter">

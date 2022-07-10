@@ -2,10 +2,15 @@
 title: founder
 order: 535
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural model into cast metal sculptures. This may entail a variety of specialized operations, from mold making to wax chasing, alloying, casting, fettling, assembling, chasing, and patination. The artist may in some cases also take on one or more of these roles.'
+lang:
+  de: Giesser
+  fr: fondeur
+  it: artefice
+  zh: 铸工
 ---
 
 {% figuregroup "3", "fig-546" %}

@@ -2,10 +2,15 @@
 title: mold
 order: 590
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A three-dimensional negative form made of one or more parts that serves as a matrix for the production of a positive by casting or pressing malleable material into it. Molds allow for the production of one or more copies of an original sculpture.'
+lang:
+  de: Form / Negativform
+  fr: moule
+  it: calco
+  zh: 范
 ---
 
 <div class="backmatter">

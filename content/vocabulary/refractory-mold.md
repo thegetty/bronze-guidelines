@@ -2,10 +2,15 @@
 title: refractory mold
 order: 645
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the model to be reproduced and forms the void into which the molten metal will be cast. Investment, green sand, and ceramic shell are examples of refractory molds.'
+lang:
+  de: Form
+  fr: moule réfractaire
+  it: camicia
+  zh: 耐火模具
 ---
 
 <div class="backmatter">

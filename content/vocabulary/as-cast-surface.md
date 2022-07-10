@@ -2,10 +2,15 @@
 title: as-cast surface
 order: 415
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Refers to the surface immediately after removal from the mold, before fettling and chasing.'
+lang:
+  de: Gusshaut
+  fr: surface brute de coulée
+  it: superficie al grezzo
+  zh: 毛坯铸件表面
 ---
 
 <div class="backmatter">

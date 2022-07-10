@@ -2,10 +2,15 @@
 title: overlay
 order: 600
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Decorative element resting on the surface of a sculpture via any of a variety of attachment methods, including solder, adhesives, cements, and/or rivets. Overlay materials may include a range of materials, among them metals, glass, stone, or bone.'
+lang:
+  de: Auflage
+  fr: incrustation
+  it: incrostazione
+  zh: 包覆
 ---
 
 <div class="backmatter">

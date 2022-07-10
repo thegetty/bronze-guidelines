@@ -2,10 +2,15 @@
 title: chiseling
 order: 480
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either fettling or chasing.'
+lang:
+  de: meißeln
+  fr: travail au ciseau
+  it: scalpellatura
+  zh: 凿
 ---
 
 <div class="backmatter">

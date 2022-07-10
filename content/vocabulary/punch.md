@@ -2,10 +2,15 @@
 title: punch
 order: 640
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A tool usually made of a steel rod that may be struck with a hammer at one end in order to create a pattern in the surface of the sculpture with the other end by compressing the metal.'
+lang:
+  de: Punze
+  fr: ciselet mat
+  it: cesello
+  zh: 冲头
 ---
 
 <div class="backmatter">

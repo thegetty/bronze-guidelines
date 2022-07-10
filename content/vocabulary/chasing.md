@@ -2,10 +2,15 @@
 title: chasing
 order: 470
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+lang:
+  de: ziselieren
+  fr: ciselure
+  it: rifinitura
+  zh: 铸件表面加工
 ---
 
 <div class="backmatter">

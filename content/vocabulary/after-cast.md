@@ -2,11 +2,18 @@
 title: after-cast
 order: 405
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A bronze cast that has been created from a reusable mold taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by sand casting.'
+lang:
+  de: Nachguss
+  fr: surmoulé
+  it: calco
+  zh: 翻铸
 ---
+
+{{ definition }}
 
 <div class="backmatter">
 
@@ -34,9 +41,9 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 
 <div class="accordion">
 
-### **German**: *Nachguss*
+### **German**: *{{ lang.de }}*
 
-### **French**: *surmoulé*
+### **French**: *{{ lang.fr }}*
 
 Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en bronze.
 
@@ -59,7 +66,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
-### **Italian**: *calco*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -75,6 +82,6 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
 - *sovracalco* (Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.) | Sources: {% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
 
-### **Chinese**: 翻铸
+### **Chinese**: {{ lang.zh }}
 
 </div>

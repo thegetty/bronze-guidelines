@@ -2,10 +2,15 @@
 title: chef modèle
 order: 475
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'French term for a bronze replica of the artist’s model that is used to make molds for the production of large editions in sand casting. In rare cases, a chef-modèle has been used in lost-wax casting.'
+lang:
+  de: Chef-modèle
+  fr: chef-modèle
+  it: modello
+  zh: 主铸型
 ---
 
 <div class="backmatter">

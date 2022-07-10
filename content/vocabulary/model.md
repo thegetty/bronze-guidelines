@@ -2,10 +2,15 @@
 title: model
 order: 585
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'The creation of a bronze may involve a series of models and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](#I.1).'
+lang:
+  de: Modell
+  fr: modèle
+  it: modello
+  zh: 模
 ---
 
 <div class="backmatter">

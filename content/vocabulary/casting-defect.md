@@ -2,10 +2,15 @@
 title: casting defect
 order: 455
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](#I.3).'
+lang:
+  de: Gussfehler
+  fr: défaut de fonderie
+  it: difetto di fusione
+  zh: 铸瑕
 ---
 
 <div class="backmatter">

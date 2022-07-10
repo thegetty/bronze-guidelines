@@ -2,10 +2,15 @@
 title: cast-on repair
 order: 445
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
+lang:
+  de: Überfangguss
+  fr: réparation par coulée secondaire
+  it: getto a incastro
+  zh: 修补浇铸
 ---
 
 {% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}

@@ -2,10 +2,15 @@
 title: shrinkage
 order: 670
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the cast as well as possible casting defects. See [II.4§1.1.1](#II.4§1.1.1).'
+lang:
+  de: Schrumpfung
+  fr: retrait
+  it: ritiro
+  zh: 收缩
 ---
 
 <div class="backmatter">

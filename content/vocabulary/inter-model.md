@@ -2,10 +2,15 @@
 title: inter-model
 order: 555
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded (**fig. 16**, [Case Study 7](#CaseStudy7)). One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
+lang:
+  de: Wachsmodell
+  fr: modèle intermédiaire
+  it: modello intermedio
+  zh: 范制蜡型
 ---
 
 <div class="backmatter">

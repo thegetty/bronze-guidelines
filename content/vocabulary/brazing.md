@@ -2,10 +2,15 @@
 title: brazing
 order: 425
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'In bronze sculpture, a technique for joining separately cast parts or repairs or filling casting defects by localized addition of a molten copper alloy of slightly lower melting temperature than that of the cast. Unlike in welding, the contact zones of the sections to be joined are not brought to a molten stage.'
+lang:
+  de: Hartlöten
+  fr: brasage
+  it: brasatura
+  zh: 硬焊
 ---
 
 <div class="backmatter">

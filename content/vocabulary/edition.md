@@ -2,10 +2,15 @@
 title: edition
 order: 515
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'
+lang:
+  de: Auflagenguss
+  fr: édition
+  it: edizione
+  zh: 版本
 ---
 
 <div class="backmatter">

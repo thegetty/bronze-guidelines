@@ -2,10 +2,15 @@
 title: bronze
 order: 430
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'Depending on the user, “bronze” may designate a copper alloy that has tin as the primary added element or any other copper-based alloy. We recommend using the term “bronze” specifically for copper-tin alloys unless qualified by another term (e.g., “silicon bronze”). See [I.2§1](#I.2§1).'
+lang:
+  de: Bronze
+  fr: bronze
+  it: bronzo
+  zh: 铜锡合金
 ---
 
 <div class="backmatter">

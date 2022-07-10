@@ -2,10 +2,15 @@
 title: corrosion
 order: 510
 layout: page
-hugo_layout: vocabulary
+tags: vocabulary
 toc: false
 menu: false
 definition: 'A chemical process that causes a metal such as bronze to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.'
+lang:
+  de: Korrosion
+  fr: corrosion
+  it: corrosione
+  zh: 腐蚀
 ---
 
 <div class="backmatter">
