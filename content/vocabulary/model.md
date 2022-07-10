@@ -31,7 +31,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 <div class="accordion">
 
-### **German**: *Modell*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 #### Alternate Translations
 
-### **French**: *modèle*
+### **French**: *{{ lang.fr }}*
 
 Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et moules) successifs (modèle original, réplique, épreuve en cire, etc.).
 
@@ -55,7 +55,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
 
-### **Italian**: *modello*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -67,7 +67,7 @@ Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Did
 
 - *forma da gittar di bronzo* (This is the wax model that is used for casting, thus also possibly referring to the inter-model.) | Source: {% cite "Biringuccio [1540] 1990" %}, fols. 82v
 
-### **Chinese**: 模
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

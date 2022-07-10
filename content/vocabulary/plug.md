@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 
 <div class="accordion">
 
-### **German**: *Dübel*
+### **German**: *{{ lang.de }}*
 
 Used primarily in speech
 
@@ -47,7 +47,7 @@ Used primarily in speech
 
 - *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
 
-### **French**: *insert*
+### **French**: *{{ lang.fr }}*
 
 Type de réparation comblant un trou traversant comme ceux laissés par les fers à noyaux. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
 
@@ -71,7 +71,7 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 
 - *tige* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
 
-### **Italian**: *tappo*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -83,7 +83,7 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 
 - *perno filettato* (Threaded plug)
 
-### **Chinese**: 塞子
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

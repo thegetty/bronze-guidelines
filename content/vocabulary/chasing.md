@@ -38,13 +38,13 @@ Other: {% cite "Van Langh 2012" %}
 
 <div class="accordion">
 
-### **German**: *ziselieren*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
-### **French**: *ciselure*
+### **French**: *{{ lang.fr }}*
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
@@ -75,7 +75,7 @@ Art and Craft Textbooks: {% cite "De Bois 1999" %}, 16; {% cite "Rama 1988" %}, 
 
 - *ciselure-réparure*
 
-### **Italian**: *rifinitura*
+### **Italian**: *{{ lang.it }}*
 
 Not reserved specifically for metals
 
@@ -91,6 +91,6 @@ Not reserved specifically for metals
 
 - *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {% cite "Formigli 2010" %}, 20–21
 
-### **Chinese**: 铸件表面加工
+### **Chinese**: {{ lang.zh }}
 
 </div>

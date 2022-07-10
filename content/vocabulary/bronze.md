@@ -37,13 +37,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
 <div class="accordion">
 
-### **German**: *Bronze*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Weihrauch 1944" %}; {% cite "Maaz 2010" %}, 677; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
-### **French**: *bronze*
+### **French**: *{{ lang.fr }}*
 
 Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({% cite "Félibien 1690" %}, 333; {% cite "Launay 1827" %}, 2:251–52; {% cite "Hamm 1924" %}, 83; voir aussi [I.2](#I.2)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
 
@@ -71,12 +71,12 @@ General Dictionary: {% cite "Office québécois de la langue française. n.d." %
 
 - *bronze d’art* (Au 19e siècle, les fabricants de zinc bronzés et des autres matières imitant le bronze les appelaient « bronze d’art », jusqu’en 1910 où la réunion des fabricants obtint que tous les alliages non cuivreux devraient s’appeler « bronze imitation » ou bronze d’art –imitation (tous les alliages cuivreux avec Cu supérieur ou égale à 65%, cf loi Lebrun 1935 dans {% cite "Rama 1988" %}, 372). Il existe de nombreuses définitions plus ou moins divergentes. Voir par exemple ({% cite "Hamm 1924" %}, 83; {% cite "Launay 1827" %}, 2:251–52).) | Sources: Historical: {% cite "Launay 1827" %}, 2:251–52; Art and Craft Textbooks: {% cite "Rama 1988" %}, 372; {% cite "Hamm 1924" %}, 83
 
-### **Italian**: *bronzo*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 [Treccani](http://www.treccani.it/vocabolario/bronzo/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola); {% cite "Biringuccio [1540] 1990" %}, fols. 80v–81; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: 铜锡合金
+### **Chinese**: {{ lang.zh }}
 
 Literally “copper-tin alloy”
 

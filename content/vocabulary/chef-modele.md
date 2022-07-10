@@ -31,9 +31,9 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 <div class="accordion">
 
-### **German**: *Chef-modèle*
+### **German**: *{{ lang.de }}*
 
-### **French**: *chef-modèle*
+### **French**: *{{ lang.fr }}*
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la fonte au sable.
 
@@ -59,7 +59,7 @@ Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle origina
 
 - *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624
 
-### **Italian**: *modello*
+### **Italian**: *{{ lang.it }}*
 
 Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
 
@@ -67,7 +67,7 @@ Perhaps due to the lack of consistent industrial art foundry terminology before 
 
 - *modello di riferimento*
 
-### **Chinese**: 主铸型
+### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translation
 

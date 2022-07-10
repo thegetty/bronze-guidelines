@@ -38,13 +38,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 <div class="accordion">
 
-### **German**: *Schweissen*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 18
 
-### **French**: *soudage*
+### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au brasage qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
@@ -56,7 +56,7 @@ Note: L’assemblage peut se faire sans apport de métal, par soudure dite autog
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Murry 1994" %}
 
-### **Italian**: *saldatura*
+### **Italian**: *{{ lang.it }}*
 
 Often specified by *a fusione* or *per fusione*
 
@@ -68,7 +68,7 @@ Often specified by *a fusione* or *per fusione*
 
 - *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
-### **Chinese**: 熔焊
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

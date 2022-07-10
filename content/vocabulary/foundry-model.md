@@ -27,13 +27,13 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 
 <div class="accordion">
 
-### **German**: *Ausführungsmodell*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Maaz 2010" %}, 671
 
-### **French**: *modèle de fonderie*
+### **French**: *{{ lang.fr }}*
 
 Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un moule pour une fonte, tant pour la cire perdue que pour la fonte au sable. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., chef-modèle pour la fonte au sable).
 
@@ -51,7 +51,7 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 - *pré-modèle* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624
 
-### **Italian**: *forma da gittar di bronzo*
+### **Italian**: *{{ lang.it }}*
 
 #### Source
 
@@ -61,6 +61,6 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 - *modello di fonderia*
 
-### **Chinese**: 铸型
+### **Chinese**: {{ lang.zh }}
 
 </div>

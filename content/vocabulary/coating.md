@@ -31,13 +31,13 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
 <div class="accordion">
 
-### **German**: *Überzug*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Koller and Baumer 2000" %}
 
-### **French**: *revêtement*
+### **French**: *{{ lang.fr }}*
 
 Couche volontairement appliquée en surface d’un bronze pour le protéger ou le décorer, constituée d’un matériau différent du substrat en bronze. Une grande variété de matériaux peut être utilisée, depuis des substances naturelles (laques, résines, huiles, cires) jusqu’à des produits synthétiques (résines, peintures).
 
@@ -51,13 +51,13 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
 
-### **Italian**: *rivestimento*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](https://www.treccani.it/vocabolario/rivestimento); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento);
 
-### **Chinese**: 涂层
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

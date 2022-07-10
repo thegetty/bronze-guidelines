@@ -29,13 +29,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 <div class="accordion">
 
-### **German**: *Flicken*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
-### **French**: *plaquette de réparation*
+### **French**: *{{ lang.fr }}*
 
 Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la brasure, à la soudure et même à la coulée secondaire sont également possibles.
 
@@ -51,7 +51,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 - *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442. entry « bronze »
 
-### **Italian**: *laminetta ad incastro*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -63,7 +63,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 - *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
 
-### **Chinese**: 补修
+### **Chinese**: {{ lang.zh }}
 
 (v., n.)
 

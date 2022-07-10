@@ -31,9 +31,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 
 <div class="accordion">
 
-### **German**: *Porosität*
+### **German**: *{{ lang.de }}*
 
-### **French**: *porosité*
+### **French**: *{{ lang.fr }}*
 
 Défaut de fonderie caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
 
@@ -47,7 +47,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *porosità*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -57,7 +57,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 - *spugnoso* (In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
 
-### **Chinese**: 气孔
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

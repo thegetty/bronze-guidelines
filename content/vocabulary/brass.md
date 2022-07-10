@@ -31,13 +31,13 @@ Other: {% cite "Turner 1982" %}
 
 <div class="accordion">
 
-### **German**: *Messing*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
-### **French**: *laiton*
+### **French**: *{{ lang.fr }}*
 
 Alliage à base de cuivre dans lequel le zinc est l’élément d’addition principal.
 
@@ -63,13 +63,13 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 - *ottonem*
 
-### **Italian**: *ottone*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/ottone/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/), under “Bronzi e ottoni”; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone)
 
-### **Chinese**: 铜锌合金
+### **Chinese**: {{ lang.zh }}
 
 Literally “copper-zinc alloy”
 

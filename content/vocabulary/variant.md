@@ -36,13 +36,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 <div class="accordion">
 
-### **German**: *Variante*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Weihrauch 1967" %}, 476
 
-### **French**: *version*
+### **French**: *{{ lang.fr }}*
 
 Déclinaison d’un modèle avec des variations dans la forme ou dans les dimensions.
 
@@ -55,13 +55,13 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 - *réplique*
 - *variante*
 
-### **Italian**: *variante*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/variante1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)
 
-### **Chinese**: 变体
+### **Chinese**: {{ lang.zh }}
 
 Literally “modification"
 

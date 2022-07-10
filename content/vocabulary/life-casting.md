@@ -35,7 +35,7 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 <div class="accordion">
 
-### **German**: *Naturabguss*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -45,7 +45,7 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 - *Abguss über die Natur* | Source: {% cite "Uhlenhuth 1920" %}, 51–53
 
-### **French**: *fonte sur le vif*
+### **French**: *{{ lang.fr }}*
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un moule réfractaire, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
@@ -57,8 +57,8 @@ Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé
 
 Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
-### **Italian**: *fusione dal vero*
+### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: 活体模铸
+### **Chinese**: {{ lang.zh }}
 
 </div>

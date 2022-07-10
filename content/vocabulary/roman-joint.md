@@ -34,13 +34,13 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 
 <div class="accordion">
 
-### **German**: *Steckverbindung*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
 
-### **French**: *assemblage à la romaine*
+### **French**: *{{ lang.fr }}*
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
 
@@ -56,7 +56,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *assemblage par tenon et mortaise*
 
-### **Italian**: *ghiera alla romana*
+### **Italian**: *{{ lang.it }}*
 
 #### Source
 
@@ -66,6 +66,6 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *giuntura a innesto*
 
-### **Chinese**: 罗馬式接合
+### **Chinese**: {{ lang.zh }}
 
 </div>

@@ -35,13 +35,13 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 
 <div class="accordion">
 
-### **German**: *Gussnaht*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Maaz 2010" %}, 696
 
-### **French**: *couture*
+### **French**: *{{ lang.fr }}*
 
 Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du moule réfractaire mais aussi de tous les moules possiblement utilisés avant la coulée pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](#I.1)).
 
@@ -71,7 +71,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 
 - *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {% cite "Launay 1827" %}, 2:261
 
-### **Italian**: *linea di giunzione*
+### **Italian**: *{{ lang.it }}*
 
 Literally “line of joint”
 
@@ -81,7 +81,7 @@ Literally “line of joint”
 
 - *traccia dello stampo*
 
-### **Chinese**: 范线
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

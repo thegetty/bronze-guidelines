@@ -36,7 +36,7 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 
 <div class="accordion">
 
-### **German**: *Gusshaut*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -46,7 +46,7 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 
 - *gussrauhe Oberfläche*
 
-### **French**: *surface brute de coulée*
+### **French**: *{{ lang.fr }}*
 
 Surface du bronze en sortie de moule réfractaire, juste après le décochage, avant la réparure.
 
@@ -66,7 +66,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 - *surface brute de fonte*
 
-### **Italian**: *superficie al grezzo*
+### **Italian**: *{{ lang.it }}*
 
 Used as part of expression “superfiecie al grezzo di fusione”
 
@@ -78,7 +78,7 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 - *grezzo*
 
-### **Chinese**: 毛坯铸件表面
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

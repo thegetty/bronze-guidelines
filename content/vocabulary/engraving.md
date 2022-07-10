@@ -37,7 +37,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 <div class="accordion">
 
-### **German**: *gravieren*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -47,7 +47,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 - *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-### **French**: *gravure*
+### **French**: *{{ lang.fr }}*
 
 Technique de décoration des bronzes par enlèvement de matière à l’aide de burins.
 
@@ -59,13 +59,13 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karleb
 
 Art and Craft Textbook: {% cite "Hamm 1924" %}
 
-### **Italian**: *incisione*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/incisione/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione); {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-### **Chinese**: 阴刻
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

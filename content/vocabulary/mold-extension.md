@@ -35,9 +35,9 @@ Other: {% cite "Smith and Sepponen 2019" %}
 
 <div class="accordion">
 
-### **German**: *Mold extension*
+### **German**: *{{ lang.de }}*
 
-### **French**: *portée de noyau*
+### **French**: *{{ lang.fr }}*
 
 Partie intégrante du noyau ou partie rajoutée (fonte au sable), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la coulée.
 
@@ -55,9 +55,9 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *portée* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
-### **Italian**: *morsa*
+### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: 自帶泥芯撐
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

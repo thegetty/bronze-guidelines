@@ -27,7 +27,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 
 <div class="accordion">
 
-### **German**: *Überfangguss*
+### **German**: *{{ lang.de }}*
 
 Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
 
@@ -43,7 +43,7 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 - *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 2001" %}
 
-### **French**: *réparation par coulée secondaire*
+### **French**: *{{ lang.fr }}*
 
 Type de réparation utilisé pour combler un trou ou un manque sur un bronze en y coulant un alliage de composition proche.
 
@@ -59,7 +59,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Az�
 
 - *réparation par surcoulée*
 
-### **Italian**: *getto a incastro*
+### **Italian**: *{{ lang.it }}*
 
 More general term to denote casting on, could apply to joints and repairs; see German *Überfangguss*
 
@@ -73,7 +73,7 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 - *rigetto* | Source: {% cite "Morigi and Morigi 2008" %}
 
-### **Chinese**: 修补浇铸
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

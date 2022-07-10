@@ -33,13 +33,13 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 
 <div class="accordion">
 
-### **German**: *Wachsmodell*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
-### **French**: *modèle intermédiaire*
+### **French**: *{{ lang.fr }}*
 
 Modèle en cire utilisé dans le procédé indirect de fonte à la cire perdue, obtenu dans le moule à bon creux.
 
@@ -63,8 +63,8 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
 - *modèle de cire* (Ce terme est ambigu : un modèle en cire; peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
 
-### **Italian**: *modello intermedio*
+### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: 范制蜡型
+### **Chinese**: {{ lang.zh }}
 
 </div>

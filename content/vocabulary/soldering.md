@@ -43,13 +43,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 <div class="accordion">
 
-### **German**: *Löten*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 24
 
-### **French**: *brasage*
+### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
@@ -67,7 +67,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
-### **Italian**: *brasatura*
+### **Italian**: *{{ lang.it }}*
 
 A subset of *saldatura*
 
@@ -79,7 +79,7 @@ A subset of *saldatura*
 
 - *saldatura* | Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1967" %}, fols. 37v–38
 
-### **Chinese**: 焊接
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

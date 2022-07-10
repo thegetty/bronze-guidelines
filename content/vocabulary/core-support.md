@@ -25,13 +25,13 @@ Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 
 <div class="accordion">
 
-### **German**: *Kernstütze*
+### **German**: *{{ lang.de }}*
 
 #### Sources:
 
 {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *support de noyau*
+### **French**: *{{ lang.fr }}*
 
 Terme général pour décrire tout dispositif servant à maintenir le noyau en place dans le moule lors de la coulée (fer à noyau, cale à noyau, voire portée de noyau et armature).
 
@@ -47,7 +47,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *support pour noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
-### **Italian**: *chiodo di sostegno*
+### **Italian**: *{{ lang.it }}*
 
 Same as “core pin”
 
@@ -65,7 +65,7 @@ Same as “core pin”
 
 - *supporto dell'anima di fusione*
 
-### **Chinese**: 芯骨
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

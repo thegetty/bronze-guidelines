@@ -33,7 +33,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
 <div class="accordion">
 
-### **German**: *Gusskanal*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
 - *Versorgungskanäle*
 
-### **French**: *jet de coulée*
+### **French**: *{{ lang.fr }}*
 
 Conduit dans le moule réfractaire pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la coulée. Désigne, pour les procédés à la cire perdue, les éléments en cire servant cette fonction.
 
@@ -69,7 +69,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 628; Art and Craft Textbook: {% cite "Rama 1988" %}, 253
 
-### **Italian**: *getto*
+### **Italian**: *{{ lang.it }}*
 
 Term also found as part of expression *getto di colata*, referring to a gate or sprue that feeds the metal into the mold. The term is also used to describe a cast [act of casting] and pour [act of pouring, as well as content of the crucible].
 
@@ -109,7 +109,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 - *spiraculo* (Refers to vent) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 89
 
-### **Chinese**: 浇铸道
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

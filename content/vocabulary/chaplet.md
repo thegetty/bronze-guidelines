@@ -44,7 +44,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 <div class="accordion">
 
-### **German**: *Kernhalteplatte*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -54,7 +54,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 - *Kernhalter* | Source: {% cite "Willer 1994" %}
 
-### **French**: *cale à noyau*
+### **French**: *{{ lang.fr }}*
 
 Petite plaque métallique disposée sur le noyau ou sur la paroi interne du moule réfractaire pour maintenir le noyau en place lors de la coulée, et dont l’épaisseur déterminera l’épaisseur de la fonte.
 
@@ -81,9 +81,9 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 - *support de noyau* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *chiodo distanziatore*
+### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: 墊片
+### **Chinese**: {{ lang.zh }}
 
 <div class="backmatter">
 Note: This term has several translations, including “chaplet,” “shim,” “spacer,” “gasket,” etc.

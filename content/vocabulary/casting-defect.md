@@ -35,9 +35,9 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 
 <div class="accordion">
 
-### **German**: *Gussfehler*
+### **German**: *{{ lang.de }}*
 
-### **French**: *défaut de fonderie*
+### **French**: *{{ lang.fr }}*
 
 Défaut non intentionnel dans l’objet survenant lors de la coulée.
 
@@ -59,7 +59,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 - *défaut de coulée* | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
-### **Italian**: *difetto di fusione*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -71,7 +71,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 - *manchevolezza* (General term for describing defects) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: 铸瑕
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

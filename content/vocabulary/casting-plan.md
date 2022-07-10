@@ -27,9 +27,9 @@ Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
 <div class="accordion">
 
-### **German**: *Teilungsplan*
+### **German**: *{{ lang.de }}*
 
-### **French**: *plan de coulée*
+### **French**: *{{ lang.fr }}*
 
 Plan de découpage prévu par le fondeur d’une sculpture en plusieurs éléments coulés séparément.
 
@@ -41,8 +41,8 @@ Note: Ce terme est très récent, il a été proposé par Benoît Mille comme é
 
 Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
 
-### **Italian**: *schema di fusione*
+### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: 分铸计划
+### **Chinese**: {{ lang.zh }}
 
 </div>

@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 <div class="accordion">
 
-### **German**: *Form / Negativform*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -47,7 +47,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 - *Hilfnegative*
 
-### **French**: *moule*
+### **French**: *{{ lang.fr }}*
 
 Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
 
@@ -69,7 +69,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *creux* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759
 
-### **Italian**: *calco*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -83,7 +83,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
-### **Chinese**: 范
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

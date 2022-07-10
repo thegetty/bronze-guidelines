@@ -36,13 +36,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
 
 <div class="accordion">
 
-### **German**: *Punze*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Maaz 2010" %}, 718
 
-### **French**: *ciselet mat*
+### **French**: *{{ lang.fr }}*
 
 Un des deux grands types de ciselets (dit aussi « mat », l’autre grand type étant le « ciselet clair ») dont la partie active, de section quadrangulaire ou circulaire, texturée ou lisse, permet de donner à la surface du bronze une certaine texture, par matage.
 
@@ -56,7 +56,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 - *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
 
-### **Italian**: *cesello*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -66,7 +66,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 - *punzone* | Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {% cite "Cellini [1568] 1967" %}, fol. 27
 
-### **Chinese**: 冲头
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

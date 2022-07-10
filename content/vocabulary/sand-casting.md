@@ -29,7 +29,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
 <div class="accordion">
 
-### **German**: *Sandformguss*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -41,7 +41,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
 - *Sandgussverfahren*
 
-### **French**: *fonte au sable*
+### **French**: *{{ lang.fr }}*
 
 Technique de fonderie utilisant un moule réfractaire en sable.
 
@@ -67,7 +67,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *moulage en sable vert* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
-### **Italian**: *fusione a staffa*
+### **Italian**: *{{ lang.it }}*
 
 *staffa* is Italian for “flask,” the wooden or metal frame containing the sand.
 
@@ -79,7 +79,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *fusione alla sabbia* (A little more common than *a staffa*) | Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: 砂型铸造
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

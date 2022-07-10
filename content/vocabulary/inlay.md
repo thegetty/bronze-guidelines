@@ -44,7 +44,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 <div class="accordion">
 
-### **German**: *Einlage*
+### **German**: *{{ lang.de }}*
 
 In principle more general [actually a direct translation of “inlay”].
 
@@ -56,7 +56,7 @@ In principle more general [actually a direct translation of “inlay”].
 
 - *Tauschierung* (Only if the inlay is of linear character, e.g., wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {% cite "Lein 2004" %}, 63
 
-### **French**: *damasquinure*
+### **French**: *{{ lang.fr }}*
 
 Pour certains auteurs ({% cite "Arminjon and Bilimoff 1998" %}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 661). Pour d'autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({% cite "Félibien 1690" %}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
 
@@ -66,7 +66,7 @@ Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63
 
 Historical: {% cite "Félibien 1690" %}, 460
 
-### **Italian**: *agemina*
+### **Italian**: *{{ lang.it }}*
 
 A decorative process usually performed on steel and copper alloys, with thin silver wires in an undercut groove on the surface.
 
@@ -84,7 +84,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
 - *lavori di tanccia* (As in “Damascho fanno gli azzimini che commetteno in quei loro vasi pezzetti d’oro...”; see {% cite "Biringuccio [1540] 1990" %}, 373; note that translators Smith and Gnudi assume this is a misprint.) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 373
 
-### **Chinese**: 镶嵌
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

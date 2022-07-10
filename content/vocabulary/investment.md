@@ -25,7 +25,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 <div class="accordion">
 
-### **German**: *Formmantel*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -35,7 +35,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 - *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
 
-### **French**: *moule de potée*
+### **French**: *{{ lang.fr }}*
 
 Terme réservé à la fonte à la cire perdue. Désigne la partie externe du moule réfractaire, qui peut être en plâtre ou en terre.
 
@@ -59,7 +59,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 - *potée* | Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
 
-### **Italian**: *forma*
+### **Italian**: *{{ lang.it }}*
 
 The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the pour. See *refractory mold*.
 
@@ -83,7 +83,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 - *tunica* (*tonaca di terra*, and even more often: *involucro*) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: 熔模
+### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translations
 

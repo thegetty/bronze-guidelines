@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 <div class="accordion">
 
-### **German**: *Giesser*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -57,7 +57,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 - *Schmelzmeister* (This designates the operator standing next to the furnace and deciding when to pour the molten metal in the mold.)
 
-### **French**: *fondeur*
+### **French**: *{{ lang.fr }}*
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
@@ -93,7 +93,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *mouleur en terre ou en sable* | Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
-### **Italian**: *artefice*
+### **Italian**: *{{ lang.it }}*
 
 Many sources used the general terms *artefice* or *maestro* to refer to founders.
 
@@ -113,7 +113,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 - *tragettatore* | Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
 
-### **Chinese**: 铸工
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

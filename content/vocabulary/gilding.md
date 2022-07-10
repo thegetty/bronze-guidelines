@@ -23,13 +23,13 @@ Cultural Heritage: {% cite "Drayman-Weisser 2000" %}; {% cite "Oddy 1993" %}; {%
 
 <div class="accordion">
 
-### **German**: *Vergoldung*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Lein 2004" %}, 58
 
-### **French**: *dorure*
+### **French**: *{{ lang.fr }}*
 
 Opération consistant à appliquer une couche d’or en surface, quel que soit le procédé. Désigne également le résultat.
 
@@ -43,13 +43,13 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
-### **Italian**: *doratura*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/doratura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI04/GDLI_04_ocr_970.pdf&parola=doratura); {% cite "Cellini [1568] 1967" %}, fol. 41
 
-### **Chinese**: 镀金
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

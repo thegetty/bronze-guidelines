@@ -44,13 +44,13 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 <div class="accordion">
 
-### **German**: *Auflage*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
 
-### **French**: *incrustation*
+### **French**: *{{ lang.fr }}*
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
 
@@ -66,13 +66,13 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 - *damasquinure* (Pour certains auteurs ({% cite "Arminjon and Bilimoff 1998" %}, 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 661). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({% cite "Félibien 1690" %}, 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
-### **Italian**: *incrostazione*
+### **Italian**: *{{ lang.it }}*
 
 #### Alternate Translation
 
 - *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
 
-### **Chinese**: 包覆
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

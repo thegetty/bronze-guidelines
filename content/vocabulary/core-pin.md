@@ -45,13 +45,13 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 <div class="accordion">
 
-### **German**: *Kernstift*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *fer à noyau*
+### **French**: *{{ lang.fr }}*
 
 Tige ou clou, parfois fil, généralement en fer servant à maintenir le noyau en place dans le moule lors de la coulée.
 
@@ -75,7 +75,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *fer de soutien*
 
-### **Italian**: *chiodo di sostegno*
+### **Italian**: *{{ lang.it }}*
 
 Same as "core support"
 
@@ -85,7 +85,7 @@ Same as "core support"
 
 - *distanziatore* | Source: {% cite "Bruni 1994" %}, 72
 
-### **Chinese**: 支釘
+### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translation
 

@@ -31,9 +31,9 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 
 <div class="accordion">
 
-### **German**: *Korrosion*
+### **German**: *{{ lang.de }}*
 
-### **French**: *corrosion*
+### **French**: *{{ lang.fr }}*
 
 Pour un bronze, transformation chimique du métal en un composé non métallique sous l’action d’un environnement particulier. Désigne aussi le produit résultant.
 
@@ -43,13 +43,13 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **Italian**: *corrosione*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione)
 
-### **Chinese**: 腐蚀
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

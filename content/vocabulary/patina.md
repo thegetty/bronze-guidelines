@@ -37,13 +37,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
 
 <div class="accordion">
 
-### **German**: *Patina*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *patine*
+### **French**: *{{ lang.fr }}*
 
 Le terme patine recouvre plusieurs sens. 1) désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps (corrosion) ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) {% cite "Aucouturier et al. 2003" %}.
 
@@ -65,13 +65,13 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
 - *couleur* | Source: Historical: {% cite "Félibien 1690" %}, 334
 
-### **Italian**: *patina*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 {% cite "Giuffredi 2006" %}, 144, 220; [Treccani](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: 古色
+### **Chinese**: {{ lang.zh }}
 
 This term is more commonly used in art historical references and means “an aged surface accumulated over time.”
 

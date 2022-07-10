@@ -31,7 +31,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 <div class="accordion">
 
-### **German**: *Kerneisen*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -43,7 +43,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 - *Armierung* | Source: {% cite "Maaz 2010" %}, 695
 
-### **French**: *armature*
+### **French**: *{{ lang.fr }}*
 
 Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le noyau, et plus généralement le modèle. Ils peuvent se trouver dans le moule réfractaire pour le rendre plus résistant lors de sa manipulation et lors de la coulée. Une cire pleine peut être armée. Peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
@@ -67,7 +67,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *armature de noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
-### **Italian**: *armatura*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -81,7 +81,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *rinforzo per anime* | Source: {% cite "Brunhuber 1988" %}
 
-### **Chinese**: 塑像內部支架
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

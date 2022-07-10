@@ -31,7 +31,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 <div class="accordion">
 
-### **German**: *Abgraten*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -45,7 +45,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 - *Putzen* (This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing [*Ziselieren*] and is generally not used.) | Source: {% cite "Brunhuber 1986" %}, 747
 
-### **French**: *réparure*
+### **French**: *{{ lang.fr }}*
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du moule, avant ciselure et/ou patination.
 
@@ -76,7 +76,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 - *reparure* (alternate spelling) (Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.) | Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
-### **Italian**: *rifinitura*
+### **Italian**: *{{ lang.it }}*
 
 Similar word used for chasing
 
@@ -90,7 +90,7 @@ Similar word used for chasing
 
 - *sgrossatura* (Designates more specifically the quick removal prior to chasing; see *chiseling*) | Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
 
-### **Chinese**: 清砂
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

@@ -27,13 +27,13 @@ Note: Both “cast” and “casting” can be correctly used as nouns, but the 
 
 <div class="accordion">
 
-### **German**: *Guss*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *Gussstück* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *fonte*
+### **French**: *{{ lang.fr }}*
 
 Statue ou plus généralement objet métallique obtenu par fonderie. Attention à l’homonyme fonte qui désigne la fonte de fer.
 
@@ -58,7 +58,7 @@ Source: Historical: {% cite "Félibien 1690" %}, 623
 
 - *pièce d'art* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-### **Italian**: *getto*
+### **Italian**: *{{ lang.it }}*
 
 Foundry-specific term
 
@@ -72,7 +72,7 @@ Foundry-specific term
 
 - *gitto* (Early Italian form of *getto* that can refer to the cast object as well as the act of pouring) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 81
 
-### **Chinese**: 铸件
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

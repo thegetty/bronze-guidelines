@@ -31,15 +31,15 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 <div class="accordion">
 
-### **German**: *metallurgische Verbindung*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *metallische Verbindung*
 
-### **French**: *joint métallurgique*
+### **French**: *{{ lang.fr }}*
 
-### **Italian**: *saldatura metallurgica*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -53,7 +53,7 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 - *saldatura* | Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
-### **Chinese**: 冶金接合
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

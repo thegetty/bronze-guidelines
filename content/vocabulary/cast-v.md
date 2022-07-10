@@ -33,13 +33,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
 <div class="accordion">
 
-### **German**: *gießen*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
 {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *couler*
+### **French**: *{{ lang.fr }}*
 
 Opération consistant à fabriquer un objet par fonderie. Plus généralement, exécuter une opération de coulée.
 
@@ -59,7 +59,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 
 - *jeter* / *jetter* | Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
 
-### **Italian**: *gettare*
+### **Italian**: *{{ lang.it }}*
 
 Foundry-specific term that relates to the pouring of metal
 
@@ -78,7 +78,7 @@ Foundry-specific term that relates to the pouring of metal
 
 - *gittare* (Early Italian spelling of *gettare*) | Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
 
-### **Chinese**: 铸造
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

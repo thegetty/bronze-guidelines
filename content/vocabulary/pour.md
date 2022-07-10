@@ -31,13 +31,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 <div class="accordion">
 
-### **German**: *Gießen*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *Guss*
 
-### **French**: *coulée*
+### **French**: *{{ lang.fr }}*
 
 Opération consistant à verser du métal liquide dans un moule réfractaire.
 
@@ -53,7 +53,7 @@ Copper Industry: {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 371
 
-### **Italian**: *colata*
+### **Italian**: *{{ lang.it }}*
 
 Refers to the act of casting and to the metal contained in the crucible or furnace that is poured in one session
 
@@ -67,7 +67,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 - *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 
-### **Chinese**: 浇注
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

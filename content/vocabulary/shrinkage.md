@@ -31,13 +31,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
 <div class="accordion">
 
-### **German**: *Schrumpfung*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *Schwindung*
 
-### **French**: *retrait*
+### **French**: *{{ lang.fr }}*
 
 Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des défauts de fonderie (soufflures, retassures, etc).
 
@@ -53,13 +53,13 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 38; {% cite "Cué
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %}, 375
 
-### **Italian**: *ritiro*
+### **Italian**: *{{ lang.it }}*
 
 #### Source
 
 [Treccani](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
 
-### **Chinese**: 收缩
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

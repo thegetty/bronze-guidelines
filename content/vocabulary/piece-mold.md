@@ -35,13 +35,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 <div class="accordion">
 
-### **German**: *Stückform*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *mehrteilige Form*
 
-### **French**: *moule à pièces*
+### **French**: *{{ lang.fr }}*
 
 Moule constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
 
@@ -53,7 +53,7 @@ Note: pour la sculpture en bronze, un moule à pièces peut aussi bien désigner
 
 Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 563
 
-### **Italian**: *forma a tasselli*
+### **Italian**: *{{ lang.it }}*
 
 *tassello* is a piece of a mold. In Treccani, the description refers uniquely to sand casting. Biringuccio describes forming a clay mold in pieces with locking parts he calls *incastrature*.
 
@@ -65,7 +65,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 - *calco a tasselli* (This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
-### **Chinese**: 块范
+### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translation
 

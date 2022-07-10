@@ -44,9 +44,9 @@ Other: {% cite "Scott 1991" %}, 138
 
 <div class="accordion">
 
-### **German**: *Hartlöten*
+### **German**: *{{ lang.de }}*
 
-### **French**: *brasage*
+### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
@@ -66,7 +66,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
-### **Italian**: *brasatura*
+### **Italian**: *{{ lang.it }}*
 
 A subset of *saldatura*
 
@@ -74,7 +74,7 @@ A subset of *saldatura*
 
 [Treccani](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %} [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-### **Chinese**: 硬焊
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 {% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)

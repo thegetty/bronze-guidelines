@@ -37,13 +37,13 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 <div class="accordion">
 
-### **German**: *Grat*
+### **German**: *{{ lang.de }}*
 
 #### Alternate Translation
 
 - *Gussgrat*
 
-### **French**: *gerce*
+### **French**: *{{ lang.fr }}*
 
 Défaut de fonderie où le métal liquide pénètre dans des fissures du moule réfractaire. S’agissant de la partie interne du moule (le noyau, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule, un défaut similaire apparaît mais sur la surface externe du bronze (notamment – mais pas seulement - à l’endroit des joints de moule quand celui-ci est constitué de plusieurs parties assemblées).
 
@@ -73,7 +73,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
 - *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *bava*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -83,7 +83,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
 - *cresta di fusione* | Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
 
-### **Chinese**: 毛边
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

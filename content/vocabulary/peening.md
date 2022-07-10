@@ -31,13 +31,13 @@ Copper Industry: {% cite "Palmer 1929" %}, 294
 
 <div class="accordion">
 
-### **German**: *Hämmern*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Bol 1985" %}, 142
 
-### **French**: *matage au marteau*
+### **French**: *{{ lang.fr }}*
 
 Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la porosité ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
 
@@ -45,13 +45,13 @@ Traitement mécanique de surfaçage directement au marteau à panne plane ou lé
 Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening ». S’apparente à la fois au matage et au grenaillage.
 </div>
 
-### **Italian**: *martellatura*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
 [Treccani](http://www.treccani.it/vocabolario/martellatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura)
 
-### **Chinese**: 轻敲
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

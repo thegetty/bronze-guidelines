@@ -34,7 +34,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 <div class="accordion">
 
-### **German**: *Form*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -44,7 +44,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 - *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *moule réfractaire*
+### **French**: *{{ lang.fr }}*
 
 Moule en matériau réfractaire pour la coulée.
 
@@ -64,7 +64,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *chape* (Attention, ne désigne que la partie externe du moule réfractaire.) | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **Italian**: *camicia*
+### **Italian**: *{{ lang.it }}*
 
 Also refers to the refractory investment material
 
@@ -86,7 +86,7 @@ Also refers to the refractory investment material
 
 - *stampo refrattario*
 
-### **Chinese**: 耐火模具
+### **Chinese**: {{ lang.zh }}
 
 #### Source
 

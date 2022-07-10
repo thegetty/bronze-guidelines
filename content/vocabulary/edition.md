@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 <div class="accordion">
 
-### **German**: *Auflagenguss*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -50,7 +50,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 - *Edition* | Source: {% cite "Mietzsch 2009" %}, 103
 
-### **French**: *édition*
+### **French**: *{{ lang.fr }}*
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
@@ -64,7 +64,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Art and Craft Textbook: {% cite "Rama 1988" %}
 
-### **Italian**: *edizione*
+### **Italian**: *{{ lang.it }}*
 
 #### Source
 
@@ -76,7 +76,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 - *serie* (Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning)
 
-### **Chinese**: 版本
+### **Chinese**: {{ lang.zh }}
 
 #### Sources:
 

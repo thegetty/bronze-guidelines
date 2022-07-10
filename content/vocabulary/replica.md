@@ -35,13 +35,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 <div class="accordion">
 
-### **German**: *Replik*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
 {% cite "Maaz 2010" %}, 720
 
-### **French**: *épreuve d’édition*
+### **French**: *{{ lang.fr }}*
 
 Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même modèle. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](#II.4§1.1.1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
@@ -64,7 +64,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 - *épreuve de série* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545
 
-### **Italian**: *multiplo*
+### **Italian**: *{{ lang.it }}*
 
 #### Alternate Translations
 
@@ -72,7 +72,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 - *riproduzione* (general term) | Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
 
-### **Chinese**: 复制品
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

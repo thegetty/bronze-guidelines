@@ -33,7 +33,7 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 <div class="accordion">
 
-### **German**: *Fliessvermögen*
+### **German**: *{{ lang.de }}*
 
 #### Source
 
@@ -51,7 +51,7 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 - *Vergiessbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *coulabilité*
+### **French**: *{{ lang.fr }}*
 
 Aptitude d’un métal à remplir un moule dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule et qu’il se solidifie.
 
@@ -71,7 +71,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %},
 
 General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788>
 
-### **Italian**: *colabilità*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -85,7 +85,7 @@ General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788
 
 - *scorrevolezza* | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: 可铸性
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 

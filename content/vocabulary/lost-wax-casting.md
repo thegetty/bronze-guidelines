@@ -37,7 +37,7 @@ Other: {% cite "Untracht 1968" %}
 
 <div class="accordion">
 
-### **German**: *Wachsausschmelzverfahren*
+### **German**: *{{ lang.de }}*
 
 #### Sources
 
@@ -47,7 +47,7 @@ Other: {% cite "Untracht 1968" %}
 
 - *Modellausschmelzverfahren* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **French**: *fonte à la cire perdue*
+### **French**: *{{ lang.fr }}*
 
 Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le moule réfractaire, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
 
@@ -65,7 +65,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 - *procédé à cire perdue* | Source: Cultural Heritage: {% cite "Rolley 1994" %}, 65
 
-### **Italian**: *fusione a cera persa*
+### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
@@ -75,7 +75,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 - *fusione a cera perduta* | Source: [Treccani](http://www.treccani.it/vocabolario/cera1/)
 
-### **Chinese**: 失蜡法
+### **Chinese**: {{ lang.zh }}
 
 #### Sources
 
