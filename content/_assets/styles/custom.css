@@ -52,6 +52,9 @@
   grid-row: 2/100;
   margin-top: 0;
 }
+.quire-page.full-width .quire-page__content .content section > .accordion-wrapper > figure {
+  grid-row-start: 1;
+}
 .quire-page.full-width .quire-page__content .content section.display-accordion > figure {
   grid-row-start: 1;
 }
