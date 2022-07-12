@@ -20,6 +20,7 @@
 ============================================================================= */
 /* Adjust default heading styles and spacing */
 .quire-page h2 {
+  margin-top: 3rem !important;
   text-transform: none;
 }
 .quire-page h3 {
@@ -30,8 +31,7 @@
   font-style: italic;
 }
 
-/* FULL-WIDTH PAGE
-    layout: page
+/* FULL-WIDTH PAGES
     presentation: full-width
 ============================================================================= */
 .quire-page.full-width .quire-page__content .container {
@@ -39,7 +39,7 @@
   width: inherit;
 }
 /* Set grid, text to the left, figuregroups to right, headers span across */
-.quire-page.full-width .quire-page__content .content section {
+.quire-page.full-width .quire-page__content .content section:not([hidden]) {
   column-gap: 2rem;
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -52,13 +52,14 @@
   grid-row: 2/100;
   margin-top: 0;
 }
-.quire-page.full-width .quire-page__content .content section > section {
-  grid-column: 1/-1;
+.quire-page.full-width .quire-page__content .content section.display-accordion > figure {
+  grid-row-start: 1;
 }
+.quire-page.full-width .quire-page__content .content section > section,
 .quire-page.full-width .quire-page__content .content section > h2,
 .quire-page.full-width .quire-page__content .content section > h3,
 .quire-page.full-width .quire-page__content .content section > h4 {
-  grid-column: 1/-1;
+  grid-column-end: -1;
 }
 @media screen and (max-width:810px) {
   .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
@@ -81,8 +82,11 @@
   }
 }
 /* Ensure proper spacing between sections */
-.content section:not(:last-child){
-  margin-bottom: 1em;
+.quire-page.full-width .quire-page__content .content section:not([hidden]) {
+  margin-bottom: .75rem;
+}
+.quire-page.full-width .quire-page__content .content h2 + section {
+  margin-top: .75rem;
 }
 
 /* FIGURE GROUP
@@ -111,4 +115,52 @@
 .q-figure.q-figure--group .q-figure__caption-content,
 .q-figure.q-figure--group .q-figure__credit-content {
   display: none;
+}
+
+/*  ACCORDION BUTTONS
+    <div class="accordion">   <-- used in VOCABULARY PAGES
+    presentation: accordion   <-- used on FULL-WIDTH PAGES
+============================================================================= */
+button.accordion-expander {
+  all: inherit;
+  border: 0 !important;
+  cursor: pointer;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+button.accordion-expander svg {
+  fill: currentColor;
+  height: 1rem;
+  width: 1rem;
+}
+button.accordion-expander[aria-expanded="true"] svg {
+  fill: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"],
+button.accordion-expander[aria-expanded="true"] * {
+  color: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"] .vert {
+  display: none;
+}
+
+/*  VOCABULARY PAGES
+    tags: vocabulary
+============================================================================= */
+.quire-page.vocabulary div.accordion {
+  border-bottom: 2px solid black;
+  margin-top: 1.75rem;
+}
+.quire-page.vocabulary div.accordion h3 {
+  border-top: 2px solid black;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+  padding-top: 1.75rem;
+}
+.quire-page.vocabulary div.accordion h3 button.accordion-expander {
+  width: 100%;
+}
+.quire-page.vocabulary div.accordion h3 button.accordion-expander svg {
+  float: right;
+  margin-top: .65rem;
 }
