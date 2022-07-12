@@ -1,4 +1,4 @@
-# french-silver
+# bronze-guidelines
 
 https://www.getty.edu/publications/bronze-guidelines/
 
@@ -67,4 +67,7 @@ Placeholder shortcode for {% def %} which is to display vocabulary terms.
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
 **_layouts/page.liquid**
-Addded class to markup based on value of `presentation` in the frontmatter.
+Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
+
+**content/_assets/javascript/web-components/lightbox/index.js**
+Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.

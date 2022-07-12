@@ -157,6 +157,50 @@ class Lightbox extends LitElement {
       margin-right: 0.5rem;
       font-weight: bold;
     }
+
+    /* OVERRIDES */
+    .q-lightbox__image {
+      width: calc(100% - 6rem);
+      height: calc(70vh - 3rem);
+      top: 3rem;
+      left: 3rem;
+    }
+    .q-lightbox__caption {
+      width: calc(100% - 6rem);
+      height: calc(30vh - 1rem);
+      bottom: 0;
+      left: 3rem;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 1rem;
+      line-height: 2;
+      overflow: scroll;
+    }
+    .q-lightbox__caption-content {
+      padding-bottom: 4rem;
+    }
+    @media screen and (min-width:820px) {
+      .q-lightbox__image {
+        width: calc(55% - 3rem);
+        height: 100%;
+        top: 0;
+      }
+      .q-lightbox__caption {
+        width: calc(45% - 6rem);
+        height: calc(100% - 4rem);
+        top: 4rem;
+        right: 3rem;
+        left: calc(55% + 2rem);
+      }
+    }
+    @media screen and (min-width:1000px) {
+      .q-lightbox__image {
+        width: calc(65% - 3rem);
+      }
+      .q-lightbox__caption {
+        width: calc(35% - 6rem);
+        left: calc(65% + 2rem);
+      }
+    }
   `;
 
   constructor() {
