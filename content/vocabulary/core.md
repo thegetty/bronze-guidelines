@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](#GI§2.1.1)).'
+definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#S2.1.1)).'
 lang:
   de: Kern
   fr: noyau
