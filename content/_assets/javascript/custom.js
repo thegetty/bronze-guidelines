@@ -250,3 +250,19 @@ window.onload = function () {
   })
 })();
 
+// Wrap heading section numbers in spans so they can be styled when indented
+window.onload = function () {
+  const headings = document.querySelectorAll('.quire-page.full-width h2, .quire-page.full-width h3, .quire-page.full-width h4');
+  const regex = /^\s*([0-9|\.]+\s+)/
+  const replace = '<span class="section-number">$1 </span>'
+
+  for (const heading of headings) {
+    const node = heading.firstElementChild && heading.firstElementChild.tagName == 'button' ? heading.firstElementChild : heading
+    const nodeText = node.innerHTML
+
+    if ( regex.test(nodeText) ) {
+      node.innerHTML = nodeText.replace(regex, replace)
+      heading.classList.add('indented-heading')
+    }
+  }
+}

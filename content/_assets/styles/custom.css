@@ -17,6 +17,14 @@
 }
 
 /* GENERAL
+/* FULL-WIDTH PAGES
+/* INDENTED HEADINGS & LISTS
+/* FIGURE GROUP
+/* ACCORDION BUTTONS
+/* VOCABULARY PAGES
+
+
+/* GENERAL
 ============================================================================= */
 /* Adjust default heading styles and spacing */
 .quire-page h2 {
@@ -37,6 +45,8 @@
 .quire-page.full-width .quire-page__content .container {
   max-width: 1400px;
   width: inherit;
+  margin-left: 6rem;
+  margin-right: 3rem;
 }
 /* Set grid, text to the left, figuregroups to right, headers span across */
 .quire-page.full-width .quire-page__content .content section:not([hidden]) {
@@ -90,6 +100,29 @@
 }
 .quire-page.full-width .quire-page__content .content h2 + section {
   margin-top: .75rem;
+}
+
+/* INDENTED HEADINGS & LISTS
+============================================================================= */
+/* The .indented-heading and .section-number classes are added in custom.js */
+.quire-page.full-width .content .indented-heading {
+  text-indent: -6rem;
+}
+.quire-page.full-width .content .indented-heading .section-number {
+  width: 6rem;
+  display: inline-block;
+  text-align: right;
+  padding-right: 2rem;
+}
+/*  Indent lists to match headings */
+.quire-page.full-width .quire-page__content .container .content ul,
+.quire-page.full-width .quire-page__content .container .content ul li {
+  margin-left: 0;
+}
+.quire-page.full-width .quire-page__content .container .content ul li::before {
+  font-size: 1rem;
+  margin-top: .2rem;
+  margin-left: -2.7rem;
 }
 
 /* FIGURE GROUP
