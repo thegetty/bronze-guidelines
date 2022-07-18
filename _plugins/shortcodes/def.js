@@ -6,5 +6,5 @@
  * @return     {boolean}  A styled HTML <span> element with the term
  */
 module.exports = function (eleventyConfig) {
-  return (term) => `<span style="color: tomato;">${term}</span>`
+  return (term, display) => display ? `<span style="color: tomato;">${display} [${term}]</span>` : `<span style="color: tomato;">${term}</span>`
 }
