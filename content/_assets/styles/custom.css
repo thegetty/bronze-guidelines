@@ -200,3 +200,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   float: right;
   margin-top: .65rem;
 }
+.quire-page.vocabulary .q-figure--group {
+  border-top: 2px solid black;
+  padding-top: 2.5rem;
+}
