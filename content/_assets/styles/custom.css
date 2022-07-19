@@ -184,11 +184,11 @@ button.accordion-expander[aria-expanded="true"] .vert {
     tags: vocabulary
 ============================================================================= */
 .quire-page.vocabulary div.accordion {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
 }
 .quire-page.vocabulary div.accordion h3 {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--black);
   font-weight: 400;
   margin-bottom: 1.75rem;
   padding-top: 1.75rem;
@@ -201,6 +201,118 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-top: .65rem;
 }
 .quire-page.vocabulary .q-figure--group {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--black);
   padding-top: 2.5rem;
+}
+
+/*  VISUAL ATLAS PAGE
+    type: page
+    layout: visual-atlas
+============================================================================= */
+/* Set page as full-width and set alternate background color */
+.quire-page.visual-atlas .quire-page__content .container {
+  max-width: 1400px;
+  width: inherit;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.quire-page.visual-atlas .image-grid-search-box {
+  margin: 0 auto;
+  display: block;
+  width: 32rem;
+  max-width: calc(100vw - 4rem);
+}
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+  height: 3rem;
+  width: calc(100% - 2rem);
+  background-color: var(--white);
+  color: var(--black);
+  border: none;
+  border-bottom: 1px solid var(--black);
+  font-size: 1.5rem;
+  display: inline;
+}
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search:focus-visible {
+  outline: none;
+}
+.quire-page.visual-atlas .image-grid-search-box svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--white);
+  display: inline;
+  position: absolute;
+  top: .75rem;
+}
+#image-grid-counter {
+  display: block;
+  height: 2rem;
+  color: var(--white);
+  font-style: italic;
+  text-align: center;
+}
+
+/* Style image grid and images */
+.quire-page.visual-atlas .image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid var(--black);
+}
+.quire-figure.image-grid-figure.match {
+  display: block;
+}
+.quire-figure.image-grid-figure {
+  display: none;
+}
+.quire-page.visual-atlas .image-grid figure.image-grid-figure img {
+  max-height: 240px;
+  width: auto;
+}
+.quire-page.visual-atlas .image-grid figure.image-grid-figure:not(:last-child),
+.quire-page.visual-atlas .quire-page__content .container .content figure.image-grid-figure:not(:first-child) {
+  margin: 0;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border: 1px solid var(--black);
+  position: relative;
+}
+.quire-page.visual-atlas .image-grid-label {
+  position: absolute;
+  bottom: 3px;
+  left: 6px;
+  color: var(--black);
+  opacity: .5;
+  font-size: .875rem;
+}
+/* Add media queries to responsively adjust grid width and outer margins */
+@media (max-width: 1888px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1568px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1248px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 928px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* .quire-page.visual-atlas .quire-page__content .container {
+    margin: 0 2rem 0 2rem;
+  } */
+}
+@media (max-width: 609px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr;
+  }
+  /* .quire-page.visual-atlas .quire-page__content .container {
+    margin: 0 1rem 0 1rem;
+  } */
 }
