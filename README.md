@@ -71,3 +71,6 @@ Added class(es) to markup based on value of `presentation` and `tags` in the fro
 
 **content/_assets/javascript/web-components/lightbox/index.js**
 Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
+
+**_plugins/markdown/index.js**
+Added config to remove the default `<hr />` element that was being inserted. Added as Jira issue DEV-12804 for core Quire.

@@ -57,6 +57,10 @@ module.exports = function(eleventyConfig, options) {
     }
     return n
   }
+  markdownLibrary.renderer.rules.footnote_block_open = () => {
+    return '<section class="footnotes">\n' +
+      '<ol class="footnotes-list">\n';
+  }
 
   eleventyConfig.setLibrary('md', markdownLibrary)
 
