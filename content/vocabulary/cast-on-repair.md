@@ -13,6 +13,18 @@ lang:
   zh: 修补浇铸
 ---
 
+{{ definition | processShortcodes }}
+
+{{ definition | processShortcodes: 'p' }}
+
+{{ definition | processShortcodes: 'div' }}
+
+{{ definition | processShortcodes: 'figcaption' }}
+
+{{ definition | remove: "{% def \"" | remove: "\" %}" }}
+
+{% pageinfo definition %}
+
 {% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 
 ## To Be Distinguished From
