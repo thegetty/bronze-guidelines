@@ -10,6 +10,7 @@ const ref = require('./figureRef.js')
 const title = require('./title.js')
 const tombstone = require('./tombstone.js')
 const def = require('./def.js')
+const pageinfo = require('./pageinfo.js')
 
 module.exports = function(eleventyConfig, options) {
   eleventyConfig.addPairedShortcode('backmatter', function(content, ...args) {
@@ -52,5 +53,9 @@ module.exports = function(eleventyConfig, options) {
 
   eleventyConfig.addShortcode('def', function(content, ...args) {
     return def(eleventyConfig)(content, ...args)
+  })
+
+  eleventyConfig.addShortcode('pageinfo', function(...args) {
+    return pageinfo(eleventyConfig)(...args)
   })
 }
