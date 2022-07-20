@@ -1,0 +1,48 @@
+---
+layout: base.11ty.js
+description: Custom page showing all non-table figure images
+---
+
+<article class="quire-page visual-atlas {{ presentation }} {{ tags }}" id="main" role="main">
+  {% pageHeader
+    contributor_byline=contributor_byline,
+    image=image,
+    label=label,
+    pageContributors=pageContributors,
+    subtitle=subtitle,
+    title=title
+  %}
+
+  <section class="section quire-page__content" id="content">
+    <div class="container">
+      <div class="content">
+
+        {% if content %}
+        {{ content }}
+        {% endif %}
+        <div class="image-grid-search-box">
+          <div>
+            <input type="text" id="image-grid-search" placeholder="Search images ..."> <svg><switch><use xlink:href="#search-icon"/><foreignObject width="24" height="24"> <img src="../img/icons/search.png" alt="search"/></foreignObject></switch></svg>
+          </div>
+          <span id="image-grid-counter"></span>
+        </div>
+
+        {% assign imageDir = config.params.imageDir %}
+        <div class="image-grid" id="image-grid">
+        {% for figure in figures.figure_list %}
+        {% if figure.media_type != "table" %}
+          {% figure figure.id, "image-grid-figure match" %}
+        {% endif %}
+        {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section quire-page__content">
+    <div class="container">
+      {% pageButtons pagination=pagination %}
+    </div>
+  </section>
+</article>

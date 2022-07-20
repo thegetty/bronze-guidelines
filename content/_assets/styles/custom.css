@@ -16,13 +16,15 @@
 
 }
 
-/* GENERAL
-/* FULL-WIDTH PAGES
-/* INDENTED HEADINGS & LISTS
-/* FIGURE GROUP
-/* ACCORDION BUTTONS
-/* VOCABULARY PAGES
-
+/*
+GENERAL
+FULL-WIDTH PAGES
+INDENTED HEADINGS & LISTS
+FIGURE GROUP
+ACCORDION BUTTONS
+VOCABULARY PAGES
+VISUAL ATLAS PAGE
+*/
 
 /* GENERAL
 ============================================================================= */
@@ -184,11 +186,11 @@ button.accordion-expander[aria-expanded="true"] .vert {
     tags: vocabulary
 ============================================================================= */
 .quire-page.vocabulary div.accordion {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
 }
 .quire-page.vocabulary div.accordion h3 {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--black);
   font-weight: 400;
   margin-bottom: 1.75rem;
   padding-top: 1.75rem;
@@ -201,6 +203,129 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-top: .65rem;
 }
 .quire-page.vocabulary .q-figure--group {
-  border-top: 2px solid black;
+  border-top: 2px solid var(--black);
   padding-top: 2.5rem;
+}
+
+/*  VISUAL ATLAS PAGE
+    type: visual-atlas
+============================================================================= */
+/* Set page as full-width and set alternate background color */
+.quire-page.visual-atlas .quire-page__content .container {
+  max-width: none;
+  width: inherit;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.quire .quire-page.visual-atlas#main,
+.quire-page.visual-atlas .quire-page__header,
+.quire-page.visual-atlas .quire-page__content .container .content,
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+  background-color: var(--gray-background);
+}
+.quire-page.visual-atlas .quire-page__header h1 {
+  color: var(--white);
+}
+/* Style search box */
+.quire-page.visual-atlas .image-grid-search-box {
+  margin: 0 auto;
+  display: block;
+  width: 32rem;
+  max-width: calc(100vw - 4rem);
+  color: var(--white);
+}
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+  height: 3rem;
+  width: 29.7rem;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  font-size: 1.5rem;
+}
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search:focus-visible {
+  outline: none;
+}
+.quire-page.visual-atlas .image-grid-search-box svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--white);
+  margin-bottom: -1rem;
+}
+#image-grid-counter {
+  display: block;
+  height: 2rem;
+  color: var(--white);
+  font-style: italic;
+  text-align: center;
+}
+/* Style image grid and images */
+.quire-page.visual-atlas .image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 1px solid var(--white);
+  margin-top: 2rem;
+}
+.q-figure.image-grid-figure.match {
+  display: block;
+}
+.q-figure.image-grid-figure {
+  display: none;
+}
+.quire-page.visual-atlas .image-grid figure .q-figure__caption-content,
+.quire-page.visual-atlas .image-grid figure .q-figure__credit,
+.quire-page.visual-atlas .image-grid figure .q-figure__label-icon,
+.quire-page.visual-atlas .image-grid figure canvas-panel {
+  display: none;
+}
+.quire-page.visual-atlas .image-grid figure.image-grid-figure img {
+  max-height: 240px;
+  width: auto;
+}
+.quire-page.visual-atlas .image-grid figure.image-grid-figure:not(:last-child),
+.quire-page.visual-atlas .quire-page__content .container .content figure.image-grid-figure:not(:first-child) {
+  margin: 0;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border: 1px solid var(--white);
+  position: relative;
+}
+.quire-page.visual-atlas .image-grid .q-figure__caption {
+  position: absolute;
+  bottom: 3px;
+  left: 6px;
+  font-size: .875rem;
+}
+.quire-page.visual-atlas .image-grid .q-figure__caption a {
+  color: var(--white);
+  opacity: .5;
+}
+/* Add media queries to responsively adjust grid width and outer margins */
+@media (max-width: 1888px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1568px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1248px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 928px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 609px)  {
+  .quire-page.visual-atlas .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .quire-page.visual-atlas .quire-page__content .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
