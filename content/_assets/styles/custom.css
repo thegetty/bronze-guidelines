@@ -16,13 +16,15 @@
 
 }
 
-/* GENERAL
-/* FULL-WIDTH PAGES
-/* INDENTED HEADINGS & LISTS
-/* FIGURE GROUP
-/* ACCORDION BUTTONS
-/* VOCABULARY PAGES
-
+/*
+GENERAL
+FULL-WIDTH PAGES
+INDENTED HEADINGS & LISTS
+FIGURE GROUP
+ACCORDION BUTTONS
+VOCABULARY PAGES
+VISUAL ATLAS PAGE
+*/
 
 /* GENERAL
 ============================================================================= */
@@ -206,32 +208,39 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 
 /*  VISUAL ATLAS PAGE
-    type: page
-    layout: visual-atlas
+    type: visual-atlas
 ============================================================================= */
 /* Set page as full-width and set alternate background color */
 .quire-page.visual-atlas .quire-page__content .container {
-  max-width: 1400px;
+  max-width: none;
   width: inherit;
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
+.quire .quire-page.visual-atlas#main,
+.quire-page.visual-atlas .quire-page__header,
+.quire-page.visual-atlas .quire-page__content .container .content,
+.quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+  background-color: var(--gray-background);
+}
+.quire-page.visual-atlas .quire-page__header h1 {
+  color: var(--white);
+}
+/* Style search box */
 .quire-page.visual-atlas .image-grid-search-box {
   margin: 0 auto;
   display: block;
   width: 32rem;
   max-width: calc(100vw - 4rem);
+  color: var(--white);
 }
 .quire-page.visual-atlas .image-grid-search-box #image-grid-search {
   height: 3rem;
-  width: calc(100% - 2rem);
-  background-color: var(--white);
-  color: var(--black);
+  width: 29.7rem;
   border: none;
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
   font-size: 1.5rem;
-  display: inline;
 }
 .quire-page.visual-atlas .image-grid-search-box #image-grid-search:focus-visible {
   outline: none;
@@ -240,9 +249,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   width: 2rem;
   height: 2rem;
   fill: var(--white);
-  display: inline;
-  position: absolute;
-  top: .75rem;
+  margin-bottom: -1rem;
 }
 #image-grid-counter {
   display: block;
@@ -251,17 +258,22 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-style: italic;
   text-align: center;
 }
-
 /* Style image grid and images */
 .quire-page.visual-atlas .image-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  border: 1px solid var(--black);
+  border: 1px solid var(--white);
 }
 .quire-figure.image-grid-figure.match {
   display: block;
 }
 .quire-figure.image-grid-figure {
+  display: none;
+}
+.quire-page.visual-atlas .image-grid figure .q-figure__caption-content,
+.quire-page.visual-atlas .image-grid figure .q-figure__credit,
+.quire-page.visual-atlas .image-grid figure .q-figure__label-icon,
+.quire-page.visual-atlas .image-grid figure canvas-panel {
   display: none;
 }
 .quire-page.visual-atlas .image-grid figure.image-grid-figure img {
@@ -273,16 +285,18 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin: 0;
   padding: 2rem;
   padding-bottom: 3rem;
-  border: 1px solid var(--black);
+  border: 1px solid var(--white);
   position: relative;
 }
-.quire-page.visual-atlas .image-grid-label {
+.quire-page.visual-atlas .image-grid .q-figure__caption {
   position: absolute;
   bottom: 3px;
   left: 6px;
-  color: var(--black);
-  opacity: .5;
   font-size: .875rem;
+}
+.quire-page.visual-atlas .image-grid .q-figure__caption a {
+  color: var(--white);
+  opacity: .5;
 }
 /* Add media queries to responsively adjust grid width and outer margins */
 @media (max-width: 1888px)  {
@@ -304,15 +318,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-page.visual-atlas .image-grid {
     grid-template-columns: 1fr 1fr;
   }
-  /* .quire-page.visual-atlas .quire-page__content .container {
-    margin: 0 2rem 0 2rem;
-  } */
 }
 @media (max-width: 609px)  {
   .quire-page.visual-atlas .image-grid {
     grid-template-columns: 1fr;
   }
-  /* .quire-page.visual-atlas .quire-page__content .container {
-    margin: 0 1rem 0 1rem;
-  } */
+  .quire-page.visual-atlas .quire-page__content .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
