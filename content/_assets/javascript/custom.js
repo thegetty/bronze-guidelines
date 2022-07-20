@@ -1,7 +1,12 @@
-// Use this file to add custom JavaScript
+// This file is added to the project as `type="module"`. Because of this,
+// global functions have to be declared as a property of the window object:
 //
-// A number of JavaScript functions and libraries are included with Quire,
-// to see which ones, check the files in themes/quire-starter-theme/source/js // and the list of dependencies in themes/quire-starter-theme/package.json
+// window.filterImageGrid = function () { ... }
+//
+// OR
+//
+// function filterImageGrid() { ... }
+// window.filterImageGrid = filterImageGrid
 
 window.onload = function () {
   const canvasPanels = document.getElementsByTagName('canvas-panel');
@@ -19,6 +24,69 @@ window.onload = function () {
         canvasPanel.makeChoice(event.target.value)
       })
     }
+  }
+
+  wrapHeadingNumbers()
+  prepImageGrid()
+
+};
+
+function wrapHeadingNumbers() {
+  // Wrap heading section numbers in spans so they can be styled when indented
+  const headings = document.querySelectorAll('.quire-page.full-width h2, .quire-page.full-width h3, .quire-page.full-width h4');
+  const regex = /^\s*([0-9|\.]+\s+)/
+  const replace = '<span class="section-number">$1 </span>'
+  for (const heading of headings) {
+    heading.classList.add('query-selected')
+    const node = heading.firstElementChild && heading.firstElementChild.tagName == 'BUTTON' ? heading.firstElementChild : heading
+    const nodeText = node.innerHTML
+    if ( regex.test(nodeText) ) {
+      node.innerHTML = nodeText.replace(regex, replace)
+      heading.classList.add('indented-heading')
+    }
+  }
+  console.log("Heading numbers wrapped")
+};
+
+function prepImageGrid() {
+  const imageGrid = document.getElementById("image-grid")
+  if (imageGrid) {
+    // Remove "Figure" from figure labels in Image Grid page
+    const imageGridLabels = imageGrid.querySelectorAll(".q-figure__label-text")
+    for (const label of imageGridLabels) {
+      const text = label.innerHTML
+      label.innerHTML = text.replace("Figure ", "")
+    }
+
+    // Add event listener to Image Grid search box
+    document.getElementById('image-grid-search').addEventListener('keyup', filterImageGrid)
+
+    // Add initial image count for items in the Image Grid
+    const images = imageGrid.getElementsByClassName('image-grid-figure')
+    const resultsDisplay = document.getElementById('image-grid-counter')
+    resultsDisplay.innerHTML = images.length + ' images'
+  }
+  console.log("Image Grid prepped")
+};
+
+// Global function added as property of window object
+window.filterImageGrid = function () {
+  const filterInput = document.getElementById('image-grid-search').value.toLowerCase();
+  const grid = document.getElementById('image-grid');
+  const figures = grid.getElementsByClassName('image-grid-figure');
+  const resultsDisplay = document.getElementById('image-grid-counter');
+
+  let totalResults = 0
+  for (const figure of figures ) {
+    const caption = figure.querySelector('.q-figure__caption-content')
+    const captionText = caption && caption.textContent ? caption.textContent.toLowerCase() : ''
+    if (captionText.indexOf(filterInput) > -1) {
+      figure.classList.add('match');
+      totalResults++
+    } else {
+      figure.classList.remove('match');
+    }
+    resultsDisplay.innerHTML = totalResults + ' images';
   }
 };
 
@@ -249,20 +317,3 @@ window.onload = function () {
     }
   })
 })();
-
-// Wrap heading section numbers in spans so they can be styled when indented
-window.onload = function () {
-  const headings = document.querySelectorAll('.quire-page.full-width h2, .quire-page.full-width h3, .quire-page.full-width h4');
-  const regex = /^\s*([0-9|\.]+\s+)/
-  const replace = '<span class="section-number">$1 </span>'
-
-  for (const heading of headings) {
-    const node = heading.firstElementChild && heading.firstElementChild.tagName == 'button' ? heading.firstElementChild : heading
-    const nodeText = node.innerHTML
-
-    if ( regex.test(nodeText) ) {
-      node.innerHTML = nodeText.replace(regex, replace)
-      heading.classList.add('indented-heading')
-    }
-  }
-}

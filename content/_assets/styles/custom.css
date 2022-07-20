@@ -263,11 +263,12 @@ button.accordion-expander[aria-expanded="true"] .vert {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   border: 1px solid var(--white);
+  margin-top: 2rem;
 }
-.quire-figure.image-grid-figure.match {
+.q-figure.image-grid-figure.match {
   display: block;
 }
-.quire-figure.image-grid-figure {
+.q-figure.image-grid-figure {
   display: none;
 }
 .quire-page.visual-atlas .image-grid figure .q-figure__caption-content,
