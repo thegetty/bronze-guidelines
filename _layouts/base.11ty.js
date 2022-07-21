@@ -1,6 +1,3 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-//
 const { html } = require('~lib/common-tags')
 
 /**
@@ -33,7 +30,7 @@ module.exports = function(data) {
             </div>
             <div class="quire__primary" id="{{ section }}">
               ${this.navigation(data)}
-              <main id="main" class="quire-page ${pageClasses} {{ presentation }} {{ tags }}" data-output-path="${outputPath}">
+              <main id="main" class="quire-page ${pageClasses}" data-output-path="${outputPath}">
                 ${content}
               </main>
             </div>

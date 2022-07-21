@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
@@ -45,6 +48,25 @@ module.exports = {
     url: (data) => data.page.url,
     title: (data) => data.title
   },
+  /**
+   * Classes applied to <main> page element
+   */
+  pageClasses: ({ collections, class: classes, layout, page, presentation, tags }) => {
+    const pageClasses = []
+    // Add computed frontmatter and page-one classes
+    const pageIndex = collections.allSorted.findIndex(({ outputPath }) => outputPath === page.outputPath)
+    const pageOneIndex = collections.allSorted.findIndex(({ data }) => data.class && data.class.includes('page-one'))
+    if (pageIndex < pageOneIndex) {
+      pageClasses.push('frontmatter')
+    }
+
+    // add classes based on presentation and tags
+    presentation ? pageClasses.push(presentation) : ''
+    tags ? pageClasses.push(tags) : ''
+
+    // add custom classes from page frontmatter
+    return classes ? pageClasses.concat(classes) : pageClasses
+  },
   pageContributors: ({ contributor, contributor_as_it_appears }) => {
     if (!contributor) return
     if (contributor_as_it_appears) return contributor_as_it_appears
@@ -59,7 +81,7 @@ module.exports = {
     return collections.all.find(({ url }) => url === page.url)
   },
   /**
-   * Figures data for figures referenced by id in page frontmatter 
+   * Figures data for figures referenced by id in page frontmatter
    */
   pageFigures: ({ figure, figures }) => {
     if (!figure || !figure.length) return

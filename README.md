@@ -62,9 +62,6 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
-**_layouts/base.11ty.js**
-Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
-
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
@@ -91,3 +88,6 @@ Added overriding CSS to create a side-by-side layout for the caption and image i
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**
+
+**content/_computed/eleventyComputed.js**
+Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
