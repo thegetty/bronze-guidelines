@@ -62,7 +62,7 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
-**_layouts/page.liquid**
+**_layouts/base.11ty.js**
 Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
 
 **_layouts/visual-atlas.liquid**
