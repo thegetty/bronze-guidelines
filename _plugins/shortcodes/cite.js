@@ -4,9 +4,9 @@ const { renderOneLine, stripIndent } = require('~lib/common-tags')
 const { warn } = chalkFactory('shortcodes:cite')
 
 /**
- *  @todo Remove reliance on `this.page` in context. 
+ *  @todo Remove reliance on `this.page` in context.
  *  This was a workaround, and we should reassess how this component provides citations data to the in-page bibliograph.
- * 
+ *
  *  This shortcode adds a linked Author Date citation reference to the text,
  *  and a hover pop-up with the full citation text.
  *
@@ -30,6 +30,7 @@ const { warn } = chalkFactory('shortcodes:cite')
  *  renders the citation "1909"
  */
 module.exports = function(eleventyConfig, { page }) {
+  console.log("cite --" + page.url)
   const markdownify = eleventyConfig.getFilter('markdownify')
 
   const {

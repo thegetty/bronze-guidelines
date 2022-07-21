@@ -8,6 +8,7 @@
  *
  * @return     {boolean}  A styled HTML <span> element with the term
  */
-module.exports = function (eleventyConfig) {
+module.exports = function (eleventyConfig, { page }) {
+  console.log("def --" + page.url)
   return (term, display) => display ? `<span style="color: tomato;">${display} [${term}]</span>` : `<span style="color: tomato;">${term}</span>`
 }

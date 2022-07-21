@@ -20,6 +20,7 @@ const { warn } = chalkFactory('shortcodes:figure')
  * @return     {boolean}  An HTML <figure> element
  */
 module.exports = function (eleventyConfig, { page }) {
+  console.log("figure --" + page.url)
   const figureimage = eleventyConfig.getFilter('figureimage')
   const figurelabel = eleventyConfig.getFilter('figurelabel')
   const figuremodallink = eleventyConfig.getFilter('figuremodallink')
