@@ -1,13 +1,16 @@
+const chalkFactory = require('~lib/chalk')
 const fs = require('fs-extra')
 const path = require('path')
 const sharp = require('sharp')
+
+const { info, error } = chalkFactory('plugins:iiif:createImage')
 
 /**
  * @param  {Object} config Quire IIIF Process config
  * @return {Function}      createImage()
  */
 module.exports = (eleventyConfig) => {
-  const { inputDir, outputDir, outputRoot } = eleventyConfig.globalData.iiifConfig
+  const { formats, inputDir, outputDir, outputRoot } = eleventyConfig.globalData.iiifConfig
 
   /**
    * Creates an image in the output directory with the name `${name}${ext}`
@@ -21,22 +24,23 @@ module.exports = (eleventyConfig) => {
     const { debug, lazy } = options
 
     const { ext, name } = path.parse(filename)
+    const format = formats.find(({ input }) => input.includes(ext))
     const inputPath = path.join(inputDir, filename)
-    const outputPath = path.join(outputRoot, outputDir, name, `${transformation.name}${ext}`)
+    const outputPath = path.join(outputRoot, outputDir, name, `${transformation.name}${format.output}`)
 
     fs.ensureDirSync(path.parse(outputPath).dir)
 
     if (!lazy || !fs.pathExistsSync(outputPath)) {
       if (debug) {
-        console.warn(`[iiif:createImage:${name}] Created ${filename}`)
+        info(`Created ${filename}`)
       }
       try {
         return await sharp(inputPath)
-          .resize(resize)
+          .resize(transformation.resize)
           .withMetadata()
           .toFile(outputPath)
-      } catch(error) {
-        return { error, filename }
+      } catch(errorMessage) {
+        error(`${filename} ${errorMessage}`)
       }
     }
   }

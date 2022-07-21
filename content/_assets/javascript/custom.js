@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 // This file is added to the project as `type="module"`. Because of this,
 // global functions have to be declared as a property of the window object:
 //

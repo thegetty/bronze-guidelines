@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 /**
  * A shortcode to display page info
  *

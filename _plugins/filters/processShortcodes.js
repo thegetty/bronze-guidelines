@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 const { html } = require('~lib/common-tags')
 /**
  * A shortcode to display page info

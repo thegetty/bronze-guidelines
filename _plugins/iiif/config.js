@@ -4,6 +4,20 @@ module.exports = (eleventyConfig) => {
   return {
     baseURL: eleventyConfig.globalData.config.baseURL || eleventyConfig.globalData.env.URL,
     /**
+     * Input and output of processable image formats
+     * @type {Array<Object>}
+     */
+    formats: [
+     {
+      input: ['.png', '.svg'],
+      output: '.png'
+     },
+     {
+      input: ['.jp2', '.jpg', '.jpeg', '.tif', '.tiff'],
+      output: '.jpg'
+     }
+    ],
+    /**
      * Transformations to apply to each image
      * Each item is output as a separate file
      *
@@ -40,20 +54,8 @@ module.exports = (eleventyConfig) => {
      * Output directory
      * @type {String}
      */
-    outputDir: '_iiif',
+    outputDir: 'iiif',
     outputRoot: 'public',
-    /**
-     * Image extensions that can be processed
-     * @type {Array}
-     */
-    supportedImageExtensions: [
-      '.jp2',
-      '.jpg',
-      '.jpeg',
-      '.png',
-      '.svg',
-      '.tif',
-      '.tiff'
-    ]
+    tileSize: 256
   }
 }

@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 // Quire data filters
 const figureIIIF = require('./figureIIIF')
 const fullname = require('./fullname')
