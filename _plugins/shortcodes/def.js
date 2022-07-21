@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 /**
  * Temporary shortcode to replace q-def
  *

@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 const MarkdownIt = require('markdown-it')
 const anchorsPlugin = require('markdown-it-anchor')
 const attributesPlugin = require('markdown-it-attrs')
@@ -42,10 +45,29 @@ module.exports = function(eleventyConfig, options) {
     .use(footnotePlugin)
 
   /**
-   * Configure automatic link detection
+   * Set recognition options for links without a schema
    * @see https://github.com/markdown-it/linkify-it#api
    */
   markdownLibrary.linkify.set({ fuzzyLink: false })
+
+  /**
+   * Remember old renderer, if overridden, or proxy to default renderer
+   */
+  const defaultRender = markdownLibrary.renderer.rules.link_open ||
+    function (tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options)
+    }
+
+  /**
+   * Render external links so that they open in a new tab
+   */
+  markdownLibrary.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const href = tokens[idx].attrGet('href')
+    if (href.startsWith('http')) {
+      tokens[idx].attrSet('target', '_blank')
+    }
+    return defaultRender(tokens, idx, options, env, self)
+  }
 
   /**
    * Configure renderer to exclude brakcets from footnotes

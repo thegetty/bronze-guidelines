@@ -59,12 +59,8 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 ## Customizations Made to 11ty Templates/Files
 
-**_plugins/shortcodes/def.js**
-**_plugins/shortcodes/index.js**
-Placeholder shortcode for {% def %} which is to display vocabulary terms.
-
-**_plugins/shortcodes/figureGroup.js**
-Rewrote to output a wrapped set of figures, not broken down into rows.
+**_includes/def.liquid**
+Custom include to create definition pop-ups.
 
 **_layouts/page.liquid**
 Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
@@ -72,8 +68,26 @@ Added class(es) to markup based on value of `presentation` and `tags` in the fro
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
-**content/_assets/javascript/web-components/lightbox/index.js**
-Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
+**_plugins/filters/index.js**
+**_plugins/filters/processShortcodes.js**
+Custom filter to process text with shortcodes in it.
 
 **_plugins/markdown/index.js**
 Added config to remove the default `<hr />` element that was being inserted. Added as Jira issue DEV-12804 for core Quire.
+
+**_plugins/shortcodes/def.js**
+Placeholder shortcode for {% def %} which is to display vocabulary terms.
+
+**_plugins/shortcodes/figureGroup.js**
+Rewrote to output a wrapped set of figures, not broken down into rows.
+
+**_plugins/shortcodes/index.js**
+
+**_plugins/shortcodes/pageinfo.js**
+Custom shortcode to process text with shortcodes in it.
+
+**content/_assets/javascript/web-components/lightbox/index.js**
+Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
+
+**content/_assets/javascript/custom.js**
+**content/_assets/styles/custom.css**

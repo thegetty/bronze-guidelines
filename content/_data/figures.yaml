@@ -1,7 +1,7 @@
 figure_list:
   - id: "fig-001"
     src: "figures/001.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/001/info.json"
     label: "Figure 1"
@@ -9,7 +9,7 @@ figure_list:
 
   - id: "fig-002"
     src: "figures/002.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/002/info.json"
     label: "Figure 2"
@@ -25,7 +25,7 @@ figure_list:
 
   - id: "fig-004"
     src: "figures/004.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/004/info.json"
     label: "Figure 4"
@@ -33,7 +33,7 @@ figure_list:
 
   - id: "fig-005"
     src: "figures/005.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/005/info.json"
     label: "Figure 5"
@@ -41,7 +41,7 @@ figure_list:
 
   - id: "fig-006"
     src: "figures/006.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/006/info.json"
     label: "Figure 6"
@@ -49,7 +49,7 @@ figure_list:
 
   - id: "fig-007"
     src: "figures/007.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/007/info.json"
     label: "Figure 7"
@@ -57,7 +57,7 @@ figure_list:
 
   - id: "fig-008"
     src: "figures/008.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/008/info.json"
     label: "Figure 8"
@@ -65,7 +65,7 @@ figure_list:
 
   - id: "fig-009"
     src: "figures/009.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/009/info.json"
     label: "Figure 9"
@@ -73,7 +73,7 @@ figure_list:
 
   - id: "fig-010"
     src: "figures/010.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/010/info.json"
     label: "Figure 10"
@@ -81,7 +81,7 @@ figure_list:
 
   - id: "fig-011"
     src: "figures/011.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/011/info.json"
     label: "Figure 11"
@@ -89,7 +89,7 @@ figure_list:
 
   - id: "fig-012"
     src: "figures/012.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/012/info.json"
     label: "Figure 12"
@@ -97,7 +97,7 @@ figure_list:
 
   - id: "fig-013"
     src: "figures/013.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/013/info.json"
     label: "Figure 13"
@@ -105,7 +105,7 @@ figure_list:
 
   - id: "fig-014"
     src: "figures/014.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/014/info.json"
     label: "Figure 14"
@@ -113,7 +113,7 @@ figure_list:
 
   - id: "fig-015"
     src: "figures/015.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/015/info.json"
     label: "Figure 15"
@@ -121,7 +121,7 @@ figure_list:
 
   - id: "fig-016"
     src: "figures/016.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/016/info.json"
     label: "Figure 16"
@@ -129,7 +129,7 @@ figure_list:
 
   - id: "fig-017"
     src: "figures/017.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/017/info.json"
     label: "Figure 17"
@@ -137,7 +137,7 @@ figure_list:
 
   - id: "fig-018"
     src: "figures/018.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/018/info.json"
     label: "Figure 18"
@@ -145,7 +145,7 @@ figure_list:
 
   - id: "fig-019"
     src: "figures/019.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/019/info.json"
     label: "Figure 19"
@@ -153,7 +153,7 @@ figure_list:
 
   - id: "fig-020"
     src: "figures/020.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/020/info.json"
     label: "Figure 20"
@@ -161,7 +161,7 @@ figure_list:
 
   - id: "fig-021"
     src: "figures/021.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/021/info.json"
     label: "Figure 21"
@@ -169,7 +169,7 @@ figure_list:
 
   - id: "fig-022"
     src: "figures/022.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/022/info.json"
     label: "Figure 22"
@@ -177,7 +177,7 @@ figure_list:
 
   - id: "fig-023"
     src: "figures/023.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/023/info.json"
     label: "Figure 23"
@@ -185,7 +185,7 @@ figure_list:
 
   - id: "fig-024"
     src: "figures/024.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/024/info.json"
     label: "Figure 24"
@@ -193,7 +193,7 @@ figure_list:
 
   - id: "fig-025"
     src: "figures/025.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/025/info.json"
     label: "Figure 25"
@@ -201,7 +201,7 @@ figure_list:
 
   - id: "fig-026"
     src: "figures/026.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/026/info.json"
     label: "Figure 26"
@@ -217,7 +217,7 @@ figure_list:
 
   - id: "fig-028"
     src: "figures/028.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/028/info.json"
     label: "Figure 28"
@@ -233,7 +233,7 @@ figure_list:
 
   - id: "fig-030"
     src: "figures/030.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/030/info.json"
     label: "Figure 30"
@@ -241,7 +241,7 @@ figure_list:
 
   - id: "fig-031"
     src: "figures/031.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/031/info.json"
     label: "Figure 31"
@@ -257,7 +257,7 @@ figure_list:
 
   - id: "fig-033"
     src: "figures/033.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/033/info.json"
     label: "Figure 33"
@@ -281,7 +281,7 @@ figure_list:
 
   - id: "fig-036"
     src: "figures/036.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/036/info.json"
     label: "Figure 36"
@@ -289,7 +289,7 @@ figure_list:
 
   - id: "fig-037"
     src: "figures/037.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/037/info.json"
     label: "Figure 37"
@@ -305,7 +305,7 @@ figure_list:
 
   - id: "fig-039"
     src: "figures/039.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/039/info.json"
     label: "Figure 39"
@@ -313,7 +313,7 @@ figure_list:
 
   - id: "fig-040"
     src: "figures/040.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/040/info.json"
     label: "Figure 40"
@@ -321,7 +321,7 @@ figure_list:
 
   - id: "fig-041"
     src: "figures/041.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/041/info.json"
     label: "Figure 41"
@@ -329,7 +329,7 @@ figure_list:
 
   - id: "fig-042"
     src: "figures/042.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/042/info.json"
     label: "Figure 42"
@@ -337,7 +337,7 @@ figure_list:
 
   - id: "fig-043"
     src: "figures/043.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/043/info.json"
     label: "Figure 43"
@@ -364,7 +364,7 @@ figure_list:
 
   - id: "fig-044"
     src: "figures/044.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/044/info.json"
     label: "Figure 44"
@@ -380,7 +380,7 @@ figure_list:
 
   - id: "fig-046"
     src: "figures/046.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/046/info.json"
     label: "Figure 46"
@@ -388,7 +388,7 @@ figure_list:
 
   - id: "fig-047"
     src: "figures/047.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/047/info.json"
     label: "Figure 47"
@@ -404,7 +404,7 @@ figure_list:
 
   - id: "fig-049"
     src: "figures/049.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/049/info.json"
     label: "Figure 49"
@@ -420,7 +420,7 @@ figure_list:
 
   - id: "fig-051"
     src: "figures/051.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/051/info.json"
     label: "Figure 51"
@@ -444,7 +444,7 @@ figure_list:
 
   - id: "fig-054"
     src: "figures/054.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/054/info.json"
     label: "Figure 54"
@@ -452,7 +452,7 @@ figure_list:
 
   - id: "fig-055"
     src: "figures/055.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/055/info.json"
     label: "Figure 55"
@@ -468,7 +468,7 @@ figure_list:
 
   - id: "fig-057"
     src: "figures/057.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/057/info.json"
     label: "Figure 57"
@@ -508,7 +508,7 @@ figure_list:
 
   - id: "fig-062"
     src: "figures/062.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/062/info.json"
     label: "Figure 62"
@@ -516,7 +516,7 @@ figure_list:
 
   - id: "fig-063"
     src: "figures/063.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/063/info.json"
     label: "Figure 63"
@@ -524,7 +524,7 @@ figure_list:
 
   - id: "fig-064"
     src: "figures/064.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/064/info.json"
     label: "Figure 64"
@@ -532,7 +532,7 @@ figure_list:
 
   - id: "fig-065"
     src: "figures/065.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/065/info.json"
     label: "Figure 65"
@@ -540,7 +540,7 @@ figure_list:
 
   - id: "fig-066"
     src: "figures/066.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/066/info.json"
     label: "Figure 66"
@@ -548,7 +548,7 @@ figure_list:
 
   - id: "fig-067"
     src: "figures/067.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/067/info.json"
     label: "Figure 67"
@@ -556,7 +556,7 @@ figure_list:
 
   - id: "fig-068"
     src: "figures/068.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/068/info.json"
     label: "Figure 68"
@@ -564,7 +564,7 @@ figure_list:
 
   - id: "fig-069"
     src: "figures/069.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/069/info.json"
     label: "Figure 69"
@@ -572,7 +572,7 @@ figure_list:
 
   - id: "fig-070"
     src: "figures/070.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/070/info.json"
     label: "Figure 70"
@@ -596,7 +596,7 @@ figure_list:
 
   - id: "fig-073"
     src: "figures/073.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/073/info.json"
     label: "Figure 73"
@@ -604,7 +604,7 @@ figure_list:
 
   - id: "fig-074"
     src: "figures/074.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/074/info.json"
     label: "Figure 74"
@@ -612,7 +612,7 @@ figure_list:
 
   - id: "fig-075"
     src: "figures/075.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/075/info.json"
     label: "Figure 75"
@@ -628,7 +628,7 @@ figure_list:
 
   - id: "fig-077"
     src: "figures/077.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/077/info.json"
     label: "Figure 77"
@@ -644,7 +644,7 @@ figure_list:
 
   - id: "fig-079"
     src: "figures/079.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/079/info.json"
     label: "Figure 79"
@@ -652,7 +652,7 @@ figure_list:
 
   - id: "fig-080"
     src: "figures/080.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/080/info.json"
     label: "Figure 80"
@@ -660,7 +660,7 @@ figure_list:
 
   - id: "fig-081"
     src: "figures/081.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/081/info.json"
     label: "Figure 81"
@@ -668,7 +668,7 @@ figure_list:
 
   - id: "fig-082"
     src: "figures/082.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/082/info.json"
     label: "Figure 82"
@@ -676,7 +676,7 @@ figure_list:
 
   - id: "fig-083"
     src: "figures/083.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/083/info.json"
     label: "Figure 83"
@@ -684,7 +684,7 @@ figure_list:
 
   - id: "fig-084"
     src: "figures/084.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/084/info.json"
     label: "Figure 84"
@@ -692,7 +692,7 @@ figure_list:
 
   - id: "fig-085"
     src: "figures/085.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/085/info.json"
     label: "Figure 85"
@@ -700,7 +700,7 @@ figure_list:
 
   - id: "fig-086"
     src: "figures/086.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/086/info.json"
     label: "Figure 86"
@@ -708,7 +708,7 @@ figure_list:
 
   - id: "fig-087"
     src: "figures/087.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/087/info.json"
     label: "Figure 87"
@@ -716,7 +716,7 @@ figure_list:
 
   - id: "fig-088"
     src: "figures/088.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/088/info.json"
     label: "Figure 88"
@@ -724,7 +724,7 @@ figure_list:
 
   - id: "fig-089"
     src: "figures/089.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/089/info.json"
     label: "Figure 89"
@@ -732,7 +732,7 @@ figure_list:
 
   - id: "fig-090"
     src: "figures/090.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/090/info.json"
     label: "Figure 90"
@@ -740,7 +740,7 @@ figure_list:
 
   - id: "fig-091"
     src: "figures/091.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/091/info.json"
     label: "Figure 91"
@@ -748,7 +748,7 @@ figure_list:
 
   - id: "fig-092"
     src: "figures/092.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/092/info.json"
     label: "Figure 92"
@@ -756,7 +756,7 @@ figure_list:
 
   - id: "fig-093"
     src: "figures/093.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/093/info.json"
     label: "Figure 93"
@@ -764,7 +764,7 @@ figure_list:
 
   - id: "fig-094"
     src: "figures/094.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/094/info.json"
     label: "Figure 94"
@@ -772,7 +772,7 @@ figure_list:
 
   - id: "fig-095"
     src: "figures/095.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/095/info.json"
     label: "Figure 95"
@@ -780,7 +780,7 @@ figure_list:
 
   - id: "fig-096"
     src: "figures/096.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/096/info.json"
     label: "Figure 96"
@@ -820,7 +820,7 @@ figure_list:
 
   - id: "fig-101"
     src: "figures/101.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/101/info.json"
     label: "Figure 101"
@@ -828,7 +828,7 @@ figure_list:
 
   - id: "fig-102"
     src: "figures/102.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/102/info.json"
     label: "Figure 102"
@@ -836,7 +836,7 @@ figure_list:
 
   - id: "fig-103"
     src: "figures/103.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/103/info.json"
     label: "Figure 103"
@@ -852,7 +852,7 @@ figure_list:
 
   - id: "fig-105"
     src: "figures/105.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/105/info.json"
     label: "Figure 105"
@@ -860,7 +860,7 @@ figure_list:
 
   - id: "fig-106"
     src: "figures/106.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/106/info.json"
     label: "Figure 106"
@@ -884,7 +884,7 @@ figure_list:
 
   - id: "fig-109"
     src: "figures/109.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/109/info.json"
     label: "Figure 109"
@@ -892,7 +892,7 @@ figure_list:
 
   - id: "fig-110"
     src: "figures/110.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/110/info.json"
     label: "Figure 110"
@@ -900,7 +900,7 @@ figure_list:
 
   - id: "fig-111"
     src: "figures/111.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/111/info.json"
     label: "Figure 111"
@@ -908,7 +908,7 @@ figure_list:
 
   - id: "fig-112"
     src: "figures/112.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/112/info.json"
     label: "Figure 112"
@@ -916,7 +916,7 @@ figure_list:
 
   - id: "fig-113"
     src: "figures/113.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/113/info.json"
     label: "Figure 113"
@@ -924,7 +924,7 @@ figure_list:
 
   - id: "fig-114"
     src: "figures/114.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/114/info.json"
     label: "Figure 114"
@@ -932,7 +932,7 @@ figure_list:
 
   - id: "fig-115"
     src: "figures/115.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/115/info.json"
     label: "Figure 115"
@@ -956,7 +956,7 @@ figure_list:
 
   - id: "fig-118"
     src: "figures/118.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/118/info.json"
     label: "Figure 118"
@@ -964,7 +964,7 @@ figure_list:
 
   - id: "fig-119"
     src: "figures/119.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/119/info.json"
     label: "Figure 119"
@@ -972,7 +972,7 @@ figure_list:
 
   - id: "fig-120"
     src: "figures/120.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/120/info.json"
     label: "Figure 120"
@@ -996,7 +996,7 @@ figure_list:
 
   - id: "fig-123"
     src: "figures/123.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/123/info.json"
     label: "Figure 123"
@@ -1004,7 +1004,7 @@ figure_list:
 
   - id: "fig-124"
     src: "figures/124.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/124/info.json"
     label: "Figure 124"
@@ -1012,7 +1012,7 @@ figure_list:
 
   - id: "fig-125"
     src: "figures/125.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/125/info.json"
     label: "Figure 125"
@@ -1020,7 +1020,7 @@ figure_list:
 
   - id: "fig-126"
     src: "figures/126.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/126/info.json"
     label: "Figure 126"
@@ -1028,7 +1028,7 @@ figure_list:
 
   - id: "fig-127"
     src: "figures/127.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/127/info.json"
     label: "Figure 127"
@@ -1036,7 +1036,7 @@ figure_list:
 
   - id: "fig-128"
     src: "figures/128.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/128/info.json"
     label: "Figure 128"
@@ -1044,7 +1044,7 @@ figure_list:
 
   - id: "fig-129"
     src: "figures/129.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/129/info.json"
     label: "Figure 129"
@@ -1060,7 +1060,7 @@ figure_list:
 
   - id: "fig-131"
     src: "figures/131.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/131/info.json"
     label: "Figure 131"
@@ -1068,7 +1068,7 @@ figure_list:
 
   - id: "fig-132"
     src: "figures/132.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/132/info.json"
     label: "Figure 132"
@@ -1076,7 +1076,7 @@ figure_list:
 
   - id: "fig-133"
     src: "figures/133.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/133/info.json"
     label: "Figure 133"
@@ -1084,7 +1084,7 @@ figure_list:
 
   - id: "fig-134"
     src: "figures/134.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/134/info.json"
     label: "Figure 134"
@@ -1092,7 +1092,7 @@ figure_list:
 
   - id: "fig-135"
     src: "figures/135.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/135/info.json"
     label: "Figure 135"
@@ -1100,7 +1100,7 @@ figure_list:
 
   - id: "fig-136"
     src: "figures/136.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/136/info.json"
     label: "Figure 136"
@@ -1116,7 +1116,7 @@ figure_list:
 
   - id: "fig-138"
     src: "figures/138.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/138/info.json"
     label: "Figure 138"
@@ -1124,7 +1124,7 @@ figure_list:
 
   - id: "fig-139"
     src: "figures/139.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/139/info.json"
     label: "Figure 139"
@@ -1140,7 +1140,7 @@ figure_list:
 
   - id: "fig-141"
     src: "figures/141.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/141/info.json"
     label: "Figure 141"
@@ -1148,7 +1148,7 @@ figure_list:
 
   - id: "fig-142"
     src: "figures/142.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/142/info.json"
     label: "Figure 142"
@@ -1164,7 +1164,7 @@ figure_list:
 
   - id: "fig-144"
     src: "figures/144.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/144/info.json"
     label: "Figure 144"
@@ -1172,7 +1172,7 @@ figure_list:
 
   - id: "fig-145"
     src: "figures/145.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/145/info.json"
     label: "Figure 145"
@@ -1180,7 +1180,7 @@ figure_list:
 
   - id: "fig-146"
     src: "figures/146.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/146/info.json"
     label: "Figure 146"
@@ -1188,7 +1188,7 @@ figure_list:
 
   - id: "fig-147"
     src: "figures/147.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/147/info.json"
     label: "Figure 147"
@@ -1196,7 +1196,7 @@ figure_list:
 
   - id: "fig-148"
     src: "figures/148.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/148/info.json"
     label: "Figure 148"
@@ -1220,7 +1220,7 @@ figure_list:
 
   - id: "fig-151"
     src: "figures/151.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/151/info.json"
     label: "Figure 151"
@@ -1244,7 +1244,7 @@ figure_list:
 
   - id: "fig-154"
     src: "figures/154.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/154/info.json"
     label: "Figure 154"
@@ -1252,7 +1252,7 @@ figure_list:
 
   - id: "fig-155"
     src: "figures/155.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/155/info.json"
     label: "Figure 155"
@@ -1260,7 +1260,7 @@ figure_list:
 
   - id: "fig-156"
     src: "figures/156.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/156/info.json"
     label: "Figure 156"
@@ -1276,7 +1276,7 @@ figure_list:
 
   - id: "fig-158"
     src: "figures/158.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/158/info.json"
     label: "Figure 158"
@@ -1284,7 +1284,7 @@ figure_list:
 
   - id: "fig-159"
     src: "figures/159.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/159/info.json"
     label: "Figure 159"
@@ -1292,7 +1292,7 @@ figure_list:
 
   - id: "fig-160"
     src: "figures/160.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/160/info.json"
     label: "Figure 160"
@@ -1308,7 +1308,7 @@ figure_list:
 
   - id: "fig-162"
     src: "figures/162.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/162/info.json"
     label: "Figure 162"
@@ -1324,7 +1324,7 @@ figure_list:
 
   - id: "fig-164"
     src: "figures/164.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/164/info.json"
     label: "Figure 164"
@@ -1348,7 +1348,7 @@ figure_list:
 
   - id: "fig-167"
     src: "figures/167.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/167/info.json"
     label: "Figure 167"
@@ -1356,7 +1356,7 @@ figure_list:
 
   - id: "fig-168"
     src: "figures/168.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/168/info.json"
     label: "Figure 168"
@@ -1364,7 +1364,7 @@ figure_list:
 
   - id: "fig-169"
     src: "figures/169.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/169/info.json"
     label: "Figure 169"
@@ -1372,7 +1372,7 @@ figure_list:
 
   - id: "fig-170"
     src: "figures/170.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/170/info.json"
     label: "Figure 170"
@@ -1380,7 +1380,7 @@ figure_list:
 
   - id: "fig-171"
     src: "figures/171.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/171/info.json"
     label: "Figure 171"
@@ -1388,7 +1388,7 @@ figure_list:
 
   - id: "fig-172"
     src: "figures/172.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/172/info.json"
     label: "Figure 172"
@@ -1412,7 +1412,7 @@ figure_list:
 
   - id: "fig-175"
     src: "figures/175.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/175/info.json"
     label: "Figure 175"
@@ -1428,7 +1428,7 @@ figure_list:
 
   - id: "fig-177"
     src: "figures/177.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/177/info.json"
     label: "Figure 177"
@@ -1444,7 +1444,7 @@ figure_list:
 
   - id: "fig-179"
     src: "figures/179.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/179/info.json"
     label: "Figure 179"
@@ -1452,7 +1452,7 @@ figure_list:
 
   - id: "fig-180"
     src: "figures/180.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/180/info.json"
     label: "Figure 180"
@@ -1476,7 +1476,7 @@ figure_list:
 
   - id: "fig-183"
     src: "figures/183.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/183/info.json"
     label: "Figure 183"
@@ -1484,7 +1484,7 @@ figure_list:
 
   - id: "fig-184"
     src: "figures/184.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/184/info.json"
     label: "Figure 184"
@@ -1492,7 +1492,7 @@ figure_list:
 
   - id: "fig-185"
     src: "figures/185.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/185/info.json"
     label: "Figure 185"
@@ -1508,7 +1508,7 @@ figure_list:
 
   - id: "fig-187"
     src: "figures/187.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/187/info.json"
     label: "Figure 187"
@@ -1524,7 +1524,7 @@ figure_list:
 
   - id: "fig-189"
     src: "figures/189.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/189/info.json"
     label: "Figure 189"
@@ -1532,7 +1532,7 @@ figure_list:
 
   - id: "fig-190"
     src: "figures/190.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/190/info.json"
     label: "Figure 190"
@@ -1548,7 +1548,7 @@ figure_list:
 
   - id: "fig-192"
     src: "figures/192.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/192/info.json"
     label: "Figure 192"
@@ -1556,7 +1556,7 @@ figure_list:
 
   - id: "fig-193"
     src: "figures/193.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/193/info.json"
     label: "Figure 193"
@@ -1564,7 +1564,7 @@ figure_list:
 
   - id: "fig-194"
     src: "figures/194.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/194/info.json"
     label: "Figure 194"
@@ -1572,7 +1572,7 @@ figure_list:
 
   - id: "fig-195"
     src: "figures/195.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/195/info.json"
     label: "Figure 195"
@@ -1580,7 +1580,7 @@ figure_list:
 
   - id: "fig-196"
     src: "figures/196.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/196/info.json"
     label: "Figure 196"
@@ -1588,7 +1588,7 @@ figure_list:
 
   - id: "fig-197"
     src: "figures/197.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/197/info.json"
     label: "Figure 197"
@@ -1604,7 +1604,7 @@ figure_list:
 
   - id: "fig-199"
     src: "figures/199.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/199/info.json"
     label: "Figure 199"
@@ -1612,7 +1612,7 @@ figure_list:
 
   - id: "fig-200"
     src: "figures/200.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/200/info.json"
     label: "Figure 200"
@@ -1620,7 +1620,7 @@ figure_list:
 
   - id: "fig-201"
     src: "figures/201.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/201/info.json"
     label: "Figure 201"
@@ -1636,7 +1636,7 @@ figure_list:
 
   - id: "fig-203"
     src: "figures/203.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/203/info.json"
     label: "Figure 203"
@@ -1644,7 +1644,7 @@ figure_list:
 
   - id: "fig-204"
     src: "figures/204.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/204/info.json"
     label: "Figure 204"
@@ -1660,7 +1660,7 @@ figure_list:
 
   - id: "fig-206"
     src: "figures/206.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/206/info.json"
     label: "Figure 206"
@@ -1676,7 +1676,7 @@ figure_list:
 
   - id: "fig-208"
     src: "figures/208.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/208/info.json"
     label: "Figure 208"
@@ -1684,7 +1684,7 @@ figure_list:
 
   - id: "fig-209"
     src: "figures/209.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/209/info.json"
     label: "Figure 209"
@@ -1692,7 +1692,7 @@ figure_list:
 
   - id: "fig-210"
     src: "figures/210.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/210/info.json"
     label: "Figure 210"
@@ -1700,7 +1700,7 @@ figure_list:
 
   - id: "fig-211"
     src: "figures/211.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/211/info.json"
     label: "Figure 211"
@@ -1708,7 +1708,7 @@ figure_list:
 
   - id: "fig-212"
     src: "figures/212.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/212/info.json"
     label: "Figure 212"
@@ -1716,7 +1716,7 @@ figure_list:
 
   - id: "fig-213"
     src: "figures/213.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/213/info.json"
     label: "Figure 213"
@@ -1724,7 +1724,7 @@ figure_list:
 
   - id: "fig-214"
     src: "figures/214.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/214/info.json"
     label: "Figure 214"
@@ -1732,7 +1732,7 @@ figure_list:
 
   - id: "fig-215"
     src: "figures/215.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/215/info.json"
     label: "Figure 215"
@@ -1740,7 +1740,7 @@ figure_list:
 
   - id: "fig-216"
     src: "figures/216.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/216/info.json"
     label: "Figure 216"
@@ -1748,7 +1748,7 @@ figure_list:
 
   - id: "fig-217"
     src: "figures/217.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/217/info.json"
     label: "Figure 217"
@@ -1756,7 +1756,7 @@ figure_list:
 
   - id: "fig-218"
     src: "figures/218.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/218/info.json"
     label: "Figure 218"
@@ -1764,7 +1764,7 @@ figure_list:
 
   - id: "fig-219"
     src: "figures/219.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/219/info.json"
     label: "Figure 219"
@@ -1772,7 +1772,7 @@ figure_list:
 
   - id: "fig-220"
     src: "figures/220.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/220/info.json"
     label: "Figure 220"
@@ -1780,7 +1780,7 @@ figure_list:
 
   - id: "fig-221"
     src: "figures/221.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/221/info.json"
     label: "Figure 221"
@@ -1788,7 +1788,7 @@ figure_list:
 
   - id: "fig-222"
     src: "figures/222.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/222/info.json"
     label: "Figure 222"
@@ -1804,7 +1804,7 @@ figure_list:
 
   - id: "fig-224"
     src: "figures/224.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/224/info.json"
     label: "Figure 224"
@@ -1812,7 +1812,7 @@ figure_list:
 
   - id: "fig-225"
     src: "figures/225.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/225/info.json"
     label: "Figure 225"
@@ -1820,7 +1820,7 @@ figure_list:
 
   - id: "fig-226"
     src: "figures/226.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/226/info.json"
     label: "Figure 226"
@@ -1828,7 +1828,7 @@ figure_list:
 
   - id: "fig-227"
     src: "figures/227.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/227/info.json"
     label: "Figure 227"
@@ -1836,7 +1836,7 @@ figure_list:
 
   - id: "fig-228"
     src: "figures/228.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/228/info.json"
     label: "Figure 228"
@@ -1844,7 +1844,7 @@ figure_list:
 
   - id: "fig-229"
     src: "figures/229.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/229/info.json"
     label: "Figure 229"
@@ -1860,7 +1860,7 @@ figure_list:
 
   - id: "fig-231"
     src: "figures/231.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/231/info.json"
     label: "Figure 231"
@@ -1876,7 +1876,7 @@ figure_list:
 
   - id: "fig-233"
     src: "figures/233.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/233/info.json"
     label: "Figure 233"
@@ -1884,7 +1884,7 @@ figure_list:
 
   - id: "fig-234"
     src: "figures/234.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/234/info.json"
     label: "Figure 234"
@@ -1892,7 +1892,7 @@ figure_list:
 
   - id: "fig-235"
     src: "figures/235.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/235/info.json"
     label: "Figure 235"
@@ -1900,7 +1900,7 @@ figure_list:
 
   - id: "fig-236"
     src: "figures/236.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/236/info.json"
     label: "Figure 236"
@@ -1908,7 +1908,7 @@ figure_list:
 
   - id: "fig-237"
     src: "figures/237.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/237/info.json"
     label: "Figure 237"
@@ -1916,7 +1916,7 @@ figure_list:
 
   - id: "fig-238"
     src: "figures/238.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/238/info.json"
     label: "Figure 238"
@@ -1924,7 +1924,7 @@ figure_list:
 
   - id: "fig-239"
     src: "figures/239.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/239/info.json"
     label: "Figure 239"
@@ -1932,7 +1932,7 @@ figure_list:
 
   - id: "fig-240"
     src: "figures/240.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/240/info.json"
     label: "Figure 240"
@@ -1980,7 +1980,7 @@ figure_list:
 
   - id: "fig-246"
     src: "figures/246.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/246/info.json"
     label: "Figure 246"
@@ -1996,7 +1996,7 @@ figure_list:
 
   - id: "fig-248"
     src: "figures/248.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/248/info.json"
     label: "Figure 248"
@@ -2020,7 +2020,7 @@ figure_list:
 
   - id: "fig-251"
     src: "figures/251.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/251/info.json"
     label: "Figure 251"
@@ -2044,7 +2044,7 @@ figure_list:
 
   - id: "fig-254"
     src: "figures/254.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/254/info.json"
     label: "Figure 254"
@@ -2052,7 +2052,7 @@ figure_list:
 
   - id: "fig-255"
     src: "figures/255.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/255/info.json"
     label: "Figure 255"
@@ -2060,7 +2060,7 @@ figure_list:
 
   - id: "fig-256"
     src: "figures/256.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/256/info.json"
     label: "Figure 256"
@@ -2068,7 +2068,7 @@ figure_list:
 
   - id: "fig-257"
     src: "figures/257.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/257/info.json"
     label: "Figure 257"
@@ -2092,7 +2092,7 @@ figure_list:
 
   - id: "fig-260"
     src: "figures/260.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/260/info.json"
     label: "Figure 260"
@@ -2108,7 +2108,7 @@ figure_list:
 
   - id: "fig-262"
     src: "figures/262.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/262/info.json"
     label: "Figure 262"
@@ -2116,7 +2116,7 @@ figure_list:
 
   - id: "fig-263"
     src: "figures/263.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/263/info.json"
     label: "Figure 263"
@@ -2132,7 +2132,7 @@ figure_list:
 
   - id: "fig-265"
     src: "figures/265.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/265/info.json"
     label: "Figure 265"
@@ -2140,7 +2140,7 @@ figure_list:
 
   - id: "fig-266"
     src: "figures/266.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/266/info.json"
     label: "Figure 266"
@@ -2148,7 +2148,7 @@ figure_list:
 
   - id: "fig-267"
     src: "figures/267.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/267/info.json"
     label: "Figure 267"
@@ -2156,7 +2156,7 @@ figure_list:
 
   - id: "fig-268"
     src: "figures/268.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/268/info.json"
     label: "Figure 268"
@@ -2172,7 +2172,7 @@ figure_list:
 
   - id: "fig-270"
     src: "figures/270.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/270/info.json"
     label: "Figure 270"
@@ -2180,7 +2180,7 @@ figure_list:
 
   - id: "fig-271"
     src: "figures/271.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/271/info.json"
     label: "Figure 271"
@@ -2204,7 +2204,7 @@ figure_list:
 
   - id: "fig-274"
     src: "figures/274.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/274/info.json"
     label: "Figure 274"
@@ -2212,7 +2212,7 @@ figure_list:
 
   - id: "fig-275"
     src: "figures/275.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/275/info.json"
     label: "Figure 275"
@@ -2220,7 +2220,7 @@ figure_list:
 
   - id: "fig-276"
     src: "figures/276.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/276/info.json"
     label: "Figure 276"
@@ -2252,7 +2252,7 @@ figure_list:
 
   - id: "fig-280"
     src: "figures/280.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/280/info.json"
     label: "Figure 280"
@@ -2260,7 +2260,7 @@ figure_list:
 
   - id: "fig-281"
     src: "figures/281.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/281/info.json"
     label: "Figure 281"
@@ -2284,7 +2284,7 @@ figure_list:
 
   - id: "fig-284"
     src: "figures/284.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/284/info.json"
     label: "Figure 284"
@@ -2308,7 +2308,7 @@ figure_list:
 
   - id: "fig-287"
     src: "figures/287.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/287/info.json"
     label: "Figure 287"
@@ -2316,7 +2316,7 @@ figure_list:
 
   - id: "fig-288"
     src: "figures/288.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/288/info.json"
     label: "Figure 288"
@@ -2324,7 +2324,7 @@ figure_list:
 
   - id: "fig-289"
     src: "figures/289.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/289/info.json"
     label: "Figure 289"
@@ -2332,7 +2332,7 @@ figure_list:
 
   - id: "fig-290"
     src: "figures/290.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/290/info.json"
     label: "Figure 290"
@@ -2340,7 +2340,7 @@ figure_list:
 
   - id: "fig-291"
     src: "figures/291.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/291/info.json"
     label: "Figure 291"
@@ -2348,7 +2348,7 @@ figure_list:
 
   - id: "fig-292"
     src: "figures/292.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/292/info.json"
     label: "Figure 292"
@@ -2356,7 +2356,7 @@ figure_list:
 
   - id: "fig-293"
     src: "figures/293.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/293/info.json"
     label: "Figure 293"
@@ -2364,7 +2364,7 @@ figure_list:
 
   - id: "fig-294"
     src: "figures/294.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/294/info.json"
     label: "Figure 294"
@@ -2388,7 +2388,7 @@ figure_list:
 
   - id: "fig-297"
     src: "figures/297.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/297/info.json"
     label: "Figure 297"
@@ -2396,7 +2396,7 @@ figure_list:
 
   - id: "fig-298"
     src: "figures/298.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/298/info.json"
     label: "Figure 298"
@@ -2404,7 +2404,7 @@ figure_list:
 
   - id: "fig-299"
     src: "figures/299.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/299/info.json"
     label: "Figure 299"
@@ -2412,7 +2412,7 @@ figure_list:
 
   - id: "fig-300"
     src: "figures/300.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/300/info.json"
     label: "Figure 300"
@@ -2436,7 +2436,7 @@ figure_list:
 
   - id: "fig-303"
     src: "figures/303.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/303/info.json"
     label: "Figure 303"
@@ -2452,7 +2452,7 @@ figure_list:
 
   - id: "fig-305"
     src: "figures/305.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/305/info.json"
     label: "Figure 305"
@@ -2460,7 +2460,7 @@ figure_list:
 
   - id: "fig-306"
     src: "figures/306.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/306/info.json"
     label: "Figure 306"
@@ -2476,7 +2476,7 @@ figure_list:
 
   - id: "fig-308"
     src: "figures/308.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/308/info.json"
     label: "Figure 308"
@@ -2484,7 +2484,7 @@ figure_list:
 
   - id: "fig-309"
     src: "figures/309.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/309/info.json"
     label: "Figure 309"
@@ -2492,7 +2492,7 @@ figure_list:
 
   - id: "fig-310"
     src: "figures/310.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/310/info.json"
     label: "Figure 310"
@@ -2500,7 +2500,7 @@ figure_list:
 
   - id: "fig-311"
     src: "figures/311.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/311/info.json"
     label: "Figure 311"
@@ -2508,7 +2508,7 @@ figure_list:
 
   - id: "fig-312"
     src: "figures/312.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/312/info.json"
     label: "Figure 312"
@@ -2516,7 +2516,7 @@ figure_list:
 
   - id: "fig-313"
     src: "figures/313.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/313/info.json"
     label: "Figure 313"
@@ -2524,7 +2524,7 @@ figure_list:
 
   - id: "fig-314"
     src: "figures/314.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/314/info.json"
     label: "Figure 314"
@@ -2532,7 +2532,7 @@ figure_list:
 
   - id: "fig-315"
     src: "figures/315.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/315/info.json"
     label: "Figure 315"
@@ -2556,7 +2556,7 @@ figure_list:
 
   - id: "fig-318"
     src: "figures/318.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/318/info.json"
     label: "Figure 318"
@@ -2564,7 +2564,7 @@ figure_list:
 
   - id: "fig-319"
     src: "figures/319.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/319/info.json"
     label: "Figure 319"
@@ -2572,7 +2572,7 @@ figure_list:
 
   - id: "fig-320"
     src: "figures/320.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/320/info.json"
     label: "Figure 320"
@@ -2580,7 +2580,7 @@ figure_list:
 
   - id: "fig-321"
     src: "figures/321.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/321/info.json"
     label: "Figure 321"
@@ -2596,7 +2596,7 @@ figure_list:
 
   - id: "fig-323"
     src: "figures/323.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/323/info.json"
     label: "Figure 323"
@@ -2604,7 +2604,7 @@ figure_list:
 
   - id: "fig-324"
     src: "figures/324.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/324/info.json"
     label: "Figure 324"
@@ -2612,7 +2612,7 @@ figure_list:
 
   - id: "fig-325"
     src: "figures/325.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/325/info.json"
     label: "Figure 325"
@@ -2620,7 +2620,7 @@ figure_list:
 
   - id: "fig-326"
     src: "figures/326.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/326/info.json"
     label: "Figure 326"
@@ -2636,7 +2636,7 @@ figure_list:
 
   - id: "fig-328"
     src: "figures/328.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/328/info.json"
     label: "Figure 328"
@@ -2644,7 +2644,7 @@ figure_list:
 
   - id: "fig-329"
     src: "figures/329.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/329/info.json"
     label: "Figure 329"
@@ -2660,7 +2660,7 @@ figure_list:
 
   - id: "fig-331"
     src: "figures/331.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/331/info.json"
     label: "Figure 331"
@@ -2668,7 +2668,7 @@ figure_list:
 
   - id: "fig-332"
     src: "figures/332.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/332/info.json"
     label: "Figure 332"
@@ -2676,7 +2676,7 @@ figure_list:
 
   - id: "fig-333"
     src: "figures/333.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/333/info.json"
     label: "Figure 333"
@@ -2692,7 +2692,7 @@ figure_list:
 
   - id: "fig-335"
     src: "figures/335.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/335/info.json"
     label: "Figure 335"
@@ -2700,7 +2700,7 @@ figure_list:
 
   - id: "fig-336"
     src: "figures/336.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/336/info.json"
     label: "Figure 336"
@@ -2708,7 +2708,7 @@ figure_list:
 
   - id: "fig-337"
     src: "figures/337.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/337/info.json"
     label: "Figure 337"
@@ -2716,7 +2716,7 @@ figure_list:
 
   - id: "fig-338"
     src: "figures/338.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/338/info.json"
     label: "Figure 338"
@@ -2724,7 +2724,7 @@ figure_list:
 
   - id: "fig-339"
     src: "figures/339.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/339/info.json"
     label: "Figure 339"
@@ -2732,7 +2732,7 @@ figure_list:
 
   - id: "fig-340"
     src: "figures/340.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/340/info.json"
     label: "Figure 340"
@@ -2740,7 +2740,7 @@ figure_list:
 
   - id: "fig-341"
     src: "figures/341.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/341/info.json"
     label: "Figure 341"
@@ -2756,7 +2756,7 @@ figure_list:
 
   - id: "fig-343"
     src: "figures/343.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/343/info.json"
     label: "Figure 343"
@@ -2764,7 +2764,7 @@ figure_list:
 
   - id: "fig-344"
     src: "figures/344.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/344/info.json"
     label: "Figure 344"
@@ -2772,7 +2772,7 @@ figure_list:
 
   - id: "fig-345"
     src: "figures/345.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/345/info.json"
     label: "Figure 345"
@@ -2780,7 +2780,7 @@ figure_list:
 
   - id: "fig-346"
     src: "figures/346.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/346/info.json"
     label: "Figure 346"
@@ -2788,7 +2788,7 @@ figure_list:
 
   - id: "fig-347"
     src: "figures/347.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/347/info.json"
     label: "Figure 347"
@@ -2796,7 +2796,7 @@ figure_list:
 
   - id: "fig-348"
     src: "figures/348.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/348/info.json"
     label: "Figure 348"
@@ -2804,7 +2804,7 @@ figure_list:
 
   - id: "fig-349"
     src: "figures/349.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/349/info.json"
     label: "Figure 349"
@@ -2812,7 +2812,7 @@ figure_list:
 
   - id: "fig-350"
     src: "figures/350.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/350/info.json"
     label: "Figure 350"
@@ -2820,7 +2820,7 @@ figure_list:
 
   - id: "fig-351"
     src: "figures/351.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/351/info.json"
     label: "Figure 351"
@@ -2828,7 +2828,7 @@ figure_list:
 
   - id: "fig-352"
     src: "figures/352.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/352/info.json"
     label: "Figure 352"
@@ -2836,7 +2836,7 @@ figure_list:
 
   - id: "fig-353"
     src: "figures/353.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/353/info.json"
     label: "Figure 353"
@@ -2852,7 +2852,7 @@ figure_list:
 
   - id: "fig-355"
     src: "figures/355.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/355/info.json"
     label: "Figure 355"
@@ -2860,7 +2860,7 @@ figure_list:
 
   - id: "fig-356"
     src: "figures/356.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/356/info.json"
     label: "Figure 356"
@@ -2868,7 +2868,7 @@ figure_list:
 
   - id: "fig-357"
     src: "figures/357.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/357/info.json"
     label: "Figure 357"
@@ -2876,7 +2876,7 @@ figure_list:
 
   - id: "fig-358"
     src: "figures/358.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/358/info.json"
     label: "Figure 358"
@@ -2884,7 +2884,7 @@ figure_list:
 
   - id: "fig-359"
     src: "figures/359.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/359/info.json"
     label: "Figure 359"
@@ -2892,7 +2892,7 @@ figure_list:
 
   - id: "fig-360"
     src: "figures/360.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/360/info.json"
     label: "Figure 360"
@@ -2900,7 +2900,7 @@ figure_list:
 
   - id: "fig-361"
     src: "figures/361.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/361/info.json"
     label: "Figure 361"
@@ -2908,7 +2908,7 @@ figure_list:
 
   - id: "fig-362"
     src: "figures/362.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/362/info.json"
     label: "Figure 362"
@@ -2932,7 +2932,7 @@ figure_list:
 
   - id: "fig-365"
     src: "figures/365.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/365/info.json"
     label: "Figure 365"
@@ -2940,7 +2940,7 @@ figure_list:
 
   - id: "fig-366"
     src: "figures/366.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/366/info.json"
     label: "Figure 366"
@@ -2956,7 +2956,7 @@ figure_list:
 
   - id: "fig-368"
     src: "figures/368.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/368/info.json"
     label: "Figure 368"
@@ -2964,7 +2964,7 @@ figure_list:
 
   - id: "fig-369"
     src: "figures/369.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/369/info.json"
     label: "Figure 369"
@@ -3004,7 +3004,7 @@ figure_list:
 
   - id: "fig-374"
     src: "figures/374.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/374/info.json"
     label: "Figure 374"
@@ -3012,7 +3012,7 @@ figure_list:
 
   - id: "fig-375"
     src: "figures/375.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/375/info.json"
     label: "Figure 375"
@@ -3036,7 +3036,7 @@ figure_list:
 
   - id: "fig-378"
     src: "figures/378.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/378/info.json"
     label: "Figure 378"
@@ -3052,7 +3052,7 @@ figure_list:
 
   - id: "fig-380"
     src: "figures/380.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/380/info.json"
     label: "Figure 380"
@@ -3092,7 +3092,7 @@ figure_list:
 
   - id: "fig-385"
     src: "figures/385.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/385/info.json"
     label: "Figure 385"
@@ -3100,7 +3100,7 @@ figure_list:
 
   - id: "fig-386"
     src: "figures/386.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/386/info.json"
     label: "Figure 386"
@@ -3124,7 +3124,7 @@ figure_list:
 
   - id: "fig-389"
     src: "figures/389.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/389/info.json"
     label: "Figure 389"
@@ -3156,7 +3156,7 @@ figure_list:
 
   - id: "fig-393"
     src: "figures/393.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/393/info.json"
     label: "Figure 393"
@@ -3164,7 +3164,7 @@ figure_list:
 
   - id: "fig-394"
     src: "figures/394.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/394/info.json"
     label: "Figure 394"
@@ -3172,7 +3172,7 @@ figure_list:
 
   - id: "fig-395"
     src: "figures/395.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/395/info.json"
     label: "Figure 395"
@@ -3180,7 +3180,7 @@ figure_list:
 
   - id: "fig-396"
     src: "figures/396.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/396/info.json"
     label: "Figure 396"
@@ -3188,7 +3188,7 @@ figure_list:
 
   - id: "fig-397"
     src: "figures/397.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/397/info.json"
     label: "Figure 397"
@@ -3196,7 +3196,7 @@ figure_list:
 
   - id: "fig-398"
     src: "figures/398.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/398/info.json"
     label: "Figure 398"
@@ -3204,7 +3204,7 @@ figure_list:
 
   - id: "fig-399"
     src: "figures/399.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/399/info.json"
     label: "Figure 399"
@@ -3212,7 +3212,7 @@ figure_list:
 
   - id: "fig-400"
     src: "figures/400.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/400/info.json"
     label: "Figure 400"
@@ -3228,7 +3228,7 @@ figure_list:
 
   - id: "fig-402"
     src: "figures/402.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/402/info.json"
     label: "Figure 402"
@@ -3252,7 +3252,7 @@ figure_list:
 
   - id: "fig-405"
     src: "figures/405.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/405/info.json"
     label: "Figure 405"
@@ -3260,7 +3260,7 @@ figure_list:
 
   - id: "fig-406"
     src: "figures/406.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/406/info.json"
     label: "Figure 406"
@@ -3268,7 +3268,7 @@ figure_list:
 
   - id: "fig-407"
     src: "figures/407.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/407/info.json"
     label: "Figure 407"
@@ -3284,7 +3284,7 @@ figure_list:
 
   - id: "fig-409"
     src: "figures/409.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/409/info.json"
     label: "Figure 409"
@@ -3292,7 +3292,7 @@ figure_list:
 
   - id: "fig-410"
     src: "figures/410.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/410/info.json"
     label: "Figure 410"
@@ -3300,7 +3300,7 @@ figure_list:
 
   - id: "fig-411"
     src: "figures/411.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/411/info.json"
     label: "Figure 411"
@@ -3308,7 +3308,7 @@ figure_list:
 
   - id: "fig-412"
     src: "figures/412.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/412/info.json"
     label: "Figure 412"
@@ -3316,7 +3316,7 @@ figure_list:
 
   - id: "fig-413"
     src: "figures/413.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/413/info.json"
     label: "Figure 413"
@@ -3340,7 +3340,7 @@ figure_list:
 
   - id: "fig-416"
     src: "figures/416.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/416/info.json"
     label: "Figure 416"
@@ -3364,7 +3364,7 @@ figure_list:
 
   - id: "fig-419"
     src: "figures/419.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/419/info.json"
     label: "Figure 419"
@@ -3372,7 +3372,7 @@ figure_list:
 
   - id: "fig-420"
     src: "figures/420.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/420/info.json"
     label: "Figure 420"
@@ -3404,7 +3404,7 @@ figure_list:
 
   - id: "fig-424"
     src: "figures/424.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/424/info.json"
     label: "Figure 424"
@@ -3460,7 +3460,7 @@ figure_list:
 
   - id: "fig-431"
     src: "figures/431.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/431/info.json"
     label: "Figure 431"
@@ -3500,7 +3500,7 @@ figure_list:
 
   - id: "fig-436"
     src: "figures/436.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/436/info.json"
     label: "Figure 436"
@@ -3516,7 +3516,7 @@ figure_list:
 
   - id: "fig-438"
     src: "figures/438.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/438/info.json"
     label: "Figure 438"
@@ -3524,7 +3524,7 @@ figure_list:
 
   - id: "fig-439"
     src: "figures/439.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/439/info.json"
     label: "Figure 439"
@@ -3532,7 +3532,7 @@ figure_list:
 
   - id: "fig-440"
     src: "figures/440.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/440/info.json"
     label: "Figure 440"
@@ -3540,7 +3540,7 @@ figure_list:
 
   - id: "fig-441"
     src: "figures/441.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/441/info.json"
     label: "Figure 441"
@@ -3548,7 +3548,7 @@ figure_list:
 
   - id: "fig-442"
     src: "figures/442.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/442/info.json"
     label: "Figure 442"
@@ -3556,7 +3556,7 @@ figure_list:
 
   - id: "fig-443"
     src: "figures/443.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/443/info.json"
     label: "Figure 443"
@@ -3564,7 +3564,7 @@ figure_list:
 
   - id: "fig-444"
     src: "figures/444.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/444/info.json"
     label: "Figure 444"
@@ -3572,7 +3572,7 @@ figure_list:
 
   - id: "fig-445"
     src: "figures/445.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/445/info.json"
     label: "Figure 445"
@@ -3580,7 +3580,7 @@ figure_list:
 
   - id: "fig-446"
     src: "figures/446.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/446/info.json"
     label: "Figure 446"
@@ -3596,7 +3596,7 @@ figure_list:
 
   - id: "fig-448"
     src: "figures/448.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/448/info.json"
     label: "Figure 448"
@@ -3604,7 +3604,7 @@ figure_list:
 
   - id: "fig-449"
     src: "figures/449.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/449/info.json"
     label: "Figure 449"
@@ -3612,7 +3612,7 @@ figure_list:
 
   - id: "fig-450"
     src: "figures/450.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/450/info.json"
     label: "Figure 450"
@@ -3620,7 +3620,7 @@ figure_list:
 
   - id: "fig-451"
     src: "figures/451.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/451/info.json"
     label: "Figure 451"
@@ -3628,7 +3628,7 @@ figure_list:
 
   - id: "fig-452"
     src: "figures/452.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/452/info.json"
     label: "Figure 452"
@@ -3636,7 +3636,7 @@ figure_list:
 
   - id: "fig-453"
     src: "figures/453.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/453/info.json"
     label: "Figure 453"
@@ -3644,7 +3644,7 @@ figure_list:
 
   - id: "fig-454"
     src: "figures/454.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/454/info.json"
     label: "Figure 454"
@@ -3652,7 +3652,7 @@ figure_list:
 
   - id: "fig-455"
     src: "figures/455.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/455/info.json"
     label: "Figure 455"
@@ -3660,7 +3660,7 @@ figure_list:
 
   - id: "fig-456"
     src: "figures/456.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/456/info.json"
     label: "Figure 456"
@@ -3676,7 +3676,7 @@ figure_list:
 
   - id: "fig-458"
     src: "figures/458.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/458/info.json"
     label: "Figure 458"
@@ -3684,7 +3684,7 @@ figure_list:
 
   - id: "fig-459"
     src: "figures/459.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/459/info.json"
     label: "Figure 459"
@@ -3700,7 +3700,7 @@ figure_list:
 
   - id: "fig-461"
     src: "figures/461.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/461/info.json"
     label: "Figure 461"
@@ -3708,7 +3708,7 @@ figure_list:
 
   - id: "fig-462"
     src: "figures/462.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/462/info.json"
     label: "Figure 462"
@@ -3732,7 +3732,7 @@ figure_list:
 
   - id: "fig-465"
     src: "figures/465.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/465/info.json"
     label: "Figure 465"
@@ -3740,7 +3740,7 @@ figure_list:
 
   - id: "fig-466"
     src: "figures/466.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/466/info.json"
     label: "Figure 466"
@@ -3764,7 +3764,7 @@ figure_list:
 
   - id: "fig-469"
     src: "figures/469.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/469/info.json"
     label: "Figure 469"
@@ -3772,7 +3772,7 @@ figure_list:
 
   - id: "fig-470"
     src: "figures/470.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/470/info.json"
     label: "Figure 470"
@@ -3780,7 +3780,7 @@ figure_list:
 
   - id: "fig-471"
     src: "figures/471.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/471/info.json"
     label: "Figure 471"
@@ -3828,7 +3828,7 @@ figure_list:
 
   - id: "fig-477"
     src: "figures/477.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/477/info.json"
     label: "Figure 477"
@@ -3852,7 +3852,7 @@ figure_list:
 
   - id: "fig-480"
     src: "figures/480.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/480/info.json"
     label: "Figure 480"
@@ -3860,7 +3860,7 @@ figure_list:
 
   - id: "fig-481"
     src: "figures/481.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/481/info.json"
     label: "Figure 481"
@@ -3868,7 +3868,7 @@ figure_list:
 
   - id: "fig-482"
     src: "figures/482.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/482/info.json"
     label: "Figure 482"
@@ -3876,7 +3876,7 @@ figure_list:
 
   - id: "fig-483"
     src: "figures/483.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/483/info.json"
     label: "Figure 483"
@@ -3884,7 +3884,7 @@ figure_list:
 
   - id: "fig-484"
     src: "figures/484.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/484/info.json"
     label: "Figure 484"
@@ -3900,7 +3900,7 @@ figure_list:
 
   - id: "fig-486"
     src: "figures/486.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/486/info.json"
     label: "Figure 486"
@@ -3996,7 +3996,7 @@ figure_list:
 
   - id: "fig-498"
     src: "figures/498.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/498/info.json"
     label: "Figure 498"
@@ -4012,7 +4012,7 @@ figure_list:
 
   - id: "fig-500"
     src: "figures/500.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/500/info.json"
     label: "Figure 500"
@@ -4020,7 +4020,7 @@ figure_list:
 
   - id: "fig-501"
     src: "figures/501.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/501/info.json"
     label: "Figure 501"
@@ -4028,7 +4028,7 @@ figure_list:
 
   - id: "fig-502"
     src: "figures/502.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/502/info.json"
     label: "Figure 502"
@@ -4044,7 +4044,7 @@ figure_list:
 
   - id: "fig-504"
     src: "figures/504.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/504/info.json"
     label: "Figure 504"
@@ -4052,7 +4052,7 @@ figure_list:
 
   - id: "fig-505"
     src: "figures/505.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/505/info.json"
     label: "Figure 505"
@@ -4060,7 +4060,7 @@ figure_list:
 
   - id: "fig-506"
     src: "figures/506.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/506/info.json"
     label: "Figure 506"
@@ -4068,7 +4068,7 @@ figure_list:
 
   - id: "fig-507"
     src: "figures/507.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/507/info.json"
     label: "Figure 507"
@@ -4076,7 +4076,7 @@ figure_list:
 
   - id: "fig-508"
     src: "figures/508.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/508/info.json"
     label: "Figure 508"
@@ -4084,7 +4084,7 @@ figure_list:
 
   - id: "fig-509"
     src: "figures/509.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/509/info.json"
     label: "Figure 509"
@@ -4092,7 +4092,7 @@ figure_list:
 
   - id: "fig-510"
     src: "figures/510.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/510/info.json"
     label: "Figure 510"
@@ -4100,7 +4100,7 @@ figure_list:
 
   - id: "fig-511"
     src: "figures/511.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/511/info.json"
     label: "Figure 511"
@@ -4116,7 +4116,7 @@ figure_list:
 
   - id: "fig-513"
     src: "figures/513.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/513/info.json"
     label: "Figure 513"
@@ -4124,7 +4124,7 @@ figure_list:
 
   - id: "fig-514"
     src: "figures/514.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/514/info.json"
     label: "Figure 514"
@@ -4132,7 +4132,7 @@ figure_list:
 
   - id: "fig-515"
     src: "figures/515.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/515/info.json"
     label: "Figure 515"
@@ -4180,7 +4180,7 @@ figure_list:
 
   - id: "fig-521"
     src: "figures/521.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/521/info.json"
     label: "Figure 521"
@@ -4188,7 +4188,7 @@ figure_list:
 
   - id: "fig-522"
     src: "figures/522.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/522/info.json"
     label: "Figure 522"
@@ -4196,7 +4196,7 @@ figure_list:
 
   - id: "fig-523"
     src: "figures/523.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/523/info.json"
     label: "Figure 523"
@@ -4212,7 +4212,7 @@ figure_list:
 
   - id: "fig-525"
     src: "figures/525.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/525/info.json"
     label: "Figure 525"
@@ -4220,7 +4220,7 @@ figure_list:
 
   - id: "fig-526"
     src: "figures/526.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/526/info.json"
     label: "Figure 526"
@@ -4228,7 +4228,7 @@ figure_list:
 
   - id: "fig-527"
     src: "figures/527.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/527/info.json"
     label: "Figure 527"
@@ -4244,7 +4244,7 @@ figure_list:
 
   - id: "fig-529"
     src: "figures/529.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/529/info.json"
     label: "Figure 529"
@@ -4252,7 +4252,7 @@ figure_list:
 
   - id: "fig-530"
     src: "figures/530.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/530/info.json"
     label: "Figure 530"
@@ -4260,7 +4260,7 @@ figure_list:
 
   - id: "fig-531"
     src: "figures/531.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/531/info.json"
     label: "Figure 531"
@@ -4284,7 +4284,7 @@ figure_list:
 
   - id: "fig-534"
     src: "figures/534.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/534/info.json"
     label: "Figure 534"
@@ -4292,7 +4292,7 @@ figure_list:
 
   - id: "fig-535"
     src: "figures/535.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/535/info.json"
     label: "Figure 535"
@@ -4300,7 +4300,7 @@ figure_list:
 
   - id: "fig-536"
     src: "figures/536.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/536/info.json"
     label: "Figure 536"
@@ -4324,7 +4324,7 @@ figure_list:
 
   - id: "fig-539"
     src: "figures/539.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/539/info.json"
     label: "Figure 539"
@@ -4332,7 +4332,7 @@ figure_list:
 
   - id: "fig-540"
     src: "figures/540.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/540/info.json"
     label: "Figure 540"
@@ -4340,7 +4340,7 @@ figure_list:
 
   - id: "fig-541"
     src: "figures/541.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/541/info.json"
     label: "Figure 541"
@@ -4356,7 +4356,7 @@ figure_list:
 
   - id: "fig-543"
     src: "figures/543.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/543/info.json"
     label: "Figure 543"
@@ -4364,7 +4364,7 @@ figure_list:
 
   - id: "fig-544"
     src: "figures/544.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/544/info.json"
     label: "Figure 544"
@@ -4372,7 +4372,7 @@ figure_list:
 
   - id: "fig-545"
     src: "figures/545.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/545/info.json"
     label: "Figure 545"
@@ -4380,7 +4380,7 @@ figure_list:
 
   - id: "fig-546"
     src: "figures/546.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/546/info.json"
     label: "Figure 546"
@@ -4388,7 +4388,7 @@ figure_list:
 
   - id: "fig-547"
     src: "figures/547.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/547/info.json"
     label: "Figure 547"
@@ -4396,7 +4396,7 @@ figure_list:
 
   - id: "fig-548"
     src: "figures/548.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/548/info.json"
     label: "Figure 548"
@@ -4404,7 +4404,7 @@ figure_list:
 
   - id: "fig-549"
     src: "figures/549.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/549/info.json"
     label: "Figure 549"
@@ -4420,7 +4420,7 @@ figure_list:
 
   - id: "fig-551"
     src: "figures/551.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/551/info.json"
     label: "Figure 551"
@@ -4428,7 +4428,7 @@ figure_list:
 
   - id: "fig-552"
     src: "figures/552.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/552/info.json"
     label: "Figure 552"
@@ -4436,7 +4436,7 @@ figure_list:
 
   - id: "fig-553"
     src: "figures/553.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/553/info.json"
     label: "Figure 553"
@@ -4444,7 +4444,7 @@ figure_list:
 
   - id: "fig-554"
     src: "figures/554.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/554/info.json"
     label: "Figure 554"
@@ -4460,7 +4460,7 @@ figure_list:
 
   - id: "fig-556"
     src: "figures/556.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/556/info.json"
     label: "Figure 556"
@@ -4468,7 +4468,7 @@ figure_list:
 
   - id: "fig-557"
     src: "figures/557.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/557/info.json"
     label: "Figure 557"
@@ -4476,7 +4476,7 @@ figure_list:
 
   - id: "fig-558"
     src: "figures/558.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/558/info.json"
     label: "Figure 558"
@@ -4484,7 +4484,7 @@ figure_list:
 
   - id: "fig-559"
     src: "figures/559.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/559/info.json"
     label: "Figure 559"
@@ -4492,7 +4492,7 @@ figure_list:
 
   - id: "fig-560"
     src: "figures/560.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/560/info.json"
     label: "Figure 560"
@@ -4508,7 +4508,7 @@ figure_list:
 
   - id: "fig-562"
     src: "figures/562.jpg"
-    media_type: iiif
+    # media_type: iiif
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/562/info.json"
     label: "Figure 562"
