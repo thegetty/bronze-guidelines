@@ -62,6 +62,9 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
+**_layouts/page.liquid**
+Remove bibliographies from all pages.
+
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
