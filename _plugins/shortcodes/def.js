@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 const chalkFactory = require('~lib/chalk')
 const { renderOneLine } = require('~lib/common-tags')
 const { warn } = chalkFactory('shortcodes:def')

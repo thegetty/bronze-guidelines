@@ -76,7 +76,7 @@ Custom filter to process text with shortcodes in it.
 Added config to remove the default `<hr />` element that was being inserted. Added as Jira issue DEV-12804 for core Quire.
 
 **_plugins/shortcodes/def.js**
-Placeholder shortcode for {% def %} which is to display vocabulary terms.
+Custom shortcode to display vocabulary pop-ups with definitions and links.
 
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
