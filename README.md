@@ -69,7 +69,7 @@ Remove bibliographies from all pages.
 New layout specifically to create grid of all figure images.
 
 **_plugins/filters/index.js**
-**_plugins/filters/processShortcodes.js**
+**_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
 
 **_plugins/markdown/index.js**
