@@ -13,6 +13,8 @@ lang:
   zh: 熔模
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-005, fig-013, fig-016, fig-557, fig-558" %}
 
 ## Sources
@@ -39,9 +41,11 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 Terme réservé à la fonte à la cire perdue. Désigne la partie externe du moule réfractaire, qui peut être en plâtre ou en terre.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: La potée désigne le mélange argileux servant -à l’origine- à fabriquer le moule ({% cite "Félibien 1690" %}, 327; {% cite "Lambert 2002" %}, 216), mais peut aussi parfois désigner le moule réfractaire ({% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274). En anglais, potée et moule de potée sont désignés par le même terme (investment).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

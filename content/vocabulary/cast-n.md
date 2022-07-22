@@ -13,11 +13,13 @@ lang:
   zh: 铸件
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
 
 Note: Both “cast” and “casting” can be correctly used as nouns, but the former is more common.
 
-</div>
+{% endbackmatter %}
 
 ## Synonym
 

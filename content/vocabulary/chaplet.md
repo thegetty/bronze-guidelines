@@ -1,5 +1,6 @@
 ---
 title: chaplet
+aliases: [chaplets]
 order: 465
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 墊片
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: The term “chaplet” has occasionally been used in the context of technical studies to refer to nails or pins that extend from the core to the mold and serve to hold the core in place ({% cite "Beale 1975" %}, {% cite "Mattusch 1996" %}). More commonly these are referred to as {% def "core pins" %}.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
@@ -58,9 +63,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 Petite plaque métallique disposée sur le noyau ou sur la paroi interne du moule réfractaire pour maintenir le noyau en place lors de la coulée, et dont l’épaisseur déterminera l’épaisseur de la fonte.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissance pour décrire un élément rencontré dans plusieurs bronzes anciens, le terme « cale à noyau » a été proposé et soumis à l’approbation des membres francophones de CASTING. Certains auteurs ({% cite "Bader and Théret 1961" %}) précisent que « ce sont de petites cales métalliques » pour fonte au sable. D’autres qu’elles servent « à le caler dans sa position » ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Tous donnent la traduction en anglais « chaplet ».
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 
@@ -85,9 +92,11 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 ### **Chinese**: {{ lang.zh }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: This term has several translations, including “chaplet,” “shim,” “spacer,” “gasket,” etc.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

@@ -13,9 +13,13 @@ lang:
   zh: 铸件表面加工
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to {% def "engraving" %}.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
@@ -48,9 +52,11 @@ Other: {% cite "Van Langh 2012" %}
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Le terme a un sens plus général que celui utilisé par les orfèvres et monteurs en bronze, pour qui la ciselure désigne exclusivement le travail réalisé au ciselet ({% cite "Félibien 1690" %}, 337; {% cite "De Bois 1999" %}), par opposition à la gravure ({% cite "Hamm 1924" %}, 269; {% cite "De Bois 1999" %}). Aujourd’hui en fonderie d’art, si la réparure comprend tout le gros œuvre sur le bronze au sortir du moule (opération de décochage), souvent exécuté à l’outil tournant, la ciselure n’intervient qu’après et est le fait d’un savoir-faire spécifique.
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

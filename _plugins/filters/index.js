@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 // Quire data filters
 const figureIIIF = require('./figureIIIF')
 const fullname = require('./fullname')
@@ -5,6 +8,7 @@ const getContributor = require('./getContributor')
 const getFigure = require('./getFigure')
 const getObject = require('./getObject')
 const hasCanvasPanelProps = require('./hasCanvasPanelProps')
+const hasShortcodes = require('./hasShortcodes')
 const initials = require('./initials')
 const isImageService = require('./isImageService')
 const sortContributors = require('./sortContributors')
@@ -38,6 +42,8 @@ module.exports = function(eleventyConfig, options) {
   eleventyConfig.addFilter('getObject', (id) => getObject(eleventyConfig, id))
 
   eleventyConfig.addFilter('hasCanvasPanelProps', (figure, options) => hasCanvasPanelProps(figure, options))
+
+  eleventyConfig.addFilter('hasShortcodes', (text) => hasShortcodes(text))
 
   eleventyConfig.addFilter('isImageService', (figure, options) => isImageService(figure, options))
 

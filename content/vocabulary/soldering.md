@@ -13,9 +13,13 @@ lang:
   zh: 焊接
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: The use of hard solder (a silver alloy) is sometimes referred to as brazing, but to avoid confusion, we suggest it should be referred to as soldering.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-187, fig-364, fig-488" %}
 
@@ -53,9 +57,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », procédé utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634). La brasure désigne aussi bien le métal de brasure ({% cite "Bader and Théret 1961" %}, 102) que l’assemblage lui-même.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

@@ -13,6 +13,8 @@ lang:
   zh: fusione a staffa
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
 
 ## Sources
@@ -45,9 +47,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
 Technique de fonderie utilisant un moule réfractaire en sable.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Dans les textes anciens, le terme de sable est parfois ambigu et peut faire référence à d’autres matières (terre, voire cire) et donc à des procédés autres que la fonte au sable ({% cite "Lebon 2012" %}).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

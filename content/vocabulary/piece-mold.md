@@ -1,5 +1,6 @@
 ---
 title: piece mold
+aliases: [piece-mold]
 order: 620
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 块范
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of bronze sculpture, the term may denote molds used to cast {% def "inter-models" %} in the indirect lost-wax process. Sand casting molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece-mold casting process (aka “section-mold process”), baked {% def "refractory mold" %} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](/case-studies/3/)).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-009, fig-015, fig-018, fig-025, fig-026, fig-062, fig-074, fig-111, fig-116, fig-536, fig-556" %}
 
@@ -45,9 +50,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 Moule constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: pour la sculpture en bronze, un moule à pièces peut aussi bien désigner un moule à bon creux (pour la cire donc), un moule pour fonte au sable, qu’un moule pour la fonte à pièces (voir [Case Study 3](/case-studies/3/) et aussi {% cite "Rama 1988" %}, 196). Il arrive que les moules des très grands bronzes doivent être conçus en plusieurs sections non pas à cause de contre dépouilles, mais pour diminuer la trop grande adhérence du moule sur la surface du modèle et ainsi faciliter le démoulage (Andrew Lacey, pers. comm., July 2021).
-</div>
+
+{% endbackmatter %}
 
 #### Source
 

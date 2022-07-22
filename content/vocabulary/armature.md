@@ -1,17 +1,20 @@
 ---
 title: armature
+aliases: [armatures]
 order: 410
 layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: "**Assemblage of joined metal rods**, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax bronze, the armature is created to support the model, whether it is hollow or solid. In the case of a hollow cast, it will further help support the refractory mass of the core during the pour (see [GI](#GI)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., *large archaeological bronzes*)."
+definition: "Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax bronze, the armature is created to support the model, whether it is hollow or solid. In the case of a hollow cast, it will further help support the refractory mass of the core during the pour (see [GI](#GI)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes)."
 lang:
   de: Kerneisen
   fr: armature
   it: armatura
   zh: 塑像內部支架
 ---
+
+{{ definition }}
 
 {% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 
@@ -47,11 +50,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le noyau, et plus généralement le modèle. Ils peuvent se trouver dans le moule réfractaire pour le rendre plus résistant lors de sa manipulation et lors de la coulée. Une cire pleine peut être armée. Peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les fondeurs pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

@@ -13,9 +13,13 @@ lang:
   zh: 轻敲
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-246" %}
 
@@ -41,9 +45,11 @@ Copper Industry: {% cite "Palmer 1929" %}, 294
 
 Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la porosité ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening ». S’apparente à la fois au matage et au grenaillage.
-</div>
+
+{% endbackmatter %}
 
 ### **Italian**: *{{ lang.it }}*
 

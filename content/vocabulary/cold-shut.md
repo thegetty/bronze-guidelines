@@ -1,17 +1,20 @@
 ---
 title: cold shut
+aliases: [cold shuts]
 order: 490
 layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The interface where two streams of metal come together in the mold but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a cast caused by premature cooling ({Rome and Young 2003}, 303). The cooled metal edges will be rounded in profile.'
+definition: 'The interface where two streams of metal come together in the mold but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a cast caused by premature cooling ({% cite "Rome and Young 2003" %}, 303). The cooled metal edges will be rounded in profile.'
 lang:
   de: Kaltguss
   fr: reprise
   it: accostatura
   zh: 冷界
 ---
+
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-006, fig-159" %}
 

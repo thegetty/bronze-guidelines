@@ -1,5 +1,6 @@
 ---
 title: core
+aliases: [cores]
 order: 495
 layout: page
 tags: vocabulary
@@ -12,6 +13,8 @@ lang:
   it: anima
   zh: 芯型
 ---
+
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" %}
 
