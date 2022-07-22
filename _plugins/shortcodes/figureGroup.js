@@ -15,7 +15,6 @@ const { warn } = chalkFactory('shortcodes:figureGroup')
  * @return     {String}  An HTML string of the elements to render
  */
 module.exports = function (eleventyConfig, { page }) {
-  console.log("figuregroup --" + page.url)
   return async function (columns, ids=[]) {
     columns = parseInt(columns)
 

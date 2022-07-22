@@ -30,7 +30,6 @@ const { warn } = chalkFactory('shortcodes:cite')
  *  renders the citation "1909"
  */
 module.exports = function(eleventyConfig, { page }) {
-  console.log("cite --" + page.url)
   const markdownify = eleventyConfig.getFilter('markdownify')
 
   const {
