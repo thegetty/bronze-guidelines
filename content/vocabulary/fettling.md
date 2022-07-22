@@ -13,6 +13,8 @@ lang:
   zh: 清砂
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-104, fig-552" %}
 
 ## To Be Distinguished From
@@ -49,9 +51,11 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du moule, avant ciselure et/ou patination.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Suivant les périodes et l’organisation de l’atelier la réparure peut être subdivisée en plusieurs opérations distinctes et conduire, de fait, à des termes plus spécialisés. Au 19e siècle par exemple, la réparure consiste, dans l’ordre, en l’ ébarbage, le rachevage, la réparure proprement dite, et la ciselure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633; {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Grandpierre and Avale 1867" %}, 8n1).
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

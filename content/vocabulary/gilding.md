@@ -13,6 +13,8 @@ lang:
   zh: 镀金
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555" %}
 
 ## Sources
@@ -33,9 +35,11 @@ Cultural Heritage: {% cite "Drayman-Weisser 2000" %}; {% cite "Oddy 1993" %}; {%
 
 Opération consistant à appliquer une couche d’or en surface, quel que soit le procédé. Désigne également le résultat.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {% cite "Félibien 1690" %}, mais uniquement du verbe (« dorer », p. 334).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

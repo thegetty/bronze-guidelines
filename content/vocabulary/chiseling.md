@@ -13,9 +13,13 @@ lang:
   zh: 凿
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: This term is sometimes incorrectly used to define all steps to remove metal as well as to compress it (actions that should be referred to as “chasing”). This is an inaccuracy possibly stemming from the French term *ciselure* (which translates to “chaser,” not “chiseler”).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
 

@@ -1,5 +1,6 @@
 ---
 title: overlay
+aliases: [overlays]
 order: 600
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 包覆
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-223, fig-340, fig-346, fig-347" %}
 
@@ -54,9 +59,11 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« inlay » en anglais) d’un élément formant relief (« overlay »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

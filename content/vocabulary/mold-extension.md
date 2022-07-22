@@ -1,5 +1,6 @@
 ---
 title: mold extension
+aliases: [mold extensions]
 order: 595
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 自帶泥芯撐
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and armature. The hole may later be sealed with a metal patch.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-041, fig-122, fig-123" %}
 
@@ -41,9 +46,11 @@ Other: {% cite "Smith and Sepponen 2019" %}
 
 Partie intégrante du noyau ou partie rajoutée (fonte au sable), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la coulée.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la rencontre également dans les procédés à la cire perdue anciens.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

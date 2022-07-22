@@ -1,5 +1,6 @@
 ---
-title: chef modèle
+title: chef-modèle
+aliases: [chef-modèles]
 order: 475
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 主铸型
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often cast in sections to allow their removal from the sand mold without damaging the piece-mold sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {% def "after-cast" %}.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
@@ -37,9 +42,11 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la fonte au sable.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle original de l’artiste.
-</div>
+
+{% endbackmatter %}
 
 <br />
 

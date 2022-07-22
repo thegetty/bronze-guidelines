@@ -13,9 +13,13 @@ lang:
   zh: 气孔
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](#I.3)).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
@@ -37,9 +41,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 
 Défaut de fonderie caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Il est fréquent de caractériser la qualité d’une fonte par son degré de porosité. On parle de porosité ouverte quand elle débouche en surface, de porosité fermée sinon. Des termes plus spécifiques sont souvent également employés : cavité ({% cite "Hénon, Mascré, and Blanc 1971" %}, 22), crique ({% cite "Rama 1988" %}, 326).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

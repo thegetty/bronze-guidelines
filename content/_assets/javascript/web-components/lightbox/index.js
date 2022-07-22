@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 import { LitElement, css, html } from 'lit';
 import { unsafeHTML } from 'lit-html/directives/unsafe-html.js';
 

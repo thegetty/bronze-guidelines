@@ -1,0 +1,9 @@
+{%- comment -%}
+   CUSTOMIZED FILE -- Bronze Guidelines
+{%- endcomment -%}
+
+{%- for page in collections.vocabulary -%}
+  {%- if page.data.title == term -%}
+    <span class="quire-citation quire-definition expandable"><span class="quire-citation__button quire-definition__button" role="button" tabindex="0" aria-expanded="false">{% if display %}{{ display }}{% else %}{{ term }}{% endif %}</span><span hidden class="quire-citation__content quire-definition__content"><span class="visually-hidden">Definition: </span><strong>{{ page.data.title }}: </strong>{{ page.data.definition | remove: "{% def \"" | remove: "\" %}" | truncate: 240 }} <a href="{{ page.url }}" class="quire-definition__content__more-link">More</a></span></span>
+  {%- endif -%}
+{%- endfor -%}

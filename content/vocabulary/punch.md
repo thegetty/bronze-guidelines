@@ -1,5 +1,6 @@
 ---
 title: punch
+aliases: [punches]
 order: 640
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 冲头
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: During chasing, a number of punches with a variety of custom-made textures are often used, allowing a range of possible surface patterns. The texture of some punches may be confused with peening.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
 

@@ -1,5 +1,6 @@
 ---
 title: refractory mold
+aliases: [refractory molds]
 order: 645
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 耐火模具
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: When present, the core is considered part of the refractory mold. It may be designated as the inner refractory mold as opposed to the outer refractory mold. The material used for the refractory mold tends to be similar to—if not the same as—that of the core. To avoid confusion between types of refractory molds, spelling out the nature of the mold is recommended. An {% def "investment" %} is a type of refractory mold used specifically for lost-wax casting.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
 
@@ -48,9 +53,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 Moule en matériau réfractaire pour la coulée.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Bien que le terme de moule réfractaire soit relativement peu utilisé – « moule » lui étant préféré, il permet d’éviter les confusions avec tous les types de moule susceptibles d’intervenir dans la fabrication d’un bronze (voir terme « moule »). Noter que quand il est présent, le noyau est considéré comme faisant partie du moule réfractaire. Il peut alors être désigné comme une partie interne du moule, par opposition à la partie externe dite aussi chape.
-</div>
+
+{% endbackmatter %}
 
 #### Source
 

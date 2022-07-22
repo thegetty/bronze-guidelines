@@ -13,9 +13,13 @@ lang:
   zh: 收缩
 ---
 
-<div class="backmatter">
+{{ definition }}
+
+{% backmatter %}
+
 Note: Defects resulting from shrinkage may also be called “shrinkage” ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). To avoid confusion, we recommend that such casting defects be referred to as “shrinkage porosity” ({% cite "Campbell 2015" %}).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-041" %}
 

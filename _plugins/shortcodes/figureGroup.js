@@ -1,6 +1,6 @@
-// REWRITTEN FOR BRONZE GUIDELINES TO JUST OUTPUT A WRAPPED SET OF FIGURES
-// WITHOUTH THE BREAKDOWN INTO INDIVIDUAL ROWS
-
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 const { html } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')
 const figure = require('./figure')
@@ -15,7 +15,6 @@ const { warn } = chalkFactory('shortcodes:figureGroup')
  * @return     {String}  An HTML string of the elements to render
  */
 module.exports = function (eleventyConfig, { page }) {
-
   return async function (columns, ids=[]) {
     columns = parseInt(columns)
 

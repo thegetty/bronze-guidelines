@@ -1,5 +1,6 @@
 ---
 title: core pin
+aliases: [core pins]
 order: 500
 layout: page
 tags: vocabulary
@@ -13,9 +14,13 @@ lang:
   zh: 支釘
 ---
 
-<div class="backmatter">
+{{ definition | hasShortcodes }}
+
+{% backmatter %}
+
 Note: The term “transverse core pin” (or “transfixing core pin”) is used to describe long core pins that extend through both sides of the core (e.g., straight through a limb) (**figs. 35, 64, 122**).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-035, fig-036, fig-037, fig-122, fig-547" %}
 

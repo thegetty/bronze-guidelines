@@ -13,6 +13,8 @@ lang:
   zh: 可铸性
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-437, fig-438" %}
 
 ## To Be Distinguished From
