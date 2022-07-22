@@ -1,5 +1,6 @@
 ---
 title: as-cast surface
+aliases: [as-cast surfaces]
 order: 415
 layout: page
 tags: vocabulary

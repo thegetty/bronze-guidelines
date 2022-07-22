@@ -1,5 +1,6 @@
 ---
 title: chaplet
+aliases: [chaplets]
 order: 465
 layout: page
 tags: vocabulary

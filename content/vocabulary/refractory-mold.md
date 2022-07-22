@@ -1,5 +1,6 @@
 ---
 title: refractory mold
+aliases: [refractory molds]
 order: 645
 layout: page
 tags: vocabulary

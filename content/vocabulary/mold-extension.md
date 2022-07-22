@@ -1,5 +1,6 @@
 ---
 title: mold extension
+aliases: [mold extensions]
 order: 595
 layout: page
 tags: vocabulary

@@ -1,5 +1,6 @@
 ---
 title: replica
+aliases: [replicas]
 order: 650
 layout: page
 tags: vocabulary

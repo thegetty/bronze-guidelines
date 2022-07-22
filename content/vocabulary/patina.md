@@ -1,5 +1,6 @@
 ---
 title: patina
+aliases: [patinas]
 order: 610
 layout: page
 tags: vocabulary

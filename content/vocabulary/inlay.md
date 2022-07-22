@@ -1,5 +1,6 @@
 ---
 title: inlay
+aliases: [inlays]
 order: 550
 layout: page
 tags: vocabulary

@@ -1,5 +1,6 @@
 ---
 title: armature
+aliases: [armatures]
 order: 410
 layout: page
 tags: vocabulary

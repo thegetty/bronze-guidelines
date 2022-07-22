@@ -1,5 +1,6 @@
 ---
 title: cold shut
+aliases: [cold shuts]
 order: 490
 layout: page
 tags: vocabulary

@@ -1,5 +1,6 @@
 ---
 title: punch
+aliases: [punches]
 order: 640
 layout: page
 tags: vocabulary

@@ -1,5 +1,6 @@
 ---
 title: core support
+aliases: [core supports]
 order: 505
 layout: page
 tags: vocabulary

@@ -1,5 +1,6 @@
 ---
 title: core
+aliases: [cores]
 order: 495
 layout: page
 tags: vocabulary

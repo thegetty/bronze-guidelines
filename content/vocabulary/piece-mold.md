@@ -1,5 +1,6 @@
 ---
 title: piece mold
+aliases: [piece-mold]
 order: 620
 layout: page
 tags: vocabulary

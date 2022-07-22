@@ -1,5 +1,6 @@
 ---
 title: founder
+aliases: [founders]
 order: 535
 layout: page
 tags: vocabulary

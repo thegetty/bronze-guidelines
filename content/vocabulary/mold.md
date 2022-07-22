@@ -1,5 +1,6 @@
 ---
 title: mold
+aliases: [molds]
 order: 590
 layout: page
 tags: vocabulary

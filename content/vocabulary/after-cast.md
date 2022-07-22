@@ -1,5 +1,6 @@
 ---
 title: after-cast
+aliases: [after-casts]
 order: 405
 layout: page
 tags: vocabulary

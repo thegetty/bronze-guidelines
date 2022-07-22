@@ -1,5 +1,6 @@
 ---
 title: inter-model
+aliases: [inter-models]
 order: 555
 layout: page
 tags: vocabulary

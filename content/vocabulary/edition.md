@@ -1,5 +1,6 @@
 ---
 title: edition
+aliases: [editions]
 order: 515
 layout: page
 tags: vocabulary

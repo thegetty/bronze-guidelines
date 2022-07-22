@@ -1,5 +1,6 @@
 ---
 title: overlay
+aliases: [overlays]
 order: 600
 layout: page
 tags: vocabulary

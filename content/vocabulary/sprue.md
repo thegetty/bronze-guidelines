@@ -1,5 +1,6 @@
 ---
 title: sprue
+aliases: [sprues]
 order: 680
 layout: page
 tags: vocabulary

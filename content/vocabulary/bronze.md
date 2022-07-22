@@ -1,5 +1,6 @@
 ---
 title: bronze
+aliases: [bronzes]
 order: 430
 layout: page
 tags: vocabulary

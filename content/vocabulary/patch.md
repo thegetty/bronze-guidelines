@@ -1,5 +1,6 @@
 ---
 title: patch
+aliases: [patches]
 order: 605
 layout: page
 tags: vocabulary

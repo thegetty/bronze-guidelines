@@ -1,5 +1,6 @@
 ---
 title: core pin
+aliases: [core pins]
 order: 500
 layout: page
 tags: vocabulary

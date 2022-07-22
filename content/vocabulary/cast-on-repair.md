@@ -1,5 +1,6 @@
 ---
 title: cast-on repair
+aliases: [cast-on repairs]
 order: 445
 layout: page
 tags: vocabulary

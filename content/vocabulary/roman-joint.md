@@ -1,5 +1,6 @@
 ---
 title: Roman joint
+aliases: [roman joints]
 order: 655
 layout: page
 tags: vocabulary

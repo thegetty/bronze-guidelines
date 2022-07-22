@@ -1,5 +1,6 @@
 ---
-title: chef modèle
+title: chef-modèle
+aliases: [chef-modèles]
 order: 475
 layout: page
 tags: vocabulary

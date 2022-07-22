@@ -1,5 +1,6 @@
 ---
 title: plug
+aliases: [plugs]
 order: 625
 layout: page
 tags: vocabulary
