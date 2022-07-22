@@ -64,9 +64,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé ({% cite "Delon 1877" %}, 178) pour désigner spécifiquement l’opérateur ({% cite "Lambert 2002" %}, 13), le fondeur désigne plutôt un industriel, par opposition au bronzier ou bronzeur. Le terme de fondeur trouve de nombreuses déclinaisons plus ou moins spécifiques. Citons notamment fondeur d’art, fondeur d’ornement ({% cite "Rama 1988" %}, 22), sculpteur-fondeur ({% cite "Bresc-Bautier 1989" %}).
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

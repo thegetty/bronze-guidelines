@@ -42,9 +42,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la brasure, à la soudure et même à la coulée secondaire sont également possibles.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Le métal peut être très différent de celui du bronze à réparer (voir par exemple CAST:ING 2018).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

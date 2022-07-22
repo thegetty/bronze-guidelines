@@ -15,9 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: In sand casting, a foundry model is referred to as a “pattern” or “{% def "chef-modèle" %}.”
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
@@ -39,9 +41,11 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 
 Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un moule pour une fonte, tant pour la cire perdue que pour la fonte au sable. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., chef-modèle pour la fonte au sable).
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop long : on lui préfère le terme de « modèle ». Cependant, pour éviter les confusions, nous recommandons vivement d’employer le terme complet.
-</div>
+
+{% endbackmatter %}
 
 #### Alternate Translations
 

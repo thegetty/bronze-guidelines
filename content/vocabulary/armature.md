@@ -50,11 +50,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le noyau, et plus généralement le modèle. Ils peuvent se trouver dans le moule réfractaire pour le rendre plus résistant lors de sa manipulation et lors de la coulée. Une cire pleine peut être armée. Peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les fondeurs pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

@@ -15,9 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Engraving may be undertaken in the chasing process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#S2.3).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 

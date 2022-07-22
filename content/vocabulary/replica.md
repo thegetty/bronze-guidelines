@@ -16,9 +16,11 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Slight differences are inevitable between replicas due to deterioration of the {% def "mold" %} or variations in the finishing of the wax or {% def "chasing" %} of the bronze. With regard to modern bronze production, a {% def "replica" %} may refer specifically to a cast made by someone other than the artist, but who is under license to make the cast. An “artist’s replica” is a cast made by the artist or someone sanctioned by the artist. An “authenticated replica” is certified as having been made by the artist or someone sanctioned by the artist (see [Tate Papers No. 8](https://www.tate.org.uk/research/publications/tate-papers/08/terminology-for-further-expansion)).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-554" %}
 
@@ -48,9 +50,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même modèle. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](/vol-2/4/#S1.1.1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Non spécifique au bronze. On parle de « multiples » pour désigner plusieurs épreuves ({% cite "Lebon et al. 2016" %}, 330).
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

@@ -15,9 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](#I.5), **video 12**.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
@@ -50,9 +52,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au brasage qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: L’assemblage peut se faire sans apport de métal, par soudure dite autogène ({% cite "Bader and Théret 1961" %}, par exemple au moyen d’un arc électrique ou d’un TIG). L’assemblage peut aussi se faire par apport d’un métal de composition proche de celui des parties à assembler. Pour la sculpture en bronze et en particulier les grands bronzes antiques, on parle de soudage par fusion au bronze liquide ({% cite "Azéma and Mille 2013b" %}). Dans l’industrie moderne, le soudage des métaux peut se faire à l’état solide, sans fusion, par exemple par soudage par diffusion, cf {% cite "Murry 1994" %}).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

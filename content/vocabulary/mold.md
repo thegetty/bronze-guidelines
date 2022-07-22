@@ -16,9 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](#I.1).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
@@ -54,9 +56,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Dans l’industrie moderne, le moule désigne généralement le moule réfractaire (voir « moule de potée »).
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

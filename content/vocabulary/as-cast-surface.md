@@ -16,11 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: The quality of the as-cast surface varies depending on the characteristics of the refractory mold. It may include oxidized metal, refractory mold remains, flashes, or casting flaws and imperfections. An artist or foundry may choose to preserve the surface as-cast without much further refinishing.
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
@@ -53,11 +53,11 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 
 Surface du bronze en sortie de moule réfractaire, juste après le décochage, avant la réparure.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Une belle surface faisant apparaître la qualité de la « peau de pièce » peut être obtenue par un choix judicieux d’alliage, de température de coulée, de température du moule, mais surtout par la qualité du moule réfractaire.
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

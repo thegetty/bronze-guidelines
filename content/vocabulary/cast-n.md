@@ -15,11 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Both “cast” and “casting” can be correctly used as nouns, but the former is more common.
 
-</div>
+{% endbackmatter %}
 
 ## Synonym
 

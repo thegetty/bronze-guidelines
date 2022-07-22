@@ -15,11 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: In industry, brazing is often defined as a joining method using a filler metal with a melting point above 450°C, which includes both copper-based and silver-based (hard solder) alloys. In cultural heritage settings, it may be impractical to identify the alloy and melting point of the filler metal. To avoid confusion, we suggest that white filler metal be referred to as solder.
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-188, fig-206, fig-229" %}
 
@@ -52,11 +52,11 @@ Other: {% cite "Scott 1991" %}, 138
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », celui utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634). Par ailleurs, la brasure désigne le métal de brasure ({% cite "Bader and Théret 1961" %}, 102) ainsi que l’assemblage lui-même.
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

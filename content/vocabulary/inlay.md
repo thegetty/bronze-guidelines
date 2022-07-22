@@ -16,9 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: The terms “inlay” and “{% def "overlay" %}” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
 

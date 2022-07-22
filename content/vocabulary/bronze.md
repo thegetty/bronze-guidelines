@@ -16,11 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: In common parlance, most copper alloy sculptures are referred to as “bronzes” regardless of the alloy’s actual elemental composition.
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-133, fig-134" %}
 
@@ -50,11 +50,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
 Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({% cite "Félibien 1690" %}, 333; {% cite "Launay 1827" %}, 2:251–52; {% cite "Hamm 1924" %}, 83; voir aussi [I.2](#I.2)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Le terme désigne souvent tout objet fabriqué en alliage à base de cuivre.
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

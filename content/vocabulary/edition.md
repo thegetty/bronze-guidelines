@@ -16,9 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in chasing, patination, or deterioration of the molds/chef-modèle over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern bronze casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-261, fig-551" %}
 
@@ -57,9 +59,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545), etc..
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

@@ -16,9 +16,11 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Compared with flashing, which generally forms in uneven, sharp, rough flanges of metal, seam lines on the bronze surface are commonly linear, rounded, and relatively smooth, and run along the high points of convex surfaces. Seam lines are generally removed as part of the {% def "fettling" %} and {% def "chasing" %} processes. Some modern artists leave them intentionally as evidence of the working process (**fig. 75**).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-006, fig-026, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" %}
 

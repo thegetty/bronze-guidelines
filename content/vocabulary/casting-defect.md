@@ -16,11 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the model) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({% cite "Rome and Young 2003" %}).
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-073, fig-150, fig-151, fig-153, fig-154, fig-155, fig-158, fig-159, fig-161" %}
 
@@ -44,11 +44,11 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 
 Défaut non intentionnel dans l’objet survenant lors de la coulée.
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Lambert 2002" %}, 241), fentes, crevasses, déchirures ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »), manques ({% cite "Lambert 2002" %}, 241).
 
-</div>
+{% endbackmatter %}
 
 #### Sources
 

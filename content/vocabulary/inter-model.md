@@ -16,11 +16,11 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: The term is subject to dispute among the CAST:ING members. Depending on discipline and expertise, some initially preferred “wax working model,” “wax intermediary model,” or simply “wax.” The current term was finally agreed upon. An inter-model is a type of casting model or foundry wax, but the latter two refer to any wax model that is destroyed during casting, including those used in direct or indirect lost-wax casting processes.
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" %}
 
@@ -46,9 +46,11 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 
 Modèle en cire utilisé dans le procédé indirect de fonte à la cire perdue, obtenu dans le moule à bon creux.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Terme très débattu parmi les spécialistes du bronze et en particulier les membres de CAST:ING. Il convient de bien distinguer le modèle intermédiaire de « l’épreuve en cire », en l’occurrence la cire telle que directement sortie du moule à bon creux, qui est susceptible d’être retouchée, augmentée, et de conduire ainsi au modèle intermédiaire proprement dit qui sera fidèlement traduit en bronze.
-</div>
+
+{% endbackmatter %}
 
 #### Source
 

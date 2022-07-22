@@ -15,9 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: {% def "Founders" %} do not work with such charts or maps, although strategizing occurs at every stage (e.g., where joints in the wax or metal will occur).
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-367" %}
 
@@ -35,9 +37,11 @@ Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
 Plan de découpage prévu par le fondeur d’une sculpture en plusieurs éléments coulés séparément.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Ce terme est très récent, il a été proposé par Benoît Mille comme élément technique susceptible d’aider à discriminer les grands bronzes antiques.
-</div>
+
+{% endbackmatter %}
 
 #### Source
 

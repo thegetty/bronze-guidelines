@@ -16,9 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radiography is often necessary.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
@@ -54,9 +56,11 @@ Used primarily in speech
 
 Type de réparation comblant un trou traversant comme ceux laissés par les fers à noyaux. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Il n’est pas toujours aisé de distinguer un insert d’une plaquette de réparation.
-</div>
+
+{% endbackmatter %}
 
 #### To Be Distinguished From
 

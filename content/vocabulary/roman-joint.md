@@ -16,9 +16,11 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: “Join” is a verb and “joint” is a noun. We have chosen here to use the latter, but it is common to find references to Roman joins, sleeve joins, etc.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
@@ -47,9 +49,11 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Des goujons (ou clavettes ou chevilles) peuvent être ajoutés. On parle alors d’assemblage « par tenon et mortaise ».
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

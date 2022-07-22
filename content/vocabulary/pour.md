@@ -43,9 +43,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 Opération consistant à verser du métal liquide dans un moule réfractaire.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Le terme a généré de nombreuses locutions liées à la fonderie : fosse de coulée, défaut de coulée, coulée de rappel ({% cite "Rama 1988" %}, 373), etc.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

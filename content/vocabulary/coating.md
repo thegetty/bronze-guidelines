@@ -16,9 +16,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
@@ -44,9 +46,11 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
 Couche volontairement appliquée en surface d’un bronze pour le protéger ou le décorer, constituée d’un matériau différent du substrat en bronze. Une grande variété de matériaux peut être utilisée, depuis des substances naturelles (laques, résines, huiles, cires) jusqu’à des produits synthétiques (résines, peintures).
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: ne pas confondre avec les patines chimiques, qui contrairement aux revêtements, réagissent avec le substrat en bronze pour former la couche de surface. Par ailleurs, on préférera désigner les revêtements métalliques par un terme spécifique, en l’occurrence placage.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

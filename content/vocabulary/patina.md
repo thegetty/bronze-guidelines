@@ -16,11 +16,11 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-<div class="backmatter">
+{% backmatter %}
 
 Note: Some researchers do not consider applied organic coatings part of the patina layer.
 
-</div>
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" %}
 
@@ -50,9 +50,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
 
 Le terme patine recouvre plusieurs sens. 1) désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps (corrosion) ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) {% cite "Aucouturier et al. 2003" %}.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: La signification de ce terme est très débattue.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

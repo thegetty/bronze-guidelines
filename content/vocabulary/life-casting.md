@@ -15,9 +15,11 @@ lang:
 
 {{ definition }}
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: The related term “burn-out method” is used for the replication of nonliving forms (such as textiles) in which the form is burned out in order to create the mold.
-</div>
+
+{% endbackmatter %}
 
 {% figuregroup "3", "fig-011, fig-027" %}
 
@@ -51,9 +53,11 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un moule réfractaire, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé apparaît sous la forme « mouler sur le naturel » ({% cite "Making and Knowing Project et al. 2020" %}, folio 110v). Remarquer qu’une fonte sur le vif peut être creuse.
-</div>
+
+{% endbackmatter %}
 
 #### Source
 

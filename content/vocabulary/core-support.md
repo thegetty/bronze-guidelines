@@ -38,9 +38,11 @@ Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 
 Terme général pour décrire tout dispositif servant à maintenir le noyau en place dans le moule lors de la coulée (fer à noyau, cale à noyau, voire portée de noyau et armature).
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: En anglais, à cette définition propre à la fonderie industrielle vient s’ajouter une définition plus particulière à la sculpture en bronze pour désigner également tous les systèmes d’armatures internes faits de fils de fer pour renforcer le noyau.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 

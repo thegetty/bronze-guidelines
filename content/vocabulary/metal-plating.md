@@ -39,9 +39,11 @@ In German, *Plattierung* [the result] and *Plattieren* [the action] are specific
 
 Terme générique décrivant toute application d’une couche métallique exogène à la surface d’un bronze.
 
-<div class="backmatter">
+{% backmatter %}
+
 Note: La dorure, l’argenture, et dans une moindre mesure l’étamage sont les pratiques de placage les plus fréquentes rencontrées sur les bronzes.
-</div>
+
+{% endbackmatter %}
 
 #### Sources
 
