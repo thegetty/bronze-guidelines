@@ -16,8 +16,9 @@ module.exports = function (eleventyConfig, { collections, page }) {
     const displayText = display ? display : term
     const vocabPage = collections.vocabulary
       .find( entry => entry.data.title
+        .toLowerCase()
         .concat(entry.data.aliases)
-        .includes(term)
+        .includes(term.toLowerCase())
       )
 
     if ( !vocabPage ) {
