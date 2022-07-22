@@ -14,6 +14,8 @@ lang:
   zh: 铜锡合金
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 
 Note: In common parlance, most copper alloy sculptures are referred to as “bronzes” regardless of the alloy’s actual elemental composition.

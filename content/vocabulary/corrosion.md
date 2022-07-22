@@ -13,6 +13,8 @@ lang:
   zh: 腐蚀
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: Most metals undergo natural corrosion, except for pure so-called noble metals such as gold and platinum-group metals. A chemical patina refers to corrosion of the surface by either natural causes (e.g., burial) or the intentional application of chemicals. The minerals formed during the process may be similar to ones from which the metal was smelted or refined prior to manufacture. Sometimes artificially induced chemical patinas intentionally mimic natural corrosion products.
 </div>

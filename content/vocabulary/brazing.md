@@ -13,6 +13,8 @@ lang:
   zh: 硬焊
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 
 Note: In industry, brazing is often defined as a joining method using a filler metal with a melting point above 450°C, which includes both copper-based and silver-based (hard solder) alloys. In cultural heritage settings, it may be impractical to identify the alloy and melting point of the filler metal. To avoid confusion, we suggest that white filler metal be referred to as solder.

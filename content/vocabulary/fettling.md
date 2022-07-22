@@ -13,6 +13,8 @@ lang:
   zh: 清砂
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-104, fig-552" %}
 
 ## To Be Distinguished From

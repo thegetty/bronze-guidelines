@@ -13,6 +13,8 @@ lang:
   zh: 失蜡法
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: The French term “cire perdue” is often adopted in English as well. The wax model can be supplemented by other materials that can be burned out, such as cloth.
 </div>

@@ -14,6 +14,8 @@ lang:
   zh: 铸瑕
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 
 Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the model) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({% cite "Rome and Young 2003" %}).

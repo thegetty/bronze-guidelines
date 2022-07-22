@@ -13,6 +13,8 @@ lang:
   zh: 铸件
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 
 Note: Both “cast” and “casting” can be correctly used as nouns, but the former is more common.

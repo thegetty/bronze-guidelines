@@ -13,6 +13,8 @@ lang:
   zh: 铸型
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: In sand casting, a foundry model is referred to as a “pattern” or “{% def "chef-modèle" %}.”
 </div>

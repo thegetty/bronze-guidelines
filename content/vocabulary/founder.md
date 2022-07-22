@@ -14,6 +14,8 @@ lang:
   zh: 铸工
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-546" %}
 
 ## Sources

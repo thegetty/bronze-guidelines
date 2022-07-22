@@ -14,6 +14,8 @@ lang:
   zh: 自帶泥芯撐
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and armature. The hole may later be sealed with a metal patch.
 </div>

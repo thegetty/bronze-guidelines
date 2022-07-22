@@ -13,6 +13,8 @@ lang:
   zh: 熔焊
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](#I.5), **video 12**.
 </div>

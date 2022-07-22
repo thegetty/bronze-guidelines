@@ -13,6 +13,8 @@ lang:
   zh: 镀覆
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-293, fig-304, fig-343, fig-365" %}
 
 ## Sources

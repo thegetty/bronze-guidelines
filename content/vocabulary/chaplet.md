@@ -14,6 +14,8 @@ lang:
   zh: 墊片
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: The term “chaplet” has occasionally been used in the context of technical studies to refer to nails or pins that extend from the core to the mold and serve to hold the core in place ({% cite "Beale 1975" %}, {% cite "Mattusch 1996" %}). More commonly these are referred to as {% def "core pins" %}.
 </div>

@@ -14,6 +14,8 @@ lang:
   zh: 毛坯铸件表面
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 
 Note: The quality of the as-cast surface varies depending on the characteristics of the refractory mold. It may include oxidized metal, refractory mold remains, flashes, or casting flaws and imperfections. An artist or foundry may choose to preserve the surface as-cast without much further refinishing.

@@ -13,6 +13,8 @@ lang:
   zh: 变体
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
 
 ## To Be Distinguished From

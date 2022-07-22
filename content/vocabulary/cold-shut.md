@@ -14,6 +14,8 @@ lang:
   zh: 冷界
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-006, fig-159" %}
 
 ## To Be Distinguished From

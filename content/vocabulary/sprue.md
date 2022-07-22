@@ -14,6 +14,8 @@ lang:
   zh: 浇铸道
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {% def "sand casting" %} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {% def "piece-mold" %} casting the channels are cut directly into the refractory mold. See [GI§2.7](/intro/#S2.7). Depending on the complexity of the cast, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
 </div>

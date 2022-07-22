@@ -13,6 +13,8 @@ lang:
   zh: 焊接
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: The use of hard solder (a silver alloy) is sometimes referred to as brazing, but to avoid confusion, we suggest it should be referred to as soldering.
 </div>

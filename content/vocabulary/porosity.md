@@ -13,6 +13,8 @@ lang:
   zh: 气孔
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](#I.3)).
 </div>

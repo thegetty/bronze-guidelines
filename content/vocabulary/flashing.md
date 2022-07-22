@@ -13,6 +13,8 @@ lang:
   zh: 毛边
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
 
 ## To Be Distinguished From

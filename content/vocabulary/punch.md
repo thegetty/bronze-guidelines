@@ -14,6 +14,8 @@ lang:
   zh: 冲头
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: During chasing, a number of punches with a variety of custom-made textures are often used, allowing a range of possible surface patterns. The texture of some punches may be confused with peening.
 </div>

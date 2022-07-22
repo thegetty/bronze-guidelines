@@ -14,6 +14,8 @@ lang:
   zh: 古色
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 
 Note: Some researchers do not consider applied organic coatings part of the patina layer.

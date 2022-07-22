@@ -14,6 +14,8 @@ lang:
   zh: 范
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](#I.1).
 </div>

@@ -13,6 +13,8 @@ lang:
   zh: 镀金
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555" %}
 
 ## Sources

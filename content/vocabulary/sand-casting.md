@@ -13,6 +13,8 @@ lang:
   zh: fusione a staffa
 ---
 
+{{ definition | hasShortcodes }}
+
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
 
 ## Sources

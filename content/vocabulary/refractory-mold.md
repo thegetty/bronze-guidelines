@@ -14,6 +14,8 @@ lang:
   zh: 耐火模具
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: When present, the core is considered part of the refractory mold. It may be designated as the inner refractory mold as opposed to the outer refractory mold. The material used for the refractory mold tends to be similar to—if not the same as—that of the core. To avoid confusion between types of refractory molds, spelling out the nature of the mold is recommended. An {% def "investment" %} is a type of refractory mold used specifically for lost-wax casting.
 </div>

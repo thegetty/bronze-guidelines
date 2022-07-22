@@ -14,6 +14,8 @@ lang:
   zh: 包覆
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
 </div>

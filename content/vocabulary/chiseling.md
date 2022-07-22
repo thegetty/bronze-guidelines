@@ -13,6 +13,8 @@ lang:
   zh: 凿
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: This term is sometimes incorrectly used to define all steps to remove metal as well as to compress it (actions that should be referred to as “chasing”). This is an inaccuracy possibly stemming from the French term *ciselure* (which translates to “chaser,” not “chiseler”).
 </div>

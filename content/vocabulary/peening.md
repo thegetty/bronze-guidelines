@@ -13,6 +13,8 @@ lang:
   zh: 轻敲
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
 </div>

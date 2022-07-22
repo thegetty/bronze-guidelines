@@ -14,6 +14,8 @@ lang:
   zh: 塞子
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radiography is often necessary.
 </div>

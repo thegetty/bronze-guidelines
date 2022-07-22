@@ -14,6 +14,8 @@ lang:
   zh: 涂层
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
 </div>

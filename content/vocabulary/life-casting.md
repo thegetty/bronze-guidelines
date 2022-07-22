@@ -13,6 +13,8 @@ lang:
   zh: 活体模铸
 ---
 
+{{ definition }}
+
 <div class="backmatter">
 Note: The related term “burn-out method” is used for the replication of nonliving forms (such as textiles) in which the form is burned out in order to create the mold.
 </div>

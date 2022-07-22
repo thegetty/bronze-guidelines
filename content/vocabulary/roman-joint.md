@@ -14,6 +14,8 @@ lang:
   zh: 罗馬式接合
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 Note: “Join” is a verb and “joint” is a noun. We have chosen here to use the latter, but it is common to find references to Roman joins, sleeve joins, etc.
 </div>

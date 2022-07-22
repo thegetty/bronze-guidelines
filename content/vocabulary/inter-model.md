@@ -14,6 +14,8 @@ lang:
   zh: 范制蜡型
 ---
 
+{{ definition | hasShortcodes }}
+
 <div class="backmatter">
 
 Note: The term is subject to dispute among the CAST:ING members. Depending on discipline and expertise, some initially preferred “wax working model,” “wax intermediary model,” or simply “wax.” The current term was finally agreed upon. An inter-model is a type of casting model or foundry wax, but the latter two refer to any wax model that is destroyed during casting, including those used in direct or indirect lost-wax casting processes.

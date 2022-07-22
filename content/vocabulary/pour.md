@@ -13,6 +13,8 @@ lang:
   zh: 浇注
 ---
 
+{{ definition }}
+
 {% figuregroup "3", "fig-549, fig-560" %}
 
 ## Sources
