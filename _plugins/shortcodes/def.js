@@ -15,7 +15,10 @@ module.exports = function (eleventyConfig, { collections, page }) {
   return function (term, display) {
     const displayText = display ? display : term
     const vocabPage = collections.vocabulary
-      .find( entry => entry.data.title == term )
+      .find( entry => entry.data.title
+        .concat(entry.data.aliases)
+        .includes(term)
+      )
 
     if ( !vocabPage ) {
       warn(`Vocabulary page not found for '${term}' on ${page.inputPath}`)
