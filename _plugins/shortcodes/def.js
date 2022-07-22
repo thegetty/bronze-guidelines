@@ -1,4 +1,6 @@
+const chalkFactory = require('~lib/chalk')
 const { renderOneLine } = require('~lib/common-tags')
+const { warn } = chalkFactory('shortcodes:def')
 
 /**
  * Shortcode to display pop-up vocab definitions with links to full vocab page
@@ -11,12 +13,14 @@ module.exports = function (eleventyConfig, { collections, page }) {
   const markdownify = eleventyConfig.getFilter('markdownify')
 
   return function (term, display) {
-    for (const entry of collections.vocabulary ) {
+    let isTerm = false
+    for ( const entry of collections.vocabulary ) {
       if (entry.data.title == term) {
+        isTerm = true
         const displayText = display ? display : term
 
         // strip def and cite shortcodes and show display value only
-        const regex = /\{% [a-z]+ (\"([^\"]*?)\" ){1,2}%\}/g
+        const regex = /\{% [a-z]+ (\"([^\"]*?)\" ){1,3}%\}/g
         const plainDefinition = entry.data.definition.replace(regex, '$2')
 
         // truncate definition but not mid-word
@@ -44,6 +48,11 @@ module.exports = function (eleventyConfig, { collections, page }) {
             </span>
           </span>`
       }
+    }
+    if ( isTerm == false ) {
+      warn(`Vocabulary page not found for '${term}' on ${page.inputPath}`)
+
+      return renderOneLine`<span style="color: tomato;">${term}</span>`
     }
   }
 }
