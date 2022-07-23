@@ -158,6 +158,14 @@ VISUAL ATLAS PAGE
   display: none;
 }
 
+/* FIGURE MODAL
+============================================================================= */
+:not(figure) .q-figure__modal-link {
+  display: inline;
+  color: inherit;
+  border-bottom: 1px dotted var(--accent-color);
+}
+
 /*  ACCORDION BUTTONS
     <div class="accordion">   <-- used in VOCABULARY PAGES
     presentation: accordion   <-- used on FULL-WIDTH PAGES

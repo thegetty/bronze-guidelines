@@ -81,6 +81,9 @@ Custom shortcode to display vocabulary pop-ups with definitions and links.
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
+**_plugins/shortcodes/figureRef.js**
+Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig-5', 'fig-6' %}`, add class .q-figure__modal-link to links so they'll open in the modal, remove "and" from list, and trim extra zeros if figure ids.
+
 **_plugins/shortcodes/index.js**
 
 **_plugins/shortcodes/pageinfo.js**
@@ -88,6 +91,9 @@ Custom shortcode to process text with shortcodes in it.
 
 **content/_assets/javascript/web-components/lightbox/index.js**
 Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
+
+**content/_assets/javascript/web-components/modal/index.js**
+Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

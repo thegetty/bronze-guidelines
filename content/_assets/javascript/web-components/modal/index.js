@@ -1,3 +1,6 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+//
 import { LitElement, css, html } from 'lit';
 
 const stringifyData = (jsObject) => {
@@ -79,12 +82,11 @@ class Modal extends LitElement {
     const { target } = event;
     let currentFigure = target;
     while (
-      !currentFigure.matches('figure') &&
-      !currentFigure.getAttribute('id')
+      !currentFigure.getAttribute('href')
     ) {
       currentFigure = currentFigure.parentNode;
     }
-    return currentFigure.getAttribute('id');
+    return currentFigure.getAttribute('href').replace("#", "")
   }
 
   open(event) {
