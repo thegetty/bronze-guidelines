@@ -170,7 +170,8 @@ VISUAL ATLAS PAGE
     <div class="accordion">   <-- used in VOCABULARY PAGES
     presentation: accordion   <-- used on FULL-WIDTH PAGES
 ============================================================================= */
-button.accordion-expander {
+button.accordion-expander,
+.accordion-controls button {
   all: inherit;
   border: 0 !important;
   cursor: pointer;
@@ -191,6 +192,31 @@ button.accordion-expander[aria-expanded="true"] * {
 }
 button.accordion-expander[aria-expanded="true"] .vert {
   display: none;
+}
+
+/* Expand and Collapse All buttons */
+.quire-page.full-width .accordion-controls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: var(--gray-background);
+  border-top-left-radius: 0.5em;
+  color: var(--white);
+  font-size: .875rem;
+  z-index: 1;
+}
+.quire-page.full-width .accordion-controls li {
+  display: inline-block;
+  padding: .5rem 1rem;
+}
+.quire-page.vocabulary .accordion-controls {
+  font-size: .875rem;
+  height: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.quire-page.vocabulary .accordion-controls li::before {
+  content: '' !important;
 }
 
 /*  VOCABULARY PAGES

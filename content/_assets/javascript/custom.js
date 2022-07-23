@@ -33,6 +33,7 @@ window.onload = function () {
   createAccordion('.quire-page.accordion h3')
   createAccordion('div.accordion h3')
   createAccordion('.quire-page.accordion h2[id=notes]')
+  addAccordionControls()
   wrapHeadingNumbers()
   prepImageGrid()
 
@@ -88,6 +89,43 @@ function createAccordion(selector) {
   }
   headings.length > 0 ? console.log("Accordion sections made on select " + tag + " tags") : ''
 };
+
+function addAccordionControls() {
+  const accordion = document.getElementsByClassName('accordion')
+  const controls = `
+    <li><button id="expand-accordions">Expand All</button></li>
+    <li><button id="collapse-accordions">Collapse All</button></li>
+  `
+  const controlWrapper = document.createElement('ul')
+  controlWrapper.setAttribute('aria-label', 'section controls')
+  controlWrapper.classList.add('accordion-controls')
+  controlWrapper.innerHTML = controls
+  accordion[0].prepend(controlWrapper)
+
+  document.getElementById('expand-accordions').addEventListener('click', expandAllAccordions)
+
+  document.getElementById('collapse-accordions').addEventListener('click', collapseAllAccordions)
+
+  console.log("Accordion controls added")
+}
+window.expandAllAccordions = function () {
+  const buttons = document.querySelectorAll('button.accordion-expander')
+  for (const button of buttons) {
+    button.setAttribute('aria-expanded', 'true')
+    const section = button.parentNode.nextElementSibling
+    section.hidden = false
+    section.classList.add('accordion-wrapper')
+  }
+}
+window.collapseAllAccordions = function () {
+  const buttons = document.querySelectorAll('button.accordion-expander')
+  for (const button of buttons) {
+    button.setAttribute('aria-expanded', 'false')
+    const section = button.parentNode.nextElementSibling
+    section.hidden = true
+    section.classList.remove('accordion-wrapper')
+  }
+}
 
 function wrapHeadingNumbers() {
   // Wrap heading section numbers in spans so they can be styled when indented
