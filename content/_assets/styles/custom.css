@@ -43,6 +43,11 @@ VISUAL ATLAS PAGE
   font-size: 1.25rem;
   font-style: italic;
 }
+/* Position vocab pop-up "More" links away from text */
+a.quire-definition__content__more-link {
+  float: right;
+  margin-left: 1rem;
+}
 
 /* FULL-WIDTH PAGES
     presentation: full-width
@@ -160,10 +165,13 @@ VISUAL ATLAS PAGE
 
 /* FIGURE MODAL
 ============================================================================= */
-:not(figure) .q-figure__modal-link {
+.q-figure__modal-link {
   display: inline;
   color: inherit;
   border-bottom: 1px dotted var(--accent-color);
+}
+figure .q-figure__modal-link {
+  border-bottom-width: 0;
 }
 
 /*  ACCORDION BUTTONS
