@@ -343,24 +343,24 @@ figure_list:
     label: "Figure 43"
     caption: "Annotated X-radiograph of a sand cast. Both Dejanira’s and Hercules’s heads were cast separately and secured at the neck with Roman sleeve joints (yellow overlay). Roman joints also secure Dejanira’s proper right arm as well as Hercules’s proper left arm. There is an internal seam line in Dejanira’s left shoulder where the separately formed core in the arm abuts the core used in the torso (blue line). Lanterns can be seen in the torso and the proper left arm (red overlays). Charles Crozatier (French, 1795–155), Hercules freeing Dejanira from the Centaur Nessus, Paris 19th century, after Adriaen de Vries (Netherlandish, 1556–1626), H. 78.5 cm (Rijksmuseum, Amsterdam, inv. BK-1957-2)."
     choices:
-      - src: figures/choices/fig-043.jpg
+      - src: figures/choices/fig-043-base.jpg
         label: X-ray
-        preset: zoom
-      - src: figures/choices/fig-043-lanterns.jpg
+        media_type: iiif
+      - src: figures/choices/fig-043-lanterns.png
         label: Lanterns
         label_color: "#d06a77"
         label_icon: figures/choices/fig-043-lanterns--label.png
-        preset: zoom
-      - src: figures/choices/fig-043-heads.jpg
+        media_type: iiif
+      - src: figures/choices/fig-043-heads.png
         label: Heads
         label_color: "#edec92"
         label_icon: figures/choices/fig-043-lanterns--heads.png
-        preset: zoom
-      - src: figures/choices/fig-043-arm.jpg
+        media_type: iiif
+      - src: figures/choices/fig-043-arm.png
         label: Arm
         label_color: "#4a59a6"
         label_icon: figures/choices/fig-043-lanterns--arm.png
-        preset: zoom
+        media_type: iiif
 
   - id: "fig-044"
     src: "figures/044.jpg"

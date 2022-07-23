@@ -5,13 +5,18 @@ layout: page
 ---
 
 - Choices images should use checkboxes rather than buttons so that multiple choices can be selected and layered.
+- So that the labels may function effectively as a kind of key to their image, I'd like to suggest they could have three possible values: `text`, `icon`, and `color`.
 - Labels for each choice require either `label.text` or `label.icon` or both, and may have `label.color`
 - A choice without `label.text` or `label.icon` has no checkbox and is always visible
 - Any choice that is `default: true` should be in view (checked) when the page first loads. Multiple choices in a single figure can be `default: true`.
 - If a choice is `media_type: iiif` it should be tiled, and the tiles should be used in the viewer. Currently the manifests still list the static image files.
 - Choices figures should be interactive on the page AND in the lightbox modal. The figure label should open the modal.
 
-One pitfall to using checkboxes over buttons is that with non-transparent choices, users could check a box and not see the choice come into in view if it is under another choice that is already checked. Would it be possible to indicate in the YAML if the choices should be checkboxes or radio buttons?
+One pitfall to using checkboxes over buttons is that with non-transparent choices, users could check a box and not see the choice come into in view if it is under another choice that is already checked. Perhaps, would it be possible to indicate in the YAML somehow if the choices should be checkboxes or radio buttons?
+
+There’s also a problem with the `color` option as the font color will need to be adjusted based on the background color chosen. Perhaps we could create a filter that would determine the optimal choice of text color between black and white?
+
+The YAML mark up to support the three label options adds some complication
 
 <style type="text/css">
 .quire-toggles { text-align: left; margin: .75rem 0; }
@@ -23,10 +28,10 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
 </style>
 
 <figure id="fig-043" class="q-figure">
-<canvas-panel canvas-id="http://localhost:8080/_iiif/fig-043/canvas" choice-id="http://localhost:8080/_assets/images/figures/choices/fig-043-heads.jpg" height="" iiif-content="" manifest-id="http://localhost:8080/_iiif/fig-043/manifest.json" preset="" region="" virtual-sizes="" width="" />
+<img alt="" class="q-figure__image" src="/_assets/images/figures/043.jpg" />
 <fieldset class="quire-toggles">
   <span class="toggle">
-    <input type="checkbox" id="lanterns" name="lanterns">
+    <input type="checkbox" id="lanterns" name="lanterns" checked>
     <label for="lanterns">Lanterns</label>
   </span>
   <span class="toggle">
@@ -34,7 +39,7 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
     <label for="heads">Heads</label>
   </span>
   <span class="toggle">
-    <input type="checkbox" id="arm" name="arm">
+    <input type="checkbox" id="arm" name="arm" checked>
     <label for="arm">Arm</label>
   </span>
 </fieldset>
@@ -42,10 +47,10 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
 </figure>
 
 <figure id="fig-043" class="q-figure">
-<canvas-panel canvas-id="http://localhost:8080/_iiif/fig-043/canvas" choice-id="http://localhost:8080/_assets/images/figures/choices/fig-043-heads.jpg" height="" iiif-content="" manifest-id="http://localhost:8080/_iiif/fig-043/manifest.json" preset="" region="" virtual-sizes="" width="" />
+<img alt="" class="q-figure__image" src="/_assets/images/figures/043.jpg" />
 <fieldset class="quire-toggles">
   <span class="toggle">
-    <input type="checkbox" id="lanterns" name="lanterns">
+    <input type="checkbox" id="lanterns" name="lanterns" checked>
     <label for="lanterns">Lanterns <img src="/_assets/images/figures/choices/fig-043-lanterns--label.png" /></label>
   </span>
   <span class="toggle">
@@ -53,7 +58,7 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
     <label for="heads">Heads <img src="/_assets/images/figures/choices/fig-043-heads--label.png" /></label>
   </span>
   <span class="toggle">
-    <input type="checkbox" id="arm" name="arm">
+    <input type="checkbox" id="arm" name="arm" checked>
     <label for="arm">Arm <img src="/_assets/images/figures/choices/fig-043-arm--label.png" /></label>
   </span>
 </fieldset>
@@ -61,10 +66,10 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
 </figure>
 
 <figure id="fig-043" class="q-figure">
-<canvas-panel canvas-id="http://localhost:8080/_iiif/fig-043/canvas" choice-id="http://localhost:8080/_assets/images/figures/choices/fig-043-heads.jpg" height="" iiif-content="" manifest-id="http://localhost:8080/_iiif/fig-043/manifest.json" preset="" region="" virtual-sizes="" width="" />
+<img alt="" class="q-figure__image" src="/_assets/images/figures/043.jpg" />
 <fieldset class="quire-toggles">
   <span class="toggle color" style="background-color: #d06a77;">
-    <input type="checkbox" id="lanterns" name="lanterns">
+    <input type="checkbox" id="lanterns" name="lanterns" checked>
     <label for="heads">Lanterns</label>
   </span>
   <span class="toggle color" style="background-color: #edec92;">
@@ -72,7 +77,7 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
     <label for="heads">Heads</label>
   </span>
   <span class="toggle color" style="background-color: #4a59a6;">
-    <input type="checkbox" id="arm" name="arm">
+    <input type="checkbox" id="arm" name="arm" checked>
     <label for="arm">Arm</label>
   </span>
 </fieldset>
@@ -80,10 +85,10 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
 </figure>
 
 <figure id="fig-043" class="q-figure">
-<canvas-panel canvas-id="http://localhost:8080/_iiif/fig-043/canvas" choice-id="http://localhost:8080/_assets/images/figures/choices/fig-043-heads.jpg" height="" iiif-content="" manifest-id="http://localhost:8080/_iiif/fig-043/manifest.json" preset="" region="" virtual-sizes="" width="" />
+<img alt="" class="q-figure__image" src="/_assets/images/figures/043.jpg" />
 <fieldset class="quire-toggles">
   <span class="toggle color" style="background-color: #d06a77;">
-    <input type="checkbox" id="lanterns" name="lanterns">
+    <input type="checkbox" id="lanterns" name="lanterns" checked>
     <label for="lanterns">Lanterns <img src="/_assets/images/figures/choices/fig-043-lanterns--label.png" /></label>
   </span>
   <span class="toggle color" style="background-color: #edec92;">
@@ -91,7 +96,7 @@ One pitfall to using checkboxes over buttons is that with non-transparent choice
     <label for="heads">Heads <img src="/_assets/images/figures/choices/fig-043-heads--label.png" /></label>
   </span>
   <span class="toggle color" style="background-color: #4a59a6;">
-    <input type="checkbox" id="arm" name="arm">
+    <input type="checkbox" id="arm" name="arm" checked>
     <label for="arm">Arm <img src="/_assets/images/figures/choices/fig-043-arm--label.png" /></label>
   </span>
 </fieldset>
