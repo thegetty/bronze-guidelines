@@ -62,7 +62,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 - *rifinitura a cesello*
 
-- *incisione a bulino* | Source: {% cite "Battaglia 1961" %}, [here](#)
+- *incisione a bulino* | Source: {% cite "Battaglia 1961" %}
 
 ### **Chinese**: {{ lang.zh }}
 

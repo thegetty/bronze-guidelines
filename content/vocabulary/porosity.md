@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](#I.3)).
+Note: A common way to characterize the quality of a cast is to report the degree and extent of its porosity (see [I.3](/vol-1/3/)).
 
 {% endbackmatter %}
 

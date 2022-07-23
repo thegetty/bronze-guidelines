@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](#I.3).'
+definition: 'An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
 lang:
   de: Gussfehler
   fr: défaut de fonderie
@@ -46,7 +46,7 @@ Défaut non intentionnel dans l’objet survenant lors de la coulée.
 
 {% backmatter %}
 
-Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](#I.3)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Lambert 2002" %}, 241), fentes, crevasses, déchirures ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »), manques ({% cite "Lambert 2002" %}, 241).
+Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](/vol-1/3/)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Lambert 2002" %}, 241), fentes, crevasses, déchirures ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »), manques ({% cite "Lambert 2002" %}, 241).
 
 {% endbackmatter %}
 

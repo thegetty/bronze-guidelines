@@ -83,7 +83,7 @@ Answering these questions can require a fair amount of comparable data on relate
 
 It is also important to bear in mind the role of the founder and other hands that may be involved in the production of any bronze object. Depending on the challenges and solutions presented by a particular project, these problem solvers may adopt or experiment with different processes before settling on the one(s) most likely to produce successful results. This is particularly true of larger casts.
 
-Then there are questions about the condition of the artwork and its original appearance, function, and display. Most often such questions relate to altered {% def "bronze" %}, other surface coloration, or decoration and tool marks, which are covered in [I.6](#I.6), [I.7](#I.7), [I.8](#I.8), and [I.9](#I.9). But remains of molding materials or surface scratches that result from mold taking could be clues to {% def "bronze" %}, which falls under what we will call here the life cycle of a bronze.
+Then there are questions about the condition of the artwork and its original appearance, function, and display. Most often such questions relate to altered {% def "bronze" %}, other surface coloration, or decoration and tool marks, which are covered in [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/), and [I.6](/vol-1/2/). But remains of molding materials or surface scratches that result from mold taking could be clues to {% def "bronze" %}, which falls under what we will call here the life cycle of a bronze.
 
 </section>
 <section id="S1.3">
@@ -98,7 +98,7 @@ Traces of original use (and/or abuse) may include:
 
 -   patterns of wear (see [I.6§1.4](/vol-1/6/#S1.4));
 
--   organic and other accretions, {% def "bronze" %}, or {% def "bronze" %} (see [I.7](#I.7), [I.8](#I.8), [I.9](#I.9));
+-   organic and other accretions, {% def "bronze" %}, or {% def "bronze" %} (see [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/));
 
 -   traces of ritual burial conditions (soil, patina and pseudomorphs, see [I.8§1.1.2](/vol-1/8/#S1.1.2));
 
@@ -258,9 +258,9 @@ How the core is held in place in relation to the outer mold in order to ensure t
 
 #### 2.1.2 Models and molds
 
-Over the centuries in different cultures around the world, expertise on how best to cast a bronze has evolved, based partly on the availability of materials, the level of control over pyrotechnic technologies, the range of forms to be represented, and the metal and other materials that will be used. The context of production is also key. For instance, a large workshop or foundry producing great numbers of multiples will most likely use a different process than a sculptor-founder working alone making a one-off cast (see [Case Study 7](/case-studies/7/)). Every step of the casting process may leave diagnostic traces, which the technical investigator must tease out (see [I.1](#I.1)).
+Over the centuries in different cultures around the world, expertise on how best to cast a bronze has evolved, based partly on the availability of materials, the level of control over pyrotechnic technologies, the range of forms to be represented, and the metal and other materials that will be used. The context of production is also key. For instance, a large workshop or foundry producing great numbers of multiples will most likely use a different process than a sculptor-founder working alone making a one-off cast (see [Case Study 7](/case-studies/7/)). Every step of the casting process may leave diagnostic traces, which the technical investigator must tease out (see [I.6](/vol-1/2/)).
 
-The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "bronze" %} (see **video 3**). In {% def "bronze" %} that function is performed by the pattern or {% def "bronze" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](#Vocabulary).
+The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "bronze" %} (see **video 3**). In {% def "bronze" %} that function is performed by the pattern or {% def "bronze" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](/vocabulary/).
 
 Similarly, a sequence of molds may have played a part in the translation from an original model to a bronze sculpture. Indeed, while the metal is ultimately cast into a refractory mold, in some instances other intermediary matrices may have served to create the casting model or pattern (see below).
 
@@ -545,18 +545,18 @@ The orientation of the cast—upright, upside down, horizontal, or at an angle[^
 
 ### 2.8 Alloys
 
-The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "bronze" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.2](#I.2).
+The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "bronze" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.6](/vol-1/2/).
 
 </section>
 <section id="S2.9">
 
 ### 2.9 Finishing
 
-While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), **videos 10, 11**), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.3](#I.3).
+While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), **videos 10, 11**), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.6](/vol-1/2/).
 
 Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "bronze" %}**,** often followed by refining of the metal surface via {% def "bronze" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "bronze" %}, gilding, the application of patina, and/or {% def "bronze" %} and {% def "bronze" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
 
-Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.5](#I.5). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^76]
+Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.6](/vol-1/2/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^76]
 
 {% figuregroup "3", "fig-047" %}
 
@@ -572,7 +572,7 @@ The *Guidelines* are accessible in a variety of ways.
 
 ### 3.1 Evidence of the fabrication process (volume I)
 
-Volume I is designed to help the reader identify and investigate the physical evidence present on a sculpture. It is divided into nine chapters that correspond to the different aspects of the creation of a bronze, more or less in chronological sequence of the fabrication steps. It goes into more detail on the variety of casting processes described in this general introduction; discusses the properties of the different copper alloys encountered in artistic castings; and characterizes {% def "bronze" %}, repairs, assembly techniques, tool marks, as well as plating and other surface decoration techniques. Each chapter follows a similar “What? / Why? / How?” format. The first section lays out how distinctive features are produced, and thus sheds light on what to look out for and also possible misinterpretations. That is followed by FAQs that address why such evidence might be interesting and/or useful to investigate. A checklist at the end outlines the primary methods of investigation and analytical techniques that are relevant to the investigation of this topic, and points to the more in-depth discussions of these techniques in volume II. The definitions of terms included in the [Vocabulary](#Vocabulary) are hyperlinked upon their first mention in each chapter.
+Volume I is designed to help the reader identify and investigate the physical evidence present on a sculpture. It is divided into nine chapters that correspond to the different aspects of the creation of a bronze, more or less in chronological sequence of the fabrication steps. It goes into more detail on the variety of casting processes described in this general introduction; discusses the properties of the different copper alloys encountered in artistic castings; and characterizes {% def "bronze" %}, repairs, assembly techniques, tool marks, as well as plating and other surface decoration techniques. Each chapter follows a similar “What? / Why? / How?” format. The first section lays out how distinctive features are produced, and thus sheds light on what to look out for and also possible misinterpretations. That is followed by FAQs that address why such evidence might be interesting and/or useful to investigate. A checklist at the end outlines the primary methods of investigation and analytical techniques that are relevant to the investigation of this topic, and points to the more in-depth discussions of these techniques in volume II. The definitions of terms included in the [Vocabulary](/vocabulary/) are hyperlinked upon their first mention in each chapter.
 
 </section>
 <section id="S3.2">

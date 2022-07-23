@@ -48,7 +48,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
 ### **French**: *{{ lang.fr }}*
 
-Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({% cite "Félibien 1690" %}, 333; {% cite "Launay 1827" %}, 2:251–52; {% cite "Hamm 1924" %}, 83; voir aussi [I.2](#I.2)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
+Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({% cite "Félibien 1690" %}, 333; {% cite "Launay 1827" %}, 2:251–52; {% cite "Hamm 1924" %}, 83; voir aussi [I.2](/vol-1/2/)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
 
 {% backmatter %}
 

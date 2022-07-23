@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: An after-cast will usually replicate surface traces of alterations on its precursor model, including damage and repairs. It will also tend to be smaller and potentially less crisp than the bronze from which it was derived (see [II.3](#II.3)).
+Note: An after-cast will usually replicate surface traces of alterations on its precursor model, including damage and repairs. It will also tend to be smaller and potentially less crisp than the bronze from which it was derived (see [II.3](/vol-2/3/)).
 
 {% endbackmatter %}
 

@@ -213,7 +213,7 @@ figure_list:
     media_id:
     iiif:
     label: "Figure 27"
-    caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](#I.3). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
+    caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](/vol-1/3/). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
 
   - id: "fig-028"
     src: "figures/028.jpg"
@@ -1952,7 +1952,7 @@ figure_list:
     media_id:
     iiif:
     label: "Figure 242"
-    caption: "The same punch marks with the same sequential strikes were found on two statues by Benvenuto Cellini (Italian, 1500–1571). The right image from the forehead of the bust of Bindo Altoviti, 1546–50, H. 105.5 cm (Isabella Stewart Gardner Museum, Boston, inv. S26e21) and in the left and middle images from Medusa’s neck on Perseus with the Head of Medusa, 1545–54, H. 320 cm (bronze group) (Loggia dei Lanzi, Piazza della Signoria, Florence). Micro-hardness tests were undertaken using a calibrated prism penetration durimeter, showing values very similar to that of a cold-worked copper surface. See [I.6](#I.6), note 17; {Morigi and Morigi 2004}."
+    caption: "The same punch marks with the same sequential strikes were found on two statues by Benvenuto Cellini (Italian, 1500–1571). The right image from the forehead of the bust of Bindo Altoviti, 1546–50, H. 105.5 cm (Isabella Stewart Gardner Museum, Boston, inv. S26e21) and in the left and middle images from Medusa’s neck on Perseus with the Head of Medusa, 1545–54, H. 320 cm (bronze group) (Loggia dei Lanzi, Piazza della Signoria, Florence). Micro-hardness tests were undertaken using a calibrated prism penetration durimeter, showing values very similar to that of a cold-worked copper surface. See [I.6](/vol-1/6/), note 17; {Morigi and Morigi 2004}."
 
   - id: "fig-243"
     src: "figures/243.jpg"
@@ -4376,7 +4376,7 @@ figure_list:
     media_id:
     iiif: "https://www.getty.edu/publications/resources/bronze-guidelines/545/info.json"
     label: "Figure 545"
-    caption: "Annotated X-radiograph showing the flashing that formed along the juncture between different core materials—ceramic shell (in the muzzle) and plaster/clay mixture—as a white line of uneven density halfway up the horse’s head. An internal core support wire was inserted to connect the two core sections (red line). A line around the neck (green line) corresponds to TIG welding to join two separately cast parts. Remnants of sprues appear as denser patches (blue overlays). Note that the use of beam limiting shutters (used to reduce X-ray scatter, see [II.3](#II.3)) have caused underexposure of the lower quarter and the right edge of the radiograph. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
+    caption: "Annotated X-radiograph showing the flashing that formed along the juncture between different core materials—ceramic shell (in the muzzle) and plaster/clay mixture—as a white line of uneven density halfway up the horse’s head. An internal core support wire was inserted to connect the two core sections (red line). A line around the neck (green line) corresponds to TIG welding to join two separately cast parts. Remnants of sprues appear as denser patches (blue overlays). Note that the use of beam limiting shutters (used to reduce X-ray scatter, see [II.3](/vol-2/3/)) have caused underexposure of the lower quarter and the right edge of the radiograph. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-546"
     src: "figures/546.jpg"
