@@ -92,21 +92,24 @@ function createAccordion(selector) {
 
 function addAccordionControls() {
   const accordion = document.getElementsByClassName('accordion')
-  const controls = `
-    <li><button id="expand-accordions">Expand All</button></li>
-    <li><button id="collapse-accordions">Collapse All</button></li>
-  `
-  const controlWrapper = document.createElement('ul')
-  controlWrapper.setAttribute('aria-label', 'section controls')
-  controlWrapper.classList.add('accordion-controls')
-  controlWrapper.innerHTML = controls
-  accordion[0].prepend(controlWrapper)
+  if ( accordion[0] ) {
+    const controls = `
+      <li><button id="expand-accordions">Expand All</button></li>
+      <li><button id="collapse-accordions">Collapse All</button></li>
+    `
+    const controlWrapper = document.createElement('ul')
+    controlWrapper.setAttribute('aria-label', 'section controls')
+    controlWrapper.classList.add('accordion-controls')
+    controlWrapper.innerHTML = controls
 
-  document.getElementById('expand-accordions').addEventListener('click', expandAllAccordions)
+    accordion[0].prepend(controlWrapper)
 
-  document.getElementById('collapse-accordions').addEventListener('click', collapseAllAccordions)
+    document.getElementById('expand-accordions').addEventListener('click', expandAllAccordions)
 
-  console.log("Accordion controls added")
+    document.getElementById('collapse-accordions').addEventListener('click', collapseAllAccordions)
+
+    console.log("Accordion controls added")
+  }
 }
 window.expandAllAccordions = function () {
   const buttons = document.querySelectorAll('button.accordion-expander')
