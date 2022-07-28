@@ -89,6 +89,9 @@ Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig
 **_plugins/shortcodes/pageinfo.js**
 Custom shortcode to process text with shortcodes in it.
 
+**_plugins/shortcodes/warn.js**
+Custom shortcode to wrap content in a `<div>` with a "warn" class.
+
 **content/_assets/javascript/web-components/lightbox/index.js**
 Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
 

@@ -14,12 +14,16 @@ const title = require('./title.js')
 const tombstone = require('./tombstone.js')
 const def = require('./def.js')
 const pageinfo = require('./pageinfo.js')
+const warn = require('./warn.js')
 
 module.exports = function(eleventyConfig, collections, options) {
   const addShortcode = shortcodeFactory(eleventyConfig, collections)
 
   eleventyConfig.addPairedShortcode('backmatter', function(content, ...args) {
     return backmatter(eleventyConfig)(content, ...args)
+  })
+  eleventyConfig.addPairedShortcode('warn', function(content, ...args) {
+    return warn(eleventyConfig)(content, ...args)
   })
   addShortcode('bibliography', bibliography)
   addShortcode('cite', cite)
