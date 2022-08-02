@@ -1,4 +1,11 @@
 figure_list:
+
+  # COVER/BANNER IMAGES FOR CASE STUDIES
+  - id: "fig-440-cover"
+    src: "figures/case-studies/440-cover.jpg"
+  - id: "fig-469-cover"
+    src: "figures/case-studies/469-cover.jpg"
+
   - id: "fig-001"
     src: "figures/001.jpg"
     # media_type: iiif
