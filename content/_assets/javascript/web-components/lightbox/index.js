@@ -163,12 +163,25 @@ class Lightbox extends LitElement {
 
     /* OVERRIDES */
     .q-lightbox__image {
+      height: calc(100vh - 8.75rem)
+    }
+    .q-lightbox__caption {
+      font-family: "Noto Sans", sans-serif;
+      font-size: .75rem;
+      line-height: 1.5;
+      color: #888581;
+    }
+    .q-lightbox__caption-content {
+      padding-bottom: 1rem;
+    }
+    /* OVERRIDES IN MODAL */
+    .q-lightbox--modal .q-lightbox__image {
       width: calc(100% - 6rem);
       height: calc(70vh - 3rem);
       top: 3rem;
       left: 3rem;
     }
-    .q-lightbox__caption {
+    .q-lightbox--modal .q-lightbox__caption {
       width: calc(100% - 6rem);
       height: calc(30vh - 1rem);
       bottom: 0;
@@ -177,17 +190,18 @@ class Lightbox extends LitElement {
       font-size: 1rem;
       line-height: 2;
       overflow: scroll;
+      color: white;
     }
-    .q-lightbox__caption-content {
+    .q-lightbox--modal .q-lightbox__caption-content {
       padding-bottom: 4rem;
     }
     @media screen and (min-width:820px) {
-      .q-lightbox__image {
+      .q-lightbox--modal .q-lightbox__image {
         width: calc(55% - 3rem);
         height: 100%;
         top: 0;
       }
-      .q-lightbox__caption {
+      .q-lightbox--modal .q-lightbox__caption {
         width: calc(45% - 6rem);
         height: calc(100% - 4rem);
         top: 4rem;
@@ -196,10 +210,10 @@ class Lightbox extends LitElement {
       }
     }
     @media screen and (min-width:1000px) {
-      .q-lightbox__image {
+      .q-lightbox--modal .q-lightbox__image {
         width: calc(65% - 3rem);
       }
-      .q-lightbox__caption {
+      .q-lightbox--modal .q-lightbox__caption {
         width: calc(35% - 6rem);
         left: calc(65% + 2rem);
       }
@@ -370,7 +384,7 @@ class Lightbox extends LitElement {
     };
 
     return html`
-      <div class="q-lightbox">
+      <div class="q-lightbox ${this.isInsideOpenModal && 'q-lightbox--modal'}">
         ${imageSlides()}
         <div class="q-lightbox__zoom-and-fullscreen">
           ${zoomButtons()}

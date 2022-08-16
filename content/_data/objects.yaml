@@ -1,49 +1,234 @@
 object_display_order:
-  - artist
-  - year
-  - dimensions
-  - medium
-  - location
+  - name
 object_list:
-  - id: 1
-    title: Human Erosion in California / Migrant Mother
-    artist: Dorothea Lange
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 34.1 cm × 26.8 cm (13 <sup>7</sup>⁄<sub>16</sub> in × 10 <sup>9</sup>⁄<sub>16</sub> in.)
-    location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/125690/
+  - id: case-study-1
     figure:
-      - id: "mother"
-      - id: "mother-b"
-      - id: "mother-c"
-  - id: 2
-    title: Pea Pickers, Nipomo, California
-    artist: Dorothea Lange
-    year: 1936
-    medium: Gelatin silver print, with applied pigment
-    dimensions: 29.5 cm × 24.4 cm (7 <sup>11</sup>⁄<sub>16</sub> in × 9 <sup>5</sup>⁄<sub>8</sub> in.)
-    location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/130784/
+      - id: "fig-440-cover"
+      - id: "fig-440"
+      - id: "fig-441"
+      - id: "fig-442"
+      - id: "fig-443"
+      - id: "fig-444"
+      - id: "fig-445"
+      - id: "fig-446"
+      - id: "fig-447"
+      - id: "fig-448"
+      - id: "fig-449"
+      - id: "fig-450"
+      - id: "fig-451"
+      - id: "fig-452"
+      - id: "fig-453"
+      - id: "fig-454"
+      - id: "fig-455"
+      - id: "fig-456"
+      - id: "fig-457"
+      - id: "fig-458"
+      - id: "fig-459"
+      - id: "fig-084"
+      - id: "fig-086"
+      - id: "fig-441"
+      - id: "fig-460"
+      #- id: "vid-12"
+      - id: "fig-461"
+      - id: "fig-462"
+      - id: "fig-463"
+      - id: "fig-367"
+      - id: "fig-367"
+      - id: "fig-367"
+      - id: "fig-464"
+      - id: "fig-465"
+      - id: "fig-466"
+      - id: "fig-467"
+      - id: "fig-290"
+      - id: "fig-468"
+      - id: "fig-381"
+      - id: "fig-379"
+      - id: "fig-380"
+
+  - id: case-study-2
     figure:
-      - id: "pickers"
-  - id: 3
-    title: Bud Fields and His Wife Ivy, and His Daughter Ellen, Hale County, Alabama
-    artist: Walker Evans
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 19.4 x 24.4 (7 <sup>5</sup>⁄<sub>8</sub> x 9 <sup>5</sup>⁄<sub>8</sub> in.)
-    location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/45651/
+      - id: "fig-469-cover"
+      - id: "fig-469"
+      - id: "fig-470"
+      - id: "fig-471"
+      - id: "fig-469"
+      - id: "fig-472"
+      - id: "fig-470"
+      - id: "fig-473"
+      - id: "fig-474"
+      - id: "vid-04"
+      - id: "fig-475"
+      - id: "fig-472"
+      - id: "fig-476"
+      - id: "vid-05"
+      - id: "fig-477"
+      - id: "fig-478"
+      - id: "fig-479"
+      - id: "fig-480"
+      - id: "fig-481"
+      - id: "fig-482"
+      - id: "fig-483"
+      - id: "fig-484"
+      - id: "vid-08"
+      - id: "fig-180"
+      - id: "fig-485"
+      - id: "fig-486"
+      - id: "fig-487"
+      - id: "fig-488"
+      - id: "fig-489"
+      - id: "fig-104"
+      - id: "fig-277"
+      - id: "fig-180"
+      - id: "fig-490"
+      - id: "fig-491"
+      - id: "fig-478"
+      - id: "fig-492"
+      - id: "fig-493"
+      - id: "fig-494"
+      - id: "fig-495"
+      - id: "fig-496"
+      - id: "fig-497"
+      - id: "fig-498"
+      - id: "fig-499"
+
+  - id: case-study-3
     figure:
-      - id: "duo"
-  - id: 4
-    title: Burroughs Family, Hale County, Alabama
-    artist: Walker Evans
-    year: 1935
-    medium: Gelatin silver print
-    dimensions: 19.2 x 24.1 (7 <sup>9</sup>⁄<sub>16</sub> x 9 <sup>1</sup>⁄<sub>2</sub> in.)
-    location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/34753/
+      - id: "fig-500-cover"
+      - id: "fig-500"
+      - id: "fig-500"
+      - id: "fig-500"
+      - id: "fig-026"
+      - id: "fig-501"
+      - id: "fig-110"
+      - id: "fig-111"
+      - id: "fig-116"
+      - id: "fig-112"
+      - id: "fig-113"
+      - id: "fig-116"
+      - id: "fig-114"
+      - id: "fig-115"
+      - id: "fig-117"
+      - id: "fig-111"
+      - id: "fig-112"
+      - id: "fig-502"
+      - id: "fig-503"
+      - id: "fig-500"
+      - id: "fig-503"
+      - id: "fig-116"
+
+  - id: case-study-4
     figure:
-      - id: "family"
+      - id: "fig-508-cover"
+      - id: "fig-067"
+      - id: "fig-504"
+      - id: "fig-505"
+      - id: "fig-506"
+      - id: "fig-507"
+      - id: "fig-508"
+      - id: "fig-509"
+      - id: "fig-067"
+      - id: "fig-504"
+      - id: "fig-505"
+      - id: "fig-506"
+      - id: "fig-507"
+      - id: "fig-508"
+      - id: "fig-509"
+      - id: "fig-054"
+      - id: "fig-067"
+      - id: "fig-508"
+      - id: "fig-509"
+      - id: "fig-126"
+      - id: "fig-510"
+      - id: "fig-067"
+      - id: "fig-276"
+      - id: "fig-508"
+      - id: "fig-511"
+      - id: "fig-241"
+      - id: "fig-285"
+      - id: "fig-286"
+      - id: "fig-067"
+      - id: "fig-273"
+      - id: "fig-512"
+      - id: "fig-513"
+      - id: "fig-054"
+      - id: "fig-508"
+      - id: "fig-509"
+      - id: "fig-514"
+      - id: "fig-400"
+      - id: "fig-401"
+      - id: "fig-515"
+      - id: "fig-516"
+      - id: "fig-403"
+      - id: "fig-404"
+      - id: "fig-517"
+      - id: "fig-518"
+      - id: "fig-067"
+      - id: "fig-126"
+      - id: "fig-510"
+      - id: "fig-517"
+      - id: "fig-518"
+      - id: "fig-519"
+      - id: "fig-508"
+      - id: "fig-520"
+      - id: "fig-521"
+      - id: "fig-522"
+      - id: "fig-403"
+      - id: "fig-404"
+
+  - id: case-study-5
+    figure:
+      - id: "fig-34-97-524-cover"
+      - id: "fig-523"
+      - id: "fig-523"
+      - id: "fig-034"
+      - id: "fig-097"
+      - id: "fig-524"
+      - id: "fig-008"
+      - id: "fig-051"
+      - id: "fig-070"
+      - id: "fig-038"
+      - id: "fig-034"
+      - id: "fig-097"
+      - id: "fig-524"
+      - id: "fig-034"
+      - id: "fig-097"
+      - id: "fig-524"
+      - id: "fig-023"
+      - id: "fig-431"
+      - id: "fig-427"
+      - id: "fig-428"
+      - id: "fig-525"
+      - id: "fig-034"
+      - id: "fig-274"
+      - id: "fig-405"
+      - id: "fig-406"
+      - id: "fig-524"
+      - id: "fig-526"
+      - id: "fig-527"
+      - id: "fig-528"
+      - id: "fig-523"
+
+  - id: case-study-6
+    figure:
+      - id: "fig-529-cover"
+      - id: "fig-529"
+      - id: "fig-530"
+      - id: "fig-529"
+      - id: "fig-531"
+      - id: "fig-009"
+      - id: "fig-532"
+      - id: "fig-533"
+      - id: "fig-534"
+      - id: "fig-535"
+      - id: "fig-536"
+      - id: "fig-537"
+      - id: "fig-538"
+      - id: "fig-539"
+      - id: "fig-540"
+      - id: "fig-541"
+      - id: "fig-195"
+      - id: "fig-542"
+      - id: "fig-195"
+      - id: "fig-542"
+      - id: "fig-538"
+      - id: "fig-543"
