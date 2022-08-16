@@ -387,6 +387,53 @@ button.accordion-expander[aria-expanded="true"] .vert {
     type: entry
     presentation: side-by-side
 ============================================================================= */
+/* Landing page */
+.grid.quire-contents .image img {
+  width: 85vw;
+  height: 85vw;
+  object-fit: contain;
+}
+@media screen and (min-width: 700px) {
+  .grid.quire-contents .image img {
+    width: 42vw;
+    height: 42vw;
+  }
+}
+@media screen and (min-width: 1184px) {
+  .grid.quire-contents .image img {
+    width: 27vw;
+    height: 27vw;
+  }
+}
+@media screen and (min-width: 1376px) {
+  .grid.quire-contents .image img {
+    width: 21vw;
+    height: 21vw;
+  }
+}
+.grid.quire-contents .quire-page__header,
+.grid.quire-contents .quire-page__content,
+.grid.quire-contents .quire-contents-list.grid ol li .card {
+  background-color: black;
+}
+.grid.quire-contents .quire-page__header__title,
+.quire-contents-list.grid ol li .card.image .card-content {
+  color: white;
+}
+.quire-contents-list.grid .menu-list a .arrow {
+  fill: white;
+}
+.quire-contents-list.grid ol li a:hover .card.image .card-content,
+.quire-contents-list.grid .menu-list a:hover * {
+  color: #888581;
+}
+.quire-contents-list.grid .menu-list a:hover .arrow svg {
+  fill: #888581 !important;
+}
+.quire-contents-list.grid .menu-list a:hover img {
+  opacity: .7;
+}
+/* Case study pages */
 .quire-entry div.side-by-side div.quire-entry__image-wrap,
 .quire-entry div.side-by-side div.quire-entry__content {
   background-color: black;
