@@ -45,11 +45,25 @@ figure_list:
     caption: "In-process detail of the second reconstruction by Andrew Lacey (British, b. 1969) of one of the so-called Rothschild Bronzes, attributed to Michelangelo (Italian, 1475–1564), H. 91.2 cm (private collection). The casting has just been broken out of the mold with dark fire-skin and some of the investment bonded to the surface. Great care in the application of the first investment layers on the wax model resulted in a cleaner as-cast surface with little or no granular texture and minimal investment bonded to the surface, necessitating minimal chasing. See {Lacey 2018}."
 
   - id: "fig-006"
-    src: "figures/_iiif/006.jpg"
+    src: "figures/_iiif/006/base.jpg"
     media_type: iiif
     label: "Figure 6"
     caption: "Experimental sand-cast torso (H. 16 cm). Yellow overlay indicates the hollow lantern made of rolled sheet metal that runs vertically through the body and has been used to mount the torso to a base. See also the area where the bronze did not fill the mold, an extreme example of a cold shut. White arrows indicate the typically rounded edge of the bronze wall where it stopped flowing. Green arrows denote the seam line along the proper right side of the torso where bronze flowed into a gap along the joint of the cope and drag. Red arrows indicate flashing at either side of the lower horizontal armature rod. Made with consultant Tonny Beentjes, Decorative Arts and Sculpture Conservation, J. Paul Getty Museum."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/006/bronze.png"
+            label: "Bronze"
+          - src: "figures/_iiif/006/core.png"
+            label: "Core"
+          - src: "figures/_iiif/006/flashing.png"
+            label: "Flashing"
+          - src: "figures/_iiif/006/cold-shut.png"
+            label: "Cold-shut"
+          - src: "figures/_iiif/006/seam-line.png"
+            label: "Seam line"
+          - src: "figures/_iiif/006/lantern.png"
+            label: "Lantern"
 
   - id: "fig-007"
     src: "figures/_iiif/007.jpg"
@@ -58,11 +72,20 @@ figure_list:
     caption: "Pouring layers of ceramic shell slurry onto the sprued wax of the horse’s head. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-008"
-    src: "figures/_iiif/008.jpg"
+    src: "figures/_iiif/008/base.jpg"
     media_type: iiif
     label: "Figure 8"
     caption: "View of the inside cavity showing remnants of the casting core composed by pre-baked bricks (see overlay) and clayey refractory material. See also the two iron armatures (image width ~50 cm). Barthélemy Prieur (French, ca. 1536–1611), Peace, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See {Seelig-Teuwen, Bourgarit, and Bewer 2014}; {Castelle et al. 2021}."
-    annotations: true
+    input: checkbox
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/008/brick-a.png"
+            label: "Brick A"
+          - src: "figures/_iiif/008/brick-b.png"
+            label: "Brick B"
+          - src: "figures/_iiif/008/clay.png"
+            label: "Clay"
 
   - id: "fig-009"
     src: "figures/_iiif/009.jpg"
@@ -206,18 +229,36 @@ figure_list:
     caption: "Various images from a Harvard University January-term bronze casting course (2012) led by Francesca Bewer showing the process of carving into a resin-bonded sand mold, and the textures and details on the resulting bronzes."
 
   - id: "fig-031"
-    src: "figures/_iiif/031.jpg"
+    src: "figures/_iiif/031/base.jpg"
     media_type: iiif
     label: "Figure 31"
     caption: "Radiographic detail of the torso of Apollo clearly shows a wax-to-wax joint as a dark ellipse at the junction of the arm to the shoulder (blue). See also the complex armature and notably the transverse rods (orange) going through the main armature rods (red). Apollo and Daphne, probably France, early 18th century, H. 85 cm (Musée Fabre, Montpellier, France, inv. 836.4.86). See {C2RMF Internal Report #37090, 2018}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/031/wax-joint.png"
+            label: "Wax-to-Wax Joint"
+          - src: "figures/_iiif/031/traverse-rods.png"
+            label: "Traverse Rods"
+          - src: "figures/_iiif/031/main-armatrure.png"
+            label: "Main Armature"
+          - src: "figures/_iiif/031/armature-b.png"
+            label: "Armature B [?]"
+          - src: "figures/_iiif/031/armature-c.png"
+            label: "Armature C [?]"
 
   - id: "fig-032"
-    src: "figures/032.jpg"
-    media_type:
+    src: "figures/_iiif/032/base.jpg"
+    media_type: iiif
     label: "Figure 32"
     caption: "X-radiograph showing a complex armature made of different sizes of rods and wire (11 mm, 7 mm, and 4 mm in diameter). See also the wax-to-wax joints. A 15 mm Cu filter was needed to keep the same exposure parameters for all the different areas of the sculpture, despite the significant variations in thickness (400kV, 8mA, 15 min. exposure, 3 m source-to-object distance, AA400PB film). Antoine-Louis Barye (French, 1795–1875), Theseus and the Centaur Bienor, cast by Eugène Gonon (1814–1892) in 1877, H. 1.3 m (Musée du Louvre, inv. RF 3882). For daylight photography of the statue see **fig. 395**. See {C2RMF Internal Report 2016b}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/032/armature.png"
+            label: "Armature"
+          - src: "figures/_iiif/032/wax-joints.png"
+            label: "Wax-to-Wax Joints"
 
   - id: "fig-033"
     src: "figures/_iiif/033.jpg"
@@ -226,18 +267,31 @@ figure_list:
     caption: "The artist beginning the modeling process on a metal armature. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-034"
-    src: "figures/034.jpg"
-    media_type:
+    media_type: iiif
     label: "Figure 34"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography showing the wire wrapping the core. Note how complex the image is due to the numerous overlaps, for instance of the drapery. Barthélemy Prieur (French, ca. 1536–1611), Abundance, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](#CaseStudy5)."
-    annotations: true
+    annotations:
+      - input: radio
+        items:
+          - src: "figures/_iiif/034/base.jpg"
+            label: "Daylight"
+          - src: "figures/_iiif/034/x-ray.jpg"
+            label: "X-Ray"
+          - src: "figures/_iiif/034/armature.jpg"
+            label: "Armature"
 
   - id: "fig-035"
-    src: "figures/035.jpg"
-    media_type:
+    src: "figures/_iiif/035/base.jpg"
+    media_type: iiif
     label: "Figure 35"
     caption: "Detail of an annotated digital X-radiograph showing transverse core pins in both thighs (yellow overlays), one running side to side, the other front to back. Rectangular patches (blue overlays) fill the holes left in the bronze wall when the front-to-back core pins were cut off at the surface and pushed into the hollow bronze cavity. Giovanni Battista Foggini (Italian, 1652–1725), Dancing Faun, ca. 1700, H. 54 cm (J. Paul Getty Museum, inv. 2000.8)."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/035/patches.png"
+            label: "Patches"
+          - src: "figures/_iiif/035/core-pins.png"
+            label: "Core Pins"
 
   - id: "fig-036"
     src: "figures/_iiif/036.jpg"
@@ -246,18 +300,26 @@ figure_list:
     caption: "Detail of internal surface showing a core pin with the head in the interior, testifying to the use of a process in which the core was set after the wax in the mold. Remains of clay core are visible (top right). Giovan Francesco Rustici (Italian, 1475–1554), Tomb Effigy of Alberto III Pio, Prince of Carpi, ca. 1535, L. 167 cm (Musée du Louvre, inv. MR 1680). See {C2RMF Internal Report 2016a}."
 
   - id: "fig-037"
-    src: "figures/_iiif/037.jpg"
+    src: "figures/_iiif/037/base.jpg"
     media_type: iiif
     label: "Figure 37"
     caption: "X-radiographs showing the influence of lead intensifying screens placed directly in front of and behind the film. Without lead screens (left), the contrast is low. On the right, the addition of the lead reinforcing screens (MX125PB film) reveals technical features, including core pins (some marked with red overlays). Operating conditions for both images are: 260kV, 4mA, 8 min. exposure, 2.5 m source-to-object distance, 2.6 mm Cu beam filtering. Candlestick Representing Samson and the Lion, Lower Saxony, ca. 1175–1225, H. 22 cm (Musée départemental des antiquités de Rouen, France, inv. R.91.23). See {C2RMF Internal Report 2015b}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/037/core-pins.png"
+            label: "Core Pins"
 
   - id: "fig-038"
-    src: "figures/038.jpg"
-    media_type:
+    src: "figures/_iiif/038/base.jpg"
+    media_type: iiif
     label: "Figure 38"
     caption: "Endoscope image of the inside cavity revealing a particular type of chaplet. Martin Lefort (French, dates unknown), Justice, 1571, H. 128 cm (Musée du Louvre, inv. MR1682). See {Castelle et al. 2021}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/038/chaplet.png"
+            label: "Chaplet"
 
   - id: "fig-039"
     src: "figures/_iiif/039.jpg"
@@ -278,18 +340,32 @@ figure_list:
     caption: "Wax inter-model and bronze copy of Antinous (French School) made by Andrew Lacey in 2014. The core extending out of the base will function as a mold extension, tying the core to the investment and reducing the number of core pins needed. In the indirect process, both the wax inter-model and the casting alloy will contribute to the overall shrinkage of the sculpture. This is most noticeable when comparing the original model to the final bronze sculpture. The wax inter-model will shrink by ~2.5–3% in linear dimension and the casting alloy by ~1–1.5%; therefore the final sculpture will shrink by ~4% in total."
 
   - id: "fig-042"
-    src: "figures/_iiif/042.jpg"
+    src: "figures/_iiif/042/base.jpg"
     media_type: iiif
     label: "Figure 42"
     caption: "Annotated detail of an X-radiograph showing core support rods (yellow overlay) supporting a wax-to-wax joint in the arm (blue overlay). Giovanni Battista Foggini (Italian, 1652–1725), Dancing Faun, ca. 1700, H. 54 cm (J. Paul Getty Museum, inv. 2000.8). See {Fogelman and Fusco 2002}, 238, 357."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/042/core-supports.png"
+            label: "Core Supports"
+          - src: "figures/_iiif/042/wax-joint.png"
+            label: "Wax-to-Wax Joint"
 
   - id: "fig-043"
-    src: "figures/_iiif/043.jpg"
+    src: "figures/_iiif/043/base.jpg"
     media_type: iiif
     label: "Figure 43"
     caption: "Annotated X-radiograph of a sand cast. Both Dejanira’s and Hercules’s heads were cast separately and secured at the neck with Roman sleeve joints (yellow overlay). Roman joints also secure Dejanira’s proper right arm as well as Hercules’s proper left arm. There is an internal seam line in Dejanira’s left shoulder where the separately formed core in the arm abuts the core used in the torso (blue line). Lanterns can be seen in the torso and the proper left arm (red overlays). Charles Crozatier (French, 1795–155), Hercules freeing Dejanira from the Centaur Nessus, Paris 19th century, after Adriaen de Vries (Netherlandish, 1556–1626), H. 78.5 cm (Rijksmuseum, Amsterdam, inv. BK-1957-2)."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/043/armature.png"
+            label: "Amrmature"
+          - src: "figures/_iiif/043/heads.png"
+            label: "Heads"
+          - src: "figures/_iiif/043/seam-line.png"
+            label: "Seam Line"
 
   - id: "fig-044"
     src: "figures/_iiif/044.jpg"
@@ -328,25 +404,39 @@ figure_list:
     caption: "Detail of chest showing the modeling of the ribs in wax by hand. Barthélemy Prieur (French, ca. 1536–1611), Funerary Genius, 1583–85, L. 109 cm (Musée du Louvre, inv. MR1685). See {Seelig-Teuwen, Bourgarit, and Bewer 2014}; {Castelle 2016}."
 
   - id: "fig-050"
-    src: "figures/050.jpg"
-    media_type:
+    src: "figures/_iiif/050/base.jpg"
+    media_type: iiif
     label: "Figure 50"
     caption: "Reverse of panel showing evidence of sprues and working from the back of the wax model. The detail shows an area around the edges of a hollow portion that has been reinforced with small masses of soft wax pressed around the edges. They correspond to the area where the hollow protruding figure of David meets the background of the relief. The malleable material also captured partial fingerprints. Lorenzo Ghiberti (Italy, ca. 1381–1455), David and Saul panel in the *Gates of Paradise*, left door, H. 518 cm (design begun after 1425; installed 1452 (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See {Bewer, Stone, and Sturman 2007}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/050/thickening.png"
+            label: "Wax Thickening"
 
   - id: "fig-051"
-    src: "figures/_iiif/051.jpg"
+    src: "figures/_iiif/051/base.jpg"
     media_type: iiif
     label: "Figure 51"
     caption: "Detail of cornucopia showing tool marks in the wax (green overlay) Marks of metal hammering are also visible (orange arrows). Barthélemy Prieur (French, ca. 1536–1611), Abundance, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR 1681). See {Seelig-Teuwen, Bourgarit, and Bewer 2014}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/051/wax.png"
+            label: "Tool Marks in Wax"
+          - src: "figures/_iiif/051/metal.png"
+            label: "Metal Hammering"
 
   - id: "fig-052"
-    src: "figures/052.jpg"
-    media_type:
+    src: "figures/_iiif/052/base.jpg"
+    media_type: iiif
     label: "Figure 52"
     caption: "Detail of neck that preserves the raw tool marks made on the wax model (arrows indicate the direction of the stroke). The finer striated marks in the bottom right corner may have been made in the metal with a file. Barthélemy Prieur (French, ca. 1536–1611), Funerary Genius, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See {Seelig-Teuwen, Bourgarit, and Bewer 2014}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/052/direction.png"
+            label: "Stroke Direction"
 
   - id: "fig-053"
     src: "figures/053.jpg"
@@ -355,11 +445,15 @@ figure_list:
     caption: "Underside of two reduced-size casts showing the characteristic, more angular inner surface of a sand cast produced by the pared-down core (top), and the softer forms of a lost-wax cast (bottom). Auguste Rodin (French, 1840–1917), *Burgher of Calais: The Man with the Key, Jean d’Aire*, after 1895, H. 47 cm (Harvard Art Museums / Fogg Museum, Bequest of Grenville L. Winthrop, inv. 1943.1154 [top], and modern cast from private collection [bottom])."
 
   - id: "fig-054"
-    src: "figures/_iiif/054.jpg"
+    src: "figures/_iiif/054/base.jpg"
     media_type: iiif
     label: "Figure 54"
     caption: "View underneath showing consecration offerings. See also the raised ridges (arrows) indicating wax-to-wax joints. Kubera/Jambhala, Java, first half of the 10th century, H. 18 cm (Musée National des arts asiatiques – Guimet, France, inv. MG 3625). See {Mechling et al. 2018}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/054/wax-joints.png"
+            label: "Wax-to-Wax Joints"
 
   - id: "fig-055"
     src: "figures/_iiif/055.jpg"
@@ -368,18 +462,26 @@ figure_list:
     caption: "Detail of the inside of the bronze showing a core pin hole (diameter 2.5 mm) made in the wax inter-model. The softened rim of the hole was created as the warmed core pin was pushed through the wax. Brush marks and fingerprints are further evidence of the production of the wax inter-model. Andrew Lacey (British, b. 1969), *Ashen*, 2021, H. 192 cm (artist’s collection)."
 
   - id: "fig-056"
-    src: "figures/056.jpg"
-    media_type:
+    src: "figures/_iiif/056/base.jpg"
+    media_type: iiif
     label: "Figure 56"
     caption: "Detail of the lower portion of a lost-wax after-cast of a Renaissance partially gilded silver plaquette as cast. The myriad small bronze spherules (see overlay) result from air bubbles in the poorly applied plaster-based investment slurry, which settled on the surface of the wax inter-model. Francesca Bewer after-cast made from an electrotype copy (date unknown) after Galeazzo Mondella (Italian, 1467–1528), Sacra Conversazione, ca. 1510, H. 13.9 cm (Kunsthistorischesmuseum, Vienna, inv. Kunstkammer, 1107)."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/056/spherules.png"
+            label: "Spherules"
 
   - id: "fig-057"
-    src: "figures/_iiif/057.jpg"
+    src: "figures/_iiif/057/base.jpg"
     media_type: iiif
     label: "Figure 57"
     caption: "Detail of the open back of the bust, where spheres of bronze are the result of air bubbles from the plaster core trapped against the wax casting model (some examples circled). Jean-Baptiste Pigalle (French, 1714–1785), Bust of Denis Diderot, 1777, H. 52.2 cm (Musée du Louvre, inv. RF 1396)."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/057/spherules.png"
+            label: "Spherules"
 
   - id: "fig-058"
     src: "figures/058.jpg"
@@ -388,25 +490,53 @@ figure_list:
     caption: "View of internal cavity showing details of the translation into bronze of porosities created by organic materials incorporated in the core that were close to the surface and replaced by the metal. Barthélemy Prieur (French, ca. 1536–1611), Funerary Genius, Christophe de Thou Monument, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685)."
 
   - id: "fig-059"
-    src: "figures/059.jpg"
-    media_type:
+    src: "figures/_iiif/059/base.jpg"
+    media_type: iiif
     label: "Figure 59"
     caption: "Interior detail of a welding line that joins two large sections of a lost-wax cast base (blue overlay). Note the characteristically jagged-edged flashing due to clay or plaster core that formed perpendicularly to the bronze walls (red arrows). Henry Moore (British, 1898–1986), *Seated Woman*, designed 1958–59, cast 1975, H. 203.2 cm (J. Paul Getty Museum, inv. 2005.117.3). See **fig. 203** for a general view."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/059/welds.png"
+            label: "Welds"
+          - src: "figures/_iiif/059/flashes.png"
+            label: "Flashes"
 
   - id: "fig-060"
-    src: "figures/060.jpg"
-    media_type:
+    src: "figures/_iiif/060/base.jpg"
+    media_type: iiif
     label: "Figure 60"
     caption: "Detail of the underside of the tomb effigy showing drips on the inner edge that were formed through use of a hot tool on the wax model (green marks), the network of flashing due to cracks in the core (yellow marks), and short, straight, crisp chisel marks (red marks) created during removal of flashing and of the clay core (pink overlay). Giovan Francesco Rustici (Italian, 1475–1554), Tomb Effigy of Alberto III Pio, Prince of Carpi, ca. 1535, L. 167 cm (Musée du Louvre, inv. MR 1680). See {C2RMF Internal Report 2016a}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/060/drip-marks.png"
+            label: "Drip Marks"
+          - src: "figures/_iiif/060/flashing.png"
+            label: "Flashing"
+          - src: "figures/_iiif/060/chisel-marks.png"
+            label: "Chisel Marks"
+          - src: "figures/_iiif/060/core.png"
+            label: "Clay Core"
 
   - id: "fig-061"
-    src: "figures/061.jpg"
-    media_type:
+    src: "figures/_iiif/061/base.jpg"
+    media_type: iiif
     label: "Figure 61"
     caption: "The underside of the base reveals numerous features indicative of sand casting: the overall angular and geometric contours of the base (red arrows); seam lines likely formed between sections of the core (yellow lines); the larger seam lines [flashing] appear to have been chiseled down); nuts on threaded rods used to secure the separately cast figures (white overlay); hammering to better align the joined sections (green overlay). Traces of the sand mold are present (examples overlaid in blue). Francois-Auguste-Hippolyte Peyrol (French, 1856–1929), Indian Fighting Cougar (French title according to the inscription plaque is *La Lutte Pour La Vie*), cast in France, marked Peyrol foundry, inscription date 1933 (probably cast prior to 1927, when the foundry closed), H. 75 cm (collection of George Syrmos)."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/061/sand-core.png"
+            label: "Sand Core"
+          - src: "figures/_iiif/061/nuts.png"
+            label: "Nuts"
+          - src: "figures/_iiif/061/hammering.png"
+            label: "Hammering"
+          - src: "figures/_iiif/061/geometric-core.png"
+            label: "Geometric Core"
+          - src: "figures/_iiif/061/core-flashes.png"
+            label: "Core Flashes"
 
   - id: "fig-062"
     src: "figures/_iiif/062.jpg"
@@ -415,18 +545,32 @@ figure_list:
     caption: "Bronze reproduction of the head of the Apollo of Lillebonne made by sand casting during the 2016 CAST:ING meeting, Coubertin foundry, France, before any repairing. See the rough as-cast surface representing the texture of the sand mold, and the stepped linear feature following the piece-mold joint line. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See **fig. 288**."
 
   - id: "fig-063"
-    src: "figures/_iiif/063.jpg"
+    src: "figures/_iiif/063/base.jpg"
     media_type: iiif
     label: "Figure 63"
     caption: "X-radiograph showing a wax-to-wax joint on the right arm (red dotted line), as revealed by the discontinuity in the metal wall thickness (blue overlay). Note that making precise measurements of wall thickness from radiographs may be difficult, as the external edge may not be visible if overexposed (yellow line). As a consequence, the metal wall thickness may be up to 30% greater than that inferred from the radiograph (blue overlay). After Giambologna (Netherlandish, 1524–1608), Hercules, ca. 1580, cast in Italy, Germany, or the Netherlands, 17th century or later, H. 43 cm (Musée des beaux arts d’Angers, France, inv. 2003-1-180). See {C2RMF Internal Report 2018b}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/063/wax-joint.png"
+            label: "Wax-to-Wax Joint"
+          - src: "figures/_iiif/063/wall-thickness.png"
+            label: "Wall Thickness"
+          - src: "figures/_iiif/063/external-edge.png"
+            label: "External Edge"
 
   - id: "fig-064"
-    src: "figures/_iiif/064.jpg"
+    src: "figures/_iiif/064/base.jpg"
     media_type: iiif
     label: "Figure 64"
     caption: "Annotated X-radiograph showing numerous small circular holes (red dots) testifying to the use of transverse core pins passing through the horse’s body from one side to the other. See also the long wax joint running the length of the horse (green lines). Horse and Rider, Italian, 16th century, H. 33 cm (Musée des beaux arts d’Angers, France, inv. 2003-1-182). See {C2RMF Internal Report 2018b}."
-    annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/_iiif/064/wax-joints.png"
+            label: "Wax-to-Wax Joints"
+          - src: "figures/_iiif/064/core-pin-holes.png"
+            label: "Core Pin Holes"
 
   - id: "fig-065"
     src: "figures/_iiif/065.jpg"
