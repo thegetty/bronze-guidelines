@@ -7,27 +7,29 @@ const path = require('path')
  * @return {String}  An HTML <table> element
  */
 module.exports = function(eleventyConfig) {
-  const figurecaption = eleventyConfig.getFilter('figurecaption')
+  const figureCaption = eleventyConfig.getFilter('figureCaption')
+  const figureLabel = eleventyConfig.getFilter('figureLabel')
   const markdownify = eleventyConfig.getFilter('markdownify')
   const renderFile = eleventyConfig.getFilter('renderFile')
 
   const assetsDir = path.join(eleventyConfig.dir.input, '_assets/images')
-  const { figureLabelLocation } = eleventyConfig.globalData.config.params
 
-  return async function({ caption, credit, id, src }) {
+  return async function({ caption, credit, id, label, src }) {
     const table = await renderFile(path.join(assetsDir, src))
     const title = markdownify(caption)
 
+    const labelElement = figureLabel({ caption, id, label })
+    const captionElement = figureCaption({ caption, content: labelElement, credit })
+
     return html`
       <a
-        class="inline popup"
-        data-type="inline"
+        class="q-figure__modal-link"
         href="#${id}"
         title="${title}"
       >
         ${table}
       </a>
-      ${figurecaption({ caption, credit })}
+      ${captionElement}
     `
   }
 }

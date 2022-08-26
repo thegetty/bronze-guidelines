@@ -1,5 +1,6 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
+// added presentation and tags values as classes, lines 55, 64–66
 //
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
@@ -32,21 +33,21 @@ module.exports = {
         title: data.title
       }
     },
-    key: (data) => {
-      if (!data.page.url) return
-      const segments = data.page.url.split('/')
-      const key = segments.slice(1, segments.length - 1).join('/')
-      return data.key || key
-    },
+    key: (data) => data.key,
     order: (data) => data.order,
-    parent: (data) => {
-      if (!data.page.url) return
-      const segments = data.page.url.split('/')
-      const parent = segments.slice(1, segments.length - 2).join('/')
-      return data.parent || parent
-    },
-    url: (data) => data.page.url,
-    title: (data) => data.title
+    parent: (data) => data.parent,
+    title: (data) => data.title,
+    url: (data) => data.page.url
+  },
+  /**
+   * Current page key
+   * @return {String}
+   */
+  key: (data) => {
+    if (!data.page.url) return
+    const segments = data.page.url.split('/')
+    const key = segments.slice(1, segments.length - 1).join('/')
+    return data.key || key
   },
   /**
    * Classes applied to <main> page element
@@ -128,6 +129,19 @@ module.exports = {
       nextPage: collections.navigation[currentPageIndex + 1],
       previousPage: collections.navigation[currentPageIndex - 1]
     }
+  },
+  /**
+   * Parent page key
+   * @return {String}
+   */
+  parent: ({ page, parent }) => {
+    if (!page.url) return
+    const segments = page.url.split('/')
+    const parentSegment = segments.slice(1, segments.length - 2).join('/')
+    return parent || parentSegment
+  },
+  parentPage:({ collections, parent }) => {
+    return collections.all.find((item) => parent && item.data.key === parent)
   },
   /**
    * Contributors with a `pages` property containing data about the pages they contributed to

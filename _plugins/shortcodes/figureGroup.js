@@ -1,5 +1,6 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
+// output simple group of figures rather than row
 //
 const { html } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')

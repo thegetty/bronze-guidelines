@@ -78,6 +78,12 @@ While the paged.js work is ongoing, a PDF of *Bronze Guidelines* can be created 
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
+**_includes/web-components/modal/index.js**
+Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
+
+**_layouts/page.entry**
+Use default `pageHeader` and remove bibliography.
+
 **_layouts/page.liquid**
 Remove bibliographies from all pages.
 
@@ -87,9 +93,6 @@ New layout specifically to create grid of all figure images.
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
-
-**_plugins/markdown/index.js**
-Added config to remove the default `<hr />` element that was being inserted. Added as Jira issue DEV-12804 for core Quire.
 
 **_plugins/shortcodes/def.js**
 Custom shortcode to display vocabulary pop-ups with definitions and links.
@@ -102,17 +105,8 @@ Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig
 
 **_plugins/shortcodes/index.js**
 
-**_plugins/shortcodes/pageinfo.js**
-Custom shortcode to process text with shortcodes in it.
-
 **_plugins/shortcodes/warn.js**
 Custom shortcode to wrap content in a `<div>` with a "warn" class.
-
-**content/_assets/javascript/web-components/lightbox/index.js**
-Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
-
-**content/_assets/javascript/web-components/modal/index.js**
-Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

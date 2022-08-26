@@ -120,22 +120,51 @@ $print-trim: $print-bleed * 2;
     }
   }
   
-  @page splash, splash-image {
+  @page splash {
     background-color: $print-splash-color;
   }
   
-  @page entry-image {
-    background-color: $print-entry-image-color;
-  }
-  
-  @page splash-image, cover {
+  @page splash-image {
     margin-top: 0;
     margin-bottom: -$print-bleed;
     margin-left: 0;
     margin-right: 0;
+    background-color: $print-splash-color;
+    @bottom-right {
+      content: none;
+    }
+  
+    @bottom-left {
+      content: none;
+    }
+  }
+  
+  @page entry-image {
+    background-color: $print-entry-image-color;
+    @bottom-right {
+      content: none;
+    }
+  
+    @bottom-left {
+      content: none;
+    }
+  }
+  
+  @page cover {
+    margin-top: 0;
+    margin-bottom: -$print-bleed;
+    margin-left: 0;
+    margin-right: 0;
+    @bottom-right {
+      content: none;
+    }
+  
+    @bottom-left {
+      content: none;
+    }
   }
 
-  @page no-footer, entry-image, splash-image, cover {
+  @page no-footer {
     @bottom-right {
       content: none;
     }
@@ -169,16 +198,10 @@ $print-trim: $print-bleed * 2;
 
 // Generated content for footers and page #s in TOC
 // -----------------------------------------------------------------------------
-  .pdf-page-title {
-    string-set: pagetitle content();
-  }
-
-  .pdf-page-section {
-    string-set: sectiontitle content();
-  }
-  
-  .pdf-page-label {
-    string-set: pagelabel content();
+  .quire-page {
+    string-set: 
+      pagetitle attr(data-footer-page-title),
+      sectiontitle attr(data-footer-section-title);
   }
 
   .quire-contents-list {
@@ -266,10 +289,6 @@ $print-trim: $print-bleed * 2;
   
   .quire-cover {
     page: cover;
-  }
-
-  #content>div.container>div>figure:nth-child(11)>div:nth-child(1) .q-figure--group-pdf {
-    color: #fff;
   }
   
 // Set columns and widths for main page content
@@ -397,7 +416,7 @@ $print-trim: $print-bleed * 2;
 
   // @todo determine why below with `&` was failing in webpack
   // .quire-entry__image & figure {
-  .quire-entry__image figure {
+  .quire-entry__image-wrap figure {
     display: flex;
     flex-direction: column;
     height: $print-entry-image-height;

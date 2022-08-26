@@ -17,6 +17,7 @@ const componentsPlugin = require('./_plugins/components')
 const filtersPlugin = require('./_plugins/filters')
 const frontmatterPlugin = require('./_plugins/frontmatter')
 const globalDataPlugin = require('./_plugins/globalData')
+const i18nPlugin = require('./_plugins/i18n')
 const iiifPlugin = require('./_plugins/iiif')
 const lintersPlugin = require('./_plugins/linters')
 const markdownPlugin = require('./_plugins/markdown')
@@ -35,6 +36,7 @@ const yaml = require('js-yaml')
 
 const inputDir = 'content'
 const outputDir = '_site'
+const publicDir = 'public'
 
 /**
  * Eleventy configuration
@@ -88,6 +90,7 @@ module.exports = function(eleventyConfig) {
    * Must go before other plugins
    */
   eleventyConfig.addPlugin(globalDataPlugin)
+  eleventyConfig.addPlugin(i18nPlugin)
   eleventyConfig.addPlugin(iiifPlugin)
 
   /**
@@ -163,8 +166,7 @@ module.exports = function(eleventyConfig) {
                   filePath +=
                     fullFilePathSegments
                       .slice(fullFilePathSegments.indexOf(assetDir) + 1)
-                      .join('/') +
-                    '/'
+                      .join('/') + '/'
                 }
               })
               return `${filePath}[name][extname]`
@@ -199,8 +201,9 @@ module.exports = function(eleventyConfig) {
    * Copy static assets to the output directory
    * @see https://www.11ty.dev/docs/copy/
    */
-  eleventyConfig.addPassthroughCopy('content/_assets')
-  eleventyConfig.addPassthroughCopy('public')
+  eleventyConfig.addPassthroughCopy(`${inputDir}/_assets`)
+  eleventyConfig.addPassthroughCopy(`${publicDir}`)
+  eleventyConfig.addPassthroughCopy({ '_includes/web-components': '_assets/javascript' })
 
   /**
    * Watch the following additional files for changes and live browsersync
