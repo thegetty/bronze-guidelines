@@ -513,29 +513,57 @@ button.accordion-expander[aria-expanded="true"] .vert {
 /*  PRINT / PDF
 ============================================================================= */
 @media print {
-  .quire-vocabulary .quire-page__header h1 {
-    prince-bookmark-level: none;
-  }
-  /* .quire-page__content__references.backmatter, */
+  /* Hide stuff */
   .quire-page__content figure.q-figure--group,
   .quire-contents-buttons,
   .image-grid-search-box {
     display: none;
   }
-  /* .quire-vocabulary .quire-page__content,
-  .quire-visual-atlas .quire-page__content,
-  .quire-page--pdf-backmatter .quire-page__content, */
+  /* Make 2 columns throughout*/
   .quire-page:not(.quire-contents) .quire-page__content {
     column-count: 2;
     column-fill: balance;
     column-gap: .1875in;
     max-width: 100%;
     margin: 0;
-    /* column-count: 3; */
-    /* font-size: .875em; */
+  }
+  /* Remove figure borders */
+  .content figure.q-figure {
+    border-width: 0;
+    padding: 0;
+  }
+  /* Adjust font size and margins for small text items */
+  .content figure .q-figure__caption {
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+  .quire-page__content .content .footnotes ol li {
+    margin-bottom: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+  .quire-page__content .content .quire-page__content__references dl {
+    margin-bottom: .25rem;
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+  .quire-page__content .content .quire-page__content__references dl dd {
+    margin-bottom: 0;
+  }
+  /* Try alternate handling of list bullets */
+  .quire-page__content .container .content ul {
+    list-style-type: "◆";
+  }
+  .quire-page__content .container .content ul li::before {
+    content: none;
+  }
+  /* Fix up vocab pages */
+  .quire-page__content table.vocab-table {
+    column-span: all;
+    font-size: 1rem;
   }
   .quire-page.vocabulary .quire-page__content {
-    /* column-count: ; */
     font-size: .875rem;
   }
   .quire-page.vocabulary .quire-page__header {
@@ -570,43 +598,5 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
     margin-bottom: 0;
-  }
-
-
-
-
-  .content figure.q-figure {
-    border-width: 0;
-    padding: 0;
-  }
-
-  .content figure .q-figure__caption {
-    font-size: .875rem;
-    line-height: 1.5;
-  }
-  .quire-page__content .content .footnotes ol li {
-    margin-bottom: 0;
-    font-family: "Noto Sans", sans-serif;
-    font-size: .75rem;
-    line-height: 1.6;
-  }
-  .quire-page__content .content .quire-page__content__references dl {
-    margin-bottom: .25rem;
-    font-size: .75rem;
-    line-height: 1.6;
-  }
-  .quire-page__content .content .quire-page__content__references dl dd {
-    margin-bottom: 0;
-  }
-  .quire-page__content table.vocab-table {
-    column-span: all;
-    font-size: 1rem;
-  }
-
-  .quire-page__content .container .content ul {
-    list-style-type: "◆";
-  }
-  .quire-page__content .container .content ul li::before {
-    content: none;
   }
 }
