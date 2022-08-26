@@ -4,7 +4,7 @@ order: 400
 layout: page
 ---
 
-<table>
+<table class="vocab-table">
   <thead>
     <tr>
       <th>English</th>
@@ -15,7 +15,8 @@ layout: page
     </tr>
   </thead>
   <tbody>
-{% for page in collections.vocabulary %}
+{% assign vocabPages = collections.vocabulary | sort: 'data.order' %}
+{% for page in vocabPages %}
   <tr>
     <td><a href="{{ page.url}}">{{ page.data.title }}</a></td>
     <td>{{ page.data.lang.de }}</td>
