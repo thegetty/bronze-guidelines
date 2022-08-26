@@ -5,4 +5,4 @@ layout: page
 class: pdf-backmatter
 ---
 
-contributor range="primary" format="bio"
+{% contributors context=publicationContributors type='primary' format='bio' %}
