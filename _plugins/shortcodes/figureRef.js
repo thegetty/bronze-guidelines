@@ -1,5 +1,8 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
+// render 'fig-4, fig-5', instead of 'fig-4', 'fig-5', line 31
+// remove leading zeroes, line 42
+// add .q-figure__modal-link class, line 44
 //
 const { oneLineCommaLists } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')

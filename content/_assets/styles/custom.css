@@ -28,6 +28,8 @@ ACCORDION BUTTONS
 VOCABULARY PAGES
 VISUAL ATLAS PAGE
 CASE STUDIES
+LIGHTBOX & MODAL
+PRINT/PDF
 */
 
 /* GENERAL
@@ -510,7 +512,67 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
 }
 
-/*  PRINT / PDF
+/*  LIGHTBOX & MODAL
+============================================================================= */
+/* Lightbox */
+.q-lightbox__image {
+  height: calc(100vh - 8.75rem)
+}
+.q-lightbox__caption {
+  font-family: "Noto Sans", sans-serif;
+  font-size: .75rem;
+  line-height: 1.5;
+  color: #888581;
+}
+.q-lightbox__caption-content {
+  padding-bottom: 1rem;
+}
+/* Lightbox in modal specifically */
+.q-lightbox--modal .q-lightbox__image {
+  width: calc(100% - 6rem);
+  height: calc(70vh - 3rem);
+  top: 3rem;
+  left: 3rem;
+}
+.q-lightbox--modal .q-lightbox__caption {
+  width: calc(100% - 6rem);
+  height: calc(30vh - 1rem);
+  bottom: 0;
+  left: 3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  overflow: scroll;
+  color: white;
+}
+.q-lightbox--modal .q-lightbox__caption-content {
+  padding-bottom: 4rem;
+}
+@media screen and (min-width:820px) {
+  .q-lightbox--modal .q-lightbox__image {
+    width: calc(55% - 3rem);
+    height: 100%;
+    top: 0;
+  }
+  .q-lightbox--modal .q-lightbox__caption {
+    width: calc(45% - 6rem);
+    height: calc(100% - 4rem);
+    top: 4rem;
+    right: 3rem;
+    left: calc(55% + 2rem);
+  }
+}
+@media screen and (min-width:1000px) {
+  .q-lightbox--modal .q-lightbox__image {
+    width: calc(65% - 3rem);
+  }
+  .q-lightbox--modal .q-lightbox__caption {
+    width: calc(35% - 6rem);
+    left: calc(65% + 2rem);
+  }
+}
+
+/*  PRINT/PDF
 ============================================================================= */
 @media print {
   /* Hide stuff */

@@ -1,5 +1,6 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
+// added def and warn shortcodes
 //
 const addComponentTag = require('../../_plugins/components/addComponentTag')
 const backmatter = require('./backmatter.js')
@@ -13,7 +14,6 @@ const shortcodeFactory = require('../../_plugins/components/addShortcode')
 const title = require('./title.js')
 const tombstone = require('./tombstone.js')
 const def = require('./def.js')
-const pageinfo = require('./pageinfo.js')
 const warn = require('./warn.js')
 
 module.exports = function(eleventyConfig, collections, options) {
@@ -34,5 +34,4 @@ module.exports = function(eleventyConfig, collections, options) {
   addShortcode('title', title)
   addShortcode('tombstone', tombstone)
   addShortcode('def', def)
-  addShortcode('pageinfo', pageinfo)
 }
