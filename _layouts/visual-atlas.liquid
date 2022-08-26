@@ -32,7 +32,7 @@ description: Custom page showing all non-table figure images
         {% assign imageDir = config.params.imageDir %}
         <div class="image-grid" id="image-grid">
         {% for figure in figures.figure_list %}
-        {% if figure.media_type != "table" %}
+        {% if figure.media_type != "table" and figure.caption %}
           {% figure figure.id, "image-grid-figure match" %}
         {% endif %}
         {% endfor %}
