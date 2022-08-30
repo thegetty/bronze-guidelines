@@ -578,6 +578,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   /* Hide stuff */
   .quire-page__content figure.q-figure--group,
   .quire-contents-buttons,
+  .quire-page__content table.vocab-table,
   .image-grid-search-box {
     display: none;
   }
@@ -621,10 +622,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
     content: none;
   }
   /* Fix up vocab pages */
-  .quire-page__content table.vocab-table {
-    column-span: all;
-    font-size: 1rem;
-  }
   .quire-page.vocabulary .quire-page__content {
     font-size: .875rem;
   }
