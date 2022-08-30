@@ -9,12 +9,10 @@ const chalkFactory = require('~lib/chalk')
  * @return     {String}  HTML to display a SoundCloud player
  */
 module.exports = function(eleventyConfig) {
-  const figurecaption = eleventyConfig.getFilter('figurecaption')
-  const figureimage = eleventyConfig.getFilter('figureimage')
-  const figurelabel = eleventyConfig.getFilter('figurelabel')
-  const figureplaceholder = eleventyConfig.getFilter('figureplaceholder')
-
-  const { figureLabelLocation } = eleventyConfig.globalData.config.params
+  const figureCaption = eleventyConfig.getFilter('figureCaption')
+  const figureImage = eleventyConfig.getFilter('figureImage')
+  const figureLabel = eleventyConfig.getFilter('figureLabel')
+  const figurePlaceholder = eleventyConfig.getFilter('figurePlaceholder')
 
   return function({ caption, credit, id, label, media_id }) {
     const src = `https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/${media_id}`
@@ -24,17 +22,21 @@ module.exports = function(eleventyConfig) {
       return ''
     }
 
+    const labelElement = figureLabel({ caption, id, label })
+    const captionElement = figureCaption({ caption, content: labelElement, credit })
+
     return html`
-      <iframe
-        allow="autoplay"
-        frameborder="no"
-        height="166"
-        scrolling="no"
-        src="${src}&auto_play=false&color=%23ff5500&hide_related=true&show_comments=false&show_reposts=false&show_teaser=false&show_user=false"
-        width="100%"
-      ></iframe>
-      ${label && figureLabelLocation === 'on-top' ? figurelabel({ caption, id, label }) : '' }
-      ${figurecaption({ caption, credit })}
+      <div class="q-figure__media-wrapper">
+        <iframe
+          allow="autoplay"
+          frameborder="no"
+          height="166"
+          scrolling="no"
+          src="${src}&auto_play=false&color=%23ff5500&hide_related=true&show_comments=false&show_reposts=false&show_teaser=false&show_user=false"
+          width="100%"
+        ></iframe>
+      </div>
+      ${captionElement}
     `
   }
 }

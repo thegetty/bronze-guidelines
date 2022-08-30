@@ -57,10 +57,32 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 5. To choose/change a Node version to run use `nvm use 14` or `nvm use 16`. This will be the version used for as long as that Terminal window is open, or until you change it again.
 
+## Creating a PDF Version
+
+While the paged.js work is ongoing, a PDF of *Bronze Guidelines* can be created with PrinceXML on the command line.
+
+1. Comment out `outputs: [pdf, epub]` from `content/print-half-title-page.md`, `content/print-title-page.md`, and `content/print-copyright.md` so that these pages will appear online.
+
+2. Run `npm run dev` to see the preview.
+
+3. With the preview running, run this command in another Terminal window.
+
+    ```
+    prince http://localhost:8080/ http://localhost:8080/print-half-title-page/ http://localhost:8080/print-title-page/ http://localhost:8080/print-copyright/ http://localhost:8080/contents/ http://localhost:8080/foreword/ http://localhost:8080/acknowledgements/ http://localhost:8080/intro/ http://localhost:8080/vol-1/ http://localhost:8080/vol-1/1/ http://localhost:8080/vol-1/2/ http://localhost:8080/vol-1/3/ http://localhost:8080/vol-1/4/ http://localhost:8080/vol-1/5/ http://localhost:8080/vol-1/6/ http://localhost:8080/vol-1/7/ http://localhost:8080/vol-1/8/ http://localhost:8080/vol-1/9/ http://localhost:8080/vol-2/ http://localhost:8080/vol-2/1/ http://localhost:8080/vol-2/2/ http://localhost:8080/vol-2/3/ http://localhost:8080/vol-2/4/ http://localhost:8080/vol-2/5/ http://localhost:8080/vol-2/6/ http://localhost:8080/vol-2/7/ http://localhost:8080/vol-2/8/ http://localhost:8080/vol-2/9/ http://localhost:8080/case-studies/ http://localhost:8080/case-studies/1/ http://localhost:8080/case-studies/2/ http://localhost:8080/case-studies/3/ http://localhost:8080/case-studies/4/ http://localhost:8080/case-studies/5/ http://localhost:8080/case-studies/6/ http://localhost:8080/case-studies/7/ http://localhost:8080/vocabulary/ http://localhost:8080/vocabulary/after-cast/ http://localhost:8080/vocabulary/armature/ http://localhost:8080/vocabulary/as-cast-surface/ http://localhost:8080/vocabulary/brass/ http://localhost:8080/vocabulary/brazing/ http://localhost:8080/vocabulary/bronze/ http://localhost:8080/vocabulary/cast-n/ http://localhost:8080/vocabulary/cast-v/ http://localhost:8080/vocabulary/cast-on-repair/ http://localhost:8080/vocabulary/castability/ http://localhost:8080/vocabulary/casting-defect/ http://localhost:8080/vocabulary/casting-plan/ http://localhost:8080/vocabulary/chaplet/ http://localhost:8080/vocabulary/chasing/ http://localhost:8080/vocabulary/chef-modele/ http://localhost:8080/vocabulary/chiseling/ http://localhost:8080/vocabulary/coating/ http://localhost:8080/vocabulary/cold-shut/ http://localhost:8080/vocabulary/core/ http://localhost:8080/vocabulary/core-pin/ http://localhost:8080/vocabulary/core-support/ http://localhost:8080/vocabulary/corrosion/ http://localhost:8080/vocabulary/edition/ http://localhost:8080/vocabulary/engraving/ http://localhost:8080/vocabulary/fettling/ http://localhost:8080/vocabulary/flashing/ http://localhost:8080/vocabulary/founder/ http://localhost:8080/vocabulary/foundry-model/ http://localhost:8080/vocabulary/gilding/ http://localhost:8080/vocabulary/inlay/ http://localhost:8080/vocabulary/inter-model/ http://localhost:8080/vocabulary/investment/ http://localhost:8080/vocabulary/life-casting/ http://localhost:8080/vocabulary/lost-wax-casting/ http://localhost:8080/vocabulary/metal-plating/ http://localhost:8080/vocabulary/metallurgical-joint/ http://localhost:8080/vocabulary/model/ http://localhost:8080/vocabulary/mold/ http://localhost:8080/vocabulary/mold-extension/ http://localhost:8080/vocabulary/overlay/ http://localhost:8080/vocabulary/patch/ http://localhost:8080/vocabulary/patina/ http://localhost:8080/vocabulary/peening/ http://localhost:8080/vocabulary/piece-mold/ http://localhost:8080/vocabulary/plug/ http://localhost:8080/vocabulary/porosity/ http://localhost:8080/vocabulary/pour/ http://localhost:8080/vocabulary/punch/ http://localhost:8080/vocabulary/refractory-mold/ http://localhost:8080/vocabulary/replica/ http://localhost:8080/vocabulary/roman-joint/ http://localhost:8080/vocabulary/sand-casting/ http://localhost:8080/vocabulary/seam-line/ http://localhost:8080/vocabulary/shrinkage/ http://localhost:8080/vocabulary/soldering/ http://localhost:8080/vocabulary/sprue/ http://localhost:8080/vocabulary/variant/ http://localhost:8080/vocabulary/welding/ http://localhost:8080/visual-atlas/ http://localhost:8080/bibliography/ http://localhost:8080/contributors/ --style=bin/application.css --style=content/_assets/styles/custom.css -o output.pdf
+    ```
+
+(Note that `bin/application.css`) is a static output of the SCSS styles in `content/_assets/styles/`. So changes to those files would necessitate manual changes be made to `bin/application.css` to keep them aligned.
+
 ## Customizations Made to 11ty Templates/Files
 
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
+
+**_includes/web-components/modal/index.js**
+Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
+
+**_layouts/page.entry**
+Use default `pageHeader` and remove bibliography.
 
 **_layouts/page.liquid**
 Remove bibliographies from all pages.
@@ -71,9 +93,6 @@ New layout specifically to create grid of all figure images.
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
-
-**_plugins/markdown/index.js**
-Added config to remove the default `<hr />` element that was being inserted. Added as Jira issue DEV-12804 for core Quire.
 
 **_plugins/shortcodes/def.js**
 Custom shortcode to display vocabulary pop-ups with definitions and links.
@@ -86,17 +105,8 @@ Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig
 
 **_plugins/shortcodes/index.js**
 
-**_plugins/shortcodes/pageinfo.js**
-Custom shortcode to process text with shortcodes in it.
-
 **_plugins/shortcodes/warn.js**
 Custom shortcode to wrap content in a `<div>` with a "warn" class.
-
-**content/_assets/javascript/web-components/lightbox/index.js**
-Added overriding CSS to create a side-by-side layout for the caption and image in the lightbox modal.
-
-**content/_assets/javascript/web-components/modal/index.js**
-Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**
