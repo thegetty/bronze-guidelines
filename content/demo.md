@@ -2,6 +2,7 @@
 title: Demo
 order: 2050
 layout: page
+outputs: [html]
 ---
 
 <a href="#fig-043" class="q-figure__modal-link">Figure 43</a>

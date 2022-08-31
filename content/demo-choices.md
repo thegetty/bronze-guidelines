@@ -2,6 +2,7 @@
 title: Choices Demo
 order: 2100
 layout: page
+outputs: [html]
 ---
 
 - Choices images should use checkboxes rather than buttons so that multiple choices can be selected and layered.
