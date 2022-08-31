@@ -595,6 +595,10 @@ button.accordion-expander[aria-expanded="true"] .vert {
     border-width: 0;
     padding: 0;
   }
+  /* Make tagged images in atlas be two columns */
+  .content figure.q-figure.pdf-full-width {
+    column-span: all;
+  }
   /* Adjust font size and margins for small text items */
   .content figure .q-figure__caption {
     font-size: .875rem;

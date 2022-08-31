@@ -17,6 +17,7 @@ figure_list:
   - id: "fig-001"
     src: "figures/iiif/001.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 1"
     caption: "Diagram of generations of casts (here through the lost-wax process): a) the original model here is in clay, but could be made of any material; b) the translation of the original model into a wax inter-model may involve more than simple molding; c) a close reproduction of the original model will be referred to as a replica (a wax inter-model that is altered in details and with additional features [e.g., a base] will result in a %%variant%%); d) more alterations can be made after casting (e.g., with a base or a different patina); e) a bronze can in turn serve as model for another generation of casts by taking a mold of it; f) because wax shrinks as it cools, the inter-models are slightly smaller than the bronze model and their details softer unless reworked; g) the bronze after-cast may be in turn be reworked and finished differently than its original bronze model or sister casts."
 
@@ -89,6 +90,7 @@ figure_list:
   - id: "fig-009"
     src: "figures/iiif/009.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 9"
     caption: "Diagram depicting a version of the main steps in sand casting: 1) a chef-modèle or pattern is a specially designed model for sand casting made of a hard material—often metal—to withstand the repeated handling and ramming of sand within a multipart, stacked metal or wooden frame called a casting flask; 2) the pattern is buried about halfway in backing sand in a first section of the flask called the cope; piece mold sections are built up over the model with carefully rammed special casting sand that contains a binder to help the compacted sand hold the desired shape; 3) once the exposed part of the pattern is covered with mold pieces, the second section of the flask, or “drag,” is affixed to the cope and the piece-molded side is back filled with carefully rammed sand; 4) the tightly packed flask is flipped; the cope and backing sand, now on top, are removed to provide access for a similar piece-molding process to be performed on the other side of the chef-modèle; 5) the two-part casting flask is parted and the mold pieces carefully disassembled to remove the pattern; 6) to make a hollow cast, a core must be created to define the thickness of the bronze walls; this is made by ramming the same special casting sand into the hollow impression left by the chef-modèle; metal core supports (the crossed features in black) extending out into the surrounding mold pieces are incorporated into the new sand; the cope and drag are joined, thereby creating a sand replica; 7) the flask is opened again and the sand replica is removed and shaved down evenly overall to form the core; white areas indicate hollow spaces for metal to fill; the thin legs in this case will be solid, and so will not need a core (in [Case Study 6](#CaseStudy6), the core supports were metal tubes that served as core vents as well); 8) the sand mold and core are baked, then carefully reassembled in the cope and drag; the core supports projecting from the core serve to suspend the core in place; channels are cut strategically into the mold to ensure the efficient distribution and flow of the metal and venting of air; 9) the cope and drag are reassembled and locked together, and the metal alloy, which has in the meantime been liquefied, is poured into the mold; 10) once the metal has solidified and cooled, the sand mold is broken open and the bronze cast removed; the metal sprues that have formed in the channels are cut off; and the surface is cleaned and repaired as needed; 11) the bronze surface may be reﬁnished with details before joining the separately cast arms and base. As a final step, a patina may be applied. Diagram based on Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14). See [Case Study 6](#CaseStudy6)."
     # annotations: true
@@ -102,6 +104,7 @@ figure_list:
   - id: "fig-011"
     src: "figures/iiif/011.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 11"
     caption: "Diagram depicting an example of life-casting: 1) the lizard is placed in a bed of clay; rolls of wax are strategically joined to the lizard to form the sprue system; a clay wall is then built around it; 2) a plaster-based slurry is poured over the lizard and sprue system, embedding the lizard and sprues, forming the top half of the refractory mold; 3) when set, the mold is turned over, the bottom clay slab is removed, and new clay walls are built up to contain the other half of the mold and additional refractory material is poured in; 4) the mold is heated until dry; the wax and as much of the lizard as possible are burned away; the bone remnants can be removed by opening the mold; 5) the two sides of the mold are clamped together and filled with molten bronze; 6) the refractory mold and sprue system are removed from the cast; 7) the finishing of the solid bronze includes sharpening of details as needed and patination. Diagram based on research related to the Making and Knowing Project at Columbia University. See {Lacey and Lewis 2020}."
     # annotations: true
@@ -115,6 +118,7 @@ figure_list:
   - id: "fig-013"
     src: "figures/iiif/013.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 13"
     caption: "Diagram depicting a version of the direct lost-wax casting technique: 1) an armature is constructed of iron rods and wires; 2) a refractory clay investment is built up over the armature to form the core; 3) a wax layer is then modeled over the core and details refined in order to create a unique wax model; 4) the wax sprue system is joined to the model and core pins inserted through the wax and into the core; 5) the wax is invested in a refractory mold; 6) the mold is heated until dry and all traces of wax are melted and burned out; 7) the mold is filled with molten bronze; 8) when the metal is cool, the investment, core pins, and sprue system are removed; 9) chasing includes polishing, burnishing, and the addition of texture and sharpening of details as needed. As a final step, the surface is patinated. Diagram based on X-radiographs of Adriaen de Vries (Netherlandish, 1556–1626), Juggling Man, ca. 1615, H. 76.8 cm (J. Paul Getty Museum, inv. 90.SB.44). See **fig. 79**, {Bewer 1999}."
     # annotations: true
@@ -134,6 +138,7 @@ figure_list:
   - id: "fig-016"
     src: "figures/iiif/016.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 16"
     caption: "Diagram depicting a version of the lost-wax slush-molding process combined with ceramic shell casting: 1) a flexible silicone two-piece mold is created from the model (in this example made of clay); the layer of silicone is backed with a rigid mother mold; 2) this reusable mold is disassembled and the model removed; 3) to form the inter-model, molten wax may first be brushed into the interior of the piece mold to ensure that the wax reaches all areas and captures the fine details; 4) the mold is reassembled; the molten wax is poured in and slushed around in order to coat the interior; 5) excess molten wax is poured out; this “slush molding” is repeated until the desired thickness is achieved; 6) the hollow wax inter-model is removed from the mold, imperfections repaired, and details refinished; 7) core pins are pushed through the wax walls and the wax sprue system is fused to the inter-model; 8) an iron armature is inserted into the hollow wax, which is then filled with refractory core material (note: in ceramic shell casting, the core can be a plaster-based investment or the same ceramic shell materials as the outer mold); 9) the inter-model is then coated with a liquid ceramic slurry followed by grains of fused ceramic to provide bulk and a textured surface that will ensure that the next layer of slurry adheres well; once this first layer is dry, the process is repeated (eight to ten times) to create the desired thickness of ceramic shell; 10) when the refractory mold has dried, it is placed upside down and heated rapidly to burn out all traces of wax; it is then placed in a kiln to dry the plaster investment core and sinter the ceramic shell into a sturdy, unified body that can withstand the pressure of the molten bronze; 11) the hot mold is removed from the kiln, turned with the casting cup facing up, and the molten bronze poured into the mold; 12) when the metal has cooled, the ceramic shell casing is broken off of the cast and remains are removed by sandblasting; the bronze sprue system is cut off and the core pins and plaster core removed along with the internal armature; 13) chasing includes polishing, burnishing, and the addition of textures and sharpening of details as needed; 14) as a final step, a chemical patina and/or a coating may be applied. Diagram based on Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection). See [Case Study 7](#CaseStudy7)."
     # annotations: true
@@ -147,6 +152,7 @@ figure_list:
   - id: "fig-018"
     src: "figures/iiif/018.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 18"
     caption: "Main steps of the indirect wax slab process: 1) a piece mold is formed on the model, composed of smaller pieces to account for the undercuts; 2) the piece mold is removed and sections are lined with thin, warmed sheets (slabs) of wax; 3) the wax parts are joined with a hot tool to form a hollow inter-model, and the surface is reworked as needed; 4) the hollow wax inter-model is ﬁlled with refractory core material and core pins are inserted through the wax and into the core; 5) the wax sprue system is fused to the inter-model in strategic locations with a hot tool; 6) core pins are inserted through the wax into the core and the sprue system is added to the inter-model; 7) the inter-model is invested in a refractory mold; 8) the mold is then heated until dry and all traces of the wax burned out; 9) meanwhile, a simple receptacle that will serve as a crucible is shaped of refractory material; small pieces of bronze and charcoal are placed in the crucible, which is luted to the mold to form an enclosed unit); 10) the mold+crucible is heated with the crucible face-up until the metal is molten; 11) then it is inverted to allow the liquefied bronze to pour quickly into the mold; 12) fettling includes breaking off the refractory mold, removing the core pins, and cutting away the sprue system; 13) chasing may include polishing, burnishing, and the addition of details as needed; the surface color may also be enhanced with inlays, coating, plating, and/or patination."
     # annotations: true
@@ -178,6 +184,7 @@ figure_list:
   - id: "fig-023"
     src: "figures/iiif/023.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 23"
     caption: "Diagram of a version of the lasagna technique. 1) a plaster piece mold is built up in sections around the clay model; 2) the reusable mold is disassembled; 3) sections of the mold are lined with sheets of clay that Cellini referred to as “lasagna” and that create the space to be filled eventually by bronze; 4) a fire-resistant clay core is built up around an iron armature to fit snugly into the lasagna-lined mold and dried; 5) the piece mold is disassembled in order to remove the lasagna; 6) the core is baked and reinforced by binding with wires; the fired core and plaster piece mold are assembled; and the armature and mold extension at the base help to preserve the space created by the lasagna; 7) molten wax poured into the space between the core and the piece mold creates the inter-model; when freed from the mold it is reworked to the artist’s liking; 8) the sprue system is joined to the inter-model and invested with refractory mold material; 9) the mold is then heated until dry and all traces of wax are burned out; 10) molten bronze is poured into the baked mold until it is full; 11) when the metal has cooled, the refractory mold is broken away, the armature and core removed, and the sprue system cut off; 12) separately cast parts, such as a base, may be added at this stage, and the surface color may be enhanced by various means, including patination or gilding. Sketch based on Benvenuto Cellini (Italian 1500–1571), Bust of Bindo Altoviti, 1549, H. 85.2 cm (Isabella Stewart Gardner Museum inv. S26e21). See {Bewer and MacNamara 2012}."
     # annotations: true
@@ -191,6 +198,7 @@ figure_list:
   - id: "fig-025"
     src: "figures/iiif/025.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 25"
     caption: "Diagram depicting a version of the cut-back-core process: 1) a plaster piece mold composed of smaller pieces to account for the undercuts is formed on the model; the sections are held together by an outer mother mold; 2) the piece mold is removed from the model; core support rods and wires are positioned as needed in the partially reassembled empty mold; 3) the mold is fully reassembled and filled with refractory material (here plaster-based) to create a replica of the original model; 4) the surface of the replica is pared down (cut back) to form the core of the mold, thereby creating the space that will be filled first by wax and later by metal; 5) the cut-back core is placed back into the piece mold, suspended in place by the core support rods that also serve as core pins in this example; 6) molten wax is filled into the cavity around the core, thereby creating the inter-model; 7) the inter-model is removed from the mold and reworked as needed; the sprue system is joined to it with a heated tool and the assemblage is invested in a refractory mold; 8) the mold is baked to dry it thoroughly and to burn out all traces of the wax; 9) the mold is filled with molten metal; 10) the bronze is freed of the investment, sprues, and protruding core supports; 11) in the final stages the bronze surface may be refinished with details, then joined to the separately cast arms and base and a patina applied. Diagram based on Michel Anguier (French 1612/14–1686), Melancholy Pluto, before 1699, H. 23.9 cm (Staatliche Kunstsammlungen, Grünes Gewölbe, Dresden, inv. IX.37). See {Bassett and Bewer 2014}."
     # annotations: true
@@ -198,6 +206,7 @@ figure_list:
   - id: "fig-026"
     src: "figures/iiif/026.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 26"
     caption: "Diagram depicting a version of the piece-mold casting process: 1) a model of the Yu vessel with lid is prepared out of loess (a fine-grained refractory soil found throughout northern China) and baked dry; 2) the piece-mold segments need to account for undercuts in the model; half of the upper part is covered in loess to form the first section of the investment mold; its edge is smoothed and keyed to ensure alignment of the next section; 3) the second section of the mold is built up alongside the first and allowed to dry and harden; the mold segments are carefully removed from the model; 4) in order to make the core, the top two pieces of the mold are reassembled and packed tightly with loess to form a replica of the original model; a base is added; 6) the mold is opened; at this stage additional details can be carved into the face of the mold; 7) the outer surface of the loess replica is cut back (pared down) to create the space that will be filled with molten metal; 8) the three sections of the mold are reassembled around the core and a funnel/gate is cut into the mold; the assembled mold is baked further until dry and filled with molten bronze; 9) the investment mold is removed and the gate cut off; except for some basic removal of flashing and sprues, the surface would be merely polished; 10) the bronze lid and body of the vessel (produced by the same process) are fine-tuned to fit perfectly."
     # annotations: true
@@ -211,6 +220,7 @@ figure_list:
   - id: "fig-028"
     src: "figures/iiif/028.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 28"
     caption: "Diagram depicting a version of the direct wax-slab process: 1) the main shape of the griffin head casting model is formed of wax slabs that are cut into their proper shapes; the raised shapes of the upper and lower eyelids are formed by pressing the slabs out, producing recesses on the reverse; 2) the wax elements are joined with a heated tool to form a hollow head; 3) the hollow wax griffin head is filled with a refractory clay core material; the eye cavities are cut out and ledges formed on the interior to support inlays that will later fill the voids; 4) details are added to the wax; these include incised lines around the eyes and a scaly pattern formed with punches; the solid wax tongue, ears, and top knob are joined to the head; 5) the sprue system is joined to the model; 6) the wax model is invested in a refractory mold that is heated until dry and all traces of wax are burned out; the openings in the eyes and the neck act as core extensions, preserving the space between the core and the outer mold; 7) the mold is filled with molten bronze; 8) when cool, the cast is broken out of the mold, and the sprue system is removed; 9) the bronze is then chased and in this example the eyes inlaid. Diagram based on {Mattusch 1990}."
     # annotations: true
@@ -328,6 +338,7 @@ figure_list:
   - id: "fig-040"
     src: "figures/iiif/040.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 40"
     caption: "Sketch of a chaplet firmly wedged between the core and the outer mold, with a protruding point securing it in place in the clay on one side. This is one of many notes that Leonardo made in connection with the casting of the Sforza Horse. Leonardo da Vinci, Madrid Codex II, 1503–5, fol. 156r (Biblioteca Nacional de España, Ms. 8936)."
 
@@ -655,6 +666,7 @@ figure_list:
   - id: "fig-078"
     src: "figures/078.jpg"
     media_type:
+    class: pdf-full-width
     label: "Figure 78"
     caption: "Underside of the Theseus and Antiope group showing the long marks that the artist’s fingers produced in pulling up a mound of fresh clay from the slab that formed the core for the base. Adriaen de Vries (Netherlandish, 1556–1626), Antiope and Theseus, ca. 1600–1601, H. 95 cm (Royal Collection, Buckingham Palace, London, inv. RCIN 57961). See {Bewer 1998}, 70; {Bewer 2001}."
 
@@ -693,6 +705,7 @@ figure_list:
   - id: "fig-084"
     src: "figures/iiif/084.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 84"
     caption: "Rear surface of a fragment of the dolphins showing a fingerprint (yellow overlay) and the elongated traces made by a fine-toothed tool or finger (white arrows indicate the direction of the strokes) drawn along the inside of the wax model. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, **fig. 367**."
     # annotations: true
@@ -990,6 +1003,7 @@ figure_list:
   - id: "fig-131"
     src: "figures/iiif/131.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 131"
     caption: "Periodic table of the elements."
 
@@ -1104,6 +1118,7 @@ figure_list:
   - id: "fig-150"
     src: "figures/150.jpg"
     media_type:
+    class: pdf-full-width
     label: "Figure 150"
     caption: "The five types of casting defects commonly encountered on bronze sculpture."
 
@@ -1210,6 +1225,7 @@ figure_list:
   - id: "fig-167"
     src: "figures/iiif/167.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 167"
     caption: "Diagram of the common types of repairs found on bronze sculpture."
 
@@ -1438,6 +1454,7 @@ figure_list:
   - id: "fig-201"
     src: "figures/iiif/201.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 201"
     caption: "Main assembly techniques encountered on bronze sculpture."
     # annotations: true
@@ -1606,6 +1623,7 @@ figure_list:
   - id: "fig-227"
     src: "figures/iiif/227.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 227"
     caption: "The drapery of the bronze arm was cast in sections and assembled using a flow fusion weld (pink overlay) that is only visible from the interior. The welding appears as a chain of oval shapes. The arm was then joined to the drapery by welding (green overlay) with securing pins (blue overlay). Arm of a statue found in the Villa of Arconciel, Switzerland, end of the 1st–3rd century CE, greater than life size (Service Archéologique de l’Etat de Fribourg, Switzerland, inv. Arconciel/Es-Nés FR 85). See {Mille and Serneels 2012}."
     # annotations: true
@@ -2074,12 +2092,14 @@ figure_list:
   - id: "fig-304"
     src: "figures/304.jpg"
     media_type:
+    class: pdf-full-width
     label: "Figure 304"
     caption: "Decision tree for the preliminary investigation and characterization of plating by visual examination."
 
   - id: "fig-305"
     src: "figures/iiif/305.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 305"
     caption: "Decision chart for assessing the condition and characterizing an archaeological patina layer (in a museum laboratory setting). The protocol can be useful for the study of other surface layers as well, including metal plating and inlays. Three scenarios are covered: A) sampling is not possible; B) powder or flake samples are available; and C) cross section sampling is possible. The expected outcome of each approach is indicated at the bottom of the chart."
 
@@ -2134,6 +2154,7 @@ figure_list:
   - id: "fig-314"
     src: "figures/iiif/314.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 314"
     caption: "Details of four of the bronze plates from the Vendôme Column showing the influence of metal composition on the patina shade. All plates are made of leaded tin-bronze, except the repairs (zinc and tin-copper alloy). Tin content is steady, and lead controls the color: the higher the lead content, the higher the lead in the corrosion products, and the whiter the patina. In each plate, the different patina layers are revealed by polished cross sections observed under optical microscopy (center images) and scanning electron microscopy (SEM-BSE mode) (right images). The layers are, from bottom to top: metal, red cuprite, outer layer. The composition of the metal (XRF analyses) and of the patina (XRD) is indicated. Various French sculptors, Vendôme Column, 1805–10, dismantled 1871, re-erected 1873–75, H. 44 m (Place Vendôme, Paris). See {Texier et al. 2016}."
 
@@ -2278,6 +2299,7 @@ figure_list:
   - id: "fig-338"
     src: "figures/iiif/338.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 338"
     caption: "Set of examination and testing protocols for the characterization of a patina layer both for sculpture that is not likely to have been buried and for archaeological bronzes. For the latter, these are very general notes; the question of burial might be more nuanced than presented here and can lead to much more complex situations (e.g., archaeological bronzes may be subsequently coated). See **fig. 305** for more details on the relevant techniques of analysis."
 
@@ -2443,6 +2465,7 @@ figure_list:
   - id: "fig-365"
     src: "figures/iiif/365.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 365"
     caption: "The Mensa Isiaca bronze table (probably an altartop) with Isis presented at center is inlaid with multipart, alloyed-metal inlays to create a series of friezes in imitation of much earlier Egyptian dynastic scenes. The alloys may have been further patinated for color effect. Mensa Isiaca, Roman, 1st century CE, H. 75.5 cm (Turin Museo Egizio, Italy, inv. 715)."
 
@@ -2462,6 +2485,7 @@ figure_list:
   - id: "fig-368"
     src: "figures/iiif/368.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 368"
     caption: "Poster titled “The Hephaistos database. A tool for the technological study of large bronze statues from Classical Antiquity,” presented at the XVIIIth congress on ancient bronzes in Zurich, 2013. See {Descamps-Lequime and Mille 2017}."
 
@@ -2636,6 +2660,7 @@ figure_list:
   - id: "fig-397"
     src: "figures/iiif/397.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 397"
     caption: "Typical setup of computerized tomography (CT), either with a line detector (top) or a flat panel detector (bottom)."
     # annotations: true
@@ -2643,6 +2668,7 @@ figure_list:
   - id: "fig-398"
     src: "figures/iiif/398.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 398"
     caption: "X-ray tomographic views of a bronze statuette. Software allows detailed measurements to be made of any feature. Jupiter (or Neptune?), Bavay (Nord, France), 1st century CE, H. 26.4 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 15 / Biévelet 10). See {Mille 2019a}."
 
@@ -2668,6 +2694,7 @@ figure_list:
   - id: "fig-402"
     src: "figures/iiif/402.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 402"
     caption: "Mass attenuation coefficients for thermal neutrons as a function of atomic number of elements. A higher coefficient means the element is more opaque to neutrons."
 
@@ -2728,6 +2755,7 @@ figure_list:
   - id: "fig-412"
     src: "figures/iiif/412.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 412"
     caption: "Example of geometric morphometric analysis on Iron Age iron lances. The various shapes of lances are superimposed using a specific protocol called generalized procrustes analysis (upper image). In the lower image, each point represents a normalized measure, for a given lance, at a predefined location or “landmark.” See {Birch and Martinón-Torres 2019}, fig. 9."
 
@@ -2860,6 +2888,7 @@ figure_list:
   - id: "fig-434"
     src: "figures/434.jpg"
     media_type:
+    class: pdf-full-width
     label: "Figure 434"
     caption: "Diagram of the cycle of radiocarbon formation and decay in organic materials that underlies the principles of dating."
 
@@ -3402,6 +3431,7 @@ figure_list:
   - id: "fig-522"
     src: "figures/iiif/522.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 522"
     caption: "Geopolitical map showing tin deposit locations in Southeast Asia as revealed by geological surveys carried out since the 1960s (this does not include deposits in adjacent southern China and India). Courtesy of Sébastien Clouet, ongoing PhD work (2019–22): “Les mines d’Angkor, provenance et circulation des métaux non ferreux dans le Cambodge angkorien (IXe-XVe siècle),” Faculté des Lettres – Sorbonne Université, Paris."
 
@@ -3421,6 +3451,7 @@ figure_list:
   - id: "fig-525"
     src: "figures/iiif/525.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 525"
     caption: "Two different recipes for clay-based cores in Early Modern French large bronzes, as illustrated by the distribution of different sizes of quartz inclusions in the clay. The size is represented on the horizontal axis by the maximum dimension of the grains (Feret). The number of quartz grains for each size is represented on the vertical axis by the surface ratio (the total surface of all the grains having the same size divided by the total surface of all grains). Recipe 1 shows only one size (red arrow on the left graph). Recipe 2 includes two sizes of quartz inclusions (see the two red arrows on the right graph). See [Case Study 5](#CaseStudy5), {Castelle, Coquinot, and Bourgarit 2016}."
 
@@ -3623,6 +3654,7 @@ figure_list:
   - id: "fig-558"
     src: "figures/iiif/558.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 558"
     caption: "Diagram depicting a type of inversion casting: 1) core pins are inserted into a hollow wax model; 2) the sprue system is fused onto the wax model; 3) the wax model is invested in a refractory material; 4) the mold is then heated until dry and all traces of the wax melted and burned out; 5) meanwhile, a simple receptacle that will serve as a crucible is shaped of refractory material; small pieces of bronze and charcoal are placed in the crucible, which is luted to the mold to form an enclosed unit; 6) the mold-crucible is heated until the metal is molten; 7) the mold with its integral crucible is then inverted to allow the liquefied bronze to pour quickly into the mold; the charcoal helps to reduce oxidation; 8) fettling includes breaking off the refractory mold, removing the core pins, and cutting away the sprue system; 9) chasing may consist of polishing, burnishing, and the addition of details as needed; the surface color may also be enhanced with inlays, coating, plating, and/or patination."
     # annotations: true

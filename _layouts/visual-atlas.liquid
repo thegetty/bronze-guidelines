@@ -33,7 +33,8 @@ description: Custom page showing all non-table figure images
         <div class="image-grid" id="image-grid">
         {% for figure in figures.figure_list %}
         {% if figure.media_type != "table" and figure.caption %}
-          {% figure figure.id, "image-grid-figure match" %}
+          {% assign classes = "image-grid-figure match " | append: figure.class %}
+          {% figure figure.id, classes %}
         {% endif %}
         {% endfor %}
         </div>
