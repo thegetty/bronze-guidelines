@@ -1,4 +1,5 @@
 const { html } = require('~lib/common-tags')
+const path = require('path')
 
 /**
  * Renders image slides with captions for display in a <q-lightbox> element
@@ -10,13 +11,19 @@ const { html } = require('~lib/common-tags')
  */
 module.exports = function(eleventyConfig) {
   const figureImageElement = eleventyConfig.getFilter('figureImageElement')
+  const figureAudioElement = eleventyConfig.getFilter('figureAudioElement')
+  const figureTableElement = eleventyConfig.getFilter('figureTableElement')
+  const figureVideoElement = eleventyConfig.getFilter('figureVideoElement')
   const markdownify = eleventyConfig.getFilter('markdownify')
 
-  return function(figures) {
+  const assetsDir = path.join(eleventyConfig.dir.input, '_assets/images')
+
+  return async function(figures) {
     if (!figures) return ''
 
-    const slideElement = (figure) => {
+    const slideElement = async (figure) => {
       const {
+        aspect_ratio: aspectRatio='widescreen',
         caption,
         credit,
         id,
@@ -27,8 +34,21 @@ module.exports = function(eleventyConfig) {
         src
       } = figure
 
-      const unsupportedMediaTypes = ['soundcloud', 'video', 'vimeo', 'youtube']
-      if (unsupportedMediaTypes.includes(mediaType)) return '';
+      const isVideo = mediaType === 'video' || mediaType === 'vimeo' || mediaType === 'youtube'
+
+      const figureElement = async () => {
+        switch (true) {
+          case mediaType === 'soundcloud':
+            return figureAudioElement(figure)
+          case mediaType === 'table':
+            return await figureTableElement(figure)
+          case isVideo:
+            return figureVideoElement(figure)
+          case mediaType === 'image':
+          default:
+            return figureImageElement(figure)
+        }
+      }
 
       const labelSpan = label
         ? html`<span class="q-lightbox-slides__caption-label">${label}</span>`
@@ -51,22 +71,25 @@ module.exports = function(eleventyConfig) {
           data-lightbox-slide
           data-lightbox-slide-id="${id}"
         >
-          <div class="q-lightbox-slides__image">
-            ${figureImageElement(figure)}
+          <div class="q-lightbox-slides__element ${mediaType && 'q-lightbox-slides__element--' + mediaType} ${isVideo && 'q-lightbox-slides__element--video q-lightbox-slides__element--' + aspectRatio  }">
+            ${await figureElement()}
           </div>
           ${captionElement}
         </div>
       `
     }
 
-    let slides = ''
-    for (figure of figures) {
-      slides += slideElement(figure)
+    const slideElements = async () => {
+      let slides = ''
+      for (figure of figures) {
+        slides += await slideElement(figure)
+      }
+      return slides
     }
 
     return html`
       <div class="q-lightbox-slides">
-        ${slides}
+        ${await slideElements()}
       </div>
     `
   }
