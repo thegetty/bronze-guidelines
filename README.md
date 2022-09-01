@@ -113,3 +113,7 @@ Custom shortcode to wrap content in a `<div>` with a "warn" class.
 
 **content/_computed/eleventyComputed.js**
 Added class(es) to markup based on value of `presentation` and `tags` in the frontmatter.
+
+## Colophon
+
+Headings are set in [Akrobat](https://www.fontfabric.com/fonts/akrobat/), by Fontfabric, available under a Free Font End User License Agreement. The body text is [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans), by Google, available under the SIL Open Font License (OFL).

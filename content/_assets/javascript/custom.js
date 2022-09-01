@@ -51,8 +51,8 @@ function createAccordion(selector) {
         <button class="accordion-expander" aria-expanded="false">
           ${heading.innerHTML}
           <svg aria-hidden="true" focusable="false" viewBox="0 0 10 10">
-            <rect class="vert" height="8" width="2" y="1" x="4"/>
-            <rect height="2" width="8" y="4" x="1"/>
+            <rect class="vert" height="8" width="1.5" y="1" x="4.25"/>
+            <rect height="1.5" width="8" y="4.25" x="1"/>
           </svg>
         </button>`
 

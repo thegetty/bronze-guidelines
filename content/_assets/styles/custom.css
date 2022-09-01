@@ -2,21 +2,26 @@
    CUSTOMIZED FILE -- Bronze Guidelines
 */
 :root {
+
+  /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
+
   /* Should match $accent-color in variables.scss
   #427f34 is a darker, accessible version of --green-wax */
   --accent-color: #427f34;
 
+  /* From Gary's illustrations */
   --green-wax: #59ac46;
   --yellow-bronze: #fbda00;
   --orange-clay: #d0773f;
   --brown-sand: #b68b73;
   --brown-bronze: #784721;
-  --gray-background: #656360;
 
-  /* Should match $black and $white in colors.scss */
-  --black: #54524f;
-  --white: #f9f9f1;
-
+  /* $black and $white should match those in variables.scss */
+  --white: #fff;
+  --light: #c2b99a; /* Cover tan */
+  --mid: #716c5b;
+  --black: #4e4a3e; /* Cover brown */
+  --deep-black: #000;
 }
 
 /*
@@ -38,14 +43,30 @@ PRINT/PDF
 .quire-page h2 {
   margin-top: 3rem !important;
   text-transform: none;
+  font-weight: 800;
 }
 .quire-page h3 {
   font-style: normal;
+  font-weight: 800;
 }
 .quire-page h4 {
   font-size: 1.25rem;
   font-style: italic;
+  font-weight: 800;
 }
+/* Override default color for active menu item and fix positioning */
+.quire-menu__formats h6,
+.quire-menu .page-item a.active,
+.quire-menu .section-item a.active {
+  border-color: var(--light) !important;
+  color: var(--light) !important;
+}
+.quire-menu .page-item .page-item a.active,
+.quire-menu .section-item .page-item a.active {
+  margin-left: calc(-2.75em - 2px);
+  padding-left: calc(2rem + 2px);
+}
+
 /* Position vocab pop-up "More" links away from text */
 a.quire-definition__content__more-link {
   float: right;
@@ -221,7 +242,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: var(--gray-background);
+  background-color: var(--black);
   border-top-left-radius: 0.5em;
   color: var(--white);
   font-size: .875rem;
@@ -281,7 +302,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-page.visual-atlas .quire-page__header,
   .quire-page.visual-atlas .quire-page__content .container .content,
   .quire-page.visual-atlas .image-grid-search-box #image-grid-search {
-    background-color: var(--gray-background);
+    background-color: var(--black);
   }
   .quire-page.visual-atlas .quire-page__header h1 {
     color: var(--white);
@@ -423,7 +444,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .grid.quire-contents .quire-page__header,
   .grid.quire-contents .quire-page__content,
   .grid.quire-contents .quire-contents-list.grid ol li .card {
-    background-color: black;
+    background-color: var(--deep-black);
   }
   .grid.quire-contents .quire-page__header__title,
   .quire-contents-list.grid ol li .card.image .card-content {
@@ -434,10 +455,10 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   .quire-contents-list.grid ol li a:hover .card.image .card-content,
   .quire-contents-list.grid .menu-list a:hover * {
-    color: #888581;
+    color: var(--mid);
   }
   .quire-contents-list.grid .menu-list a:hover .arrow svg {
-    fill: #888581 !important;
+    fill: var(--mid) !important;
   }
   .quire-contents-list.grid .menu-list a:hover img {
     opacity: .7;
@@ -445,7 +466,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   /* Case study pages */
   .quire-entry div.side-by-side div.quire-entry__image-wrap,
   .quire-entry div.side-by-side div.quire-entry__content {
-    background-color: black;
+    background-color: var(--deep-black);
   }
   .quire-entry .quire-page__header,
   .quire-entry .quire-page__content .content {
@@ -459,10 +480,10 @@ button.accordion-expander[aria-expanded="true"] .vert {
     color: white;
   }
   .quire-entry .q-figure__label--below .q-figure__modal-link {
-    color: #888581;
+    color: var(--mid);
   }
   .quire-entry .q-figure__label .q-figure__label-icon svg {
-    fill: #888581;
+    fill: var(--mid);
   }
   .quire-entry .quire-page__abstract,
   .quire-entry .quire-entry__tombstone {
@@ -475,7 +496,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   .quire .quire-entry#main {
     font-size: 1.1em;
-    background-color: black;
+    background-color: var(--deep-black);
   }
   .quire-entry h2 {
     font-size: 1.375em;
@@ -522,7 +543,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-family: "Noto Sans", sans-serif;
   font-size: .75rem;
   line-height: 1.5;
-  color: #888581;
+  color: var(--mid);
 }
 .q-lightbox__caption-content {
   padding-bottom: 1rem;

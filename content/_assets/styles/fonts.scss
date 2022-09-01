@@ -7,6 +7,28 @@ $assets-dir: "/_assets/" !default;
 @function font($file) {
   @return url($assets-dir + 'fonts/' + $file);
 }
+
+/// Akrobat
+// https://www.fontfabric.com/fonts/akrobat/
+// FF EULA ver. 2.2 January 2021
+//
+// Akrobat Bold
+@font-face {
+  font-family: "Akrobat";
+  src: font("akrobat/akrobat-bold.woff2") format("woff2"),
+       font("akrobat/akrobat-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+// Akrobat Extra Bold
+@font-face {
+  font-family: "Akrobat";
+  src: font("akrobat/akrobat-extrabold.woff2") format("woff2"),
+       font("akrobat/akrobat-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
 ////
 // IBM Plex Sans Condensed
 // https://github.com/IBM/plex

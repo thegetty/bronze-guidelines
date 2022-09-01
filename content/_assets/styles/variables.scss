@@ -6,6 +6,10 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
+$white: #fff;
+$black: #4e4a3e;
+$off-black: $black;
+
 $accent-color: #427f34;
 $content-background-color: null; // main text area background color
 $secondary-background-color: $white; // only for modern theme
@@ -73,7 +77,7 @@ $print-entry-image-display: all; // first | all
 // -----------------------------------------------------------------------------
 // Declare theme variables
 $quire-primary-font: null; // body and menu text
-$quire-headings-font: null; // headings
+$quire-headings-font: 'Akrobat', $ibm-sans, sans-serif; // headings
 $quire-footnotes-font: null; // footnotes and page backmatter
 $quire-navigation-font: null; // navbar and next/prev buttons
 
