@@ -572,6 +572,41 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
 }
 
+/*  TABLES
+============================================================================= */
+/* Hide the tables that are on the page, they only display in the lightbox */
+.quire-page__content section#tables-reference {
+  display: none;
+}
+/* Style icons after table modal links */
+.quire-page__content .q-figure__modal-link + svg {
+  fill: var(--accent-color);
+  margin-left: 3px;
+  margin-bottom: -5px;
+}
+/* Basic table styles for the lightbox */
+.q-lightbox-slides__element--table {
+  margin: 0 80px;
+  background-color: white;
+  color: black;
+}
+.q-lightbox-slides__element--table table {
+  margin: 1rem;
+}
+.q-lightbox-slides__element--table table,
+.q-lightbox-slides__element--table th,
+.q-lightbox-slides__element--table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.q-lightbox-slides__element--table th,
+.q-lightbox-slides__element--table td {
+  padding: .25rem;
+}
+.q-lightbox-slides__element--table table caption {
+  margin-bottom: 1rem;
+}
+
 /*  PRINT/PDF
 ============================================================================= */
 @media print {

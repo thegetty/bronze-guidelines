@@ -3809,3 +3809,7 @@ figure_list:
     media_id: 672854085/be5c239063
     label: "Video 18"
     caption: "Arrangement and sequence of a bronze pour for small items in a modern foundry (dir. Christophe Béry), filmed during the July 2016 CAST:ING workshop at Fonderie de Coubertin, Saint Rémy-lès-Chevreuse, France. Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See **fig. 288**."
+
+  - id: "table-04"
+    src: "tables/table-4.html"
+    media_type: table
