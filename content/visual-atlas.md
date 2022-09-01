@@ -1,5 +1,5 @@
 ---
 title: Visual Atlas of Features
-order: 999
+order: 800
 layout: visual-atlas
 ---
