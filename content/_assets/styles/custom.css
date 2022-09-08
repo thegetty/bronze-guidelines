@@ -253,7 +253,7 @@ figure .q-figure__modal-link {
     presentation: accordion   <-- used on FULL-WIDTH PAGES
 ============================================================================= */
 button.accordion-expander,
-.accordion-controls button {
+#accordion-controls button {
   all: inherit;
   border: 0 !important;
   cursor: pointer;
@@ -277,27 +277,34 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 
 /* Expand and Collapse All buttons */
-.quire-page.full-width .accordion-controls {
+.quire-page.full-width #accordion-controls {
   position: fixed;
   bottom: 0;
   right: 0;
   background-color: var(--black);
-  border-top-left-radius: 0.5em;
+  border-top-left-radius: 4px;
   color: var(--white);
   font-size: .875rem;
   z-index: 1;
+  height: 2.9rem;
+  bottom: -2.9rem;
+  transition: bottom 1s;
 }
-.quire-page.full-width .accordion-controls li {
+.quire-page.full-width #accordion-controls.show-controls {
+  bottom: 0;
+}
+.quire-page.full-width #accordion-controls li {
   display: inline-block;
-  padding: .5rem 1rem;
+  padding: .5rem 1.5rem;
+  height: 100%;
 }
-.quire-page.vocabulary .accordion-controls {
+.quire-page.vocabulary #accordion-controls {
   font-size: .875rem;
   height: 1rem;
   display: flex;
   justify-content: flex-end;
 }
-.quire-page.vocabulary .accordion-controls li::before {
+.quire-page.vocabulary #accordion-controls li::before {
   content: '' !important;
 }
 

@@ -34,6 +34,8 @@ window.onload = function () {
   createAccordion('div.accordion h3')
   createAccordion('.quire-page.accordion h2[id=notes]')
   addAccordionControls()
+  window.addEventListener('scroll', toggleControlsVisibility)
+
   wrapHeadingNumbers()
   prepImageGrid()
 
@@ -99,7 +101,7 @@ function addAccordionControls() {
     `
     const controlWrapper = document.createElement('ul')
     controlWrapper.setAttribute('aria-label', 'section controls')
-    controlWrapper.classList.add('accordion-controls')
+    controlWrapper.setAttribute('id', 'accordion-controls')
     controlWrapper.innerHTML = controls
 
     accordion[0].prepend(controlWrapper)
@@ -129,6 +131,28 @@ window.collapseAllAccordions = function () {
     section.classList.remove('accordion-wrapper')
   }
 }
+window.toggleControlsVisibility = function () {
+  const accordions = document.getElementsByClassName('accordion-expander')
+  const firstAccordion = accordions[0]
+
+  const accordionControls = document.getElementById('accordion-controls')
+
+  if ( isInViewport(firstAccordion) && (window.scrollY !== 0) ) {
+    accordionControls.classList.add('show-controls')
+  } else if ( window.scrollY == 0 ) {
+    accordionControls.classList.remove('show-controls')
+  }
+};
+// https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/
+function isInViewport(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+};
 
 function wrapHeadingNumbers() {
   // Wrap heading section numbers in spans so they can be styled when indented
