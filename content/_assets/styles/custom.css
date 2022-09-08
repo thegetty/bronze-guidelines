@@ -26,6 +26,7 @@
 
 /*
 GENERAL
+MENU & TOCs
 FULL-WIDTH PAGES
 INDENTED HEADINGS & LISTS
 FIGURE GROUP
@@ -34,6 +35,7 @@ VOCABULARY PAGES
 VISUAL ATLAS PAGE
 CASE STUDIES
 LIGHTBOX & MODAL
+TABLES
 PRINT/PDF
 */
 
@@ -54,19 +56,6 @@ PRINT/PDF
   font-style: italic;
   font-weight: 800;
 }
-/* Override default color for active menu item and fix positioning */
-.quire-menu__formats h6,
-.quire-menu .page-item a.active,
-.quire-menu .section-item a.active {
-  border-color: var(--light) !important;
-  color: var(--light) !important;
-}
-.quire-menu .page-item .page-item a.active,
-.quire-menu .section-item .page-item a.active {
-  margin-left: calc(-2.75em - 2px);
-  padding-left: calc(2rem + 2px);
-}
-
 /* Position vocab pop-up "More" links away from text */
 a.quire-definition__content__more-link {
   float: right;
@@ -78,6 +67,56 @@ a.quire-definition__content__more-link {
 }
 .warn li::before {
   color: var(--orange-clay);
+}
+
+/* MENU & TOCs
+============================================================================= */
+/* Override default color for active menu item and fix positioning */
+.quire-menu__formats h6,
+.quire-menu .page-item a.active,
+.quire-menu .page-item a.active *,
+.quire-menu .section-item a.active,
+.quire-menu .section-item a.active * {
+  border-color: var(--light) !important;
+  color: var(--light) !important;
+}
+.quire-menu .page-item .page-item a.active,
+.quire-menu .section-item .page-item a.active {
+  margin-left: calc(-2.75em - 2px);
+  padding-left: calc(2rem + 2px);
+}
+/* Adjust display of sub-page items in TOC */
+.quire-contents-list .menu-list .section-item ol a {
+  font-family: 'Noto Sans';
+  border-bottom: none;
+}
+.quire-contents-list .page-item, .quire-contents-list .section-item {
+  margin-bottom: 1rem;
+}
+.quire-contents-list .menu-list .section-item ol {
+  margin-left: 1.5rem;
+}
+/* Make abstracts more legible */
+.quire-contents-list.abstract .abstract-text {
+  font-family: 'Noto Sans';
+  line-height: 1.6;
+}
+.quire-contents-list.abstract .quire-page-label {
+  display: inline-block;
+  margin-left: -2.5rem;
+  width: 2.5rem;
+  display: inline-block;
+}
+.quire-contents-list.abstract .contributor {
+  display: block;
+  font-size: 1.125rem;
+}
+.quire-contents-list.abstract .quire-page-label-divider,
+.quire-contents-list.abstract .contributor-divider {
+  display: none;
+}
+.quire-contents-list.abstract .arrow {
+  display: none;
 }
 
 /* FULL-WIDTH PAGES
@@ -462,6 +501,22 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   .quire-contents-list.grid .menu-list a:hover img {
     opacity: .7;
+  }
+  /* Adjust display of case study titles in grid */
+  .quire-contents-list.grid .quire-page-label,
+  .quire-contents-list.grid .contributor {
+    display: block;
+  }
+  .quire-contents-list.grid .quire-page-label-divider,
+  .quire-contents-list.grid .contributor-divider
+  .quire-contents-list.grid .arrow {
+    display: none;
+  }
+  .quire-contents-list.grid ol li .card-content span.quire-page-title {
+    font-size: 1.5rem !important;
+    line-height: 1.2;
+    margin: .55rem 0;
+    display: block;
   }
   /* Case study pages */
   .quire-entry div.side-by-side div.quire-entry__image-wrap,
