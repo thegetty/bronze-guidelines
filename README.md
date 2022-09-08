@@ -79,6 +79,9 @@ While the paged.js work is ongoing, a PDF of *Bronze Guidelines* can be created 
 **_includes/components/table-of-contents/item/list.js**
 Use pageContributorDivider and wraps it in a span.
 
+**_includes/components/page-title.js**
+Wrap label, label divider, and title elements in their own spans.
+
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
