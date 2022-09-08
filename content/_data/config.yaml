@@ -32,6 +32,7 @@ params:
   menuType: full
   nextPageButtonText: Next
   pageLabelDivider: '. '
+  pageContributorDivider: " — "
   prevPageButtonText: Back
   searchEnabled: true
   tocType: full

@@ -75,6 +75,10 @@ While the paged.js work is ongoing, a PDF of *Bronze Guidelines* can be created 
 
 ## Customizations Made to 11ty Templates/Files
 
+**_includes/components/table-of-contents/item/grid.js**
+**_includes/components/table-of-contents/item/list.js**
+Use pageContributorDivider and wraps it in a span.
+
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 
