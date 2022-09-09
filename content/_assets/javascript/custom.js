@@ -12,22 +12,6 @@
 // window.filterImageGrid = filterImageGrid
 
 window.onload = function () {
-  const canvasPanels = document.getElementsByTagName('canvas-panel');
-  // console.log('canvas panels', canvasPanels)
-  for (const canvasPanel of canvasPanels) {
-    const choiceButtons = canvasPanel.closest('.q-figure').getElementsByClassName('canvas-choice')
-    for (const choiceButton of choiceButtons) {
-      choiceButton.addEventListener('click', (event) => {
-        if (event.target.classList.contains('canvas-choice--active')) return
-        for (const item of choiceButtons) {
-          if (item.classList.contains('canvas-choice--active') || item === event.target) {
-            item.classList.toggle('canvas-choice--active')
-          }
-        }
-        canvasPanel.makeChoice(event.target.value)
-      })
-    }
-  }
 
   createAccordion('.quire-page.accordion h4')
   createAccordion('.quire-page.accordion h3')
