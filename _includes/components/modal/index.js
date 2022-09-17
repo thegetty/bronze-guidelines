@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added .q-lightbox--modal class in order to style the modal lightbox
+// differently than the non-modal lightbox, line 27
+//
 const { html } = require('~lib/common-tags')
 
 /**
@@ -19,7 +24,7 @@ module.exports = function (eleventyConfig, { page }) {
 
     return html`
       <q-modal>
-        <q-lightbox>
+        <q-lightbox class="q-lightbox--modal">
           ${await lightboxSlides(figures)}
           ${lightboxUI(figures)}
         </q-lightbox>
