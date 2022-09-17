@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// wrapped table output in <div class="table-wrapper">
+// to allow for scrolling, line 50
+//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -43,7 +48,7 @@ module.exports = function(eleventyConfig) {
           case mediaType === 'soundcloud':
             return figureAudioElement(figure)
           case mediaType === 'table':
-            return await figureTableElement(figure)
+            return `<div class="table-wrapper">${await figureTableElement(figure)}</div>`
           case isVideo:
             return figureVideoElement(figure)
           case mediaType === 'image':

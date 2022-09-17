@@ -75,6 +75,9 @@ While the paged.js work is ongoing, a PDF of *Bronze Guidelines* can be created 
 
 ## Customizations Made to 11ty Templates/Files
 
+**_includes/components/lightbox/slides.js**
+Wrap table output in a div wrapper to allow for scrolling.
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 

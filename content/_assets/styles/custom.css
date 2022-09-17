@@ -673,9 +673,14 @@ button.accordion-expander[aria-expanded="true"] .vert {
 
 /*  TABLES
 ============================================================================= */
-/* Hide the tables that are on the page, they only display in the lightbox */
+/* Hide the tables that are on the page,
+  they only display in the lightbox and on the page of tables */
 .quire-page__content section#tables-reference {
   display: none;
+}
+/* Even out the margins on the page of tables */
+.quire-page.full-width#tables .quire-page__content .container {
+  margin-left: 3rem;
 }
 /* Style icons after table modal links */
 .quire-page__content .q-figure__modal-link + svg {
@@ -683,28 +688,112 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-left: 3px;
   margin-bottom: -5px;
 }
-/* Basic table styles for the lightbox */
-.q-lightbox-slides__element--table {
-  margin: 0 80px;
+
+/* Style tables as they appear on the page */
+.q-figure.q-figure--table {
+  border-width: 0;
+  padding: 0;
+  margin-bottom: 4rem !important;
+}
+.quire-page__content .container .content table,
+.quire-page__content .container .content table th,
+.quire-page__content .container .content table td {
+  border: 1px solid var(--light);
+  border-collapse: collapse;
+}
+.quire-page__content .container .content table,
+.quire-page__content .container .content .table-key {
+  font-size: .75vw;
+}
+.quire-page__content .container .content #table-03 table {
+  font-size: .35vw;
+}
+.quire-page__content .container .content table caption {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.quire-page__content .container .content table caption .details {
+  font-size: .875rem;
+  display: block;
+  margin-top: .25rem;
+}
+.quire-page__content .container .content table ul {
+  list-style: initial;
+  padding-left: 1.25em;
+}
+.quire-page__content .container .content ul li::before {
+  all: reset;
+  content: none;
+}
+.table-key dl {
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  row-gap: .5rem;
+  margin-top: 1rem;
+}
+.table-key dl dt {
+  font-weight: bold;
+}
+table a,
+.table-key a {
+  color: inherit;
+  border-bottom: 1px dotted var(--accent-color);
+}
+
+/* TABLES IN THE LIGHTBOX / MODAL */
+/* Ensure the tables scroll and are positioned correctly in the modal */
+.q-lightbox-slides__element div.table-wrapper {
   background-color: white;
   color: black;
+  overflow: scroll;
+  width: calc(100vw - 8rem);
+  height: calc(100vh - 5rem);
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
-.q-lightbox-slides__element--table table {
-  margin: 1rem;
+/* This centers the elements within the table-wrapper, while allowing full scroll on oversized elements: https://bhch.github.io/posts/2021/04/centring-flex-items-and-allowing-overflow-scroll/ */
+.q-lightbox-slides__element div.table-wrapper > *:first-child {
+  margin-left: auto;
 }
-.q-lightbox-slides__element--table table,
-.q-lightbox-slides__element--table th,
-.q-lightbox-slides__element--table td {
+.q-lightbox-slides__element div.table-wrapper > *:last-child {
+  margin-right: auto;
+}
+/* Ensure current table is at top level to allow scroll interaction */
+.q-lightbox-slides__slide[data-lightbox-current] .table-wrapper {
+  z-index: 1;
+}
+/* The labels and captions are included in the table HTML files themselves */
+.q-lightbox-slides__element--table + .q-figure-slides__slide-ui .q-lightbox-slides__caption {
+  display: none;
+}
+.q-lightbox-slides__element--table div.table-wrapper table caption {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.q-lightbox-slides__element div.table-wrapper table {
+  font-size: 1em;
+}
+.q-lightbox-slides__element div.table-wrapper table,
+.q-lightbox-slides__element div.table-wrapper table th,
+.q-lightbox-slides__element div.table-wrapper table td {
   border: 1px solid black;
   border-collapse: collapse;
 }
-.q-lightbox-slides__element--table th,
-.q-lightbox-slides__element--table td {
+.q-lightbox-slides__element div.table-wrapper th,
+.q-lightbox-slides__element div.table-wrapper td {
   padding: .25rem;
 }
-.q-lightbox-slides__element--table table caption {
-  margin-bottom: 1rem;
-}
+
+/* Custom table classes specific to Bronze Guidelines */
+table .shading { background-color: var(--light); }
+/* https://coolors.co/59ac46-7ec46e-a5d69a-cbe7c5-f2f9f1 */
+table .excellent { background-color: var(--green-wax); }
+table .high { background-color: #7EC46E; }
+table .good { background-color: #A5D69A; }
+table .medium { background-color: #CBE7C5; }
+table .poor { background-color: #F2F9F1; }
 
 /*  PRINT/PDF
 ============================================================================= */
