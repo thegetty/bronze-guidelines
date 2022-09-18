@@ -11,20 +11,6 @@
 // function filterImageGrid() { ... }
 // window.filterImageGrid = filterImageGrid
 
-window.onload = function () {
-
-  createAccordion('.quire-page.accordion h4')
-  createAccordion('.quire-page.accordion h3')
-  createAccordion('div.accordion h3')
-  createAccordion('.quire-page.accordion h2[id=notes]')
-  addAccordionControls()
-  window.addEventListener('scroll', toggleControlsVisibility)
-
-  wrapHeadingNumbers()
-  prepImageGrid()
-
-};
-
 // Accordion sections modified from
 // https://inclusive-components.design/collapsible-sections/
 function createAccordion(selector) {
@@ -73,12 +59,18 @@ function createAccordion(selector) {
       }
     }
   }
-  headings.length > 0 ? console.log("Accordion sections made on select " + tag + " tags") : ''
+  // headings.length > 0 ? console.log("Accordion sections made on select " + tag + " tags") : ''
+  if (headings.length > 0) {
+    console.log("Accordion sections made on select " + tag + " tags")
+    addAccordionControls()
+  }
+
 };
 
 function addAccordionControls() {
   const accordion = document.getElementsByClassName('accordion')
-  if ( accordion[0] ) {
+  const existingControls = document.getElementById('accordion-controls')
+  if ( accordion[0] && !existingControls ) {
     const controls = `
       <li><button id="expand-accordions">Expand All</button></li>
       <li><button id="collapse-accordions">Collapse All</button></li>
@@ -94,9 +86,11 @@ function addAccordionControls() {
 
     document.getElementById('collapse-accordions').addEventListener('click', collapseAllAccordions)
 
+    window.addEventListener('scroll', toggleControlsVisibility)
+
     console.log("Accordion controls added")
   }
-}
+};
 window.expandAllAccordions = function () {
   const buttons = document.querySelectorAll('button.accordion-expander')
   for (const button of buttons) {
@@ -105,7 +99,7 @@ window.expandAllAccordions = function () {
     section.hidden = false
     section.classList.add('accordion-wrapper')
   }
-}
+};
 window.collapseAllAccordions = function () {
   const buttons = document.querySelectorAll('button.accordion-expander')
   for (const button of buttons) {
@@ -114,7 +108,7 @@ window.collapseAllAccordions = function () {
     section.hidden = true
     section.classList.remove('accordion-wrapper')
   }
-}
+};
 window.toggleControlsVisibility = function () {
   const accordions = document.getElementsByClassName('accordion-expander')
   const firstAccordion = accordions[0]
@@ -152,7 +146,7 @@ function wrapHeadingNumbers() {
       heading.classList.add('indented-heading')
     }
   }
-  console.log("Heading numbers wrapped")
+  headings.length > 0 ? console.log("Heading numbers wrapped") : ''
 };
 
 function prepImageGrid() {
@@ -173,7 +167,7 @@ function prepImageGrid() {
     const resultsDisplay = document.getElementById('image-grid-counter')
     resultsDisplay.innerHTML = images.length + ' images'
   }
-  console.log("Image Grid prepped")
+  imageGrid ? console.log("Image Grid prepped") : ''
 };
 
 // Global function added as property of window object
@@ -196,3 +190,15 @@ window.filterImageGrid = function () {
     resultsDisplay.innerHTML = totalResults + ' images';
   }
 };
+
+// Was originally triggering these with window.onload = function () {...}
+// bit it was breaking the Canvas Panel choices functionality, not sure why
+window.addEventListener('DOMContentLoaded', () => {
+  createAccordion('.quire-page.accordion h4')
+  createAccordion('.quire-page.accordion h3')
+  createAccordion('div.accordion h3')
+  createAccordion('.quire-page.accordion h2[id=notes]')
+
+  wrapHeadingNumbers()
+  prepImageGrid()
+});
