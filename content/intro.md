@@ -209,7 +209,7 @@ Among the more recent phenomena are studies of larger corpuses of related works 
 
 ## 2 What?: The basics of making a bronze sculpture
 
-Casting a bronze is in essence the translation of an original model into metal by means of an impression of that form into a fire-resistant or {% def "bronze" %}, into which the liquefied metal is {% def "bronze" %}. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. **Table 1** and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
+Casting a bronze is in essence the translation of an original model into metal by means of an impression of that form into a fire-resistant or {% def "bronze" %}, into which the liquefied metal is {% def "bronze" %}. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
 
 {% figuregroup "3", "fig-003" %}
 
@@ -311,7 +311,7 @@ The third consists of carving the negative form directly into a refractory mold 
 
 -   sand casts (also to create the casting channels).
 
-Most of these casting processes are explained in greater detail below. The terms used to describe these processes and how they are referred to in several other languages are captured in **table 2**.
+Most of these casting processes are explained in greater detail below. The terms used to describe these processes and how they are referred to in several other languages are captured in {% ref 'table-02' %}.
 
 {% figuregroup "3", "fig-011" %}
 
@@ -325,7 +325,7 @@ Most of these casting processes are explained in greater detail below. The terms
 
 #### 2.2.1 Direct lost-wax casting
 
-Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^38] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed (**table 3**).[^39]
+Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^38] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed ({% ref 'table-03' %}).[^39]
 
 The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "bronze" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013, fig-014' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
 
@@ -340,7 +340,7 @@ The main advantage of the direct process is the creative flexibility it allows t
 
 #### 2.2.2 Indirect lost-wax casting
 
-Indirect lost-wax casting appeared comparatively early in the history of bronze sculpture,[^40] and several variants are still in use today (**table 3**). In this process, reusable molds are taken from an original sculpture model in order to replicate the desired form in bronze. The original model can therefore be made of any number of materials. Undercuts in the model are dealt with either by using a flexible mold (for instance one made of rubber) or by creating a (rigid) piece mold[^41] designed in small, removable sections to fit around the model like a three-dimensional jigsaw puzzle, and usually held together by an outer “mother mold” ({% ref 'fig-015' %}). These reusable molds enable the maker to create one or more wax replicas or inter-models for use in the casting process (the “casting model” in modern parlance).
+Indirect lost-wax casting appeared comparatively early in the history of bronze sculpture,[^40] and several variants are still in use today ({% ref 'table-03' %}). In this process, reusable molds are taken from an original sculpture model in order to replicate the desired form in bronze. The original model can therefore be made of any number of materials. Undercuts in the model are dealt with either by using a flexible mold (for instance one made of rubber) or by creating a (rigid) piece mold[^41] designed in small, removable sections to fit around the model like a three-dimensional jigsaw puzzle, and usually held together by an outer “mother mold” ({% ref 'fig-015' %}). These reusable molds enable the maker to create one or more wax replicas or inter-models for use in the casting process (the “casting model” in modern parlance).
 
 The main advantages of indirect lost-wax casting include the preservation and potential reuse of the original model, and the ability to cast multiple, more or less identical replicas of the original model. These can, of course, also be manipulated intentionally to create quite distinct works.[^42]
 
@@ -366,13 +366,13 @@ Within these, four processes have been most commonly documented in historical br
 
 *Slush molding*
 
-Slush molding ({% ref 'fig-016' %}, {% ref 'vid-07, vid-03' %}) may be among the oldest processes used in indirect lost-wax casting, and is still widely used today (**table 3**). Slush molding consists of pouring liquefied wax into a mold and slushing it around to ensure that the wax builds up relatively evenly. Small molds can be filled to the rim. The wax will first solidify at points of contact with the mold. The remaining molten wax is poured out, and the process repeated until the thickness of wax matches the desired wall thickness of the bronze. With larger molds, a fine layer of liquefied wax may be painted onto the surface first, to make sure that all the details are captured, before pouring the liquefied wax into the mold. Larger molds may be only partially filled and then agitated and rolled around to ensure that the wax slushes sufficiently to coat the entire inner surface.
+Slush molding ({% ref 'fig-016' %}, {% ref 'vid-07, vid-03' %}) may be among the oldest processes used in indirect lost-wax casting, and is still widely used today ({% ref 'table-03' %}). Slush molding consists of pouring liquefied wax into a mold and slushing it around to ensure that the wax builds up relatively evenly. Small molds can be filled to the rim. The wax will first solidify at points of contact with the mold. The remaining molten wax is poured out, and the process repeated until the thickness of wax matches the desired wall thickness of the bronze. With larger molds, a fine layer of liquefied wax may be painted onto the surface first, to make sure that all the details are captured, before pouring the liquefied wax into the mold. Larger molds may be only partially filled and then agitated and rolled around to ensure that the wax slushes sufficiently to coat the entire inner surface.
 
 The main advantages of slush molding are its rapidity and simplicity. Because the mold is generally manipulated by hand, size is a limiting factor, requiring larger bronzes to be molded in manageable sections.
 
 *Indirect wax slab process*
 
-Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which indirect wax slab ({% ref 'fig-018' %}) may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^43] The indirect wax slab process appears to have been widely used during Greek and Roman antiquity,[^44] and probably long after as well.[^45] Some modern-day founders also use one form or another of this process (**table 3**).
+Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which indirect wax slab ({% ref 'fig-018' %}) may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^43] The indirect wax slab process appears to have been widely used during Greek and Roman antiquity,[^44] and probably long after as well.[^45] Some modern-day founders also use one form or another of this process ({% ref 'table-03' %}).
 
 This process might be used with mold sections of larger bronzes. A variant involves building up a wax layer of the desired thickness by pressing small masses of softened wax into the mold ({% ref 'fig-009' %}).[^46] Alternatively, molten wax may be painted into the mold first, to ensure good coverage of finer details, and then built up layer by layer in a variety of ways—painted, backed with wax slabs, or reinforced with softened wax or slush molding. For all the aforementioned processes other than slush molding, it is necessary for the mold to be open before the application of wax on the internal surface of each of its sections.
 
@@ -389,9 +389,9 @@ The process entails painting liquefied wax into one or more sections of an open 
 
 #### 2.3.2 First core, then wax
 
-The lasagna process ({% ref 'fig-023' %}) was first described by sculptor, goldsmith, and writer Benvenuto Cellini (Italian, 1500–1571),[^47] whose use of the term “lasagna” has been generally adopted. Its likely use has been identified on sixteenth-century Italian and French bronzes,[^48] and seems to draw from the practices of cannon casting (see [GI§2.5.3](/intro/#S2.5.3) below). It is still in use in modern foundries (**table 3**). Instead of wax slabs (see previous section), slabs of clay or another dough-like substance of even thickness—the so-called lasagna, which Cellini describes as being the width of a knife blade—are laid into the inner surface of a piece mold of a larger sculpture ({% ref 'fig-024' %}). The core is built up to fit the hollow space in the lasagna-lined mold using material that is either clay-based or in the form of a plaster-grog slurry. Thereafter, the lasagna is removed from the mold. The piece mold is reassembled around the core, and wax is poured into the space previously defined by the lasagna layer. As with the other processes, a fine layer of wax may be painted into the mold first. See [GI§2.5.3](/intro/#S2.5.3) below for a variant of the lasagna process without using wax. The lasagna can be applied to the piece mold much more rapidly than wax slabs (whereas wax slabs are usually applied cautiously onto the model surface to capture all the details, the lasagna clay slabs are applied more “approximately,” at least in modern foundries).[^49] This allows for more control over the condition and surface of the core, and thus also over the outcome of the cast.
+The lasagna process ({% ref 'fig-023' %}) was first described by sculptor, goldsmith, and writer Benvenuto Cellini (Italian, 1500–1571),[^47] whose use of the term “lasagna” has been generally adopted. Its likely use has been identified on sixteenth-century Italian and French bronzes,[^48] and seems to draw from the practices of cannon casting (see [GI§2.5.3](/intro/#S2.5.3) below). It is still in use in modern foundries ({% ref 'table-03' %}). Instead of wax slabs (see previous section), slabs of clay or another dough-like substance of even thickness—the so-called lasagna, which Cellini describes as being the width of a knife blade—are laid into the inner surface of a piece mold of a larger sculpture ({% ref 'fig-024' %}). The core is built up to fit the hollow space in the lasagna-lined mold using material that is either clay-based or in the form of a plaster-grog slurry. Thereafter, the lasagna is removed from the mold. The piece mold is reassembled around the core, and wax is poured into the space previously defined by the lasagna layer. As with the other processes, a fine layer of wax may be painted into the mold first. See [GI§2.5.3](/intro/#S2.5.3) below for a variant of the lasagna process without using wax. The lasagna can be applied to the piece mold much more rapidly than wax slabs (whereas wax slabs are usually applied cautiously onto the model surface to capture all the details, the lasagna clay slabs are applied more “approximately,” at least in modern foundries).[^49] This allows for more control over the condition and surface of the core, and thus also over the outcome of the cast.
 
-The cut-back core process ({% ref 'fig-025' %}) has been identified on eighteenth-century French bronzes, but might have been used elsewhere and earlier.[^50] It is still in use today (**table 3**). Here the core is produced by using the piece mold to cast a replica of the model in refractory material. This is then pared down to the desired thickness, secured back into the piece mold, and liquefied wax is filled into the space between the core and the mold. As with the lasagna method, this process allows control of the core, limiting shrinkage of the wax and thus affording a more predictable and even metal thickness. This is a highly skilled operation.
+The cut-back core process ({% ref 'fig-025' %}) has been identified on eighteenth-century French bronzes, but might have been used elsewhere and earlier.[^50] It is still in use today ({% ref 'table-03' %}). Here the core is produced by using the piece mold to cast a replica of the model in refractory material. This is then pared down to the desired thickness, secured back into the piece mold, and liquefied wax is filled into the space between the core and the mold. As with the lasagna method, this process allows control of the core, limiting shrinkage of the wax and thus affording a more predictable and even metal thickness. This is a highly skilled operation.
 
 {% figuregroup "3", "fig-023, fig-024, fig-025" %}
 
@@ -451,7 +451,7 @@ Note: It may be difficult to distinguish a direct life-cast from an indirect cas
 
 #### 2.5.2 Direct wax-slab process
 
-The ancient Greeks are known to have used the direct wax slab process to create bronze multiples, such as the Griffin Protomes.[^65] Theophilus, the twelfth-century artisan monk and compiler of a technical compendium on diverse arts, describes a similar process used in his time for making incense burners in Germany.[^66] See [Case Study 2](/case-studies/2/). It is also used in modern-day Nepal and Thailand for sculptural work (**table 3**).[^67]
+The ancient Greeks are known to have used the direct wax slab process to create bronze multiples, such as the Griffin Protomes.[^65] Theophilus, the twelfth-century artisan monk and compiler of a technical compendium on diverse arts, describes a similar process used in his time for making incense burners in Germany.[^66] See [Case Study 2](/case-studies/2/). It is also used in modern-day Nepal and Thailand for sculptural work ({% ref 'table-03' %}).[^67]
 
 The process involves bending wax slabs freehand in order to shape the model, with the core inserted later ({% ref 'fig-028, fig-029' %}). This is not to be confused with the direct lost-wax process described above in [GI§2.2.1](/intro/#S2.2.1), where for hollow casts the wax is built over the core.[^68] It allows for quick modeling with a very good control of thickness. Its main drawbacks are the loss of the original model.
 
@@ -554,7 +554,7 @@ The preparation of the metal that will be poured into the mold consists of many 
 
 While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), {% ref 'vid-10-, vid-11' %}), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.6](/vol-1/2/).
 
-Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "bronze" %}**,** often followed by refining of the metal surface via {% def "bronze" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "bronze" %}, gilding, the application of patina, and/or {% def "bronze" %} and {% def "bronze" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
+Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "bronze" %}, often followed by refining of the metal surface via {% def "bronze" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "bronze" %}, gilding, the application of patina, and/or {% def "bronze" %} and {% def "bronze" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
 
 Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.6](/vol-1/2/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^76]
 
@@ -631,6 +631,17 @@ The information and images presented here have been selected to illustrate speci
 The interpretation of a feature as evidence of a particular process, technique, or material is often complex, carrying frequent risks of misidentification. And while we have done our best to illustrate each feature with a representative photograph, these images cannot replace the experience of close examination of an object under different angles, lighting, and magnification conditions. Where applicable, we strongly invite the reader to seek out the publications referred to in the image captions for more in-depth discussions of the examples.
 
 Making meaningful sense of the physical evidence preserved in an object requires weighing these technical observations with a wide range of contextual information from related/comparative objects as well as historical, archaeological, or other relevant sources. Ultimately, these *Guidelines* cannot replace the hard-won experience of experts.
+
+</section>
+<section id="tables-reference">
+
+## Tables
+
+{% figure "table-01" %}
+
+{% figure "table-02" %}
+
+{% figure "table-03" %}
 
 </section>
 
