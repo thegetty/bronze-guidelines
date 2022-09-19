@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Added Poster image to Vimeo output so that could show poster on page, and
+// iframe embed in modal, Lines 35 and 51
+//
 const { html } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
@@ -27,7 +32,7 @@ const videoElements = {
       </video>
     `
   },
-  vimeo({ id, mediaId }) {
+  vimeo({ id, mediaId, poster='' }) {
     if (!mediaId) {
       error(`Cannot render Vimeo embed without 'media_id'. Check that figures data for id: ${id} has a valid 'media_id'`)
       return ''
@@ -43,6 +48,7 @@ const videoElements = {
         frameborder="0"
         src="https://player.vimeo.com/video/${embedId}"
       ></iframe>
+      <img src="${poster}" class="q-figure-video-element--poster"/>
     `
   },
   youtube({ id, mediaId }) {

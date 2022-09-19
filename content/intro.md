@@ -223,7 +223,7 @@ Casting a bronze is in essence the translation of an original model into metal b
 
 The refractory mold is the temporary, fire-resistant mass that contains the impression of the model to be reproduced. In {% def "bronze" %} it is often referred to as the {% def "bronze" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "bronze" %} of the metal ({% ref 'fig-004, fig-005' %}).
 
-In designing it (see also **videos 1, 2**), it is important to ensure that it:
+In designing it (see also {% ref 'vid-01, vid-02' %}), it is important to ensure that it:
 
 -   is heat resistant;
 
@@ -251,7 +251,7 @@ Monumental bronzes may be built over cores that have an internal fired-brick str
 
 How the core is held in place in relation to the outer mold in order to ensure the desired gap between them during casting as described in [GI§2.6](/intro/#S2.6) below on armatures and {% def "bronze" %}.
 
-{% figuregroup "3", "fig-004, fig-005, fig-006, fig-007, fig-008" %}
+{% figuregroup "3", "fig-004, fig-005, vid-01, vid-02, fig-006, fig-007, fig-008" %}
 
 </section>
 <section id="S2.1.2">
@@ -260,11 +260,11 @@ How the core is held in place in relation to the outer mold in order to ensure t
 
 Over the centuries in different cultures around the world, expertise on how best to cast a bronze has evolved, based partly on the availability of materials, the level of control over pyrotechnic technologies, the range of forms to be represented, and the metal and other materials that will be used. The context of production is also key. For instance, a large workshop or foundry producing great numbers of multiples will most likely use a different process than a sculptor-founder working alone making a one-off cast (see [Case Study 7](/case-studies/7/)). Every step of the casting process may leave diagnostic traces, which the technical investigator must tease out (see [I.6](/vol-1/2/)).
 
-The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "bronze" %} (see **video 3**). In {% def "bronze" %} that function is performed by the pattern or {% def "bronze" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](/vocabulary/).
+The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "bronze" %} (see {% ref 'vid-03' %}). In {% def "bronze" %} that function is performed by the pattern or {% def "bronze" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](/vocabulary/).
 
 Similarly, a sequence of molds may have played a part in the translation from an original model to a bronze sculpture. Indeed, while the metal is ultimately cast into a refractory mold, in some instances other intermediary matrices may have served to create the casting model or pattern (see below).
 
-{% figuregroup "3", "fig-009" %}
+{% figuregroup "3", "vid-03, fig-009" %}
 
 </section>
 <section id="S2.1.3">
@@ -278,9 +278,9 @@ Art historians use the term “direct cast” for a bronze in which the original
 
 #### 2.1.4 Solid and hollow casts
 
-A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, **video 4**). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "bronze" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways ({% ref 'fig-008' %}). The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast is solid or hollow may also depend on a number of nontechnical parameters.[^36]
+A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "bronze" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways ({% ref 'fig-008' %}). The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast is solid or hollow may also depend on a number of nontechnical parameters.[^36]
 
-{% figuregroup "3", "fig-010, fig-008" %}
+{% figuregroup "3", "fig-010, vid-04, fig-008" %}
 
 </section>
 <section id="S2.1.5">
@@ -327,13 +327,13 @@ Most of these casting processes are explained in greater detail below. The terms
 
 Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^38] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed (**table 3**).[^39]
 
-The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "bronze" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013, fig-014' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts (**videos 5, 6**).
+The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "bronze" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013, fig-014' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
 
 Other combustible materials, such as plant and animal materials, including latex, can also be used. Small objects can be made from solid wax models; larger ones are generally formed hollow by building up the wax model over a refractory clay core. This layer of wax is built up in any number of ways: by laying sheets of wax over it, by modeling, or by dipping the core into molten wax.
 
 The main advantage of the direct process is the creative flexibility it allows the artist or artisan. It does entail the loss of the original model, which may not be an issue in mass productions of devotional figurines, but becomes more of an issue with for instance a large, one-off sculptural commission. A disadvantage is, as already noted, the loss of the original model in the process.
 
-{% figuregroup "3", "fig-012, fig-013, fig-014" %}
+{% figuregroup "3", "fig-012, fig-013, fig-014, vid-05, vid-06" %}
 
 </section>
 <section id="S2.2.2">
@@ -366,7 +366,7 @@ Within these, four processes have been most commonly documented in historical br
 
 *Slush molding*
 
-Slush molding ({% ref 'fig-016' %}, **videos 7, 3**) may be among the oldest processes used in indirect lost-wax casting, and is still widely used today (**table 3**). Slush molding consists of pouring liquefied wax into a mold and slushing it around to ensure that the wax builds up relatively evenly. Small molds can be filled to the rim. The wax will first solidify at points of contact with the mold. The remaining molten wax is poured out, and the process repeated until the thickness of wax matches the desired wall thickness of the bronze. With larger molds, a fine layer of liquefied wax may be painted onto the surface first, to make sure that all the details are captured, before pouring the liquefied wax into the mold. Larger molds may be only partially filled and then agitated and rolled around to ensure that the wax slushes sufficiently to coat the entire inner surface.
+Slush molding ({% ref 'fig-016' %}, {% ref 'vid-07, vid-03' %}) may be among the oldest processes used in indirect lost-wax casting, and is still widely used today (**table 3**). Slush molding consists of pouring liquefied wax into a mold and slushing it around to ensure that the wax builds up relatively evenly. Small molds can be filled to the rim. The wax will first solidify at points of contact with the mold. The remaining molten wax is poured out, and the process repeated until the thickness of wax matches the desired wall thickness of the bronze. With larger molds, a fine layer of liquefied wax may be painted onto the surface first, to make sure that all the details are captured, before pouring the liquefied wax into the mold. Larger molds may be only partially filled and then agitated and rolled around to ensure that the wax slushes sufficiently to coat the entire inner surface.
 
 The main advantages of slush molding are its rapidity and simplicity. Because the mold is generally manipulated by hand, size is a limiting factor, requiring larger bronzes to be molded in manageable sections.
 
@@ -530,15 +530,15 @@ Core vents (also called lanterns, {% ref 'fig-006, fig-043' %}) provide an exhau
 
 ### 2.7 Sprues
 
-A sprue is any channel that feeds metal to the mold, in contrast to a vent, which lets air out. The sprue system is the entire network of channels designed to distribute the metal through the refractory mold efficiently while ensuring that air and vapors can escape so as to avoid casting flaws ({% ref 'fig-021, fig-044, fig-045, fig-046' %}, **video 8**). In sand casting these channels are carved into the mold once the impression has been formed in the sand mold parts. In lost-wax casting they are usually formed with wax rods of various sizes, which are affixed strategically to the model by melting the ends onto the surface with a hot knife before the casting model is invested with the outer mold material.[^71]
+A sprue is any channel that feeds metal to the mold, in contrast to a vent, which lets air out. The sprue system is the entire network of channels designed to distribute the metal through the refractory mold efficiently while ensuring that air and vapors can escape so as to avoid casting flaws ({% ref 'fig-021, fig-044, fig-045, fig-046' %}, {% ref 'vid-08' %}). In sand casting these channels are carved into the mold once the impression has been formed in the sand mold parts. In lost-wax casting they are usually formed with wax rods of various sizes, which are affixed strategically to the model by melting the ends onto the surface with a hot knife before the casting model is invested with the outer mold material.[^71]
 
-Sprues (generally referred to as “gates” in sand casting) are usually located on higher points of the cast surface (as opposed to depressions) and, if possible, in areas of less detail (inside, back, edges) to avoid having to re-create complex surfaces of the model after casting. More substantial castings will need a greater number of feeds/gates to allow the alloy to reach all areas of the model at the optimal temperature, minimize turbulence, and reduce risk of shrinkage (**video 9**).[^72]
+Sprues (generally referred to as “gates” in sand casting) are usually located on higher points of the cast surface (as opposed to depressions) and, if possible, in areas of less detail (inside, back, edges) to avoid having to re-create complex surfaces of the model after casting. More substantial castings will need a greater number of feeds/gates to allow the alloy to reach all areas of the model at the optimal temperature, minimize turbulence, and reduce risk of shrinkage ({% ref 'vid-09' %}).[^72]
 
 There are two main approaches to feeding the metal into the mold. The cast is described as “bottom fed” when the “feed” directs the metal straight to the bottom of the mold from whence it pushes its way up through the cavities in the mold ({% ref 'fig-013' %}). In foundry terms it might also be considered “indirectly cast” (not to be confused with the indirect casting method described above in [GI§2.2.2](/intro/#S2.2.2)). It is considered “top-fed” if the feed is attached directly to the top of the figure and the metal allowed to follow whatever paths it might find down through the mold ({% ref 'fig-025' %}).[^73] The former reduces the chances of erosion of the mold, or “scouring,” which can result from forceful impact of the metal on its fragile inner surface.
 
 The orientation of the cast—upright, upside down, horizontal, or at an angle[^74]—can vary depending on the shape and size of the form as well as on cultural context and practice of the founder.[^75]
 
-{% figuregroup "3", "fig-021, fig-044, fig-045, fig-046, fig-013, fig-025" %}
+{% figuregroup "3", "fig-021, fig-044, fig-045, fig-046, vid-08, vid-09, fig-013, fig-025" %}
 
 </section>
 <section id="S2.8">
@@ -552,13 +552,13 @@ The preparation of the metal that will be poured into the mold consists of many 
 
 ### 2.9 Finishing
 
-While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), **videos 10, 11**), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.6](/vol-1/2/).
+While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), {% ref 'vid-10-, vid-11' %}), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.6](/vol-1/2/).
 
 Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "bronze" %}**,** often followed by refining of the metal surface via {% def "bronze" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "bronze" %}, gilding, the application of patina, and/or {% def "bronze" %} and {% def "bronze" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
 
 Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.6](/vol-1/2/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^76]
 
-{% figuregroup "3", "fig-047" %}
+{% figuregroup "3", "vid-10, vid-11, fig-047" %}
 
 </section>
 </section>

@@ -242,6 +242,16 @@ a.quire-definition__content__more-link {
 .q-figure.q-figure--group .q-figure__credit-content {
   display: none;
 }
+/* Videos, show poster on page and Vimeo embed in modal */
+.q-lightbox--modal .q-figure-video-element--poster {
+  display: none;
+}
+.q-figure.q-figure--vimeo .q-figure-video-element--embed {
+  display: none;
+}
+.q-figure.q-figure--vimeo .q-figure__media-wrapper {
+  padding-bottom: 0 !important;
+}
 
 /* FIGURE MODAL
 ============================================================================= */
