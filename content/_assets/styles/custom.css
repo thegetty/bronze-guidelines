@@ -737,8 +737,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   list-style: initial;
   padding-left: 1.25em;
 }
-.quire-page__content .container .content ul li::before {
-  all: reset;
+.quire-page__content .container .content table ul li::before {
   content: none;
 }
 .table-key dl {
