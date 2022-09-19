@@ -5,6 +5,29 @@ layout: page
 outputs: [html]
 ---
 
+## IIIF Radio and Checkboxes
+
+{% figure 'fig-006' %}
+
+{% figure 'fig-034' %}
+
+
+## Test Image Types for Modal
+
+{% figure 'fig-020' %}
+
+{% figure 'fig-050' %}
+
+{% figure 'vid-18' %}
+
+{% figure 'table-04' %}
+
+{% figure 'fig-001' %}
+
+---
+
+## Inline modal links
+
 <a href="#fig-043" class="q-figure__modal-link">Figure 43</a>
 
 <a href="#fig-044" class="q-figure__modal-link">Figure 44</a>

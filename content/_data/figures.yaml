@@ -16,7 +16,7 @@ figure_list:
 
   - id: "fig-001"
     src: "figures/iiif/001.jpg"
-    # media_type: iiif
+    media_type: iiif
     class: pdf-full-width
     label: "Figure 1"
     caption: "Diagram of generations of casts (here through the lost-wax process): a) the original model here is in clay, but could be made of any material; b) the translation of the original model into a wax inter-model may involve more than simple molding; c) a close reproduction of the original model will be referred to as a replica (a wax inter-model that is altered in details and with additional features [e.g., a base] will result in a %%variant%%); d) more alterations can be made after casting (e.g., with a base or a different patina); e) a bronze can in turn serve as model for another generation of casts by taking a mold of it; f) because wax shrinks as it cools, the inter-models are slightly smaller than the bronze model and their details softer unless reworked; g) the bronze after-cast may be in turn be reworked and finished differently than its original bronze model or sister casts."
@@ -50,21 +50,27 @@ figure_list:
     # media_type: iiif
     label: "Figure 6"
     caption: "Experimental sand-cast torso (H. 16 cm). Yellow overlay indicates the hollow lantern made of rolled sheet metal that runs vertically through the body and has been used to mount the torso to a base. See also the area where the bronze did not fill the mold, an extreme example of a cold shut. White arrows indicate the typically rounded edge of the bronze wall where it stopped flowing. Green arrows denote the seam line along the proper right side of the torso where bronze flowed into a gap along the joint of the cope and drag. Red arrows indicate flashing at either side of the lower horizontal armature rod. Made with consultant Tonny Beentjes, Decorative Arts and Sculpture Conservation, J. Paul Getty Museum."
-    # annotations:
-    #   - input: checkbox
-    #     items:
-    #       - src: "figures/iiif/006/bronze.png"
-    #         label: "Bronze"
-    #       - src: "figures/iiif/006/core.png"
-    #         label: "Core"
-    #       - src: "figures/iiif/006/flashing.png"
-    #         label: "Flashing"
-    #       - src: "figures/iiif/006/cold-shut.png"
-    #         label: "Cold-shut"
-    #       - src: "figures/iiif/006/seam-line.png"
-    #         label: "Seam line"
-    #       - src: "figures/iiif/006/lantern.png"
-    #         label: "Lantern"
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/006/bronze.png"
+            label: "Bronze"
+            selected: true
+          - src: "figures/iiif/006/core.png"
+            label: "Core"
+            selected: true
+          - src: "figures/iiif/006/flashing.png"
+            label: "Flashing"
+            selected: true
+          - src: "figures/iiif/006/cold-shut.png"
+            label: "Cold-shut"
+            selected: true
+          - src: "figures/iiif/006/seam-line.png"
+            label: "Seam line"
+            selected: true
+          - src: "figures/iiif/006/lantern.png"
+            label: "Lantern"
+            selected: true
 
   - id: "fig-007"
     src: "figures/iiif/007.jpg"
@@ -276,17 +282,19 @@ figure_list:
     caption: "The artist beginning the modeling process on a metal armature. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-034"
-    src: "figures/iiif/034/base.jpg"
+    # src: "figures/iiif/034/base.jpg"
     # media_type: iiif
     label: "Figure 34"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography showing the wire wrapping the core. Note how complex the image is due to the numerous overlaps, for instance of the drapery. Barthélemy Prieur (French, ca. 1536–1611), Abundance, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](#CaseStudy5)."
-    # annotations:
-    #   - input: radio
-    #     items:
-    #       - src: "figures/iiif/034/x-ray.jpg"
-    #         label: "X-Ray"
-    #       - src: "figures/iiif/034/armature.jpg"
-    #         label: "Armature"
+    annotations:
+      - input: radio
+        items:
+          - src: "figures/iiif/034/base.jpg"
+            label: "Daylight"
+          - src: "figures/iiif/034/x-ray.jpg"
+            label: "X-Ray"
+          - src: "figures/iiif/034/armature.jpg"
+            label: "Armature"
 
   - id: "fig-035"
     src: "figures/iiif/035/base.jpg"
