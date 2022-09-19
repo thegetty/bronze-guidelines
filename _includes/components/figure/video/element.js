@@ -1,7 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // Added Poster image to Vimeo output so that could show poster on page, and
-// iframe embed in modal, Lines 35 and 51
+// iframe embed in modal, Lines 35 and 51–53
 //
 const { html } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')
@@ -48,7 +48,9 @@ const videoElements = {
         frameborder="0"
         src="https://player.vimeo.com/video/${embedId}"
       ></iframe>
-      <img src="${poster}" class="q-figure-video-element--poster"/>
+      <a href="#${id}" class="q-figure-video-element--poster q-figure__modal-link">
+      <img src="${poster}" />
+      </a>
     `
   },
   youtube({ id, mediaId }) {
