@@ -655,6 +655,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-bottom: 4rem;
   height: 100%;
 }
+.q-lightbox--modal .q-lightbox-slides__caption a {
+  color: currentColor;
+  border-bottom: 1px dotted currentColor;
+}
+.q-lightbox--modal .q-lightbox-slides__caption a:hover {
+  border-bottom-style: solid;
+}
 @media screen and (min-width:820px) {
   .q-lightbox--modal .q-lightbox-slides__element canvas-panel,
   .q-lightbox--modal .q-lightbox-slides__element img,
