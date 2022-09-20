@@ -2,6 +2,7 @@
 title: Vocabulary
 order: 400
 layout: page
+presentation: full-width
 ---
 
 <table class="vocab-table">

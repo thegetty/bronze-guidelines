@@ -344,6 +344,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page.vocabulary div.accordion h3 button.accordion-expander {
   width: 100%;
 }
+.quire-page.vocabulary div.accordion h3 button.accordion-expander strong {
+  font-weight: 800;
+}
 .quire-page.vocabulary div.accordion h3 button.accordion-expander svg {
   float: right;
   margin-top: .65rem;
@@ -704,6 +707,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page.full-width#tables .quire-page__content .container {
   margin-left: 3rem;
 }
+.quire-page.full-width#vocabulary .quire-page__content .container {
+  margin-left: 3rem;
+}
 /* Style icons after table modal links */
 .quire-page__content .q-figure__modal-link + svg {
   fill: var(--accent-color);
@@ -723,8 +729,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
   border: 1px solid var(--light);
   border-collapse: collapse;
 }
-.quire-page__content .container .content table,
-.quire-page__content .container .content .table-key {
+.quire-page:not(#vocabulary) .quire-page__content .container .content table,
+.quire-page:not(#vocabulary) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
 .quire-page__content .container .content #table-03 table {
