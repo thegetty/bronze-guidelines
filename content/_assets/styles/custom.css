@@ -57,6 +57,10 @@ PRINT/PDF
   font-style: italic;
   font-weight: 800;
 }
+/* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
+.quire-page__content section#additional-figures {
+  display: none;
+}
 /* Position vocab pop-up "More" links away from text */
 a.quire-definition__content__more-link {
   float: right;
@@ -696,11 +700,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
 
 /*  TABLES
 ============================================================================= */
-/* Hide the tables that are on the page,
-  they only display in the lightbox and on the page of tables */
-.quire-page__content section#tables-reference {
-  display: none;
-}
 /* Even out the margins on the page of tables */
 .quire-page.full-width#tables .quire-page__content .container {
   margin-left: 3rem;

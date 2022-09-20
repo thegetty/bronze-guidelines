@@ -633,9 +633,9 @@ The interpretation of a feature as evidence of a particular process, technique, 
 Making meaningful sense of the physical evidence preserved in an object requires weighing these technical observations with a wide range of contextual information from related/comparative objects as well as historical, archaeological, or other relevant sources. Ultimately, these *Guidelines* cannot replace the hard-won experience of experts.
 
 </section>
-<section id="tables-reference">
+<section id="additional-figures">
 
-## Tables
+## Additional Figures
 
 {% figure "table-01" %}
 
