@@ -1,8 +1,3 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// use pageContributorDivider and wrap in a span
-// hoping to fold this into core quire
-//
 const { html, oneLine } = require('~lib/common-tags')
 
 /**
@@ -50,7 +45,7 @@ module.exports = function (eleventyConfig) {
      */
     const isPage = !!layout
 
-    const divider = pageContributorDivider ? pageContributorDivider : ' — '
+    const divider = pageContributorDivider || ' — '
 
     const pageContributorsElement = pageContributors
       ? `<span class="contributor-divider">${divider}</span><span class="contributor">${contributors({ context: pageContributors, format: 'string' })}</span>`

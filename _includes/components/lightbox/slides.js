@@ -91,7 +91,7 @@ module.exports = function(eleventyConfig) {
           </div>
           <div class="q-figure-slides__slide-ui">
             ${captionElement}
-            ${annotationsUI(figure)}
+            ${annotationsUI({ figure, lightbox: true })}
           </div>
         </div>
       `
