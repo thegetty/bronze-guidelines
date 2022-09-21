@@ -41,13 +41,13 @@ identifier:
 publisher:
   - name: J. Paul Getty Museum
     location: Los Angeles
-    url: http://www.getty.edu/publications/
+    url: https://www.getty.edu/publications/
     logo: logo-getty.png
     address: |
       Getty Publications
       1200 Getty Center Drive, Suite 500
       Los Angeles, California 90049-1682
-      [getty.edu/publications/](http://www.getty.edu/publications/)
+      [getty.edu/publications/](https://www.getty.edu/publications/)
 
 project_team:
   - Ruth Evans Lane, *Project Editor*
