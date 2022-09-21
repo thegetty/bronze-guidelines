@@ -16,25 +16,43 @@ short_title:
 
 description:
   one_line:
-  full:
+  full: |
+    Since the fourth millennium BCE, bronze has been the preferred medium for some of the most prestigious and sacred works of art. But only through interdisciplinary research can the fabrication of these extraordinary objects be properly investigated, interpreted, and documented. This innovative publication bridges the expertise of myriad art-technological specialists to create a new framework for advancing the understanding of bronze sculpture.
+
+    Essential reading for curators, conservators, scientists, archaeologists, sculptors, metallurgists, founders, dealers, collectors, and anyone interested in the life cycle of a bronze, this volume explains how to identify the evidence of process steps, metals used, casting defects, and surface work and alterations before moving on to address analytical techniques ranging from visual exams to imaging, material analyses, and dating. The guidelines are accompanied by detailed illustrations, including videos, charts, and animations; a robust vocabulary, ensuring precision across English, German, French, Italian, and Chinese; a diverse selection of case studies; and a comprehensive bibliography.
+  online_edition: |
+    The free online edition of this open-access publication is available at [getty.edu/publications/bronze-guidelines/](https://www.getty.edu/publications/bronze-guidelines/) and includes videos and zoomable illustrations. Also available are free PDF and EPUB downloads of the book.
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2023-02-20 # YYYY-MM-DD
+pub_date: 2023-08-22 # YYYY-MM-DD
 language: en
 pub_type: book # book | journal-periodical | other
 
 identifier:
   isbn: 978-1-60606-692-8
-  url: https://www.getty.edu/publications/bronze-guidelines
+  url: https://www.getty.edu/publications/bronze-guidelines/
 
 publisher:
   - name: J. Paul Getty Museum
     location: Los Angeles
-    url:
+    url: http://www.getty.edu/publications/
     logo: logo-getty.png
+    address: |
+      Getty Publications
+      1200 Getty Center Drive, Suite 500
+      Los Angeles, California 90049-1682
+      [getty.edu/publications/](http://www.getty.edu/publications/)
+
+project_team:
+  - Ruth Evans Lane, *Project Editor*
+  - Greg Albers, *Digital Publications Manager*
+  - Kurt Hauser, *Cover Design*
+  - Molly McGeehan, *Production*
+  - Nancy Rivera, *Image and Rights Acquisition*
+  - Dina Murokh, *Digital Assistant*
 
 # ------------------------------------------------------------------------------
 # Contributors
@@ -134,15 +152,29 @@ subject:
     name:
     identifer:
 
+library_of_congress_cip: |
+  Library of Congress Cataloging-in-Publication Data
+  - Names:
+  - Title:
+  - Description:
+  - Identifiers: LCCN  (print) | LCCN (ebook) | ISBN
+     9781606068281 (paperback) | ISBN 9781606068298 (ebook) | ISBN
+     9781606068304
+  - Subjects:
+  - Classification:
+  - LC record available at
+  - LC ebook record available at
+
 # ------------------------------------------------------------------------------
 # Revision History
 # ------------------------------------------------------------------------------
 
 revision_history:
-  - date:
+  - date: August 22, 2023
     summary:
+      - First edition
 
-repository_url:
+revision_statement: "Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/bronze-guidelines/](https://github.com/thegetty/bronze-guidelines/), where a more detailed version history is available. The revisions branch of the project repository, when present, will show any changes currently under consideration but not yet published here."
 
 # ------------------------------------------------------------------------------
 # Promo Image

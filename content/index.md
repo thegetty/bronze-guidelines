@@ -7,4 +7,4 @@ toc: false
 image: pattern-spiral-overlay.png
 ---
 
-TK
+{{ publication.description.full }}

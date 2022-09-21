@@ -37,6 +37,7 @@ CASE STUDIES
 LIGHTBOX & MODAL
 TABLES
 CHOICES UI
+ABOUT & COPYRIGHT PAGES
 PRINT/PDF
 */
 
@@ -886,6 +887,62 @@ table .poor { background-color: #F2F9F1; }
 }
 #fig-006--seam-line.annotations-ui__input-wrapper label::before {
   background-color: #1ad14e; /* green */
+}
+
+/*  ABOUT & COPYRIGHT PAGES
+============================================================================= */
+
+#about .quire-page__content .copyright .quire-copyright,
+#copyright .quire-page__content .copyright .quire-copyright {
+  padding: 0;
+}
+#about .quire-page__content .copyright .quire-copyright__icon__link,
+#copyright .quire-page__content .copyright .quire-copyright__icon__link {
+  color: currentColor;
+  border-bottom-width: 0;
+}
+#about .quire-page__content .copyright img,
+#copyright .quire-page__content .copyright img {
+  display: none;
+}
+#about .quire-page__content .publisher p:not(:last-child),
+#copyright .quire-page__content .publisher p:not(:last-child) {
+  margin-bottom: 0;
+}
+#about .quire-page__content .project-team ul,
+#copyright .quire-page__content .project-team ul {
+  margin-left: 0;
+}
+#about .quire-page__content .project-team ul li,
+#copyright .quire-page__content .project-team ul li {
+  margin: 0;
+}
+#about .quire-page__content .project-team ul li::before,
+#copyright .quire-page__content .project-team ul li::before {
+  content: none;
+}
+#about .quire-page__content .cip-data,
+#copyright .quire-page__content .cip-data {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 1rem 0;
+}
+#about .quire-page__content .cip-data p,
+#copyright .quire-page__content .cip-data p {
+  margin-bottom: 0;
+}
+#about .quire-page__content .cip-data ul,
+#copyright .quire-page__content .cip-data ul {
+  margin-left: 0;
+  margin-top: 0;
+}
+#about .quire-page__content .cip-data ul li,
+#copyright .quire-page__content .cip-data ul li {
+  margin: 0;
+}
+#about .quire-page__content .cip-data ul li::before,
+#copyright .quire-page__content .cip-data ul li::before {
+  content: none;
 }
 
 /*  PRINT/PDF
