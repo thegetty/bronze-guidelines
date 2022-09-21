@@ -2,7 +2,7 @@
 layout: base.11ty.js
 class: backmatter
 order: 4
-#outputs: [pdf, epub]
+outputs: [pdf, epub]
 toc: false
 menu: false
 ---
