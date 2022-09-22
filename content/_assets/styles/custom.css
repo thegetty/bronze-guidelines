@@ -853,7 +853,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page:not(#vocabulary) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
-.quire-page__content .container .content #table-03 table {
+.quire-page:not(#vocabulary) .quire-page__content .container .content #table-03 table {
   font-size: .35vw;
 }
 .quire-page__content .container .content table caption {
