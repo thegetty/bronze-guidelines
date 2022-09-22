@@ -63,6 +63,10 @@ PRINT/PDF
 .quire-page__content section#additional-figures {
   display: none;
 }
+/* Hide contributor page links */
+.quire-contributor__bio + ul {
+  display: none;
+}
 /* Position vocab pop-up "More" links away from text */
 a.quire-definition__content__more-link {
   float: right;
