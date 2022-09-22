@@ -715,17 +715,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
     min-height: calc(70vh - 3rem);
     margin-bottom: 30vh;
   }
-  .quire-entry .slide .slide-num {
-    display: block;
-    font-size: .6em;
-    letter-spacing: .5px;
-    margin-bottom: .4em;
-    font-weight: 400;
-  }
-  .quire-entry .slide .slide-num::before {
-    content: 'Slide ';
-    text-transform: uppercase;
-  }
 }
 
 /*  LIGHTBOX & MODAL
