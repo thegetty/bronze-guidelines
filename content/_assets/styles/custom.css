@@ -709,6 +709,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-bottom: 1rem;
 }
 /* Lightbox in modal specifically */
+/* Ensure proper stacking order so item aren't hidden behind invisibles */
+.q-lightbox-slides__slide[data-lightbox-current] {
+  z-index: 1;
+}
+.q-lightbox-ui * {
+  z-index: 2;
+}
+.q-modal__close-button {
+  z-index: 3;
+}
+.q-lightbox-slides__slide[data-lightbox-current] .table-wrapper {
+  z-index: 4;
+}
+/* Adjust overall layout */
 .q-lightbox--modal .q-lightbox-slides__element canvas-panel,
 .q-lightbox--modal .q-lightbox-slides__element img,
 .q-lightbox--modal .q-lightbox-slides__element image-service,
@@ -728,7 +742,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   line-height: 2;
-  overflow: scroll;
   color: white;
   flex-direction: column-reverse;
   align-items: flex-start;
@@ -736,6 +749,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .q-lightbox--modal .q-lightbox-slides__caption {
   padding-bottom: 4rem;
   height: 100%;
+  overflow: scroll;
 }
 .q-lightbox--modal .q-lightbox-slides__caption a {
   color: currentColor;
@@ -861,10 +875,6 @@ table a,
 }
 .q-lightbox-slides__element div.table-wrapper > *:last-child {
   margin-right: auto;
-}
-/* Ensure current table is at top level to allow scroll interaction */
-.q-lightbox-slides__slide[data-lightbox-current] .table-wrapper {
-  z-index: 1;
 }
 /* The labels and captions are included in the table HTML files themselves */
 .q-lightbox-slides__element--table + .q-figure-slides__slide-ui .q-lightbox-slides__caption {
