@@ -40,6 +40,7 @@ TABLES
 CHOICES UI
 ABOUT & COPYRIGHT PAGES
 PRINT/PDF
+CHOICES LABEL COLORS
 */
 
 /* GENERAL
@@ -993,19 +994,6 @@ table .poor { background-color: #F2F9F1; }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16'%3E%3Cpath d='M8,11.8c1.1,0,2-0.4,2.7-1.1c0.7-0.7,1.1-1.6,1.1-2.7s-0.4-2-1.1-2.7C10,4.6,9.1,4.2,8,4.2S6,4.6,5.3,5.3 C4.6,6,4.2,6.9,4.2,8s0.4,2,1.1,2.7C6,11.4,6.9,11.8,8,11.8z M8,16c-1.1,0-2.2-0.2-3.1-0.6c-1-0.4-1.8-1-2.5-1.7 c-0.7-0.7-1.3-1.6-1.7-2.5C0.2,10.2,0,9.1,0,8c0-1.1,0.2-2.2,0.6-3.1c0.4-1,1-1.8,1.7-2.5C3.1,1.6,3.9,1,4.9,0.6C5.8,0.2,6.9,0,8,0 c1.1,0,2.2,0.2,3.1,0.6c1,0.4,1.8,1,2.5,1.7c0.7,0.7,1.3,1.6,1.7,2.5c0.4,1,0.6,2,0.6,3.1s-0.2,2.2-0.6,3.1c-0.4,1-1,1.8-1.7,2.5 c-0.7,0.7-1.6,1.3-2.5,1.7C10.2,15.8,9.1,16,8,16z M8,14.1c1.7,0,3.1-0.6,4.3-1.8c1.2-1.2,1.8-2.6,1.8-4.3s-0.6-3.1-1.8-4.3 C11.1,2.5,9.7,1.9,8,1.9S4.9,2.5,3.7,3.7C2.5,4.9,1.9,6.3,1.9,8s0.6,3.1,1.8,4.3C4.9,13.5,6.3,14.1,8,14.1z'/%3E%3C/svg%3E");
 }
 
-#lightbox-fig-006-0-lantern.annotations-ui__input-wrapper label::before,
-#fig-006-0-lantern.annotations-ui__input-wrapper label::before {
-  background-color: #f7f405; /* yellow */
-}
-#lightbox-fig-006-0-flashing.annotations-ui__input-wrapper label::before,
-#fig-006-0-flashing.annotations-ui__input-wrapper label::before {
-  background-color: #f10e0e; /* red */
-}
-#lightbox-fig-006-0-seam-line.annotations-ui__input-wrapper label::before,
-#fig-006-0-seam-line.annotations-ui__input-wrapper label::before {
-  background-color: #1ad14e; /* green */
-}
-
 /*  ABOUT & COPYRIGHT PAGES
 ============================================================================= */
 
@@ -1153,3 +1141,198 @@ table .poor { background-color: #F2F9F1; }
     margin-bottom: 0;
   }
 }
+
+/*  CHOICES LABEL COLORS
+============================================================================= */
+/* FIG 009 */
+#lightbox-fig-006-0-lantern  label::before,
+#fig-006-0-lantern  label::before {
+  background-color: #f7f405; /* yellow */
+}
+#lightbox-fig-006-0-flashing  label::before,
+#fig-006-0-flashing  label::before {
+  background-color: #f10e0e; /* red */
+}
+#lightbox-fig-006-0-seam-line  label::before,
+#fig-006-0-seam-line  label::before {
+  background-color: #1ad14e; /* green */
+}
+/* FIG 008 */
+#lightbox-fig-008-0-brick-a  label::before,
+#fig-008-0-brick-a  label::before {
+  background-color: #ff3333; /* red */
+}
+#lightbox-fig-008-0-brick-b  label::before,
+#fig-008-0-brick-b  label::before {
+  background-color: #d2c729; /* yellow */
+}
+/* FIG 031 */
+#lightbox-fig-031-0-wax-joint  label::before,
+#fig-031-0-wax-joint  label::before {
+  background-color: #8c0000; /* dark red */
+}
+#lightbox-fig-031-0-traverse-rods  label::before,
+#fig-031-0-wax-to-traverse-rods  label::before {
+  background-color: #f08c00; /* orange */
+}
+#lightbox-fig-031-0-main-armature  label::before,
+#fig-031-0-main-armature  label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-031-0-armature-b  label::before,
+#fig-031-0-armature-b  label::before {
+  background-color: #8c0000; /* dark red */
+}
+#lightbox-fig-031-0-armature-c  label::before,
+#fig-031-0-armature-c  label::before {
+  background-color: #ffff00; /* yellow */
+}
+/* FIG 032 */
+#lightbox-fig-032-0-armature label::before,
+#fig-032-0-armature label::before {
+  background-color: #c80000; /* red */
+}
+#lightbox-fig-032-0-wax-joints label::before,
+#fig-032-0-wax-joints label::before {
+  background-color: #00fa00; /* green */
+}
+/* FIG 035 */
+#lightbox-fig-035-0-patches label::before,
+#fig-035-0-patches label::before {
+  background-color: #a1a8f0; /* lavender */
+}
+#lightbox-fig-035-0-core-pins label::before,
+#fig-035-0-core-pins label::before {
+  background-color: #eff08a; /* yellow */
+}
+/* FIG 037 */
+#lightbox-fig-037-0-core-pins label::before,
+#fig-037-0-core-pins label::before {
+  background-color: #ec8080; /* red */
+}
+/* FIG 038 */
+#lightbox-fig-038-0-chaplet label::before,
+#fig-038-0-chaplet label::before {
+  background-color: #96e5ae; /* green */
+}
+/* FIG 042 */
+#lightbox-fig-042-0-core-supports label::before,
+#fig-042-0-core-supports label::before {
+  background-color: #e8e981; /* yellow */
+}
+#lightbox-fig-042-0-wax-joint label::before,
+#fig-042-0-wax-joint label::before {
+  background-color: #93a0f0; /* lavender */
+}
+/* FIG 043 */
+#lightbox-fig-043-0-lanterns label::before,
+#fig-043-0-lanterns label::before {
+  background-color: #ed828f; /* red */
+}
+#lightbox-fig-043-0-heads label::before,
+#fig-043-0-heads label::before {
+  background-color: #eceb8c; /* yellow */
+}
+#lightbox-fig-043-0-seam-line label::before,
+#fig-043-0-seam-line label::before {
+  background-color: #94a2ce; /* lavender */
+}
+/* FIG 050 */
+#lightbox-fig-050-0-thickening label::before,
+#fig-050-0-thickening label::before {
+  background-color: #99f164; /* green */
+}
+/* FIG 051 */
+#lightbox-fig-051-0-wax label::before,
+#fig-051-0-wax label::before {
+  background-color: #99f164; /* green */
+}
+#lightbox-fig-051-0-metal label::before,
+#fig-051-0-metal label::before {
+  background-color: #f48208; /* orange */
+}
+/* FIG 054 */
+#lightbox-fig-054-0-wax-joints label::before,
+#fig-054-0-wax-joints label::before {
+  background-color: #fa0a0a; /* red */
+}
+/* FIG 056 */
+#lightbox-fig-056-0-spherules label::before,
+#fig-056-0-spherules label::before {
+  background-color: #c603f7; /* purple */
+}
+/* FIG 057 */
+#lightbox-fig-057-0-spherules label::before,
+#fig-057-0-spherules label::before {
+  background-color: #f90622; /* red */
+}
+/* FIG 059 */
+#lightbox-fig-059-0-welds label::before,
+#fig-059-0-welds label::before {
+  background-color: #9ba3ed; /* lavender */
+}
+#lightbox-fig-059-0-flashes label::before,
+#fig-059-0-flashes label::before {
+  background-color: #f60e2e; /* red */
+}
+/* FIG 060 */
+#lightbox-fig-060-0-drip-marks label::before,
+#fig-060-0-drip-marks label::before {
+  background-color: #6ff468; /* green */
+}
+#lightbox-fig-060-0-flashing label::before,
+#fig-060-0-flashing label::before {
+  background-color: #e8db67; /* yellow */
+}
+#lightbox-fig-060-0-chisel-marks label::before,
+#fig-060-0-chisel-marks label::before {
+  background-color: #f37a71; /* red */
+}
+#lightbox-fig-060-0-core label::before,
+#fig-060-0-core label::before {
+  background-color: #e06ee4; /* violet magenta */
+}
+/* FIG 061 */
+#lightbox-fig-061-0-sand-core label::before,
+#fig-061-0-sand-core label::before {
+  background-color: #909eef; /* lavender */
+}
+#lightbox-fig-061-0-nuts label::before,
+#fig-061-0-nuts label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-061-0-hammering label::before,
+#fig-061-0-hammering label::before {
+  background-color: #8fe297; /* green */
+}
+#lightbox-fig-061-0-geometric-core label::before,
+#fig-061-0-geometric-core label::before {
+  background-color: #f30b27; /* red */
+}
+#lightbox-fig-061-0-core-flashes label::before,
+#fig-061-0-core-flashes label::before {
+  background-color: #f7f94a; /* yellow */
+}
+/* FIG 063 */
+#lightbox-fig-063-0-wax-joint label::before,
+#fig-063-0-wax-joint label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-063-0-wall-thickness label::before,
+#fig-063-0-wall-thickness label::before {
+  background-color: #5bfbfb; /* aqua */
+}
+#lightbox-fig-063-0-external-edge label::before,
+#fig-063-0-external-edge label::before {
+  background-color: #ffff00; /* yellow */
+}
+/* FIG 064 */
+#lightbox-fig-064-0-wax-joints label::before,
+#fig-064-0-wax-joints label::before {
+  background-color: #76e483; /* green */
+}
+#lightbox-fig-064-0-core-pin-holes label::before,
+#fig-064-0-core-pin-holes label::before {
+  background-color: #f26e6e; /* red */
+}
+
