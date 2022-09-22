@@ -124,7 +124,7 @@ a.quire-definition__content__more-link {
 }
 .quire-cover__image-container .image-wrapper {
   max-height: 100%;
-  overflow: clip;
+  overflow: auto;
 }
 .quire-cover__image-container .image-wrapper img {
   width: 100%;
