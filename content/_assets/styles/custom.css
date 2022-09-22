@@ -67,6 +67,12 @@ PRINT/PDF
 .quire-contributor__bio + ul {
   display: none;
 }
+/* Style list of additional contributors at the top of the pages */
+.additional-contributors.backmatter {
+  border-bottom: 1px solid var(--light);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 /* Position vocab pop-up "More" links away from text */
 a.quire-definition__content__more-link {
   float: right;
