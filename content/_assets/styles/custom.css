@@ -644,7 +644,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
     display: block;
   }
   .quire-contents-list.grid .quire-page-label-divider,
-  .quire-contents-list.grid .contributor-divider
+  .quire-contents-list.grid .contributor-divider,
   .quire-contents-list.grid .arrow {
     display: none;
   }
