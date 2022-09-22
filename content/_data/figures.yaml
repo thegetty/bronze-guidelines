@@ -16,7 +16,7 @@ figure_list:
 
   - id: "fig-001"
     src: "figures/iiif/001.jpg"
-    media_type: iiif
+    # media_type: iiif
     class: pdf-full-width
     label: "Figure 1"
     caption: "Diagram of generations of casts (here through the lost-wax process): a) the original model here is in clay, but could be made of any material; b) the translation of the original model into a wax inter-model may involve more than simple molding; c) a close reproduction of the original model will be referred to as a replica (a wax inter-model that is altered in details and with additional features [e.g., a base] will result in a %%variant%%); d) more alterations can be made after casting (e.g., with a base or a different patina); e) a bronze can in turn serve as model for another generation of casts by taking a mold of it; f) because wax shrinks as it cools, the inter-models are slightly smaller than the bronze model and their details softer unless reworked; g) the bronze after-cast may be in turn be reworked and finished differently than its original bronze model or sister casts."
@@ -53,22 +53,28 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/iiif/006/bronze.png"
+          - id: "bronze"
+            src: "figures/iiif/006/bronze.png"
             label: "Bronze"
             selected: true
-          - src: "figures/iiif/006/core.png"
+          - id: "core"
+            src: "figures/iiif/006/core.png"
             label: "Core"
             selected: true
-          - src: "figures/iiif/006/flashing.png"
+          - id: "flashing"
+            src: "figures/iiif/006/flashing.png"
             label: "Flashing"
             selected: true
-          - src: "figures/iiif/006/cold-shut.png"
+          - id: "cold-shut"
+            src: "figures/iiif/006/cold-shut.png"
             label: "Cold-shut"
             selected: true
-          - src: "figures/iiif/006/seam-line.png"
+          - id: "seam-line"
+            src: "figures/iiif/006/seam-line.png"
             label: "Seam line"
             selected: true
-          - src: "figures/iiif/006/lantern.png"
+          - id: "lantern"
+            src: "figures/iiif/006/lantern.png"
             label: "Lantern"
             selected: true
 
@@ -289,11 +295,14 @@ figure_list:
     annotations:
       - input: radio
         items:
-          - src: "figures/iiif/034/base.jpg"
+          - id: "daylight"
+            src: "figures/iiif/034/base.jpg"
             label: "Daylight"
-          - src: "figures/iiif/034/x-ray.jpg"
+          - id: "x-ray"
+            src: "figures/iiif/034/x-ray.jpg"
             label: "X-Ray"
-          - src: "figures/iiif/034/armature.jpg"
+          - id: "armature"
+            src: "figures/iiif/034/armature.jpg"
             label: "Armature"
 
   - id: "fig-035"
