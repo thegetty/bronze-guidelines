@@ -3,6 +3,7 @@
 // added def and warn shortcodes
 //
 const addComponentTag = require('../../_plugins/components/addComponentTag')
+const annoref = require('./annoref')
 const backmatter = require('./backmatter.js')
 const bibliography = require('./bibliography.js')
 const cite = require('./cite.js')
@@ -19,6 +20,7 @@ const warn = require('./warn.js')
 module.exports = function(eleventyConfig, collections, options) {
   const addShortcode = shortcodeFactory(eleventyConfig, collections)
 
+  addComponentTag(eleventyConfig, 'annoref', annoref)
   eleventyConfig.addPairedShortcode('backmatter', function(content, ...args) {
     return backmatter(eleventyConfig)(content, ...args)
   })
