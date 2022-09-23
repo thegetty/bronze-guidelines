@@ -969,11 +969,19 @@ figure_list:
     caption: "Dismantled chef-modèle. The piecing is characteristic of sand casting of complex forms. Antoine-Louis Barye (French, 1795–1875), Lion and Serpent (No. 2), chef-modèle cast by Victor Paillard, ca. 1858, H. 18.4 cm (Walters Art Museum, Baltimore, inv. 27.92)."
 
   - id: "fig-104"
-    src: "figures/104.jpg"
-    media_type:
+    src: "figures/iiif/104/base.jpg"
+    # media_type: iiif
     label: "Figure 104"
     caption: "Detail of an experimental casting showing sprue ends and core pins. It also shows the coarse, as-cast surface that preserves the V-shaped incised lines of the mane made in the wax model. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See {Dandridge 2006}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/104/sprues.png"
+            label: "Sprues"
+            selected: true
+          - src: "figures/iiif/104/core-pins.png"
+            label: "Core Pins"
+            selected: true
 
   - id: "fig-105"
     src: "figures/iiif/105.jpg"
@@ -1060,18 +1068,28 @@ figure_list:
     caption: "General view and details the work’s inside showing tool marks that indicate the core has been shaved down. This was done using a coarse-toothed tool, hence the parallel lines (top right). Other singular lines were used to define either depth that was needed to cut back or to sketch directly onto the core the design or form of the head/features (bottom right). A flat spatula was also used to scrape the surface of the core back (bottom left). Andrew Lacey (British, b. 1969), untitled head, cast by the artist in 2017, H. 31 cm (artist’s collection)."
 
   - id: "fig-119"
-    src: "figures/iiif/119.jpg"
+    src: "figures/iiif/119/base.jpg"
     # media_type: iiif
     label: "Figure 119"
     caption: "The repair patches linked to the armatures used for casting the main section of the bronze pedestal are visible on the external surface (blue squares). Francesco Primaticcio (Italian, 1504–1570), Laocoön and His Sons, 1542, H. 191 cm (Musée national du château de Fontainebleau, France, inv. MR 3290). See {Castelle 2016}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/119/patches.png"
+            label: "Patches"
+            selected: true
 
   - id: "fig-120"
-    src: "figures/iiif/120.jpg"
+    src: "figures/iiif/120/base.jpg"
     # media_type: iiif
     label: "Figure 120"
     caption: "Annotated X-radiograph shows the core pins under the shoulders (teal overlays). Spinario, northern Italy (Padova?), first quarter of the 16th century, H. 15.5 cm (Musée des beaux arts d’Angers, France, inv. 2003.1.188). See {C2RMF Internal Report 2018b}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/120/core-pins.png"
+            label: "Core Pins"
+            selected: true
 
   - id: "fig-121"
     src: "figures/121.jpg"
@@ -1086,18 +1104,28 @@ figure_list:
     caption: "Four types of core supports used to hold the core in place during the pour: 1) core pins; 2) transverse core pin; 3) chaplets; 4) mold extension."
 
   - id: "fig-123"
-    src: "figures/iiif/123.jpg"
+    src: "figures/iiif/123/base.jpg"
     # media_type: iiif
     label: "Figure 123"
     caption: "Detail of proper left side of torso. The square cast-in patch (yellow overlay) is an original repair of a hole left during casting by the presence of a mold extension. After Leone Leoni (Milanese, 1509–1590), Emperor Charles V, Innsbruck, second half of the 16th century, H. 109 cm (National Gallery of Art, Washington, DC, Samuel H. Kress Collection, inv. 1952.5.104). See {Smith and Sepponen 2019}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/123/patch.png"
+            label: "Patch"
+            selected: true
 
   - id: "fig-124"
-    src: "figures/iiif/124.jpg"
+    src: "figures/iiif/124/base.jpg"
     # media_type: iiif
     label: "Figure 124"
     caption: "Detail showing the sprue remains shaped as rolls of wax preserved on the top and back of the head (see overlay). The artist left these intact on the finished bronze as subtle evidence that the complex sculpture was cast in one piece—an extraordinary feat. Adriaen de Vries (Netherlandish, 1556–1626), Farnese Bull, 1614, H. 103.5 cm (Schlossmuseum, Gotha, Germany, inv. P 50). See {Bewer 2001}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/124/sprues.png"
+            label: "Sprues"
+            selected: true
 
   - id: "fig-125"
     src: "figures/iiif/125.jpg"
@@ -1112,11 +1140,19 @@ figure_list:
     caption: "X-radiograph of frontal view, showing that the figure is cast solid. The concentration of porosity in the legs supports the hypothesis of an upside-down casting. Ten-Armed Avalokiteśvara, Java, first half of the 9th century, H. 34 cm (Musée National des arts asiatiques – Guimet, France, inv. MG 3816). See {Mechling et al. 2018}."
 
   - id: "fig-127"
-    src: "figures/iiif/127.jpg"
+    src: "figures/iiif/127/base.jpg"
     # media_type: iiif
     label: "Figure 127"
     caption: "Annotated X-radiograph. Porosity at the bottom may indicate that the sculpture was cast upside down (blue overlay). Note also the Roman joints (red lines). Divinity of Tara blanche, Tibet, 17th century, H. 65 cm without base (Musée National des arts asiatiques – Guimet, France, inv. MA 12495). See {C2RMF Internal Report 2012}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/127/porosity.png"
+            label: "Porosity"
+            selected: true
+          - src: "figures/iiif/127/roman-joints.png"
+            label: "Roman Joints"
+            selected: true
 
   - id: "fig-128"
     src: "figures/iiif/128.jpg"
@@ -1266,11 +1302,19 @@ figure_list:
     caption: "Example of heavy losses in an incomplete high-tin bronze cast: the right hand is missing, and the left hand and attribute are full of defects. Bodhisattva Avalokitesvara, Gandhara, 3rd century CE, H. 37 cm (Musée National des arts asiatiques – Guimet, France, inv. MAO 12128). See forthcoming C2RMF Internal Report."
 
   - id: "fig-152"
-    src: "figures/152.jpg"
-    media_type:
+    src: "figures/iiif/152/base.jpg"
+    # media_type: iiif
     label: "Figure 152"
     caption: "Annotated X-radiograph revealing extensive porosity. A large casting defect that extends partway through the surface of the figure’s proper left leg has been repaired with a set-in patch (yellow overlay). In many areas, porosity is contained within the wall (some are indicated in green). Jean-Antoine Houdon (French, 1741–1828), Diana, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See {Bassett and Scherf 2014}; {Bennett and Sargentson 2008}, 492–93."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/152/porosity.png"
+            label: "Porosity"
+            selected: true
+          - src: "figures/iiif/152/patch.png"
+            label: "Patch"
+            selected: true
 
   - id: "fig-153"
     src: "figures/153.jpg"
@@ -1285,18 +1329,28 @@ figure_list:
     caption: "Example of defects on the surface near the base of a figure due to dross flowing into the mold with the melt. Andrew Lacey (British, b. 1969), hand-modeled copy in wax of Michelangelo, *Slave*, ca. 1516–19, H. 17.6 cm (Victoria and Albert Museum, inv. 4117-1854), used for private research."
 
   - id: "fig-155"
-    src: "figures/iiif/155.jpg"
+    src: "figures/iiif/155/base.jpg"
     # media_type: iiif
     label: "Figure 155"
     caption: "Annotated X-radiograph reveals shrinkage porosity in the stomach and proper right hip (circled). Adriaen de Vries (Netherlandish, 1556–1626), Psyche Borne Aloft by Putti, 1590–92, H. 187 cm (Nationalmuseum, Stockholm, inv. NM Sk352)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/155/shrinkage-porosity.png"
+            label: "Shrinkage Porosity"
+            selected: true
 
   - id: "fig-156"
-    src: "figures/iiif/156.jpg"
+    src: "figures/iiif/156/base.jpg"
     # media_type: iiif
     label: "Figure 156"
     caption: "Bottom view of a statuette showing the 1 mm diameter hole (red arrow) after metal sampling (drillings) for elemental analysis by ICP-AES. Kubera/Jambhala, Java, ca. late 9th–early 10th century, H. 17 cm (Musée National des arts asiatiques – Guimet, France, inv. MG 3619). See {Mechling et al. 2018}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/156/sampling-hole.png"
+            label: "Sampling Hole"
+            selected: true
 
   - id: "fig-157"
     src: "figures/157.jpg"
@@ -1311,11 +1365,16 @@ figure_list:
     caption: "Back view of statuette showing numerous cracks. Saint John the Baptist, Italian (Venice), 16th century, H. 25 cm (Musée des beaux arts d’Angers, France, inv. 2003-1-192). See {C2RMF Internal Report 2018b}."
 
   - id: "fig-159"
-    src: "figures/iiif/159.jpg"
+    src: "figures/iiif/159/base.jpg"
     # media_type: iiif
     label: "Figure 159"
     caption: "Detail of a cold shut on the proper right shoulder of the figure of Laocoön caused by premature cooling of the metal during the pour. Corrosion has accentuated the line where the cooling metal entered the mold from two different locations. Adriaen de Vries (Netherlandish, 1556–1626), Laocoön and His Sons, 1623, H. 169 cm (Nationalmuseum, Stockholm, inv. Drh Sk 68)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/159/cold-shut.png"
+            label: "Cold Shut"
+            selected: true
 
   - id: "fig-160"
     src: "figures/iiif/160.jpg"

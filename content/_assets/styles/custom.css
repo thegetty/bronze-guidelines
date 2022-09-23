@@ -1401,3 +1401,60 @@ table .poor { background-color: #F2F9F1; }
 #fig-095-0-joint label::before {
   background-color: #f5031f; /* red */
 }
+/* FIG 104 */
+#lightbox-fig-104-0-sprues label::before,
+#fig-104-0-sprues label::before {
+  background-color: #a5db7c; /* green */
+}
+#lightbox-fig-104-0-core-pins label::before,
+#fig-104-0-core-pins label::before {
+  background-color: #946585; /* purple */
+}
+/* FIG 119 */
+#lightbox-fig-119-0-patches label::before,
+#fig-119-0-patches label::before {
+  background-color: #8aead9; /* aqua */
+}
+/* FIG 120 */
+#lightbox-fig-120-0-core-pins label::before,
+#fig-120-0-core-pins label::before {
+  background-color: #99efd6; /* aqua */
+}
+/* FIG 123 */
+#lightbox-fig-123-0-patch label::before,
+#fig-123-0-patch label::before {
+  background-color: #f1f27a; /* yellow */
+}
+/* FIG 124 */
+#lightbox-fig-124-0-sprues label::before,
+#fig-124-0-sprues label::before {
+  background-color: #7f92e9; /* lavender */
+}
+/* FIG 127 */
+#lightbox-fig-127-0-porosity label::before,
+#fig-127-0-porosity label::before {
+  background-color: #9395e9; /* lavender */
+}
+#lightbox-fig-127-0-roman-joints label::before,
+#fig-127-0-roman-joints label::before {
+  background-color: #cf727e; /* red */
+}
+/* FIG 152 */
+#lightbox-fig-152-0-porosity label::before,
+#fig-152-0-porosity label::before {
+  background-color: #97c96e; /* green */
+}
+#lightbox-fig-152-0-patch label::before,
+#fig-152-0-patch label::before {
+  background-color: #f5f475; /* patch */
+}
+/* FIG 155 */
+#lightbox-fig-155-0-shrinkage-porosity label::before,
+#fig-155-0-shrinkage-porosity label::before {
+  background-color: #db0000; /* red */
+}
+/* FIG 156 */
+#lightbox-fig-156-0-sampling-hole label::before,
+#fig-156-0-sampling-hole label::before {
+  background-color: #f50c0c; /* red */
+}
