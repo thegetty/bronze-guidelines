@@ -1446,7 +1446,7 @@ table .poor { background-color: #F2F9F1; }
 }
 #lightbox-fig-152-0-patch label::before,
 #fig-152-0-patch label::before {
-  background-color: #f5f475; /* patch */
+  background-color: #f5f475; /* yellow */
 }
 /* FIG 155 */
 #lightbox-fig-155-0-shrinkage-porosity label::before,
@@ -1457,4 +1457,212 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-156-0-sampling-hole label::before,
 #fig-156-0-sampling-hole label::before {
   background-color: #f50c0c; /* red */
+}
+/* FIG 170 */
+#lightbox-fig-170-0-patch label::before,
+#fig-170-0-patch label::before {
+  background-color: #f0f28a; /* yellow */
+}
+/* FIG 172 */
+#lightbox-fig-172-0-patches label::before,
+#fig-172-0-patches label::before {
+  background-color:#f0f28a; /* yellow */
+}
+/* FIG 176 */
+#lightbox-fig-176-0-cast-repair label::before,
+#fig-176-0-cast-repair label::before {
+  background-color: #a7df95; /* green */
+}
+/* FIG 177 */
+#lightbox-fig-177-0-threaded-plugs label::before,
+#fig-177-0-threaded-plugs label::before {
+  background-color: #8488ed; /* lavender */
+}
+#lightbox-fig-177-0-cast-on-repairs label::before,
+#fig-177-0-cast-on-repairs label::before {
+  background-color: #efee89; /* yellow */
+}
+/* FIG 178 */
+#lightbox-fig-178-0-sleeve-joint label::before,
+#fig-178-0-sleeve-joint label::before {
+  background-color: #f10e0e; /* red */
+}
+#lightbox-fig-178-0-joint-patch label::before,
+#fig-178-0-joint-patch label::before {
+  background-color: #7e8edf; /* lavender */
+}
+#lightbox-fig-178-0-patch label::before,
+#fig-178-0-patch label::before {
+  background-color: #6dab70; /* green */
+}
+#lightbox-fig-178-0-plugs label::before,
+#fig-178-0-plugs label::before {
+  background-color: #e6e585; /* yellow */
+}
+/* FIG 179 */
+#lightbox-fig-179-0-cast-on-repair label::before,
+#fig-179-0-cast-on-repair label::before {
+  background-color: #f3f27d; /* yellow */
+}
+#lightbox-fig-179-0-vent-and-gate label::before,
+#fig-179-0-vent-and-gate label::before {
+  background-color: #1d12eb; /* blue */
+}
+/* FIG 180 */
+#lightbox-fig-180-0-cast-on-repair label::before,
+#fig-180-0-cast-on-repair label::before {
+  background-color: #a3e28f; /* green */
+}
+#lightbox-fig-180-0-core-pins label::before,
+#fig-180-0-core-pins label::before {
+  background-color: #d48d93; /* red */
+}
+/* FIG 183 */
+#lightbox-fig-183-0-cast-on-repair label::before,
+#fig-183-0-cast-on-repair label::before {
+  background-color: #b2ed82; /* green */
+}
+/* FIG 184 */
+#lightbox-fig-184-0-dovetail label::before,
+#fig-184-0-dovetail label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-184-0-repairs label::before,
+#fig-184-0-repairs label::before {
+  background-color: #00ffff; /* aqua */
+}
+/* FIG 185 */
+#lightbox-fig-185-0-flow-fusion-repair label::before,
+#fig-185-0-flow-fusion-repair label::before {
+  background-color: #ebe41a; /* yellow */
+}
+/* FIG 188 */
+#lightbox-fig-188-0-patch label::before,
+#fig-188-0-patch label::before {
+  background-color: #e8e77d; /* yellow */
+}
+#lightbox-fig-188-0-brazing label::before,
+#fig-188-0-brazing label::before {
+  background-color: #fff; /* white */
+}
+/* FIG 189 */
+#lightbox-fig-189-0-weld label::before,
+#fig-189-0-weld label::before {
+  background-color: #d31531; /* red */
+}
+/* FIG 190 */
+#lightbox-fig-190-0-lead-repair label::before,
+#fig-190-0-lead-repair label::before {
+  background-color: #93a2ea; /* lavender */
+}
+/* FIG 194 */
+#lightbox-fig-194-0-patches label::before,
+#fig-194-0-patches label::before {
+  background-color: #d97272; /* red */
+}
+/* FIG 196 */
+#lightbox-fig-196-0-cast-on-repair label::before,
+#fig-196-0-cast-on-repair label::before {
+  background-color: #efef8f; /* yellow */
+}
+/* FIG 197 */
+#lightbox-fig-197-0-threaded-plugs label::before,
+#fig-197-0-threaded-plugs label::before {
+  background-color: #3d4fdc; /* blue */
+}
+/* FIG 198 */
+#lightbox-fig-198-0-patch label::before,
+#fig-198-0-patch label::before {
+  background-color: #ffff3c; /* yellow */
+}
+#lightbox-fig-198-0-threaded-plug label::before,
+#fig-198-0-threaded-plug label::before {
+  background-color: #d31531; /* red */
+}
+/* FIG 199 */
+#lightbox-fig-199-0-repair-insert label::before,
+#fig-199-0-repair-insert label::before {
+  background-color: #eced70; /* yellow */
+}
+/* FIG 200 */
+#lightbox-fig-200-0-sheet-repair label::before,
+#fig-200-0-sheet-repair label::before {
+  background-color: #83e563; /* green */
+}
+/* FIG 203 */
+#lightbox-fig-203-0-weld-line label::before,
+#fig-203-0-weld-line label::before {
+  background-color: #8994fa; /* lavender */
+}
+/* FIG 205 */
+#lightbox-fig-205-0-flow-fusion-weld label::before,
+#fig-205-0-flow-fusion-weld label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 206 */
+#lightbox-fig-206-0-brazed-metal label::before,
+#fig-206-0-brazed-metal label::before {
+  background-color: #da6654; /* red */
+}
+/* FIG 207 */
+#lightbox-fig-207-0-cast-on-material label::before,
+#fig-207-0-cast-on-material label::before {
+  background-color: #9af0d6; /* teal */
+}
+#lightbox-fig-207-0-iron-shims label::before,
+#fig-207-0-iron-shims label::before {
+  background-color: #753122; /* maroon */
+}
+/* FIG 209 */
+#lightbox-fig-209-0-vessel-body label::before,
+#fig-209-0-vessel-body label::before {
+  background-color: #8288f8; /* lavender */
+}
+#lightbox-fig-209-0-leg label::before,
+#fig-209-0-leg label::before {
+  background-color: #8febab; /* green */
+}
+/* FIG 210 */
+#lightbox-fig-210-0-joints label::before,
+#fig-210-0-joints label::before {
+  background-color: #7ad2c4; /* teal */
+}
+/* FIG 213 */
+#lightbox-fig-213-0-roman-joint label::before,
+#fig-213-0-roman-joint label::before {
+  background-color: #89ee78; /* green */
+}
+/* FIG 216 */
+#lightbox-fig-216-0-overlap label::before,
+#fig-216-0-overlap label::before {
+  background-color: #d73f12; /* red */
+}
+/* FIG 221 */
+#lightbox-fig-221-0-armature label::before,
+#fig-221-0-armature label::before {
+  background-color: #d95555; /* red */
+}
+#lightbox-fig-221-0-external-supports label::before,
+#fig-221-0-external-supports label::before {
+  background-color: #f2ec40; /* yellow */
+}
+/* FIG 224 */
+#lightbox-fig-224-0-dovetail-joint label::before,
+#fig-224-0-dovetail-joint label::before {
+  background-color: #d0132a; /* red */
+}
+/* FIG 229 */
+#lightbox-fig-229-0-brazing-metal label::before,
+#fig-229-0-brazing-metal label::before {
+  background-color: #85f876; /* green */
+}
+/* FIG 235 */
+#lightbox-fig-235-0-matting-marks label::before,
+#fig-235-0-matting-marks label::before {
+  background-color: #afe175; /* green */
+}
+/* FIG 240 */
+#lightbox-fig-240-0-compass-line label::before,
+#fig-240-0-compass-line label::before {
+  background-color: #d41022; /* red */
 }

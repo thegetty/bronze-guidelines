@@ -1438,11 +1438,16 @@ figure_list:
     caption: "Detail of a cast-on repair. Decorative lines were struck and/or engraved after the repair was cast in place. Modern copy of an Ife head, Nigeria, H. 32 cm (former private collection of Simon du Chastel, gift from Nathalie du Chastel to the Université Libre de Bruxelles)."
 
   - id: "fig-170"
-    src: "figures/iiif/170.jpg"
+    src: "figures/iiif/170/base.jpg"
     # media_type: iiif
     label: "Figure 170"
     caption: "Casting flaw with ancient patch repair. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See {Collinet and Bourgarit 2021}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/170/patch.png"
+            label: "Patch"
+            selected: true
 
   - id: "fig-171"
     src: "figures/iiif/171.jpg"
@@ -1451,11 +1456,16 @@ figure_list:
     caption: "Jean-Antoine Houdon (French, 1741–1828), Diana, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See {Bassett and Scherf 2014}; {Bennett and Sargentson 2008}."
 
   - id: "fig-172"
-    src: "figures/iiif/172.jpg"
+    src: "figures/iiif/172/base.jpg"
     # media_type: iiif
     label: "Figure 172"
     caption: "Monumental bronze finger recently shown to belong to the bronze statue of the Roman Emperor Constantine held at the Capitoline Museum. The outer edges of the patch repairs are clearly visible (yellow overlay). Monumental bronze finger, Rome, ca. 330 CE, H. 38 cm (Musée du Louvre, inv. Br78). See {Azéma, Descamps-Lequime, and Mille 2018}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/172/patches.png"
+            label: "Patches"
+            selected: true
 
   - id: "fig-173"
     src: "figures/173.jpg"
@@ -1478,39 +1488,82 @@ figure_list:
     caption: "Detail of a casting defect in the right leg, showing where the patch repair has been lost. Jupiter, Roman, 1st century CE, H. 92 cm (Musée d’Art, Histoire et Archéologie d’Evreux, France, inv. FZ1520). See {Azéma et al. 2012}."
 
   - id: "fig-176"
-    src: "figures/176.jpg"
-    media_type:
+    src: "figures/iiif/176/base.jpg"
+    # media_type: iiif
     label: "Figure 176"
     caption: "Detail of a tabernacle relief (H. 25 cm). The relief was cast with a large flaw. The figure of Christ was entirely remodeled in wax and cast separately in bronze. The cast repair was then inserted into the casting flaw and chased. Due to differences in the color of the alloy, the repair became visible while cleaning the surface (upper image). As seen at the back (lower image), once inserted in the primary cast, the newly cast repair was hammered to secure it. Note: the lower image has been rotated 180 degrees so that the two images are visually aligned. Girolamo (Italian, ca. 1510–1584/89) and Ludovico Lombardo (Italian, 1507/8–1575), Tabernacle, Chapel of the Holy Sacrament, Fermo Cathedral, Marche, Italy, by 1570–71, H. 230 cm."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/176/cast-repair.png"
+            label: "Cast Repair"
+            selected: true
 
   - id: "fig-177"
-    src: "figures/iiif/177.jpg"
+    src: "figures/iiif/177/base.jpg"
     # media_type: iiif
     label: "Figure 177"
     caption: "Two types of repairs shown both inside and outside the cuirass that supports a figure. The blue overlay highlights two threaded plug repairs; the yellow overlay highlights a cast-on repair. Francesco Bordoni (Italian, ca. 1576–1654), Young Captive, 1618, H. 160 cm (Musée du Louvre, inv. MR 1668). See {Bourgarit, Bewer, and Bresc-Bautier 2014}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/177/threaded-plugs.png"
+            label: "Threaded Plugs"
+            selected: true
+          - src: "figures/iiif/177/cast-on-repairs.png"
+            label: "Cast-On Repairs"
+            selected: true
 
   - id: "fig-178"
-    src: "figures/178.jpg"
-    media_type:
+    src: "figures/iiif/178/base.jpg"
+    # media_type: iiif
     label: "Figure 178"
     caption: "The separately cast arm is attached with a Roman sleeve joint (red line). A large patch fills a flaw along the joint (blue overlay). A second patch is unrelated to the joint (green overlay). Threaded circular plugs (yellow overlays) help lock the arm joint and patches in place. Jean-Antoine Houdon (French, 1741–1828), Diana, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See {Bassett and Scherf 2014}; {Bennett and Sargentson 2008}, 492–93."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/178/sleeve-joint.png"
+            label: "Sleeve Joint"
+            selected: true
+          - src: "figures/iiif/178/joint-patch.png"
+            label: "Joint Patch"
+            selected: true
+          - src: "figures/iiif/178/patch.png"
+            label: "Patch"
+            selected: true
+          - src: "figures/iiif/178/plugs.png"
+            label: "Plugs"
+            selected: true
 
   - id: "fig-179"
-    src: "figures/iiif/179.jpg"
+    src: "figures/iiif/179/base.jpg"
     # media_type: iiif
     label: "Figure 179"
     caption: "Detail of a cast-on repair in the center of a relief panel that has been set into the side of a Renaissance pedestal on which a Hellenistic bronze is mounted (yellow overlay). Also in yellow, the lower image shows the back side of the cast-on repair. The sprues, including a vent and a gate, were left in place and not removed (blue arrows). The repair was made with the relief face-down before being mounted to the pedestal. Idolino (Ephebe from Pesaro), ca. 30 BCE, base by the workshop of Girolamo (Italian, ca. 1510–1584/89), Aurelio and Ludovico (Italian, 1507/8–1575), Lombardo, perhaps after a drawing by Sebastiano Serlio (Italian, 1475–1544), 1530–1538/40, H. 148 cm (300 cm with base) (Museo Archeologico Nazionale, Florence, inv. 1637)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/179/cast-on-repair.png"
+            label: "Cast-On Repair"
+            selected: true
+          - src: "figures/iiif/179/vent-and-gate.png"
+            label: "Vent and Gate"
+            selected: true
 
   - id: "fig-180"
-    src: "figures/iiif/180.jpg"
+    src: "figures/iiif/180/base.jpg"
     # media_type: iiif
     label: "Figure 180"
     caption: "Annotated detail of a cast-on repair (left). The cast-on metal is surrounded by a thin gap due to shrinkage of the repair as it cooled. The annotated X-radiograph (right) reveals the gap around the repair and the excess metal cast into the interior of the hollow bronze as well as two tapering core pins. See [fig. 491](/visual-atlas/#fig-491){target=_blank} for a color photo of the backside of the horse. Aquamanile in the Form of a Lion, probably northern Germany, ca. 1200, H. 21.2 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.52). See {Dandridge 2006}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/180/cast-on-repair.png"
+            label: "Cast-On Repair"
+            selected: true
+          - src: "figures/iiif/180/core-pins.png"
+            label: "Core Pins"
+            selected: true
 
   - id: "fig-181"
     src: "figures/181.jpg"
@@ -1526,25 +1579,43 @@ figure_list:
     caption: "Digital diagram illustrating a cast-on repair. 1) wax is applied to the loss and modeled in situ with a pouring gate; 2) investment is applied to cover the wax completely (for clarity, the investment in the sketch has been cut through to show the applied wax). Bonanno Pisano (Italian, active late 12th century), Porta di San Ranieri, Pisa Cathedral, Italy, ca. 1180, H. 470 cm. See {Morigi 1999}."
 
   - id: "fig-183"
-    src: "figures/iiif/183.jpg"
+    src: "figures/iiif/183/base.jpg"
     # media_type: iiif
     label: "Figure 183"
     caption: "Surface detail (35 × 25 cm) showing a substantial cast-on repair. Circular holes cut along the borders of the gap allow the cast-on section to securely lock into place like a jigsaw. Pietro Tacca (Italian, 1577–1640), Fountain of the Marine Monsters, Florentine, 1626–37, H. 320 cm (Piazza Santissima Annunziata [northwest], Florence)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/183/cast-on-repair.png"
+            label: "Cast-On Repair"
+            selected: true
 
   - id: "fig-184"
-    src: "figures/iiif/184.jpg"
+    src: "figures/iiif/184/base.jpg"
     # media_type: iiif
     label: "Figure 184"
     caption: "Detail of a cast-on repair on the back of the doe with dovetails that lock the repair in place (red overlay). The color variation between the repair and the primary casting (left) is due to the diverse microstructures and resulting corrosion of these sections. The corresponding gamma radiograph (right) helps to clarify the location of the different repairs (blue overlay) as well as the heavy porosity in the cast-on metal (dark spots). Barthélemy Prieur (French, ca. 1536–1611), Diana the Huntress, 1603, H. 200 cm (Musée national du château de Fontainebleau, France, inv. RF 261). See {Castelle 2016}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/184/dovetail.png"
+            label: "Dovetail"
+            selected: true
+          - src: "figures/iiif/184/repairs.png"
+            label: "Repairs"
+            selected: true
 
   - id: "fig-185"
-    src: "figures/iiif/185.jpg"
+    src: "figures/iiif/185/base.jpg"
     # media_type: iiif
     label: "Figure 185"
     caption: "Flow fusion welding repair. Each darkly outlined ovoid shape represents a fusion welding pour. The dark line is created at the melted zone between the fresh metal and the original bronze wall. It would not have been visible originally, but differences in the microstructure have led to corrosion variations. Statue of a Youth, ancient Rome, probably Asia Minor, ca. 140 CE, H. 142.6 cm (Toledo Museum of Art, purchased with funds from the Libbey Endowment, gift of Edward Rummond Libbey, inv. 1966.126). See {Mattusch 1996}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/185/flow-fusion-repair.png"
+            label: "Flow Fusion Repair"
+            selected: true
 
   - id: "fig-186"
     src: "figures/186.jpg"
@@ -1559,25 +1630,43 @@ figure_list:
     caption: "Annotated detail of an X-radiograph of the higher-density lead-based soldering metal that surrounds the set-in patch on the nymph’s right arm (arrows). Antonio Susini (Italian 1558–1624), Faun and Nymph, 1580–90, H. faun 48.2 cm, H. nymph 34.6 cm (Staatliche Kunstsammlungen, Grünes Gewölbe, Dresden, inv. IX 36). See {Bassett 2008}, 284."
 
   - id: "fig-188"
-    src: "figures/188.jpg"
-    media_type:
+    src: "figures/iiif/188/base.jpg"
+    # media_type: iiif
     label: "Figure 188"
     caption: "Brazing metal (arrows) secures the separately cast back right leg and patch repair (yellow overlay). Brazing is confirmed by the elevated levels of zinc detected by XRF along the joint. Raised corrosion along the joints was probably caused by the remains of flux on the surface. Unidentified foundry, after Antoine Coysevox (French, 1640–1720), Fame, 1700–1710, H. 60.3 cm (Huntington Art Museum, San Marino, California, inv. 14.14). See {Bennett and Sargentson 2008}, 479."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/188/patch.png"
+            label: "Patch"
+            selected: true
+          - src: "figures/iiif/188/brazing.png"
+            label: "Brazing"
+            selected: true
 
   - id: "fig-189"
-    src: "figures/iiif/189.jpg"
+    src: "figures/iiif/189/base.jpg"
     # media_type: iiif
     label: "Figure 189"
     caption: "Detail of a weld. In the photograph, the surface porosity indicates the location of the weld line on the carefully chased and polished surface; note that the color along the weld does not vary from that of the adjacent surfaces. The X-radiograph (right) reveals the uneven line of excess welding metal that remains on the interior along the join. Joan Mirò (Spanish, 1893–1983), *Personnage*, designed 1976, cast 1985, H. 213.4 cm (J. Paul Getty Museum, inv. 2005.116)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/189/weld.png"
+            label: "Weld"
+            selected: true
 
   - id: "fig-190"
-    src: "figures/iiif/190.jpg"
+    src: "figures/iiif/190/base.jpg"
     # media_type: iiif
     label: "Figure 190"
     caption: "X-radiograph showing lead repairs filling surface flaws (overlay). A vertical bar behind the right shoulder was soldered in place as part of the support for Atlas to carry his burden (now missing). Workshop of Severo da Ravenna (Paduan, active 1496–1525/1538), Atlas, Italy, second quarter of the 16th century or later, H. 14 cm (Musée des beaux arts d’Angers, France, inv. 2003.1.198). See {C2RMF Internal Report 2018b}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/190/lead-repair.png"
+            label: "Lead Repair"
+            selected: true
 
   - id: "fig-191"
     src: "figures/191.jpg"
@@ -1600,11 +1689,16 @@ figure_list:
     caption: "Interior shot showing a seriously flawed area that has been repaired by inserting threaded plugs. Note the variation in their diameter. Giovanni Battista Bianco (Italian, d. 1657), after a design by Domenico Fiasella (Italian, 1589–1669), Virgin as Queen of Genoa, High Altar, San Lorenzo, Genoa, Italy, 1651, H. TK cm."
 
   - id: "fig-194"
-    src: "figures/iiif/194.jpg"
+    src: "figures/iiif/194/base.jpg"
     # media_type: iiif
     label: "Figure 194"
     caption: "Comparison of X-radiography and gamma radiography of a monumental bronze finger—a fragment of the monumental statue of Emperor Constantin held at the Capitoline Museum. Different polygonal patch repairs are highlighted in red. The operating conditions for gamma radiography were: 3 × 2 mm 192 Ir source, 1 m source/object distance, 20 min. exposure, ERLM Dürr NDT H CR plate (resolution 50 µm), 0.1 mm Pb filtering before and after detector. Monumental bronze finger, Rome, ca. 330 CE, H. 38 cm (Musée du Louvre, inv. Br78). See [fig. 172](/visual-atlas/#fig-172){target=_blank} for a general view. See {Azéma, Descamps-Lequime, and Mille 2018}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/194/patches.png"
+            label: "Patches"
+            selected: true
 
   - id: "fig-195"
     src: "figures/iiif/195.jpg"
@@ -1613,39 +1707,67 @@ figure_list:
     caption: "Annotated X-radiograph showing internal features of a sand cast: threaded repair plugs (blue overlay), core vents (yellow overlay), core support (orange overlay), and nuts that secure the horse to the base (green overlay). Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14)."
 
   - id: "fig-196"
-    src: "figures/iiif/196.jpg"
+    src: "figures/iiif/196/base.jpg"
     # media_type: iiif
     label: "Figure 196"
     caption: "Annotated detail of an X-radiograph showing a cast-on repair in the seated figure’s right knee that shrank as it cooled, revealing the distinctive gap between the original wall of the bronze and the later cast-in metal. Francesco Bertos (Italian, 1678–1741), Group of Eleven Figures (Allegory of Autumn), ca. 1725, H. 79.5 cm (J. Paul Getty Museum, inv. 85.SB.74)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/196/cast-on-repair.png"
+            label: "Cast-On Repair"
+            selected: true
 
   - id: "fig-197"
-    src: "figures/iiif/197.jpg"
+    src: "figures/iiif/197/base.jpg"
     # media_type: iiif
     label: "Figure 197"
     caption: "Threaded plugs are visible in the X-radiograph throughout the torso and in the raised proper left bicep (some marked with blue arrows). Attributed to Gian Lorenzo Bernini (Italian, 1598–1680), Neptune and Dolphin, 17th century (probably after 1623), H. 56 cm (J. Paul Getty Museum, inv. 94.SB.45)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/197/threaded-plugs.png"
+            label: "Threaded Plugs"
+            selected: true
 
   - id: "fig-198"
-    src: "figures/198.jpg"
-    media_type:
+    src: "figures/iiif/198/base.jpg"
+    # media_type: iiif
     label: "Figure 198"
     caption: "Annotated digital X-radiograph showing extensive small rectangular patches (one example indicated with a yellow arrow) and a small number of circular threaded plugs (one indicated with a red arrow). Ferdinando Tacca (Italian, 1619–1686), Putto Holding a Shield, Florence, ca. 1650–55, H. 64.5 cm (J. Paul Getty Museum, inv. 85.SB.70). See {Fogelman and Fusco 2002}, 217."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/198/patch.png"
+            label: "Patch"
+            selected: true
+          - src: "figures/iiif/198/threaded-plug.png"
+            label: "Threaded Plug"
+            selected: true
 
   - id: "fig-199"
-    src: "figures/iiif/199.jpg"
+    src: "figures/iiif/199/base.jpg"
     # media_type: iiif
     label: "Figure 199"
     caption: "Detail of X-radiograph revealing an internal metal cylinder added during restoration to join the body and tail. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See {Collinet and Bourgarit 2021}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/199/repair-insert.png"
+            label: "Repair Insert"
+            selected: true
 
   - id: "fig-200"
-    src: "figures/iiif/200.jpg"
+    src: "figures/iiif/200/base.jpg"
     # media_type: iiif
     label: "Figure 200"
     caption: "A casting flaw in a relatively hidden and difficult-to-reach location under the satyr’s sand-cast-bronze right leg (left image) has been repaired from below with sheet metal pinned under the base (right image). Formally attributed to Clodion (French 1738–1814), Nymph and Satyr, ca. 1850–75, H. 35.6 cm (Huntington Art Museum, San Marino, California, inv. 78.20.54). See {Bennett and Sargentson 2008}, 474–75."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/200/sheet-repair.png"
+            label: "Sheet Repair"
+            selected: true
 
   - id: "fig-201"
     src: "figures/iiif/201.jpg"
@@ -1662,11 +1784,16 @@ figure_list:
     caption: "Two ways of preparing the two parts to be assembled by flow fusion welding as witnessed on various antique large bronzes. Left side: the base metal is cut away to half its thickness to make a channel through which the molten bronze can run; right side: a space is left between the two parts to be joined and the welding metal is directly poured through this space. See {Azéma et al. 2011}."
 
   - id: "fig-203"
-    src: "figures/iiif/203.jpg"
+    src: "figures/iiif/203/base.jpg"
     # media_type: iiif
     label: "Figure 203"
     caption: "A welding line along the joint of two separately cast parts of the base is visible on the surface due to variations in the patina (blue overlay). Henry Moore (British, 1898–1986), *Seated Woman*, designed 1958–59, cast 1975, H. 203.2 cm (J. Paul Getty Museum, inv. 2005.117.3)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/203/weld-line.png"
+            label: "Weld Line"
+            selected: true
 
   - id: "fig-204"
     src: "figures/iiif/204.jpg"
@@ -1675,25 +1802,43 @@ figure_list:
     caption: "Statue made of six separately cast pieces assembled by flow fusion welding (left). The welds appear as a sequence of adjacent ovals corresponding to a welding in basins (right). Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962). See {Azéma et al. 2013}."
 
   - id: "fig-205"
-    src: "figures/205.jpg"
-    media_type:
+    src: "figures/iiif/205/base.jpg"
+    # media_type: iiif
     label: "Figure 205"
     caption: "Characteristic basin of a flow fusion weld defined at its outer edge by a discrete line of porosity (dotted red line). Horse of Neuvy-en-Sullias, France, 1st century BCE–1st century CE, H. 113 cm (Musée historique et archéologique de l’Orléanais, Orléans, France, inv. A6286). See {Mille 2007}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/205/flow-fusion-weld.png"
+            label: "Flow Fusion Weld"
+            selected: true
 
   - id: "fig-206"
-    src: "figures/iiif/206.jpg"
+    src: "figures/iiif/206/base.jpg"
     # media_type: iiif
     label: "Figure 206"
     caption: "Daylight photograph and X-radiograph of a detail of a right arm showing the brazing between the hand and the wrist (red line). The area was finished, removing any exterior signs of the joining method. Gilded Standing Divinity, Cambodia, Angkor, Siem Reap province, 11th century, H. 130.8 cm (Metropolitan Museum of Art, from the Collection of Walter H. and Leonor Annenberg, inv. 1988.355)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/206/brazed-metal.png"
+            label: "Brazed Metal"
+            selected: true
 
   - id: "fig-207"
-    src: "figures/207.jpg"
-    media_type:
+    src: "figures/iiif/207/base.jpg"
+    # media_type: iiif
     label: "Figure 207"
     caption: "Detail of horse’s leg showing the location of the joint made by interlock casting (left). The joint mechanism is visualized in the diagram (right). The separately cast leg and body were assembled using a series of localized bronze pours (teal overlay). Iron shims (red overlay) and core material packed around the internal iron armature were used to contain each section of that pour. The joint was further secured by interlock casting, which entailed creating small openings on either side of the joint (teal squares) for the metal to key into. Andrea del Verrocchio (Italian, ca. 1425–1488) and Alessandro Leopardi (Italian, ca. 1465–1512), Equestrian Monument of Bartolomeo Colleoni, Venetian, 1479–96, over life size (Piazza SS Giovanni e Paolo, Venice). See general view of the monument, [fig. 100](/visual-atlas/#fig-100){target=_blank}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/207/cast-on-material.png"
+            label: "Cast-On Material"
+            selected: true
+          - src: "figures/iiif/207/iron-shims.png"
+            label: "Iron Shims"
+            selected: true
 
   - id: "fig-208"
     src: "figures/iiif/208.jpg"
@@ -1702,18 +1847,31 @@ figure_list:
     caption: "Ritual vessel, China, Zhou dynasty, ca. 830 BCE, H. 36.5 cm (Freer Study Collection, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
 
   - id: "fig-209"
-    src: "figures/iiif/209.jpg"
+    src: "figures/iiif/209/base.jpg"
     # media_type: iiif
     label: "Figure 209"
     caption: "Cross section of a vessel fragment that shows how the leg (secondary casting, green overlay), which was cast onto the body of a bronze vessel (lilac overlay), locked onto the primary casting mechanically. The reddish material in the center is the core preserved in the leg. Fragment of ritual vessel, China, Zhou dynasty, ca. 830 BC, H. 36.5 cm (Freer Study Collection, Department of Conservation and Scientific Research, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/209/vessel-body.png"
+            label: "Vessel Body"
+            selected: true
+          - src: "figures/iiif/209/leg.png"
+            label: "Leg"
+            selected: true
 
   - id: "fig-210"
-    src: "figures/iiif/210.jpg"
+    src: "figures/iiif/210/base.jpg"
     # media_type: iiif
     label: "Figure 210"
     caption: "The joints between the separately cast parts of this bronze chef-modèle are clearly visible. The group was designed to be disassembled and the sections used as patterns for sand molding. Jean-Baptiste Carpeaux (French, 1827–1875), chef-modèle of The Three Graces, 1872, H. 81.3 cm (Clark Art Institute, Williamstown, Massachusetts, inv. 1955.976)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/210/joints.png"
+            label: "Joints"
+            selected: true
 
   - id: "fig-211"
     src: "figures/iiif/211.jpg"
@@ -1728,11 +1886,16 @@ figure_list:
     caption: "Gamma radiograph showing Roman joints in the arms of a figure. The type of joint used to attach the separately cast head cannot be determined in this radiograph. Gamma radiography was used due to the lack of available high-kV X-radiography. Thomas Ball (American, 1819–1911), *Daniel Webster*, 1853, sand cast probably after 1858, probably by the Ames Manufacturing Company, Chicopee, Massachusetts, H. 75.6 cm (Gilcrease Museum, Tulsa, inv. 0826.93)."
 
   - id: "fig-213"
-    src: "figures/iiif/213.jpg"
+    src: "figures/iiif/213/base.jpg"
     # media_type: iiif
     label: "Figure 213"
     caption: "Exterior detail of the figure’s straight arm showing the fine join line and circular outline of the pin or screw of a Roman joint. A joint in the neck is obscured by the collar. Thomas Ball (American, 1819–1911), *Daniel Webster*, 1853, sand cast probably after 1858, probably by the Ames Manufacturing Company, Chicopee, Massachusetts, H. 75.6 cm (Gilcrease Museum, Tulsa, inv. 0826.93)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/213/roman-joint.png"
+            label: "Roman Joint"
+            selected: true
 
   - id: "fig-214"
     src: "figures/iiif/214.jpg"
@@ -1748,11 +1911,16 @@ figure_list:
     # annotations: true
 
   - id: "fig-216"
-    src: "figures/iiif/216.jpg"
+    src: "figures/iiif/216/base.jpg"
     # media_type: iiif
     label: "Figure 216"
     caption: "The statue was cast in two sections—the figures with halo, and the base—which were joined by hammering the top edge of the base over the sculpture’s footplate to secure it. The red arrows in the overlay point to areas of overlap. Shiva Nataraja (Lord of the Dance), India, state of Tamil Nadu, Chola dynasty, ca. 990, H. 70.8 cm (Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Margaret and George Halderman and Museum Funds, F2003.2)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/216/overlap.png"
+            label: "Overlap"
+            selected: true
 
   - id: "fig-217"
     src: "figures/iiif/217.jpg"
@@ -1779,11 +1947,19 @@ figure_list:
     caption: "Detail underneath side of a base shows screw attachments without Roman joints. Thomas Ball (American, 1819–1911), *Henry Clay*, 1858, sand cast after 1858, probably by the Ames Manufacturing Company, Chicopee, Massachusetts, H. 78.1 cm (Gilcrease Museum, Tulsa, inv. 0826.94)."
 
   - id: "fig-221"
-    src: "figures/iiif/221.jpg"
+    src: "figures/iiif/221/base.jpg"
     # media_type: iiif
     label: "Figure 221"
     caption: "Sketches showing how armature rods included in the construction of the model are used to mount the over-life-size equestrian figure of Louis XV to its pedestal. Left: overall view showing the armature rods extending beyond the hooves; right: cross section showing the internal armature in the legs (red overlay) and some of the external structural supports removed after casting (yellow overlay). {Mariette 1768}, ch. 4, plate IX, p. 56 (left), ch. 14, plate III, p. 160 (right), showing Edme Bouchardon (French, 1698–1762), Louis XV, Paris, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After {Desmas 2014}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/221/armature.png"
+            label: "Armature"
+            selected: true
+          - src: "figures/iiif/221/external-supports.png"
+            label: "External Supports"
+            selected: true
 
   - id: "fig-222"
     src: "figures/iiif/222.jpg"
@@ -1798,11 +1974,16 @@ figure_list:
     caption: "One of a pair of cloisonné enamel figures combining both cast sections (hands) and hammered sections (body and head) using mechanical methods for joining, namely bent tabs between head and body and rivets for the hands. Note that the enamel overlays are only on the hammered sections. Seated Figure, China, Qing dynasty, Qianlong period (1736–95), H. 88.3 cm (Metropolitan Museum of Art, gift of A. W. Bahr in memory of his wife, Helen Marion Bahr, 1954, inv. 54.124.2a–b.)."
 
   - id: "fig-224"
-    src: "figures/iiif/224.jpg"
+    src: "figures/iiif/224/base.jpg"
     # media_type: iiif
     label: "Figure 224"
     caption: "The separately cast cape secures to the proper right shoulder with a dovetail joint. The nearly identical alloys of the figure and the cape suggest that they were cast at the same time. After Willem Danielsz. van Tetrode (Dutch, ca. 1525–1580), Warrior on Horseback, 1562–65, H. 39.7 cm (J. Paul Getty Museum, inv. 85.SB.90)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/224/dovetail-joint.png"
+            label: "Dovetail Joint"
+            selected: true
 
   - id: "fig-225"
     src: "figures/iiif/225.jpg"
@@ -1831,11 +2012,16 @@ figure_list:
     caption: "Bright field photomicrograph of an etched polished cross section of the welded zone between the body and the neck of a bronze horse. Zone B corresponds to the filler metal (oval area of a basin), zone A to the neck of the horse (primary casting). The yellowish area between A and B is the melted zone (MZ) and the heat affected zone (HAZ), which consist of a mixture of the filler metal and the primary cast. This area is also marked by heavy porosity (black holes). Note that the elemental composition of the weld metal is strictly the same as that of the primary cast—that is, the neck (leaded bronze with 9.6 wt% Sn and 7.2 wt% Pb). Horse of Neuvy-en-Sullias, France, 1st century BCE–1st century CE, H. 113 cm (Musée historique et archéologique de l’Orléanais, Orléans, France, inv. A6286). See {Mille 2007}."
 
   - id: "fig-229"
-    src: "figures/iiif/229.jpg"
+    src: "figures/iiif/229/base.jpg"
     # media_type: iiif
     label: "Figure 229"
     caption: "Bright field photomicrograph of an etched cross section across a French 18th-century brazing joint between two cast brass elements. The section shows the typical large grains and dendritic structure of the two cast elements as well as the so-called Widmanstätten microstructure of the quickly cooled, high-zinc brass brazing metal (green overlay). Note that the two metals did melt into each other. Etched with a solution of 25% hydrochloric acid and 8% iron chloride in industrial methylated spirit."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/229/brazing-metal.png"
+            label: "Brazing Metal"
+            selected: true
 
   - id: "fig-230"
     src: "figures/230.jpg"
@@ -1868,11 +2054,16 @@ figure_list:
     caption: "Tool marks made in the wax as seen under the base of a Tibetan divinity. Divinity of Tara blanche, Tibet, 17th century, H. 65 cm without base (Musée national des arts asiatiques – Guimet, Paris, inv. MA 12495). See {C2RMF Internal Report 2012}."
 
   - id: "fig-235"
-    src: "figures/iiif/235.jpg"
+    src: "figures/iiif/235/base.jpg"
     # media_type: iiif
     label: "Figure 235"
     caption: "Detail of the figure’s back showing scattered clusters of rectangular-shaped matting marks disguising the repairs of casting defects (see overlay). Pierre Biard I (French, 1559–1609), Fame, ca. 1607, H. 134 cm (Musée du Louvre, inv. LP361). See {C2RMF Internal Report 2017}, 33054."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/235/matting-marks.png"
+            label: "Matting Marks"
+            selected: true
 
   - id: "fig-236"
     src: "figures/iiif/236.jpg"
@@ -1899,11 +2090,16 @@ figure_list:
     caption: "Chasing tools belonging to Jean Dubos, Coubertin foundry, France, used notably to work the demonstration cylinder ([fig. 238](/visual-atlas/#fig-238){target=_blank}). From left to right: punch with smooth texture (in French *ciselet*, and more specifically *mat à bout lisse carré*); punch with a textured, granular surface (*mat sablé moyen*); tracer or scribe (*mat à tracer fin or traçoir fin*); veining tool (*mat à tracer large* or *traçoir gros*); fine-textured matting punch (*mat sablé fin*); and domed “dot” punch (*perloir* or *mat à perler*)."
 
   - id: "fig-240"
-    src: "figures/iiif/240.jpg"
+    src: "figures/iiif/240/base.jpg"
     # media_type: iiif
     label: "Figure 240"
     caption: "Tibetan divinity front view with a detail on the right showing the chased decoration in the fabric. Note the preparatory circle made with a compass (red lines) and the punch marks texturing the snake. Divinity of Tara blanche, Tibet, 17th century, H. 65 cm without base (Musée national des arts asiatiques – Guimet, Paris, inv. MA 12495). See {C2RMF Internal Report 2012}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/240/compass-line.png"
+            label: "Compass Line"
+            selected: true
 
   - id: "fig-241"
     src: "figures/241.jpg"
