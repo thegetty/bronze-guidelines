@@ -1666,3 +1666,170 @@ table .poor { background-color: #F2F9F1; }
 #fig-240-0-compass-line label::before {
   background-color: #d41022; /* red */
 }
+/* FIG 287 */
+#lightbox-fig-287-0-gilding-a label::before,
+#fig-287-0-gilding-a label::before {
+  background-color: #000; /* black */
+}
+#lightbox-fig-287-0-gilding-b label::before,
+#fig-287-0-gilding-b label::before {
+  background-color: #a7342c; /* dark red */
+}
+#lightbox-fig-287-0-gilding-c label::before,
+#fig-287-0-gilding-c label::before {
+  background-color: #33457d; /* dark blue */
+}
+/* FIG 300 */
+#lightbox-fig-300-0-groove label::before,
+#fig-300-0-groove label::before {
+  background-color: #b7b21d; /* dark yellow */
+}
+/* FIG 346 */
+#lightbox-fig-346-0-copper-lips label::before,
+#fig-346-0-copper-lips label::before {
+  background-color: #6c98b7; /* blue */
+}
+#lightbox-fig-346-0-copper-drips label::before,
+#fig-346-0-copper-drips label::before {
+  background-color: #edb847; /* orange */
+}
+#lightbox-fig-346-0-lead-contusion label::before,
+#fig-346-0-lead-contusion label::before {
+  background-color: #a969c4; /* purple */
+}
+/* FIG 364 */
+#lightbox-fig-364-0-inlays label::before,
+#fig-364-0-inlays label::before {
+  background-color: #ffdd72; /* pale orange  */
+}
+#lightbox-fig-364-0-lost-inlay label::before,
+#fig-364-0-lost-inlay label::before {
+  background-color: #e5e24f; /* yellow */
+}
+#lightbox-fig-364-0-brazing label::before,
+#fig-364-0-brazing label::before {
+  background-color: #000; /* black */
+}
+/* FIG 401 */
+#lightbox-fig-401-0-sealing-material label::before,
+#fig-401-0-sealing-material label::before {
+  background-color: #de7575; /* red */
+}
+#lightbox-fig-401-0-consecration-offerings label::before,
+#fig-401-0-consecration-offerings label::before {
+  background-color: #8062e3; /* purple */
+}
+/* FIG 456 */
+#lightbox-fig-456-0-connection-line label::before,
+#fig-456-0-connection-line label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 457 */
+#lightbox-fig-457-0-cutout label::before,
+#fig-457-0-cutout label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 458 */
+#lightbox-fig-458-0-pile-driver-hole label::before,
+#fig-458-0-pile-driver-hole label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 465 */
+#lightbox-fig-465-0-rivet-holes label::before,
+#fig-465-0-rivet-holes label::before {
+  background-color: #78ad46; /* green */
+}
+#lightbox-fig-465-0-rivet-heads label::before,
+#fig-465-0-rivet-heads label::before {
+  background-color: #e36541; /* orange red */
+}
+/* FIG 466 */
+#lightbox-fig-466-0-fusion-weld label::before,
+#fig-466-0-fusion-weld label::before {
+  background-color: #e2613b; /* red */
+}
+/* FIG 478 */
+#lightbox-fig-478-0-plugs label::before,
+#fig-478-0-plugs label::before {
+  background-color: #98e5e3; /* aqua */
+}
+/* FIG 487 */
+#lightbox-fig-487-0-core-pin label::before,
+#fig-487-0-core-pin label::before {
+  background-color: #9bf3f9; /* aqua */
+}
+/* FIG 490 */
+#lightbox-fig-490-0-cast-on-repair label::before,
+#fig-490-0-cast-on-repair label::before {
+  background-color: #f26f4b; /* orange red */
+}
+/* FIG 491 */
+#lightbox-fig-491-0-cast-on-repair label::before,
+#fig-491-0-cast-on-repair label::before {
+  background-color: #f26f4b; /* orange red */
+}
+/* FIG 492 */
+#lightbox-fig-492-0-plug label::before,
+#fig-492-0-plug label::before {
+  background-color: #7ddcf3; /* aqua */
+}
+/* FIG 515 */
+#lightbox-fig-515-0-sealing-material label::before,
+#fig-515-0-sealing-material label::before {
+  background-color: #798eef; /* lavender */
+}
+/* FIG 516  */
+#lightbox-fig-516-0-sealing-material label::before,
+#fig-516-0-sealing-material label::before {
+  background-color: #da6170; /* red */
+}
+/* FIG 537 */
+#lightbox-fig-537-0-channels label::before,
+#fig-537-0-channels label::before {
+  background-color: #eff08a; /* yellow */
+}
+/* FIG 539 */
+#lightbox-fig-539-0-sprue label::before,
+#fig-539-0-sprue label::before {
+  background-color: #f1cd51; /* pale orange */
+}
+#lightbox-fig-539-0-lantern label::before,
+#fig-539-0-lantern label::before {
+  background-color: #a4f334; /* green */
+}
+#lightbox-fig-539-0-mounting-screws label::before,
+#fig-539-0-mounting-screws label::before {
+  background-color: #fa7c29; /* orange */
+}
+/* FIG 540 */
+#lightbox-fig-540-0-tool-marks label::before,
+#fig-540-0-tool-marks label::before {
+  background-color: #b1ea68; /* green */
+}
+/* FIG 541 */
+#lightbox-fig-541-0-repair label::before,
+#fig-541-0-repair label::before {
+  background-color: #f61111; /* red */
+}
+/* FIG 545 */
+#lightbox-fig-545-0-core-support-wire label::before,
+#fig-545-0-core-support-wire label::before {
+  background-color: #db0000; /* red */
+}
+#lightbox-fig-545-0-weld-line label::before,
+#fig-545-0-weld-line label::before {
+  background-color: #66b52b; /* green */
+}
+#lightbox-fig-545-0-sprue-remnants label::before,
+#fig-545-0-sprue-remnants label::before {
+  background-color: #345dfb; /* blue */
+}
+/* FIG 559 */
+#lightbox-fig-559-0-wax-blobs label::before,
+#fig-559-0-wax-blobs label::before {
+  background-color: #bfdf71; /* green */
+}
+#lightbox-fig-559-0-fingerprint-streak label::before,
+#fig-559-0-fingerprint-streak label::before {
+  background-color: #fff; /* white */
+}
