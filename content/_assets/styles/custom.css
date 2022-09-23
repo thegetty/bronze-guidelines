@@ -1335,4 +1335,69 @@ table .poor { background-color: #F2F9F1; }
 #fig-064-0-core-pin-holes label::before {
   background-color: #f26e6e; /* red */
 }
-
+/* FIG 077 */
+#lightbox-fig-077-0-flashing label::before,
+#fig-000-0-flashing label::before {
+  background-color: #d21414; /* red */
+}
+/* FIG 079 */
+#lightbox-fig-079-0-armature label::before,
+#fig-079-0-armature label::before {
+  background-color: #ecec7d; /* yellow */
+}
+/* FIG 080 */
+#lightbox-fig-080-0-drips label::before,
+#fig-080-0-drips label::before {
+  background-color: #aff4e3; /* turquoise */
+}
+#lightbox-fig-080-0-air-bubbles label::before,
+#fig-080-0-air-bubbles label::before {
+  background-color: #c4a369; /* brown */
+}
+#lightbox-fig-080-0-slab-join label::before,
+#fig-080-0-slab-join label::before {
+  background-color: #3450d8; /* blue */
+}
+/* FIG 084 */
+#lightbox-fig-084-0-fingerprint label::before,
+#fig-084-0-fingerprint label::before {
+  background-color: #ffd300; /* yellow */
+}
+#lightbox-fig-084-0-stroke-direction label::before,
+#fig-084-0-stroke-direction label::before {
+  background-color: #fff; /* white */
+}
+/* FIG 086 */
+#lightbox-fig-086-0-sprues label::before,
+#fig-086-0-sprues label::before {
+  background-color: #ffd300; /* yellow */
+}
+/* FIG 090 */
+#lightbox-fig-090-0-walls label::before,
+#fig-090-0-walls label::before {
+  background-color: #d21414; /* red */
+}
+#lightbox-fig-090-0-core-flashing label::before,
+#fig-090-0-core-flashing label::before {
+  background-color: #8efa3c; /* green */
+}
+/* FIG 091 */
+#lightbox-fig-091-0-wall-thickness label::before,
+#fig-091-0-wall-thickness label::before {
+  background-color: #d31818; /* red */
+}
+/* FIG 092 */
+#lightbox-fig-092-0-seam-line label::before,
+#fig-092-0-seam-line label::before {
+  background-color: #d64317; /* red */
+}
+/* FIG 093 */
+#lightbox-fig-093-0-angular-contours label::before,
+#fig-093-0-angular-contours label::before {
+  background-color: #f60e2e; /* red */
+}
+/* FIG 095 */
+#lightbox-fig-095-0-joint label::before,
+#fig-095-0-joint label::before {
+  background-color: #f5031f; /* red */
+}

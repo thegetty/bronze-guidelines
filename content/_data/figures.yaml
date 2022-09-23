@@ -684,11 +684,16 @@ figure_list:
     caption: "This small pair of human figures were modeled directly in wax. The heads were fashioned out of balls of soft wax from which the noses pinched out. The breasts are small, flattened balls of wax pressed onto the torsos. The legs were rolled into sausages and joined at the bottom on the rounded base. The group was clearly cast head-down in the mold, as the base is formed by the remains of the metal that puddled at the bottom of the casting cup. Group of Two Human Figures, Syro-Hittite, 15th–13th century BCE, H. 7.4 cm (Harvard Art Museums / Arthur M. Sackler Museum, gift of Benjamin and Lilian Hertzberg, 2004.205). See {Lie and Bewer 2014}, 46."
 
   - id: "fig-072"
-    src: "figures/072.jpg"
+    src: "figures/iiif/072/base.jpg"
     media_type:
     label: "Figure 72"
     caption: "Detail of the back of the right knee showing the remains of seam lines from the piece molds when forming the wax inter-model (see overlay). Attributed to Hubert Le Sueur (French, ca. 1580–1658), Medici Venus, H. 150 cm (Musée du Louvre, inv. MR 3278). See {Castelle 2016}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/072/seam-lines.png"
+            label: "Seam Lines"
+            selected: true
 
   - id: "fig-073"
     src: "figures/iiif/073.jpg"
@@ -703,11 +708,16 @@ figure_list:
     caption: "Wax reproduction of the head of the Apollo of Lillebonne made during the 2016 CAST:ING meeting, Coubertin foundry, France. This wax was obtained by slush molding in a plaster piece mold. All the mold lines (seam lines) are clearly visible. Note the distortion of the model due to imperfection in the piece-mold assemblage. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-075"
-    src: "figures/iiif/075.jpg"
+    src: "figures/iiif/075/base.jpg"
     # media_type: iiif
     label: "Figure 75"
     caption: "Raised seam lines appear to correspond to traces of the piece mold used to create a plaster model that was then used in an indirect process. Camille Claudel (French, 1864–1943), Torso of a Crouching Woman, model ca. 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/075/seam-lines.png"
+            label: "Seam Lines"
+            selected: true
 
   - id: "fig-076"
     src: "figures/076.jpg"
@@ -716,32 +726,59 @@ figure_list:
     caption: "Juxtaposition of these two indirect lost-wax casts shows how their assemblage from separate wax parts—in this case, the limbs and torso (as confirmed by X-radiography)—can result in slight variations in their postures. Willem van Tetrode (ca. 1525–1580), Striding Warrior, 1562–65, H. 40 cm (Collection of Mr. & Mrs. J. Thomilson Hill, New York [left]) and H. 39.4 cm (Hearn Family Trust, New York [right]). See {Bewer et al. 2003}."
 
   - id: "fig-077"
-    src: "figures/iiif/077.jpg"
+    src: "figures/iiif/077/base.jpg"
     # media_type: iiif
     label: "Figure 77"
     caption: "Detailed image of a small area of the chin showing flashing in the refractory mold that has been filed down. The lines are so angular, they look like the intersecting lines of a mold. Andrew Lacey (British, b. 1969), *Head of Henry Tonks*, cast by the artist in 2015, H. 17 cm (artist’s collection)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/077/flashing.png"
+            label: "Flashing"
+            selected: true
 
   - id: "fig-078"
-    src: "figures/078.jpg"
+    src: "figures/iiif/078/base.jpg"
     media_type:
     class: pdf-full-width
     label: "Figure 78"
     caption: "Underside of the Theseus and Antiope group showing the long marks that the artist’s fingers produced in pulling up a mound of fresh clay from the slab that formed the core for the base. Adriaen de Vries (Netherlandish, 1556–1626), Antiope and Theseus, ca. 1600–1601, H. 95 cm (Royal Collection, Buckingham Palace, London, inv. RCIN 57961). See {Bewer 1998}, 70; {Bewer 2001}."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/078/finger-marks.png"
+            label: "Finger Marks"
+            selected: true
 
   - id: "fig-079"
-    src: "figures/iiif/079.jpg"
+    src: "figures/iiif/079/base.jpg"
     # media_type: iiif
     label: "Figure 79"
     caption: "Annotated composite X-radiograph. Note in particular the continuous armature that extends throughout the direct lost-wax cast. Adriaen de Vries (Netherlandish, 1556–1626), Juggling Man, ca. 1615, H. 76.8 cm (J. Paul Getty Museum, inv. 90.SB.44)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/079/armature.png"
+            label: "Armature"
+            selected: true
 
   - id: "fig-080"
-    src: "figures/iiif/080.jpg"
+    src: "figures/iiif/080/base.jpg"
     # media_type: iiif
     label: "Figure 80"
     caption: "X-radiographs of experimental casts after the same model of Apollo using three different lost-wax casting processes. The heads were produced by beginners during the 2016 CAST:ING meeting at the Coubertin foundry, France, and can therefore not claim to be representative of features in expertly cast historical bronzes, but present a few noteworthy features. 1a–b) Side and frontal views of the same head produced by the slush molding process. They show the relatively even thickness of metal wall that follows the contours of the molding. The frontal view shows the drips that formed in the neck (turquoise overlay) on the internal surface when the excess liquefied wax was poured out of the reusable mold. The solid spheres on the top of this and the other casts are from air bubbles trapped along the inner surface when the fresh plaster-based core slurry was poured into the mold (orange overlay dots). 2) Unlike the head in 1a, this cast of the Apollo head is more uneven, as seen in particular in the facial area, where the flattened shape of the inner surface is the result of a rather thick clay slab (the “lasagna”) that was initially laid into the reusable mold to create the negative space to be filled by the bronze. 3) The frontal view of the third experimental cast shows the overall even thickness of the metal wall that results from the use of the thin wax slabs pressed into the mold. The joint of several of the wax slabs runs vertically down the face and back of the head (blue overlay lines). See also [fig. 121](/visual-atlas/#fig-121){target=_blank}. The height of the casts is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/080/drips.png"
+            label: "Drips"
+            selected: true
+          - src: "figures/iiif/080/air-bubbles.png"
+            label: "Air Bubbles"
+            selected: true
+          - src: "figures/iiif/080/slab-join.png"
+            label: "Slab Join"
+            selected: true
 
   - id: "fig-081"
     src: "figures/iiif/081.jpg"
@@ -762,12 +799,20 @@ figure_list:
     caption: "Detail showing the marks of a tool used to work the interior surface of the wax inter-model. Zoomorphic Figure Evoking a Griffin, France, early–late antiquity, H. 26 cm (Musée de la préhistoire du Grand-Pressigny, France, inv. 2008.001.0001). See {C2RMF Internal Report 2008a}."
 
   - id: "fig-084"
-    src: "figures/iiif/084.jpg"
+    src: "figures/iiif/084/base.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 84"
     caption: "Rear surface of a fragment of the dolphins showing a fingerprint (yellow overlay) and the elongated traces made by a fine-toothed tool or finger (white arrows indicate the direction of the strokes) drawn along the inside of the wax model. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/#fig-367){target=_blank}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/084/fingerprint.png"
+            label: "Fingerprint"
+            selected: true
+          - src: "figures/iiif/084/stroke-direction.png"
+            label: "Stroke Direction"
+            selected: true
 
   - id: "fig-085"
     src: "figures/iiif/085.jpg"
@@ -776,11 +821,16 @@ figure_list:
     caption: "This internal view of a small arm shows an extant wire core pin and the uneven blobby accretions at its point of contact with the inner surface. These occurred during casting, with the molten-metal-filled gaps created in the core when the wire was pushed through core-filled wax model, causing some localized breakdown. Andrew Lacey (British, b.1969), *Hand*, 1998, H. 18 cm (private collection)."
 
   - id: "fig-086"
-    src: "figures/iiif/086.jpg"
+    src: "figures/iiif/086/base.jpg"
     # media_type: iiif
     label: "Figure 86"
     caption: "Rear surface of the head of the front dolphin showing sprues added on the wax model (yellow overlay). The wax model of the head was made of several pieces joined together at the juncture of the upper and lower lips, and also at the rotrum. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/#fig-367){target=_blank}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/086/sprues.png"
+            label: "Sprues"
+            selected: true
 
   - id: "fig-087"
     src: "figures/iiif/087.jpg"
@@ -801,32 +851,55 @@ figure_list:
     caption: "General view and detailed image of the work’s reverse showing the brushstrokes from painting in liquefied wax. Andrew Lacey (British, b. 1969), *Study for Saint Sebastian with Bullet Holes*, cast by the artist in 2017, H. 60 cm (artist’s collection)."
 
   - id: "fig-090"
-    src: "figures/iiif/090.jpg"
+    src: "figures/iiif/090/base.jpg"
     # media_type: iiif
     label: "Figure 90"
     caption: "Annotated X-radiograph showing the very thin and even metal walls (1–2 mm, red arrows). See also the large core flashing at the level of the belly (white feature shown by the green arrow). Maitreya, Khmer, pre-Angkor, 8th century, H. 46 cm (Musée National des arts asiatiques – Guimet, France, inv. MA 3321). See {Bourgarit et al. 2003}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/090/walls.png"
+            label: "Walls"
+            selected: true
+          - src: "figures/iiif/090/core-flashing.png"
+            label: "Core Flashing"
+            selected: true
 
   - id: "fig-091"
-    src: "figures/iiif/091.jpg"
+    src: "figures/iiif/091/base.jpg"
     # media_type: iiif
     label: "Figure 91"
     caption: "X-radiograph showing the very thin and even metal walls (2 mm). Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See {Mille et al. 2010}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/091/wall-thickness.png"
+            label: "Wall Thickness"
+            selected: true
 
   - id: "fig-092"
-    src: "figures/iiif/092.jpg"
+    src: "figures/iiif/092/base.jpg"
     # media_type: iiif
     label: "Figure 92"
     caption: "X-radiograph of the forearm of a monumental Roman statue cast by the lost-wax process. The long, dark, linear area corresponds to a thinning in the original wax model where wax slabs were not joined all the way through. The area would have been filled with core material and the imperfection was thus translated into bronze. Arm of Essegney, Roman, Essegney, France, probably 2nd–3rd century CE, L. from hand to elbow 43 cm (Musée départemental d’art ancien et contemporain d’Epinal, France, inv. M0536_2005.2.1). See {Caumont et al. 2006}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/092/seam-line.png"
+            label: "Seam Line"
+            selected: true
 
   - id: "fig-093"
-    src: "figures/iiif/093.jpg"
+    src: "figures/iiif/093/base.jpg"
     # media_type: iiif
     label: "Figure 93"
     caption: "View of underside showing the angular contours of the interior, typical of the cut-back-core process. Gaspard Marsy (French, 1624–1681), Boreas Abducting Orithyia, probably cast late 18th century, H. 55.2 cm (J. Paul Getty Museum, inv. 74.SB.18). See {Bassett and Bewer 2014}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/093/angular-contours.png"
+            label: "Angular Contours"
+            selected: true
 
   - id: "fig-094"
     src: "figures/iiif/094.jpg"
@@ -835,11 +908,16 @@ figure_list:
     caption: "Tool marks testifying to the cutting back of the core. Shown here is the back view of a bronze fragment of the Vendôme Column. This may be related to what the founder of most of the Vendôme Column bronzes, Jean-Baptiste Launay (French, 1768–1827), described as *amaigrissement du noyau* (core thinning). Various French sculptors, Vendôme Column, 1805–10, dismantled 1871, re-erected 1873–75, H. 44 m (Place Vendôme, Paris). See {Launay 1827}, 1:XV."
 
   - id: "fig-095"
-    src: "figures/iiif/095.jpg"
+    src: "figures/iiif/095/base.jpg"
     # media_type: iiif
     label: "Figure 95"
     caption: "Inside view of a bronze reproduction of the head of the Apollo of Lillebonne made by the lasagna process during the 2016 CAST:ING meeting at the Coubertin foundry, France. The outer contours of the hair are not at all visible on the simplified interior of the head. See the working marks of the clay sheet (lasagna), and particularly the thick joint between the two main sheets crossing the length of the head (red arrows). The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/095/joint.png"
+            label: "Joint"
+            selected: true
 
   - id: "fig-096"
     src: "figures/iiif/096.jpg"
