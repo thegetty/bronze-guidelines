@@ -704,6 +704,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
     font-size: 1.375em;
     line-height: 1.5;
   }
+  .quire-entry .slide .cs-category {
+    display: block;
+    font-size: .7em;
+    letter-spacing: .75px;
+    margin-bottom: .25em;
+    text-transform: uppercase;
+  }
   .quire-entry .quire-page__content .content p {
     line-height: 1.7;
   }
