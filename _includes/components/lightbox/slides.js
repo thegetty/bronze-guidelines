@@ -1,7 +1,8 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // wrapped table output in <div class="table-wrapper">
-// to allow for scrolling, line 50
+// to allow for scrolling, and output annotations ui above caption,
+// lines 52 and 94
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -90,8 +91,8 @@ module.exports = function(eleventyConfig) {
             ${await figureElement(figure)}
           </div>
           <div class="q-figure-slides__slide-ui">
-            ${captionElement}
             ${annotationsUI({ figure, lightbox: true })}
+            ${captionElement}
           </div>
         </div>
       `

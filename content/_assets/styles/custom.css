@@ -739,6 +739,43 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .q-lightbox__caption-content {
   padding-bottom: 1rem;
 }
+.q-lightbox-slides__caption a {
+  color: currentColor;
+  border-bottom: 1px dotted currentColor;
+}
+.q-lightbox-slides__caption a:hover {
+  border-bottom-style: solid;
+}
+.q-figure-slides__slide-ui {
+  display: block;
+}
+/* For entry / case study pages */
+.quire-entry__lightbox .q-figure-slides__slide-ui {
+  padding: 0;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption,
+.quire-entry__lightbox .q-figure-slides__slide-ui .annotations-ui {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin-right: 0;
+}
+.quire-entry__lightbox .q-figure-slides__slide-ui .annotations-ui {
+  padding-bottom: .5rem;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption {
+  padding-top: 0;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption {
+  max-height: 8rem;
+  overflow: scroll;
+}
+.quire-entry__lightbox .q-lightbox-slides__element canvas-panel,
+.quire-entry__lightbox .q-lightbox-slides__element img,
+.quire-entry__lightbox .q-lightbox-slides__element image-service {
+  height: calc(100% - 6rem);
+  top: calc(50% - 3rem);
+}
+
 /* Lightbox in modal specifically */
 /* Ensure proper stacking order so item aren't hidden behind invisibles */
 .q-lightbox-slides__slide[data-lightbox-current] {
@@ -774,20 +811,11 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-size: 1rem;
   line-height: 2;
   color: white;
-  flex-direction: column-reverse;
-  align-items: flex-start;
 }
 .q-lightbox--modal .q-lightbox-slides__caption {
   padding-bottom: 4rem;
   height: 100%;
   overflow: scroll;
-}
-.q-lightbox--modal .q-lightbox-slides__caption a {
-  color: currentColor;
-  border-bottom: 1px dotted currentColor;
-}
-.q-lightbox--modal .q-lightbox-slides__caption a:hover {
-  border-bottom-style: solid;
 }
 @media screen and (min-width:820px) {
   .q-lightbox--modal .q-lightbox-slides__element canvas-panel,
@@ -945,12 +973,14 @@ table .poor { background-color: #F2F9F1; }
   margin-right: 1rem;
   position: relative;
 }
-.q-lightbox--modal .annotations-ui__input-wrapper {
+.q-lightbox--modal .annotations-ui__input-wrapper,
+.q-lightbox-slides .annotations-ui__input-wrapper {
   display: inline-flex;
   align-items: center;
   height: 20px;
   padding: 0 7px;
   border-radius: 9px;
+  margin-bottom: 9px;
   margin-right: 6px;
   background-color: white;
 }
