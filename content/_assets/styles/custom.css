@@ -1740,6 +1740,35 @@ table .poor { background-color: #F2F9F1; }
 #fig-364-0-brazing label::before {
   background-color: #000; /* black */
 }
+/* FIG 367 */
+#lightbox-fig-367-0-wax label::before,
+#fig-367-0-wax label::before {
+  background-color: #ede1d7; /* beige */
+}
+#lightbox-fig-367-0-borders label::before,
+#fig-367-0-borders label::before {
+  background-color: #9d0d15; /* dark red */
+}
+#lightbox-fig-367-0-lost-patches label::before,
+#fig-367-0-lost-patches label::before {
+  background-color: #ececed; /* gray */
+}
+#lightbox-fig-367-0-patches label::before,
+#fig-367-0-patches label::before {
+  background-color: #8dbc43; /* grass green */
+}
+#lightbox-fig-367-0-rivets label::before,
+#fig-367-0-rivets label::before {
+  background-color: #256d2f; /* dark green */
+}
+#lightbox-fig-367-0-core-pins label::before,
+#fig-367-0-core-pins label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-367-0-outline label::before,
+#fig-367-0-outline label::before {
+  background-color: #000; /* black */
+}
 /* FIG 401 */
 #lightbox-fig-401-0-sealing-material label::before,
 #fig-401-0-sealing-material label::before {
@@ -1777,6 +1806,67 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-466-0-fusion-weld label::before,
 #fig-466-0-fusion-weld label::before {
   background-color: #e2613b; /* red */
+}
+/* FIG 467 */
+#lightbox-fig-467-0-wax label::before,
+#fig-467-0-wax label::before {
+  background-color: #ede1d7; /* beige */
+}
+#lightbox-fig-467-0-wax-joints label::before,
+#fig-467-0-wax-joints label::before {
+  background-color: #3a6a9f; /* blue */
+}
+#lightbox-fig-467-0-wax-elements label::before,
+#fig-467-0-wax-elements label::before {
+  background-color: #587fb7; /* blue */
+}
+#lightbox-fig-467-0-borders label::before,
+#fig-467-0-borders label::before {
+  background-color: #9e0b0f; /* dark red */
+}
+#lightbox-fig-467-0-flashing label::before,
+#fig-467-0-flashing label::before {
+  background-color: #8f5d89; /* purple */
+}
+#lightbox-fig-467-0-cast-on-repairs label::before,
+#fig-467-0-cast-on-repairs label::before {
+  background-color: #947860; /* brown */
+}
+#lightbox-fig-467-0-welding-overflow label::before,
+#fig-467-0-welding-overflow label::before {
+  background-color: #f2b8a2; /* pink */
+}
+#lightbox-fig-467-0-welded-joints label::before,
+#fig-467-0-welded-joints label::before {
+  background-color: #e2694d; /* light red */
+}
+#lightbox-fig-467-0-welded-joints-accumulation label::before,
+#fig-467-0-welded-joints-accumulation label::before {
+  background-color: #de543b; /* medium red */
+}
+#lightbox-fig-467-0-feeding-basins label::before,
+#fig-467-0-feeding-basins label::before {
+  background-color: #d71920; /* red */
+}
+#lightbox-fig-467-0-lost-patches label::before,
+#fig-467-0-lost-patches label::before {
+  background-color: #e7e8e9; /* light gray */
+}
+#lightbox-fig-467-0-patches label::before,
+#fig-467-0-patches label::before {
+  background-color: 947860#84c558; /* green */
+}
+#lightbox-fig-467-0-rivets label::before,
+#fig-467-0-rivets label::before {
+  background-color: #377241; /* dark green */
+}
+#lightbox-fig-467-0-core-pins label::before,
+#fig-467-0-core-pins label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-467-0-outline label::before,
+#fig-467-0-outline label::before {
+  background-color: #000; /* black */
 }
 /* FIG 478 */
 #lightbox-fig-478-0-plugs label::before,

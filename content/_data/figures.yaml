@@ -2911,11 +2911,28 @@ figure_list:
     caption: "Some basic tools for measuring statuettes: a) dial vernier caliper; b) outside (or external) calipers; c) T-squares; d) cloth tape measure."
 
   - id: "fig-367"
-    src: "figures/367.jpg"
-    media_type:
+    src: "figures/iiif/367/base.jpg"
+    # media_type: iiif
     label: "Figure 367"
     caption: "Annotated X-radiograph showing technical features observed on the front surface. Click on the legend to reveal or mask the different overlays (refer to [fig. 467](/visual-atlas/#fig-467){target=_blank} for mapping of evidence visible on the reverse). Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE., max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/367/wax.png"
+            label: "Wax segments"
+          - src: "figures/iiif/367/borders.png"
+            label: "Section borders (casting plan)"
+          - src: "figures/iiif/367/lost-patches.png"
+            label: "Lost patches"
+          - src: "figures/iiif/367/patches.png"
+            label: "Patches"
+          - src: "figures/iiif/367/rivets.png"
+            label: "Rievts"
+          - src: "figures/iiif/367/core-pins.png"
+            label: "Core pins"
+          - src: "figures/iiif/367/outline.png"
+            label: "Outline"
+            selected: true
 
   - id: "fig-368"
     src: "figures/iiif/368.jpg"
@@ -3561,11 +3578,43 @@ figure_list:
             selected: true
 
   - id: "fig-467"
-    src: "figures/467.jpg"
-    media_type:
+    src: "figures/iiif/467/base.jpg"
+    # media_type: iiif
     label: "Figure 467"
     caption: "Annotated X-radiograph showing the technical features observed on the reverse. Click on the legend to reveal or mask the different overlays (see [fig. 367](/visual-atlas/#fig-367){target=_blank} for mapping of evidence visible on the front). Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/467/wax.png"
+            label: "Wax segments"
+          - src: "figures/iiif/467/wax-joints.png"
+            label: "Wax-to-wax joints"
+          - src: "figures/iiif/467/wax-elements.png"
+            label: "Elements modeled in wax"
+          - src: "figures/iiif/467/borders.png"
+            label: "Section borders (casting plan)"
+          - src: "figures/iiif/467/flashing.png"
+            label: "Flashing"
+          - src: "figures/iiif/467/cast-on-repairs.png"
+            label: "Cast-on repairs"
+          - src: "figures/iiif/467/welding-overflow.png"
+            label: "Overflow of welding material"
+          - src: "figures/iiif/467/welded-joints.png"
+            label: "Flow-fusion-welded joints"
+          - src: "figures/iiif/467/welded-joints-accumulation.png"
+            label: "Flow-fusion-welded joints, with metal accumulation"
+          - src: "figures/iiif/467/feeding-basins.png"
+            label: "Feeding basins for welded joints"
+          - src: "figures/iiif/467/lost-patches.png"
+            label: "Lost patches"
+          - src: "figures/iiif/467/patches.png"
+            label: "Patches"
+          - src: "figures/iiif/467/rivets.png"
+            label: "Rivets"
+          - src: "figures/iiif/467/core-pins.png"
+            label: "Core pins"
+          - src: "figures/iiif/467/outline.png"
+            label: "Outline"
 
   - id: "fig-468"
     src: "figures/468.jpg"
