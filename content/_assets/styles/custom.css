@@ -1836,12 +1836,12 @@ table .poor { background-color: #F2F9F1; }
 #fig-467-0-welding-overflow label::before {
   background-color: #f2b8a2; /* pink */
 }
-#lightbox-fig-467-0-welded-joints label::before,
-#fig-467-0-welded-joints label::before {
+#lightbox-fig-467-0-welding-joints label::before,
+#fig-467-0-welding-joints label::before {
   background-color: #e2694d; /* light red */
 }
-#lightbox-fig-467-0-welded-joints-accumulation label::before,
-#fig-467-0-welded-joints-accumulation label::before {
+#lightbox-fig-467-0-welding-joints-accumulation label::before,
+#fig-467-0-welding-joints-accumulation label::before {
   background-color: #de543b; /* medium red */
 }
 #lightbox-fig-467-0-feeding-basins label::before,
