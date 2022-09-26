@@ -122,17 +122,17 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url: /downloads/output.pdf
+    url:
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: /downloads/output.epub
+    url: 
   - type: other-format
-    name: Kindle/MOBI
-    media_type: vnd.amazon.mobi8-ebook
+    name: Paperback
+    media_type: print
     link_relation: alternate
-    url: /downloads/output.mobi
+    url:
   - type: footer-link
     name: About
     link_relation: about
@@ -140,11 +140,11 @@ resource_link:
   - type: footer-link
     name: Privacy Policy
     link_relation: privacy-policy
-    url:
+    url: https://www.getty.edu/legal/privacy.html
   - type: footer-link
     name: Terms of Use
     link_relation: terms-of-service
-    url:
+    url: https://www.getty.edu/legal/copyright.html
 
 # ------------------------------------------------------------------------------
 # Subjects
