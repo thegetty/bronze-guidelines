@@ -298,7 +298,7 @@ figure_list:
     caption: "The artist beginning the modeling process on a metal armature. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-034"
-    # src: "figures/iiif/034/base.jpg"
+    # src: "figures/iiif/034.jpg"
     # media_type: iiif
     label: "Figure 34"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography showing the wire wrapping the core. Note how complex the image is due to the numerous overlaps, for instance of the drapery. Barthélemy Prieur (French, ca. 1536–1611), Abundance, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](#CaseStudy5)."
@@ -306,7 +306,7 @@ figure_list:
       - input: radio
         items:
           - id: "daylight"
-            src: "figures/iiif/034/base.jpg"
+            src: "figures/iiif/034/daylight.jpg"
             label: "Daylight"
           - id: "x-ray"
             src: "figures/iiif/034/x-ray.jpg"
@@ -926,11 +926,22 @@ figure_list:
     caption: "View of the interior of a bust showing the wire mesh that would have bound the core and is now embedded in the inner metal surface of the cast. Benvenuto Cellini (Italian, 1500–1571) Bust of Cosimo I, 1546–47, H. 110 cm (Museo Nazionale del Bargello, Florence, inv. 358 Bronzi). See {Bewer and MacNamara 2012}."
 
   - id: "fig-097"
-    src: "figures/097.jpg"
-    media_type:
+    # src: "figures/iiif/097.jpg"
+    # media_type: iiif
     label: "Figure 97"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Martin Lefort (French, dates unknown), Justice, 1571, H. 128 cm (Musée du Louvre, inv. MR1682). See [Case Study 5](#CaseStudy5)."
-    # annotations: true
+    annotations:
+      - input: radio
+        items:
+          - id: "daylight"
+            src: "figures/iiif/097/daylight.jpg"
+            label: "Daylight"
+          - id: "x-ray"
+            src: "figures/iiif/097/x-ray.jpg"
+            label: "X-Ray"
+          - id: "armature"
+            src: "figures/iiif/097/armature.jpg"
+            label: "Armature"
 
   - id: "fig-098"
     src: "figures/098.jpg"
@@ -3997,11 +4008,22 @@ figure_list:
     caption: "Jean Bullant (French, 1515–1578), Anne de Montmorency Funerary Heart Monument, 1571, H. 128 cm (Musée du Louvre, inv. MR1681-1683). See {Seelig-Teuwen, Bourgarit, and Bewer 2014}; {Castelle et al. 2021}."
 
   - id: "fig-524"
-    src: "figures/524.jpg"
-    media_type:
+    # src: "figures/iiif/524.jpg"
+    # media_type: iiif
     label: "Figure 524"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Barthélemy Prieur (French, ca. 1536–1611), Peace, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See [Case Study 5](#CaseStudy5)."
-    # annotations: true
+    annotations:
+      - input: radio
+        items:
+          - id: "daylight"
+            src: "figures/iiif/524/daylight.jpg"
+            label: "Daylight"
+          - id: "x-ray"
+            src: "figures/iiif/524/x-ray.jpg"
+            label: "X-Ray"
+          - id: "armature"
+            src: "figures/iiif/524/armature.jpg"
+            label: "Armature"
 
   - id: "fig-525"
     src: "figures/iiif/525.jpg"
