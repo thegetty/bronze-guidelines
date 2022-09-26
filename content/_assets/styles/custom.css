@@ -541,8 +541,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   .quire-page.visual-atlas .image-grid figure .q-figure__caption-content,
   .quire-page.visual-atlas .image-grid figure .q-figure__credit,
-  .quire-page.visual-atlas .image-grid figure .q-figure__label-icon,
-  .quire-page.visual-atlas .image-grid figure canvas-panel {
+  .quire-page.visual-atlas .image-grid figure .q-figure__label-icon {
     display: none;
   }
   .quire-page.visual-atlas .image-grid figure.image-grid-figure img {
