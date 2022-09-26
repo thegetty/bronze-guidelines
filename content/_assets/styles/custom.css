@@ -324,6 +324,7 @@ a.quire-definition__content__more-link {
   margin-bottom: 1rem;
   margin-top: 0;
   padding: 0;
+  width: 100%;
 }
 .q-figure.q-figure--group .q-figure__caption {
   margin-top: 0;
