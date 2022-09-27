@@ -284,10 +284,12 @@ a.quire-definition__content__more-link {
 ============================================================================= */
 @media screen {
   /* The .indented-heading and .section-number classes are added in custom.js */
-  .quire-page.full-width .content .indented-heading {
+  .quire-page.full-width .content .indented-heading,
+  .quire-page.interview .content h2:not(.no-indent) {
     text-indent: -6rem;
   }
-  .quire-page.full-width .content .indented-heading .section-number {
+  .quire-page.full-width .content .indented-heading .section-number,
+  .quire-page.interview .content h2:not(.no-indent) .section-number {
     width: 6rem;
     display: inline-block;
     text-align: right;
@@ -415,7 +417,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 
 /* Expand and Collapse All buttons */
-.quire-page.full-width #accordion-controls {
+.quire-page.full-width #accordion-controls,
+.quire-page.interview #accordion-controls {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -428,10 +431,12 @@ button.accordion-expander[aria-expanded="true"] .vert {
   bottom: -2.9rem;
   transition: bottom 1s;
 }
-.quire-page.full-width #accordion-controls.show-controls {
+.quire-page.full-width #accordion-controls.show-controls,
+.quire-page.interview #accordion-controls.show-controls {
   bottom: 0;
 }
-.quire-page.full-width #accordion-controls li {
+.quire-page.full-width #accordion-controls li,
+.quire-page.interview #accordion-controls li {
   display: inline-block;
   padding: .5rem 1.5rem;
   height: 100%;
@@ -667,18 +672,28 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   /* Case study pages */
   .quire-entry div.side-by-side div.quire-entry__image-wrap,
-  .quire-entry div.side-by-side div.quire-entry__content {
+  .quire-entry div.side-by-side div.quire-entry__content,
+  .quire-page.interview div.quire-page__content {
     background-color: var(--deep-black);
   }
   .quire-entry .quire-page__header,
-  .quire-entry .quire-page__content .content {
+  .quire-entry .quire-page__content .content,
+  .quire-page.interview .quire-page__header,
+  .quire-page.interview .quire-page__content .content {
     background-color: transparent;
     color: white;
   }
   .quire-entry .quire-page__header .hero-body .label,
   .quire-entry .q-figure__label--below .q-figure__modal-link,
   .quire-entry h1,
-  .quire-entry h2 {
+  .quire-entry h2,
+  .quire-entry h3,
+  .quire-page.interview .quire-page__header .hero-body .label,
+  .quire-page.interview .q-figure__label--below .q-figure__modal-link,
+  .quire-page.interview h1,
+  .quire-page.interview h2,
+  .quire-page.interview h3,
+  .quire-page.interview .content figure .q-figure__caption {
     color: white;
   }
   .quire-entry .q-figure__label--below .q-figure__modal-link {
@@ -688,7 +703,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
     fill: var(--mid);
   }
   .quire-entry .quire-page__abstract,
-  .quire-entry .quire-entry__tombstone {
+  .quire-entry .quire-entry__tombstone,
+  .quire-page.interview .quire-page__abstract,
+  .quire-page.interview .hero__image {
     display: none;
   }
   .quire-entry div.side-by-side div.quire-entry__content section.section,
@@ -696,7 +713,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry div.side-by-side div.quire-entry__content header {
     padding: 0;
   }
-  .quire .quire-entry#main {
+  .quire:not(.no-js) .quire__primary main.quire-entry,
+  .quire:not(.no-js) .quire__primary main.quire-page.interview {
     font-size: 1.1em;
     background-color: var(--deep-black);
   }

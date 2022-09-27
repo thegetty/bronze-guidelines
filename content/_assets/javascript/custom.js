@@ -194,10 +194,11 @@ window.filterImageGrid = function () {
 // Was originally triggering these with window.onload = function () {...}
 // bit it was breaking the Canvas Panel choices functionality, not sure why
 window.addEventListener('DOMContentLoaded', () => {
-  createAccordion('.quire-page.accordion h4')
-  createAccordion('.quire-page.accordion h3')
+  createAccordion('.quire-page.accordion.full-width h4')
+  createAccordion('.quire-page.accordion.full-width h3')
+  createAccordion('.quire-page.accordion.full-width h2[id=notes]')
+  createAccordion('.quire-page.accordion.interview h2')
   createAccordion('div.accordion h3')
-  createAccordion('.quire-page.accordion h2[id=notes]')
 
   wrapHeadingNumbers()
   prepImageGrid()
