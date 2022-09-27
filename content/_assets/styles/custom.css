@@ -1706,6 +1706,19 @@ table .poor { background-color: #F2F9F1; }
 #fig-224-0-dovetail-joint label::before {
   background-color: #d0132a; /* red */
 }
+/* FIG 227 */
+#lightbox-fig-227-0-flow-fusion-weld label::before,
+#fig-227-0-flow-fusion-weld label::before {
+  background-color: #ea86b2; /* pink */
+}
+#lightbox-fig-227-0-welding label::before,
+#fig-227-0-welding label::before {
+  background-color: #bed581; /* light green */
+}
+#lightbox-fig-227-0-securing-pins label::before,
+#fig-227-0-securing-pins label::before {
+  background-color: #63d9f3; /* light blue */
+}
 /* FIG 229 */
 #lightbox-fig-229-0-brazing-metal label::before,
 #fig-229-0-brazing-metal label::before {

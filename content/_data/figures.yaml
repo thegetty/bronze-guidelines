@@ -15,7 +15,7 @@ figure_list:
     src: "figures/case-studies/529-cover.jpg"
 
   - id: "fig-001"
-    src: "figures/iiif/001.jpg"
+    src: "figures/iiif/001.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 1"
@@ -28,8 +28,8 @@ figure_list:
     caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of Mars by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See {Bewer 1996a}."
 
   - id: "fig-003"
-    src: "figures/003.jpg"
-    media_type:
+    src: "figures/iiif/003.png"
+    # media_type: iiif
     label: "Figure 3"
     caption: "Graph showing the impact of a lost-wax sculpture’s size on the time needed for the different steps in the fabrication process. The data is based on records gathered between 1973 and 2006 kindly provided by Jean Dubos, director of Fonderie de Coubertin, and are based on the casting of a standing nude man, whatever the model. The duration is given in person-hours and only factors in working hours; the time needed for drying and baking of the investment, for instance, is not taken into account here, although those steps can take a long time (as shown in [table 1](/tables/#table-01)). Also, the more people working simultaneously on a bronze, the quicker the completion (again see [table 1](/tables/#table-01))."
 
@@ -103,7 +103,7 @@ figure_list:
             selected: true
 
   - id: "fig-009"
-    src: "figures/iiif/009.jpg"
+    src: "figures/iiif/009.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 9"
@@ -117,7 +117,7 @@ figure_list:
     caption: "Large casting flaws in the arms of a Khmer divinity reveal the tan-colored, clay-based core that remains inside the bronze. Note the very thin walls of the bronze at the edges of the losses. Standing Buddha in Abhayamudrā, post-Angkorian, Prasat Bakan (Pursat), 16th century, H. 24.2 cm (National Museum of Cambodia, inv. Ga.3330)."
 
   - id: "fig-011"
-    src: "figures/iiif/011.jpg"
+    src: "figures/iiif/011.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 11"
@@ -131,7 +131,7 @@ figure_list:
     caption: "Overall view and X-ray radiograph of the earliest known object made by lost-wax casting. Copper Amulet, Mehrgarh, Baluchistan, mid-5th–mid-4th millennium BCE, diameter 2 cm (Mission Archéologique Française du Bassin de l’Indus, inv. MR.85.03.00.01). See {Thoury et al. 2016}; {Mille 2017}."
 
   - id: "fig-013"
-    src: "figures/iiif/013.jpg"
+    src: "figures/iiif/013.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 13"
@@ -151,7 +151,7 @@ figure_list:
     caption: "Plaster molding of the 3D resin print of the head of Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the separate sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/#fig-017){target=_blank}, [19](/visual-atlas/#fig-019){target=_blank}, [24](/visual-atlas/#fig-024){target=_blank}). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-016"
-    src: "figures/iiif/016.jpg"
+    src: "figures/iiif/016.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 16"
@@ -165,7 +165,7 @@ figure_list:
     caption: "Application of wax slabs on the internal surface of one half of a plaster mold used for a bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-018"
-    src: "figures/iiif/018.jpg"
+    src: "figures/iiif/018.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 18"
@@ -197,7 +197,7 @@ figure_list:
     caption: "Hot molten wax is brushed onto the internal surface sections of a plaster mold as part of an indirect lost-wax casting process carried out during the 2016 CAST:ING meeting, Coubertin foundry, France."
 
   - id: "fig-023"
-    src: "figures/iiif/023.jpg"
+    src: "figures/iiif/023.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 23"
@@ -211,7 +211,7 @@ figure_list:
     caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-025"
-    src: "figures/iiif/025.jpg"
+    src: "figures/iiif/025.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 25"
@@ -219,7 +219,7 @@ figure_list:
     # annotations: true
 
   - id: "fig-026"
-    src: "figures/iiif/026.jpg"
+    src: "figures/iiif/026.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 26"
@@ -233,7 +233,7 @@ figure_list:
     caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](#I.3). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
 
   - id: "fig-028"
-    src: "figures/iiif/028.jpg"
+    src: "figures/iiif/028.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 28"
@@ -1109,8 +1109,8 @@ figure_list:
     caption: "X-radiographic sequence of a two-thirds-scale bronze reproduction of the head of the Apollo of Lillebonne showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Click on the image to spin. Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-122"
-    src: "figures/122.jpg"
-    media_type:
+    src: "figures/iiif/122.png"
+    # media_type: iiif
     label: "Figure 122"
     caption: "Four types of core supports used to hold the core in place during the pour: 1) core pins; 2) transverse core pin; 3) chaplets; 4) mold extension."
 
@@ -1185,7 +1185,7 @@ figure_list:
     caption: "Detail of the rear of the Matilda statuette showing different tool marks. The wider striations on the right and bottom were most likely made in the clay model. The finer parallel lines coming down on the left at a diagonal in the fold appear to have been made at the wax stage with a finer-toothed tool. After a model by Gian Lorenzo Bernini (Italian, 1598–1680), Countess Matilda of Tuscany, ca. 1633–34, H. 40 cm (Harvard Art Museums / Fogg Museum, partial gift of Max Falk and partial purchase through the Director’s Acquisition Fund, 1998.1). See {Bewer 1999}."
 
   - id: "fig-131"
-    src: "figures/iiif/131.jpg"
+    src: "figures/iiif/131.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 131"
@@ -1300,8 +1300,8 @@ figure_list:
     caption: "Detail showing how the expansion of the iron armatures due to corrosion has generated a crack in the mirror. Jean-Baptiste Poultier (French, 1653–1719), Two Putti and a Girl Holding a Mirror, ca. 1685, cast by Aubry, Bonvallet, Schabol and Taubin in 1685–87, Paris, H. 145 cm (Musée National des châteaux de Versailles et de Trianon, France, inv. 1850.8925). See {Maral, Bourgarit, and Amarger 2014} for the metal composition of the cast."
 
   - id: "fig-150"
-    src: "figures/150.jpg"
-    media_type:
+    src: "figures/iiif/150.png"
+    # media_type: iiif
     class: pdf-full-width
     label: "Figure 150"
     caption: "The five types of casting defects commonly encountered on bronze sculpture."
@@ -1430,7 +1430,7 @@ figure_list:
     caption: "360-degree general view (click on the image to spin) before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. Eros of Agde, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See {Mille 2012}."
 
   - id: "fig-167"
-    src: "figures/iiif/167.jpg"
+    src: "figures/iiif/167.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 167"
@@ -1479,15 +1479,15 @@ figure_list:
             selected: true
 
   - id: "fig-173"
-    src: "figures/173.jpg"
-    media_type:
+    src: "figures/iiif/173.png"
+    # media_type: iiif
     label: "Figure 173"
     caption: "The process of setting in a patch to mask a superficial casting flaw: 1) casting flaw noted on the surface of the bronze (cross section); 2) the flaw is chiseled to create a geometric shape that is easily duplicated; an undercutting bevel is cut into the sides of the wall; 3) a metal patch is set into the flaw; 4) the patch is hammered and chased to fill the flaw and match the adjacent surface as much as possible; the repair is locked in place by the undercut of the bevel; 5) a similar process can be used to insert a plug to repair a flaw that extends through the entire thickness of the wall."
     # annotations: true
 
   - id: "fig-174"
-    src: "figures/174.jpg"
-    media_type:
+    src: "figures/iiif/174.png"
+    # media_type: iiif
     label: "Figure 174"
     caption: "Diagram of a patch repair of a type seen on the statue of the Xanten Youth, Roman, last quarter of the 1st century BCE, H. 143 cm (Staatliche Museen zu Berlin, Antikensammlung, Neues Museum, inv. SK 4). 1) A copper alloy “granule” is positioned over a surface flaw; 2) a punch is used to force the granule into the flaw; and 3) the surface is further chased to conceal the flaw. After {Peltz 2011}, 127.1, fig. 12."
     # annotations: true
@@ -1577,8 +1577,8 @@ figure_list:
             selected: true
 
   - id: "fig-181"
-    src: "figures/181.jpg"
-    media_type:
+    src: "figures/iiif/181.png"
+    # media_type: iiif
     label: "Figure 181"
     caption: "Cast-on repair process: 1) casting flaw that extends through the wall of the bronze; 2) the edges of the flaw are cleaned up and core under the flawed area is partially excavated; 3) the flawed surface is modeled in wax; a pouring cup and vent are added; 4) the wax is invested; heat is applied locally until the wax melts out; 5) bronze is poured into the temporary mold; when cool, the investment is removed; 6) the pouring cup and vent are removed; the surface is chased to minimize the thin gap between the bulk metal and the cast-on repair caused due to shrinkage, and to unify the surface of the bronze."
     # annotations: true
@@ -1680,14 +1680,20 @@ figure_list:
             selected: true
 
   - id: "fig-191"
-    src: "figures/191.jpg"
-    media_type:
+    #src: "figures/iiif/191.jpg"
+    # media_type: iiif
     label: "Figure 191"
     caption: "Restorations (likely made of a type of resin) on a bronze fluoresce are revealed under ultraviolet examination. Use the cursor to shift from full-daylight to full-UV image. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See {C2RMF Internal Report 2008b}."
-    # annotations: true
+    annotations:
+      - input: radio
+        items:
+          - src: "figures/iiif/191/daylight.jpg"
+            label: "Daylight"
+          - src: "figures/iiif/191/uv.jpg"
+            label: "Ultraviolet"
 
   - id: "fig-192"
-    src: "figures/iiif/192.jpg"
+    src: "figures/iiif/192.png"
     # media_type: iiif
     label: "Figure 192"
     caption: "Diagram of a simple core pin repair: 1) a ball of excess wax is applied adjacent to a core pin that has been inserted into the wax model (cross section); 2) the bronze is poured and the core pin is removed; 3) the resulting hole is filled by hammering the excess bronze into the void; 4) the metal that fills the hole is chased to match the surrounding surfaces."
@@ -1781,7 +1787,7 @@ figure_list:
             selected: true
 
   - id: "fig-201"
-    src: "figures/iiif/201.jpg"
+    src: "figures/iiif/201.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 201"
@@ -1789,8 +1795,8 @@ figure_list:
     # annotations: true
 
   - id: "fig-202"
-    src: "figures/202.jpg"
-    media_type:
+    src: "figures/iiif/202.png"
+    # media_type: iiif
     label: "Figure 202"
     caption: "Two ways of preparing the two parts to be assembled by flow fusion welding as witnessed on various antique large bronzes. Left side: the base metal is cut away to half its thickness to make a channel through which the molten bronze can run; right side: a space is left between the two parts to be joined and the welding metal is directly poured through this space. See {Azéma et al. 2011}."
 
@@ -1915,11 +1921,16 @@ figure_list:
     caption: "Figures attached to a base using tangs and pins. In addition, a tang at the back of the gilt bronze Buddha figure has a hole for a pin to be inserted once the halo has been placed over the tang. Historical Buddha and Bodhisattvas, Buddhist altarpiece, northern China, Sui dynasty, 597 CE, H. 32.1 cm (Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Margaret and George Halderman, and Museum Funds, gift of Charles Lang Freer, inv. F1914.21a–h)."
 
   - id: "fig-215"
-    src: "figures/iiif/215.jpg"
+    src: "figures/iiif/215/base.jpg"
     # media_type: iiif
     label: "Figure 215"
     caption: "Annotated X-radiograph of Prajnaparamita and Lokeshvara showing the solid ring-shaped tangs cast with the statuettes to attach the figures to their base (arrows). Khmer Buddhist Triad, late 12th–early 13th century, H. 49.5 cm (National Museum of Cambodia, inv. Ga 2424). See {Bourgarit et al. 2003}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/215/tangs.png"
+            label: "Tangs"
+            selected: true
 
   - id: "fig-216"
     src: "figures/iiif/216/base.jpg"
@@ -2009,12 +2020,23 @@ figure_list:
     caption: "Bottom view of a statuette showing the cover being held on the bottom of the base by chiseling burrs from the base of the sculpture over the copper cover. The remains of resins to aid in sealing the joint can also be seen around the outer edges of the cover. Six-Armed Hayagriva, China, Qing Dynasty, second half of the 18th century, H. 16.5 cm (Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, The Alice S. Kandell Collection, inv. S2018.32)."
 
   - id: "fig-227"
-    src: "figures/iiif/227.jpg"
+    src: "figures/iiif/227/base.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 227"
     caption: "The drapery of the bronze arm was cast in sections and assembled using a flow fusion weld (pink overlay) that is only visible from the interior. The welding appears as a chain of oval shapes. The arm was then joined to the drapery by welding (green overlay) with securing pins (blue overlay). Arm of a statue found in the Villa of Arconciel, Switzerland, end of the 1st–3rd century CE, greater than life size (Service Archéologique de l’Etat de Fribourg, Switzerland, inv. Arconciel/Es-Nés FR 85). See {Mille and Serneels 2012}."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/iiif/227/flow-fusion-weld.png"
+            label: "Flow-Fusion Weld"
+            selected: true
+          - src: "figures/iiif/227/welding.png"
+            label: "Welding"
+            selected: true
+          - src: "figures/iiif/227/securing-pins.png"
+            label: "Securing Pins"
+            selected: true
 
   - id: "fig-228"
     src: "figures/iiif/228.jpg"
@@ -2053,7 +2075,7 @@ figure_list:
     caption: "This slice from a computer tomography (CT) scan captured at the widest area of the neck shows a layer of metal separating the head from the body (see overlay). This is evidence that the head was cast on to an already-cast body by a localized lost-wax process. Excess metal dripped down a hollow channel along the vertical wooden armature in the torso. Elemental mapping by X-ray fluorescence (XRF) analysis revealed that the body is made of a different alloy than the head, confirming that the head was joined to the body at a separate stage. Seated Brahma, Cambodia, late 12th or early 13th century, H. 31.5 cm (Walters Art Museum, Baltimore, inv. 54.2734). See {Strahan 1998}."
 
   - id: "fig-233"
-    src: "figures/iiif/233.jpg"
+    src: "figures/iiif/233.png"
     # media_type: iiif
     label: "Figure 233"
     caption: "Diagram of characteristic tool marks produced at various stages of the production of a bronze sculpture."
@@ -2509,14 +2531,14 @@ figure_list:
     caption: "Ternary diagram for gold-silver-copper alloys indicating the color of different alloy compositions."
 
   - id: "fig-304"
-    src: "figures/304.jpg"
-    media_type:
+    src: "figures/iiif/304.png"
+    # media_type: iiif
     class: pdf-full-width
     label: "Figure 304"
     caption: "Decision tree for the preliminary investigation and characterization of plating by visual examination."
 
   - id: "fig-305"
-    src: "figures/iiif/305.jpg"
+    src: "figures/iiif/305.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 305"
@@ -2529,8 +2551,8 @@ figure_list:
     caption: "Research indicated that, although brightly polished when acquired (left), this sculpture was intended by the artist to have a thin brown patina. It was therefore allowed to darken by exposure to air for some years (middle). This appearance was still considered unacceptable, so repatination was deemed necessary to return it to its original appearance (right). Jean Arp (French German, 1886–1966), *Human Concretion without Oval Bowl*, 1933, cast 1961, H. 58.4 cm (San Francisco Museum of Modern Art, William L. Gerstle Collection, William L. Gerstle Fund purchase, inv. 62.2431). See {Hamilton 2018}."
 
   - id: "fig-307"
-    src: "figures/307.jpg"
-    media_type:
+    src: "figures/iiif/307.png"
+    # media_type: iiif
     label: "Figure 307"
     caption: "Diagram showing the various factors involved in patina formation."
 
@@ -2716,7 +2738,7 @@ figure_list:
     caption: "Detail of a thin bronze plate showing “bronze disease”—light-green-colored eruptions of copper chlorides. Breastplate with Relief Decoration of a Four-Horse Chariot, southern Italy, ca. 480 BCE, L. 107 cm (J. Paul Getty Museum, inv. 83.AC.7.3)."
 
   - id: "fig-338"
-    src: "figures/iiif/338.jpg"
+    src: "figures/iiif/338.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 338"
@@ -2946,7 +2968,7 @@ figure_list:
             selected: true
 
   - id: "fig-368"
-    src: "figures/iiif/368.jpg"
+    src: "figures/iiif/368.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 368"
@@ -2983,7 +3005,7 @@ figure_list:
     caption: "Principle of photogrammetry."
 
   - id: "fig-374"
-    src: "figures/iiif/374.jpg"
+    src: "figures/iiif/374.png"
     # media_type: iiif
     label: "Figure 374"
     caption: "The main steps to design a resin model of a sculpture using photogrammetry: 1–2) digital photography of the original sculpture is undertaken at several angles to cover the whole object; 3) a digital model made of a dense cloud of points is made via reconstruction software; 4) the digital model is meshed and cleaned; 5) a 3D model is printed (here in resin) using the digital model; 6) details are added as well as painting."
@@ -3121,7 +3143,7 @@ figure_list:
     caption: "X-radiograph of a pair of *couvre seins* (breastplates). Contrast optimization in order to reveal hammering marks was obtained by discarding the X-ray beam filters. Other operating conditions were: 80kV, 4mA, 10 min. exposure, 1.5 m source-to-object distance, MX125PB film. Pair of *couvre seins*, Iran, early 2nd millennium BCE, 12 cm diameter (Musée du Louvre, inv. Sb 3055 a–b)."
 
   - id: "fig-397"
-    src: "figures/iiif/397.jpg"
+    src: "figures/iiif/397.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 397"
@@ -4267,7 +4289,7 @@ figure_list:
     caption: "Investment mold used to cast a small bronze (mold height ~32 cm). Andrew Lacey, 1998."
 
   - id: "fig-558"
-    src: "figures/iiif/558.jpg"
+    src: "figures/iiif/558.png"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 558"
