@@ -6,7 +6,7 @@
 # unless otherwise overridden by more specific contexts.
 [build]
 publish = "_site"
-command = "npm run build"
+command = "npm run build && cp -r content/_assets/images/figures/ _site/_assets/images/figures/"
 
 [build.environment]
 NODE_VERSION = "17.5.0"
