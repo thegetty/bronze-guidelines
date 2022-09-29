@@ -749,6 +749,10 @@ button.accordion-expander[aria-expanded="true"] .vert {
     min-height: calc(70vh - 3rem);
     margin-bottom: 30vh;
   }
+  /* TEMPORARY until callouts are annorefs */
+  .quire-entry.side-by-side p strong:first-child {
+    color: cyan;
+  }
 }
 
 /*  LIGHTBOX & MODAL
