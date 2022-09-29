@@ -1210,15 +1210,48 @@ table .poor { background-color: #F2F9F1; }
     column-gap: .1875in;
     /* column-fill: auto; */
   }
-  #print-copyright .quire-page__content .container .content .backmatter {
-    font-size: .75rem;
+  #print-copyright.quire-page.backmatter {
+    font-size: .875rem;
   }
   #print-copyright .quire-page__header.hero {
     display: none;
   }
-  #print-copyright img {
-    max-height: .25in;
-    margin-bottom: -4pt;
+  #print-copyright .quire-copyright {
+    padding: 0;
+  }
+  #print-copyright .project-team ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  #print-copyright .project-team ul li,
+  #print-copyright .project-team ul li p {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+  #print-copyright .publisher {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  #print-copyright .publisher p:first-child {
+    margin-bottom: 0;
+  }
+  /* LOC Cataloguing in Publication format */
+  .quire-page__content .container .content .cip-data p {
+    margin-bottom: 0;
+  }
+  .quire-page__content .container .content .cip-data ul {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+  .quire-page__content .container .content .cip-data ul li {
+    line-height: 1.6;
+    margin: 0;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+  }
+  .quire-page__content .container .content .cip-data ul li::before {
+    display: none;
   }
 
   /* Fixes made for `npm run build:prince` */
@@ -1236,11 +1269,24 @@ table .poor { background-color: #F2F9F1; }
   .title-page {
     break-before: right;
   }
+  .title-page {
+    padding-top: 2.25in;
+    padding-right: .75in;
+  }
+  .half-title-page {
+    padding-right: .75in;
+  }
+  .title-page .publisher {
+    right: .875in;
+  }
   .quire-page__header:not(.hero__image) {
     page-break-before: always;
   }
   .quire-page__header.hero__image {
     display: none;
+  }
+  .quire-contents-list {
+    padding: 0;
   }
   .quire-contents-list .menu-list {
     font-size: 1em;
@@ -1251,6 +1297,9 @@ table .poor { background-color: #F2F9F1; }
   }
   .quire-page__content .container .content ul:not(.bio) {
     list-style-type: disc;
+  }
+  .quire-page__content .container .content .cip-data ul {
+    list-style-type: none;
   }
   .quire-page__content .container .content ul li::before {
     content: none;
@@ -1402,21 +1451,6 @@ table .poor { background-color: #F2F9F1; }
   .warn > p:first-child {
     break-after: avoid;
     page-break-after: avoid;
-  }
-
-  .title-page {
-    padding-top: 2.25in;
-    padding-right: .75in;
-  }
-
-  #print-copyright .project-team ul {
-    list-style-type: none;
-    margin-left: 0;
-  }
-  #print-copyright .project-team ul li,
-  #print-copyright .project-team ul li p {
-    margin-bottom: 0;
-    margin-left: 0;
   }
 
 }
