@@ -55,26 +55,14 @@ object_list:
     figure:
       - id: "fig-500-cover"
       - id: "fig-500"
-      #- id: "fig-500"
-      #- id: "fig-500"
       - id: "fig-026"
       - id: "fig-501"
-      - id: "fig-110"
-      - id: "fig-111"
       - id: "fig-116"
-      - id: "fig-112"
-      - id: "fig-113"
-      #- id: "fig-116"
-      - id: "fig-114"
-      - id: "fig-115"
       - id: "fig-117"
       - id: "fig-111"
-      - id: "fig-112"
       - id: "fig-502"
       - id: "fig-503"
       #- id: "fig-500"
-      - id: "fig-503"
-      #- id: "fig-116"
 
   - id: case-study-4
     figure:
