@@ -3,8 +3,8 @@
 */
 /* TEMP "UNCORRECTED PROOF" BANNER */
 @media screen {
-  #container::before,
-  #container::after {
+  .quire-page::before,
+  .quire-page::after {
     color: black;
     font-weight: 700;
     position: fixed;
@@ -15,16 +15,28 @@
     text-align: center;
     padding-top: 1rem;
   }
-  #container::before {
+  .quire-page::before {
     content: "UNCORRECTED";
     background-color: cyan;
     bottom: -115px;
     left: -115px;
   }
-  #container::after {
+  .quire-page::after {
     content: "PROOF";
     bottom: -130px;
     left: -130px;
+  }
+  .quire-page.quire-entry::before,
+  .quire-page.quire-entry::after {
+    transform: rotate(-45deg);
+  }
+  .quire-page.quire-entry::before {
+    left: auto;
+    right: -115px;
+  }
+  .quire-page.quire-entry::after {
+    left: auto;
+    right: -130px;
   }
 }
 :root {
