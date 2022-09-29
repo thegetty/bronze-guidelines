@@ -3,79 +3,29 @@ title: Demo
 order: 2050
 layout: page
 outputs: [html]
+toc: false
+menu: false
 ---
 
 ## IIIF Radio and Checkboxes
 
+{% figuregroup '3' 'fig-191, fig-215, fig-227' %}
+
+<div class="test">
+
+{% figuregroup '3' 'fig-191, fig-215, fig-227' %}
+
+</div>
+
+{% figure 'fig-191' %}
+
+{% figure 'fig-215' %}
+
+{% figure 'fig-227' %}
+
 {% figure 'fig-006' %}
 
 {% annoref fig="fig-006" anno="flashing,cold-shut" text="Fig 6 -- two layers" %}
-
-{% figure 'fig-008' %}
-
-{% figure 'fig-031' %}
-
-{% figure 'fig-032' %}
-
-{% figure 'fig-034' %}
-
-{% figure 'fig-035' %}
-
-{% figure 'fig-037' %}
-
-{% figure 'fig-038' %}
-
-{% figure 'fig-042' %}
-
-{% figure 'fig-043' %}
-
-{% figure 'fig-050' %}
-
-{% figure 'fig-051' %}
-
-{% figure 'fig-052' %}
-
-{% figure 'fig-054' %}
-
-{% figure 'fig-056' %}
-
-{% figure 'fig-057' %}
-
-{% figure 'fig-059' %}
-
-{% figure 'fig-060' %}
-
-{% figure 'fig-061' %}
-
-{% figure 'fig-063' %}
-
-{% figure 'fig-064' %}
-
-{% figure 'fig-072' %}
-
-{% figure 'fig-075' %}
-
-{% figure 'fig-077' %}
-
-{% figure 'fig-078' %}
-
-{% figure 'fig-079' %}
-
-{% figure 'fig-080' %}
-
-{% figure 'fig-084' %}
-
-{% figure 'fig-086' %}
-
-{% figure 'fig-090' %}
-
-{% figure 'fig-091' %}
-
-{% figure 'fig-092' %}
-
-{% figure 'fig-093' %}
-
-{% figure 'fig-095' %}
 
 
 
