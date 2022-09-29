@@ -118,6 +118,10 @@ Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig
 **_plugins/shortcodes/warn.js**
 Custom shortcode to wrap content in a `<div>` with a "warn" class.
 
+**_plugins/transforms/outputs/pdf/layout.html**
+**_plugins/transforms/outputs/pdf/write.js**
+Add needed divs and classes for styling pdf.
+
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**
 

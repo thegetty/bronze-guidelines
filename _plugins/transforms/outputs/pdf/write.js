@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// changed element for appendChild(sectionElement), Line 34
+// see _plugins/transforms/outputs/pdf/layout.html
+//
 const chalkFactory = require('~lib/chalk')
 const fs = require('fs-extra')
 const jsdom = require('jsdom')
@@ -26,7 +31,7 @@ module.exports = async function(collection) {
 
   collection.forEach(({ outputPath, sectionElement }) => {
     try {
-      document.body.appendChild(sectionElement)
+      document.getElementById('quire-primary').appendChild(sectionElement)
     } catch (errorMessage) {
       error(`Eleventy transform for PDF error appending content for ${outputPath} to combined output. ${errorMessage}`)
     }
