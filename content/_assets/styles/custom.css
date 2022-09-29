@@ -1,6 +1,32 @@
 /*
    CUSTOMIZED FILE -- Bronze Guidelines
 */
+/* TEMP "UNCORRECTED PROOF" BANNER */
+@media screen {
+  #container::before,
+  #container::after {
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    width: 230px;
+    height: 230px;
+    z-index: 4000;
+    transform: rotate(-45deg);
+    text-align: center;
+    padding-top: 1rem;
+  }
+  #container::before {
+    content: "UNCORRECTED";
+    background-color: cyan;
+    bottom: -115px;
+    right: -115px;
+  }
+  #container::after {
+    content: "PROOF";
+    bottom: -130px;
+    right: -130px;
+  }
+}
 :root {
 
   /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
