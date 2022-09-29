@@ -1,3 +1,9 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added oneLine for return value, lines 5 and 33
+//
+const { oneLine } = require('~lib/common-tags')
+
 module.exports = function(eleventyConfig) {
   return function (params) {
     const { publication } = eleventyConfig.globalData
@@ -24,7 +30,7 @@ module.exports = function(eleventyConfig) {
       `
     }
 
-    return `
+    return oneLine`
       ${licenseText}
       <span class="is-print-only">
         To view a copy of this license visit ${license.url}.

@@ -73,6 +73,9 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 **_includes/components/contributor/bio.js**
 Output contributor bio page links as semantic list.
 
+**_includes/components/copyright/licensing.js**
+Output license info in one line.
+
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
