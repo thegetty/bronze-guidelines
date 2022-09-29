@@ -51,10 +51,11 @@ publisher:
 
 project_team:
   - Ruth Evans Lane, *Project Editor*
+  - Lindsey Westbrook, *Manuscript Editor*
   - Greg Albers, *Digital Publications Manager*
   - Kurt Hauser, *Cover Design*
   - Molly McGeehan, *Production*
-  - Nancy Rivera, *Image and Rights Acquisition*
+  - Kelly Peyton, Nancy Rivera, and Leslie Rollins, *Image and Rights Acquisition*
   - Dina Murokh, *Digital Assistant*
 
 # ------------------------------------------------------------------------------
@@ -127,7 +128,7 @@ resource_link:
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: 
+    url:
   - type: other-format
     name: Paperback
     media_type: print

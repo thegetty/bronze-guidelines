@@ -1111,6 +1111,66 @@ table .poor { background-color: #F2F9F1; }
 #copyright .quire-page__content .cip-data ul li::before {
   content: none;
 }
+#about .quire-page__content .cip-data,
+#print-copyright .quire-page__content .cip-data {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 1rem 0;
+}
+#about .quire-page__content .cip-data p,
+#print-copyright .quire-page__content .cip-data p {
+  margin-bottom: 0;
+}
+#about .quire-page__content .cip-data ul,
+#print-copyright .quire-page__content .cip-data ul {
+  margin-left: 0;
+  margin-top: 0;
+}
+#about .quire-page__content .cip-data ul li,
+#print-copyright .quire-page__content .cip-data ul li {
+  margin: 0;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+#about .quire-page__content .cip-data ul li::before,
+#print-copyright .quire-page__content .cip-data ul li::before {
+  content: none;
+}
+#print-copyright .quire-copyright {
+  padding: 0;
+  margin-bottom: 1em;
+}
+#print-copyright .quire-copyright .copyright__publisher-logo {
+  display: none;
+}
+#print-copyright .project-team ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#print-copyright .project-team ul li,
+#print-copyright .project-team ul li p {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+#print-copyright .quire-page {
+  page: no-footer;
+}
+#print-copyright {
+  margin-top: .5in;
+}
+#print-copyright.quire-page.backmatter {
+  font-size: .875rem;
+}
+#print-copyright .quire-page__header.hero {
+  display: none;
+}
+#print-copyright .publisher {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+#print-copyright .publisher p:first-child {
+  margin-bottom: 0;
+}
 
 /*  PRINT/PDF
 ============================================================================= */
@@ -1125,7 +1185,26 @@ table .poor { background-color: #F2F9F1; }
   .quire-entry.side-by-side p strong:first-child {
     display: none;
   }
-  /* Make 2 columns throughout*/
+  #vol-1 .quire-page__content,
+  #vol-2 .quire-page__content,
+  #case-studies .quire-page__content {
+    display: none;
+    page: no-footer;
+  }
+  /* Fix/set running feet */
+  @page:right {
+    @bottom-left {
+      text-transform: uppercase;
+      font-size: 7.5pt;
+    }
+  }
+  .quire-page .quire-page__header__title .label {
+    string-set: sectiontitle content();
+  }
+  .quire-page .quire-page__header__title .quire-page-title {
+    string-set: pagetitle content();
+  }
+  /* Make 2 columns throughout */
   .quire-page:not(.quire-contents) .quire-page__content {
     column-count: 2;
     column-fill: balance;
@@ -1154,7 +1233,7 @@ table .poor { background-color: #F2F9F1; }
     line-height: 1.6;
   }
   .quire-page__content .content .quire-page__content__references dl {
-    margin-bottom: .25rem;
+    margin-bottom: .375rem;
     font-size: .75rem;
     line-height: 1.6;
   }
@@ -1170,97 +1249,51 @@ table .poor { background-color: #F2F9F1; }
   }
   .quire-page.vocabulary h1,
   .quire-page.vocabulary .quire-page__header__title {
-    font-weight: normal;
     margin: 0;
   }
-  .quire-page.vocabulary h2 {
-    font-size: 1.375rem;
-    margin: 1rem 0 !important;
-  }
-  .quire-page.vocabulary h3 {
-    font-size: 1.125rem;
-    margin: 1rem 0 !important;
-  }
-  .quire-page.vocabulary h4 {
+  .quire-page.vocabulary h2,
+  .quire-page.vocabulary div.accordion h2 {
     font-size: 1rem;
     margin: 1rem 0 !important;
   }
+  .quire-page.vocabulary h2#translations {
+    font-size: 1.375rem;
+    margin: 1.5rem 0 1rem !important;
+  }
+  .quire-page.vocabulary h3,
   .quire-page.vocabulary div.accordion h3 {
+    font-size: 1.375rem;
+    margin: 1rem 0 !important;
+  }
+  .quire-page.vocabulary div.accordion h3 {
+    border-top-color: var(--light);
     border-top-width: 1px;
     padding-top: 1rem;
     padding-bottom: 0;
     padding-left: 0;
   }
+  .quire-page.vocabulary h4 {
+    font-size: 1rem;
+    margin: 1rem 0 !important;
+  }
   .quire-page.vocabulary div.accordion {
     margin-top: 0;
-    border-bottom-width: 1px;
+    border-bottom-width: 0;
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
     margin-bottom: 0;
   }
-  #print-copyright .quire-page {
-    page: no-footer;
+  .quire-page.vocabulary .quire-page__content .backmatter {
+    font-size: .875em;
   }
-  #print-copyright {
-    margin-top: .5in;
-  }
-  #print-copyright .quire-page__content {
-    text-align: left;
-    column-count: 2;
-    column-gap: .1875in;
-    /* column-fill: auto; */
-  }
-  #print-copyright.quire-page.backmatter {
-    font-size: .875rem;
-  }
-  #print-copyright .quire-page__header.hero {
-    display: none;
-  }
-  #print-copyright .quire-copyright {
-    padding: 0;
-  }
-  #print-copyright .project-team ul {
-    list-style-type: none;
-    margin-left: 0;
-  }
-  #print-copyright .project-team ul li,
-  #print-copyright .project-team ul li p {
-    margin-bottom: 0;
-    margin-left: 0;
-  }
-  #print-copyright .publisher {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-  #print-copyright .publisher p:first-child {
-    margin-bottom: 0;
-  }
-  /* LOC Cataloguing in Publication format */
-  .quire-page__content .container .content .cip-data p {
-    margin-bottom: 0;
-  }
-  .quire-page__content .container .content .cip-data ul {
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: .5rem;
-  }
-  .quire-page__content .container .content .cip-data ul li {
-    line-height: 1.6;
-    margin: 0;
-    padding-left: 1.5em;
-    text-indent: -1.5em;
-  }
-  .quire-page__content .container .content .cip-data ul li::before {
-    display: none;
-  }
-
-  /* Fixes made for `npm run build:prince` */
+  /* Add TOC dotted leaders back in since Prince supports them */
   .quire-contents-list .page-item a::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page);
   }
   .quire-contents-list .page-item a.frontmatter-page::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
   }
+  /* Style half title and title pages */
   .half-title-page,
   .title-page {
     height: auto;
@@ -1279,22 +1312,31 @@ table .poor { background-color: #F2F9F1; }
   .title-page .publisher {
     right: .875in;
   }
+  /* Headers */
   .quire-page__header:not(.hero__image) {
     page-break-before: always;
   }
   .quire-page__header.hero__image {
     display: none;
   }
+  /* TOCs */
   .quire-contents-list {
     padding: 0;
   }
   .quire-contents-list .menu-list {
     font-size: 1em;
   }
+  /* Add margins for consistent spacing */
   .quire-page__content .container .content p,
   .quire-page__content .container .content ul {
     margin-bottom: 1em;
   }
+  /* Avoid widowing the warning headings */
+  .warn > p:first-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  /* Fallback to standard list CSS */
   .quire-page__content .container .content ul:not(.bio) {
     list-style-type: disc;
   }
@@ -1304,12 +1346,14 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content .container .content ul li::before {
     content: none;
   }
+  /* Links */
   .q-figure__modal-link {
     border-bottom-width: 0;
   }
   .q-figure__label.q-figure__label--below .q-figure__modal-link {
     line-height: 0;
   }
+  /* Tables */
   @page big_table {
     -prince-rotate-body: landscape;
     -prince-shrink-to-fit: auto;
@@ -1320,42 +1364,6 @@ table .poor { background-color: #F2F9F1; }
   .q-figure.q-figure--table#table-03 {
     page: big_table;
   }
-  #vol-1 .quire-page__content,
-  #vol-2 .quire-page__content,
-  #case-studies .quire-page__content {
-    display: none;
-    page: no-footer;
-  }
-  .quire-entry__image-wrap {
-    background-color: var(--deep-black);
-    max-height: 8.5in;
-    width: auto;
-    height: auto;
-  }
-  .quire-entry__image-wrap figure:first-of-type {
-    border-width: 0;
-    padding: 0;
-  }
-
-  .quire-page.vocabulary .quire-page__content .backmatter {
-    font-size: .875em;
-  }
-  .quire-page.vocabulary div.accordion {
-    border-bottom-width: 0;
-  }
-  .quire-page.vocabulary h2:not(#translations),
-  .quire-page.vocabulary div.accordion h2 {
-    font-size: 1rem;
-  }
-  .quire-page.vocabulary h3,
-  .quire-page.vocabulary div.accordion h3 {
-    font-size: 1.375rem;
-  }
-  .quire-page.vocabulary div.accordion h3 {
-    border-top-color: var(--light);
-    border-top-width: 1px;
-  }
-
   /* TABBED PAGES */
   /* These styles add a solid-color tab to the edge of the page to make it
     easier for readers to quickly thumb to those sections: Vocabulary and
@@ -1434,7 +1442,17 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.quire-visual-atlas {
     page: atlas;
   }
-
+  /* Case studies */
+  .quire-entry__image-wrap {
+    background-color: var(--deep-black);
+    max-height: 8.5in;
+    width: auto;
+    height: auto;
+  }
+  .quire-entry__image-wrap figure:first-of-type {
+    border-width: 0;
+    padding: 0;
+  }
   @page entry-image {
     background-color: var(--deep-black);
     @bottom-right {
@@ -1447,12 +1465,6 @@ table .poor { background-color: #F2F9F1; }
   .quire-entry__image-wrap {
     page: entry-image;
   }
-
-  .warn > p:first-child {
-    break-after: avoid;
-    page-break-after: avoid;
-  }
-
 }
 
 /*  CHOICES LABEL COLORS
