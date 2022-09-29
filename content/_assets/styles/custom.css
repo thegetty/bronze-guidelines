@@ -11,7 +11,7 @@
     width: 230px;
     height: 230px;
     z-index: 4000;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
     text-align: center;
     padding-top: 1rem;
   }
@@ -19,12 +19,12 @@
     content: "UNCORRECTED";
     background-color: cyan;
     bottom: -115px;
-    right: -115px;
+    left: -115px;
   }
   #container::after {
     content: "PROOF";
     bottom: -130px;
-    right: -130px;
+    left: -130px;
   }
 }
 :root {
