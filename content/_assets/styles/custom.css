@@ -350,31 +350,33 @@ a.quire-definition__content__more-link {
   display: none;
 }
 /* Add custom label icons for choices figures and videos */
-.quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon,
-.quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon {
-  display: none;
-}
-.quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='m10 17.458-7.271-5.729 1.375-1.104L10 15.25l5.896-4.625 1.375 1.104Zm0-4.291L2.729 7.438 10 1.729l7.271 5.709Zm0-5.605Zm0 3.396 4.458-3.52L10 3.938l-4.458 3.5Z'/%3E%3C/svg%3E");
-  position: relative;
-  top: 6px;
-  margin-right: -2px;
-}
-.quire-page__content .q-figure form + figcaption.q-figure__caption {
-  margin-top: -5px;
-}
-.quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='M7.958 13.562 13.562 10 7.958 6.438ZM10 18.167q-1.688 0-3.177-.636-1.49-.635-2.604-1.75-1.115-1.114-1.75-2.604-.636-1.489-.636-3.177 0-1.708.636-3.187.635-1.48 1.75-2.594 1.114-1.115 2.604-1.75Q8.312 1.833 10 1.833q1.708 0 3.188.636 1.479.635 2.593 1.75 1.115 1.114 1.75 2.604.636 1.489.636 3.177t-.636 3.177q-.635 1.49-1.75 2.604-1.114 1.115-2.604 1.75-1.489.636-3.177.636Zm0-1.729q2.688 0 4.562-1.876 1.876-1.874 1.876-4.562t-1.876-4.562Q12.688 3.562 10 3.562T5.438 5.438Q3.562 7.312 3.562 10t1.876 4.562Q7.312 16.438 10 16.438ZM10 10Z'/%3E%3C/svg%3E");
-  position: relative;
-  top: 6px;
-  margin-right: 2px;
-}
-.quire-page__content .q-figure--vimeo figcaption.q-figure__caption {
-  margin-top: -11px;
-}
-.q-figure__label .q-figure__label-icon svg {
-  width: 1.375rem;
-  height: 1.375rem;
+@media screen {
+  .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon,
+  .quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon {
+    display: none;
+  }
+  .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='m10 17.458-7.271-5.729 1.375-1.104L10 15.25l5.896-4.625 1.375 1.104Zm0-4.291L2.729 7.438 10 1.729l7.271 5.709Zm0-5.605Zm0 3.396 4.458-3.52L10 3.938l-4.458 3.5Z'/%3E%3C/svg%3E");
+    position: relative;
+    top: 6px;
+    margin-right: -2px;
+  }
+  .quire-page__content .q-figure form + figcaption.q-figure__caption {
+    margin-top: -5px;
+  }
+  .quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='M7.958 13.562 13.562 10 7.958 6.438ZM10 18.167q-1.688 0-3.177-.636-1.49-.635-2.604-1.75-1.115-1.114-1.75-2.604-.636-1.489-.636-3.177 0-1.708.636-3.187.635-1.48 1.75-2.594 1.114-1.115 2.604-1.75Q8.312 1.833 10 1.833q1.708 0 3.188.636 1.479.635 2.593 1.75 1.115 1.114 1.75 2.604.636 1.489.636 3.177t-.636 3.177q-.635 1.49-1.75 2.604-1.114 1.115-2.604 1.75-1.489.636-3.177.636Zm0-1.729q2.688 0 4.562-1.876 1.876-1.874 1.876-4.562t-1.876-4.562Q12.688 3.562 10 3.562T5.438 5.438Q3.562 7.312 3.562 10t1.876 4.562Q7.312 16.438 10 16.438ZM10 10Z'/%3E%3C/svg%3E");
+    position: relative;
+    top: 6px;
+    margin-right: 2px;
+  }
+  .quire-page__content .q-figure--vimeo figcaption.q-figure__caption {
+    margin-top: -11px;
+  }
+  .q-figure__label .q-figure__label-icon svg {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
 }
 
 /* FIGURE MODAL
@@ -889,6 +891,11 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-left: 3px;
   margin-bottom: -5px;
 }
+@media print {
+  .quire-page__content .q-figure__modal-link + svg  {
+    display: none;
+  }
+}
 
 /* Style tables as they appear on the page */
 .q-figure.q-figure--table {
@@ -1112,7 +1119,10 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content figure.q-figure--group,
   .quire-contents-buttons,
   .quire-page__content table.vocab-table,
-  .image-grid-search-box {
+  .image-grid-search-box,
+  .quire-entry.side-by-side .section.quire-page__abstract,
+  #case-studies-7 .quire-page__content figure.q-figure--vimeo,
+  .quire-entry.side-by-side p strong:first-child {
     display: none;
   }
   /* Make 2 columns throughout*/
@@ -1151,13 +1161,6 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content .content .quire-page__content__references dl dd {
     margin-bottom: 0;
   }
-  /* Try alternate handling of list bullets */
-  .quire-page__content .container .content ul {
-    list-style-type: "◆";
-  }
-  .quire-page__content .container .content ul li::before {
-    content: none;
-  }
   /* Fix up vocab pages */
   .quire-page.vocabulary .quire-page__content {
     font-size: .875rem;
@@ -1195,6 +1198,227 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.vocabulary .quire-page__content .container .content li {
     margin-bottom: 0;
   }
+  #print-copyright .quire-page {
+    page: no-footer;
+  }
+  #print-copyright {
+    margin-top: .5in;
+  }
+  #print-copyright .quire-page__content {
+    text-align: left;
+    column-count: 2;
+    column-gap: .1875in;
+    /* column-fill: auto; */
+  }
+  #print-copyright .quire-page__content .container .content .backmatter {
+    font-size: .75rem;
+  }
+  #print-copyright .quire-page__header.hero {
+    display: none;
+  }
+  #print-copyright img {
+    max-height: .25in;
+    margin-bottom: -4pt;
+  }
+
+  /* Fixes made for `npm run build:prince` */
+  .quire-contents-list .page-item a::after {
+    content: leader(dotted) ' 'target-counter(attr(href, url), page);
+  }
+  .quire-contents-list .page-item a.frontmatter-page::after {
+    content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
+  }
+  .half-title-page,
+  .title-page {
+    height: auto;
+    page: no-footer;
+  }
+  .title-page {
+    break-before: right;
+  }
+  .quire-page__header:not(.hero__image) {
+    page-break-before: always;
+  }
+  .quire-page__header.hero__image {
+    display: none;
+  }
+  .quire-contents-list .menu-list {
+    font-size: 1em;
+  }
+  .quire-page__content .container .content p,
+  .quire-page__content .container .content ul {
+    margin-bottom: 1em;
+  }
+  .quire-page__content .container .content ul:not(.bio) {
+    list-style-type: disc;
+  }
+  .quire-page__content .container .content ul li::before {
+    content: none;
+  }
+  .q-figure__modal-link {
+    border-bottom-width: 0;
+  }
+  .q-figure__label.q-figure__label--below .q-figure__modal-link {
+    line-height: 0;
+  }
+  @page big_table {
+    -prince-rotate-body: landscape;
+    -prince-shrink-to-fit: auto;
+  }
+  .q-figure.q-figure--table {
+    column-span: all;
+  }
+  .q-figure.q-figure--table#table-03 {
+    page: big_table;
+  }
+  #vol-1 .quire-page__content,
+  #vol-2 .quire-page__content,
+  #case-studies .quire-page__content {
+    display: none;
+    page: no-footer;
+  }
+  .quire-entry__image-wrap {
+    background-color: var(--deep-black);
+    max-height: 8.5in;
+    width: auto;
+    height: auto;
+  }
+  .quire-entry__image-wrap figure:first-of-type {
+    border-width: 0;
+    padding: 0;
+  }
+
+  .quire-page.vocabulary .quire-page__content .backmatter {
+    font-size: .875em;
+  }
+  .quire-page.vocabulary div.accordion {
+    border-bottom-width: 0;
+  }
+  .quire-page.vocabulary h2:not(#translations),
+  .quire-page.vocabulary div.accordion h2 {
+    font-size: 1rem;
+  }
+  .quire-page.vocabulary h3,
+  .quire-page.vocabulary div.accordion h3 {
+    font-size: 1.375rem;
+  }
+  .quire-page.vocabulary div.accordion h3 {
+    border-top-color: var(--light);
+    border-top-width: 1px;
+  }
+
+  /* TABBED PAGES */
+  /* These styles add a solid-color tab to the edge of the page to make it
+    easier for readers to quickly thumb to those sections: Vocabulary and
+    Visual Atlas. The tabs for each section are placed in a different position
+    vertically on the page, which is controled may the `margin-top` value.
+    To make the tabs wider or narrower, use the `margin-right` or `margin-left`
+    value, but be sure to also change the `transform-origin` value accordingly.
+    */
+  @page vocab:right {
+    @right-top {
+      content: "VOCABULARY";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(-90deg);
+      transform-origin: .75in .375in;
+      margin-top: 1.5in; /* increments of 1.5in to control vertical placement */
+      margin-right: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  @page vocab:left {
+    @left-top {
+      content: "VOCABULARY";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(90deg);
+      transform-origin: .75in .375in;
+      margin-top: 1.5in; /* increments of 1.5in to control vertical placement */
+      margin-left: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-right {
+      content: none;
+    }
+  }
+  @page atlas:right {
+    @right-top {
+      content: "VISUAL ATLAS";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(-90deg);
+      transform-origin: .75in .375in;
+      margin-top: 3in; /* increments of 1.5in to control vertical placement */
+      margin-right: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  @page atlas:left {
+    @left-top {
+      content: "VISUAL ATLAS";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(90deg);
+      transform-origin: .75in .375in;
+      margin-top: 3in; /* increments of 1.5in to control vertical placement */
+      margin-left: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-right {
+      content: none;
+    }
+  }
+  .quire-page.vocabulary {
+    page: vocab;
+  }
+  .quire-page.quire-visual-atlas {
+    page: atlas;
+  }
+
+  @page entry-image {
+    background-color: var(--deep-black);
+    @bottom-right {
+      content: none;
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  .quire-entry__image-wrap {
+    page: entry-image;
+  }
+
+  .warn > p:first-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .title-page {
+    padding-top: 2.25in;
+    padding-right: .75in;
+  }
+
+  #print-copyright .project-team ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  #print-copyright .project-team ul li,
+  #print-copyright .project-team ul li p {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
 }
 
 /*  CHOICES LABEL COLORS

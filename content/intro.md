@@ -3,7 +3,7 @@ title: General Introduction
 order: 50
 layout: page
 presentation: full-width accordion
-class: accordion
+class: accordion page-one
 contributor:
   - id: fbrewer
   - id: dbourgarit

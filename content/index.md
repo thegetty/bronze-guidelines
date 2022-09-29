@@ -3,6 +3,7 @@ title: Cover
 order: 1
 menu: false
 layout: cover
+outputs: [html]
 toc: false
 image_set:
   - figures/cover/047-cover.jpg

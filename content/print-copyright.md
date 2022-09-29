@@ -1,5 +1,5 @@
 ---
-layout: base.11ty.js
+layout: page
 class: backmatter
 order: 4
 outputs: [pdf, epub]
