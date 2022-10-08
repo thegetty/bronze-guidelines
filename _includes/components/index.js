@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added vocabIndexPageHeader, line 70
+//
 /**
  * Export all component includes
  */
@@ -62,5 +66,6 @@ module.exports = {
   tableOfContentsItem: require('./table-of-contents/item/index.js'),
   tableOfContentsList: require('./table-of-contents/list/index.js'),
   tableOfContentsListItem: require('./table-of-contents/item/list.js'),
-  twitterCard: require('./head-tags/twitter-card.js')
+  twitterCard: require('./head-tags/twitter-card.js'),
+  vocabIndexPageHeader: require('./vocab-index-page-header.js')
 }

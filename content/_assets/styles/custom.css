@@ -518,6 +518,21 @@ button.accordion-expander[aria-expanded="true"] .vert {
   border-top: 2px solid var(--black);
   padding-top: 2.5rem;
 }
+/* Style various contributors on the index page */
+#vocabulary.quire-page .quire-page__header__contributor {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#vocabulary.quire-page .quire-page__header__contributor .edited-by {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#vocabulary.quire-page .quire-page__header__contributor .additional-contributors {
+  margin-top: 1rem;
+  font-size: .875rem;
+  border-bottom-width: 0;
+}
 
 /*  VISUAL ATLAS PAGE
     type: visual-atlas
