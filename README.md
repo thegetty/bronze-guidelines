@@ -94,8 +94,8 @@ Custom include to create definition pop-ups.
 **_includes/web-components/modal/index.js**
 Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
-**_layouts/page.entry**
-Use default `pageHeader` and remove bibliography.
+**_layouts/page.case-study**
+Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
 **_layouts/page.liquid**
 Remove bibliographies from all pages.
