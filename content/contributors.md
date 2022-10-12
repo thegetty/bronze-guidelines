@@ -35,7 +35,7 @@ class: pdf-backmatter
   </div>
   <div class="media">
   <div class="quire-contributor__details media-content">
-  <div class="quire-contributor__bio">{{ contributor_vals[2] | markdownify }}</div>
+  <div class="quire-contributor__bio"><p>{{ contributor_vals[2] | markdownify }}</p></div>
   </div>
   </div>
   </li>
