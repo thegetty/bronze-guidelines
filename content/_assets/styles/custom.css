@@ -1,7 +1,7 @@
 /*
    CUSTOMIZED FILE -- Bronze Guidelines
 */
-/* TEMP "UNCORRECTED PROOF" BANNER */
+/* TEMPORARY "Uncorrected Proof" Banner */
 @media screen {
   .quire-page::before,
   .quire-page::after {
@@ -38,6 +38,18 @@
     left: auto;
     right: -130px;
   }
+}
+/* TEMPORARY until callouts are annorefs */
+.quire-entry .side-by-side p strong:first-child {
+  color: cyan;
+}
+/* TEMPORARY until we figure out how to display the editors */
+#contents.quire-page .toc-list a .contributor {
+  background-color: yellow;
+}
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor-divider,
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor {
+  display: none;
 }
 :root {
 
@@ -801,10 +813,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry .slide {
     min-height: calc(70vh - 3rem);
     margin-bottom: 30vh;
-  }
-  /* TEMPORARY until callouts are annorefs */
-  .quire-entry.side-by-side p strong:first-child {
-    color: cyan;
   }
 }
 
