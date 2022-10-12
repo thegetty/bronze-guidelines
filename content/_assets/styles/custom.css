@@ -44,9 +44,6 @@
   color: cyan;
 }
 /* TEMPORARY until we figure out how to display the editors */
-#contents.quire-page .toc-list a .contributor {
-  background-color: yellow;
-}
 #contents.quire-page .toc-list a[href='/vocabulary/'] .contributor-divider,
 #contents.quire-page .toc-list a[href='/vocabulary/'] .contributor {
   display: none;
@@ -1245,9 +1242,8 @@ table .poor { background-color: #F2F9F1; }
   .quire-contents-buttons,
   .quire-page__content table.vocab-table,
   .image-grid-search-box,
-  .quire-entry.side-by-side .section.quire-page__abstract,
   #case-studies-7 .quire-page__content figure.q-figure--vimeo,
-  .quire-entry.side-by-side p strong:first-child {
+  .quire-entry .side-by-side p strong:first-child {
     display: none;
   }
   #vol-1 .quire-page__content,
