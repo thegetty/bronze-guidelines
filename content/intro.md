@@ -2,10 +2,9 @@
 title: General Introduction
 order: 50
 layout: page
-presentation: full-width accordion
-class: accordion page-one
+class: full-width accordion page-one
 contributor:
-  - id: fbrewer
+  - id: fbewer
   - id: dbourgarit
 abstract: "The aim of the CAST:ING project has been to bring together an interdisciplinary group of experts to create a framework that facilitates advances in the understanding of bronze sculpture through the use of shared vocabulary and protocols for the more technical aspects of art-technological studies. The international team that contributed to the project includes some fifty-two members, comprising conservators, scientists, curators, art historians, historians, archaeologists, metallurgists, and craftspeople studying bronze production of different eras and cultures. They work with or for museums and other cultural heritage institutions and universities where much of this kind of work has been carried out thus far."
 ---

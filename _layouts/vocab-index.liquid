@@ -1,0 +1,33 @@
+---
+## CUSTOMIZED FILE -- Bronze Guidelines
+## uses vocabIndexPageHeader for custom contributor treatment
+##
+class: quire-page
+layout: base.11ty.js
+description: Custom template for the Vocabulary index/table
+---
+
+{% vocabIndexPageHeader
+  contributor_byline=contributor_byline,
+  image=image,
+  label=label,
+  pageContributors=pageContributors,
+  subtitle=subtitle,
+  title=title,
+  edited_by=edited_by,
+  additional_contributors=additional_contributors
+%}
+{% if content %}
+<section class="section quire-page__content">
+  <div class="container">
+    <div class="content">
+      {{ content }}
+    </div>
+  </div>
+</section>
+{% endif %}
+<section class="section quire-page__content">
+  <div class="container">
+    {% pageButtons pagination=pagination %}
+  </div>
+</section>

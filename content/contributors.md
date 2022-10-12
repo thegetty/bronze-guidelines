@@ -10,16 +10,20 @@ class: pdf-backmatter
 ---
 
 {%- capture contributors_list -%}
+{%- for contributor in publication.contributor -%}
+{%- if contributor.type == "secondary" -%}
+{{- contributor.last_name }}|{{ contributor.first_name }}|{{ contributor.bio }}::
+{%- endif -%}
+{%- endfor -%}
 {%- for page in collections.all -%}
 {%- for contributor in page.data.contributor -%}
 {%- if contributor.type == "secondary" -%}
-{{- contributor.last_name }}|{{ contributor.first_name }}|{{ contributor.bio }}
+{{- contributor.last_name }}|{{ contributor.first_name }}|{{ contributor.bio }}::
 {%- endif -%}
-{%- if forloop.last == false -%}::{%- endif -%}
 {%- endfor -%}
 {%- endfor -%}
 {%- endcapture -%}
-{% assign contributors_array = contributors_list | split: '::' | uniq | sort %}
+{% assign contributors_array = contributors_list | split: '::' | sort %}
 
 <ul class="quire-contributors-list bio align-left">
 {% for contributor in contributors_array %}
@@ -31,7 +35,7 @@ class: pdf-backmatter
   </div>
   <div class="media">
   <div class="quire-contributor__details media-content">
-  <div class="quire-contributor__bio">{{ contributor_vals[2] | markdownify }}</div>
+  <div class="quire-contributor__bio"><p>{{ contributor_vals[2] | markdownify }}</p></div>
   </div>
   </div>
   </li>

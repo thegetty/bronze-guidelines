@@ -1,4 +1,8 @@
 ---
+## CUSTOMIZED FILE -- Bronze Guidelines
+## copy of entry.liquid but used standard pageHeader,
+## and removes page bibliography, abstract & tombstone
+##
 class: quire-entry
 layout: base.11ty.js
 description: Entry layout. This template is intended for use in catalogue-style pages where a single image or object needs to be featured prominently.
@@ -45,28 +49,19 @@ Entry content, including entry image and tombstone data
   </div>
 
   <div class="quire-entry__content">
-    <header class="quire-entry__header">
-      <div class="container">
-        <h1 class="quire-page__header__title" id="{{ title | url }}">
-          {% pageTitle label=label, title=title, subtitle=subtitle %}
-        </h1>
-        <div class="quire-page__header__contributor">
-          {% contributors context=pageContributors, format=contributor_byline %}
-        </div>
-      </div>
-    </header>
-
-    {% tombstone pageObjects %}
-
-    {% if abstract %}
-      {% abstract abstract=abstract %}
-    {% endif %}
+    {% pageHeader
+      contributor_byline=contributor_byline,
+      image=image,
+      label=label,
+      pageContributors=pageContributors,
+      subtitle=subtitle,
+      title=title
+    %}
 
     <section class="section quire-page__content">
       <div class="container">
         <div class="content">
           {{ content }}
-          {% bibliography pageReferences %}
         </div>
       </div>
     </section>

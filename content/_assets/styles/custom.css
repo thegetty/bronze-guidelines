@@ -1,7 +1,7 @@
 /*
    CUSTOMIZED FILE -- Bronze Guidelines
 */
-/* TEMP "UNCORRECTED PROOF" BANNER */
+/* TEMPORARY "Uncorrected Proof" Banner */
 @media screen {
   .quire-page::before,
   .quire-page::after {
@@ -38,6 +38,15 @@
     left: auto;
     right: -130px;
   }
+}
+/* TEMPORARY until callouts are annorefs */
+.quire-entry .side-by-side p strong:first-child {
+  color: cyan;
+}
+/* TEMPORARY until we figure out how to display the editors */
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor-divider,
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor {
+  display: none;
 }
 :root {
 
@@ -518,6 +527,21 @@ button.accordion-expander[aria-expanded="true"] .vert {
   border-top: 2px solid var(--black);
   padding-top: 2.5rem;
 }
+/* Style various contributors on the index page */
+#vocabulary.quire-page .quire-page__header__contributor {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#vocabulary.quire-page .quire-page__header__contributor .edited-by {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#vocabulary.quire-page .quire-page__header__contributor .additional-contributors {
+  margin-top: 1rem;
+  font-size: .875rem;
+  border-bottom-width: 0;
+}
 
 /*  VISUAL ATLAS PAGE
     type: visual-atlas
@@ -786,10 +810,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry .slide {
     min-height: calc(70vh - 3rem);
     margin-bottom: 30vh;
-  }
-  /* TEMPORARY until callouts are annorefs */
-  .quire-entry.side-by-side p strong:first-child {
-    color: cyan;
   }
 }
 
@@ -1222,9 +1242,8 @@ table .poor { background-color: #F2F9F1; }
   .quire-contents-buttons,
   .quire-page__content table.vocab-table,
   .image-grid-search-box,
-  .quire-entry.side-by-side .section.quire-page__abstract,
   #case-studies-7 .quire-page__content figure.q-figure--vimeo,
-  .quire-entry.side-by-side p strong:first-child {
+  .quire-entry .side-by-side p strong:first-child {
     display: none;
   }
   #vol-1 .quire-page__content,
