@@ -1,6 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// output page links as semantic list, lines 54–58 and 71–73
+// output page links as semantic list, lines 55–58 and 72–74
+// wrap bio in P element, line 48
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -44,7 +45,7 @@ module.exports = function (eleventyConfig) {
     const contributorBio = bio
       ? html`
           <div class="quire-contributor__bio">
-            ${markdownify(bio)}
+            <p>${markdownify(bio)}</p>
           </div>
       `
       : ''
