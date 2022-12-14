@@ -1,8 +1,7 @@
 ---
 type: data
 layout: search-index
-url: search.json
-pdf: false
-epub: false
+permalink: search-index.json
+outputs: [html]
 search: false
 ---

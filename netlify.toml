@@ -1,30 +1,25 @@
+# Netlify Deploy
+# 1. Confirm "build:netlify" command is included in themes/default/package.json
+# 2. Set params.runTests: false in config/environments/netlify.yml
+
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
 [build]
-publish = "site"
-command = "npm run build"
+publish = "_site"
+command = "npm run build && rm -r _site/_assets/images/figures/ && cp -r content/_assets/images/figures/ _site/_assets/images/figures/"
 
-[context.production.environment]
-HUGO_VERSION = "0.72.0"
-HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true"
+[build.environment]
+NODE_VERSION = "17.5.0"
 
-[context.split1]
-command = "npm run build"
+# These two GIT_LFS variables need to be added to the project’s
+# Deploy Settings in the Netlify UI, under Environment Variables:
+# https://app.netlify.com/sites/<your-subdomain-here>/settings/deploys#environment
+GIT_LFS_ENABLED = "true"
+GIT_LFS_FETCH_INCLUDE = "*.jpg,*.png,*.tif"
 
-[context.split1.environment]
-HUGO_VERSION = "0.72.0"
-HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "npm run build"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.72.0"
-
-[context.branch-deploy]
-command = "npm run build"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.72.0"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+# Settings for a `forthcoming` branch, which is just a static page
+# They may also need to be cleared in the Netlify UI:
+# https://app.netlify.com/sites/<your-subdomain-here>/settings/deploys#build-settings
+[context.forthcoming]
+publish = ""
+command = ""

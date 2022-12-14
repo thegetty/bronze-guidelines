@@ -1,7 +1,7 @@
 ---
 title: Contents
-weight: 2
-type: contents
-class: list
+order: 20
+layout: table-of-contents
+presentation: list
 search: false
 ---

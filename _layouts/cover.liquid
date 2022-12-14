@@ -1,0 +1,59 @@
+---
+## CUSTOMIZED FILE -- Bronze Guidelines
+## add three images and split up onther texts
+##
+class: quire-cover
+description: Quire publication cover page
+layout: base.11ty.js
+---
+
+<section class="quire-cover__hero hero is-fullheight">
+  <div class="quire-cover__title-container">
+    <h1 class="title">
+      {{ publication.cover_title }}
+    </h1>
+  </div>
+  <div class="quire-cover__image-container">
+    {% for image in image_set %}
+    {% assign imagePath = config.params.imageDir | concat: image | join: '/' %}
+    <div class="image-wrapper" >
+    <img src="{{ imagePath }}" />
+    </div>
+    {% endfor %}
+  </div>
+  <div class="quire-cover__contributor-container">
+    <div class="contributor">
+      {{ publication.cover_contributor }}
+    </div>
+  </div>
+</section>
+
+{% if content != blank %}
+  <section class="quire-cover__more next-page">
+    <div class="quire-cover__more-body hero-more">
+      <a href="#cover-content">
+        {% icon type='down-arrow', description='Scroll down to read more' %}
+      </a>
+    </div>
+  </section>
+
+  <section id="cover-content" class="section quire-page__content">
+    <div class="container is-fluid">
+      <div class="content">
+        {{ content }}
+        {% bibliography pageReferences %}
+      </div>
+    </div>
+  </section>
+
+  {% pageButtons pagination=pagination %}
+
+{% else %}
+  <section class="quire-cover__more">
+    <div class="quire-cover__more-body hero-more next-page">
+      <a href="{{ pagination.nextPage.url }}">
+        {% icon type='down-arrow', description='Scroll down to read more' %}
+      </a>
+    </div>
+  </section>
+{% endif %}

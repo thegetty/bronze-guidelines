@@ -1,0 +1,2324 @@
+/*
+   CUSTOMIZED FILE -- Bronze Guidelines
+*/
+/* TEMPORARY "Uncorrected Proof" Banner */
+@media screen {
+  .quire-page::before,
+  .quire-page::after {
+    color: black;
+    font-weight: 700;
+    position: fixed;
+    width: 230px;
+    height: 230px;
+    z-index: 4000;
+    transform: rotate(45deg);
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .quire-page::before {
+    content: "UNCORRECTED";
+    background-color: cyan;
+    bottom: -115px;
+    left: -115px;
+  }
+  .quire-page::after {
+    content: "PROOF";
+    bottom: -130px;
+    left: -130px;
+  }
+  .quire-page.quire-entry::before,
+  .quire-page.quire-entry::after {
+    transform: rotate(-45deg);
+  }
+  .quire-page.quire-entry::before {
+    left: auto;
+    right: -115px;
+  }
+  .quire-page.quire-entry::after {
+    left: auto;
+    right: -130px;
+  }
+}
+/* TEMPORARY until callouts are annorefs */
+.quire-entry .side-by-side p strong:first-child {
+  color: cyan;
+}
+/* TEMPORARY until we figure out how to display the editors */
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor-divider,
+#contents.quire-page .toc-list a[href='/vocabulary/'] .contributor {
+  display: none;
+}
+:root {
+
+  /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
+
+  /* Should match $accent-color in variables.scss
+  #427f34 is a darker, accessible version of --green-wax */
+  --accent-color: #427f34;
+
+  /* From Gary's illustrations */
+  --green-wax: #59ac46;
+  --yellow-bronze: #fbda00;
+  --orange-clay: #d0773f;
+  --brown-sand: #b68b73;
+  --brown-bronze: #784721;
+
+  /* $black and $white should match those in variables.scss */
+  --white: #fff;
+  --light: #c2b99a; /* Cover tan */
+  --mid: #716c5b;
+  --black: #4e4a3e; /* Cover brown */
+  --deep-black: #000;
+}
+
+/*
+GENERAL
+COVER
+MENU & TOCs
+FULL-WIDTH PAGES
+INDENTED HEADINGS & LISTS
+FIGURE GROUP
+ACCORDION BUTTONS
+VOCABULARY PAGES
+VISUAL ATLAS PAGE
+CASE STUDIES
+LIGHTBOX & MODAL
+TABLES
+CHOICES UI
+ABOUT & COPYRIGHT PAGES
+PRINT/PDF
+CHOICES LABEL COLORS
+*/
+
+/* GENERAL
+============================================================================= */
+/* Adjust default heading styles and spacing */
+.quire-page h2 {
+  margin-top: 3rem !important;
+  text-transform: none;
+  font-weight: 800;
+}
+.quire-page h3 {
+  font-style: normal;
+  font-weight: 800;
+}
+.quire-page h4 {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 800;
+}
+/* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
+.quire-page__content section#additional-figures {
+  display: none;
+}
+/* Hide contributor page links */
+.quire-contributor__bio + ul {
+  display: none;
+}
+/* Style list of additional contributors at the top of the pages */
+.additional-contributors.backmatter {
+  border-bottom: 1px solid var(--light);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Position vocab pop-up "More" links away from text */
+a.quire-definition__content__more-link {
+  float: right;
+  margin-left: 1rem;
+}
+.warn > p:first-child {
+  color: var(--orange-clay);
+  font-weight: bold;
+}
+.warn li::before {
+  color: var(--orange-clay);
+}
+/* Fix figure label positioning */
+.q-figure__label--below .q-figure__modal-link {
+  display: inline-block;
+  height: 0;
+}
+
+/* COVER
+============================================================================= */
+
+.quire-cover__hero {
+  background-color: var(--black);
+  background-image: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25% 60% 15%;
+  height: calc(95vh - 3rem - 0px) !important;
+}
+.quire-cover__title-container .title,
+.quire-cover__contributor-container .contributor {
+  color: var(--light) !important;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+.quire-cover__title-container .emphasized-title {
+  font-size: 2em;
+  display: block;
+}
+.quire-cover__contributor-container .contributor {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 800;
+  max-width: 900px;
+}
+.quire-cover__contributor-container .contributor .lead-in-text {
+  font-weight: 700;
+  display: inline-block;
+  height: 2em;
+  float: left;
+  margin-right: 1rem;
+}
+.quire-cover__image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  overflow: clip;
+  grid-column-gap: 1rem;
+}
+.quire-cover__image-container .image-wrapper {
+  max-height: 100%;
+  overflow: auto;
+}
+.quire-cover__image-container .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.quire-cover__image-container .image-wrapper:nth-child(2) img {
+  object-position: 50% 10%;
+}
+@media (max-width:770px) {
+  .quire-cover__title-container .title {
+    font-size: 1.625rem;
+  }
+  .quire-cover__contributor-container .contributor {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width:570px) {
+  .quire-cover__hero {
+    grid-template-rows: 20% 60% 20%;
+  }
+  .quire-cover__title-container .title {
+    font-size: 1.375rem;
+  }
+  .quire-cover__contributor-container .contributor .lead-in-text {
+    height: 4em;
+  }
+}
+
+/* MENU & TOCs
+============================================================================= */
+/* Override default color for active menu item and fix positioning */
+.quire-menu__formats h6,
+.quire-menu .page-item a.active,
+.quire-menu .page-item a.active *,
+.quire-menu .section-item a.active,
+.quire-menu .section-item a.active * {
+  border-color: var(--light) !important;
+  color: var(--light) !important;
+}
+.quire-menu .page-item .page-item a.active,
+.quire-menu .section-item .page-item a.active {
+  margin-left: calc(-2.75em - 2px);
+  padding-left: calc(2rem + 2px);
+}
+/* Adjust display of sub-page items in TOC */
+.quire-contents-list .menu-list .section-item ol a {
+  font-family: 'Noto Sans';
+  border-bottom: none;
+}
+.quire-contents-list .page-item, .quire-contents-list .section-item {
+  margin-bottom: 1rem;
+}
+.quire-contents-list .menu-list .section-item ol {
+  margin-left: 1.5rem;
+}
+/* Make abstracts more legible */
+.quire-contents-list.abstract .abstract-text {
+  font-family: 'Noto Sans';
+  line-height: 1.6;
+}
+.quire-contents-list.abstract .quire-page-label {
+  display: inline-block;
+  margin-left: -2.5rem;
+  width: 2.5rem;
+  display: inline-block;
+}
+.quire-contents-list.abstract .contributor {
+  display: block;
+  font-size: 1.125rem;
+}
+.quire-contents-list.abstract .quire-page-label-divider,
+.quire-contents-list.abstract .contributor-divider {
+  display: none;
+}
+.quire-contents-list.abstract .arrow {
+  display: none;
+}
+
+/* FULL-WIDTH PAGES
+    presentation: full-width
+============================================================================= */
+@media screen {
+  .quire-page.full-width .quire-page__content .container {
+    max-width: 1400px;
+    width: inherit;
+    margin-left: 6rem;
+    margin-right: 3rem;
+  }
+  /* Set grid, text to the left, figuregroups to right, headers span across */
+  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+  .quire-page.full-width .quire-page__content .content section > * {
+    grid-column-start: 1;
+  }
+  .quire-page.full-width .quire-page__content .content section > figure {
+    grid-column-start: 2;
+    grid-row: 2/100;
+    margin-top: 0;
+  }
+  .quire-page.full-width .quire-page__content .content section > .accordion-wrapper > figure {
+    grid-row-start: 1;
+  }
+  .quire-page.full-width .quire-page__content .content section.display-accordion > figure {
+    grid-row-start: 1;
+  }
+  .quire-page.full-width .quire-page__content .content section > section,
+  .quire-page.full-width .quire-page__content .content section > h2,
+  .quire-page.full-width .quire-page__content .content section > h3,
+  .quire-page.full-width .quire-page__content .content section > h4 {
+    grid-column-end: -1;
+  }
+  @media screen and (max-width:810px) {
+    .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+      column-count: 2;
+    }
+  }
+  @media screen and (max-width:640px) {
+    .quire-page.full-width .quire-page__content .content section {
+      display: block;
+    }
+    .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+      column-count: 3;
+      margin-bottom: 1rem;
+      margin-top: 1.5rem;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
+      column-count: 2;
+    }
+  }
+  /* Ensure proper spacing between sections */
+  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
+    margin-bottom: .75rem;
+  }
+  .quire-page.full-width .quire-page__content .content h2 + section {
+    margin-top: .75rem;
+  }
+}
+
+/* INDENTED HEADINGS & LISTS
+============================================================================= */
+@media screen {
+  /* The .indented-heading and .section-number classes are added in custom.js */
+  .quire-page.full-width .content .indented-heading,
+  .quire-page.interview .content h2:not(.no-indent) {
+    text-indent: -6rem;
+  }
+  .quire-page.full-width .content .indented-heading .section-number,
+  .quire-page.interview .content h2:not(.no-indent) .section-number {
+    width: 6rem;
+    display: inline-block;
+    text-align: right;
+    padding-right: 2rem;
+  }
+  /*  Indent lists to match headings */
+  .quire-page.full-width .quire-page__content .container .content ul,
+  .quire-page.full-width .quire-page__content .container .content ul li {
+    margin-left: 0;
+  }
+  .quire-page.full-width .quire-page__content .container .content ul li::before {
+    font-size: 1rem;
+    margin-top: .2rem;
+    margin-left: -2.7rem;
+  }
+}
+
+/* FIGURE GROUP
+============================================================================= */
+.q-figure.q-figure--group.quire-grid-3 {
+  border-width: 0;
+  column-count: 3;
+  padding: 0;
+}
+@media screen and (max-width:500px) {
+  .q-figure.q-figure--group.quire-grid-3 {
+    column-count: 2;
+  }
+}
+.q-figure.q-figure--group figure {
+  border-width: 0;
+  break-inside: avoid;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+.q-figure.q-figure--group .q-figure__caption {
+  margin-top: 0;
+}
+.q-figure.q-figure--group .q-figure__caption-content,
+.q-figure.q-figure--group .q-figure__credit-content {
+  display: none;
+}
+/* Videos, show poster on page and Vimeo embed in modal */
+.q-lightbox--modal .q-figure-video-element--poster {
+  display: none;
+}
+.q-figure.q-figure--vimeo .q-figure-video-element--embed {
+  display: none;
+}
+.q-figure.q-figure--vimeo .q-figure__media-wrapper {
+  padding-bottom: 0 !important;
+}
+/* Hide choice controls on page and only display in modal */
+.quire-page__content .q-figure form {
+  display: none;
+}
+/* Add custom label icons for choices figures and videos */
+@media screen {
+  .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon,
+  .quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon {
+    display: none;
+  }
+  .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='m10 17.458-7.271-5.729 1.375-1.104L10 15.25l5.896-4.625 1.375 1.104Zm0-4.291L2.729 7.438 10 1.729l7.271 5.709Zm0-5.605Zm0 3.396 4.458-3.52L10 3.938l-4.458 3.5Z'/%3E%3C/svg%3E");
+    position: relative;
+    top: 6px;
+    margin-right: -2px;
+  }
+  .quire-page__content .q-figure form + figcaption.q-figure__caption {
+    margin-top: -5px;
+  }
+  .quire-page__content .q-figure--vimeo figcaption .q-figure__label .q-figure__modal-link::before {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23427f34' height='20' width='20'%3E%3Cpath d='M7.958 13.562 13.562 10 7.958 6.438ZM10 18.167q-1.688 0-3.177-.636-1.49-.635-2.604-1.75-1.115-1.114-1.75-2.604-.636-1.489-.636-3.177 0-1.708.636-3.187.635-1.48 1.75-2.594 1.114-1.115 2.604-1.75Q8.312 1.833 10 1.833q1.708 0 3.188.636 1.479.635 2.593 1.75 1.115 1.114 1.75 2.604.636 1.489.636 3.177t-.636 3.177q-.635 1.49-1.75 2.604-1.114 1.115-2.604 1.75-1.489.636-3.177.636Zm0-1.729q2.688 0 4.562-1.876 1.876-1.874 1.876-4.562t-1.876-4.562Q12.688 3.562 10 3.562T5.438 5.438Q3.562 7.312 3.562 10t1.876 4.562Q7.312 16.438 10 16.438ZM10 10Z'/%3E%3C/svg%3E");
+    position: relative;
+    top: 6px;
+    margin-right: 2px;
+  }
+  .quire-page__content .q-figure--vimeo figcaption.q-figure__caption {
+    margin-top: -11px;
+  }
+  .q-figure__label .q-figure__label-icon svg {
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+}
+
+/* FIGURE MODAL
+============================================================================= */
+.q-figure__modal-link {
+  display: inline;
+  color: inherit;
+  border-bottom: 1px dotted var(--accent-color);
+}
+figure .q-figure__modal-link {
+  border-bottom-width: 0;
+}
+
+/*  ACCORDION BUTTONS
+    <div class="accordion">   <-- used in VOCABULARY PAGES
+    presentation: accordion   <-- used on FULL-WIDTH PAGES
+============================================================================= */
+button.accordion-expander,
+#accordion-controls button {
+  all: inherit;
+  border: 0 !important;
+  cursor: pointer;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+button.accordion-expander svg {
+  fill: currentColor;
+  height: 1rem;
+  width: 1rem;
+}
+button.accordion-expander[aria-expanded="true"] svg {
+  fill: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"],
+button.accordion-expander[aria-expanded="true"] * {
+  color: var(--green-wax);
+}
+button.accordion-expander[aria-expanded="true"] .vert {
+  display: none;
+}
+
+/* Expand and Collapse All buttons */
+.quire-page.full-width #accordion-controls,
+.quire-page.interview #accordion-controls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: var(--black);
+  border-top-left-radius: 4px;
+  color: var(--white);
+  font-size: .875rem;
+  z-index: 1;
+  height: 2.9rem;
+  bottom: -2.9rem;
+  transition: bottom 1s;
+}
+.quire-page.full-width #accordion-controls.show-controls,
+.quire-page.interview #accordion-controls.show-controls {
+  bottom: 0;
+}
+.quire-page.full-width #accordion-controls li,
+.quire-page.interview #accordion-controls li {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  height: 100%;
+}
+.quire-page.vocabulary #accordion-controls {
+  font-size: .875rem;
+  height: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.quire-page.vocabulary #accordion-controls li::before {
+  content: '' !important;
+}
+
+/*  VOCABULARY PAGES
+    tags: vocabulary
+============================================================================= */
+.quire-page.vocabulary div.accordion {
+  border-bottom: 2px solid var(--black);
+  margin-top: 1.75rem;
+}
+.quire-page.vocabulary div.accordion h3 {
+  border-top: 2px solid var(--black);
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+  padding-top: 1.75rem;
+}
+.quire-page.vocabulary div.accordion h3 button.accordion-expander {
+  width: 100%;
+}
+.quire-page.vocabulary div.accordion h3 button.accordion-expander strong {
+  font-weight: 800;
+}
+.quire-page.vocabulary div.accordion h3 button.accordion-expander svg {
+  float: right;
+  margin-top: .65rem;
+}
+.quire-page.vocabulary .q-figure--group {
+  border-top: 2px solid var(--black);
+  padding-top: 2.5rem;
+}
+/* Style various contributors on the index page */
+#vocabulary.quire-page .quire-page__header__contributor {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#vocabulary.quire-page .quire-page__header__contributor .edited-by {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+#vocabulary.quire-page .quire-page__header__contributor .additional-contributors {
+  margin-top: 1rem;
+  font-size: .875rem;
+  border-bottom-width: 0;
+}
+
+/*  VISUAL ATLAS PAGE
+    type: visual-atlas
+============================================================================= */
+@media screen {
+  /* Set page as full-width and set alternate background color */
+  .quire-page.visual-atlas .quire-page__content .container {
+    max-width: none;
+    width: inherit;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .quire .quire-page.visual-atlas#main,
+  .quire-page.visual-atlas .quire-page__header,
+  .quire-page.visual-atlas .quire-page__content .container .content,
+  .quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+    background-color: var(--black);
+  }
+  .quire-page.visual-atlas .quire-page__header h1 {
+    color: var(--white);
+  }
+  /* Style search box */
+  .quire-page.visual-atlas .image-grid-search-box {
+    margin: 0 auto;
+    display: block;
+    width: 32rem;
+    max-width: calc(100vw - 4rem);
+    color: var(--white);
+  }
+  .quire-page.visual-atlas .image-grid-search-box #image-grid-search {
+    height: 3rem;
+    width: 29.7rem;
+    border: none;
+    border-bottom: 1px solid var(--white);
+    color: var(--white);
+    font-size: 1.5rem;
+  }
+  .quire-page.visual-atlas .image-grid-search-box #image-grid-search:focus-visible {
+    outline: none;
+  }
+  .quire-page.visual-atlas .image-grid-search-box svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--white);
+    margin-bottom: -1rem;
+  }
+  #image-grid-counter {
+    display: block;
+    height: 2rem;
+    color: var(--white);
+    font-style: italic;
+    text-align: center;
+  }
+  /* Style image grid and images */
+  .quire-page.visual-atlas .image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--white);
+    margin-top: 2rem;
+  }
+  .q-figure.image-grid-figure.match {
+    display: block;
+  }
+  .q-figure.image-grid-figure {
+    display: none;
+  }
+  .quire-page.visual-atlas .image-grid figure .q-figure__caption-content,
+  .quire-page.visual-atlas .image-grid figure .q-figure__credit,
+  .quire-page.visual-atlas .image-grid figure .q-figure__label-icon {
+    display: none;
+  }
+  .quire-page.visual-atlas .image-grid figure.image-grid-figure img {
+    max-height: 240px;
+    width: auto;
+  }
+  .quire-page.visual-atlas .image-grid figure.image-grid-figure:not(:last-child),
+  .quire-page.visual-atlas .quire-page__content .container .content figure.image-grid-figure:not(:first-child) {
+    margin: 0;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    border: 1px solid var(--white);
+    position: relative;
+  }
+  .quire-page.visual-atlas .image-grid .q-figure__caption {
+    position: absolute;
+    bottom: 3px;
+    left: 6px;
+    font-size: .875rem;
+  }
+  .quire-page.visual-atlas .image-grid .q-figure__caption a {
+    color: var(--white);
+    opacity: .5;
+  }
+  /* Add media queries to responsively adjust grid width and outer margins */
+  @media (max-width: 1888px)  {
+    .quire-page.visual-atlas .image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 1568px)  {
+    .quire-page.visual-atlas .image-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 1248px)  {
+    .quire-page.visual-atlas .image-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media (max-width: 928px)  {
+    .quire-page.visual-atlas .image-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 609px)  {
+    .quire-page.visual-atlas .image-grid {
+      grid-template-columns: 1fr;
+    }
+    .quire-page.visual-atlas .quire-page__content .container {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+/*  CASE STUDIES
+    type: entry
+    presentation: side-by-side
+============================================================================= */
+@media screen {
+  /* Landing page */
+  .grid.quire-contents .image img {
+    width: 85vw;
+    height: 85vw;
+    object-fit: contain;
+  }
+  @media screen and (min-width: 700px) {
+    .grid.quire-contents .image img {
+      width: 42vw;
+      height: 42vw;
+    }
+  }
+  @media screen and (min-width: 1184px) {
+    .grid.quire-contents .image img {
+      width: 27vw;
+      height: 27vw;
+    }
+  }
+  @media screen and (min-width: 1376px) {
+    .grid.quire-contents .image img {
+      width: 21vw;
+      height: 21vw;
+    }
+  }
+  .grid.quire-contents .quire-page__header,
+  .grid.quire-contents .quire-page__content,
+  .grid.quire-contents .quire-contents-list.grid ol li .card {
+    background-color: var(--deep-black);
+  }
+  .grid.quire-contents .quire-page__header__title,
+  .quire-contents-list.grid ol li .card.image .card-content {
+    color: white;
+  }
+  .quire-contents-list.grid .menu-list a .arrow {
+    fill: white;
+  }
+  .quire-contents-list.grid ol li a:hover .card.image .card-content,
+  .quire-contents-list.grid .menu-list a:hover * {
+    color: var(--mid);
+  }
+  .quire-contents-list.grid .menu-list a:hover .arrow svg {
+    fill: var(--mid) !important;
+  }
+  .quire-contents-list.grid .menu-list a:hover img {
+    opacity: .7;
+  }
+  /* Adjust display of case study titles in grid */
+  .quire-contents-list.grid .quire-page-label,
+  .quire-contents-list.grid .contributor {
+    display: block;
+  }
+  .quire-contents-list.grid .quire-page-label-divider,
+  .quire-contents-list.grid .contributor-divider,
+  .quire-contents-list.grid .arrow {
+    display: none;
+  }
+  .quire-contents-list.grid ol li .card-content span.quire-page-title {
+    font-size: 1.5rem !important;
+    line-height: 1.2;
+    margin: .55rem 0;
+    display: block;
+  }
+  /* Case study pages */
+  .quire-entry div.side-by-side div.quire-entry__image-wrap,
+  .quire-entry div.side-by-side div.quire-entry__content,
+  .quire-page.interview div.quire-page__content {
+    background-color: var(--deep-black);
+  }
+  .quire-entry .quire-page__header,
+  .quire-entry .quire-page__content .content,
+  .quire-page.interview .quire-page__header,
+  .quire-page.interview .quire-page__content .content {
+    background-color: transparent;
+    color: white;
+  }
+  .quire-entry .quire-page__header .hero-body .label,
+  .quire-entry .q-figure__label--below .q-figure__modal-link,
+  .quire-entry h1,
+  .quire-entry h2,
+  .quire-entry h3,
+  .quire-page.interview .quire-page__header .hero-body .label,
+  .quire-page.interview .q-figure__label--below .q-figure__modal-link,
+  .quire-page.interview h1,
+  .quire-page.interview h2,
+  .quire-page.interview h3,
+  .quire-page.interview .content figure .q-figure__caption {
+    color: white;
+  }
+  .quire-entry .q-figure__label--below .q-figure__modal-link {
+    color: var(--mid);
+  }
+  .quire-entry .q-figure__label .q-figure__label-icon svg {
+    fill: var(--mid);
+  }
+  .quire-entry .quire-page__abstract,
+  .quire-entry .quire-entry__tombstone,
+  .quire-page.interview .quire-page__abstract,
+  .quire-page.interview .hero__image {
+    display: none;
+  }
+  .quire-entry div.side-by-side div.quire-entry__content section.section,
+  .quire-entry div.side-by-side div.quire-entry__content section,
+  .quire-entry div.side-by-side div.quire-entry__content header {
+    padding: 0;
+  }
+  .quire:not(.no-js) .quire__primary main.quire-entry,
+  .quire:not(.no-js) .quire__primary main.quire-page.interview {
+    font-size: 1.1em;
+    background-color: var(--deep-black);
+  }
+  .quire-entry h2 {
+    font-size: 1.375em;
+    line-height: 1.5;
+  }
+  .quire-entry .slide .cs-category {
+    display: block;
+    font-size: .7em;
+    letter-spacing: .75px;
+    margin-bottom: .25em;
+    text-transform: uppercase;
+  }
+  .quire-entry .quire-page__content .content p {
+    line-height: 1.7;
+  }
+  .quire-entry .quire-page__content .content ul {
+    margin-left: 0;
+  }
+  .quire-entry .quire-page__header {
+    min-height: calc(100vh - 3rem);
+    display: flex;
+    justify-content: center;
+  }
+  .quire-entry .quire-page__header .hero-body {
+    flex-grow: inherit;
+  }
+  .quire-entry .slide {
+    min-height: calc(70vh - 3rem);
+    margin-bottom: 30vh;
+  }
+}
+
+/*  LIGHTBOX & MODAL
+============================================================================= */
+/* Lightbox */
+.q-lightbox__image {
+  height: calc(100vh - 8.75rem)
+}
+.q-lightbox__caption {
+  font-family: "Noto Sans", sans-serif;
+  font-size: .75rem;
+  line-height: 1.5;
+  color: var(--mid);
+}
+.q-lightbox__caption-content {
+  padding-bottom: 1rem;
+}
+.q-lightbox-slides__caption a {
+  color: currentColor;
+  border-bottom: 1px dotted currentColor;
+}
+.q-lightbox-slides__caption a:hover {
+  border-bottom-style: solid;
+}
+.q-figure-slides__slide-ui {
+  display: block;
+}
+/* For entry / case study pages */
+.quire-entry__lightbox .q-figure-slides__slide-ui {
+  padding: 0;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption,
+.quire-entry__lightbox .q-figure-slides__slide-ui .annotations-ui {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin-right: 0;
+}
+.quire-entry__lightbox .q-figure-slides__slide-ui .annotations-ui {
+  padding-bottom: .5rem;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption {
+  padding-top: 0;
+}
+.quire-entry__lightbox .q-lightbox-slides__caption {
+  max-height: 8rem;
+  overflow: scroll;
+}
+.quire-entry__lightbox .q-lightbox-slides__element canvas-panel,
+.quire-entry__lightbox .q-lightbox-slides__element img,
+.quire-entry__lightbox .q-lightbox-slides__element image-service {
+  height: calc(100% - 6rem);
+  top: calc(50% - 3rem);
+}
+
+/* Lightbox in modal specifically */
+/* Ensure proper stacking order so item aren't hidden behind invisibles */
+.q-lightbox-slides__slide[data-lightbox-current] {
+  z-index: 1;
+}
+.q-lightbox-ui * {
+  z-index: 2;
+}
+.q-modal__close-button {
+  z-index: 3;
+}
+.q-lightbox-slides__slide[data-lightbox-current] .table-wrapper {
+  z-index: 4;
+}
+/* Adjust overall layout */
+.q-lightbox--modal .q-lightbox-slides__element canvas-panel,
+.q-lightbox--modal .q-lightbox-slides__element img,
+.q-lightbox--modal .q-lightbox-slides__element image-service,
+.q-lightbox--modal .q-lightbox-slides__element iframe,
+.q-lightbox--modal .q-lightbox-slides__element video {
+  width: calc(100% - 6rem);
+  height: calc(70vh - 3rem);
+  top: 3rem;
+  left: 3rem;
+  transform: translate(0);
+}
+.q-lightbox--modal .q-figure-slides__slide-ui {
+  width: calc(100% - 6rem);
+  height: calc(30vh - 1rem);
+  bottom: 0;
+  left: 3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  color: white;
+}
+.q-lightbox--modal .q-lightbox-slides__caption {
+  padding-bottom: 4rem;
+  height: 100%;
+  overflow: scroll;
+}
+@media screen and (min-width:820px) {
+  .q-lightbox--modal .q-lightbox-slides__element canvas-panel,
+  .q-lightbox--modal .q-lightbox-slides__element img,
+  .q-lightbox--modal .q-lightbox-slides__element image-service,
+  .q-lightbox--modal .q-lightbox-slides__element iframe,
+  .q-lightbox--modal .q-lightbox-slides__element video  {
+    width: calc(55% - 3rem);
+    height: 100%;
+    top: 0;
+  }
+  .q-lightbox--modal .q-figure-slides__slide-ui {
+    width: calc(45% - 6rem);
+    height: calc(100% - 4rem);
+    top: 4rem;
+    right: 3rem;
+    left: calc(55% + 2rem);
+  }
+}
+@media screen and (min-width:1000px) {
+  .q-lightbox--modal .q-lightbox-slides__element canvas-panel,
+  .q-lightbox--modal .q-lightbox-slides__element img,
+  .q-lightbox--modal .q-lightbox-slides__element image-service,
+  .q-lightbox--modal .q-lightbox-slides__element iframe,
+  .q-lightbox--modal .q-lightbox-slides__element video  {
+    width: calc(65% - 3rem);
+  }
+  .q-lightbox--modal .q-figure-slides__slide-ui {
+    width: calc(35% - 6rem);
+    left: calc(65% + 2rem);
+  }
+}
+
+/*  TABLES
+============================================================================= */
+/* Even out the margins on the page of tables */
+.quire-page.full-width#tables .quire-page__content .container {
+  margin-left: 3rem;
+}
+.quire-page.full-width#vocabulary .quire-page__content .container {
+  margin-left: 3rem;
+}
+/* Style icons after table modal links */
+.quire-page__content .q-figure__modal-link + svg {
+  fill: var(--accent-color);
+  margin-left: 3px;
+  margin-bottom: -5px;
+}
+@media print {
+  .quire-page__content .q-figure__modal-link + svg  {
+    display: none;
+  }
+}
+
+/* Style tables as they appear on the page */
+.q-figure.q-figure--table {
+  border-width: 0;
+  padding: 0;
+  margin-bottom: 4rem !important;
+}
+.quire-page__content .container .content table,
+.quire-page__content .container .content table th,
+.quire-page__content .container .content table td {
+  border: 1px solid var(--light);
+  border-collapse: collapse;
+}
+.quire-page:not(#vocabulary) .quire-page__content .container .content table,
+.quire-page:not(#vocabulary) .quire-page__content .container .content .table-key {
+  font-size: .75vw;
+}
+.quire-page:not(#vocabulary) .quire-page__content .container .content #table-03 table {
+  font-size: .35vw;
+}
+.quire-page__content .container .content table caption {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.quire-page__content .container .content table caption .details {
+  font-size: .875rem;
+  display: block;
+  margin-top: .25rem;
+}
+.quire-page__content .container .content table ul {
+  list-style: initial;
+  padding-left: 1.25em;
+}
+.quire-page__content .container .content table ul li::before {
+  content: none;
+}
+.table-key dl {
+  display: grid;
+  grid-template-columns: 1.5rem auto;
+  row-gap: .5rem;
+  margin-top: 1rem;
+}
+.table-key dl dt {
+  font-weight: bold;
+}
+table a,
+.table-key a {
+  color: inherit;
+  border-bottom: 1px dotted var(--accent-color);
+}
+
+/* TABLES IN THE LIGHTBOX / MODAL */
+/* Ensure the tables scroll and are positioned correctly in the modal */
+.q-lightbox-slides__element div.table-wrapper {
+  background-color: white;
+  color: black;
+  overflow: scroll;
+  width: calc(100vw - 8rem);
+  height: calc(100vh - 5rem);
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* This centers the elements within the table-wrapper, while allowing full scroll on oversized elements: https://bhch.github.io/posts/2021/04/centring-flex-items-and-allowing-overflow-scroll/ */
+.q-lightbox-slides__element div.table-wrapper > *:first-child {
+  margin-left: auto;
+}
+.q-lightbox-slides__element div.table-wrapper > *:last-child {
+  margin-right: auto;
+}
+/* The labels and captions are included in the table HTML files themselves */
+.q-lightbox-slides__element--table + .q-figure-slides__slide-ui .q-lightbox-slides__caption {
+  display: none;
+}
+.q-lightbox-slides__element--table div.table-wrapper table caption {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.q-lightbox-slides__element div.table-wrapper table {
+  font-size: 1em;
+}
+.q-lightbox-slides__element div.table-wrapper table,
+.q-lightbox-slides__element div.table-wrapper table th,
+.q-lightbox-slides__element div.table-wrapper table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.q-lightbox-slides__element div.table-wrapper th,
+.q-lightbox-slides__element div.table-wrapper td {
+  padding: .25rem;
+}
+
+/* Custom table classes specific to Bronze Guidelines */
+table .shading { background-color: var(--light); }
+/* https://coolors.co/59ac46-7ec46e-a5d69a-cbe7c5-f2f9f1 */
+table .excellent { background-color: var(--green-wax); }
+table .high { background-color: #7EC46E; }
+table .good { background-color: #A5D69A; }
+table .medium { background-color: #CBE7C5; }
+table .poor { background-color: #F2F9F1; }
+
+/*  CHOICES UI
+============================================================================= */
+.annotations-ui__input-wrapper {
+  display: inline-block;
+  margin-right: 1rem;
+  position: relative;
+}
+.q-lightbox--modal .annotations-ui__input-wrapper,
+.q-lightbox-slides .annotations-ui__input-wrapper {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 7px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+  margin-right: 6px;
+  background-color: white;
+}
+.annotations-ui__input-wrapper input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  cursor: pointer;
+}
+.annotations-ui__input-wrapper input + label {
+  font-size: .75rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  color: black;
+}
+.annotations-ui__input-wrapper input + label::before {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  position: relative;
+  top: 1.5px;
+}
+/* Backgroiund image icons are Google Material font icons (https://fonts.google.com/icons) at 500 weight, adjusted to 16px square and processed with a URL encoder (https://yoksel.github.io/url-encoder/) */
+.annotations-ui__input-wrapper input[type=checkbox] + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16'%3E%3Cpath d='M2.2,16c-0.6,0-1.1-0.2-1.6-0.6c-0.4-0.4-0.6-1-0.6-1.6V2.2c0-0.6,0.2-1.1,0.6-1.6S1.6,0,2.2,0h11.6c0.6,0,1.1,0.2,1.6,0.6 c0.4,0.4,0.6,1,0.6,1.6v11.6c0,0.6-0.2,1.1-0.6,1.6c-0.4,0.4-1,0.6-1.6,0.6H2.2z M2.2,13.8h11.6V2.2H2.2V13.8z'/%3E%3C/svg%3E");
+}
+.annotations-ui__input-wrapper input[type=checkbox]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16'%3E%3Cpath d='M6.8,11.6L12.4,6l-1.5-1.5l-4.1,4L5,6.8L3.6,8.3L6.8,11.6z M2.2,16c-0.6,0-1.1-0.2-1.6-0.6c-0.4-0.4-0.6-1-0.6-1.6V2.2 c0-0.6,0.2-1.1,0.6-1.6S1.6,0,2.2,0h11.6c0.6,0,1.1,0.2,1.6,0.6c0.4,0.4,0.6,1,0.6,1.6v11.6c0,0.6-0.2,1.1-0.6,1.6 c-0.4,0.4-1,0.6-1.6,0.6H2.2z M2.2,13.8h11.6V2.2H2.2V13.8z M2.2,2.2v11.6V2.2z'/%3E%3C/svg%3E%0A");
+}
+.annotations-ui__input-wrapper input[type=radio] + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16'%3E%3Cpath d='M8,16c-1.1,0-2.2-0.2-3.1-0.6c-1-0.4-1.8-1-2.5-1.7c-0.7-0.7-1.3-1.6-1.7-2.5C0.2,10.2,0,9.1,0,8c0-1.1,0.2-2.2,0.6-3.1 c0.4-1,1-1.8,1.7-2.5C3.1,1.6,3.9,1,4.9,0.6C5.8,0.2,6.9,0,8,0c1.1,0,2.2,0.2,3.1,0.6c1,0.4,1.8,1,2.5,1.7c0.7,0.7,1.3,1.6,1.7,2.5 c0.4,1,0.6,2,0.6,3.1s-0.2,2.2-0.6,3.1c-0.4,1-1,1.8-1.7,2.5c-0.7,0.7-1.6,1.3-2.5,1.7C10.2,15.8,9.1,16,8,16z M8,14.1 c1.7,0,3.1-0.6,4.3-1.8c1.2-1.2,1.8-2.6,1.8-4.3s-0.6-3.1-1.8-4.3C11.1,2.5,9.7,1.9,8,1.9S4.9,2.5,3.7,3.7C2.5,4.9,1.9,6.3,1.9,8 s0.6,3.1,1.8,4.3C4.9,13.5,6.3,14.1,8,14.1z'/%3E%3C/svg%3E");
+}
+.annotations-ui__input-wrapper input[type=radio]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16' width='16'%3E%3Cpath d='M8,11.8c1.1,0,2-0.4,2.7-1.1c0.7-0.7,1.1-1.6,1.1-2.7s-0.4-2-1.1-2.7C10,4.6,9.1,4.2,8,4.2S6,4.6,5.3,5.3 C4.6,6,4.2,6.9,4.2,8s0.4,2,1.1,2.7C6,11.4,6.9,11.8,8,11.8z M8,16c-1.1,0-2.2-0.2-3.1-0.6c-1-0.4-1.8-1-2.5-1.7 c-0.7-0.7-1.3-1.6-1.7-2.5C0.2,10.2,0,9.1,0,8c0-1.1,0.2-2.2,0.6-3.1c0.4-1,1-1.8,1.7-2.5C3.1,1.6,3.9,1,4.9,0.6C5.8,0.2,6.9,0,8,0 c1.1,0,2.2,0.2,3.1,0.6c1,0.4,1.8,1,2.5,1.7c0.7,0.7,1.3,1.6,1.7,2.5c0.4,1,0.6,2,0.6,3.1s-0.2,2.2-0.6,3.1c-0.4,1-1,1.8-1.7,2.5 c-0.7,0.7-1.6,1.3-2.5,1.7C10.2,15.8,9.1,16,8,16z M8,14.1c1.7,0,3.1-0.6,4.3-1.8c1.2-1.2,1.8-2.6,1.8-4.3s-0.6-3.1-1.8-4.3 C11.1,2.5,9.7,1.9,8,1.9S4.9,2.5,3.7,3.7C2.5,4.9,1.9,6.3,1.9,8s0.6,3.1,1.8,4.3C4.9,13.5,6.3,14.1,8,14.1z'/%3E%3C/svg%3E");
+}
+
+/*  ABOUT & COPYRIGHT PAGES
+============================================================================= */
+
+#about .quire-page__content .copyright .quire-copyright,
+#copyright .quire-page__content .copyright .quire-copyright {
+  padding: 0;
+}
+#about .quire-page__content .copyright .quire-copyright__icon__link,
+#copyright .quire-page__content .copyright .quire-copyright__icon__link {
+  color: currentColor;
+  border-bottom-width: 0;
+}
+#about .quire-page__content .copyright img,
+#copyright .quire-page__content .copyright img {
+  display: none;
+}
+#about .quire-page__content .publisher p:not(:last-child),
+#copyright .quire-page__content .publisher p:not(:last-child) {
+  margin-bottom: 0;
+}
+#about .quire-page__content .project-team ul,
+#copyright .quire-page__content .project-team ul {
+  margin-left: 0;
+}
+#about .quire-page__content .project-team ul li,
+#copyright .quire-page__content .project-team ul li {
+  margin: 0;
+}
+#about .quire-page__content .project-team ul li::before,
+#copyright .quire-page__content .project-team ul li::before {
+  content: none;
+}
+#about .quire-page__content .cip-data,
+#copyright .quire-page__content .cip-data {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 1rem 0;
+}
+#about .quire-page__content .cip-data p,
+#copyright .quire-page__content .cip-data p {
+  margin-bottom: 0;
+}
+#about .quire-page__content .cip-data ul,
+#copyright .quire-page__content .cip-data ul {
+  margin-left: 0;
+  margin-top: 0;
+}
+#about .quire-page__content .cip-data ul li,
+#copyright .quire-page__content .cip-data ul li {
+  margin: 0;
+}
+#about .quire-page__content .cip-data ul li::before,
+#copyright .quire-page__content .cip-data ul li::before {
+  content: none;
+}
+#about .quire-page__content .cip-data,
+#print-copyright .quire-page__content .cip-data {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  margin: 1rem 0;
+}
+#about .quire-page__content .cip-data p,
+#print-copyright .quire-page__content .cip-data p {
+  margin-bottom: 0;
+}
+#about .quire-page__content .cip-data ul,
+#print-copyright .quire-page__content .cip-data ul {
+  margin-left: 0;
+  margin-top: 0;
+}
+#about .quire-page__content .cip-data ul li,
+#print-copyright .quire-page__content .cip-data ul li {
+  margin: 0;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+#about .quire-page__content .cip-data ul li::before,
+#print-copyright .quire-page__content .cip-data ul li::before {
+  content: none;
+}
+#print-copyright .quire-copyright {
+  padding: 0;
+  margin-bottom: 1em;
+}
+#print-copyright .quire-copyright .copyright__publisher-logo {
+  display: none;
+}
+#print-copyright .project-team ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#print-copyright .project-team ul li,
+#print-copyright .project-team ul li p {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+#print-copyright .quire-page {
+  page: no-footer;
+}
+#print-copyright {
+  margin-top: .5in;
+}
+#print-copyright.quire-page.backmatter {
+  font-size: .875rem;
+}
+#print-copyright .quire-page__header.hero {
+  display: none;
+}
+#print-copyright .publisher {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+#print-copyright .publisher p:first-child {
+  margin-bottom: 0;
+}
+
+/*  PRINT/PDF
+============================================================================= */
+@media print {
+  /* Hide stuff */
+  .quire-page__content figure.q-figure--group,
+  .quire-contents-buttons,
+  .quire-page__content table.vocab-table,
+  .image-grid-search-box,
+  #case-studies-7 .quire-page__content figure.q-figure--vimeo,
+  .quire-entry .side-by-side p strong:first-child {
+    display: none;
+  }
+  #vol-1 .quire-page__content,
+  #vol-2 .quire-page__content,
+  #case-studies .quire-page__content {
+    display: none;
+    page: no-footer;
+  }
+  /* Fix/set running feet */
+  @page:right {
+    @bottom-left {
+      text-transform: uppercase;
+      font-size: 7.5pt;
+    }
+  }
+  .quire-page .quire-page__header__title .label {
+    string-set: sectiontitle content();
+  }
+  .quire-page .quire-page__header__title .quire-page-title {
+    string-set: pagetitle content();
+  }
+  /* Make 2 columns throughout */
+  .quire-page:not(.quire-contents) .quire-page__content {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .1875in;
+    max-width: 100%;
+    margin: 0;
+  }
+  /* Remove figure borders */
+  .content figure.q-figure {
+    border-width: 0;
+    padding: 0;
+  }
+  /* Make tagged images in atlas be two columns */
+  .content figure.q-figure.pdf-full-width {
+    column-span: all;
+  }
+  /* Adjust font size and margins for small text items */
+  .content figure .q-figure__caption {
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+  .quire-page__content .content .footnotes ol li {
+    margin-bottom: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+  .quire-page__content .content .quire-page__content__references dl {
+    margin-bottom: .375rem;
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+  .quire-page__content .content .quire-page__content__references dl dd {
+    margin-bottom: 0;
+  }
+  /* Fix up vocab pages */
+  .quire-page.vocabulary .quire-page__content {
+    font-size: .875rem;
+  }
+  .quire-page.vocabulary .quire-page__header {
+    margin-bottom: .375in;
+  }
+  .quire-page.vocabulary h1,
+  .quire-page.vocabulary .quire-page__header__title {
+    margin: 0;
+  }
+  .quire-page.vocabulary h2,
+  .quire-page.vocabulary div.accordion h2 {
+    font-size: 1rem;
+    margin: 1rem 0 !important;
+  }
+  .quire-page.vocabulary h2#translations {
+    font-size: 1.375rem;
+    margin: 1.5rem 0 1rem !important;
+  }
+  .quire-page.vocabulary h3,
+  .quire-page.vocabulary div.accordion h3 {
+    font-size: 1.375rem;
+    margin: 1rem 0 !important;
+  }
+  .quire-page.vocabulary div.accordion h3 {
+    border-top-color: var(--light);
+    border-top-width: 1px;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .quire-page.vocabulary h4 {
+    font-size: 1rem;
+    margin: 1rem 0 !important;
+  }
+  .quire-page.vocabulary div.accordion {
+    margin-top: 0;
+    border-bottom-width: 0;
+  }
+  .quire-page.vocabulary .quire-page__content .container .content li {
+    margin-bottom: 0;
+  }
+  .quire-page.vocabulary .quire-page__content .backmatter {
+    font-size: .875em;
+  }
+  /* Add TOC dotted leaders back in since Prince supports them */
+  .quire-contents-list .page-item a::after {
+    content: leader(dotted) ' 'target-counter(attr(href, url), page);
+  }
+  .quire-contents-list .page-item a.frontmatter-page::after {
+    content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
+  }
+  /* Style half title and title pages */
+  .half-title-page,
+  .title-page {
+    height: auto;
+    page: no-footer;
+  }
+  .title-page {
+    break-before: right;
+  }
+  .title-page {
+    padding-top: 2.25in;
+    padding-right: .75in;
+  }
+  .half-title-page {
+    padding-right: .75in;
+  }
+  .title-page .publisher {
+    right: .875in;
+  }
+  /* Headers */
+  .quire-page__header:not(.hero__image) {
+    page-break-before: always;
+  }
+  .quire-page__header.hero__image {
+    display: none;
+  }
+  /* TOCs */
+  .quire-contents-list {
+    padding: 0;
+  }
+  .quire-contents-list .menu-list {
+    font-size: 1em;
+  }
+  /* Add margins for consistent spacing */
+  .quire-page__content .container .content p,
+  .quire-page__content .container .content ul {
+    margin-bottom: 1em;
+  }
+  /* Avoid widowing the warning headings */
+  .warn > p:first-child {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  /* Fallback to standard list CSS */
+  .quire-page__content .container .content ul:not(.bio) {
+    list-style-type: disc;
+  }
+  .quire-page__content .container .content .cip-data ul {
+    list-style-type: none;
+  }
+  .quire-page__content .container .content ul li::before {
+    content: none;
+  }
+  /* Links */
+  .q-figure__modal-link {
+    border-bottom-width: 0;
+  }
+  .q-figure__label.q-figure__label--below .q-figure__modal-link {
+    line-height: 0;
+  }
+  /* Tables */
+  @page big_table {
+    -prince-rotate-body: landscape;
+    -prince-shrink-to-fit: auto;
+  }
+  .q-figure.q-figure--table {
+    column-span: all;
+  }
+  .q-figure.q-figure--table#table-03 {
+    page: big_table;
+  }
+  /* TABBED PAGES */
+  /* These styles add a solid-color tab to the edge of the page to make it
+    easier for readers to quickly thumb to those sections: Vocabulary and
+    Visual Atlas. The tabs for each section are placed in a different position
+    vertically on the page, which is controled may the `margin-top` value.
+    To make the tabs wider or narrower, use the `margin-right` or `margin-left`
+    value, but be sure to also change the `transform-origin` value accordingly.
+    */
+  @page vocab:right {
+    @right-top {
+      content: "VOCABULARY";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(-90deg);
+      transform-origin: .75in .375in;
+      margin-top: 1.5in; /* increments of 1.5in to control vertical placement */
+      margin-right: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  @page vocab:left {
+    @left-top {
+      content: "VOCABULARY";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(90deg);
+      transform-origin: .75in .375in;
+      margin-top: 1.5in; /* increments of 1.5in to control vertical placement */
+      margin-left: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-right {
+      content: none;
+    }
+  }
+  @page atlas:right {
+    @right-top {
+      content: "VISUAL ATLAS";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(-90deg);
+      transform-origin: .75in .375in;
+      margin-top: 3in; /* increments of 1.5in to control vertical placement */
+      margin-right: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  @page atlas:left {
+    @left-top {
+      content: "VISUAL ATLAS";
+      background-color: var(--mid);
+      color: white;
+      padding: 1rem 0 0;
+      border-radius: 4pt;
+      transform: rotate(90deg);
+      transform-origin: .75in .375in;
+      margin-top: 3in; /* increments of 1.5in to control vertical placement */
+      margin-left: -.75in; /* outer margin width + this = width of tab */
+    }
+    @bottom-right {
+      content: none;
+    }
+  }
+  .quire-page.vocabulary {
+    page: vocab;
+  }
+  .quire-page.quire-visual-atlas {
+    page: atlas;
+  }
+  /* Case studies */
+  .quire-entry__image-wrap {
+    background-color: var(--deep-black);
+    max-height: 8.5in;
+    width: auto;
+    height: auto;
+  }
+  .quire-entry__image-wrap figure:first-of-type {
+    border-width: 0;
+    padding: 0;
+  }
+  @page entry-image {
+    background-color: var(--deep-black);
+    @bottom-right {
+      content: none;
+    }
+    @bottom-left {
+      content: none;
+    }
+  }
+  .quire-entry__image-wrap {
+    page: entry-image;
+  }
+}
+
+/*  CHOICES LABEL COLORS
+============================================================================= */
+/* FIG 009 */
+#lightbox-fig-006-0-lantern  label::before,
+#fig-006-0-lantern  label::before {
+  background-color: #f7f405; /* yellow */
+}
+#lightbox-fig-006-0-flashing  label::before,
+#fig-006-0-flashing  label::before {
+  background-color: #f10e0e; /* red */
+}
+#lightbox-fig-006-0-seam-line  label::before,
+#fig-006-0-seam-line  label::before {
+  background-color: #1ad14e; /* green */
+}
+/* FIG 008 */
+#lightbox-fig-008-0-brick-a  label::before,
+#fig-008-0-brick-a  label::before {
+  background-color: #ff3333; /* red */
+}
+#lightbox-fig-008-0-brick-b  label::before,
+#fig-008-0-brick-b  label::before {
+  background-color: #d2c729; /* yellow */
+}
+/* FIG 031 */
+#lightbox-fig-031-0-wax-joint  label::before,
+#fig-031-0-wax-joint  label::before {
+  background-color: #8c0000; /* dark red */
+}
+#lightbox-fig-031-0-traverse-rods  label::before,
+#fig-031-0-wax-to-traverse-rods  label::before {
+  background-color: #f08c00; /* orange */
+}
+#lightbox-fig-031-0-main-armature  label::before,
+#fig-031-0-main-armature  label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-031-0-armature-b  label::before,
+#fig-031-0-armature-b  label::before {
+  background-color: #8c0000; /* dark red */
+}
+#lightbox-fig-031-0-armature-c  label::before,
+#fig-031-0-armature-c  label::before {
+  background-color: #ffff00; /* yellow */
+}
+/* FIG 032 */
+#lightbox-fig-032-0-armature label::before,
+#fig-032-0-armature label::before {
+  background-color: #c80000; /* red */
+}
+#lightbox-fig-032-0-wax-joints label::before,
+#fig-032-0-wax-joints label::before {
+  background-color: #00fa00; /* green */
+}
+/* FIG 035 */
+#lightbox-fig-035-0-patches label::before,
+#fig-035-0-patches label::before {
+  background-color: #a1a8f0; /* lavender */
+}
+#lightbox-fig-035-0-core-pins label::before,
+#fig-035-0-core-pins label::before {
+  background-color: #eff08a; /* yellow */
+}
+/* FIG 037 */
+#lightbox-fig-037-0-core-pins label::before,
+#fig-037-0-core-pins label::before {
+  background-color: #ec8080; /* red */
+}
+/* FIG 038 */
+#lightbox-fig-038-0-chaplet label::before,
+#fig-038-0-chaplet label::before {
+  background-color: #96e5ae; /* green */
+}
+/* FIG 042 */
+#lightbox-fig-042-0-core-supports label::before,
+#fig-042-0-core-supports label::before {
+  background-color: #e8e981; /* yellow */
+}
+#lightbox-fig-042-0-wax-joint label::before,
+#fig-042-0-wax-joint label::before {
+  background-color: #93a0f0; /* lavender */
+}
+/* FIG 043 */
+#lightbox-fig-043-0-lanterns label::before,
+#fig-043-0-lanterns label::before {
+  background-color: #ed828f; /* red */
+}
+#lightbox-fig-043-0-heads label::before,
+#fig-043-0-heads label::before {
+  background-color: #eceb8c; /* yellow */
+}
+#lightbox-fig-043-0-seam-line label::before,
+#fig-043-0-seam-line label::before {
+  background-color: #94a2ce; /* lavender */
+}
+/* FIG 050 */
+#lightbox-fig-050-0-thickening label::before,
+#fig-050-0-thickening label::before {
+  background-color: #99f164; /* green */
+}
+/* FIG 051 */
+#lightbox-fig-051-0-wax label::before,
+#fig-051-0-wax label::before {
+  background-color: #99f164; /* green */
+}
+#lightbox-fig-051-0-metal label::before,
+#fig-051-0-metal label::before {
+  background-color: #f48208; /* orange */
+}
+/* FIG 054 */
+#lightbox-fig-054-0-wax-joints label::before,
+#fig-054-0-wax-joints label::before {
+  background-color: #fa0a0a; /* red */
+}
+/* FIG 056 */
+#lightbox-fig-056-0-spherules label::before,
+#fig-056-0-spherules label::before {
+  background-color: #c603f7; /* purple */
+}
+/* FIG 057 */
+#lightbox-fig-057-0-spherules label::before,
+#fig-057-0-spherules label::before {
+  background-color: #f90622; /* red */
+}
+/* FIG 059 */
+#lightbox-fig-059-0-welds label::before,
+#fig-059-0-welds label::before {
+  background-color: #9ba3ed; /* lavender */
+}
+#lightbox-fig-059-0-flashes label::before,
+#fig-059-0-flashes label::before {
+  background-color: #f60e2e; /* red */
+}
+/* FIG 060 */
+#lightbox-fig-060-0-drip-marks label::before,
+#fig-060-0-drip-marks label::before {
+  background-color: #6ff468; /* green */
+}
+#lightbox-fig-060-0-flashing label::before,
+#fig-060-0-flashing label::before {
+  background-color: #e8db67; /* yellow */
+}
+#lightbox-fig-060-0-chisel-marks label::before,
+#fig-060-0-chisel-marks label::before {
+  background-color: #f37a71; /* red */
+}
+#lightbox-fig-060-0-core label::before,
+#fig-060-0-core label::before {
+  background-color: #e06ee4; /* violet magenta */
+}
+/* FIG 061 */
+#lightbox-fig-061-0-sand-core label::before,
+#fig-061-0-sand-core label::before {
+  background-color: #909eef; /* lavender */
+}
+#lightbox-fig-061-0-nuts label::before,
+#fig-061-0-nuts label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-061-0-hammering label::before,
+#fig-061-0-hammering label::before {
+  background-color: #8fe297; /* green */
+}
+#lightbox-fig-061-0-geometric-core label::before,
+#fig-061-0-geometric-core label::before {
+  background-color: #f30b27; /* red */
+}
+#lightbox-fig-061-0-core-flashes label::before,
+#fig-061-0-core-flashes label::before {
+  background-color: #f7f94a; /* yellow */
+}
+/* FIG 063 */
+#lightbox-fig-063-0-wax-joint label::before,
+#fig-063-0-wax-joint label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-063-0-wall-thickness label::before,
+#fig-063-0-wall-thickness label::before {
+  background-color: #5bfbfb; /* aqua */
+}
+#lightbox-fig-063-0-external-edge label::before,
+#fig-063-0-external-edge label::before {
+  background-color: #ffff00; /* yellow */
+}
+/* FIG 064 */
+#lightbox-fig-064-0-wax-joints label::before,
+#fig-064-0-wax-joints label::before {
+  background-color: #76e483; /* green */
+}
+#lightbox-fig-064-0-core-pin-holes label::before,
+#fig-064-0-core-pin-holes label::before {
+  background-color: #f26e6e; /* red */
+}
+/* FIG 077 */
+#lightbox-fig-077-0-flashing label::before,
+#fig-000-0-flashing label::before {
+  background-color: #d21414; /* red */
+}
+/* FIG 079 */
+#lightbox-fig-079-0-armature label::before,
+#fig-079-0-armature label::before {
+  background-color: #ecec7d; /* yellow */
+}
+/* FIG 080 */
+#lightbox-fig-080-0-drips label::before,
+#fig-080-0-drips label::before {
+  background-color: #aff4e3; /* turquoise */
+}
+#lightbox-fig-080-0-air-bubbles label::before,
+#fig-080-0-air-bubbles label::before {
+  background-color: #c4a369; /* brown */
+}
+#lightbox-fig-080-0-slab-join label::before,
+#fig-080-0-slab-join label::before {
+  background-color: #3450d8; /* blue */
+}
+/* FIG 084 */
+#lightbox-fig-084-0-fingerprint label::before,
+#fig-084-0-fingerprint label::before {
+  background-color: #ffd300; /* yellow */
+}
+#lightbox-fig-084-0-stroke-direction label::before,
+#fig-084-0-stroke-direction label::before {
+  background-color: #fff; /* white */
+}
+/* FIG 086 */
+#lightbox-fig-086-0-sprues label::before,
+#fig-086-0-sprues label::before {
+  background-color: #ffd300; /* yellow */
+}
+/* FIG 090 */
+#lightbox-fig-090-0-walls label::before,
+#fig-090-0-walls label::before {
+  background-color: #d21414; /* red */
+}
+#lightbox-fig-090-0-core-flashing label::before,
+#fig-090-0-core-flashing label::before {
+  background-color: #8efa3c; /* green */
+}
+/* FIG 091 */
+#lightbox-fig-091-0-wall-thickness label::before,
+#fig-091-0-wall-thickness label::before {
+  background-color: #d31818; /* red */
+}
+/* FIG 092 */
+#lightbox-fig-092-0-seam-line label::before,
+#fig-092-0-seam-line label::before {
+  background-color: #d64317; /* red */
+}
+/* FIG 093 */
+#lightbox-fig-093-0-angular-contours label::before,
+#fig-093-0-angular-contours label::before {
+  background-color: #f60e2e; /* red */
+}
+/* FIG 095 */
+#lightbox-fig-095-0-joint label::before,
+#fig-095-0-joint label::before {
+  background-color: #f5031f; /* red */
+}
+/* FIG 104 */
+#lightbox-fig-104-0-sprues label::before,
+#fig-104-0-sprues label::before {
+  background-color: #a5db7c; /* green */
+}
+#lightbox-fig-104-0-core-pins label::before,
+#fig-104-0-core-pins label::before {
+  background-color: #946585; /* purple */
+}
+/* FIG 119 */
+#lightbox-fig-119-0-patches label::before,
+#fig-119-0-patches label::before {
+  background-color: #8aead9; /* aqua */
+}
+/* FIG 120 */
+#lightbox-fig-120-0-core-pins label::before,
+#fig-120-0-core-pins label::before {
+  background-color: #99efd6; /* aqua */
+}
+/* FIG 123 */
+#lightbox-fig-123-0-patch label::before,
+#fig-123-0-patch label::before {
+  background-color: #f1f27a; /* yellow */
+}
+/* FIG 124 */
+#lightbox-fig-124-0-sprues label::before,
+#fig-124-0-sprues label::before {
+  background-color: #7f92e9; /* lavender */
+}
+/* FIG 127 */
+#lightbox-fig-127-0-porosity label::before,
+#fig-127-0-porosity label::before {
+  background-color: #9395e9; /* lavender */
+}
+#lightbox-fig-127-0-roman-joints label::before,
+#fig-127-0-roman-joints label::before {
+  background-color: #cf727e; /* red */
+}
+/* FIG 152 */
+#lightbox-fig-152-0-porosity label::before,
+#fig-152-0-porosity label::before {
+  background-color: #97c96e; /* green */
+}
+#lightbox-fig-152-0-patch label::before,
+#fig-152-0-patch label::before {
+  background-color: #f5f475; /* yellow */
+}
+/* FIG 155 */
+#lightbox-fig-155-0-shrinkage-porosity label::before,
+#fig-155-0-shrinkage-porosity label::before {
+  background-color: #db0000; /* red */
+}
+/* FIG 156 */
+#lightbox-fig-156-0-sampling-hole label::before,
+#fig-156-0-sampling-hole label::before {
+  background-color: #f50c0c; /* red */
+}
+/* FIG 170 */
+#lightbox-fig-170-0-patch label::before,
+#fig-170-0-patch label::before {
+  background-color: #f0f28a; /* yellow */
+}
+/* FIG 172 */
+#lightbox-fig-172-0-patches label::before,
+#fig-172-0-patches label::before {
+  background-color:#f0f28a; /* yellow */
+}
+/* FIG 176 */
+#lightbox-fig-176-0-cast-repair label::before,
+#fig-176-0-cast-repair label::before {
+  background-color: #a7df95; /* green */
+}
+/* FIG 177 */
+#lightbox-fig-177-0-threaded-plugs label::before,
+#fig-177-0-threaded-plugs label::before {
+  background-color: #8488ed; /* lavender */
+}
+#lightbox-fig-177-0-cast-on-repairs label::before,
+#fig-177-0-cast-on-repairs label::before {
+  background-color: #efee89; /* yellow */
+}
+/* FIG 178 */
+#lightbox-fig-178-0-sleeve-joint label::before,
+#fig-178-0-sleeve-joint label::before {
+  background-color: #f10e0e; /* red */
+}
+#lightbox-fig-178-0-joint-patch label::before,
+#fig-178-0-joint-patch label::before {
+  background-color: #7e8edf; /* lavender */
+}
+#lightbox-fig-178-0-patch label::before,
+#fig-178-0-patch label::before {
+  background-color: #6dab70; /* green */
+}
+#lightbox-fig-178-0-plugs label::before,
+#fig-178-0-plugs label::before {
+  background-color: #e6e585; /* yellow */
+}
+/* FIG 179 */
+#lightbox-fig-179-0-cast-on-repair label::before,
+#fig-179-0-cast-on-repair label::before {
+  background-color: #f3f27d; /* yellow */
+}
+#lightbox-fig-179-0-vent-and-gate label::before,
+#fig-179-0-vent-and-gate label::before {
+  background-color: #1d12eb; /* blue */
+}
+/* FIG 180 */
+#lightbox-fig-180-0-cast-on-repair label::before,
+#fig-180-0-cast-on-repair label::before {
+  background-color: #a3e28f; /* green */
+}
+#lightbox-fig-180-0-core-pins label::before,
+#fig-180-0-core-pins label::before {
+  background-color: #d48d93; /* red */
+}
+/* FIG 183 */
+#lightbox-fig-183-0-cast-on-repair label::before,
+#fig-183-0-cast-on-repair label::before {
+  background-color: #b2ed82; /* green */
+}
+/* FIG 184 */
+#lightbox-fig-184-0-dovetail label::before,
+#fig-184-0-dovetail label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-184-0-repairs label::before,
+#fig-184-0-repairs label::before {
+  background-color: #00ffff; /* aqua */
+}
+/* FIG 185 */
+#lightbox-fig-185-0-flow-fusion-repair label::before,
+#fig-185-0-flow-fusion-repair label::before {
+  background-color: #ebe41a; /* yellow */
+}
+/* FIG 188 */
+#lightbox-fig-188-0-patch label::before,
+#fig-188-0-patch label::before {
+  background-color: #e8e77d; /* yellow */
+}
+#lightbox-fig-188-0-brazing label::before,
+#fig-188-0-brazing label::before {
+  background-color: #fff; /* white */
+}
+/* FIG 189 */
+#lightbox-fig-189-0-weld label::before,
+#fig-189-0-weld label::before {
+  background-color: #d31531; /* red */
+}
+/* FIG 190 */
+#lightbox-fig-190-0-lead-repair label::before,
+#fig-190-0-lead-repair label::before {
+  background-color: #93a2ea; /* lavender */
+}
+/* FIG 194 */
+#lightbox-fig-194-0-patches label::before,
+#fig-194-0-patches label::before {
+  background-color: #d97272; /* red */
+}
+/* FIG 196 */
+#lightbox-fig-196-0-cast-on-repair label::before,
+#fig-196-0-cast-on-repair label::before {
+  background-color: #efef8f; /* yellow */
+}
+/* FIG 197 */
+#lightbox-fig-197-0-threaded-plugs label::before,
+#fig-197-0-threaded-plugs label::before {
+  background-color: #3d4fdc; /* blue */
+}
+/* FIG 198 */
+#lightbox-fig-198-0-patch label::before,
+#fig-198-0-patch label::before {
+  background-color: #ffff3c; /* yellow */
+}
+#lightbox-fig-198-0-threaded-plug label::before,
+#fig-198-0-threaded-plug label::before {
+  background-color: #d31531; /* red */
+}
+/* FIG 199 */
+#lightbox-fig-199-0-repair-insert label::before,
+#fig-199-0-repair-insert label::before {
+  background-color: #eced70; /* yellow */
+}
+/* FIG 200 */
+#lightbox-fig-200-0-sheet-repair label::before,
+#fig-200-0-sheet-repair label::before {
+  background-color: #83e563; /* green */
+}
+/* FIG 203 */
+#lightbox-fig-203-0-weld-line label::before,
+#fig-203-0-weld-line label::before {
+  background-color: #8994fa; /* lavender */
+}
+/* FIG 205 */
+#lightbox-fig-205-0-flow-fusion-weld label::before,
+#fig-205-0-flow-fusion-weld label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 206 */
+#lightbox-fig-206-0-brazed-metal label::before,
+#fig-206-0-brazed-metal label::before {
+  background-color: #da6654; /* red */
+}
+/* FIG 207 */
+#lightbox-fig-207-0-cast-on-material label::before,
+#fig-207-0-cast-on-material label::before {
+  background-color: #9af0d6; /* teal */
+}
+#lightbox-fig-207-0-iron-shims label::before,
+#fig-207-0-iron-shims label::before {
+  background-color: #753122; /* maroon */
+}
+/* FIG 209 */
+#lightbox-fig-209-0-vessel-body label::before,
+#fig-209-0-vessel-body label::before {
+  background-color: #8288f8; /* lavender */
+}
+#lightbox-fig-209-0-leg label::before,
+#fig-209-0-leg label::before {
+  background-color: #8febab; /* green */
+}
+/* FIG 210 */
+#lightbox-fig-210-0-joints label::before,
+#fig-210-0-joints label::before {
+  background-color: #7ad2c4; /* teal */
+}
+/* FIG 213 */
+#lightbox-fig-213-0-roman-joint label::before,
+#fig-213-0-roman-joint label::before {
+  background-color: #89ee78; /* green */
+}
+/* FIG 216 */
+#lightbox-fig-216-0-overlap label::before,
+#fig-216-0-overlap label::before {
+  background-color: #d73f12; /* red */
+}
+/* FIG 221 */
+#lightbox-fig-221-0-armature label::before,
+#fig-221-0-armature label::before {
+  background-color: #d95555; /* red */
+}
+#lightbox-fig-221-0-external-supports label::before,
+#fig-221-0-external-supports label::before {
+  background-color: #f2ec40; /* yellow */
+}
+/* FIG 224 */
+#lightbox-fig-224-0-dovetail-joint label::before,
+#fig-224-0-dovetail-joint label::before {
+  background-color: #d0132a; /* red */
+}
+/* FIG 227 */
+#lightbox-fig-227-0-flow-fusion-weld label::before,
+#fig-227-0-flow-fusion-weld label::before {
+  background-color: #ea86b2; /* pink */
+}
+#lightbox-fig-227-0-welding label::before,
+#fig-227-0-welding label::before {
+  background-color: #bed581; /* light green */
+}
+#lightbox-fig-227-0-securing-pins label::before,
+#fig-227-0-securing-pins label::before {
+  background-color: #63d9f3; /* light blue */
+}
+/* FIG 229 */
+#lightbox-fig-229-0-brazing-metal label::before,
+#fig-229-0-brazing-metal label::before {
+  background-color: #85f876; /* green */
+}
+/* FIG 235 */
+#lightbox-fig-235-0-matting-marks label::before,
+#fig-235-0-matting-marks label::before {
+  background-color: #afe175; /* green */
+}
+/* FIG 240 */
+#lightbox-fig-240-0-compass-line label::before,
+#fig-240-0-compass-line label::before {
+  background-color: #d41022; /* red */
+}
+/* FIG 287 */
+#lightbox-fig-287-0-gilding-a label::before,
+#fig-287-0-gilding-a label::before {
+  background-color: #000; /* black */
+}
+#lightbox-fig-287-0-gilding-b label::before,
+#fig-287-0-gilding-b label::before {
+  background-color: #a7342c; /* dark red */
+}
+#lightbox-fig-287-0-gilding-c label::before,
+#fig-287-0-gilding-c label::before {
+  background-color: #33457d; /* dark blue */
+}
+/* FIG 300 */
+#lightbox-fig-300-0-groove label::before,
+#fig-300-0-groove label::before {
+  background-color: #b7b21d; /* dark yellow */
+}
+/* FIG 346 */
+#lightbox-fig-346-0-copper-lips label::before,
+#fig-346-0-copper-lips label::before {
+  background-color: #6c98b7; /* blue */
+}
+#lightbox-fig-346-0-copper-drips label::before,
+#fig-346-0-copper-drips label::before {
+  background-color: #edb847; /* orange */
+}
+#lightbox-fig-346-0-lead-contusion label::before,
+#fig-346-0-lead-contusion label::before {
+  background-color: #a969c4; /* purple */
+}
+/* FIG 364 */
+#lightbox-fig-364-0-inlays label::before,
+#fig-364-0-inlays label::before {
+  background-color: #ffdd72; /* pale orange  */
+}
+#lightbox-fig-364-0-lost-inlay label::before,
+#fig-364-0-lost-inlay label::before {
+  background-color: #e5e24f; /* yellow */
+}
+#lightbox-fig-364-0-brazing label::before,
+#fig-364-0-brazing label::before {
+  background-color: #000; /* black */
+}
+/* FIG 367 */
+#lightbox-fig-367-0-wax label::before,
+#fig-367-0-wax label::before {
+  background-color: #ede1d7; /* beige */
+}
+#lightbox-fig-367-0-borders label::before,
+#fig-367-0-borders label::before {
+  background-color: #9d0d15; /* dark red */
+}
+#lightbox-fig-367-0-lost-patches label::before,
+#fig-367-0-lost-patches label::before {
+  background-color: #ececed; /* gray */
+}
+#lightbox-fig-367-0-patches label::before,
+#fig-367-0-patches label::before {
+  background-color: #8dbc43; /* grass green */
+}
+#lightbox-fig-367-0-rivets label::before,
+#fig-367-0-rivets label::before {
+  background-color: #256d2f; /* dark green */
+}
+#lightbox-fig-367-0-core-pins label::before,
+#fig-367-0-core-pins label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-367-0-outline label::before,
+#fig-367-0-outline label::before {
+  background-color: #000; /* black */
+}
+/* FIG 401 */
+#lightbox-fig-401-0-sealing-material label::before,
+#fig-401-0-sealing-material label::before {
+  background-color: #de7575; /* red */
+}
+#lightbox-fig-401-0-consecration-offerings label::before,
+#fig-401-0-consecration-offerings label::before {
+  background-color: #8062e3; /* purple */
+}
+/* FIG 456 */
+#lightbox-fig-456-0-connection-line label::before,
+#fig-456-0-connection-line label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 457 */
+#lightbox-fig-457-0-cutout label::before,
+#fig-457-0-cutout label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 458 */
+#lightbox-fig-458-0-pile-driver-hole label::before,
+#fig-458-0-pile-driver-hole label::before {
+  background-color: #ff0000; /* red */
+}
+/* FIG 465 */
+#lightbox-fig-465-0-rivet-holes label::before,
+#fig-465-0-rivet-holes label::before {
+  background-color: #78ad46; /* green */
+}
+#lightbox-fig-465-0-rivet-heads label::before,
+#fig-465-0-rivet-heads label::before {
+  background-color: #e36541; /* orange red */
+}
+/* FIG 466 */
+#lightbox-fig-466-0-fusion-weld label::before,
+#fig-466-0-fusion-weld label::before {
+  background-color: #e2613b; /* red */
+}
+/* FIG 467 */
+#lightbox-fig-467-0-wax label::before,
+#fig-467-0-wax label::before {
+  background-color: #ede1d7; /* beige */
+}
+#lightbox-fig-467-0-wax-joints label::before,
+#fig-467-0-wax-joints label::before {
+  background-color: #3a6a9f; /* blue */
+}
+#lightbox-fig-467-0-wax-elements label::before,
+#fig-467-0-wax-elements label::before {
+  background-color: #587fb7; /* blue */
+}
+#lightbox-fig-467-0-borders label::before,
+#fig-467-0-borders label::before {
+  background-color: #9e0b0f; /* dark red */
+}
+#lightbox-fig-467-0-flashing label::before,
+#fig-467-0-flashing label::before {
+  background-color: #8f5d89; /* purple */
+}
+#lightbox-fig-467-0-cast-on-repairs label::before,
+#fig-467-0-cast-on-repairs label::before {
+  background-color: #947860; /* brown */
+}
+#lightbox-fig-467-0-welding-overflow label::before,
+#fig-467-0-welding-overflow label::before {
+  background-color: #f2b8a2; /* pink */
+}
+#lightbox-fig-467-0-welding-joints label::before,
+#fig-467-0-welding-joints label::before {
+  background-color: #e2694d; /* light red */
+}
+#lightbox-fig-467-0-welding-joints-accumulation label::before,
+#fig-467-0-welding-joints-accumulation label::before {
+  background-color: #de543b; /* medium red */
+}
+#lightbox-fig-467-0-feeding-basins label::before,
+#fig-467-0-feeding-basins label::before {
+  background-color: #d71920; /* red */
+}
+#lightbox-fig-467-0-lost-patches label::before,
+#fig-467-0-lost-patches label::before {
+  background-color: #e7e8e9; /* light gray */
+}
+#lightbox-fig-467-0-patches label::before,
+#fig-467-0-patches label::before {
+  background-color: 947860#84c558; /* green */
+}
+#lightbox-fig-467-0-rivets label::before,
+#fig-467-0-rivets label::before {
+  background-color: #377241; /* dark green */
+}
+#lightbox-fig-467-0-core-pins label::before,
+#fig-467-0-core-pins label::before {
+  background-color: #fff; /* white */
+}
+#lightbox-fig-467-0-outline label::before,
+#fig-467-0-outline label::before {
+  background-color: #000; /* black */
+}
+/* FIG 478 */
+#lightbox-fig-478-0-plugs label::before,
+#fig-478-0-plugs label::before {
+  background-color: #98e5e3; /* aqua */
+}
+/* FIG 487 */
+#lightbox-fig-487-0-core-pin label::before,
+#fig-487-0-core-pin label::before {
+  background-color: #9bf3f9; /* aqua */
+}
+/* FIG 490 */
+#lightbox-fig-490-0-cast-on-repair label::before,
+#fig-490-0-cast-on-repair label::before {
+  background-color: #f26f4b; /* orange red */
+}
+/* FIG 491 */
+#lightbox-fig-491-0-cast-on-repair label::before,
+#fig-491-0-cast-on-repair label::before {
+  background-color: #f26f4b; /* orange red */
+}
+/* FIG 492 */
+#lightbox-fig-492-0-plug label::before,
+#fig-492-0-plug label::before {
+  background-color: #7ddcf3; /* aqua */
+}
+/* FIG 515 */
+#lightbox-fig-515-0-sealing-material label::before,
+#fig-515-0-sealing-material label::before {
+  background-color: #798eef; /* lavender */
+}
+/* FIG 516  */
+#lightbox-fig-516-0-sealing-material label::before,
+#fig-516-0-sealing-material label::before {
+  background-color: #da6170; /* red */
+}
+/* FIG 537 */
+#lightbox-fig-537-0-channels label::before,
+#fig-537-0-channels label::before {
+  background-color: #eff08a; /* yellow */
+}
+/* FIG 539 */
+#lightbox-fig-539-0-sprue label::before,
+#fig-539-0-sprue label::before {
+  background-color: #f1cd51; /* pale orange */
+}
+#lightbox-fig-539-0-lantern label::before,
+#fig-539-0-lantern label::before {
+  background-color: #a4f334; /* green */
+}
+#lightbox-fig-539-0-mounting-screws label::before,
+#fig-539-0-mounting-screws label::before {
+  background-color: #fa7c29; /* orange */
+}
+/* FIG 540 */
+#lightbox-fig-540-0-tool-marks label::before,
+#fig-540-0-tool-marks label::before {
+  background-color: #b1ea68; /* green */
+}
+/* FIG 541 */
+#lightbox-fig-541-0-repair label::before,
+#fig-541-0-repair label::before {
+  background-color: #f61111; /* red */
+}
+/* FIG 545 */
+#lightbox-fig-545-0-core-support-wire label::before,
+#fig-545-0-core-support-wire label::before {
+  background-color: #db0000; /* red */
+}
+#lightbox-fig-545-0-weld-line label::before,
+#fig-545-0-weld-line label::before {
+  background-color: #66b52b; /* green */
+}
+#lightbox-fig-545-0-sprue-remnants label::before,
+#fig-545-0-sprue-remnants label::before {
+  background-color: #345dfb; /* blue */
+}
+/* FIG 559 */
+#lightbox-fig-559-0-wax-blobs label::before,
+#fig-559-0-wax-blobs label::before {
+  background-color: #bfdf71; /* green */
+}
+#lightbox-fig-559-0-fingerprint-streak label::before,
+#fig-559-0-fingerprint-streak label::before {
+  background-color: #fff; /* white */
+}
