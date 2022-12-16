@@ -1,6 +1,6 @@
 ---
 title: seam line
-aliases: [seam lines]
+aliases: [seam lines, seam]
 order: 665
 layout: page
 tags: vocabulary

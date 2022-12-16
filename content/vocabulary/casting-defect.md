@@ -1,6 +1,6 @@
 ---
 title: casting defect
-aliases: [casting defects]
+aliases: [casting defects, defects]
 order: 455
 layout: page
 tags: vocabulary

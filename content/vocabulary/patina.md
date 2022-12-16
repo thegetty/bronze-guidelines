@@ -1,6 +1,6 @@
 ---
 title: patina
-aliases: [patinas]
+aliases: [patinas, patination]
 order: 610
 layout: page
 tags: vocabulary

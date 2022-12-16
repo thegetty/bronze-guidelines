@@ -43,7 +43,7 @@ As mentioned above, few (if any) places offer training in such interdisciplinary
 
 As a tool, the present *Guidelines* aim:
 
--   to foster research and collaboration among a variety of experts with a particular interest in cast bronze sculpture—curators, conservators, conservation scientists, technicians, metallurgists, sculptors, {% def "bronze" %}, archaeologists, dealers, and collectors as well as academics and other specialists in allied fields—by facilitating more accurate and consistent communication across fields;
+-   to foster research and collaboration among a variety of experts with a particular interest in cast bronze sculpture—curators, conservators, conservation scientists, technicians, metallurgists, sculptors, {% def "founders" %}, archaeologists, dealers, and collectors as well as academics and other specialists in allied fields—by facilitating more accurate and consistent communication across fields;
 
 -   to enable a better synthesis of the rich volume of data that continues to be gathered on such works than has been possible to date;
 
@@ -70,9 +70,9 @@ The technological study of bronze sculpture may arise in connection with a varie
 
 The kinds of questions that bronze sculptures may raise are many. For instance:
 
--   What was the {% def "bronze" %}? What material was it made of? Who was responsible for creating the model, the {% def "bronze" %}, and for choosing the metal? (see [Case Study 5](/case-studies/5/)).
+-   What was the {% def "model" %}? What material was it made of? Who was responsible for creating the model, the {% def "mold" %}, and for choosing the metal? (see [Case Study 5](/case-studies/5/)).
 
--   Is the {% def "bronze" %} a one-off? If it is one of multiple iterations of the same form, how does this cast relate to other versions? How best to achieve useful comparisons, especially if the sculptures cannot be brought together for study?
+-   Is the {% def "cast (n.)" "cast" %} a one-off? If it is one of multiple iterations of the same form, how does this cast relate to other versions? How best to achieve useful comparisons, especially if the sculptures cannot be brought together for study?
 
 -   Can one discern patterns in the way certain artists or workshops worked? Can one use such information to discern developments in the artist’s or workshop’s oeuvre and date works, determine workshop organization, or ascertain transfer of technical know-how within or between workshops or different centers of production?
 
@@ -82,7 +82,7 @@ Answering these questions can require a fair amount of comparable data on relate
 
 It is also important to bear in mind the role of the founder and other hands that may be involved in the production of any bronze object. Depending on the challenges and solutions presented by a particular project, these problem solvers may adopt or experiment with different processes before settling on the one(s) most likely to produce successful results. This is particularly true of larger casts.
 
-Then there are questions about the condition of the artwork and its original appearance, function, and display. Most often such questions relate to altered {% def "bronze" %}, other surface coloration, or decoration and tool marks, which are covered in [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/), and [I.6](/vol-1/2/). But remains of molding materials or surface scratches that result from mold taking could be clues to {% def "bronze" %}, which falls under what we will call here the life cycle of a bronze.
+Then there are questions about the condition of the artwork and its original appearance, function, and display. Most often such questions relate to altered {% def "patination" %}, other surface coloration, or decoration and tool marks, which are covered in [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/), and [I.6](/vol-1/2/). But remains of molding materials or surface scratches that result from mold taking could be clues to {% def "after-casting" %}, which falls under what we will call here the life cycle of a bronze.
 
 </section>
 <section id="S1.3">
@@ -97,7 +97,7 @@ Traces of original use (and/or abuse) may include:
 
 -   patterns of wear (see [I.6§1.4](/vol-1/6/#S1.4));
 
--   organic and other accretions, {% def "bronze" %}, or {% def "bronze" %} (see [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/));
+-   organic and other accretions, {% def "coatings" %}, or {% def "gilding" %} (see [I.6](/vol-1/2/), [I.6](/vol-1/2/), [I.6](/vol-1/2/));
 
 -   traces of ritual burial conditions (soil, patina and pseudomorphs, see [I.8§1.1.2](/vol-1/8/#S1.1.2));
 
@@ -125,7 +125,7 @@ Traces of display and environment(s) that the object has been exposed to may inc
 
 -   varying degrees of finishing on different parts of the object that might suggest a particular architectural location;
 
--   alterations and accretions such as {% def "bronze" %} particular to specific environments (soot; paint drips; burial accretions as for example pseudomorphs, see [I.8§1.1.2](/vol-1/8/#S1.1.2)).
+-   alterations and accretions such as {% def "corrosion" %} particular to specific environments (soot; paint drips; burial accretions as for example pseudomorphs, see [I.8§1.1.2](/vol-1/8/#S1.1.2)).
 
 Traces of conservation and/or restoration include:
 
@@ -137,7 +137,7 @@ Traces of conservation and/or restoration include:
 
 -   inscriptions or messages left by an earlier restorer.
 
-Traces of {% def "bronze" %} include ({% ref 'fig-001' %}):
+Traces of {% def "replication" %} include ({% ref 'fig-001' %}):
 
 -   evidence that the cast was the model for an after-cast or *surmoulage* (see [I.1§5.2](/vol-1/1/#S5.2), [I.6§1.4.2](/vol-1/6/#S1.4.2));
 
@@ -147,7 +147,7 @@ Traces of scientific sampling of materials may be discernible:
 
 -   in the metal (drilling, sawing, abrading, see [II.5§3.5](/vol-2/5/#S3.5), [II.5§6.2](/vol-2/5/#S6.2));
 
--   in the {% def "bronze" %} (drilling, breaking, prying, see [II.7§1.3](/vol-2/7/#S1.3));
+-   in the {% def "core" %} (drilling, breaking, prying, see [II.7§1.3](/vol-2/7/#S1.3));
 
 -   on the patina from the surface (not easily visible, see [II.6§3.1](/vol-2/6/#S3.1)).
 
@@ -157,7 +157,7 @@ Damage and disfigurement may be due to any number of reasons, including:
 
 -   iconoclasm and other crude dismemberment (for instance reuse or resale of metal, see [I.6§1.4](/vol-1/6/#S1.4));
 
--   expansion of core with rusting {% def "bronze" %} (see [I.3§1.2.4](/vol-1/3/#S1.2.4));
+-   expansion of core with rusting {% def "armature" %} (see [I.3§1.2.4](/vol-1/3/#S1.2.4));
 
 -   graffiti;
 
@@ -167,7 +167,7 @@ Damage and disfigurement may be due to any number of reasons, including:
 
 -   accident;
 
--   poor construction and/or failure of repairs over time (for example loss of {% def "bronze" %}, see [I.4§1.1.1](/vol-1/4/#S1.1.1));
+-   poor construction and/or failure of repairs over time (for example loss of {% def "patches" %}, see [I.4§1.1.1](/vol-1/4/#S1.1.1));
 
 -   cannibalizing of sculptural components to create a novel composition.
 
@@ -198,7 +198,7 @@ With the ninth meeting of the International Congress on Ancient Bronzes in 1986,
 
 During the past two decades, archaeologists, art historians, and museum curators have increasingly collaborated with scientists and conservators as well as craftspeople, and the technology of metalworking has become central to the study of bronze sculptures, often by international teams.[^21] Research on bronzes from classical antiquity has flourished and been published as monographs and presented at meetings such as the International Congresses on Ancient Bronzes.[^22] Medieval European bronzes are also gaining more attention (see [Case Study 2](/case-studies/2/)).[^23] Interdisciplinary, systematic studies have been carried out on a wide array of small bronzes from the Himalayas.[^24] The technological study of Chinese, South Asian, and Southeast Asian bronzes is very active and the findings are shared, among other places, at international symposia and conferences, including the Forbes Symposia at the Freer Gallery of Art and BUMA.[^25] Research on the production of bronze sculpture from West Africa is also continuing apace.[^26] And archaeologists and archaeometallurgists are directing their attention toward a greater variety of periods, and thus also excavations of ancient metalworking sites.[^27]
 
-Among the more recent phenomena are studies of larger corpuses of related works (see examples of this in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/)) as well as research focused on the work of a particular artist, in which technical findings are woven into the art historical narrative.[^28] Conservation projects also continue to provide unique opportunities for close investigation. Reconstruction, replication, and reenactment of historical processes and objects are gaining traction as methods of research and pedagogy.[^29] Newer technical means of analysis, including 3D scanning, are being called upon to help address the complex and challenging questions around originality and authenticity (for instance with regard to the posthumous production of {% def "bronze" %} of certain nineteenth- and early twentieth-century European sculptures.[^30] And other digital tools, from imaging to databases, are instrumental in the sharing and interpretation of large bodies of data and communication across international teams.[^31] It is within, and from, this broader context that the CAST:ING project took shape.
+Among the more recent phenomena are studies of larger corpuses of related works (see examples of this in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/)) as well as research focused on the work of a particular artist, in which technical findings are woven into the art historical narrative.[^28] Conservation projects also continue to provide unique opportunities for close investigation. Reconstruction, replication, and reenactment of historical processes and objects are gaining traction as methods of research and pedagogy.[^29] Newer technical means of analysis, including 3D scanning, are being called upon to help address the complex and challenging questions around originality and authenticity (for instance with regard to the posthumous production of {% def "editions" %} of certain nineteenth- and early twentieth-century European sculptures.[^30] And other digital tools, from imaging to databases, are instrumental in the sharing and interpretation of large bodies of data and communication across international teams.[^31] It is within, and from, this broader context that the CAST:ING project took shape.
 
 {% figuregroup "3", "fig-002" %}
 
@@ -208,7 +208,7 @@ Among the more recent phenomena are studies of larger corpuses of related works 
 
 ## 2 What?: The basics of making a bronze sculpture
 
-Casting a bronze is in essence the translation of an original model into metal by means of an impression of that form into a fire-resistant or {% def "bronze" %}, into which the liquefied metal is {% def "bronze" %}. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
+Casting a bronze is in essence the translation of an original model into metal by means of an impression of that form into a fire-resistant or {% def "refractory mold" %}, into which the liquefied metal is {% def "cast (v.)" "cast" %}. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
 
 {% figuregroup "3", "fig-003" %}
 
@@ -220,7 +220,7 @@ Casting a bronze is in essence the translation of an original model into metal b
 
 #### 2.1.1 The refractory mold and core material
 
-The refractory mold is the temporary, fire-resistant mass that contains the impression of the model to be reproduced. In {% def "bronze" %} it is often referred to as the {% def "bronze" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "bronze" %} of the metal ({% ref 'fig-004, fig-005' %}).
+The refractory mold is the temporary, fire-resistant mass that contains the impression of the model to be reproduced. In {% def "lost-wax casting" %} it is often referred to as the {% def "investment" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "as-cast surface" %} of the metal ({% ref 'fig-004, fig-005' %}).
 
 In designing it (see also {% ref 'vid-01, vid-02' %}), it is important to ensure that it:
 
@@ -230,7 +230,7 @@ In designing it (see also {% ref 'vid-01, vid-02' %}), it is important to ensure
 
 -   can withstand the molten metal coursing through it;
 
--   has sufficient {% def "bronze" %} integrated into the mold design and/or in its makeup to assist in the escape of air and gases to ensure that these do not stay trapped in the metal;
+-   has sufficient {% def "porosity" %} integrated into the mold design and/or in its makeup to assist in the escape of air and gases to ensure that these do not stay trapped in the metal;
 
 -   can be broken down. Ideally it will be just strong and cohesive enough to withstand the casting process, but easy to remove from the cast (note: this is not the case with a ceramic shell).
 
@@ -248,7 +248,7 @@ The refractory materials used for the casting of most bronze sculptures can be c
 
 Monumental bronzes may be built over cores that have an internal fired-brick structure.[^33] Bricks can also be found in life-size and medium-scale casts ({% ref 'fig-008' %}).[^34] The cores themselves may be hollow. This is the rule in bell casting, and has also been witnessed on bronze statuary, notably on ancient bronzes in the South Arabian peninsula.[^35] See also [Case Study 7](/case-studies/7/).
 
-How the core is held in place in relation to the outer mold in order to ensure the desired gap between them during casting as described in [GI§2.6](/intro/#S2.6) below on armatures and {% def "bronze" %}.
+How the core is held in place in relation to the outer mold in order to ensure the desired gap between them during casting as described in [GI§2.6](/intro/#S2.6) below on armatures and {% def "core supports" %}.
 
 {% figuregroup "3", "fig-004, fig-005, vid-01, vid-02, fig-006, fig-007, fig-008" %}
 
@@ -259,7 +259,7 @@ How the core is held in place in relation to the outer mold in order to ensure t
 
 Over the centuries in different cultures around the world, expertise on how best to cast a bronze has evolved, based partly on the availability of materials, the level of control over pyrotechnic technologies, the range of forms to be represented, and the metal and other materials that will be used. The context of production is also key. For instance, a large workshop or foundry producing great numbers of multiples will most likely use a different process than a sculptor-founder working alone making a one-off cast (see [Case Study 7](/case-studies/7/)). Every step of the casting process may leave diagnostic traces, which the technical investigator must tease out (see [I.6](/vol-1/2/)).
 
-The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "bronze" %} (see {% ref 'vid-03' %}). In {% def "bronze" %} that function is performed by the pattern or {% def "bronze" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](/vocabulary/).
+The production of a bronze may involve a sequence of models, often in different materials. For instance, in lost-wax casting the original model may have been made of clay, which would then have been molded to produce wax models designed for casting, which are now generally referred to as casting models or {% def "inter-models" %} (see {% ref 'vid-03' %}). In {% def "sand casting" %} that function is performed by the pattern or {% def "chef-modèle" %} ({% ref 'fig-009' %}). But specific terms have been developed in different cultures, periods, and areas; see the [Vocabulary](/vocabulary/).
 
 Similarly, a sequence of molds may have played a part in the translation from an original model to a bronze sculpture. Indeed, while the metal is ultimately cast into a refractory mold, in some instances other intermediary matrices may have served to create the casting model or pattern (see below).
 
@@ -277,7 +277,7 @@ Art historians use the term “direct cast” for a bronze in which the original
 
 #### 2.1.4 Solid and hollow casts
 
-A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "bronze" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways ({% ref 'fig-008' %}). The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast is solid or hollow may also depend on a number of nontechnical parameters.[^36]
+A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "shrinkage" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways ({% ref 'fig-008' %}). The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast is solid or hollow may also depend on a number of nontechnical parameters.[^36]
 
 {% figuregroup "3", "fig-010, vid-04, fig-008" %}
 
@@ -290,7 +290,7 @@ There are three basic ways to create an impression of the desired shape in the r
 
 -   lost-wax casting, which encompasses other organic modeling agents such as latex or carved banana stems;[^37]
 
--   casting directly from life, or {% def "bronze" %} ({% ref 'fig-011' %});
+-   casting directly from life, or {% def "life-casting" %} ({% ref 'fig-011' %});
 
 -   Styrofoam (a modern process adopted from industry).
 
@@ -298,7 +298,7 @@ The second consists of compacting a heat-resistant mold material over a hard, re
 
 -   sand casting;
 
--   clay {% def "bronze" %}.
+-   clay {% def "piece molding" %}.
 
 The third consists of carving the negative form directly into a refractory mold material, as is used in:
 
@@ -326,7 +326,7 @@ Most of these casting processes are explained in greater detail below. The terms
 
 Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^38] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed ({% ref 'table-03' %}).[^39]
 
-The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "bronze" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013, fig-014' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
+The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "sprueing" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013, fig-014' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
 
 Other combustible materials, such as plant and animal materials, including latex, can also be used. Small objects can be made from solid wax models; larger ones are generally formed hollow by building up the wax model over a refractory clay core. This layer of wax is built up in any number of ways: by laying sheets of wax over it, by modeling, or by dipping the core into molten wax.
 
@@ -410,7 +410,7 @@ Various forms of sand casting have been used to create a wide range of items sin
 
 In this process, a special sand that is bound with clay (or other materials such as resin)[^54] is rammed around a chef-modèle positioned in stacked metal frames (or flasks) called the cope (top) and the drag (bottom) ({% ref 'fig-009' %}). Smaller piece-mold segments are often fashioned within these larger sections and designed for ease of construction and disassembly, as it will be necessary to remove the pattern and reassemble the mold precisely for casting. Should a core be needed, it is formed using a cut-back core process (see [GI§2.3.2](/intro/#S2.3.2) above and [Case Study 6](/case-studies/6/)).[^55]
 
-The predominantly sandy composition of the mold minimizes shrinkage of both mold and core, which assures greater control of the thickness of the cast. Access to the inner surface of the mold before casting also allows for greater quality control and last-minute alterations or repairs.[^56] Furthermore, that surface is often coated with a layer of soot or graphite, which helps produce a reducing environment at the point of contact with the hot metal. The lower cost of sand relative to wax is also seen as an advantage,[^57] and natural sands (meaning, those that contain a natural clay binder) are reusable. Piece molding requires great skill, especially when working with models with complex textures and undercuts (see for instance [Case Study 6](/case-studies/6/)). It should be noted that high-quality sand casts such as those made in France in the nineteenth century can be essentially {% def "bronze" %}-free. This is accomplished through precise ramming of the sand—not too loose, not too dense—so that the sand swells just slightly upon baking to seal the gap.[^58]
+The predominantly sandy composition of the mold minimizes shrinkage of both mold and core, which assures greater control of the thickness of the cast. Access to the inner surface of the mold before casting also allows for greater quality control and last-minute alterations or repairs.[^56] Furthermore, that surface is often coated with a layer of soot or graphite, which helps produce a reducing environment at the point of contact with the hot metal. The lower cost of sand relative to wax is also seen as an advantage,[^57] and natural sands (meaning, those that contain a natural clay binder) are reusable. Piece molding requires great skill, especially when working with models with complex textures and undercuts (see for instance [Case Study 6](/case-studies/6/)). It should be noted that high-quality sand casts such as those made in France in the nineteenth century can be essentially {% def "seam" %}-free. This is accomplished through precise ramming of the sand—not too loose, not too dense—so that the sand swells just slightly upon baking to seal the gap.[^58]
 
 {% figuregroup "3", "fig-009" %}
 
@@ -471,7 +471,7 @@ Another approach that has been used mostly for simpler sculptural forms involves
 
 ### 2.6 Armatures, core supports, and core vents
 
-Many models used for casting may be built up on an armature for structural support. This can apply not only to models with a refractory core intended for hollow casts, but also to solid ones.[^69] In both lost-wax and sand casting, an armature will further help support the core during the {% def "bronze" %}. As the name implies, core supports help to both strengthen and support the core. The inclusion and placement of armatures and other supporting elements (and in some cases, core vents as found in sand casting) are crucial to the success of a hollow cast in particular. Shaped most often out of metal, their remains might be preserved in the cast.
+Many models used for casting may be built up on an armature for structural support. This can apply not only to models with a refractory core intended for hollow casts, but also to solid ones.[^69] In both lost-wax and sand casting, an armature will further help support the core during the {% def "pour" %}. As the name implies, core supports help to both strengthen and support the core. The inclusion and placement of armatures and other supporting elements (and in some cases, core vents as found in sand casting) are crucial to the success of a hollow cast in particular. Shaped most often out of metal, their remains might be preserved in the cast.
 
 <section id="S2.6.1">
 
@@ -481,7 +481,7 @@ The model may need structural support to prevent it from drooping, collapsing, o
 
 These different elements may (but not always):
 
--   form a complex structure like a skeleton ({% ref 'fig-031, fig-032, fig-033' %}) bound together by various means (for instance {% def "bronze" %}, twisting, or entwining with finer wires, see {% ref 'fig-034' %});
+-   form a complex structure like a skeleton ({% ref 'fig-031, fig-032, fig-033' %}) bound together by various means (for instance {% def "welding" %}, twisting, or entwining with finer wires, see {% ref 'fig-034' %});
 
 -   extend down into the base;
 
@@ -498,11 +498,11 @@ Not all sculptures necessitate armatures. And any kind of armature can act as co
 
 As the name implies, core supports serve to reinforce or strengthen the core at different stages of the casting process. Two definitions appear in the literature. The term may apply to inserts or spacers that hold the core in place during the pour. These come in a variety of configurations:
 
--   {% def "bronze" %} are positioned perpendicularly to the wall of wax or bronze. They protrude both into the outer mold and into the core to hold it firmly in place. These could be wires, rods, or nails ({% ref 'fig-035, fig-036, fig-037' %}).
+-   {% def "core pins" "Core pins"%} are positioned perpendicularly to the wall of wax or bronze. They protrude both into the outer mold and into the core to hold it firmly in place. These could be wires, rods, or nails ({% ref 'fig-035, fig-036, fig-037' %}).
 
--   {% def "bronze" %} serve as spacers and tend to be more or less the width of the gap between the core and the outer model. They are nestled at intervals in that space, balancing the core in relation to the outer mold. Chaplets are often fused into the body of the cast during the pouring ({% ref 'fig-038, fig-039, fig-040' %}).
+-   {% def "chaplets" "Chaplets" %} serve as spacers and tend to be more or less the width of the gap between the core and the outer model. They are nestled at intervals in that space, balancing the core in relation to the outer mold. Chaplets are often fused into the body of the cast during the pouring ({% ref 'fig-038, fig-039, fig-040' %}).
 
--   {% def "bronze" %} form bridges between the core and outer mold and are made of refractory material ({% ref 'fig-041' %}).
+-   {% def "mold extensions" "Mold extensions" %} form bridges between the core and outer mold and are made of refractory material ({% ref 'fig-041' %}).
 
 The term may also apply to internal wires or rods that help strengthen the core during assembly of the casting model and/or during the pour. Often made of single wires or rods that do not connect into the base, they may have one or more of the following characteristics:
 
@@ -544,7 +544,7 @@ The orientation of the cast—upright, upside down, horizontal, or at an angle[^
 
 ### 2.8 Alloys
 
-The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "bronze" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.6](/vol-1/2/).
+The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "castability" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.6](/vol-1/2/).
 
 </section>
 <section id="S2.9">
@@ -553,7 +553,7 @@ The preparation of the metal that will be poured into the mold consists of many 
 
 While castings can come out of the refractory mold with near-perfect surfaces, most need some repair or reworking of the metal (see [I.4§1](/vol-1/4/#S1), {% ref 'vid-10-, vid-11' %}), and quite a few need more than that. Many of the kinds of imperfections found in casts are described in [I.6](/vol-1/2/).
 
-Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "bronze" %}, often followed by refining of the metal surface via {% def "bronze" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "bronze" %}, gilding, the application of patina, and/or {% def "bronze" %} and {% def "bronze" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
+Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "fettling" %}, often followed by refining of the metal surface via {% def "chasing" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "metal plating" %}, gilding, the application of patina, and/or {% def "inlays" %} and {% def "overlays" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
 
 Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.6](/vol-1/2/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^76]
 
@@ -571,7 +571,7 @@ The *Guidelines* are accessible in a variety of ways.
 
 ### 3.1 Evidence of the fabrication process (volume I)
 
-Volume I is designed to help the reader identify and investigate the physical evidence present on a sculpture. It is divided into nine chapters that correspond to the different aspects of the creation of a bronze, more or less in chronological sequence of the fabrication steps. It goes into more detail on the variety of casting processes described in this general introduction; discusses the properties of the different copper alloys encountered in artistic castings; and characterizes {% def "bronze" %}, repairs, assembly techniques, tool marks, as well as plating and other surface decoration techniques. Each chapter follows a similar “What? / Why? / How?” format. The first section lays out how distinctive features are produced, and thus sheds light on what to look out for and also possible misinterpretations. That is followed by FAQs that address why such evidence might be interesting and/or useful to investigate. A checklist at the end outlines the primary methods of investigation and analytical techniques that are relevant to the investigation of this topic, and points to the more in-depth discussions of these techniques in volume II. The definitions of terms included in the [Vocabulary](/vocabulary/) are hyperlinked upon their first mention in each chapter.
+Volume I is designed to help the reader identify and investigate the physical evidence present on a sculpture. It is divided into nine chapters that correspond to the different aspects of the creation of a bronze, more or less in chronological sequence of the fabrication steps. It goes into more detail on the variety of casting processes described in this general introduction; discusses the properties of the different copper alloys encountered in artistic castings; and characterizes {% def "defects" %}, repairs, assembly techniques, tool marks, as well as plating and other surface decoration techniques. Each chapter follows a similar “What? / Why? / How?” format. The first section lays out how distinctive features are produced, and thus sheds light on what to look out for and also possible misinterpretations. That is followed by FAQs that address why such evidence might be interesting and/or useful to investigate. A checklist at the end outlines the primary methods of investigation and analytical techniques that are relevant to the investigation of this topic, and points to the more in-depth discussions of these techniques in volume II. The definitions of terms included in the [Vocabulary](/vocabulary/) are hyperlinked upon their first mention in each chapter.
 
 </section>
 <section id="S3.2">

@@ -1,6 +1,6 @@
 ---
 title: sprue
-aliases: [sprues]
+aliases: [sprues, sprueing]
 order: 680
 layout: page
 tags: vocabulary
