@@ -500,7 +500,7 @@ Not all sculptures necessitate armatures. And any kind of armature can act as co
 
 As the name implies, core supports serve to reinforce or strengthen the core at different stages of the casting process. Two definitions appear in the literature. The term may apply to inserts or spacers that hold the core in place during the pour. These come in a variety of configurations:
 
--   {% def "core pins" "Core pins"%} are positioned perpendicularly to the wall of wax or bronze. They protrude both into the outer mold and into the core to hold it firmly in place. These could be wires, rods, or nails ({% ref 'fig-035, fig-036, fig-037' %}).
+-   {% def "core pins" "Core pins" %} are positioned perpendicularly to the wall of wax or bronze. They protrude both into the outer mold and into the core to hold it firmly in place. These could be wires, rods, or nails ({% ref 'fig-035, fig-036, fig-037' %}).
 
 -   {% def "chapelets" "Chapelets" %} serve as spacers and tend to be more or less the width of the gap between the core and the outer model. They are nestled at intervals in that space, balancing the core in relation to the outer mold. Chaplets are often fused into the body of the cast during the pouring ({% ref 'fig-038, fig-039, fig-040' %}).
 
