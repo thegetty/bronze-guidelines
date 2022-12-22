@@ -651,13 +651,13 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology ({% cite "Lemonnier 1992" %}). Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](/intro/#S1.2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze.
 
-[^2]: {% cite "Bourgarit et al. 2014"}.
+[^2]: {% cite "Bourgarit et al. 2014" %}.
 
 [^3]: {% cite "Formigli 2010" %}.
 
 [^4]: {% cite "Rehren 2014" %}.
 
-[^5]: {% cite "Dehejia 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021"}.
+[^5]: {% cite "Dehejia 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
 
 [^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
@@ -733,7 +733,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^42]: The earliest examples are Egyptian statues dated to the beginning of the first millennium BCE ({% cite "Mille 2017" %}). See also [GI§2.3.1](/intro/#S2.3.1).
 
-[^43]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {% cite "Motture 2019" %}, 61, with refs, 242nn119–20.)
+[^43]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {% cite "Motture 2019" %}, 61, with refs, 242nn119–20).
 
 [^44]: For an example of this see {% cite "Diemer 1996" %}.
 
