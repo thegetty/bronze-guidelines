@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or mold that will determine the shape of the material in order to produce a cast (n.).'
+definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or {% def "mold" %} that will determine the shape of the material in order to produce a {% def "cast" %} (n.).'
 lang:
   de: gießen
   fr: couler
@@ -29,7 +29,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
 ## Synonym
 
-- *pour* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *{% def "pour" %}* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ## Translations
 
@@ -39,11 +39,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
 #### Sources
 
-{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Opération consistant à fabriquer un objet par fonderie. Plus généralement, exécuter une opération de coulée.
+Opération consistant à fabriquer un objet par fonderie. Plus généralement, exécuter une opération de {% def "coulée" %}.
 
 #### Sources
 

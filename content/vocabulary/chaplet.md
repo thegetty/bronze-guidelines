@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of metal insertion placed in the gap between the {% def "core" %} and the outer mold as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the cast. In modern foundries, chaplets are mainly used in {% def "sand casting" %}, but they have been encountered in historic lost-wax castings as well.'
+definition: 'A type of metal insertion placed in the gap between the {% def "core" %} and the outer {% def "mold" %} as a spacer to hold the core in place during the casting operation. A number of these are placed strategically throughout the mold. They are most often made of an alloy similar to that of the surrounding metal, as they will become embedded in the {% def "cast" %}. In modern foundries, chaplets are mainly used in {% def "sand casting" %}, but they have been encountered in historic {% def "lost-wax castings" %} as well.'
 lang:
   de: Kernhalteplatte
   fr: cale à noyau
@@ -29,7 +29,7 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 - *core nail*
 - *core pin*
 - *core rod*
-- *core support*
+- *{% def "core support" %}*
 
 ## Sources
 
@@ -61,7 +61,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 ### **French**: *{{ lang.fr }}*
 
-Petite plaque métallique disposée sur le noyau ou sur la paroi interne du moule réfractaire pour maintenir le noyau en place lors de la coulée, et dont l’épaisseur déterminera l’épaisseur de la fonte.
+Petite plaque métallique disposée sur le {% def "noyau" %} ou sur la paroi interne du {% def "moule réfractaire" %} pour maintenir le noyau en place lors de la {% def "coulée" %}, et dont l’épaisseur déterminera l’épaisseur de la {% def "fonte" %}.
 
 {% backmatter %}
 
@@ -94,7 +94,7 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 {% backmatter %}
 
-Note: This term has several translations, including “chaplet,” “shim,” “spacer,” “gasket,” etc.
+Note: This term has several translations, including “chaplet,” “shim,” “spacer,” “gasket.”
 
 {% endbackmatter %}
 

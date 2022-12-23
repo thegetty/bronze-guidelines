@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair consisting of a localized cast of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
+definition: 'A type of repair consisting of a localized {% def "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
 lang:
   de: Überfangguss
   fr: réparation par coulée secondaire
@@ -20,7 +20,7 @@ lang:
 
 ## To Be Distinguished From
 
-- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally cast in sections.)
+- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast" %} in sections.)
 
 ## Sources
 
@@ -36,15 +36,13 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 #### Sources
 
-{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}
+{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}, 139–40
 
 #### Alternate Translations
 
 - *Anguss*
 
-- *Angussverfahren*
-
-- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 2001" %}
+- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
 
 ### **French**: *{{ lang.fr }}*
 

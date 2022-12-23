@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Ability of a liquid metal to fill and pick up every detail of a mold. See [I.2§2.2](/vol-1/2/#S2.2).'
+definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#S2.2).'
 lang:
   de: Fliessvermögen
   fr: coulabilité
@@ -45,17 +45,17 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 - *Formfüllungsvermögen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Giessbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
+- *Gießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
 
-- *Giesseingeschaften* | Source: {% cite "Brunhuber 1988" %}
+- *Gießeingeschaften* | Source: {% cite "Brunhuber 1988" %}
 
-- *Giessfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
+- *Gießfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
 
-- *Vergiessbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Vergießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Aptitude d’un métal à remplir un moule dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule et qu’il se solidifie.
+Aptitude d’un métal à remplir un moule réfractaire dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
 
 #### To Be Distinguished From
 

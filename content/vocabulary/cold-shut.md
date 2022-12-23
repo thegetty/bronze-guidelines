@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The interface where two streams of metal come together in the mold but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a cast caused by premature cooling ({% cite "Rome and Young 2003" %}, 303). The cooled metal edges will be rounded in profile.'
+definition: 'The interface where two streams of metal come together in the {% def "mold" %} but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a {% def "cast" %} caused by premature cooling ({% cite "Rome and Young 2003" %}, 303). The cooled metal edges will be rounded in profile.'
 lang:
   de: Kaltguss
   fr: reprise
@@ -28,7 +28,7 @@ Cultural Heritage: {% cite "Bassett 2008" %}
 
 Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
 
-Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundry Society (AFS). n.d." %}; {% cite "Palmer 1929" %}
+Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundry Society (AFS) n.d." %}; {% cite "Palmer 1929" %}
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 303
 
@@ -55,7 +55,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 ### **French**: *{{ lang.fr }}*
 
-Défaut de fonderie dû à la fusion imparfaite de deux flux de métal liquide qui se rencontrent dans le moule, laissant en surface un sillon. On parle de « solution de continuité ».
+{% def "Défaut de fonderie" %} dû à la fusion imparfaite de deux flux de métal liquide qui se rencontrent dans le moule réfractaire, laissant en surface un sillon. On parle de « solution de continuité ».
 
 #### To Be Distinguished From
 
@@ -66,11 +66,12 @@ Défaut de fonderie dû à la fusion imparfaite de deux flux de métal liquide q
 Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 647
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 27; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-Historical: {% cite "Guettier 1858" %}, notice 616, p. 322–23
+
+Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 #### Alternate Translation
 
-- *goutte froide* (Goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 648).) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *goutte froide* (Attention, coutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({% cite "[Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 648]).) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow bronze sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#S2.1.1)).'
+definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#S2.1.1)).'
 lang:
   de: Kern
   fr: noyau
@@ -36,9 +36,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/core>
 
 ### **German**: *{{ lang.de }}*
 
+## Source
+
+{% cite "Brunhuber 1980" %}
+
 ### **French**: *{{ lang.fr }}*
 
-Partie interne du moule réfractaire déterminant le volume interne d’une fonte creuse. Le noyau est souvent (mais pas systématiquement) réalisé dans le même matériau que la partie externe du moule réfractaire (la chape). Le noyau peut-être plein ou creux.
+Partie interne du {% def "moule réfractaire" %} déterminant le volume interne d’une fonte creuse. Le noyau est souvent (mais pas systématiquement) réalisé dans le même matériau que la partie externe du moule réfractaire (la chape). Le noyau peut-être plein ou creux.
 
 #### Sources
 
@@ -46,11 +50,11 @@ Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry, Bozo, and Inve
 
 Copper Industry: {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
-Historical: {% cite "Mariette 1768" %}; {% cite "Félibien 1690" %}, 324; {% cite "Launay 1827" %}, 2:277; {% cite "Guettier 1858" %}, notice 605, pp. 311–12; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+Historical: {% cite "Mariette 1768" %}, 61–64; {% cite "Félibien 1690" %}, 324; {% cite "Launay 1827" %}, 2:277; {% cite "Guettier 1858" %}, notice 605, pp. 311–12; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %}, 374
 
-#### Alternate Translation
+#### Alternate Translations
 
 - *âme* | Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
@@ -64,7 +68,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 - *anima di fusione* | Source: {% cite "Bruni 1994" %}, 81–82
 
-- *maschio* (Early Italian term for core that literally translates as “male.”) | Sources: {% cite "Leonardo 1490" %}, fols 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
+- *maschio* (Early Italian term for core that literally translates as “male.”) | Sources: {% cite "Leonardo 1490" %}, fols. 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
 
 - *nocciolo* (Early Italian term for core that means “nut.”) | Source: {% cite "Cellini [1568] 1967" %}, fols. 48, 49
 
