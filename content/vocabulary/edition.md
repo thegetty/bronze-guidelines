@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of molds derived from the original model. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'
+definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of {% def "molds" %} derived from the original {% def "model" %}. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'
 lang:
   de: Auflagenguss
   fr: édition
@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in chasing, patination, or deterioration of the molds/chef-modèle over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern bronze casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
+Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in {% def "chasing" %}, patination, or deterioration of the molds/{% def "chef-modèle" %} over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern {% def "bronze" %} casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
 
 {% endbackmatter %}
 
@@ -27,9 +27,9 @@ Note: Casts from any given edition will be essentially identical in form and siz
 ## To Be Distinguished From
 
 - *copy*
-- *replica*
+- *{% def "replica" %}*
 - *version*
-- *variant*
+- *{% def "variant" %}*
 
 ## Sources
 
@@ -61,7 +61,7 @@ Désigne les épreuves issues d'un même modèle original multiplié dans des ma
 
 {% backmatter %}
 
-Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques : bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545), etc..
+Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques: bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545), etc.
 
 {% endbackmatter %}
 
@@ -77,17 +77,13 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 [Treccani](http://www.treccani.it/vocabolario/edizione)
 
-#### Alternate Translation
+#### Alternate Translations
 
-- *multiplo* (In the arts, specifies that the cast is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+- *multiplo* (In the arts, specifies that the {% def "cast" %} is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
 
 - *serie* (Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning)
 
 ### **Chinese**: {{ lang.zh }}
-
-#### Sources:
-
-{% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/7644588/?index=2)
 
 #### Alternate Translation
 
