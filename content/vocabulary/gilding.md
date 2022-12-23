@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The application of gold to the surface of a bronze sculpture. This can be achieved by a variety of methods. Traditionally gilding was mainly undertaken using leaf gilding or mercury gilding. Starting in the nineteenth century, electrochemical plating or deposition began to be used, as well as gold powder paint or wax. See [I.7](/vol-1/7/).'
+definition: 'The application of gold to the surface of a {% def "bronze" %} sculpture. This can be achieved by a variety of methods. Traditionally gilding was mainly undertaken using leaf gilding or mercury gilding. Starting in the nineteenth century, electrochemical plating or deposition began to be used, as well as gold powder paint or wax. See [I.7](/vol-1/7/).'
 lang:
   de: Vergoldung
   fr: dorure
@@ -37,7 +37,7 @@ Opération consistant à appliquer une couche d’or en surface, quel que soit l
 
 {% backmatter %}
 
-Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {% cite "Félibien 1690" %}, mais uniquement du verbe (« dorer », p. 334).
+Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {% cite "Félibien 1690" %}, mais uniquement du verbe « dorer », p. 334.
 
 {% endbackmatter %}
 
@@ -61,6 +61,6 @@ Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
 #### Alternate Translation
 
-- 鎏金 (Although literally translates to “fire-gilding,” it is widely used as a general term for gilding of ancient works.)
+- 鎏金 (Although this literally translates to “gold-plating,” it is widely used as a general term for gilding of ancient works.)
 
 </div>

@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the refractory mold (both outer and core). Flashing most often rises perpendicularly to the inner or outer wall of bronze, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during fettling. Flashing may also occur along seam lines of an ill-fitted piece mold.'
+definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the {% def "refractory mold" %} (both outer and {% def "core" %}). Flashing most often rises perpendicularly to the inner or outer wall of {% def "bronze" %}, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during {% def "fettling" %}. Flashing may also occur along seam lines of an ill-fitted {% def "piece mold" %}.'
 lang:
   de: Grat
   fr: gerce
@@ -41,13 +41,17 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 ### **German**: *{{ lang.de }}*
 
+## Source
+
+Fachkunde mitall: Bovenkerk et al. 1987, 219
+
 #### Alternate Translation
 
 - *Gussgrat*
 
 ### **French**: *{{ lang.fr }}*
 
-Défaut de fonderie où le métal liquide pénètre dans des fissures du moule réfractaire. S’agissant de la partie interne du moule (le noyau, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule, un défaut similaire apparaît mais sur la surface externe du bronze (notamment – mais pas seulement - à l’endroit des joints de moule quand celui-ci est constitué de plusieurs parties assemblées).
+{% def "Défaut de fonderie" %} où le métal liquide pénètre dans des fissures du {% def "moule réfractaire" %}. S’agissant de la partie interne du moule réfractaire (le {% def "noyau" %}, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule réfractaire, un défaut similaire apparaît mais sur la surface externe du bronze (notamment — mais pas seulement — à l’endroit des joints de moule quand le moule est constitué de plusieurs parties assemblées).
 
 #### To Be Distinguished From
 
