@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The operation of pouring or casting metal into the refractory mold.'
+definition: 'The operation of pouring or casting metal into the {% def "refractory mold" %}.'
 lang:
   de: Gießen
   fr: coulée
@@ -35,9 +35,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 ### **German**: *{{ lang.de }}*
 
-#### Alternate Translation
+## Source
 
-- *Guss*
+Fachkunde Metall: {% cite "Bovenkerke et al. 1987" %}, 221
 
 ### **French**: *{{ lang.fr }}*
 
@@ -67,7 +67,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translations
 
-- *getto* (Also refers to the cast); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+- *getto* (Also refers to the {% def "cast" %}); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
 
 - *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 

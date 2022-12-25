@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A common type of casting flaw that includes a group or area of cavities caused by shrinkage or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the bronze. See [I.3§1.3.1](/vol-1/3/#S1.3.1).'
+definition: 'A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#S1.3.1).'
 lang:
   de: Porosität
   fr: porosité
@@ -37,9 +37,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 
 ### **German**: *{{ lang.de }}*
 
+## Source
+
+{% cite "Brunhuber 1988" %}
+
 ### **French**: *{{ lang.fr }}*
 
-Défaut de fonderie caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
+{% def "Défaut de fonderie" %} caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
 
 {% backmatter %}
 

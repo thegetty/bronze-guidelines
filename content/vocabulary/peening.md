@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
+definition: 'The act of embellishing/texturing the metal surface by repeatedly using a {% def "peen" %} (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
 lang:
   de: Hämmern
   fr: matage au marteau
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
+Note: The surface markings can be similar to those made by a {% def "punch" %} and thus easily misidentified. In {% def "sand casting" %}, the term refers to compressing the sand with the peen end of a rammer.
 
 {% endbackmatter %}
 
@@ -43,11 +43,11 @@ Copper Industry: {% cite "Palmer 1929" %}, 294
 
 ### **French**: *{{ lang.fr }}*
 
-Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la porosité ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
+Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la {% def "porosité" %} ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
 
 {% backmatter %}
 
-Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening ». S’apparente à la fois au matage et au grenaillage.
+Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening », qui renvoie à la fois au matage et au grenaillage.
 
 {% endbackmatter %}
 

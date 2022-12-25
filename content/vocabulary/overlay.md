@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the bronze surface, whereas overlays are set on top of the surface.
+Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscriminately, but they differ in one main regard: inlays are inserted into the {% def "bronze" %} surface, whereas overlays are set on top of the surface.
 
 {% endbackmatter %}
 
@@ -51,9 +51,13 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 ### **German**: *{{ lang.de }}*
 
+A general term closer to “coating”
+
 #### Alternate Translation
 
 - *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
+
+- *Verzierung* (a general term closer to “decoration” or “ornament”
 
 ### **French**: *{{ lang.fr }}*
 
