@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a cast characterized by its high realism and fine detail. Life-casts are made by encasing the form in a refractory mold and burning out the form, and are therefore generally solid, though there are some exceptions.'
+definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a {% def "cast" %} characterized by its high realism and fine detail. Life-casts are made by encasing the form in a {% def "refractory mold" %} and burning out the form, and are therefore generally solid, though there are some exceptions.'
 lang:
   de: Naturabguss
   fr: fonte sur le vif
@@ -51,11 +51,11 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Procédé de fonte consistant à enrober un élément végétal ou animal dans un moule réfractaire, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
+Procédé de fonte consistant à enrober un élément végétal ou animal dans un {% def "moule réfractaire" %}, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
 {% backmatter %}
 
-Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé apparaît sous la forme « mouler sur le naturel » ({% cite "Making and Knowing Project et al. 2020" %}, folio 110v). Remarquer qu’une fonte sur le vif peut être creuse.
+Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé apparaît sous la forme « mouler sur le naturel » ({% cite "Making and Knowing Project et al. 2020" %}, fol. 110v). Remarquer qu’une fonte sur le vif peut être creuse.
 
 {% endbackmatter %}
 
