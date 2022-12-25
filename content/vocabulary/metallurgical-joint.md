@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: The correct use of this term has been disputed among CAST:ING members, but it is often used generally to distinguish from mechanical joints. Diffusion welding (an expensive twentieth-century solid-state welding technique) does not involve the use of molten metal but to our knowledge is not used for bronze sculpture.
+Note: The correct use of this term has been disputed among CAST:ING members, but it is often used generally to distinguish from mechanical joints. Diffusion welding (an expensive twentieth-century solid-state welding technique) does not involve the use of molten metal but to our knowledge is not used for {% def "bronze" %} sculpture.
 
 {% endbackmatter %}
 

@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A technique in which a {% def "model" %}model made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See [GI§2](/intro/#S2).'
+definition: 'A technique in which a {% def "model" %} made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See [GI§2](/intro/#S2).'
 lang:
   de: Wachsausschmelzverfahren
   fr: fonte à la cire perdue
