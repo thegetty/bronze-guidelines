@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A bronze that is similar in form to another, but with some differences due to one having been cast from an altered or adapted wax model, or from an entirely new model. Artists can make variants of their own work, for example, by adjusting the positions of limbs between casts, or variants may be the result of others imitating the artist’s work.'
+definition: 'A {% def "bronze" %} that is similar in form to another, but with some differences due to one having been {% def "cast" %} from an altered or adapted wax {% def "model" %}, or from an entirely new model. Artists can make variants of their own work, for example, by adjusting the positions of limbs between casts, or variants may be the result of others imitating the artist’s work.'
 lang:
   de: Variante
   fr: version
@@ -19,9 +19,9 @@ lang:
 
 ## To Be Distinguished From
 
-- *after-cast*
+- *{% def "after-cast" %}*
 - *aftercast*
-- *replica*
+- *{% def "replica" %}*
 - *surmoulage*
 
 ## Sources
@@ -46,7 +46,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 ### **French**: *{{ lang.fr }}*
 
-Déclinaison d’un modèle avec des variations dans la forme ou dans les dimensions.
+Déclinaison d’un {% def "modèle" %} avec des variations dans la forme ou dans les dimensions.
 
 #### Source
 

@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the cast as well as possible casting defects. See [II.4§1.1.1](/vol-2/4/#S1.1.1).'
+definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#S1.1.1).'
 lang:
   de: Schrumpfung
   fr: retrait
@@ -27,7 +27,7 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 Historical: {% cite "Buchanan 1903" %}; {% cite "Bolland 1894" %}
 
-Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundrymen’s Society 1984" %}; {% cite "Campbell 2015" %}; {% cite "Brunhuber 1988" %}
+Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundrymen’s Society 1984" %}; {% cite "Campbell 2015" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
@@ -40,6 +40,10 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 #### Alternate Translation
 
 - *Schwindung*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
 
 ### **French**: *{{ lang.fr }}*
 
