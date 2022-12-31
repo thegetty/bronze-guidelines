@@ -25,7 +25,7 @@ figure_list:
     src: "figures/iiif/002.jpg"
     # media_type: iiif
     label: "Figure 2"
-    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of Mars by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See {cite "Bewer 1996a" %}."
+    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of Mars by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See {% cite "Bewer 1996a" %}."
 
   - id: "fig-003"
     src: "figures/iiif/003.png"
