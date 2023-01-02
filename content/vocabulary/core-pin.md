@@ -30,7 +30,7 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 - *core plate*
 
-- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes ({% cite ["Mattusch 1996" %}, 22–24]).)
+- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes ({% cite "Mattusch 1996" %}, 22–24]).)
 
 ## Sources
 
