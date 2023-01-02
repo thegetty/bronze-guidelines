@@ -14,7 +14,7 @@ lang:
   zh: 塑像內部支架
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 

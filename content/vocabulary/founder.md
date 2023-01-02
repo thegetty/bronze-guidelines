@@ -14,7 +14,7 @@ lang:
   zh: 铸工
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-546" %}
 

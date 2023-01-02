@@ -13,7 +13,7 @@ lang:
   zh: 铸造
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-549" %}
 

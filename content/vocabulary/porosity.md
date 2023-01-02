@@ -13,7 +13,7 @@ lang:
   zh: 气孔
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

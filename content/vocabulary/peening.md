@@ -13,7 +13,7 @@ lang:
   zh: 轻敲
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

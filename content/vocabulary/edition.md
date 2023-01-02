@@ -14,7 +14,7 @@ lang:
   zh: 版本
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

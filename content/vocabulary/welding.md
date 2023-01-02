@@ -13,7 +13,7 @@ lang:
   zh: 熔焊
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

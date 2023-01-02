@@ -13,7 +13,7 @@ lang:
   zh: 变体
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
 

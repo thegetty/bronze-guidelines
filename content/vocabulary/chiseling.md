@@ -13,7 +13,7 @@ lang:
   zh: 凿
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

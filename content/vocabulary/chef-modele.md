@@ -14,7 +14,7 @@ lang:
   zh: 主铸型
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

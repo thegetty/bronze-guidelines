@@ -14,7 +14,7 @@ lang:
   zh: 耐火模具
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

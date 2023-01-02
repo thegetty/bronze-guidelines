@@ -14,7 +14,7 @@ lang:
   zh: 铸瑕
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

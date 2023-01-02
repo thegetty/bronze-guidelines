@@ -14,7 +14,7 @@ lang:
   zh: 塞子
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

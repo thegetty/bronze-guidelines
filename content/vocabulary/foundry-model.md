@@ -13,7 +13,7 @@ lang:
   zh: 铸型
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

@@ -13,7 +13,7 @@ lang:
   zh: 收缩
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

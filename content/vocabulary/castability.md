@@ -13,7 +13,7 @@ lang:
   zh: 可铸性
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-437, fig-438" %}
 

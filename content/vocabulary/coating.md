@@ -14,7 +14,7 @@ lang:
   zh: 涂层
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

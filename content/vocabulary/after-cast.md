@@ -14,7 +14,7 @@ lang:
   zh: 翻铸
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

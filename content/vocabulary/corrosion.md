@@ -13,7 +13,7 @@ lang:
   zh: 腐蚀
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

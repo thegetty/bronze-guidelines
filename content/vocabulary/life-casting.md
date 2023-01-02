@@ -13,7 +13,7 @@ lang:
   zh: 活体模铸
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

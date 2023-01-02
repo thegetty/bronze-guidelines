@@ -13,7 +13,7 @@ lang:
   zh: 硬焊
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 

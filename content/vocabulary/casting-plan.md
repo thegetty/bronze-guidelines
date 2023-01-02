@@ -13,7 +13,7 @@ lang:
   zh: 分铸计划
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
