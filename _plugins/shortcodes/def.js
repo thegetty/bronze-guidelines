@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig, { collections, page }) {
       .find( entry => entry.data.title
         .toLowerCase()
         .concat(entry.data.aliases)
+        .concat(entry.data.lang.fr)
         .includes(term.toLowerCase())
       )
 
