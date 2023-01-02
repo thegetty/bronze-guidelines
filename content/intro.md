@@ -89,7 +89,7 @@ Then there are questions about the condition of the artwork and its original app
 
 ### 1.3 Life cycle of a bronze
 
-Most sculptures subjected to technological study have had a life story subsequent to their production, and thus bear traces of use (and possible abuse). The ability to distinguish such subsequent features and not mistake them for original marks of the maker is crucial, and constitutes the subject of much of the rest of this volume. These traces can provide rich information about the object’s condition and a range of other topics, including its conservation history and evidence of provenance. Such evidence may fall into a number of categories:
+Most sculptures subjected to technological study have had a life story subsequent to their production, and thus bear traces of use (and possible abuse). The ability to distinguish such subsequent features and not mistake them for original marks of the makers is crucial, and constitutes the subject of much of the rest of this volume. These traces can provide rich information about the object’s condition and a range of other topics, including its conservation history and evidence of provenance. Such evidence may fall into a number of categories:
 
 Traces of original use (and/or abuse) may include:
 
