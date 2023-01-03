@@ -222,7 +222,7 @@ Casting a bronze consists of creativing a negative impression of a desired form 
 
 #### 2.1.1 The refractory mold and core material
 
-The refractory mold is the temporary, fire-resistant mass that holds the impression of the model to be reproduced. In {% def "lost-wax casting" %} it is often referred to as the {% def "investment" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "as-cast surface" %} of the metal (comnpare {% ref 'fig-004' and 'fig-005' %}).
+The refractory mold is the temporary, fire-resistant mass that holds the impression of the model to be reproduced. In {% def "lost-wax casting" %} it is often referred to as the {% def "investment" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "as-cast surface" %} of the metal (compare {% ref 'fig-004' and 'fig-005' %}).
 
 In designing it (see also {% ref 'vid-01, vid-02' %}), it is important to ensure that it:
 
@@ -279,7 +279,7 @@ Art historians use the term “direct cast” for a bronze in which the original
 
 #### 2.1.4 Solid and hollow casts
 
-A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "shrinkage" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways ({% ref 'fig-008' %}). The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast was to be solid or hollow may also depend on a number of nontechnical parameters.[^38]
+A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "shrinkage" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways. The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast was to be solid or hollow may also depend on a number of nontechnical parameters.[^38]
 
 {% figuregroup "3", "fig-010, vid-04, fig-008" %}
 
@@ -373,7 +373,7 @@ The main advantages of slush molding are its rapidity and simplicity. Because th
 
 *Indirect wax slab process*
 
-Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017', 'fig-018' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which the indirect wax slab process may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^45] The process appears to have been widely used during Greek and Roman antiquity,[^46] and probably long after as well.[^47] Some modern-day founders also use one form or another ({% ref 'table-03' %}).
+Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017, fig-018' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which the indirect wax slab process may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^45] The process appears to have been widely used during Greek and Roman antiquity,[^46] and probably long after as well.[^47] Some modern-day founders also use one form or another ({% ref 'table-03' %}).
 
 This process might be used with mold sections of larger bronzes. A variant involves building up a wax layer of the desired thickness by pressing small masses of softened wax into the mold ({% ref 'fig-019', 'fig-050' %}).[^48] Alternatively, molten wax may be painted into the mold first, to ensure good coverage of finer details, and then built up layer by layer in a variety of ways—painted, backed with wax slabs, or reinforced with softened wax or slush molding. For all the aforementioned processes other than slush molding, it is necessary for the mold to be open before the application of wax on the internal surface of each of its sections.
 
@@ -427,7 +427,7 @@ This process, which is also known as section-mold casting (but recall, as noted 
 
 Some literature points to the use in nineteenth-century Germany of a version of piece-mold casting combined with the lasagna process that omits the wax.[^64]
 
-The piece-mold process allows for a very even thickness and a good dimensional stability of the resulting cast. Shrinkage is very limited (see [II.4§1.1](/vol-2/4/#S1.1)). Details can be both molded or modeled/carved. As with sand casting, the design and production of the complex piece mold required for intricate forms requires great skill.
+The piece-mold process allows for a very even thickness and a good dimensional stability of the resulting cast. Shrinkage is very limited (see [II.4§1.1](/vol-2/4/#S1.1)). Details can be both molded and modeled/carved. As with sand casting, the design and production of the complex piece mold required for intricate forms requires great skill.
 
 {% figuregroup "3", "fig-026" %}
 
@@ -502,7 +502,7 @@ As the name implies, core supports serve to reinforce or strengthen the core at 
 
 -   {% def "core pins" "Core pins" %} are positioned perpendicularly to the wall of wax or bronze. They protrude both into the outer mold and into the core to hold it firmly in place. These could be wires, rods, or nails ({% ref 'fig-035, fig-036, fig-037' %}).
 
--   {% def "chapelets" "Chapelets" %} serve as spacers and tend to be more or less the width of the gap between the core and the outer model. They are nestled at intervals in that space, balancing the core in relation to the outer mold. Chaplets are often fused into the body of the cast during the pouring ({% ref 'fig-038, fig-039, fig-040' %}).
+-   {% def "chaplets" "Chaplets" %} serve as spacers and tend to be more or less the width of the gap between the core and the outer model. They are nestled at intervals in that space, balancing the core in relation to the outer mold. Chaplets are often fused into the body of the cast during the pouring ({% ref 'fig-038, fig-039, fig-040' %}).
 
 -   {% def "mold extensions" "Mold extensions" %} form bridges between the core and outer mold and are made of refractory material ({% ref 'fig-041' %}).
 
