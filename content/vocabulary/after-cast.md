@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A {% def "bronze cast" %} that has been created from a {% def "mold" %} taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by {% def "sand casting" %}.'
+definition: 'A {% def "bronze" %} cast that has been created from a {% def "mold" %} taken directly from an existing bronze. After-casts are therefore made using the indirect lost-wax process, or in some instances by {% def "sand casting" %}.'
 lang:
   de: Nachguss
   fr: surmoulé

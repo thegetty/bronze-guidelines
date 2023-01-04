@@ -87,7 +87,8 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 {% cite "Ming 2010" %}, 998
 
-Alternate Translation
-铸态表面 (Source: TNADD)
+#### Alternate Translation
+
+- 铸态表面 (Source: TNADD)
 
 </div>

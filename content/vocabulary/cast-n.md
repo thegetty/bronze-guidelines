@@ -52,7 +52,7 @@ Source: Historical: {% cite "Félibien 1690" %}, 623
 
 - *objet de fonderie* (Probablement le terme le plus satisfaisant en français pour désigner un objet obtenu par fonderie.)
 
-- *oeuvre fondue* (Le terme est employé dans ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}, 635) mais uniquement en titre de section, dans le sommaire. Le seul terme en relation qui y est défini est « Exemplaire [c]oulé] », p. 634) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *oeuvre fondue* (Le terme est employé dans ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}, 635) mais uniquement en titre de section, dans le sommaire. Le seul terme en relation qui y est défini est « Exemplaire [coulé] », p. 634) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *oeuvre moulée* (Le terme est souvent employé en histoire de l’art. Pour autant, dans {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}, le terme (défini par « moulage », p. 565) est réservé à la sculpture en plâtre, terre, cire, ciment, béton, ou matière plastique, mais pas pour la sculpture en métal.) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

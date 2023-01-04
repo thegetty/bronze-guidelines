@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Not to be confused with {% def "corrosion" %} products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
+Note: Not to be confused with {% def "corrosion" %} products or mineral compounds bonded to the metal surface, which fall under {% def "patines" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
 
 {% endbackmatter %}
 
