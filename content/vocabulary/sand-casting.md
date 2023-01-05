@@ -10,7 +10,7 @@ lang:
   de: Sandformguss
   fr: fonte au sable
   it: fusione a staffa
-  zh: fusione a staffa
+  zh: 砂型铸造
 ---
 
 {{ definition | hasShortcodes }}

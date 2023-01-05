@@ -11,7 +11,7 @@ lang:
   de: Steckverbindung
   fr: assemblage à la romaine
   it: ghiera alla romana
-  zh: 罗馬式接合
+  zh: 罗马式接合
 ---
 
 {{ definition | hasShortcodes }}

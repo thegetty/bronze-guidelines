@@ -7,7 +7,7 @@ toc: false
 menu: false
 definition: 'A technique for joining separately {% def "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
 lang:
-  de: Schweissen
+  de: Schweißen
   fr: soudage
   it: saldatura
   zh: 熔焊

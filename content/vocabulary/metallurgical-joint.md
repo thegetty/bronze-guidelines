@@ -7,9 +7,9 @@ toc: false
 menu: false
 definition: 'A type of joint between two metal parts that is undertaken using molten metal. Examples of metallurgical joints include those made using {% def "welding" %}, {% def "brazing" %}, {% def "soldering" %}, and interlock casting.'
 lang:
-  de: metallurgische Verbindung
-  fr: joint métallurgique
-  it: saldatura metallurgica
+  de: Metallurgische Verbindung
+  fr: oint métallurgique
+  it: saldatura (often specified by a “fusione” or “per fusione”)
   zh: 冶金接合
 ---
 
