@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax model in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the cast bronze.'
+definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "cast bronze" %}.'
 lang:
   de: Formmantel
   fr: moule de potée
@@ -39,7 +39,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Terme réservé à la fonte à la cire perdue. Désigne la partie externe du moule réfractaire, qui peut être en plâtre ou en terre.
+Terme réservé à la {% def "fonte à la cire perdue" %}. Désigne la partie externe du {% def "moule réfractaire" %}, qui peut être à base de plâtre ou d'argile, notamment.
 
 {% backmatter %}
 
@@ -51,13 +51,13 @@ Note: La potée désigne le mélange argileux servant -à l’origine- à fabriq
 
 Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
-Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze terme de fonderie »; {% cite "Mariette 1768" %}
+Historical: {% cite "Boffrand 1743" %}, 44–46; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze terme de fonderie »; {% cite "Mariette 1768" %}, 79–84
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %}, 216
 
 #### Alternate Translations
 
-- *moule* (Terme non univoque.) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 329
+- *{% def "moule" %}* (Terme non univoque.) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 329
 
 - *moule de coulée* | Sources: Cultural Heritage: {% cite "Rolley 1994" %}, 69; {% cite "Mille and Robcis 2012" %}; {% cite "Azéma and Mille 2013b" %}; Historical: {% cite "Gonon 1876" %}, 6; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
@@ -65,7 +65,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 ### **Italian**: *{{ lang.it }}*
 
-The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the pour. See *refractory mold*.
+The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the {% def "pour" %}. See *refractory mold*.
 
 #### Sources
 
@@ -75,7 +75,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 - *camicia* (Literally “shirt”) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
 
-- *cappa* (Layer of the investment mold)
+- *cappa* (Layer of the {% def "investment mold" %})
 
 - *chappa* (Early Tuscan spelling of *cappa*) | Source: {% cite "Leonardo 1490" %}, fol. 156v
 

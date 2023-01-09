@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A chemical process that causes a metal such as bronze to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.'
+definition: 'A chemical process that causes a metal such as {% def "bronze" %} to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.'
 lang:
   de: Korrosion
   fr: corrosion
@@ -13,7 +13,7 @@ lang:
   zh: 腐蚀
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
@@ -36,6 +36,10 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 <div class="accordion">
 
 ### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk et al. 1987" %}, 128
 
 ### **French**: *{{ lang.fr }}*
 

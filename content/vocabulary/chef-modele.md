@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'French term for a bronze replica of the artist’s model that is used to make molds for the production of large editions in sand casting. In rare cases, a chef-modèle has been used in lost-wax casting.'
+definition: 'French term for a {% def "replica" %} of the artist’s {% def "model" %} that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.'
 lang:
   de: Chef-modèle
   fr: chef-modèle
@@ -14,11 +14,11 @@ lang:
   zh: 主铸型
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
-Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often cast in sections to allow their removal from the sand mold without damaging the piece-mold sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {% def "after-cast" %}.
+Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often {% def "cast" %} in sections to allow their removal from the sand mold without damaging the {% def "piece-mold" %} sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {% def "after-cast" %}.
 
 {% endbackmatter %}
 
@@ -37,6 +37,10 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 <div class="accordion">
 
 ### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bivenkerk et al. 1987" %}, 216
 
 ### **French**: *{{ lang.fr }}*
 

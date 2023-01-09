@@ -51,7 +51,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 ### **German**: *{{ lang.de }}*
 
-In principle more general [actually a direct translation of “inlay”].
+In principle more general (actually a direct translation of “inlay”).
 
 #### Source
 
@@ -59,7 +59,7 @@ In principle more general [actually a direct translation of “inlay”].
 
 #### Alternate Translation
 
-- *Tauschierung* (Only if the inlay is of linear character, e.g., wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {% cite "Lein 2004" %}, 63
+- *Tauschierung* (Only if the inlay is of linear character, e.g. wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {% cite "Lein 2004" %}, 63
 
 ### **French**: *{{ lang.fr }}*
 

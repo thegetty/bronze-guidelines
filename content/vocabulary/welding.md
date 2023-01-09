@@ -5,19 +5,19 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A technique for joining separately cast parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
+definition: 'A technique for joining separately {% def "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
 lang:
-  de: Schweissen
+  de: Schweißen
   fr: soudage
   it: saldatura
   zh: 熔焊
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
-Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten bronze was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% ref 'vid-12' %}.
+Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten {% def "bronze" %} was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% ref 'vid-12' %}.
 
 {% endbackmatter %}
 
@@ -25,8 +25,8 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 ## To Be Distinguished From
 
-- *brazing*
-- *soldering*
+- *{% def "brazing" %}*
+- *{% def "soldering" %}*
 
 ## Sources
 
@@ -54,7 +54,7 @@ Technique d’assemblage de deux éléments métalliques coulés séparément, e
 
 {% backmatter %}
 
-Note: L’assemblage peut se faire sans apport de métal, par soudure dite autogène ({% cite "Bader and Théret 1961" %}, par exemple au moyen d’un arc électrique ou d’un TIG). L’assemblage peut aussi se faire par apport d’un métal de composition proche de celui des parties à assembler. Pour la sculpture en bronze et en particulier les grands bronzes antiques, on parle de soudage par fusion au bronze liquide ({% cite "Azéma and Mille 2013b" %}). Dans l’industrie moderne, le soudage des métaux peut se faire à l’état solide, sans fusion, par exemple par soudage par diffusion, cf {% cite "Murry 1994" %}).
+Note: L’assemblage peut se faire sans apport de métal, par soudure dite autogène ({% cite "Bader and Théret 1961" %}, par exemple au moyen d’un arc électrique ou d’un TIG). L’assemblage peut aussi se faire par apport d’un métal de composition proche de celui des parties à assembler. Pour la sculpture en bronze et en particulier les grands bronzes antiques, on parle de soudage par fusion au bronze liquide ({% cite "Azéma and Mille 2013b" %}). Dans l’industrie moderne, le soudage des métaux peut se faire à l’état solide, sans fusion, par exemple par soudage par diffusion, cf. {% cite "Murry 1994" %}).
 
 {% endbackmatter %}
 

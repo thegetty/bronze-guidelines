@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](/vol-1/1/).
+Note: Molds of varying types may be used at different stages of the {% def "bronze" %} casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to {% def "cast" %} a bronze). See [I.1](/vol-1/1/).
 
 {% endbackmatter %}
 
@@ -58,7 +58,7 @@ Terme générique désignant toute forme en creux destinée à la production d�
 
 {% backmatter %}
 
-Note: Dans l’industrie moderne, le moule désigne généralement le moule réfractaire (voir « moule de potée »).
+Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %} (« moule de potée »).
 
 {% endbackmatter %}
 
@@ -68,11 +68,11 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Cuénin 1994" %}, 5
 
-Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Diderot et al. 1751" %}, 2:436–39, entry « bronze »
+Historical: {% cite "Boffrand 1743" %}, 17–20; {% cite "Mariette 1768" %}, 27–35; {% cite "Diderot et al. 1751" %}, 2:436–39, entry « bronze »
 
 Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
-#### Alternate Translations
+#### Alternate Translation
 
 - *creux* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759
 
@@ -86,7 +86,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
 
-- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+- *forma* (General and also {% def "investment" %} mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 

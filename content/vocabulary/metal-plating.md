@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Generic term referring to the application of a different metal to the surface of a bronze sculpture by a variety of means (mechanical, chemical, electrochemical). Typically, gold and silver are used to plate sculptures, but nickel, zinc, and tin have been used for aesthetic and/or protective reasons. When the applied metal is gold or an alloy of gold, it is referred to as {% def "gilding" %}.'
+definition: 'Generic term referring to the application of a different metal to the surface of a {% def "bronze" %} sculpture by a variety of means (mechanical, chemical, electrochemical). Typically, gold and silver are used to plate sculptures, but nickel, zinc, and tin have been used for aesthetic and/or protective reasons. When the applied metal is gold or an alloy of gold, it is referred to as {% def "gilding" %}.'
 lang:
   de: Plattierung
   fr: placage métallique
@@ -41,7 +41,7 @@ Terme générique décrivant toute application d’une couche métallique exogè
 
 {% backmatter %}
 
-Note: La dorure, l’argenture, et dans une moindre mesure l’étamage sont les pratiques de placage les plus fréquentes rencontrées sur les bronzes.
+Note: La {% def "dorure" %}, l’argenture, et dans une moindre mesure l’étamage sont les pratiques de placage les plus fréquentes rencontrées sur les bronzes.
 
 {% endbackmatter %}
 

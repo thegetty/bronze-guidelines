@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair most often mechanically set into the bronze surface, but which may also be soldered, welded, or cast into place (see [I.4](/vol-1/4/)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
+definition: 'A type of repair most often mechanically set into the {% def "bronze" %} surface, but which may also be soldered, welded, or {% def "cast" %} into place (see [I.4](/vol-1/4/)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
 lang:
   de: Flicken
   fr: plaquette de réparation
@@ -14,13 +14,13 @@ lang:
   zh: 补修
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198" %}
 
 ## To Be Distinguished From
 
-- *plug*
+- *{% def "plug" %}*
 
 ## Sources
 
@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 ### **French**: *{{ lang.fr }}*
 
-Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la brasure, à la soudure et même à la coulée secondaire sont également possibles.
+Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la {% def "brasage" %}, à la {% def "soudage" %} et même à la coulée secondaire sont également possibles.
 
 {% backmatter %}
 
@@ -54,7 +54,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translation
 
-- *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442. entry « bronze »
+- *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -72,7 +72,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 (v., n.)
 
-#### Sources
+#### Source
 
 [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 

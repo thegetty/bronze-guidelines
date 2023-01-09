@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'In bronze sculpture, a technique for joining separately cast parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary cast. As a rule of thumb, solder is white (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
+definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast" %} parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary {% def "cast" %}. For the purpose of visual identification or sculpture, while metal can be considered solder (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
 lang:
   de: Löten
   fr: brasage
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: The use of hard solder (a silver alloy) is sometimes referred to as brazing, but to avoid confusion, we suggest it should be referred to as soldering.
+Note: The use of hard solder (a silver alloy) is sometimes referred to as brazing, but, as not all researchers have access to methods of analysis, and to avoid confusion, we suggest it should be referred to as soldering.
 
 {% endbackmatter %}
 
@@ -29,7 +29,7 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 - *flow fusion welding*
 - *flow welding*
 - *fusion welding*
-- *welding*
+- *{% def "welding" %}*
 
 ## Sources
 
@@ -49,7 +49,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 ### **German**: *{{ lang.de }}*
 
-#### Source
+#### Sources
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 24
 
@@ -69,7 +69,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-#### Alternate Translations
+#### Alternate Translation
 
 - *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 

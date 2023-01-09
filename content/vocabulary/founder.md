@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural model into cast metal sculptures. This may entail a variety of specialized operations, from mold making to wax chasing, alloying, casting, fettling, assembling, chasing, and patination. The artist may in some cases also take on one or more of these roles.'
+definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
 lang:
   de: Giesser
   fr: fondeur
@@ -14,7 +14,7 @@ lang:
   zh: 铸工
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-546" %}
 
@@ -46,19 +46,19 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 #### Sources
 
-{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
+{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}
 
 #### Alternate Translations
 
-- *Giessereieinhaber* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Gießereieinhaber* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Giessereifachman* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
+- *Gießereifachman* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
 
-- *Giessereileiter* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Gießereileiter* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Giessereiunternehmer*
+- *Gießereiunternehmer*
 
-- *Schmelzmeister* (This designates the operator standing next to the furnace and deciding when to pour the molten metal in the mold.)
+- *Schmelzmeister* (This designates the operator standing next to the furnace and deciding when to pour the molten metal into the mold.)
 
 ### **French**: *{{ lang.fr }}*
 
@@ -74,7 +74,7 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 - *fabricant*
 
-- *mouleur* (Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} (édition originale 1844), 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %})
+- *mouleur* (Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} (édition originale 1844), 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276, l'auteur précise "mouleur en cuivre"). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %}).
 
 #### Sources
 
@@ -82,7 +82,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Koch and Newell 1963" %}
 
-Historical: {% cite "Félibien 1690" %}, 34; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:79, entry « fondeur »; {% cite "Mariette 1768" %}; {% cite "Guettier 1858" %}, 284
+Historical: {% cite "Félibien 1690" %}, 34; {% cite "Boffrand 1743" %}, 3, 4, 38, 41, and 44; {% cite "Diderot et al. 1751" %}, 7:79, entry « fondeur »; {% cite "Mariette 1768" %}, ii–iv, 72, 83, 108, 110, 128, 132–33; {% cite "Guettier 1858" %}, 284
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 269
 
@@ -94,7 +94,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *fondeur en cuivre* | Source: {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038
 
-- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20^e^ siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre. ({% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038).) | Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés [(fondeur de cloches, fondeur de canons ou fondeur d'artillerie)]. Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre [{% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038].) | Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
 - *mouleur en terre ou en sable* | Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 

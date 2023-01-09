@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Refers to the surface immediately after removal from the mold, before fettling and chasing.'
+definition: 'Refers to the surface immediately after removal from the {% def "mold" %}, before {% def "fettling" %} and {% def "chasing" %}.'
 lang:
   de: Gusshaut
   fr: surface brute de coulée
@@ -14,7 +14,7 @@ lang:
   zh: 毛坯铸件表面
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
@@ -51,11 +51,11 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 
 ### **French**: *{{ lang.fr }}*
 
-Surface du bronze en sortie de moule réfractaire, juste après le décochage, avant la réparure.
+Surface du bronze en sortie de {% def "moule réfractaire" %}, juste après le décochage, avant la {% def "réparure" %}.
 
 {% backmatter %}
 
-Note: Une belle surface faisant apparaître la qualité de la « peau de pièce » peut être obtenue par un choix judicieux d’alliage, de température de coulée, de température du moule, mais surtout par la qualité du moule réfractaire.
+Note: Une belle surface faisant apparaître la qualité de la « peau de pièce » peut être obtenue par un choix judicieux d’alliage, de température de {% def "coulée" %}, de température du moule réfractaire, mais surtout par la qualité du moule réfractaire.
 
 {% endbackmatter %}
 
@@ -86,5 +86,9 @@ Used as part of expression “superfiecie al grezzo di fusione”
 #### Source
 
 {% cite "Ming 2010" %}, 998
+
+#### Alternate Translation
+
+- 铸态表面 (Source: TNADD)
 
 </div>

@@ -39,6 +39,11 @@ Other: {% cite "Turner 1982" %}
 
 {% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
+#### Alternate Translation
+
+- Messinge
+- Messinglegierung
+
 ### **French**: *{{ lang.fr }}*
 
 Alliage à base de cuivre dans lequel le zinc est l’élément d’addition principal.
@@ -60,10 +65,6 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 - *cuivre jaune* | Sources: Historical: {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 4:540–47, entry « cuivre »; {% cite "Mariette 1768" %}; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224; {% cite "Grandpierre and Avale 1867" %}, 7; {% cite "Delon 1877" %}, 180
 
 - *orichalque* | Source: Cultural Heritage: {% cite "Halleux 1973" %}
-
-- *latten*
-
-- *ottonem*
 
 ### **Italian**: *{{ lang.it }}*
 

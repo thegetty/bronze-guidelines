@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either fettling or chasing.'
+definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either {% def "fettling" %} or {% def "chasing" %}.'
 lang:
   de: meißeln
   fr: travail au ciseau
@@ -13,7 +13,7 @@ lang:
   zh: 凿
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 ### **French**: *{{ lang.fr }}*
 
-Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la réparure (correspondrait alors principalement à l’ébarbage, see {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633) et la ciselure. Il n’existe a priori pas de traduction directe en français, si ce n’est « travail au ciseau ».
+Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633) et la ciselure. Il n’existe a *priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
 
 #### To Be Distinguished From
 
@@ -58,9 +58,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 [Treccani](https://www.treccani.it/vocabolario/scalpellatura/)
 
-#### Alternate Translations
-
-- *rifinitura a cesello*
+#### Alternate Translation
 
 - *incisione a bulino* | Source: {% cite "Battaglia 1961" %}
 

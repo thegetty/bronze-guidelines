@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A technique in which a model made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See [GI§2](/intro/#S2).'
+definition: 'A technique in which a {% def "model" %} made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See GI§2.'
 lang:
   de: Wachsausschmelzverfahren
   fr: fonte à la cire perdue
@@ -31,7 +31,7 @@ Other: {% cite "Untracht 1968" %}
 
 ## Synonyms
 
-- *investment casting*
+- *{% def "investment" %} casting*
 
 - *lost wax casting* (alternate spelling)
 
@@ -53,7 +53,7 @@ Other: {% cite "Untracht 1968" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le moule réfractaire, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
+Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le {% def "moule réfractaire" %}, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
 
 #### Sources
 

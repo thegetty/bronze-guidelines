@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A metal rod, nail, or wire that is embedded in both the {% def "core" %} and the outer mold and serves to secure the core in place during the pour. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'
+definition: 'A metal rod, nail, or wire that is embedded in both the {% def "core" %} and the outer {% def "mold" %} and serves to secure the core in place during the {% def "pour" %}. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'
 lang:
   de: Kernstift
   fr: fer à noyau
@@ -26,11 +26,11 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 ## To Be Distinguished From
 
-- *chaplet*
+- *{% def "chaplet" %}*
 
 - *core plate*
 
-- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes ({% cite "Mattusch 1996" %}, 22–24).)
+- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes [{% cite "Mattusch 1996" %}, 22–24].)
 
 ## Sources
 
@@ -58,7 +58,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Tige ou clou, parfois fil, généralement en fer servant à maintenir le noyau en place dans le moule lors de la coulée.
+Tige ou clou, parfois fil, généralement en fer servant à maintenir le {% def "noyau" %} en place dans le {% def "moule" %} lors de la {% def "coulée" %}.
 
 #### Source
 
@@ -66,7 +66,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translations
 
-- *broche* (Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}).) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbook: {% cite "Dubos 2003" %}
+- *broche* (Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression [{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}].) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *clou* | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 626; Art and Craft Textbooks: {% cite "Rama 1988" %}, 257; {% cite "Lambert 2002" %}, 181
 
@@ -82,7 +82,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-Same as "core support"
+Same as "{% def "core support" %}"
 
 #### Alternate Translations
 

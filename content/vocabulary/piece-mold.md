@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of {% def "mold" %} comprised of two or more individually formed, interlocking sections designed to circumvent undercuts and/or be disassembled without damage to the model or to the mold sections. Most often refers to molds made of a rigid material such as plaster. Smaller piece-mold sections are generally held together by a rigid outer mother mold. Starting in the nineteenth century, flexible piece molds (at first gelatin, later replaced by rubber, alginate, and silicone molds) were used instead of plaster, reducing the overall number of sections required to make a wax cast.'
+definition: 'A type of {% def "mold" %} composed of two or more individually formed, interlocking sections designed to circumvent undercuts and/or be disassembled without damage to the {% def "model" %} or to the mold sections. Most often refers to molds made of a rigid material such as plaster. Smaller {% def "piece-mold" %} sections are generally held together by a rigid outer mother mold. Starting in the nineteenth century, flexible piece molds (at first gelatin, later replaced by rubber, alginate, and silicone molds) were used instead of plaster, reducing the overall number of sections required to make a wax {% def "cast" %}.'
 lang:
   de: Stückform
   fr: moule à pièces
@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of bronze sculpture, the term may denote molds used to cast {% def "inter-models" %} in the indirect lost-wax process. Sand casting molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece-mold casting process (aka “section-mold process”), baked {% def "refractory mold" %} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](/case-studies/3/)).
+Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of {% def "bronze" %} sculpture, the term may denote molds used to cast {% def "inter-models" %} in the indirect lost-wax process. {% def "Sand casting" %} molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece-mold casting process (aka “section-mold process”), baked {% def "refractory mold" %} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](/case-studies/3/)).
 
 {% endbackmatter %}
 
@@ -46,13 +46,17 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 - *mehrteilige Form*
 
+#### Source
+
+{% cite "Maaz 2010" %}, 730
+
 ### **French**: *{{ lang.fr }}*
 
-Moule constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
+{% def "Moule" %} constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
 
 {% backmatter %}
 
-Note: pour la sculpture en bronze, un moule à pièces peut aussi bien désigner un moule à bon creux (pour la cire donc), un moule pour fonte au sable, qu’un moule pour la fonte à pièces (voir [Case Study 3](/case-studies/3/) et aussi {% cite "Rama 1988" %}, 196). Il arrive que les moules des très grands bronzes doivent être conçus en plusieurs sections non pas à cause de contre dépouilles, mais pour diminuer la trop grande adhérence du moule sur la surface du modèle et ainsi faciliter le démoulage (Andrew Lacey, pers. comm., July 2021).
+Note: Pour la sculpture en bronze, un moule à pièces peut aussi bien désigner un moule à bon creux (pour la cire donc), un {% def "moule réfractaire" %} pour {% def "fonte au sable" %}, qu’un moule réfractaire pour la fonte à pièces (voir [Case Study 3](/case-studies/3/) et aussi {% cite "Rama 1988" %}, 196). Il arrive que les moules des très grands bronzes doivent être conçus en plusieurs sections non pas à cause de contre dépouilles, mais pour diminuer la trop grande adhérence du moule sur la surface du modèle et ainsi faciliter le démoulage (Andrew Lacey, pers. comm., July 2021).
 
 {% endbackmatter %}
 
@@ -62,7 +66,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 ### **Italian**: *{{ lang.it }}*
 
-*tassello* is a piece of a mold. In Treccani, the description refers uniquely to sand casting. Biringuccio describes forming a clay mold in pieces with locking parts he calls *incastrature*.
+*Tassello* is a piece of a mold. In Treccani, the description refers uniquely to sand casting. Biringuccio describes forming a clay mold in pieces with locking parts he calls *incastrature*.
 
 #### Sources
 

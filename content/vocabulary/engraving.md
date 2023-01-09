@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: Engraving may be undertaken in the chasing process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#S2.3).
+Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#S2.3).
 
 {% endbackmatter %}
 

@@ -7,9 +7,9 @@ toc: false
 menu: false
 definition: 'A type of joint between two metal parts that is undertaken using molten metal. Examples of metallurgical joints include those made using {% def "welding" %}, {% def "brazing" %}, {% def "soldering" %}, and interlock casting.'
 lang:
-  de: metallurgische Verbindung
-  fr: joint métallurgique
-  it: saldatura metallurgica
+  de: Metallurgische Verbindung
+  fr: oint métallurgique
+  it: saldatura (often specified by a “fusione” or “per fusione”)
   zh: 冶金接合
 ---
 
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: The correct use of this term has been disputed among CAST:ING members, but it is often used generally to distinguish from mechanical joints. Diffusion welding (an expensive twentieth-century solid-state welding technique) does not involve the use of molten metal but to our knowledge is not used for bronze sculpture.
+Note: The correct use of this term has been disputed among CAST:ING members, but it is often used generally to distinguish from mechanical joints. Diffusion welding (an expensive twentieth-century solid-state welding technique) does not involve the use of molten metal but to our knowledge is not used for {% def "bronze" %} sculpture.
 
 {% endbackmatter %}
 

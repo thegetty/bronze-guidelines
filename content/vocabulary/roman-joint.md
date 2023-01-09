@@ -6,12 +6,12 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of joint between two separately cast elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.'
+definition: 'A type of joint between two separately {% def "cast" %} elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.'
 lang:
   de: Steckverbindung
   fr: assemblage à la romaine
   it: ghiera alla romana
-  zh: 罗馬式接合
+  zh: 罗马式接合
 ---
 
 {{ definition | hasShortcodes }}
@@ -55,7 +55,7 @@ Note: Des goujons (ou clavettes ou chevilles) peuvent être ajoutés. On parle a
 
 {% endbackmatter %}
 
-#### Sources
+#### Source
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 

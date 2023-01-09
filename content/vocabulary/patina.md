@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The term has at least three different meanings: 1) a pleasing surface alteration acquired over time—whether on a bronze or marble sculpture, furniture, or a painting—that may add aesthetic value; 2) the chemical transformation of a metal surface to a mineral layer (sometimes referred to as chemical patina, see {% def "corrosion" %}) that usually has a different color from and reduces the bright metallic reflectance of the polished original cast surface; or 3) (as opposed to chemically induced patinas) organic {% def "coatings" %} such as resin, lacquer, oil, wax, or synthetic resins applied to the surface of metals that can change the color, texture, saturation, and/or reflectance.'
+definition: 'The term has at least three different meanings: 1) a pleasing surface alteration acquired over time—whether on a {% def "bronze" %} or marble sculpture, furniture, or a painting—that may add aesthetic value; 2) the chemical transformation of a metal surface; to a mineral layer (sometimes referred to as chemical patina, see {% def "corrosion" %}) that usually has a different color from and reduces the bright metallic reflectance of the polished original {% def "cast" %} surface; or 3) (as opposed to chemically induced patinas) organic {% def "coatings" %} such as resin, lacquer, oil, wax, or synthetic resins applied to the surface of metals that can change the color, texture, saturation, and/or reflectance.'
 lang:
   de: Patina
   fr: patine
@@ -48,7 +48,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
 
 ### **French**: *{{ lang.fr }}*
 
-Le terme patine recouvre plusieurs sens. 1) désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps (corrosion) ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) {% cite "Aucouturier et al. 2003" %}.
+Le terme patine recouvre plusieurs sens. 1) Désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) Désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps (corrosion) ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) Peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) {% cite "Aucouturier et al. 2003" %}.
 
 {% backmatter %}
 

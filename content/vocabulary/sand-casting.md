@@ -5,12 +5,12 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A casting technique in which metal is poured into a piece mold made of a specific type of sand that is bound by clay (or resin in modern foundries). The piece mold is made by ramming the sand around a rigid model or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#S2.4.1).'
+definition: 'A casting technique in which metal is poured into a {% def "piece mold" %} made of a specific type of sand that is bound by clay (or oil or resin in modern foundries). The piece mold is made by ramming the sand around a rigid {% def "model" %} or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#S2.4.1).'
 lang:
   de: Sandformguss
   fr: fonte au sable
   it: fusione a staffa
-  zh: fusione a staffa
+  zh: 砂型铸造
 ---
 
 {{ definition | hasShortcodes }}
@@ -39,13 +39,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
 #### Alternate Translations
 
-- *Sandguss*
+- *Sandguss* oder
 
 - *Sandgussverfahren*
 
 ### **French**: *{{ lang.fr }}*
 
-Technique de fonderie utilisant un moule réfractaire en sable.
+Technique de fonderie utilisant un {% def "moule réfractaire" %} en sable.
 
 {% backmatter %}
 
@@ -65,15 +65,15 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *moulage au sable* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
-- *moulage en châssis* | Source: {% cite "Guettier 1867" %}, 221
+- *moulage en châssis* | Source: Historical: {% cite "Guettier 1867" %}, 221
 
-- *Moulage en sable* | Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
+- *moulage en sable* | Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
 
 - *moulage en sable vert* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
 ### **Italian**: *{{ lang.it }}*
 
-*staffa* is Italian for “flask,” the wooden or metal frame containing the sand.
+*Staffa* is Italian for “flask,” the wooden or metal frame containing the sand.
 
 #### Source
 
@@ -81,7 +81,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- *fusione alla sabbia* (A little more common than *a staffa*) | Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+- *fusione alla sabbia* (a little more common than *a staffa*) | Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

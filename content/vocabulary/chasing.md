@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the cast surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
 lang:
   de: ziselieren
   fr: ciselure
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: In common art historical usage, the term “chasing,” when used for bronze sculpture, refers specifically to all of the steps taken to embellish the surface of the cast after fettling. Modern founders include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using punches), as opposed to {% def "engraving" %}.
+Note: In common art historical usage, the term “chasing,” when used for {% def "bronze" %} sculpture, refers specifically to all of the steps taken to embellish the surface of the {% def "cast" %} after fettling. Modern {% def "founders" %} include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using {% def "punches" %}), as opposed to {% def "engraving" %}.
 
 {% endbackmatter %}
 
@@ -54,7 +54,7 @@ Opérations servant à la fois à masquer les imperfections de fonderie et ajout
 
 {% backmatter %}
 
-Note: Le terme a un sens plus général que celui utilisé par les orfèvres et monteurs en bronze, pour qui la ciselure désigne exclusivement le travail réalisé au ciselet ({% cite "Félibien 1690" %}, 337; {% cite "De Bois 1999" %}), par opposition à la gravure ({% cite "Hamm 1924" %}, 269; {% cite "De Bois 1999" %}). Aujourd’hui en fonderie d’art, si la réparure comprend tout le gros œuvre sur le bronze au sortir du moule (opération de décochage), souvent exécuté à l’outil tournant, la ciselure n’intervient qu’après et est le fait d’un savoir-faire spécifique.
+Note: Le terme a un sens plus général que celui utilisé par les orfèvres et monteurs en bronze, pour qui la ciselure désigne exclusivement le travail réalisé au ciselet ({% cite "Félibien 1690" %}, 337; {% cite "De Bois 1999" %}), par opposition à la {% def "gravure" %} ({% cite "Hamm 1924" %}, 269; {% cite "De Bois 1999" %}). Aujourd’hui en fonderie d’art, si la {% def "réparure" %} comprend tout le gros œuvre sur le bronze au sortir du {% def "moule réfractaire" %} (opération de décochage), souvent exécuté à l’outil tournant, la ciselure n’intervient qu’après et est le fait d’un savoir-faire spécifique.
 
 {% endbackmatter %}
 
@@ -62,9 +62,9 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 
 - *ciseler*
 - *parachèvement*
-- *reparure* (alternate spelling)
 - *réparage*
 - *réparure*
+- *reparure* (alternate spelling)
 - *travail au ciseau*
 - *ébarbage*
 - *ébavurage*

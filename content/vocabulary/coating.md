@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Purposefully applied surface deposits or films on bronze sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
+definition: 'Purposefully applied surface deposits or films on {% def "bronze" %} sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
 lang:
   de: Überzug
   fr: revêtement
@@ -14,11 +14,11 @@ lang:
   zh: 涂层
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
-Note: Not to be confused with corrosion products or mineral compounds bonded to the metal surface, which fall under {% def "patina" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
+Note: Not to be confused with {% def "corrosion" %} products or mineral compounds bonded to the metal surface, which fall under {% def "patines" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
 
 {% endbackmatter %}
 
@@ -48,7 +48,7 @@ Couche volontairement appliquée en surface d’un bronze pour le protéger ou l
 
 {% backmatter %}
 
-Note: ne pas confondre avec les patines chimiques, qui contrairement aux revêtements, réagissent avec le substrat en bronze pour former la couche de surface. Par ailleurs, on préférera désigner les revêtements métalliques par un terme spécifique, en l’occurrence placage.
+Note: Ne pas confondre avec les {% def "patines" %} chimiques, qui contrairement aux revêtements, réagissent avec le substrat en bronze pour former la couche de surface. Par ailleurs, on préférera désigner les revêtements métalliques par un terme spécifique, en l’occurrence placage métallique.
 
 {% endbackmatter %}
 
@@ -62,7 +62,7 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/rivestimento); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento);
+[Treccani](https://www.treccani.it/vocabolario/rivestimento); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento)
 
 ### **Chinese**: {{ lang.zh }}
 

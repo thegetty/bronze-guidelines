@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: "Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax bronze, the armature is created to support the model, whether it is hollow or solid. In the case of a hollow cast, it will further help support the refractory mass of the core during the pour (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes)."
+definition: 'Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax {% def "bronze" %}, the armature is created to support the {% def "model" %}, whether it is hollow or solid. In the case of a hollow {% def "cast" %}, it will further help support the refractory mass of the {% def "core" %} during the {% def "pour" %} (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes).'
 lang:
   de: Kerneisen
   fr: armature
@@ -14,7 +14,7 @@ lang:
   zh: 塑像內部支架
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 
@@ -36,19 +36,19 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 ### **German**: *{{ lang.de }}*
 
-#### Sources
+#### Source
 
 {% cite "Brunhuber 1988" %}
 
 #### Alternate Translations
 
-- *Stütz-konstruktion*
+- *Stützkonstruktion*
 
 - *Armierung* | Source: {% cite "Maaz 2010" %}, 695
 
 ### **French**: *{{ lang.fr }}*
 
-Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le noyau, et plus généralement le modèle. Ils peuvent se trouver dans le moule réfractaire pour le rendre plus résistant lors de sa manipulation et lors de la coulée. Une cire pleine peut être armée. Peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
+Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le {% def "noyau" %}, et plus généralement le {% def "modèle" %}. Ils peuvent se trouver dans le {% def "moule réfractaire" %} pour le rendre plus résistant lors de sa manipulation et lors de la {% def "coulée" %}. Une cire pleine peut être armée. L'armature peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
 {% backmatter %}
 
@@ -60,7 +60,7 @@ Note: On parle aussi de « système d’armatures » pour décrire l’ensembl
 
 Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 626; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
-Historical: {% cite "Gonon 1876" %}, 38; {% cite "Guettier 1858" %}, 300; {% cite "Delon 1877" %}, 144
+Historical: {% cite "Gonon 1876" %}, 38; {% cite "Guettier 1858" %}, 300; {% cite "Delon 1877" %}, 144; {% cite "Boffrand 1743" %}, 24–25; {% cite "Mariette 1768" %}, 39–48
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 266; {% cite "Rama 1988" %}, 372; {% cite "Dubos 2003" %}
 

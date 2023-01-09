@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'An unintended imperfection on a bronze that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
+definition: 'An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
 lang:
   de: Gussfehler
   fr: défaut de fonderie
@@ -14,11 +14,11 @@ lang:
   zh: 铸瑕
 ---
 
-{{ definition }}
+{{ definition | hasShortcodes }}
 
 {% backmatter %}
 
-Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the model) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({% cite "Rome and Young 2003" %}).
+Note: Casting defects should not be confused with other defects generated before casting (e.g., imperfection in the {% def "model" %}) or after casting (e.g., intentional alteration, wear due to use, or damage). Some authors separate casting defects into categories as either negative or positive ({% cite "Rome and Young 2003" %}).
 
 {% endbackmatter %}
 
@@ -42,11 +42,11 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 
 ### **French**: *{{ lang.fr }}*
 
-Défaut non intentionnel dans l’objet survenant lors de la coulée.
+Défaut non intentionnel dans l’objet survenant lors de la {% def "coulée" %}.
 
 {% backmatter %}
 
-Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le modèle avant la coulée, ou sur l’objet après la coulée (voir [I.3](/vol-1/3/)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Lambert 2002" %}, 241), fentes, crevasses, déchirures ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »), manques ({% cite "Lambert 2002" %}, 241).
+Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qui peuvent survenir dans le {% def "modèle" %} avant la coulée, ou sur l’objet après la coulée (voir [I.3](/vol-1/3/)). Par ailleurs, il est fréquent que dans la littérature il soit fait mention de défauts de fonderie spécifiques, sans que le terme générique de défaut de fonderie soit employé : trous ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Lambert 2002" %}, 241), fentes, crevasses, déchirures ({% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »), manques ({% cite "Lambert 2002" %}, 241).
 
 {% endbackmatter %}
 

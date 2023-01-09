@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The creation of a bronze may involve a series of models and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See [I.1](/vol-1/1/).'
+definition: 'The creation of a {% def "bronze" %} may involve a series of {% def "models" %} and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See I.1.'
 lang:
   de: Modell
   fr: modèle
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a cast may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the investment to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
+Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a {% def "cast" %} may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the {% def "investment" %} to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
 
 {% endbackmatter %}
 
@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et moules) successifs (modèle original, réplique, épreuve en cire, etc.).
+Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moules" %}) successifs (modèle original, réplique, épreuve en cire, etc.).
 
 {% backmatter %}
 
@@ -59,7 +59,7 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
+Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23–26, 69; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -71,7 +71,7 @@ Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Did
 
 - *forma* (Can refer to both the model and the mold, which leads to potential confusion)
 
-- *forma da gittar di bronzo* (This is the wax model that is used for casting, thus also possibly referring to the inter-model.) | Source: {% cite "Biringuccio [1540] 1990" %}, fols. 82v
+- *forma da gittar di bronzo* (This is the wax model that is used for casting, thus also possibly referring to the {% def "inter-model" %}.) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
 ### **Chinese**: {{ lang.zh }}
 

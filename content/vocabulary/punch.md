@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: During chasing, a number of punches with a variety of custom-made textures are often used, allowing a range of possible surface patterns. The texture of some punches may be confused with peening.
+Note: During chasing, a number of punches with a variety of custom-made textures are often used, allowing a range of possible surface patterns. The texture of some punches may be confused with {% def "peening" %}.
 
 {% endbackmatter %}
 
@@ -31,7 +31,7 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 ## Sources
 
-Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 1993" %}, 308; {% cite "Dillon 2002" %}, 302
+Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 1993" %}, 308; {% cite "Allen et al. 2022" %}, 302
 
 Art and Craft Textbook: {% cite "Untracht 1982" %}, 122
 
