@@ -54,7 +54,6 @@ Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments
 
 #### Alternate Translations
 
-- *réplique*
 - *variante*
 
 ### **Italian**: *{{ lang.it }}*

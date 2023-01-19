@@ -58,7 +58,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Tige ou clou, parfois fil, généralement en fer servant à maintenir le {% def "noyau" %} en place dans le {% def "moule" %} lors de la {% def "coulée" %}.
+Tige ou clou, parfois fil, généralement en fer servant à maintenir le {% def "noyau" %} en place dans le {% def "moule réfractaire" %} lors de la {% def "coulée" %}.
 
 #### Source
 

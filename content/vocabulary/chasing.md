@@ -64,7 +64,6 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 - *parachèvement*
 - *réparage*
 - *réparure*
-- *reparure* (alternate spelling)
 - *travail au ciseau*
 - *ébarbage*
 - *ébavurage*

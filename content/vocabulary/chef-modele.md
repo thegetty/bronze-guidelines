@@ -54,9 +54,14 @@ Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle origina
 
 <br />
 
+#### Sources
+
+Cultural Heritage: {% cite "Lebon 2012" %}
+Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
+
 #### To Be Distinguished From
 
-- *modèle original* | Sources: Cultural Heritage: {% cite "Lebon 2012" %}; Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
+- *modèle original* 
 
 #### Alternate Translations
 

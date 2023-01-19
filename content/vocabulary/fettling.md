@@ -82,7 +82,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 ### **Italian**: *{{ lang.it }}*
 
-Similar word used for chasing
+Same word used for chasing
 
 #### Sources
 
