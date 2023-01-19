@@ -2796,7 +2796,7 @@ figure_list:
     src: "figures/iiif/346/base.jpg"
     # media_type: iiif
     label: "Figure 346"
-    caption: "Annotated detail of copper-alloy inlays. The lips and blood drips are inlaid with a reddish high-copper alloy (blue and orange annotations). A lead-rich overlay simulates a swollen cheek contusion of a different color (purple overlay). Boxer at Rest, Greek, Hellenistic period, late 4th–2nd century BCE, H. 128 cm (Museo Nazionale Romano di Palazzo Massimo, Rome, inv. 1055). See %%Alessandri et al. 2013%%."
+    caption: "Annotated detail of copper-alloy inlays. The lips and blood drips are inlaid with a reddish unalloyed copper (blue and orange annotations). A lead-rich copper alloy overlay simulates a swollen cheek contusion of a different color (purple overlay). Boxer at Rest, Greek, Hellenistic period, late 4th–2nd century BCE, H. 128 cm (Museo Nazionale Romano di Palazzo Massimo, Rome, inv. 1055). See %%Alessandri et al. 2013%%."
     annotations:
       - input: checkbox
         items:
@@ -3237,7 +3237,7 @@ figure_list:
     src: "figures/iiif/410.jpg"
     # media_type: iiif
     label: "Figure 410"
-    caption: "The measurements of a sculpture will vary significantly depending on the position one chooses to take them in—choices that are particularly challenging when there is no obvious primary view, or when an object is fragmentary. For the sake of argument, Francesca Bewer positioned the rearing horse, flawed with its front legs missing, in several ways and measured the width and length, projecting the farthest points onto gridded paper, to show the variations. The uppermost gridded sketch reflects measurements taken with the horse in alignment with the paper (red lines correspond to the horse upright on its hind legs, the blue ones with it posed on all fours). The bottom two images show measuring done with the horse at an angle, first upright (lines in blue), then lowered (lines in red). The height, of course, will vary in relation to the position. Andrew Lacey (British, b. 1969), equine study demonstration model, 2004, H. TK cm (private collection), cast by the artist in 2004 for experimental purposes at AMTeC (Ancient materials and technologies) Renaissance bronze workshop, Chatham Dockyard, UK."
+    caption: "The measurements of a sculpture will vary significantly depending on the position one chooses to take them in—choices that are particularly challenging when there is no obvious primary view, or when an object is fragmentary. For the sake of argument, Francesca Bewer positioned the rearing horse, flawed with its front legs missing, in several ways and measured the width and length, projecting the farthest points onto gridded paper, to show the variations. The uppermost gridded sketch reflects measurements taken with the horse in alignment with the paper (red lines correspond to the horse upright on its hind legs, the blue ones with it posed on all fours). The bottom two images show measuring done with the horse at an angle, first upright (lines in blue), then lowered (lines in red). The height, of course, will vary in relation to the position. Andrew Lacey (British, b. 1969), equine study demonstration model, 2004, H. 20.3 cm horse upright and 15.5 cm with legs lowered (private collection), cast by the artist in 2004 for experimental purposes at AMTeC (Ancient materials and technologies) Renaissance bronze workshop, Chatham Dockyard, UK."
 
   - id: "fig-411"
     src: "figures/iiif/411.jpg"
@@ -4411,7 +4411,7 @@ figure_list:
     media_type: vimeo
     media_id:
     label: "Video 12"
-    caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011), showing the fabrication process for the Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962). See %%Azéma et al. 2013%%."
+    caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See %%Azéma et al. 2013%%."
 
   - id: "vid-13"
     poster: "figures/video-13.jpg"

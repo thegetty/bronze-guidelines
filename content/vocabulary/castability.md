@@ -71,7 +71,7 @@ Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique d
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %}, 174
 
-General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788>
+General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 ### **Italian**: *{{ lang.it }}*
 

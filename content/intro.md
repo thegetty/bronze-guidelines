@@ -210,7 +210,7 @@ Among the more recent phenomena are studies of entire collections and larger cor
 
 ## 2 What? The basics of making a bronze sculpture
 
-Casting a bronze consists of creativing a negative impression of a desired form in a refractory mold material, generally by using a model, and filling that with a molten copper alloy. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
+Casting a bronze consists of creating a negative impression of a desired form in a refractory mold material, generally by using a model, and filling that with a molten copper alloy. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
 
 {% figuregroup "3", "fig-003" %}
 
@@ -661,7 +661,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
-[^7]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission.
+[^7]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission. More recently, {% cite "Avery 2011" %} reconstructed the complex network of Renaissance Venetian founders and their work.  
 
 [^8]: For example {% cite "Theophilus [ca. 1122] 1979" %}; {% cite "Agricola [1556] 1950" %}; {% cite "Biringuccio [1540] 1990" %}.
 
@@ -669,7 +669,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^10]: The specialized study of historical metal production from extraction to refinement and trade is more commonly referred to as archaeometallurgy.
 
-[^11]: Houma in China’s southwest Shanxi province was first excavated in 1957: Shanxi Provincial Institute of Archaeology 21993; Institute of Archaeology of Shanxi Province 1996. On the Greek site see {% cite "Mattusch 1975" %}.
+[^11]: Houma in China’s southwest Shanxi province was first excavated in 1957: Shanxi Provincial Institute of Archaeology 1993; Institute of Archaeology of Shanxi Province 1996. On the Greek site see {% cite "Mattusch 1975" %}.
 
 [^12]: On the Riace bronzes see {% cite "Formigli 1984" %}. For recent publications of the Riace Bronzes and for new developments in studies of classical bronzes, see {% cite "Daehner and Lapatin 2015" %}. For another opinion on the production of these statues, not widely adopted, see {% cite "Konstam and Hoffmann 2002" %}; {% cite "Konstam and Hoffmann 2004" %}.
 
