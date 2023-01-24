@@ -4,21 +4,22 @@ _pdf/
 _site/
 _temp/
 
-# Eleventy content directory
-content/
-
 # EleventFetch cache directory
 .cache
 
-# environment variables
+# Environment variables
 .env
 .env.*
+!.env.example
 
 # ESLint cache directory
 .eslintcache
 
-# dependency directories
+# Dependency directories
 node_modules/
+
+# Local Netlify folder
+.netlify
 
 # log files
 logs
@@ -28,17 +29,17 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# System files
-**/*/.DS_Store
-
 # npm cache directory
 .npm
 
-# runtime data
+# Runtime data
 pids
 *.pid
 *.seed
 *.pid.lock
 
-# Local Netlify folder
-.netlify
+# System files
+.DS_Store
+desktop.ini
+thumbs.db
+
