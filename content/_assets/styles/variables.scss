@@ -6,19 +6,16 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
-$white: #fff;
-$black: #4e4a3e;
-$off-black: $black;
-
-$accent-color: #427f34;
+$accent-color: null;
 $content-background-color: null; // main text area background color
-$secondary-background-color: $white; // only for modern theme
+$secondary-background-color: null; // only for modern theme
 
 // Declare the theme: modern/classic
 $theme: modern;
 
 // Declare the navbar color style: normal/accent
-$navbar: accent;
+$navbar: normal;
+
 
 
 // Pre-defined fonts
@@ -71,13 +68,13 @@ $print-splash-color: $off-white;
 
 $print-entry-image-color: $rich-black;
 $print-entry-caption-color: $white;
-$print-entry-image-display: first; // first | all
+$print-entry-image-display: all; // first | all
 
 // Themes
 // -----------------------------------------------------------------------------
 // Declare theme variables
 $quire-primary-font: null; // body and menu text
-$quire-headings-font: 'Akrobat', $ibm-sans, sans-serif; // headings
+$quire-headings-font: null; // headings
 $quire-footnotes-font: null; // footnotes and page backmatter
 $quire-navigation-font: null; // navbar and next/prev buttons
 
@@ -104,7 +101,7 @@ $quire-navigation-font: null; // navbar and next/prev buttons
 // Navbar
 // -----------------------------------------------------------------------------
 $navbar-height: 3rem;
-$quire-progress-bar-height: 0px;
+$quire-progress-bar-height: 2px;
 
 // Declare navbar colors
 $quire-navbar-color: null;
@@ -113,7 +110,7 @@ $quire-navbar-text-color: null;
 
 @if $navbar == accent {
   // Accent Navbar
-  $quire-navbar-color: $black !default;
+  $quire-navbar-color: $accent-color !default;
   $quire-navbar-hover-color: darken($quire-navbar-color, 5%) !default;
   $quire-navbar-text-color: $white !default;
 } @else {

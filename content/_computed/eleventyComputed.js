@@ -7,7 +7,7 @@ const { warn } = chalkFactory('eleventyComputed')
  * Global computed data
  */
 module.exports = {
-  canonicalURL: ({ config, page }) => page.url && path.join(config.baseURL, page.url),
+  canonicalURL: ({ publication, page }) => page.url && path.join(publication.url, page.url),
   eleventyNavigation: {
     /**
      * Explicitly define page data properties used in the TOC
@@ -23,6 +23,7 @@ module.exports = {
         layout: data.layout,
         object: data.object,
         order: data.order,
+        classes: data.pageClasses,
         short_title: data.short_title,
         subtitle: data.subtitle,
         summary: data.summary,
@@ -48,10 +49,8 @@ module.exports = {
   /**
    * Classes applied to <main> page element
    */
-  pageClasses: ({ collections, class: classes, layout, page, tags }) => {
+  pageClasses: ({ collections, class: classes, layout, page }) => {
     const pageClasses = []
-    // Add classes based on tags
-    tags ? pageClasses.push(tags) : ''
     // Add computed frontmatter and page-one classes
     const pageIndex = collections.allSorted.findIndex(({ outputPath }) => outputPath === page.outputPath)
     const pageOneIndex = collections.allSorted.findIndex(({ data }) => data.class && data.class.includes('page-one'))
@@ -64,7 +63,7 @@ module.exports = {
   pageContributors: ({ contributor, contributor_as_it_appears }) => {
     if (!contributor) return
     if (contributor_as_it_appears) return contributor_as_it_appears
-    return (Array.isArray(contributor)) ? contributor : [contributor];
+    return (Array.isArray(contributor)) ? contributor : [contributor]
   },
   /**
    * Compute a 'pageData' property that includes the page and collection page data
@@ -75,7 +74,7 @@ module.exports = {
     return collections.all.find(({ url }) => url === page.url)
   },
   /**
-   * Figures data for figures referenced by id in page frontmatter
+   * Figures data for figures referenced by id in page frontmatter 
    */
   pageFigures: ({ figure, figures }) => {
     if (!figure || !figure.length) return
@@ -139,26 +138,42 @@ module.exports = {
   /**
    * Contributors with a `pages` property containing data about the pages they contributed to
    */
-  publicationContributors: ({ collections, config, publication }) => {
-    const { contributor } = publication
+  publicationContributors: ({ collections, config, page, publication }) => {
     if (!collections.all) return
-    return contributor
-      .map((item) => {
-        const { pic } = item
-        item.imagePath = pic
-          ? path.join(config.params.imageDir, pic)
-          : null
-        item.pages = collections.all.filter(
-          ({ data }) => {
-            if (!data.contributor) return
-            return Array.isArray(data.contributor)
-              ? data.contributor.find(
-                (pageContributor) => pageContributor.id === item.id
-              )
-              : data.contributor.id === item.id
-          }
-        )
-        return item
-      })
+    let publicationContributors = Array.isArray(publication.contributor)
+      ? publication.contributor
+      : []
+    publicationContributors = publicationContributors.filter((item) => item)
+    if (!publicationContributors.length) return
+
+    /**
+     * Add `pages` properties to contributor with limited `page` model
+     */
+    const addPages = (contributor) => {
+      const { id } = contributor
+      contributor.pages = collections.all.flatMap(
+        (page) => {
+          const { data, url } = page
+          const { contributor, label, subtitle, title } = data
+          if (!contributor) return []
+          const includePage = Array.isArray(contributor)
+            ? contributor.find((item) => item.id === id)
+            : contributor.id === id
+          return includePage ? {
+            label,
+            subtitle,
+            title,
+            url
+          } : []
+        }
+      )
+      return contributor
+    }
+    const pageContributors = collections.all.flatMap(({ data }) => data.pageContributors || [])
+
+    const uniqueContributors = publicationContributors.concat(pageContributors)
+      .filter((value, index, array) => array.findIndex((item) => item.id === value.id) === index)
+      .map(addPages)
+    return uniqueContributors
   }
 }
