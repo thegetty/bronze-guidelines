@@ -1,7 +1,3 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// added `target` as an allowed attribute, line 36
-//
 const MarkdownIt = require('markdown-it')
 const anchorsPlugin = require('markdown-it-anchor')
 const attributesPlugin = require('markdown-it-attrs')
@@ -26,8 +22,11 @@ const removeMarkdown = require('remove-markdown')
 module.exports = function(eleventyConfig, options) {
   /**
    * @see https://github.com/valeriangalliat/markdown-it-anchor#usage
+   * To prevent duplicate element IDs from slugified headings, we are only generating anchor links for level 1 headings
    */
-  const anchorOptions = {}
+  const anchorOptions = {
+    level: [1]
+  }
 
   /**
    * @see https://github.com/arve0/markdown-it-attrs#usage

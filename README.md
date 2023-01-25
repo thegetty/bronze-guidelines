@@ -91,9 +91,6 @@ Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 **_layouts/page.case-study**
 Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
-**_layouts/page.liquid**
-Remove bibliographies from all pages.
-
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
