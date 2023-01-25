@@ -71,16 +71,10 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 ## Customizations Made to 11ty Templates/Files
 
 **_includes/components/contributor/bio.js**
-Output contributor bio page links as semantic list.
-
-**_includes/components/copyright/licensing.js**
-Output license info in one line.
+Output contributor bio wrapped in P tags.
 
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
-
-**_includes/components/lightbox/slides.js**
-Wrap table output in a div wrapper to allow for scrolling.
 
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
@@ -124,6 +118,9 @@ Custom shortcode to wrap content in a `<div>` with a "warn" class.
 **_plugins/transforms/outputs/pdf/layout.html**
 **_plugins/transforms/outputs/pdf/write.js**
 Add needed divs and classes for styling pdf.
+
+**content/_computed/eleventyComputed.js**
+Add page tags and presentation values as classes
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

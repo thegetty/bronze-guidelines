@@ -3035,8 +3035,8 @@ figure_list:
     caption: "Two 3D models of different versions of a terra-cotta sculpture were made using a structured light scanner. By overlaying the scans, it is clear that while the torsos are closely aligned, the hands, hair, and lapels are misaligned, suggesting possible joint locations for the separately mold-made parts. Albert-Ernest Carrier-Belleuse (French, 1824–1887), Model for a Monument to Alexandre Dumas, 1885, H. 76 cm (Musée Carnavalet, Paris, inv. S1893; Musée Alexandre Dumas, Villers-Cotterêts, France, inv. 91.2.54). See %%Carré 2005%%."
 
   - id: "fig-379"
-    src: "figures/379.jpg"
-    media_type:
+    src: ""
+    media_type: dynamic
     label: "Figure 379"
     caption: "Interactive 3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
@@ -4367,7 +4367,7 @@ figure_list:
   - id: "vid-06"
     poster: "figures/video-06.jpg"
     media_type: vimeo
-    media_id:
+    media_id: ""
     label: "Video 6"
     caption: "Adriaen de Vries’s (Netherlandish, 1556–1626) bronze casting technique: the direct lost-wax method. All parts of the process are described, from the setup of armatures to finishing."
 
@@ -4409,7 +4409,7 @@ figure_list:
   - id: "vid-12"
     poster: "figures/video-12.jpg"
     media_type: vimeo
-    media_id:
+    media_id: ""
     label: "Video 12"
     caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See %%Azéma et al. 2013%%."
 
@@ -4444,7 +4444,7 @@ figure_list:
   - id: "vid-17"
     poster: "figures/video-17.jpg"
     media_type: vimeo
-    media_id:
+    media_id: ""
     label: "Video 17"
     caption: "TV documentary (dir. Laurène L’Allinec for French National Television FR3, 1992, 20 min.) showing how the sixth edition of Auguste Rodin’s (French, 1840–1917) *Doors of Hell* was cast at Fonderie de Coubertin in 1989–92, as requested by Musée Rodin for the Shizuoka Prefectural Museum of Art, Japan."
 

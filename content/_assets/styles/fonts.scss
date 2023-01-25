@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// add Akrobat font, lines 15–34
+//
 // =============================================================================
 // Fonts.scss
 // -----------------------------------------------------------------------------
@@ -175,11 +179,3 @@ $assets-dir: "/_assets/" !default;
   font-weight: 700;
   font-style: italic;
 }
-
-/**
-* Load material icon font
-*/
-
-$material-icons-font-path: 'material-icons/iconfont/';
-
-@import 'material-icons/iconfont/material-icons.scss';

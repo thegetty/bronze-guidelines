@@ -8,6 +8,10 @@
 # publication.
 
 # ------------------------------------------------------------------------------
+# The publication's base URL, i.e. 'https://www.my-publication.org'
+url: 'http://localhost:8080'
+
+# ------------------------------------------------------------------------------
 # Title & Description
 title: Guidelines for the Technical Examination of Bronze Sculpture
 subtitle:

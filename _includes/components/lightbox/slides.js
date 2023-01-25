@@ -1,9 +1,3 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// wrapped table output in <div class="table-wrapper">
-// to allow for scrolling, and output annotations ui above caption,
-// lines 52 and 94
-//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -28,17 +22,19 @@ module.exports = function(eleventyConfig) {
   return async function(figures) {
     if (!figures) return ''
 
+    figures = figures.map((figure) => ({
+      preset: 'zoom',
+      ...figure
+    }))
+
     const slideElement = async (figure) => {
       const {
         aspect_ratio: aspectRatio='widescreen',
         caption,
         credit,
         id,
-        iiif,
         label,
-        media_type: mediaType,
-        preset,
-        src
+        mediaType
       } = figure
 
       const isAudio = mediaType === 'soundcloud'
@@ -49,7 +45,7 @@ module.exports = function(eleventyConfig) {
           case mediaType === 'soundcloud':
             return figureAudioElement(figure)
           case mediaType === 'table':
-            return `<div class="table-wrapper">${await figureTableElement(figure)}</div>`
+            return `<div class="overflow-container">${await figureTableElement(figure)}</div>`
           case isVideo:
             return figureVideoElement(figure)
           case mediaType === 'image':
@@ -91,8 +87,8 @@ module.exports = function(eleventyConfig) {
             ${await figureElement(figure)}
           </div>
           <div class="q-figure-slides__slide-ui">
-            ${annotationsUI({ figure, lightbox: true })}
             ${captionElement}
+            ${annotationsUI({ figure, lightbox: true })}
           </div>
         </div>
       `
@@ -100,7 +96,7 @@ module.exports = function(eleventyConfig) {
 
     const slideElements = async () => {
       let slides = ''
-      for (figure of figures) {
+      for (const figure of figures) {
         slides += await slideElement(figure)
       }
       return slides

@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// add page tags and presentation values as classes, lines 56–60
+//
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
@@ -49,8 +53,11 @@ module.exports = {
   /**
    * Classes applied to <main> page element
    */
-  pageClasses: ({ collections, class: classes, layout, page }) => {
+  pageClasses: ({ collections, class: classes, layout, page, presentation, tags }) => {
     const pageClasses = []
+    // Add classes based on tags and presentation
+    tags ? pageClasses.push(tags) : ''
+    presentation ? pageClasses.push(presentation) : ''
     // Add computed frontmatter and page-one classes
     const pageIndex = collections.allSorted.findIndex(({ outputPath }) => outputPath === page.outputPath)
     const pageOneIndex = collections.allSorted.findIndex(({ data }) => data.class && data.class.includes('page-one'))
@@ -74,7 +81,7 @@ module.exports = {
     return collections.all.find(({ url }) => url === page.url)
   },
   /**
-   * Figures data for figures referenced by id in page frontmatter 
+   * Figures data for figures referenced by id in page frontmatter
    */
   pageFigures: ({ figure, figures }) => {
     if (!figure || !figure.length) return

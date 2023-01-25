@@ -17,11 +17,12 @@ module.exports = function(eleventyConfig) {
   const pageTitle = eleventyConfig.getFilter('pageTitle')
   const slugify = eleventyConfig.getFilter('slugify')
 
-  const { imageDir, pageLabelDivider } = eleventyConfig.globalData.config.params
+  const { labelDivider } = eleventyConfig.globalData.config.pageTitle
+  const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function (params) {
     const {
-      contributor_byline,
+      byline_format: bylineFormat,
       image,
       label,
       pageContributors,
@@ -38,7 +39,7 @@ module.exports = function(eleventyConfig) {
     }
 
     const pageLabel = label
-      ? `<span class="label">${label}<span class="visually-hidden">${pageLabelDivider}</span></span>`
+      ? `<span class="label">${label}<span class="visually-hidden">${labelDivider}</span></span>`
       : ''
 
     const imageElement = image
@@ -71,7 +72,7 @@ module.exports = function(eleventyConfig) {
       ? html`
           <div class="quire-page__header__contributor">
             ${editorsElement}
-            ${contributors({ context: pageContributors, format: 'string' })}
+            ${contributors({ context: pageContributors, format: bylineFormat })}
             ${additionalContributorsElement}
           </div>
         `

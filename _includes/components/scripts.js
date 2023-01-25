@@ -12,5 +12,6 @@ const { html } = require('~lib/common-tags')
 module.exports = function(eleventyConfig) {
   return () => html`
     <script type="module" src="/_assets/javascript/application/index.js"></script>
+    <script type="module" src="/_assets/javascript/custom.js"></script>
   `
 }
