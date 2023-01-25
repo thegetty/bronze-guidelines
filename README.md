@@ -6,26 +6,20 @@ https://www.getty.edu/publications/bronze-guidelines/
 | --- | --- |
 | `main` | The primary branch. Currently the similar to `prototype`. |
 | `prototype` | An early prototype of the catalogue using the Hugo version of Quire. |
-| `first-pages` | Partial first pages with the Hugo version of Quire. |
-| `first-pages-11ty` | Partial first pages with the 11ty version of Quire. |
-| `forthcoming` | **Not yet created.** A static placeholder page that is displayed at the book’s final URL on getty.edu prior to publication |
-| second-pages`, `final-pages`| **Not yet created.**. Future 11ty versions of the project at various stages. |
+| `first-pages-hugo` | Partial first pages with the Hugo version of Quire. |
+| `first-pages` | Complete first pages with the 11ty version of Quire. |
+| `forthcoming` | A static placeholder page that is displayed at the book’s final URL on getty.edu prior to publication |
+| second-pages`, `final-pages`| Versions of the project at various stages |
 
 ## Using the 11ty Version
 
 1. Clone this repository and select the appropriate branch.
 
-2. In Terminal, make sure you are using Node 16.15.0 or higher, with `node --version`. (See section on NVM below.)
+2. In Terminal, make sure you are using Node 18.12.1, with `node --version`. (See section on NVM below.) And Quire 1.0.0-rc.0 with `quire --version`.
 
 3. Run `npm install` to install the project dependencies. This just needs to be done once when first cloning the project, or whenever the core template/code files are updated.
 
-4. Enter the following command to add the preview URL to your environment variables. This is hopefully temporary, but currently required because of the way IIIF images are set up. Doing so with `export URL=http://localhost:8080` adds it just for the current session. This will need to be repeated each time you close and reopen your command-line shell. Or you can add it to your .bash-profile to make it persist.
-
-    ```
-    export URL=http://localhost:8080
-    ```
-
-5. See the preview with `npm run dev`. I find it needs to be stopped and restarted often to get it to refresh changes, especially with YAML.
+4. See the preview with `quire preview`. I find it needs to be stopped and restarted often to get it to refresh changes, especially with YAML.
 
 ## Using NVM to Manage Different Node Verisons
 
