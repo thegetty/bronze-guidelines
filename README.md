@@ -73,6 +73,9 @@ Added class to enable styling in modal vs. inline
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
 
+**_includes/components/scripts.js**
+Add call for custom.js file
+
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
 

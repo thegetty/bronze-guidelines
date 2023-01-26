@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added call for custom.js file, line 59
+//
 const { html } = require('~lib/common-tags')
 
 /**
