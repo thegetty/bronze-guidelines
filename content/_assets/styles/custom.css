@@ -43,6 +43,10 @@
 .quire-entry .side-by-side p strong:first-child {
   color: cyan;
 }
+.quire-entry .side-by-side .quire-page__content .content a.annoref {
+  color: cyan;
+  border-bottom-color: cyan;
+}
 /* TEMPORARY until we figure out how to display the editors */
 #contents.quire-page .toc-list a[href='/vocabulary/'] .contributor-divider,
 #contents.quire-page .toc-list a[href='/vocabulary/'] .contributor {
