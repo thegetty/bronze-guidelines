@@ -64,9 +64,6 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 ## Customizations Made to 11ty Templates/Files
 
-**_includes/components/contributor/bio.js**
-Output contributor bio wrapped in P tags.
-
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 

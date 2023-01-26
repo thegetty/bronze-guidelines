@@ -1,7 +1,3 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// wrap bio in P element, line 56
-//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -53,7 +49,7 @@ module.exports = function (eleventyConfig) {
     const contributorBio = bio
       ? html`
           <div class="quire-contributor__bio">
-            <p>${markdownify(bio)}</p>
+            ${markdownify(bio)}
           </div>
       `
       : ''
