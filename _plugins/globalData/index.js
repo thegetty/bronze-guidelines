@@ -1,8 +1,9 @@
 const chalkFactory = require('~lib/chalk')
 const fs = require('fs-extra')
 const path = require('path')
+const parser = require('./parser')
 
-const logger = chalkFactory('_plugins:globalData')
+const logger = chalkFactory('[plugins:globalData]')
 
 /**
  * Throws an error if data contains duplicate ids
@@ -34,41 +35,28 @@ const checkForDuplicateIds = function (data, filename) {
   }
 }
 
-module.exports = function(eleventyConfig) {
-  const data = (file) => {
-    const { base, ext, name } = path.parse(file)
-    const fileExt = ext.slice(1)
-    const filePath = path.join(directory, file)
-    /**
-     * @typedef {Map<String, Object>} dataExtensions
-     * Maps an extension string to an extension properties object
-     * @property {String} extension
-     * @property {Function} parser
-     * @property {Object} options
-     */
-    const extension = eleventyConfig.dataExtensions.get(fileExt)
+/**
+ * Eleventy plugin to programmatically load global data from files
+ * so that it is available to shortcode components.
+ * Nota bene: data is loaded from a sub directory of the `input` directory,
+ * distinct from the `eleventyConfig.dir.data` directory.
+ */
+module.exports = {
+  configFunction: function(eleventyConfig, options = {}) {
+    const dir = path.resolve(eleventyConfig.dir.input, '_data')
+    // console.debug(`[plugins:globalData] ${dir}`)
+    const files = fs.readdirSync(dir)
+      .filter((file) => path.extname(file) !== '.md')
+    const parse = parser(eleventyConfig)
 
-    try {
-      if (extension && extension.parser) {
-        const { options, parser } = extension
-        const input = options.read ? fs.readFileSync(filePath) : filePath
-        return parser(input)
+    for (const file of files) {
+      const { name: key } = path.parse(file)
+      const value = parse(path.join(dir, file))
+      if (key && value) {
+        checkForDuplicateIds(value, file)
+        eleventyConfig.addGlobalData(key, value)
       }
-    } catch (error) {
-      logger.error(error)
     }
-  }
-
-  const directory = path.join('content', '_data')
-  const files = fs.readdirSync(directory)
-
-  for (const file of files) {
-    const { name: key } = path.parse(file)
-    const value = data(file)
-
-    if (key && value) {
-      checkForDuplicateIds(value, file)
-      eleventyConfig.addGlobalData(key, value)
-    }
-  }
+  },
+  initArguments: {}
 }

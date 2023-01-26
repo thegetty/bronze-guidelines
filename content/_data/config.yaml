@@ -1,40 +1,48 @@
-baseURL: "https://first-pages--bronze-guidelines.netlify.app"
+analytics:
+  googleId: ''
 
-title: Quire Starter
-languageCode: en-us
-theme: default
-publishDir: site
+bylineFormat: name-title # name | name-title | false
 
-footnoteReturnLinkContents: '↩'
-GoogleAnalytics: ''
+bibliography:
+  displayOnPage: false
+  displayShort: true
+  heading: Bibliography
 
-pluralizeListTitles: true
-disableKinds:
-  - home
-  - section
-  - taxonomy
-  - term
+citations:
+  divider: ', '
+  popupStyle: text # text | icon
 
-quire_credit_line: This publication was created using [Quire](https://quire.getty.edu)™, a multiformat publishing tool from Getty.
+entryPage:
+  sideBySide: false
+  objectLinkText: View in Collection
 
-params:
-  biblioHeading: Bibliography
-  citationPageLocationDivider: ', '
-  citationPopupStyle: text # text | icon
-  contributorByline: name-title # name | name-title | false
-  displayBiblioShort: true
-  entryPageObjectLinkText: View in Collection
-  entryPageSideBySideLayout: false
-  figureLabelLocation: below # below | on-top
-  figureModal: true
-  figureModalIcons: true
-  figureZoom: true
+epub:
+  defaultCoverImage: 'epub-cover.png'
+  outputDir: '_epub'
+
+footnotes:
+  backlinkSymbol: '↩'
+
+figures:
+  assetDir: '/_assets/'
+  enableModal: true
   imageDir: '/_assets/images'
-  licenseIcons: true
-  menuType: full
-  nextPageButtonText: Next
-  pageLabelDivider: '. '
-  pageContributorDivider: " — "
-  prevPageButtonText: Back
-  searchEnabled: true
-  tocType: full
+
+licenseIcons: true
+
+localization:
+  defaultLocale: en-us
+
+menuType: full # full | brief
+
+navigation:
+  nextButtonText: Next
+  prevButtonText: Back
+
+pageTitle:
+  labelDivider: '. '
+
+searchEnabled: true
+
+tableOfContents:
+  contributorDivider: ' — '

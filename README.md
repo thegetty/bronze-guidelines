@@ -6,26 +6,20 @@ https://www.getty.edu/publications/bronze-guidelines/
 | --- | --- |
 | `main` | The primary branch. Currently the similar to `prototype`. |
 | `prototype` | An early prototype of the catalogue using the Hugo version of Quire. |
-| `first-pages` | Partial first pages with the Hugo version of Quire. |
-| `first-pages-11ty` | Partial first pages with the 11ty version of Quire. |
-| `forthcoming` | **Not yet created.** A static placeholder page that is displayed at the book’s final URL on getty.edu prior to publication |
-| second-pages`, `final-pages`| **Not yet created.**. Future 11ty versions of the project at various stages. |
+| `first-pages-hugo` | Partial first pages with the Hugo version of Quire. |
+| `first-pages` | Complete first pages with the 11ty version of Quire. |
+| `forthcoming` | A static placeholder page that is displayed at the book’s final URL on getty.edu prior to publication |
+| second-pages`, `final-pages`| Versions of the project at various stages |
 
 ## Using the 11ty Version
 
 1. Clone this repository and select the appropriate branch.
 
-2. In Terminal, make sure you are using Node 16.15.0 or higher, with `node --version`. (See section on NVM below.)
+2. In Terminal, make sure you are using Node 18.12.1, with `node --version`. (See section on NVM below.) And Quire 1.0.0-rc.0 with `quire --version`.
 
 3. Run `npm install` to install the project dependencies. This just needs to be done once when first cloning the project, or whenever the core template/code files are updated.
 
-4. Enter the following command to add the preview URL to your environment variables. This is hopefully temporary, but currently required because of the way IIIF images are set up. Doing so with `export URL=http://localhost:8080` adds it just for the current session. This will need to be repeated each time you close and reopen your command-line shell. Or you can add it to your .bash-profile to make it persist.
-
-    ```
-    export URL=http://localhost:8080
-    ```
-
-5. See the preview with `npm run dev`. I find it needs to be stopped and restarted often to get it to refresh changes, especially with YAML.
+4. See the preview with `quire preview`. I find it needs to be stopped and restarted often to get it to refresh changes, especially with YAML.
 
 ## Using NVM to Manage Different Node Verisons
 
@@ -70,23 +64,17 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 ## Customizations Made to 11ty Templates/Files
 
-**_includes/components/contributor/bio.js**
-Output contributor bio page links as semantic list.
-
-**_includes/components/copyright/licensing.js**
-Output license info in one line.
-
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
-
-**_includes/components/lightbox/slides.js**
-Wrap table output in a div wrapper to allow for scrolling.
 
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
+
+**_includes/components/scripts.js**
+Add call for custom.js file
 
 **_includes/def.liquid**
 Custom include to create definition pop-ups.
@@ -96,9 +84,6 @@ Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
 **_layouts/page.case-study**
 Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
-
-**_layouts/page.liquid**
-Remove bibliographies from all pages.
 
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
@@ -124,6 +109,9 @@ Custom shortcode to wrap content in a `<div>` with a "warn" class.
 **_plugins/transforms/outputs/pdf/layout.html**
 **_plugins/transforms/outputs/pdf/write.js**
 Add needed divs and classes for styling pdf.
+
+**content/_computed/eleventyComputed.js**
+Add page tags and presentation values as classes
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

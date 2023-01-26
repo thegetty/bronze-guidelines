@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// adjust a number of style variables
+//
 // =============================================================================
 // Variables.scss
 // -----------------------------------------------------------------------------
@@ -19,6 +23,7 @@ $theme: modern;
 
 // Declare the navbar color style: normal/accent
 $navbar: accent;
+
 
 
 // Pre-defined fonts
@@ -107,13 +112,13 @@ $navbar-height: 3rem;
 $quire-progress-bar-height: 0px;
 
 // Declare navbar colors
-$quire-navbar-color: null;
+$quire-navbar-color: $black;
 $quire-navbar-hover-color: null;
 $quire-navbar-text-color: null;
 
 @if $navbar == accent {
   // Accent Navbar
-  $quire-navbar-color: $black !default;
+  $quire-navbar-color: $accent-color !default;
   $quire-navbar-hover-color: darken($quire-navbar-color, 5%) !default;
   $quire-navbar-text-color: $white !default;
 } @else {

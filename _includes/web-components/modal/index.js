@@ -1,8 +1,8 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// altered getCurrentFigureId() to use classed links w/i markdown, line 42-51
+// altered getCurrentFigureId() to use classed links w/i markdown, line 46-50
 //
-import { LitElement, html } from 'lit';
+import { LitElement, html } from 'lit'
 
 class Modal extends LitElement {
   static properties = {
@@ -19,42 +19,42 @@ class Modal extends LitElement {
   }
 
   constructor() {
-    super();
-    this.setupKeyboardControls();
-    this.setupModalTriggers();
+    super()
+    this.setupKeyboardControls()
+    this.setupModalTriggers()
   }
 
   close() {
-    this.active = false;
-    this.currentId = null;
-    this.updateLightboxCurrentId();
-    this.enableScrolling();
+    this.active = false
+    this.currentId = null
+    this.updateLightboxCurrentId()
+    this.enableScrolling()
   }
 
   disableScrolling() {
-    document.querySelector('html').style.overflow = 'hidden';
+    document.querySelector('html').style.overflow = 'hidden'
   }
 
   enableScrolling() {
-    document.querySelector('html').style.overflow = 'auto';
+    document.querySelector('html').style.overflow = 'auto'
   }
 
   getCurrentFigureId(event) {
-    const { target } = event;
-    let currentFigure = target;
+    const { target } = event
+    let currentFigure = target
     while (
       !currentFigure.getAttribute('href')
     ) {
-      currentFigure = currentFigure.parentNode;
+      currentFigure = currentFigure.parentNode
     }
     return currentFigure.getAttribute('href').replace("#", "")
   }
 
   open(event) {
-    this.currentId = this.getCurrentFigureId(event);
-    this.active = true;
-    this.updateLightboxCurrentId();
-    this.disableScrolling();
+    this.currentId = this.getCurrentFigureId(event)
+    this.active = true
+    this.updateLightboxCurrentId()
+    this.disableScrolling()
   }
 
   setupCloseButton() {
@@ -69,19 +69,19 @@ class Modal extends LitElement {
     document.addEventListener('keyup', ({ code }) => {
       if (this.active) {
         if(code === 'Escape') {
-          this.close();
+          this.close()
         }
       }
-    });
+    })
   }
 
   setupModalTriggers() {
     document.querySelectorAll('.q-figure__modal-link').forEach((item) => {
       item.addEventListener('click', (event) => {
-        event.preventDefault();
-        this.open(event);
-      });
-    });
+        event.preventDefault()
+        this.open(event)
+      })
+    })
   }
 
   updateLightboxCurrentId() {
@@ -96,8 +96,8 @@ class Modal extends LitElement {
       <div class="q-modal">
         <slot></slot>
       </div>
-    `;
+    `
   }
 }
 
-customElements.define('q-modal', Modal);
+customElements.define('q-modal', Modal)

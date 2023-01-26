@@ -1,76 +1,13 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // Added Poster image to Vimeo output so that could show poster on page, and
-// iframe embed in modal, Lines 35 and 51–53
+// iframe embed in modal, Lines 51 and 67–69
 //
 const { html } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
-const { warn, error } = chalkFactory('Figure Video')
-
-const videoElements = {
-  video({ id, poster='', src }) {
-    if (!src) {
-      error(`Cannot render Video without 'src'. Check that figures data for id: ${id} has a valid 'src'`)
-      return ''
-    }
-
-    if (!poster) {
-      warn(`Figure '${id}' does not have a 'poster' property. A poster image for id: ${id} will not be rendered`)
-    }
-
-    const unsupported = 'Sorry, your browser does not support embedded videos.'
-    return html`
-      <video
-        class="q-figure-video-element"
-        controls
-        poster="${poster}"
-      >
-        <source src="${src}" type="video/mp4"/>
-        ${unsupported}
-      </video>
-    `
-  },
-  vimeo({ id, mediaId, poster='' }) {
-    if (!mediaId) {
-      error(`Cannot render Vimeo embed without 'media_id'. Check that figures data for id: ${id} has a valid 'media_id'`)
-      return ''
-    }
-
-    // Sample Vimeo id: 672853278/b3f8d29d53
-    const embedId = mediaId.replace('/', '?h=')
-    return html`
-      <iframe
-        allow="fullscreen; picture-in-picture"
-        allowfullscreen
-        class="q-figure-video-element q-figure-video-element--embed"
-        frameborder="0"
-        src="https://player.vimeo.com/video/${embedId}"
-      ></iframe>
-      <a href="#${id}" class="q-figure-video-element--poster q-figure__modal-link">
-      <img src="${poster}" />
-      </a>
-    `
-  },
-  youtube({ id, mediaId }) {
-    if (!mediaId) {
-      error(`Cannot render Youtube component without 'media_id'. Check that figures data for id: ${id} has a valid 'media_id'`)
-      return ''
-    }
-
-    return html`
-      <iframe
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        class="q-figure-video-element q-figure-video-element--embed"
-        frameborder="0"
-        src="https://www.youtube-nocookie.com/embed/${mediaId}"
-      ></iframe>
-    `
-  }
-}
-
+const logger = chalkFactory('Figure Video')
 /**
  * Renders a native or embedded video player
  *
@@ -78,20 +15,84 @@ const videoElements = {
  *
  * @param      {Object}  figure          The figure object
  * @param      {String}  id              The id of the figure
- * @param      {String}  media_id        An id for a youtube or vimeo embed
- * @param      {String}  media_type      The type of tag video ('video', 'vimeo' or 'youtube')
+ * @param      {String}  mediaId         An id for a youtube or vimeo embed
+ * @param      {String}  mediaType       The type of tag video ('video', 'vimeo' or 'youtube')
  * @param      {String}  poster          Poster image url for a static video file
  * @param      {String}  src             Source url for a static video file
  *
  * @return     {String}  An HTML <video> element
  */
 module.exports = function (eleventyConfig) {
-  const { imageDir } = eleventyConfig.globalData.config.params
+  const { imageDir } = eleventyConfig.globalData.config.figures
+  const figureMediaEmbedUrl = eleventyConfig.getFilter('figureMediaEmbedUrl')
+  const videoElements = {
+    video({ id, poster='', src }) {
+      if (!src) {
+        logger.error(`Cannot render Video without 'src'. Check that figures data for id: ${id} has a valid 'src'`)
+        return ''
+      }
+
+      if (!poster) {
+        logger.warn(`Figure '${id}' does not have a 'poster' property. A poster image for id: ${id} will not be rendered`)
+      }
+
+      const unsupported = 'Sorry, your browser does not support embedded videos.'
+      return html`
+        <video
+          class="q-figure-video-element"
+          controls
+          poster="${poster}"
+        >
+          <source src="${src}" type="video/mp4"/>
+          ${unsupported}
+        </video>
+      `
+    },
+    vimeo({ id, mediaId, mediaType, poster='' }) {
+      if (!mediaId) {
+        logger.error(`Cannot render Vimeo embed without 'media_id'. Check that figures data for id: ${id} has a valid 'media_id'`)
+        return ''
+      }
+
+      const { embedUrl } = figureMediaEmbedUrl({ mediaId, mediaType })
+
+      return html`
+        <iframe
+          allow="fullscreen; picture-in-picture"
+          allowfullscreen
+          class="q-figure-video-element q-figure-video-element--embed"
+          frameborder="0"
+          src="${embedUrl}"
+        ></iframe>
+        <a href="#${id}" class="q-figure-video-element--poster q-figure__modal-link">
+        <img src="${poster}" />
+        </a>
+      `
+    },
+    youtube({ id, mediaId, mediaType }) {
+      if (!mediaId) {
+        logger.error(`Cannot render Youtube component without 'media_id'. Check that figures data for id: ${id} has a valid 'media_id'`)
+        return ''
+      }
+
+      const { embedUrl } = figureMediaEmbedUrl({ mediaId, mediaType })
+
+      return html`
+        <iframe
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          class="q-figure-video-element q-figure-video-element--embed"
+          frameborder="0"
+          src="${embedUrl}"
+        ></iframe>
+      `
+    }
+  }
 
   return function ({
     id,
-    media_id: mediaId,
-    media_type: mediaType,
+    mediaId,
+    mediaType,
     poster,
     src
   }) {
@@ -102,6 +103,6 @@ module.exports = function (eleventyConfig) {
       src = src.startsWith('http') ? src : path.join(imageDir, src)
     }
 
-    return videoElements[mediaType]({ id, mediaId, poster, src })
+    return videoElements[mediaType]({ id, mediaId, mediaType, poster, src })
   }
 }

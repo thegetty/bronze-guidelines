@@ -4,7 +4,6 @@ const logger = chalkFactory('Figure Annotations UI')
 
 module.exports = function (eleventyConfig) {
   const slugify = eleventyConfig.getFilter('slugify')
-  const { locale } = eleventyConfig.globalData.iiifConfig
 
   const supportedInputTypes = ['checkbox', 'radio']
 
@@ -16,7 +15,7 @@ module.exports = function (eleventyConfig) {
    * @param  {String} name The input name attribute. Prefixed with `lightbox-` when rendered inside a lightbox
    */
   return function ({ annotation, index, input, name }) {
-    const { id, label, selected, type, url } = annotation
+    const { id, label, selected, type, uri } = annotation
 
     if (!label) {
       logger.error(`Annotation label is required. Annotation id: ${id}`)
@@ -28,7 +27,7 @@ module.exports = function (eleventyConfig) {
       return ''
     }
 
-    const checked = selected || (input === "radio" && index === 0)
+    const checked = selected || (input === 'radio' && index === 0)
     const elementId = `${name}-${id}`
     const inputId = `${elementId}-input`
 
@@ -39,7 +38,8 @@ module.exports = function (eleventyConfig) {
           id="${inputId}"
           name="${name}"
           type="${input}"
-          value="${url}"
+          value="${uri}"
+          data-annotation-id="${id}"
           data-annotation-type="${type}"
           ${checked ? 'checked' : ''}
         />

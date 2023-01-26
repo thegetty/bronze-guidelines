@@ -1,14 +1,11 @@
 ---
-## CUSTOMIZED FILE -- Bronze Guidelines
-## removed page bibliography
-##
 class: quire-page
 layout: base.11ty.js
 description: Single page default template
 ---
 
 {% pageHeader
-  contributor_byline=contributor_byline,
+  byline_format=byline_format,
   image=image,
   label=label,
   pageContributors=pageContributors,
@@ -20,6 +17,7 @@ description: Single page default template
   <div class="container">
     <div class="content">
       {{ content }}
+      {% bibliography pageReferences %}
     </div>
   </div>
 </section>

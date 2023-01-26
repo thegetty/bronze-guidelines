@@ -6,10 +6,10 @@
 # unless otherwise overridden by more specific contexts.
 [build]
 publish = "_site"
-command = "npm run build && rm -r _site/_assets/images/figures/ && cp -r content/_assets/images/figures/ _site/_assets/images/figures/"
+command = "npm run build"
 
 [build.environment]
-NODE_VERSION = "17.5.0"
+NODE_VERSION = "18.12.1"
 
 # These two GIT_LFS variables need to be added to the project’s
 # Deploy Settings in the Netlify UI, under Environment Variables:

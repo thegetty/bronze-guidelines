@@ -15,7 +15,7 @@ layout: base.11ty.js
   </div>
   <div class="quire-cover__image-container">
     {% for image in image_set %}
-    {% assign imagePath = config.params.imageDir | concat: image | join: '/' %}
+    {% assign imagePath = config.figures.imageDir | concat: image | join: '/' %}
     <div class="image-wrapper" >
     <img src="{{ imagePath }}" />
     </div>
