@@ -24,18 +24,18 @@ Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscr
 
 {% figuregroup "3", "fig-223, fig-340, fig-346, fig-347" %}
 
+## Sources
+
+Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
+
+Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
+
 ## To Be Distinguished From
 
 - *coating*
 - *damascene*
 - *incrustation*
 - *inlay*
-
-## Sources
-
-Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
-
-Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 ## Synonyms
 

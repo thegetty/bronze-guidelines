@@ -23,11 +23,6 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 {% figuregroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
-## To Be Distinguished From
-
-- *{% def "brazing" %}*
-- *{% def "soldering" %}*
-
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}; {% cite "Beale 1975" %}, 28–55
@@ -37,6 +32,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 Art and Craft Textbooks: {% cite "Rome and Young 2003" %}, 312; {% cite "Untracht 1982" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
+
+## To Be Distinguished From
+
+- *{% def "brazing" %}*
+- *{% def "soldering" %}*
 
 ## Translations
 

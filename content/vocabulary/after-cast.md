@@ -24,14 +24,14 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 {% figuregroup "3", "fig-001, fig-284" %}
 
+## Sources
+
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite "Penny 1993" %}
+
 ## To Be Distinguished From
 
 - *copy*
 - *{% def "replica" %}*
-
-## Sources
-
-Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite "Penny 1993" %}
 
 ## Synonyms
 

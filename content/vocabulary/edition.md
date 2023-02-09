@@ -22,7 +22,13 @@ Note: Casts from any given edition will be essentially identical in form and siz
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-261, fig-551" %}
+{% figuregroup "3", "fig-261, fig-551" %}
+
+## Sources
+
+Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 1975" %}; {% cite "Dillon 2002" %}
+
+General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 ## To Be Distinguished From
 
@@ -30,12 +36,6 @@ Note: Casts from any given edition will be essentially identical in form and siz
 - *{% def "replica" %}*
 - *version*
 - *{% def "variant" %}*
-
-## Sources
-
-Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 1975" %}; {% cite "Dillon 2002" %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 ## Synonym
 

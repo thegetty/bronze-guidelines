@@ -21,15 +21,7 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-187, fig-364, fig-488" %}
-
-## To Be Distinguished From
-
-- *brazing*
-- *flow fusion welding*
-- *flow welding*
-- *fusion welding*
-- *{% def "welding" %}*
+{% figuregroup "3", "fig-187, fig-364" %}
 
 ## Sources
 
@@ -42,6 +34,14 @@ Copper Industry: {% cite "Schwartz and Aircraft 1951" %}
 Art and Craft Textbook: {% cite "Untracht 1982" %}, 388–423
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
+
+## To Be Distinguished From
+
+- *brazing*
+- *flow fusion welding*
+- *flow welding*
+- *fusion welding*
+- *{% def "welding" %}*
 
 ## Translations
 

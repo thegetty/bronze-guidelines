@@ -49,7 +49,7 @@ Terme générique désignant ici toute réalisation intervenant dans la fabricat
 
 {% backmatter %}
 
-Note: Le sens donné à modèle est ici plus large que l’« oeuvre destinée à être reproduite » ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624), et différent du modèle au sens de l’histoire de l’art qui peut revêtir une grande variété de formes (dessin, esquisse, maquette, etc.).
+Note: Le sens donné à modèle est ici plus large que l’« œuvre destinée à être reproduite » ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624), et différent du modèle au sens de l’histoire de l’art qui peut revêtir une grande variété de formes (dessin, esquisse, maquette, etc.).
 
 {% endbackmatter %}
 

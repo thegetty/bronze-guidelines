@@ -24,14 +24,6 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 {% figuregroup "3", "fig-035, fig-036, fig-037, fig-122, fig-547" %}
 
-## To Be Distinguished From
-
-- *{% def "chaplet" %}*
-
-- *core plate*
-
-- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes [{% cite "Mattusch 1996" %}, 22–24].)
-
 ## Sources
 
 Cultural Heritage: {% cite "Penny 1993" %}; {% cite "Lie and Bewer 2014" %}; {% cite "Mattusch 1996" %}, 22–24
@@ -39,6 +31,14 @@ Cultural Heritage: {% cite "Penny 1993" %}; {% cite "Lie and Bewer 2014" %}; {% 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}
+
+## To Be Distinguished From
+
+- *{% def "chaplet" %}*
+
+- *core plate*
+
+- *spacer* (Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes [{% cite "Mattusch 1996" %}, 22–24].)
 
 ## Synonyms
 

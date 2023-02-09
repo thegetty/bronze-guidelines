@@ -23,13 +23,13 @@ Note: The correct use of this term has been disputed among CAST:ING members, but
 
 {% figuregroup "3", "fig-059, fig-146, fig-187, fig-188, fig-203, fig-204, fig-206, fig-207, fig-364" %}
 
-## To Be Distinguished From
-
-- *mechanical joint*
-
 ## Sources
 
 Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 2002" %}, 299; {% cite "Tzachou-Alexandri 2000" %}, 92
+
+## To Be Distinguished From
+
+- *mechanical joint*
 
 ## Translations
 
@@ -42,6 +42,14 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 - *metallische Verbindung*
 
 ### **French**: *{{ lang.fr }}*
+
+Joint métal-métal faisant intervenir du métal liquide (brasage ou soudage par fusion), par opposition à joint mécanique.
+
+{% backmatter %}
+
+Note: Ce terme a été introduit par les membres de CAST:ING – et reste débattu – pour permettre de décrire un assemblage quand bien même il n’est pas possible de distinguer une brasure d’un joint obtenu par soudage par fusion.
+
+{% endbackmatter %}
 
 ### **Italian**: *{{ lang.it }}*
 

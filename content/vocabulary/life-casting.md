@@ -23,13 +23,13 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 {% figuregroup "3", "fig-011, fig-027" %}
 
-## To Be Distinguished From
-
-- *casting from life* (“Life-casting” is to be distinguished from “casting from life,” in which a reusable mold is taken from a living form (e.g., a tree trunk or a body part) without harming it (e.g., a life mask). Such casts from life may be reproduced any number of times and in different materials.)
-
 ## Sources
 
 Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
+
+## To Be Distinguished From
+
+- *casting from life* (“Life-casting” is to be distinguished from “casting from life,” in which a reusable mold is taken from a living form (e.g., a tree trunk or a body part) without harming it (e.g., a life mask). Such casts from life may be reproduced any number of times and in different materials.)
 
 ## Synonym
 

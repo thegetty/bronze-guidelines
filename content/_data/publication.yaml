@@ -220,9 +220,10 @@ library_of_congress_cip: |
   - Names:
   - Title:
   - Description:
-  - Identifiers: LCCN  (print) | LCCN (ebook) | ISBN
-     9781606068281 (paperback) | ISBN 9781606068298 (ebook) | ISBN
-     9781606068304
+  - Identifiers: LCCN  (print) | LCCN (ebook) |
+                 ISBN 9781606068281 (paperback) |
+                 ISBN 9781606068298 (ebook) |
+                 ISBN 9781606068304
   - Subjects:
   - Classification:
   - LC record available at

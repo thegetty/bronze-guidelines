@@ -24,13 +24,6 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
-## To Be Distinguished From
-
-- *core nail*
-- *core pin*
-- *core rod*
-- *{% def "core support" %}*
-
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 40; {% cite "Mattusch 1996" %}, 24; {% cite "Penny 1993" %}, 298; {% cite "Salter and Gilmour n.d." %}
@@ -38,6 +31,13 @@ Cultural Heritage: {% cite "Beale 1975" %}, 40; {% cite "Mattusch 1996" %}, 24; 
 Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+## To Be Distinguished From
+
+- *core nail*
+- *core pin*
+- *core rod*
+- *{% def "core support" %}*
 
 ## Synonyms
 

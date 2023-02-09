@@ -17,10 +17,6 @@ lang:
 
 {% figuregroup "3", "fig-104, fig-552" %}
 
-## To Be Distinguished From
-
-- *{% def "chasing" %}*
-
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}, 23; {% cite "Penny 1993" %}
@@ -28,6 +24,10 @@ Cultural Heritage: {% cite "Salter and Gilmour n.d." %}, 23; {% cite "Penny 1993
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Art and Craft Textbook: {% cite "Untracht 1982" %}
+
+## To Be Distinguished From
+
+- *{% def "chasing" %}*
 
 ## Translations
 
