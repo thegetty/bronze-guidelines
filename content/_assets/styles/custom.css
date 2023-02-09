@@ -142,6 +142,26 @@ a.quire-definition__content__more-link {
   display: inline-block;
   height: 0;
 }
+/* Enure titles in navbar aren't bumped to second line and so hidden
+  and handle truncation differently */
+.quire-navbar-page-controls__item.quire-previous-page a,
+.quire-navbar-page-controls__item.quire-next-page a {
+  white-space: nowrap;
+}
+.quire-navbar-page-controls__item {
+  max-width: calc((100vw - 13rem) * .5);
+}
+.quire-navbar p {
+  display: inline-block;
+  max-width: 80%;
+  overflow: clip;
+}
+@media screen and (max-width:1024px) {
+  .quire-navbar p .quire-page-label-divider,
+  .quire-navbar p .quire-page-title {
+    display: none;
+  }
+}
 
 /* COVER
 ============================================================================= */
