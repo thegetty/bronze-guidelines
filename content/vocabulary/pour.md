@@ -7,7 +7,7 @@ toc: false
 menu: false
 definition: 'The operation of pouring or casting metal into the {% def "refractory mold" %}.'
 lang:
-  de: Gießen
+  de: Guss
   fr: coulée
   it: colata
   zh: 浇注

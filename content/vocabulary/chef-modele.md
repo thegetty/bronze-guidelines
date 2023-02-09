@@ -8,7 +8,7 @@ toc: false
 menu: false
 definition: 'French term for a {% def "replica" %} of the artist’s {% def "model" %} that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.'
 lang:
-  de: Chef-modèle
+  de: Dauermodell
   fr: chef-modèle
   it: modello
   zh: 主铸型
