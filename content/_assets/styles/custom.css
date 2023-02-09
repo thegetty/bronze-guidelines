@@ -356,6 +356,13 @@ a.quire-definition__content__more-link {
     margin-top: .2rem;
     margin-left: -2.7rem;
   }
+  .quire-page.full-width .quire-page__content .container .content li ul,
+  .quire-page.full-width .quire-page__content .container .content li ul li {
+    margin-left: 1.3rem;
+  }
+  .quire-page.full-width .quire-page__content .container .content li ul li::before {
+    content: '◇';
+  }
 }
 
 /* FIGURE GROUP
