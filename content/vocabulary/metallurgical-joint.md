@@ -43,6 +43,14 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 ### **French**: *{{ lang.fr }}*
 
+Joint métal-métal faisant intervenir du métal liquide (brasage ou soudage par fusion), par opposition à joint mécanique.
+
+{% backmatter %}
+
+Note: Ce terme a été introduit par les membres de CAST:ING – et reste débattu – pour permettre de décrire un assemblage quand bien même il n’est pas possible de distinguer une brasure d’un joint obtenu par soudage par fusion.
+
+{% endbackmatter %}
+
 ### **Italian**: *{{ lang.it }}*
 
 #### Sources
