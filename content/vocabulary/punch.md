@@ -24,11 +24,6 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 {% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
 
-## To Be Distinguished From
-
-- *chisel*
-- *cold chisel*
-
 ## Sources
 
 Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 1993" %}, 308; {% cite "Allen et al. 2022" %}, 302
@@ -36,6 +31,11 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 19
 Art and Craft Textbook: {% cite "Untracht 1982" %}, 122
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
+
+## To Be Distinguished From
+
+- *chisel*
+- *cold chisel*
 
 ## Translations
 

@@ -18,13 +18,13 @@ lang:
 
 {% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 
-## To Be Distinguished From
-
-- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast" %} in sections.)
-
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture and Martin 2001" %}, 222
+
+## To Be Distinguished From
+
+- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast" %} in sections.)
 
 ## Translations
 

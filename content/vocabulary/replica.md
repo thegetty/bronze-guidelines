@@ -24,17 +24,17 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 {% figuregroup "3", "fig-001, fig-554" %}
 
-## To Be Distinguished From
-
-- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast" %} by a licensed or sanctioned foundry.)
-- *{% def "variant" %}*
-- *version*
-
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}, 300
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
+
+## To Be Distinguished From
+
+- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast" %} by a licensed or sanctioned foundry.)
+- *{% def "variant" %}*
+- *version*
 
 ## Translations
 

@@ -17,15 +17,15 @@ lang:
 
 {% figuregroup "3", "fig-437, fig-438" %}
 
+## Sources
+
+Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
 ## To Be Distinguished From
 
 - *fluidity*
 - *fusibility*
 - *viscosity*
-
-## Sources
-
-Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ## Synonym
 

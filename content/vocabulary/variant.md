@@ -17,18 +17,18 @@ lang:
 
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
 
+## Sources
+
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}
+
+General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
+
 ## To Be Distinguished From
 
 - *{% def "after-cast" %}*
 - *aftercast*
 - *{% def "replica" %}*
 - *surmoulage*
-
-## Sources
-
-Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 ## Synonym
 

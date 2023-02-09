@@ -23,15 +23,6 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {% figuregroup "3", "fig-188, fig-206, fig-229" %}
 
-## To Be Distinguished From
-
-- *flow fusion welding*
-- *flow welding*
-- *fusion welding*
-- *repair*
-- *{% def "soldering" %}*
-- *welding*
-
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}, 23, 60; {% cite "Bolland 1894" %}, 72
@@ -41,6 +32,15 @@ Copper Industry: {% cite "Schwartz and Aircraft 1951" %}
 General Dictionary: <https://www.merriam-webster.com/dictionary/brazing>
 
 Other: {% cite "Scott 1991" %}, 138
+
+## To Be Distinguished From
+
+- *flow fusion welding*
+- *flow welding*
+- *fusion welding*
+- *repair*
+- *{% def "soldering" %}*
+- *welding*
 
 ## Translations
 

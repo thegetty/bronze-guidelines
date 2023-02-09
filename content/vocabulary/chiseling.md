@@ -23,15 +23,15 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 {% figuregroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
 
-## To Be Distinguished From
-
-- *chasing*
-
 ## Sources
 
 Cultural Heritage: {% cite "Frel 1982" %}, 13
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
+
+## To Be Distinguished From
+
+- *chasing*
 
 ## Translations
 

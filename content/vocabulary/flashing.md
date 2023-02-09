@@ -17,10 +17,6 @@ lang:
 
 {% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
 
-## To Be Distinguished From
-
-- *seam line* (Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.)
-
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 41
@@ -28,6 +24,10 @@ Cultural Heritage: {% cite "Beale 1975" %}, 41
 Copper Industry: {% cite "Ammen 1980" %}; {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Art and Craft Textbook: {% cite "McCreight 1996" %}
+
+## To Be Distinguished From
+
+- *seam line* (Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.)
 
 ## Synonyms
 

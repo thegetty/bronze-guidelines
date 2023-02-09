@@ -24,16 +24,16 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 {% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
-## To Be Distinguished From
-
-- *fire scale*
-- *fire-skin*
-
 ## Sources
 
 Cultural Heritage: {% cite "Kienlin, Bischoff, and Opielka 2006" %}
 
 Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016" %}
+
+## To Be Distinguished From
+
+- *fire scale*
+- *fire-skin*
 
 ## Translations
 

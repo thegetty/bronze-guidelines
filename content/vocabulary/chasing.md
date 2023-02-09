@@ -23,13 +23,6 @@ Note: In common art historical usage, the term “chasing,” when used for {% d
 
 {% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
-## To Be Distinguished From
-
-- *chiseling*
-- *engraving*
-- *fettling* (In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.)
-- *punching*
-
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}; {% cite "Penny 1993" %}, 298; {% cite "Dillon 2002" %}, 299; {% cite "Bassett 2008" %}, 274
@@ -37,6 +30,13 @@ Cultural Heritage: {% cite "Beale 1975" %}; {% cite "Penny 1993" %}, 298; {% cit
 Art and Craft Textbooks: {% cite "Rome and Young 2003" %}, 273; {% cite "Untracht 1982" %}, 122
 
 Other: {% cite "Van Langh 2012" %}
+
+## To Be Distinguished From
+
+- *chiseling*
+- *engraving*
+- *fettling* (In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.)
+- *punching*
 
 ## Translations
 

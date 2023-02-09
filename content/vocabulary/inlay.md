@@ -24,13 +24,6 @@ Note: The terms “inlay” and “{% def "overlay" %}” are often used indiscr
 
 {% figuregroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
 
-## To Be Distinguished From
-
-- *encrustation*
-- *foil*
-- *incrustation*
-- *overlay*
-
 ## Sources
 
 Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
@@ -38,6 +31,13 @@ Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
 Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
+
+## To Be Distinguished From
+
+- *encrustation*
+- *foil*
+- *incrustation*
+- *overlay*
 
 ## Synonyms
 

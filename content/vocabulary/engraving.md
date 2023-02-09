@@ -23,10 +23,6 @@ Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to 
 
 {% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 
-## To Be Distinguished From
-
-- *chasing*
-
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 43
@@ -36,6 +32,10 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karleb
 Art and Craft Textbook: {% cite "Untracht 1982" %}, 283
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
+
+## To Be Distinguished From
+
+- *chasing*
 
 ## Translations
 

@@ -24,17 +24,17 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 {% figuregroup "3", "fig-006, fig-026, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" %}
 
-## To Be Distinguished From
-
-- *finning*
-- *flashing*
-- *veining*
-
 ## Sources
 
 Cultural Heritage: {% cite "Lie and Bewer 2014" %}, 47
 
 Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %}, 410
+
+## To Be Distinguished From
+
+- *finning*
+- *flashing*
+- *veining*
 
 ## Translations
 

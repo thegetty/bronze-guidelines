@@ -24,10 +24,6 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 
 {% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
-## To Be Distinguished From
-
-- *patch*
-
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "Sturman 2004" %}
@@ -35,6 +31,10 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "S
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 311
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
+
+## To Be Distinguished From
+
+- *patch*
 
 ## Translations
 
