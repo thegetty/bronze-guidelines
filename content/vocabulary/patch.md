@@ -16,7 +16,7 @@ lang:
 
 {{ definition | hasShortcodes }}
 
-{% figuregroup "3", "fig-035, fig-065, fig-125, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198" %}
+{% figuregroup "3", "fig-035, fig-065, fig-125, fig-152, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198, fig-367" %}
 
 ## Sources
 

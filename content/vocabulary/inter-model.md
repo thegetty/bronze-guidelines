@@ -22,7 +22,7 @@ Note: The term is subject to dispute among CAST:ING members. Depending on discip
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-016, fig-041, fig-055, fig-072, fig-556" %}
+{% figuregroup "3", "fig-001, fig-016, fig-023, fig-025, fig-041, fig-055, fig-072, fig-556" %}
 
 ## Sources
 

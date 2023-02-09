@@ -22,7 +22,7 @@ Note: Casts from any given edition will be essentially identical in form and siz
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-261, fig-551" %}
+{% figuregroup "3", "fig-261, fig-551" %}
 
 ## Sources
 
