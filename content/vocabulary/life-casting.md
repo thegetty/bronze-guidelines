@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a {% def "cast" %} characterized by its high realism and fine detail. Life-casts are made by encasing the form in a {% def "refractory mold" %} and burning out the form, and are therefore generally solid, though there are some exceptions.'
+definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a {% def "cast (n.)" "cast" %} characterized by its high realism and fine detail. Life-casts are made by encasing the form in a {% def "refractory mold" %} and burning out the form, and are therefore generally solid, though there are some exceptions.'
 lang:
   de: Naturabguss
   fr: fonte sur le vif

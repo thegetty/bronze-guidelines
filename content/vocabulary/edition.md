@@ -79,7 +79,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 #### Alternate Translations
 
-- *multiplo* (In the arts, specifies that the {% def "cast" %} is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+- *multiplo* (In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
 
 - *serie* (Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning)
 

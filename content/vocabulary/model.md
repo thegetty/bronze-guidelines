@@ -1,5 +1,6 @@
 ---
 title: model
+aliases: [models]
 order: 585
 layout: page
 tags: vocabulary
@@ -17,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a {% def "cast" %} may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the {% def "investment" %} to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
+Note: When used in reference to general sculptural practice, the term may refer to a rough sketch made in order to work out the composition (*bozzetto*, *modello*, *esquisse*, or *maquette*) or to a more complete model (“presentation model”), sometimes used to obtain approval from a patron or as a record or reference. Because a {% def "cast (n.)" "cast" %} may be the outcome of numerous steps of models and molds, it may be best to refer to the closest model of a cast as “precursor model” (e.g., the wax model melted out of the {% def "investment" %} to create a particular lost-wax cast) since it can be difficult to identify the relationship of a bronze cast to the earliest model in its genealogy. “Precursor model” is a term newly proposed here.
 
 {% endbackmatter %}
 
@@ -45,7 +46,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moules" %}) successifs (modèle original, réplique, épreuve en cire, etc.).
+Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, réplique, épreuve en cire, etc.).
 
 {% backmatter %}
 

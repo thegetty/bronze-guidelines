@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast" %} parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary {% def "cast" %}. For the purpose of visual identification or sculpture, while metal can be considered solder (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
+definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary {% def "cast (n.)" "cast" %}. For the purpose of visual identification or sculpture, while metal can be considered solder (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
 lang:
   de: Löten
   fr: brasage

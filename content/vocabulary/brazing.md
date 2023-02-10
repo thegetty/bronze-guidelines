@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast" %} parts or repairs or filling {% def "casting defects" %} by localized addition of a molten copper alloy of slightly lower melting temperature than that of the {% def "cast" %}. Unlike in {% def "welding" %}, the contact zones of the sections to be joined are not brought to a molten stage.'
+definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts or repairs or filling {% def "casting defects" %} by localized addition of a molten copper alloy of slightly lower melting temperature than that of the {% def "cast (n.)" "cast" %}. Unlike in {% def "welding" %}, the contact zones of the sections to be joined are not brought to a molten stage.'
 lang:
   de: Hartlöten
   fr: brasage

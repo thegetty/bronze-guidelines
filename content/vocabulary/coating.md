@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Not to be confused with {% def "corrosion" %} products or mineral compounds bonded to the metal surface, which fall under {% def "patines" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
+Note: Not to be confused with {% def "corrosion" %} products or mineral compounds bonded to the metal surface, which fall under {% def "patine" "patines" %}. Though metals are also used to coat surfaces, they are referred to here as {% def "metal plating" "plating" %}.
 
 {% endbackmatter %}
 
@@ -48,7 +48,7 @@ Couche volontairement appliquée en surface d’un bronze pour le protéger ou l
 
 {% backmatter %}
 
-Note: Ne pas confondre avec les {% def "patines" %} chimiques, qui contrairement aux revêtements, réagissent avec le substrat en bronze pour former la couche de surface. Par ailleurs, on préférera désigner les revêtements métalliques par un terme spécifique, en l’occurrence placage métallique.
+Note: Ne pas confondre avec les {% def "patine" "patines" %} chimiques, qui contrairement aux revêtements, réagissent avec le substrat en bronze pour former la couche de surface. Par ailleurs, on préférera désigner les revêtements métalliques par un terme spécifique, en l’occurrence placage métallique.
 
 {% endbackmatter %}
 

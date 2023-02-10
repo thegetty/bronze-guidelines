@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "cast bronze" %}.'
+definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "cast (n.)" "cast bronze" %}.'
 lang:
   de: Formmantel
   fr: moule de potée
@@ -75,7 +75,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 - *camicia* (Literally “shirt”) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
 
-- *cappa* (Layer of the {% def "investment mold" %})
+- *cappa* (Layer of the {% def "investment" "investment mold" %})
 
 - *chappa* (Early Tuscan spelling of *cappa*) | Source: {% cite "Leonardo 1490" %}, fol. 156v
 

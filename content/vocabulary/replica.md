@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Here used to describe the precise reproduction of a {% def "bronze" %} made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a {% def "model" %} made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the {% def "core" %} in {% def "sand casting" %} or {% def "piece-mold casting" %}). In {% def "lost-wax casting" %}, bronzes fashioned from {% def "inter-models" %} made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same {% def "chef-modèle" %}. Numerous replicas of the same bronze are called “multiples.”'
+definition: 'Here used to describe the precise reproduction of a {% def "bronze" %} made by the same artist or foundry as the original bronze. Also refers to same-scale reproductions of a {% def "model" %} made at different stages in the casting process (e.g., a wax replica, and a refractory replica used to make the {% def "core" %} in {% def "sand casting" %} or {% def "piece-mold" %}) casting. In {% def "lost-wax casting" %}, bronzes fashioned from {% def "inter-models" %} made from the same piece molds taken from the master model are considered replicas of the original. In sand casting, it refers to bronzes made using the same {% def "chef-modèle" %}. Numerous replicas of the same bronze are called “multiples.”'
 lang:
   de: Replik
   fr: épreuve d’édition
@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Slight differences are inevitable between replicas due to deterioration of the {% def "mold" %} or variations in the finishing of the wax or {% def "chasing" %} of the bronze. With regard to modern bronze production, a {% def "replica" %} may refer specifically to a {% def "cast" %} made by someone other than the artist, but who is under license to make the cast. An “artist’s replica” is a cast made by the artist or someone sanctioned by the artist. An “authenticated replica” is certified as having been made by the artist or someone sanctioned by the artist (see [Tate Papers No. 8](https://www.tate.org.uk/research/publications/tate-papers/08/terminology-for-further-expansion)).
+Note: Slight differences are inevitable between replicas due to deterioration of the {% def "mold" %} or variations in the finishing of the wax or {% def "chasing" %} of the bronze. With regard to modern bronze production, a {% def "replica" %} may refer specifically to a {% def "cast (n.)" "cast" %} made by someone other than the artist, but who is under license to make the cast. An “artist’s replica” is a cast made by the artist or someone sanctioned by the artist. An “authenticated replica” is certified as having been made by the artist or someone sanctioned by the artist (see [Tate Papers No. 8](https://www.tate.org.uk/research/publications/tate-papers/08/terminology-for-further-expansion)).
 
 {% endbackmatter %}
 
@@ -32,7 +32,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 ## To Be Distinguished From
 
-- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast" %} by a licensed or sanctioned foundry.)
+- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast (v.)" "cast" %} by a licensed or sanctioned foundry.)
 - *{% def "variant" %}*
 - *version*
 

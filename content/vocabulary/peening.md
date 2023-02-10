@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The act of embellishing/texturing the metal surface by repeatedly using a {% def "peen" %} (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
+definition: 'The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
 lang:
   de: Hämmern
   fr: matage au marteau

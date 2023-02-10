@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (v.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
 lang:
   de: ziselieren
   fr: ciselure
@@ -17,7 +17,7 @@ lang:
 
 {% backmatter %}
 
-Note: In common art historical usage, the term “chasing,” when used for {% def "bronze" %} sculpture, refers specifically to all of the steps taken to embellish the surface of the {% def "cast" %} after fettling. Modern {% def "founders" %} include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using {% def "punches" %}), as opposed to {% def "engraving" %}.
+Note: In common art historical usage, the term “chasing,” when used for {% def "bronze" %} sculpture, refers specifically to all of the steps taken to embellish the surface of the {% def "cast (n.)" "cast" %} after fettling. Modern {% def "founders" %} include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using {% def "punches" %}), as opposed to {% def "engraving" %}.
 
 {% endbackmatter %}
 
