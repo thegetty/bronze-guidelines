@@ -49,7 +49,7 @@ Other: {% cite "Scott 1991" %}, 138
 ### **German**: *{{ lang.de }}*
 
 #### Source
-{% cite "Fachkunde Metall: Bovenkerk et al. 1987" %}, 366
+Fachkunde Metall: {% cite "Bovenkerk et al. 1987" %}, 366
 
 ### **French**: *{{ lang.fr }}*
 
