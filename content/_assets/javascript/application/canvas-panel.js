@@ -1,5 +1,6 @@
 import poll from './poll'
 import scrollToHash from './scroll-to-hash'
+import { intersectionObserverFactory } from './intersection-observer-factory'
 
 /**
  * Get annotation data from annotaitons UI input element
@@ -155,7 +156,7 @@ const selectAnnotation = (canvasPanel, annotation) => {
     case 'choice':
       /**
        * `canvasPanel.makeChoice` is defined asynchronously on the web component,
-       * and while the event model emits a 'choice' event when a choice is selected, it is noisy, 
+       * and while the event model emits a 'choice' event when a choice is selected, it is noisy,
        * and since there is no 'done' event to indicate when this method is available,
        * we will use polling
        */
@@ -198,15 +199,22 @@ const setUpUIEventHandlers = () => {
      * Annoref shortcode resets the region if none is provided
      */
     const region = annoRef.getAttribute('data-region')
-    annoRef.addEventListener('click', ({ target }) =>
-      goToFigureState({ annotationIds, figureId, region })
-    )
+
+    const onscroll = annoRef.getAttribute('data-on-scroll')
+    if (onscroll === 'true') {
+      const callback = () => goToFigureState({ annotationIds, figureId, region })
+      intersectionObserverFactory(annoRef, callback)
+    } else {
+      annoRef.addEventListener('click', ({ target }) =>
+        goToFigureState({ annotationIds, figureId, region })
+      )
+    }
   }
 
   /**
    * Add click handlers to UI inputs
    */
-  const inputs = document.querySelectorAll('.annotations-ui__input')  
+  const inputs = document.querySelectorAll('.annotations-ui__input')
   for (const input of inputs) {
     handleSelect(input)
     input.addEventListener('click', ({ target }) => handleSelect(target))
@@ -215,7 +223,7 @@ const setUpUIEventHandlers = () => {
 
 /**
  * Update canvas panel or image-service properties
- * 
+ *
  * @param  {String} id Canvas ID or path to image-service info.json
  * @param  {Object} data
  * @property {String} region comma-separated, @example "x,y,width,height"
