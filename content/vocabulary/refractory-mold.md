@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the {% def "model" %} to be reproduced and forms the void into which the molten metal will be {% def "cast" %}. Investment, green sand, and ceramic shell are examples of refractory molds.'
+definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the {% def "model" %} to be reproduced and forms the void into which the molten metal will be {% def "cast (v.)" "cast" %}. Investment, green sand, and ceramic shell are examples of refractory molds.'
 lang:
   de: Form
   fr: moule réfractaire

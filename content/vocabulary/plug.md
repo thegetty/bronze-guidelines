@@ -54,7 +54,7 @@ Used primarily in speech
 
 ### **French**: *{{ lang.fr }}*
 
-Type de réparation comblant un trou traversant comme ceux laissés par les {% def "fers à noyaux" %}. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
+Type de réparation comblant un trou traversant comme ceux laissés par les {% def "noyau" "fers à noyaux" %}. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
 
 {% backmatter %}
 

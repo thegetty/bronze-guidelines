@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// removed title truncation in navbar, line 41
+//
 const truncate = require('~lib/truncate')
 const { html } = require('~lib/common-tags')
 
@@ -29,12 +33,12 @@ module.exports = function(eleventyConfig) {
     } = pagination
 
     if (!currentPage) return
-    
+
     const home = '/'
     const isHomePage = currentPage.url === home
 
     const navBarLabel = ({ label, short_title, title }) => {
-      return pageTitle({ label, title: short_title || truncate(title, 34)})
+      return pageTitle({ label, title: short_title || title })
     }
 
     const navBarStartButton = () => {

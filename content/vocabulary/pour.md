@@ -1,5 +1,6 @@
 ---
 title: pour
+aliases: [pouring]
 order: 635
 layout: page
 tags: vocabulary
@@ -67,7 +68,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translations
 
-- *getto* (Also refers to the {% def "cast" %}); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+- *getto* (Also refers to the {% def "cast (n.)" "cast" %}); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
 
 - *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 

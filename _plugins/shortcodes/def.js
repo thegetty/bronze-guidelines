@@ -20,8 +20,11 @@ module.exports = function (eleventyConfig, { collections, page }) {
     const vocabPage = collections.vocabulary
       .find( entry => entry.data.title
         .toLowerCase()
+        .concat(',')
         .concat(entry.data.aliases)
+        .concat(',')
         .concat(entry.data.lang.fr)
+        .split(',')
         .includes(term.toLowerCase())
       )
 

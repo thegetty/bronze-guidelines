@@ -18,7 +18,7 @@ lang:
 
 {% backmatter %}
 
-Note: Molds of varying types may be used at different stages of the {% def "bronze" %} casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to {% def "cast" %} a bronze). See [I.1](/vol-1/1/).
+Note: Molds of varying types may be used at different stages of the {% def "bronze" %} casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to {% def "cast (n.)" "cast" %} a bronze). See [I.1](/vol-1/1/).
 
 {% endbackmatter %}
 

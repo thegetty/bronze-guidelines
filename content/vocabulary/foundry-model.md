@@ -39,7 +39,7 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 
 ### **French**: *{{ lang.fr }}*
 
-Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
+Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "fonte à la cire perdue" "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
 
 {% backmatter %}
 

@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair consisting of a localized {% def "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
+definition: 'A type of repair consisting of a localized {% def "cast (v.)" "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
 lang:
   de: Überfangguss
   fr: réparation par coulée secondaire
@@ -24,7 +24,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 
 ## To Be Distinguished From
 
-- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast" %} in sections.)
+- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast (v.)" "cast" %} in sections.)
 
 ## Translations
 

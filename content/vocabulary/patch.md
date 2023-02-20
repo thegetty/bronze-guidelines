@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair most often mechanically set into the {% def "bronze" %} surface, but which may also be soldered, welded, or {% def "cast" %} into place (see [I.4](/vol-1/4/)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
+definition: 'A type of repair most often mechanically set into the {% def "bronze" %} surface, but which may also be soldered, welded, or {% def "cast (v.)" "cast" %} into place (see [I.4](/vol-1/4/)). Patches are most often made of cut-out pieces of copper alloy that are the same as that of the cast metal, but they may be of a different alloy or metal (e.g., lead).'
 lang:
   de: Flicken
   fr: plaquette de réparation

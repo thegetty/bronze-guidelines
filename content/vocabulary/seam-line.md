@@ -48,7 +48,7 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 
 ### **French**: *{{ lang.fr }}*
 
-Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
+Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moule" "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
 
 #### Sources
 

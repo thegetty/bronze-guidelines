@@ -157,7 +157,7 @@ Damage and disfigurement may be due to any number of reasons, including:
 
 -   iconoclasm and other crude dismemberment (for instance reuse or resale of metal, see [I.6§1.4](/vol-1/6/#S1.4));
 
--   expansion of core due to rusting {% def "iron armature" %} (see [I.3§1.2.4](/vol-1/3/#S1.2.4));
+-   expansion of core due to rusting iron {% def "armature" %} (see [I.3§1.2.4](/vol-1/3/#S1.2.4));
 
 -   graffiti;
 
@@ -328,7 +328,7 @@ Most of these casting processes are explained in greater detail below. The terms
 
 Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^40] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed ({% ref 'table-03' %}).[^41]
 
-The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "spruing" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
+The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "sprueing" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
 
 Other combustible materials, such as plant and animal materials, including latex, can also be used. Small objects can be made from solid wax models; larger ones are generally formed hollow by building up the wax model over a refractory clay core. This layer of wax is built up in any number of ways: by laying sheets of wax over it, by modeling, or by dipping the core into molten wax.
 
@@ -661,7 +661,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
-[^7]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission. More recently, {% cite "Avery 2011" %} reconstructed the complex network of Renaissance Venetian founders and their work.  
+[^7]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission. More recently, {% cite "Avery 2011" %} reconstructed the complex network of Renaissance Venetian founders and their work.
 
 [^8]: For example {% cite "Theophilus [ca. 1122] 1979" %}; {% cite "Agricola [1556] 1950" %}; {% cite "Biringuccio [1540] 1990" %}.
 

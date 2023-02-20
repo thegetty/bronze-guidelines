@@ -70,6 +70,9 @@ Added Poster image to Vimeo output so that could show poster on page, and iframe
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
+**_includes/components/navigation.js**
+removed title truncation in navbar
+
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
 
