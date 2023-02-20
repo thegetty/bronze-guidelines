@@ -2,6 +2,8 @@
 ## CUSTOMIZED FILE -- Bronze Guidelines
 ## copy of entry.liquid but used standard pageHeader,
 ## and removes page bibliography, abstract & tombstone
+## also adds an onscroll annoref link to the header to reset the view
+## when scrolling back up
 ##
 class: quire-entry
 layout: base.11ty.js
@@ -49,6 +51,11 @@ Entry content, including entry image and tombstone data
   </div>
 
   <div class="quire-entry__content">
+
+    {% if cover_image_id %}
+      <span class="annoref" data-annotation-ids="" data-figure-id="{{ cover_image_id }}" data-on-scroll="true" data-region=""></span>
+    {% endif %}
+
     {% pageHeader
       contributor_byline=contributor_byline,
       image=image,
