@@ -14,6 +14,12 @@ figure_list:
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
 
+  - id: "figs-440-455-group"
+    src: "figures/case-studies/figs-440-455-group.jpg"
+    zoom: true
+    label: "Figures 440–46 and 449–55"
+    caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
+
   - id: "fig-001"
     src: "figures/iiif/001.png"
     # media_type: iiif
@@ -3464,8 +3470,8 @@ figure_list:
     caption: "Front view of a fragment of the lower tail. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/#fig-367){target=_blank}."
 
   - id: "fig-447"
-    src: "figures/447.jpg"
-    media_type:
+    src: "figures/iiif/447.jpg"
+    # media_type: iiif
     label: "Figure 447"
     caption: "The Museum of Vienne’s former presentation of the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). From %%Boucher 1964%%."
 
@@ -4415,7 +4421,7 @@ figure_list:
   - id: "vid-12"
     poster: "figures/video-12.jpg"
     media_type: vimeo
-    media_id: ""
+    media_id: 800608712/1cd80c51ad
     label: "Video 12"
     caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See %%Azéma et al. 2013%%."
 

@@ -4,6 +4,7 @@ object_list:
   - id: case-study-1
     figure:
       - id: "fig-440-cover"
+      - id: "figs-440-455-group"
       - id: "fig-448"
       - id: "fig-456"
       - id: "fig-457"
