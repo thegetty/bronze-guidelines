@@ -4378,8 +4378,8 @@ figure_list:
 
   - id: "vid-06"
     poster: "figures/video-06.jpg"
-    media_type: vimeo
-    media_id: ""
+    media_type: youtube
+    media_id: "JiofOv18o2M"
     label: "Video 6"
     caption: "Adriaen de Vries’s (Netherlandish, 1556–1626) bronze casting technique: the direct lost-wax method. All parts of the process are described, from the setup of armatures to finishing."
 
@@ -4456,7 +4456,7 @@ figure_list:
   - id: "vid-17"
     poster: "figures/video-17.jpg"
     media_type: vimeo
-    media_id: ""
+    media_id: "801440105/7e9e74d298"
     label: "Video 17"
     caption: "TV documentary (dir. Laurène L’Allinec for French National Television FR3, 1992, 20 min.) showing how the sixth edition of Auguste Rodin’s (French, 1840–1917) *Doors of Hell* was cast at Fonderie de Coubertin in 1989–92, as requested by Musée Rodin for the Shizuoka Prefectural Museum of Art, Japan."
 
