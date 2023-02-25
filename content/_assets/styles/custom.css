@@ -1423,7 +1423,7 @@ table .poor { background-color: #F2F9F1; }
   .quire-contents-list .page-item a::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page);
   }
-  .quire-contents-list .page-item a.frontmatter-page::after {
+  .quire-contents-list .page-item.frontmatter-page a::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
   }
   /* Style half title and title pages */

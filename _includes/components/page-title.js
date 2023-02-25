@@ -27,8 +27,7 @@ module.exports = function(eleventyConfig) {
     let pageTitle = subtitle ? `<span class="quire-page-title">${[title, subtitle].join(separator)}</span>` : `<span class="quire-page-title">${title}</span>`
 
     if (label) {
-      pageTitle = `
-      <span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span><span class="quire-page-title">${pageTitle}</span>`
+      pageTitle = `<span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span><span class="quire-page-title">${pageTitle}</span>`
     }
 
     return markdownify(pageTitle)
