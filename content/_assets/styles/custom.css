@@ -1213,6 +1213,8 @@ table .poor { background-color: #F2F9F1; }
 #about .quire-page__content .project-team ul,
 #copyright .quire-page__content .project-team ul {
   margin-left: 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
 }
 #about .quire-page__content .project-team ul li,
 #copyright .quire-page__content .project-team ul li {
