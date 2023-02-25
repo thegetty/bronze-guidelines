@@ -49,7 +49,7 @@ Note: La potée désigne le mélange argileux servant -à l’origine- à fabriq
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 Historical: {% cite "Boffrand 1743" %}, 44–46; {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze terme de fonderie »; {% cite "Mariette 1768" %}, 79–84
 

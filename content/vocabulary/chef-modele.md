@@ -40,7 +40,7 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 #### Source
 
-Fachkunde Metall: {% cite "Bivenkerk et al. 1987" %}, 216
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
 ### **French**: *{{ lang.fr }}*
 
@@ -65,7 +65,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
 #### Alternate Translations
 
-- *cuivre* | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
+- *cuivre* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
 
 - *maître-modèle* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
@@ -73,7 +73,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
 - *modèle mère* | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 615
 
-- *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624
+- *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -50,7 +50,7 @@ Déclinaison d’un {% def "modèle" %} avec des variations dans la forme ou dan
 
 #### Source
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 549
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 549
 
 #### Alternate Translations
 

@@ -78,7 +78,7 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Koch and Newell 1963" %}
 

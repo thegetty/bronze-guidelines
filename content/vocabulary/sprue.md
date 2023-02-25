@@ -56,13 +56,13 @@ Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par 
 
 {% backmatter %}
 
-Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la coulée, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent une nom spécifique, *évents* ({% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; {% cite "Launay 1827" %}, 2:264; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 627; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Rolley 1994" %}, 66; {% cite "Rama 1988" %}, 254, 373; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
+Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la coulée, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent une nom spécifique, *évents* ({% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; {% cite "Launay 1827" %}, 2:264; {% cite "Baudry and Bozo 1978" %}, 627; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Rolley 1994" %}, 66; {% cite "Rama 1988" %}, 254, 373; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry and Bozo 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
 
 {% endbackmatter %}
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 626; {% cite "Saussus and Thomas 2019" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 626; {% cite "Saussus and Thomas 2019" %}
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
@@ -74,7 +74,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *jets* (Certains auteurs distinguent les jets des attaques, ces dernières désignant exclusivement les conduits reliant les jets à l’épreuve en cire ({% cite "Rama 1988" %}, 254; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Il existe tout un répertoire de termes liés : attaques de coulée ({% cite "Cuénin 1997a" %}, 2), système d’attaque ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}).) | Sources: Copper Industry: {% cite "Cuénin 1997b" %}, 2; Historical: {% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; Art and Craft Textbooks: % cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75;{% cite "Rama 1988" %}, 253; {% cite "Lambert 2002" %}, 271
 
-- *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 628; Art and Craft Textbook: {% cite "Rama 1988" %}, 253
+- *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 628; Art and Craft Textbook: {% cite "Rama 1988" %}, 253
 
 ### **Italian**: *{{ lang.it }}*
 

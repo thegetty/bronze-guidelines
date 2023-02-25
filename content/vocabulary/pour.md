@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 ## Source
 
-Fachkunde Metall: {% cite "Bovenkerke et al. 1987" %}, 221
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 221
 
 ### **French**: *{{ lang.fr }}*
 

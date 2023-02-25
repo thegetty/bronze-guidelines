@@ -70,7 +70,7 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 633
 
 Historical: {% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 3:480, entry « ciseler »
 

@@ -43,7 +43,7 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 ## Source
 
-Fachkunde mitall: Bovenkerk et al. 1987, 219
+Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Translation
 
@@ -69,7 +69,7 @@ Fachkunde mitall: Bovenkerk et al. 1987, 219
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 645; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 645; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

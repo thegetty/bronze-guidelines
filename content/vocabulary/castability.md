@@ -65,7 +65,7 @@ Aptitude d’un métal à remplir un moule réfractaire dans tous ses détails, 
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 632; {% cite "Mille 2017" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; {% cite "Mille 2017" %}
 
 Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Koch and Newell 1963" %}
 

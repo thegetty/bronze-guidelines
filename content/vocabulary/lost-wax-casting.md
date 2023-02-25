@@ -61,7 +61,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translations
 
-- *fonte à cire perdue* | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624; {% cite "Arminjon and Bilimoff 1998" %}, 78–80
+- *fonte à cire perdue* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Arminjon and Bilimoff 1998" %}, 78–80
 
 - *moulage à la cire perdue* | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}, 437; {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 99–100; {% cite "Rama 1988" %}, 203
 

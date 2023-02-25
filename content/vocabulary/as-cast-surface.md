@@ -65,7 +65,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 #### Alternate Translations
 
-- *surface brute de fonderie* | Source: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 632, on parle d’un état « brut de fonderie »
+- *surface brute de fonderie* | Source: {% cite "Baudry and Bozo 1978" %}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
 

@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/core>
 
 ## Source
 
-{% cite "Brunhuber 1980" %}
+{% cite "Brunhuber 1986" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -46,7 +46,7 @@ Partie interne du {% def "moule réfractaire" %} déterminant le volume interne 
 
 #### Sources
 
-Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
+Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry and Bozo 1978" %}, 625; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
 
 Copper Industry: {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 

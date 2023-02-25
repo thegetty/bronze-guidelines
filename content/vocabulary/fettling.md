@@ -53,7 +53,7 @@ Ensemble des opérations visant à nettoyer un bronze au sortir du moule réfrac
 
 {% backmatter %}
 
-Note: Suivant les périodes et l’organisation de l’atelier la réparure peut être subdivisée en plusieurs opérations distinctes et conduire, de fait, à des termes plus spécialisés. Au 19e siècle, par exemple, la réparure consiste, dans l’ordre, en l’ ébarbage, le rachevage, la réparure proprement dite, et la ciselure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633; {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Grandpierre and Avale 1867" %}, 8n1).
+Note: Suivant les périodes et l’organisation de l’atelier la réparure peut être subdivisée en plusieurs opérations distinctes et conduire, de fait, à des termes plus spécialisés. Au 19e siècle, par exemple, la réparure consiste, dans l’ordre, en l’ ébarbage, le rachevage, la réparure proprement dite, et la ciselure ({% cite "Baudry and Bozo 1978" %}, 633; {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Grandpierre and Avale 1867" %}, 8n1).
 
 {% endbackmatter %}
 
@@ -64,7 +64,7 @@ Note: Suivant les périodes et l’organisation de l’atelier la réparure peut
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Historical: {% cite "Boffrand 1743" %}, 58; {% cite "Gonon 1876" %}, 13, 39; {% cite "Grandpierre and Dargent 1862" %}; {% cite "Grandpierre and Avale 1867" %}; {% cite "Mariette 1768" %}, 127
 
@@ -76,7 +76,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 - *ébavurage* (Traduction française de « fettling » d’après la source citée ici) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *réparage* | Sources: Historical: {% cite "Mariette 1768" %}, 127; Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 762
+- *réparage* | Sources: Historical: {% cite "Mariette 1768" %}, 127; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 762
 
 - *reparure* (variante orthographique) (Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.) | Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 

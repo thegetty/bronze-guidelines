@@ -58,7 +58,7 @@ Note: On parle aussi de « système d’armatures » pour décrire l’ensembl
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 626; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 626; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Historical: {% cite "Gonon 1876" %}, 38; {% cite "Guettier 1858" %}, 300; {% cite "Delon 1877" %}, 144; {% cite "Boffrand 1743" %}, 24–25; {% cite "Mariette 1768" %}, 39–48
 

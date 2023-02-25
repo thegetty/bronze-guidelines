@@ -65,7 +65,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translations
 
-- *{% def "moule" %}* (terme ambigu, à éviter.) | Sources: Cultural Heritage Publications: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
+- *{% def "moule" %}* (terme ambigu, à éviter.) | Sources: Cultural Heritage Publications: {% cite "Baudry and Bozo 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 
 - *moule de fonderie* (terme utilisé notamment en archéologie.) | Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
 

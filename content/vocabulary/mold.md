@@ -64,7 +64,7 @@ Note: Dans l’industrie moderne, le moule désigne généralement le {% def "mo
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 562
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 562
 
 Copper Industry: {% cite "Cuénin 1994" %}, 5
 
@@ -74,7 +74,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Alternate Translation
 
-- *creux* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759
+- *creux* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
 
 ### **Italian**: *{{ lang.it }}*
 

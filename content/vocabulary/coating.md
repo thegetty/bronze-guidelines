@@ -54,7 +54,7 @@ Note: Ne pas confondre avec les {% def "patine" "patines" %} chimiques, qui cont
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 656; {% cite "Aucouturier et al. 2003" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 656; {% cite "Aucouturier et al. 2003" %}
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
 

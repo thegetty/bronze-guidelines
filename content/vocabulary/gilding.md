@@ -43,7 +43,7 @@ Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {% ci
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 657; {% cite "Azéma and Mille 2013b" %}; {% cite "Aucouturier et al. 2003" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Azéma and Mille 2013b" %}; {% cite "Aucouturier et al. 2003" %}
 
 Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 

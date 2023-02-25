@@ -62,7 +62,7 @@ Note: Pour la sculpture en bronze, un moule à pièces peut aussi bien désigner
 
 #### Source
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 563
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
 ### **Italian**: *{{ lang.it }}*
 

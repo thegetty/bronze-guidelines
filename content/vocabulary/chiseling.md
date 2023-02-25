@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 ### **French**: *{{ lang.fr }}*
 
-Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633) et la ciselure. Il n’existe a *priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
+Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la ciselure. Il n’existe a *priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
 
 #### To Be Distinguished From
 

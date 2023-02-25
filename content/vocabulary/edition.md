@@ -61,13 +61,13 @@ Désigne les épreuves issues d'un même modèle original multiplié dans des ma
 
 {% backmatter %}
 
-Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques: bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545), etc.
+Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du propriétaire des droits de reproduction et, depuis 1967, il est en France strictement limité par la loi pour que les épreuves puissent être qualifiées d' « originales ». Le terme se décline en de nombreuses variantes plus ou moins spécifiques: bronze d’édition (œuvres de très grande diffusion, sans numérotation, {% cite "Rama 1988" %}, 372), épreuves d’édition, exemplaires d’édition ({% cite "Baudry and Bozo 1978" %}, 545), etc.
 
 {% endbackmatter %}
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Lebon et al. 2016" %}, 330
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Lebon et al. 2016" %}, 330
 
 Art and Craft Textbook: {% cite "Rama 1988" %}
 

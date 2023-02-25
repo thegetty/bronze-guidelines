@@ -50,13 +50,13 @@ Terme générique désignant ici toute réalisation intervenant dans la fabricat
 
 {% backmatter %}
 
-Note: Le sens donné à modèle est ici plus large que l’« œuvre destinée à être reproduite » ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624), et différent du modèle au sens de l’histoire de l’art qui peut revêtir une grande variété de formes (dessin, esquisse, maquette, etc.).
+Note: Le sens donné à modèle est ici plus large que l’« œuvre destinée à être reproduite » ({% cite "Baudry and Bozo 1978" %}, 624), et différent du modèle au sens de l’histoire de l’art qui peut revêtir une grande variété de formes (dessin, esquisse, maquette, etc.).
 
 {% endbackmatter %}
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 242–47; {% cite "Lebon 2012" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 242–47; {% cite "Lebon 2012" %}
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

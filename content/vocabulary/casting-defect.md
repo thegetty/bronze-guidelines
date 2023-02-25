@@ -52,7 +52,7 @@ Note: Ne pas confondre les défauts de fonderie avec toutes les imperfections qu
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 645; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 645; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin 1997a" %}, 6
 

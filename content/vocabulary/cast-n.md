@@ -41,7 +41,7 @@ Statue ou plus généralement objet métallique obtenu par fonderie. Attention �
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %}, 7:106, entry « fonte »; {% cite "Mariette 1768" %}
 

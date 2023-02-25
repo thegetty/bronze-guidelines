@@ -53,7 +53,7 @@ Note: Il est fréquent de caractériser la qualité d’une fonte par son degré
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 646; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 646; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

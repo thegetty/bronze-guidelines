@@ -68,7 +68,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *broche* (Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression [{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}].) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
-- *clou* | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 626; Art and Craft Textbooks: {% cite "Rama 1988" %}, 257; {% cite "Lambert 2002" %}, 181
+- *clou* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 626; Art and Craft Textbooks: {% cite "Rama 1988" %}, 257; {% cite "Lambert 2002" %}, 181
 
 - *clou distanciateur* | Source: Cultural Heritage: {% cite "Mille 2007" %}, 97
 
