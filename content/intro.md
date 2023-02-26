@@ -74,7 +74,7 @@ The kinds of questions that bronze sculptures may raise are many. For instance:
 
 -   Is the {% def "cast (n.)" "cast" %} a one-off? If it is one of multiple iterations of the same form, how does this cast relate to other versions? How best to achieve useful comparisons, especially if the sculptures cannot be brought together for study?
 
--   Can one discern patterns in the way certain artists or workshops worked? Can one use such information to discern developments in the artist’s or workshop’s oeuvre and date works, determine workshop organization, or ascertain transfer of technical know-how within or between workshops or different centers of production?
+-   Can one discern patterns in the way certain artists or workshops worked? Can one use such information to discern developments in the artist’s or workshop’s œuvre and date works, determine workshop organization, or ascertain transfer of technical know-how within or between workshops or different centers of production?
 
 -   Is it possible to tell when a particular cast was produced, given that certain models and molds can be used by others than those who originally crafted them, even well after that person’s lifetime?
 
@@ -657,7 +657,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^4]: {% cite "Rehren 2014" %}.
 
-[^5]: {% cite "Dehejia 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
+[^5]: {% cite "Dehejia, Davis, Nākacāmi, and Pechilis 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
 
 [^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
