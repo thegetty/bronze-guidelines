@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// called label through pageTitle() rather than constucting it separately
+//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -31,10 +35,6 @@ module.exports = function(eleventyConfig) {
       classes.push('is-screen-only')
     }
 
-    const pageLabel = label
-      ? `<span class="label">${label}<span class="visually-hidden">${labelDivider}</span></span>`
-      : ''
-
     const imageElement = image
       ? html`
           <section
@@ -57,8 +57,7 @@ module.exports = function(eleventyConfig) {
       <section class="${classes}">
         <div class="hero-body">
           <h1 class="quire-page__header__title" id="${slugify(title)}">
-            ${pageLabel}
-            ${pageTitle({ title, subtitle })}
+            ${pageTitle({ label, title, subtitle })}
           </h1>
           ${contributorsElement}
         </div>

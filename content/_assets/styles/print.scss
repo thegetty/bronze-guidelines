@@ -57,12 +57,13 @@ $print-trim: $print-bleed * 2;
     @bottom-right {
       content: string(sectiontitle);
       text-transform: uppercase;
-      letter-spacing: 1pt;
+      letter-spacing: .5pt;
       font-size: 7.5pt;
     }
 
     @bottom-left {
       content: counter(page);
+      letter-spacing: .5pt;
     }
   }
 
@@ -83,6 +84,7 @@ $print-trim: $print-bleed * 2;
     @bottom-right {
       text-align: right;
       content: counter(page);
+      letter-spacing: .5pt;
     }
   }
 
@@ -198,13 +200,19 @@ $print-trim: $print-bleed * 2;
 
 // Generated content for footers and page #s in TOC
 // -----------------------------------------------------------------------------
-  .quire-page {
-    string-set: pagetitle attr(data-footer-page-title);
-  }
-
-  .quire-page {
-    string-set: sectiontitle attr(data-footer-section-title);
-  }
+  // .quire-page {
+  //   string-set: pagetitle attr(data-footer-page-title);
+  // }
+  //
+  // .quire-page {
+  //   string-set: sectiontitle attr(data-footer-section-title);
+  // }
+  // .quire-page .quire-page__header__title .label-text {
+  //   string-set: sectiontitle content();
+  // }
+  // .quire-page .quire-page__header__title .quire-page-title {
+  //   string-set: pagetitle content();
+  // }
 
   .quire-contents-list {
     .page-item {

@@ -1,7 +1,8 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // based on page-header.js except adds editorsElement and
-// additionalContributorsElement, lines 54–78
+// additionalContributorsElement, lines 55–79
+// also called label through pageTitle()
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -36,10 +37,6 @@ module.exports = function(eleventyConfig) {
     if (title == 'title page' || title == 'half title page') {
       classes.push('is-screen-only')
     }
-
-    const pageLabel = label
-      ? `<span class="label">${label}<span class="visually-hidden">${labelDivider}</span></span>`
-      : ''
 
     const imageElement = image
       ? html`
@@ -81,8 +78,7 @@ module.exports = function(eleventyConfig) {
       <section class="${classes}">
         <div class="hero-body">
           <h1 class="quire-page__header__title" id="${slugify(title)}">
-            ${pageLabel}
-            ${pageTitle({ title, subtitle })}
+            ${pageTitle({ label, title, subtitle })}
           </h1>
           ${contributorsElement}
         </div>

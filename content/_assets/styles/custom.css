@@ -1334,10 +1334,11 @@ table .poor { background-color: #F2F9F1; }
   @page:right {
     @bottom-left {
       text-transform: uppercase;
+      letter-spacing: .5pt;
       font-size: 7.5pt;
     }
   }
-  .quire-page .quire-page__header__title .label {
+  .quire-page .quire-page__header__title .quire-page-label {
     string-set: sectiontitle content();
   }
   .quire-page .quire-page__header__title .quire-page-title {
