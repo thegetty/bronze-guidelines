@@ -542,6 +542,16 @@ button.accordion-expander[aria-expanded="true"] .vert {
 /*  VOCABULARY PAGES
     tags: vocabulary
 ============================================================================= */
+/* vocab table */
+.vocab-table th,
+.vocab-table td {
+  width: 20%;
+}
+@media print {
+  .vocab-table {
+    page-break-before: always;
+  }
+}
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
@@ -577,7 +587,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-bottom: 1rem;
 }
 #vocabulary.quire-page .quire-page__header__contributor .additional-contributors {
+  margin-bottom: 0;
   margin-top: 1rem;
+  padding-bottom: 0;
   font-size: .875rem;
   border-bottom-width: 0;
 }
@@ -1012,11 +1024,11 @@ button.accordion-expander[aria-expanded="true"] .vert {
 /*  TABLES
 ============================================================================= */
 /* Even out the margins on the page of tables */
-.quire-page.full-width#tables .quire-page__content .container {
-  margin-left: 3rem;
-}
-.quire-page.full-width#vocabulary .quire-page__content .container {
-  margin-left: 3rem;
+@media screen {
+  .quire-page.full-width#tables .quire-page__content .container,
+  .quire-page.full-width#vocabulary .quire-page__content .container {
+    margin-left: 3rem;
+  }
 }
 /* Style icons after table modal links */
 .quire-page__content .q-figure__modal-link + svg {
@@ -1314,7 +1326,6 @@ table .poor { background-color: #F2F9F1; }
   /* Hide stuff */
   .quire-page__content figure.q-figure--group,
   .quire-contents-buttons,
-  .quire-page__content table.vocab-table,
   .image-grid-search-box,
   #case-studies-7 .quire-page__content figure.q-figure--vimeo,
   .quire-entry .side-by-side p strong:first-child {
@@ -1353,7 +1364,8 @@ table .poor { background-color: #F2F9F1; }
     padding: 0;
   }
   /* Make tagged images in atlas be two columns */
-  .content figure.q-figure.pdf-full-width {
+  .content figure.q-figure.pdf-full-width,
+  .quire-page__content .pdf-full-width {
     column-span: all;
   }
   /* Adjust font size and margins for small text items */
