@@ -2,7 +2,7 @@
 title: Tables
 order: 980
 layout: page
-class: full-width
+class: full-width tables-page
 ---
 
 {% figure "table-01" %}
