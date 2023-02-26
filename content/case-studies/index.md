@@ -7,3 +7,5 @@ slug: .
 pdf: false
 epub: false
 ---
+
+{{ introductions.case_studies | markdownify }}

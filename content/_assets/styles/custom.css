@@ -288,6 +288,11 @@ a.quire-definition__content__more-link {
 .quire-contents-list.abstract .arrow {
   display: none;
 }
+/* eliminates spacing issue for content on TOC pages */
+.quire-contents .quire-page__content .container .content,
+.quire-page.full-width .quire-page__content .container .content {
+  margin-top: 0;
+}
 
 /* FULL-WIDTH PAGES
     presentation: full-width
@@ -611,7 +616,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-page.visual-atlas .image-grid-search-box #image-grid-search {
     background-color: var(--black);
   }
-  .quire-page.visual-atlas .quire-page__header h1 {
+  .quire-page.visual-atlas .quire-page__header h1,
+  .quire-page.visual-atlas .quire-page__content {
     color: var(--white);
   }
   /* Style search box */
@@ -753,6 +759,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
     background-color: var(--deep-black);
   }
   .grid.quire-contents .quire-page__header__title,
+  .grid.quire-contents .quire-page__content,
   .quire-contents-list.grid ol li .card.image .card-content {
     color: white;
   }

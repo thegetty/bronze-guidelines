@@ -43,6 +43,8 @@ edited_by: Jane Bassett and David Bourgarit
 additional_contributors: Ann Boulton, Anne-Lise Desmas, Jean Dubos, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze,Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
 ---
 
+{{ introductions.vocabulary | markdownify }}
+
 <table class="vocab-table pdf-full-width">
   <thead>
     <tr>
