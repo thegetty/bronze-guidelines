@@ -1124,7 +1124,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page:not(.vocabulary-index) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
-.quire-page:not(.vocabulary-index) .quire-page__content .container .content #table-03 table {
+.quire-page__content .container .content #table-03 table {
   font-size: .35vw;
 }
 .quire-page__content .container .content table caption {
@@ -1208,6 +1208,25 @@ table .high { background-color: #7EC46E; }
 table .good { background-color: #A5D69A; }
 table .medium { background-color: #CBE7C5; }
 table .poor { background-color: #F2F9F1; }
+
+
+.quire-page__content .container .content table caption .details,
+.quire-page__content table thead *,
+.quire-page__content table tbody * {
+  text-align: left;
+}
+@media print {
+  .quire-page__content .container .content table caption,
+  .quire-page__content .container .content table caption .details{
+    font-size: 7.5pt;
+  }
+  .quire-page__content table {
+    font-size: 5.5pt;
+  }
+  .quire-page__content .container .content #table-03 table {
+    font-size: 5.5pt;
+  }
+}
 
 /*  CHOICES UI
 ============================================================================= */
@@ -1551,7 +1570,7 @@ table .poor { background-color: #F2F9F1; }
   }
   /* Tables */
   @page big_table {
-    -prince-rotate-body: landscape;
+    -prince-rotate-body: -90deg;
     -prince-shrink-to-fit: auto;
   }
   .q-figure.q-figure--table {
