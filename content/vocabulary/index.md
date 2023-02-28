@@ -40,7 +40,7 @@ contributor:
       Jeremy Warren (Honorary Curator of Sculpture, Ashmolean Museum, Oxford and Sculpture Research Curator, the National Trust) is a specialist in Renaissance and later European sculpture. His numerous publications include catalogues of *Medieval and Renaissance Sculpture in the Ashmolean Museum* (2014) and of *Italian Sculpture in the Wallace Collection* (2016), as well as articles on the sculptors Antico, Giovanni Bandini, Giambologna, Vincenzo and Gian Gerolamo Grandi, Leone Leoni and Severo da Ravenna.  Exhibitions include *Beauty and Power: Renaissance and Baroque Bronzes from the Peter Marino Collection* (2010). He has also written extensively on the history of collecting.
   - id: jmwelter
 edited_by: Jane Bassett and David Bourgarit
-additional_contributors: Ann Boulton, Anne-Lise Desmas, Jean Dubos, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze,Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
+additional_contributors: Ann Boulton, Anne-Lise Desmas, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze,Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
 ---
 
 <div class="section-landing-page__text">
