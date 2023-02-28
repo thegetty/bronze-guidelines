@@ -388,6 +388,14 @@ a.quire-definition__content__more-link {
     margin-top: .75rem;
   }
 }
+@media screen and (min-width:1592px) {
+  .quire-page.full-width .quire-page__content .container,
+  .quire-page.full-width.tables-page .quire-page__content .container,
+  .quire-page.full-width.vocabulary-index .quire-page__content .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 /* INDENTED HEADINGS & LISTS
 ============================================================================= */
@@ -1064,7 +1072,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 /*  TABLES
 ============================================================================= */
 /* Even out the margins on the page of tables */
-@media screen {
+@media screen and (max-width:1591px) {
   .quire-page.full-width.tables-page .quire-page__content .container,
   .quire-page.full-width.vocabulary-index .quire-page__content .container {
     margin-left: 3rem;
