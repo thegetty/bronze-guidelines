@@ -1209,10 +1209,10 @@ table .good { background-color: #A5D69A; }
 table .medium { background-color: #CBE7C5; }
 table .poor { background-color: #F2F9F1; }
 
-
+/* Justtify text, some tables have inline styles to center justify */
 .quire-page__content .container .content table caption .details,
-.quire-page__content table thead *,
-.quire-page__content table tbody * {
+.quire-page__content table thead,
+.quire-page__content table tbody {
   text-align: left;
 }
 @media print {
