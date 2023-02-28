@@ -175,6 +175,27 @@ a.quire-definition__content__more-link {
 .content .q-figure {
   border-width: 0;
 }
+/* Fix label styling for new class names */
+.quire-page__header__title .quire-page-label {
+  line-height: 1.3;
+  display: table;
+  width: fit-content;
+  font-size: 1.2rem;
+  color: var(--black);
+  border-top: 2px solid #427f34;
+  border-bottom: 2px solid #427f34;
+  padding: .2rem .3rem;
+  letter-spacing: 0;
+  margin: 0 auto 1.9em;
+}
+/* visually hidden */
+.quire-page__header__title .quire-page-label-divider {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
 
 /* COVER
 ============================================================================= */
@@ -902,6 +923,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry .q-figure .q-figure__credit-content {
     color: var(--white);
   }
+}
+.quire-page.interview h1 {
+  font-size: 1.75em;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 0;
+  margin: 0.75in 0 0.5in;
 }
 
 /*  LIGHTBOX & MODAL
