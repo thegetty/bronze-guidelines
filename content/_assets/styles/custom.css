@@ -196,7 +196,11 @@ a.quire-definition__content__more-link {
   position: absolute;
   width: 1px;
 }
-
+/* Align typ block with contents list below it */
+.quire-page.section-landing-page .quire-page__content .container .content {
+  padding-left: 0;
+  padding-right: 0;
+}
 /* COVER
 ============================================================================= */
 
@@ -386,6 +390,14 @@ a.quire-definition__content__more-link {
   }
   .quire-page.full-width .quire-page__content .content h2 + section {
     margin-top: .75rem;
+  }
+}
+@media screen and (min-width:1592px) {
+  .quire-page.full-width .quire-page__content .container,
+  .quire-page.full-width.tables-page .quire-page__content .container,
+  .quire-page.full-width.vocabulary-index .quire-page__content .container {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -582,11 +594,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .vocab-table th,
 .vocab-table td {
   width: 20%;
-}
-@media print {
-  .vocab-table {
-    page-break-before: always;
-  }
 }
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
@@ -931,6 +938,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding: 0;
   margin: 0.75in 0 0.5in;
 }
+@media print {
+  .cs-figure-list {
+    font-size: 6.5pt;
+  }
+  .quire-page__content .content h2 + .cs-figure-list {
+    margin-top: -12px;
+  }
+  .quire-page__content .content h3 + .cs-figure-list {
+    margin-top: -14px;
+  }
+  .quire-page__content .content h2 + h3 + .cs-figure-list {
+    margin-top: -7px;
+  }
+}
 
 /*  LIGHTBOX & MODAL
 ============================================================================= */
@@ -1069,7 +1090,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 /*  TABLES
 ============================================================================= */
 /* Even out the margins on the page of tables */
-@media screen {
+@media screen and (max-width:1591px) {
   .quire-page.full-width.tables-page .quire-page__content .container,
   .quire-page.full-width.vocabulary-index .quire-page__content .container {
     margin-left: 3rem;

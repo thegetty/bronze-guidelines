@@ -1458,7 +1458,7 @@ figure_list:
     src: "figures/iiif/170/base.jpg"
     zoom: true
     label: "Figure 170"
-    caption: "Casting flaw with ancient patch repair. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Bourgarit and Collinet 2021%%."
+    caption: "Casting flaw with ancient patch repair. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Collinet 2021%%."
     annotations:
       - input: checkbox
         items:
@@ -1772,7 +1772,7 @@ figure_list:
     src: "figures/iiif/199/base.jpg"
     zoom: true
     label: "Figure 199"
-    caption: "Detail of X-radiograph revealing an internal metal cylinder added during restoration to join the body and tail. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Bourgarit and Collinet 2021%%."
+    caption: "Detail of X-radiograph revealing an internal metal cylinder added during restoration to join the body and tail. Lynx Incense Burner, Iran (Khorasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Collinet 2021%%."
     annotations:
       - input: checkbox
         items:
@@ -2772,7 +2772,7 @@ figure_list:
     src: "figures/iiif/342/base.jpg"
     zoom: true
     label: "Figure 342"
-    caption: "Digital photomicrograph showing areas of preserved silver wire and of a larger silver-plate inlay in hammered brass that has been chased to draw the face (right). Some of the silver has been lost, revealing the champlevé preparation for the larger silver-plate inlay (white overlay at center and bottom). A number of the chased lines would also have been inlaid with silver wire. Ewer, Afghanistan (Herat), ca. 1200, H. 39 cm (Musée du Louvre, inv. OA 5548). See %%Bourgarit and Collinet 2021%%."
+    caption: "Digital photomicrograph showing areas of preserved silver wire and of a larger silver-plate inlay in hammered brass that has been chased to draw the face (right). Some of the silver has been lost, revealing the champlevé preparation for the larger silver-plate inlay (white overlay at center and bottom). A number of the chased lines would also have been inlaid with silver wire. Ewer, Afghanistan (Herat), ca. 1200, H. 39 cm (Musée du Louvre, inv. OA 5548). See %%Collinet 2021%%."
     annotations:
       - input: checkbox
         items:
@@ -2874,7 +2874,7 @@ figure_list:
     src: "figures/iiif/356.jpg"
     # media_type: iiif
     label: "Figure 356"
-    caption: "Detail of turquoise-blue glazed fritware inlay in the empty eye socket of a high-lead brass incense burner. Lynx Incense Burner, Iran (Khurasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Collinet and Bourgarit 2021%%."
+    caption: "Detail of turquoise-blue glazed fritware inlay in the empty eye socket of a high-lead brass incense burner. Lynx Incense Burner, Iran (Khurasan province), ca. 12th century, H. 28.5 cm (Musée du Louvre, inv. AA 19). See %%Collinet 2021%%."
 
   - id: "fig-357"
     src: "figures/iiif/357.jpg"
