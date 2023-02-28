@@ -196,7 +196,11 @@ a.quire-definition__content__more-link {
   position: absolute;
   width: 1px;
 }
-
+/* Align typ block with contents list below it */
+.quire-page.section-landing-page .quire-page__content .container .content {
+  padding-left: 0;
+  padding-right: 0;
+}
 /* COVER
 ============================================================================= */
 
