@@ -938,6 +938,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding: 0;
   margin: 0.75in 0 0.5in;
 }
+@media print {
+  .cs-figure-list {
+    font-size: 6.5pt;
+  }
+  .quire-page__content .content h2 + .cs-figure-list {
+    margin-top: -12px;
+  }
+  .quire-page__content .content h3 + .cs-figure-list {
+    margin-top: -14px;
+  }
+  .quire-page__content .content h2 + h3 + .cs-figure-list {
+    margin-top: -7px;
+  }
+}
 
 /*  LIGHTBOX & MODAL
 ============================================================================= */
