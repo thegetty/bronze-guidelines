@@ -583,11 +583,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .vocab-table td {
   width: 20%;
 }
-@media print {
-  .vocab-table {
-    page-break-before: always;
-  }
-}
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
