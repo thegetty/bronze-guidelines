@@ -125,6 +125,10 @@ CHOICES LABEL COLORS
 .quire-contributor__bio + ul {
   display: none;
 }
+/* Hide PDF footers */
+.quire-page .pdf-footers {
+  display: none;
+}
 /* Style list of additional contributors at the top of the pages */
 .additional-contributors.backmatter {
   border-bottom: 1px solid var(--light);
@@ -1331,18 +1335,20 @@ table .poor { background-color: #F2F9F1; }
     display: none;
   }
   /* Fix/set running feet */
-  @page:right {
-    @bottom-left {
-      text-transform: uppercase;
-      letter-spacing: .5pt;
-      font-size: 7.5pt;
-    }
+  .quire-page .pdf-footers {
+    font-family: 'Akrobat', 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+    display: inline-block;
   }
-  .quire-page .quire-page__header__title .quire-page-label {
-    string-set: sectiontitle content();
+  .quire-page .pdf-footers__label {
+    flow: static(sectiontitle);
+    text-align: right;
   }
-  .quire-page .quire-page__header__title .quire-page-title {
-    string-set: pagetitle content();
+  .quire-page .pdf-footers__title {
+    flow: static(pagetitle);
+    text-align: left;
   }
   /* Make 2 columns throughout */
   .quire-page:not(.quire-contents) .quire-page__content {

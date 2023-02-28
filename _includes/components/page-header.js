@@ -26,7 +26,8 @@ module.exports = function(eleventyConfig) {
       label,
       pageContributors,
       subtitle,
-      title
+      title,
+      short_title: shortTitle
     } = params
 
     const classes = ['quire-page__header', 'hero']
@@ -53,12 +54,18 @@ module.exports = function(eleventyConfig) {
         `
       : ''
 
+    const runningFeetTitle = shortTitle ? shortTitle : title
+
     return html`
       <section class="${classes}">
         <div class="hero-body">
           <h1 class="quire-page__header__title" id="${slugify(title)}">
             ${pageTitle({ label, title, subtitle })}
           </h1>
+          <div class="pdf-footers">
+            <span class="pdf-footers__label">${markdownify(label)}</span>
+            <span class="pdf-footers__title">${markdownify(runningFeetTitle)}</span>
+          </div>
           ${contributorsElement}
         </div>
       </section>

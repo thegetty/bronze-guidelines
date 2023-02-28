@@ -55,7 +55,7 @@ $print-trim: $print-bleed * 2;
     margin-right: $print-inner-margin;
 
     @bottom-right {
-      content: string(sectiontitle);
+      content: flow(sectiontitle);
       text-transform: uppercase;
       letter-spacing: .5pt;
       font-size: 7.5pt;
@@ -78,7 +78,7 @@ $print-trim: $print-bleed * 2;
     margin-right: $print-outer-margin;
 
     @bottom-left {
-      content: string(pagetitle);
+      content: flow(pagetitle);
     }
 
     @bottom-right {

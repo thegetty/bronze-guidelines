@@ -25,7 +25,7 @@ module.exports = function(eleventyConfig) {
     const { label, subtitle, title } = params
     const subtitleDivider = title && !title.match(/\?|!/) ? ': ' : ' '
 
-    const pageLabel = label ? `<span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span>` : `<span class="quire-page-label"></span>`
+    const pageLabel = label ? `<span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span>` : ``
 
     const pageSubtitle = subtitle ? `<span class="quire-page-seperator">${subtitleDivider}</span><span class="quire-page-subtitle">${subtitle}</span>` : ''
 
