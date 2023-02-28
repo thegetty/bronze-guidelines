@@ -55,7 +55,7 @@ Contraction du métal lors du refroidissement conduisant à une perte dimensionn
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 644
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 644
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 38; {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

@@ -59,19 +59,19 @@ Technique d’assemblage de deux pièces métalliques ou plus, par addition d’
 
 {% backmatter %}
 
-Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », procédé utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634). La brasure désigne aussi bien le métal de brasure ({% cite "Bader and Théret 1961" %}, 102) que l’assemblage lui-même.
+Note: L’anglais distingue « brazing », le procédé utilisant de la brasure tendre (métaux à bas point de fusion comme le plomb et l’étain), de « soldering », procédé utilisant une brasure forte (alliage à base de cuivre). On rencontre parfois en français le terme « brasure très forte » quand de l’argent est utilisé ({% cite "Baudry and Bozo 1978" %}, 634). La brasure désigne aussi bien le métal de brasure ({% cite "Bader and Théret 1961" %}, 102) que l’assemblage lui-même.
 
 {% endbackmatter %}
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 634
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 #### Alternate Translation
 
-- *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
+- *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **Italian**: *{{ lang.it }}*
 

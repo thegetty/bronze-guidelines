@@ -59,18 +59,18 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
 #### To Be Distinguished From
 
 - *copie*
-- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
+- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({% cite "Baudry and Bozo 1978" %}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
 - *reproduction* (Une reproduction est techniquement identique à une épreuve d'édition, mais différent juridiquement: une “épreuve d'édition” est considérée comme un original, une reproduction non.)
 - *variante*
 - *version*
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 #### Alternate Translation
 
-- *épreuve de série* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 545
+- *épreuve de série* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 ### **Italian**: *{{ lang.it }}*
 

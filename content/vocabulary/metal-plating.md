@@ -47,7 +47,7 @@ Note: La {% def "dorure" %}, l’argenture, et dans une moindre mesure l’étam
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
 
 ### **Italian**: *{{ lang.it }}*
 

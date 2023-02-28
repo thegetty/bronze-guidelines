@@ -1,6 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // wrap label, label divider, and title elements in their own spans
+// for PDF footers, add blank <span> when there's no label otherwise
 //
 /**
  * Concatenates the page title and subtitle, using a colon, or if the title ends with a ! or ?, no colon is included.
@@ -22,14 +23,13 @@ module.exports = function(eleventyConfig) {
   return function(params) {
 
     const { label, subtitle, title } = params
-    const separator = title && !title.match(/\?|!/) ? ': ' : ' '
+    const subtitleDivider = title && !title.match(/\?|!/) ? ': ' : ' '
 
-    let pageTitle = subtitle ? `<span class="quire-page-title">${[title, subtitle].join(separator)}</span>` : `<span class="quire-page-title">${title}</span>`
+    const pageLabel = label ? `<span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span>` : ``
 
-    if (label) {
-      pageTitle = `
-      <span class="quire-page-label">${label}</span><span class="quire-page-label-divider">${labelDivider}</span><span class="quire-page-title">${pageTitle}</span>`
-    }
+    const pageSubtitle = subtitle ? `<span class="quire-page-seperator">${subtitleDivider}</span><span class="quire-page-subtitle">${subtitle}</span>` : ''
+
+    const pageTitle = `${pageLabel}<span class="quire-page-title">${title}</span>${pageSubtitle}`
 
     return markdownify(pageTitle)
   }

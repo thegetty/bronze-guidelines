@@ -63,7 +63,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 647
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 647
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 27; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
@@ -71,7 +71,7 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 #### Alternate Translation
 
-- *goutte froide* (Attention, coutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce [{% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}], 648]).) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *goutte froide* (Attention, coutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce [{% cite "Baudry and Bozo 1978" %}], 648]).) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

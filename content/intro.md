@@ -74,7 +74,7 @@ The kinds of questions that bronze sculptures may raise are many. For instance:
 
 -   Is the {% def "cast (n.)" "cast" %} a one-off? If it is one of multiple iterations of the same form, how does this cast relate to other versions? How best to achieve useful comparisons, especially if the sculptures cannot be brought together for study?
 
--   Can one discern patterns in the way certain artists or workshops worked? Can one use such information to discern developments in the artist’s or workshop’s oeuvre and date works, determine workshop organization, or ascertain transfer of technical know-how within or between workshops or different centers of production?
+-   Can one discern patterns in the way certain artists or workshops worked? Can one use such information to discern developments in the artist’s or workshop’s œuvre and date works, determine workshop organization, or ascertain transfer of technical know-how within or between workshops or different centers of production?
 
 -   Is it possible to tell when a particular cast was produced, given that certain models and molds can be used by others than those who originally crafted them, even well after that person’s lifetime?
 
@@ -573,53 +573,49 @@ The *Guidelines* are accessible in a variety of ways.
 
 ### 3.1 Evidence of the fabrication process (volume I)
 
-Volume I is designed to help the reader identify and investigate the physical evidence present on a sculpture. It is divided into nine chapters that correspond to the different aspects of the creation of a bronze, more or less in chronological sequence of the fabrication steps. It goes into more detail on the variety of casting processes described in this general introduction; discusses the properties of the different copper alloys encountered in artistic castings; and characterizes {% def "defects" %}, repairs, assembly techniques, tool marks, as well as plating and other surface decoration techniques. Each chapter follows a similar “What? / Why? / How?” format. The first section lays out how distinctive features are produced, and thus sheds light on what to look out for and also possible misinterpretations. That is followed by FAQs that address why such evidence might be interesting and/or useful to investigate. A checklist at the end outlines the primary methods of investigation and analytical techniques that are relevant to the investigation of this topic, and points to the more in-depth discussions of these techniques in volume II. The definitions of terms included in the [Vocabulary](/vocabulary/) are hyperlinked upon their first mention in each chapter.
+{{ introductions.vol_1 | markdownify }}
 
 </section>
 <section id="S3.2">
 
 ### 3.2 Methods of investigation (volume II)
 
-Volume II provides a summary description of each of the multifarious techniques of examination and scientific analysis that have been usefully applied to the study of bronze sculpture. The volume is intended for both specialists in technical examination and analysis (e.g., conservators, conservation scientists, archaeologists) and nonspecialists (curators, historians). Specialists will find practical guidance on how each of the techniques may be specifically adapted and optimized for the study of bronze sculpture, along with extensive references to additional technical resources and published examples of their application. Nonspecialists will find succinct descriptions of the techniques and the scientific principles on which they are based. The descriptions are followed by discussion of the capabilities and limitations of each particular technique, along with a description of any sampling requirements that may be required. This information is presented to help those in positions of responsibility make informed decisions regarding the selection of appropriate examination and analysis techniques in the context of a technical study.
-
-In the first chapter, the reader will find practical advice and resources on how to plan and document a technological study (with a reminder of the importance of cross-disciplinary collaboration at every step). This is followed by chapters on image-based examination and documentation (photography and radiography) and measurement. Analytical techniques that further aid in the identification and characterization of materials are described in separate chapters dedicated to the specific materials type (base metal, surface layers, and core). In the penultimate chapter, methods for dating a bronze sculpture are described, and the final chapter discusses the design and implementation of experimental simulations.
+{{ introductions.vol_2 | markdownify }}
 
 </section>
 <section id="S3.3">
 
 ### 3.3 Vocabulary
 
-The rich terminology associated with sculpture, and bronzes and foundry work in particular, is very specialized. It can also vary to a surprising extent across different groups of specialists such as professional foundry practitioners and historians of bronze sculpture, or even across experts focused on different chronological or geographical areas within a field. One of the main goals of the interdisciplinary CAST:ING project was to shed light on some of these ambiguities, wrangle definitions, and where possible suggest a common preferred term. The selection of agreed-upon terms offered here should be useful to a range of researchers—as an aid for interpreting written sources or features on a cast, and for recording and communicating those discoveries and observations. A shared vocabulary ultimately also facilitates a wider sharing of data. Definitions for each term are provided in English and French. Translations are provided in the three other modern languages that reflect the expertise of the CAST:ING members: Italian, German, and Chinese. Early French and Italian translations are also proposed here and there. Earlier terminology is also provided for Italian and French.
-
-It was beyond the scope of this project to produce such a thesaurus for the more than three hundred technical terms collected by its members. We agreed on a selection of fifty-eight based on their frequency of use in the study of bronze sculpture, and on the possible definitional ambiguities. For each entry, we have aimed to include a translation in the selected languages, along with references to two or more authoritative bibliographical sources, as these terms are also to be incorporated in the structured online vocabulary of the Getty Art and Architecture Thesaurus (AAT), which is used broadly by art historians. Where necessary, multiple translations are provided with notes to explain differences between them. Entries are illustrated with relevant images drawn from the Visual Atlas of Features. And hyperlinks to the select terms are provided throughout the *Guidelines*.
+{{ introductions.vocabulary | markdownify }}
 
 </section>
 <section id="S3.4">
 
 ### 3.4 Visual Atlas of Features
 
-The dictum “an image is worth a thousand words” is apt when trying to describe technical details, and this is particularly true for bronze sculpture. Therefore, the *Guidelines* rely heavily on illustrations. This section gathers all of the illustrations used in the publication, including radiographs, 3D models, sketches, charts, and diagrams. A fair number of these images have visual annotations to aid in their interpretation. In the online version these appear in layers that can be activated (turned on and off) by the reader. In the print-on-demand version, these are merged onto the image. In the digital publication it is possible to search for and browse through the photos and diagrams via keywords. In the print-on-demand version, the images all print together separately from the text in the order of appearance in the *Guidelines*.
+{{ introductions.visual_atlas | markdownify }}
 
 </section>
 <section id="S3.5">
 
 ### 3.5 Videos
 
-This section gathers short videos illustrating a range of fabrication processes described in the text. Links to them appear in the relevant sections of the *Guidelines*. Their inclusion is made possible by the digital format, and affords readers a better sense of the gestures, timing, choreography, and sound involved in these processes—all of which are not readily conveyed in words.
+{{ introductions.videos | markdownify }}
 
 </section>
 <section id="S3.6">
 
 ### 3.6 Case studies
 
-The case studies offer readers a representative example of investigations into the technology of bronze sculpture. The selection draws on the varied experience of the CAST:ING project members. Some cases focus on one object, others on a group of related works. They cover a variety of contexts in which such studies are undertaken, issues that may be addressed, and the kinds of research tools and historical sources—whether written or oral—that are essential to formulating an informed interpretation of the physical evidence. Their structure varies, but each of them ends with a synopsis of the findings and further questions, and tools applied in the study. The case studies complement the descriptions of processes, technical evidence, and scientific techniques of investigation discussed in volumes I and II, and hyperlinks to particular videos are included where relevant.
+{{ introductions.case_studies | markdownify }}
 
 </section>
 <section id="S3.7">
 
 ### 3.7 Bibliography
 
-One overall bibliography serves as reference for all sections of the *Guidelines* and is unique in its diversity, as it draws on the expertise of an interdisciplinary cast of contributing members. Yet while many of the key publications on bronze casting and related disciplines have been included, the bibliography does not pretend to cover every publication about this expansive field. The bulk of the publications cited are in English and French, reflecting the makeup of the primary organizers of the publication, but every effort has been made to incorporate important works in other languages.
+{{ introductions.bibliography | markdownify }}
 
 </section>
 </section>
@@ -657,7 +653,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^4]: {% cite "Rehren 2014" %}.
 
-[^5]: {% cite "Dehejia 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
+[^5]: {% cite "Dehejia, Davis, Nākacāmi, and Pechilis 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
 
 [^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 

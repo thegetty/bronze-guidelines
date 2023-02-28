@@ -78,7 +78,7 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Koch and Newell 1963" %}
 
@@ -94,7 +94,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *fondeur en cuivre* | Source: {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038
 
-- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés [(fondeur de cloches, fondeur de canons ou fondeur d'artillerie)]. Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre [{% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038].) | Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés [(fondeur de cloches, fondeur de canons ou fondeur d'artillerie)]. Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre [{% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038].) | Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
 - *mouleur en terre ou en sable* | Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 

@@ -53,13 +53,13 @@ Un des deux grands types de ciselets (dit aussi « mat », l’autre grand typ
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 642
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 642
 
 Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Alternate Translation
 
-- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
+- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -47,7 +47,7 @@ Opération consistant à fabriquer un objet par fonderie. Plus généralement, e
 
 #### Sources
 
-Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 558; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Baudry and Bozo 1978" %}, 558; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
@@ -57,7 +57,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 
 #### Alternate Translations
 
-- *fondre* | Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624
+- *fondre* | Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 - *jeter* / *jetter* | Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
 

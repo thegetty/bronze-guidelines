@@ -95,6 +95,9 @@ New layout specifically to create grid of all figure images.
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
 
+**_plugins/shortcodes/contributors.js**
+Refactor logic to handle oxford commas correctly
+
 **_plugins/shortcodes/def.js**
 Custom shortcode to display vocabulary pop-ups with definitions and links.
 

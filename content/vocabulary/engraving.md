@@ -57,7 +57,7 @@ Technique de décoration des bronzes par enlèvement de matière à l’aide de 
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 578
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 578
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 

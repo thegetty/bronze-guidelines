@@ -55,7 +55,7 @@ Note: Dans les textes anciens, le terme de sable est parfois ambigu et peut fair
 
 #### Sources
 
-Cultural Heritage: {% cite "Rolley 1994" %}, 66; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Lebon et al. 2016" %}, 330
+Cultural Heritage: {% cite "Rolley 1994" %}, 66; {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Lebon et al. 2016" %}, 330
 
 Historical: {% cite "Diderot et al. 1751" %}, 14:353–65, entry « sable »
 

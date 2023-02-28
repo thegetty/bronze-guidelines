@@ -1,8 +1,8 @@
 /**
- * Contents page template for TOC and Section TOCs. 
- * Page content from the markdown will appear in the content outlet below. 
- * The Table of Contents list will appear below that. 
- * It is scoped to show the contents of the full site. 
+ * Contents page template for TOC and Section TOCs.
+ * Page content from the markdown will appear in the content outlet below.
+ * The Table of Contents list will appear below that.
+ * It is scoped to show the contents of the full site.
  * Pages can be removed from the TOC indivudally by setting toc to `false` in the page yaml.
  */
 
@@ -42,6 +42,7 @@ module.exports = class TableOfContents {
         image=image,
         label=label,
         pageContributors=pageContributors,
+        short_title=short_title,
         subtitle=subtitle,
         title=title
       %}

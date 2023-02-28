@@ -39,7 +39,7 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 
 #### Source
 
-Fachkunde Metall: {% cite "Bovenkerk et al. 1987" %}, 128
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 ### **French**: *{{ lang.fr }}*
 
@@ -47,7 +47,7 @@ Pour un bronze, transformation chimique du métal en un composé non métallique
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 648; {% cite "Aucouturier et al. 2003" %}; {% cite "Robbiola 2015" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 648; {% cite "Aucouturier et al. 2003" %}; {% cite "Robbiola 2015" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 

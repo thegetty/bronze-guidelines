@@ -50,7 +50,7 @@ Alliage à base de cuivre dans lequel le zinc est l’élément d’addition pri
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 643; {% cite "Garenne-Marot, Robion, and Mille 2003" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Thomas and Bourgarit 2018" %}; {% cite "Thomas 2009" %}, 510
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 643; {% cite "Garenne-Marot, Robion, and Mille 2003" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Thomas and Bourgarit 2018" %}; {% cite "Thomas 2009" %}, 510
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Comité international du dictionnaire technique de fonderie 1955" %}, 29; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
