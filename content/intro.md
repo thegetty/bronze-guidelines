@@ -679,7 +679,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^17]: {% cite "Mitten and Doeringer 1967" %}; {% cite "Wasserman 1969" %}; {% cite "Doeringer, Mitten, and Steinberg 1970" %}; {% cite "Wasserman 1975" %}; {% cite "Born 1985" %}.
 
-[^18]: {% cite "Pope and Gettens 1969" %}; {% cite "Milam, Reedy, and Sussman 1988" %}.
+[^18]: {% cite "Gettens 1969" %}; {% cite "Milam, Reedy, and Sussman 1988" %}.
 
 [^19]: The Application of Science in Examination of Works of Art seminars were held at the Museum of Fine Arts, Boston, in 1958, 1965, and 1970, and the proceedings were published respectively as {% cite "Museum of Fine Arts (Boston) Research Laboratory 1970" %}; {% cite "Museum of Fine Arts (Boston) Research Laboratory 1967" %}; {% cite "Young 1973" %}.
 
