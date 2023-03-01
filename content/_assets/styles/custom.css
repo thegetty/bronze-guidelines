@@ -1137,11 +1137,14 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-top: .25rem;
 }
 .quire-page__content .container .content table ul {
-  list-style: initial;
-  padding-left: 1.25em;
+  list-style-type: disc;
+}
+.quire-page__content .container .content table ul li {
+  margin-left: 0;
+  margin-bottom: .25em;
 }
 .quire-page__content .container .content table ul li::before {
-  content: none;
+  display: none;
 }
 .table-key dl {
   display: grid;
