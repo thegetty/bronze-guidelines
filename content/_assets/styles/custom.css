@@ -1182,7 +1182,7 @@ table a,
   margin-right: auto;
 }
 /* The labels and captions are included in the table HTML files themselves */
-.q-lightbox-slides__element--table + .q-figure-slides__slide-ui .q-lightbox-slides__caption {
+.q-lightbox-slides__element--table + .q-figure-slides__slide-ui {
   display: none;
 }
 .q-lightbox-slides__element--table div.table-wrapper table caption {
