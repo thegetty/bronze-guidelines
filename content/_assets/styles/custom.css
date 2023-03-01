@@ -660,7 +660,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   }
   /* Style search box */
   .quire-page.visual-atlas .image-grid-search-box {
-    margin: 0 auto;
+    margin: 2rem auto 0;
     display: block;
     width: 32rem;
     max-width: calc(100vw - 4rem);
@@ -1124,7 +1124,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page:not(.vocabulary-index) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
-.quire-page:not(.vocabulary-index) .quire-page__content .container .content #table-03 table {
+.quire-page__content .container .content #table-03 table {
   font-size: .35vw;
 }
 .quire-page__content .container .content table caption {
@@ -1137,11 +1137,14 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-top: .25rem;
 }
 .quire-page__content .container .content table ul {
-  list-style: initial;
-  padding-left: 1.25em;
+  list-style-type: disc;
+}
+.quire-page__content .container .content table ul li {
+  margin-left: 0;
+  margin-bottom: .25em;
 }
 .quire-page__content .container .content table ul li::before {
-  content: none;
+  display: none;
 }
 .table-key dl {
   display: grid;
@@ -1179,7 +1182,7 @@ table a,
   margin-right: auto;
 }
 /* The labels and captions are included in the table HTML files themselves */
-.q-lightbox-slides__element--table + .q-figure-slides__slide-ui .q-lightbox-slides__caption {
+.q-lightbox-slides__element--table + .q-figure-slides__slide-ui {
   display: none;
 }
 .q-lightbox-slides__element--table div.table-wrapper table caption {
@@ -1208,6 +1211,25 @@ table .high { background-color: #7EC46E; }
 table .good { background-color: #A5D69A; }
 table .medium { background-color: #CBE7C5; }
 table .poor { background-color: #F2F9F1; }
+
+/* Justtify text, some tables have inline styles to center justify */
+.quire-page__content .container .content table caption .details,
+.quire-page__content table thead,
+.quire-page__content table tbody {
+  text-align: left;
+}
+@media print {
+  .quire-page__content .container .content table caption,
+  .quire-page__content .container .content table caption .details{
+    font-size: 7.5pt;
+  }
+  .quire-page__content table {
+    font-size: 5.5pt;
+  }
+  .quire-page__content .container .content #table-03 table {
+    font-size: 5.5pt;
+  }
+}
 
 /*  CHOICES UI
 ============================================================================= */
@@ -1551,7 +1573,7 @@ table .poor { background-color: #F2F9F1; }
   }
   /* Tables */
   @page big_table {
-    -prince-rotate-body: landscape;
+    -prince-rotate-body: -90deg;
     -prince-shrink-to-fit: auto;
   }
   .q-figure.q-figure--table {

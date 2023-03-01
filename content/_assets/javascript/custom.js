@@ -179,9 +179,12 @@ window.filterImageGrid = function () {
 
   let totalResults = 0
   for (const figure of figures ) {
-    const caption = figure.querySelector('.q-figure__caption-content')
-    const captionText = caption && caption.textContent ? caption.textContent.toLowerCase() : ''
-    if (captionText.indexOf(filterInput) > -1) {
+    const labelText = figure.querySelector('.q-figure__label-text').textContent.toLowerCase()
+    const captionText = figure.querySelector('.q-figure__caption-content').textContent.toLowerCase()
+
+    const figureInfo = labelText.concat(': ', captionText)
+
+    if (figureInfo.indexOf(filterInput) > -1) {
       figure.classList.add('match');
       totalResults++
     } else {
