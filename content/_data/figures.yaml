@@ -1,24 +1,39 @@
 figure_list:
 
+  # Images marked `media_type: case-study` were created especially for the
+  # Case Study section and are not included in the Visual Atlast of Images
+
   # COVER/BANNER IMAGES FOR CASE STUDIES
+
   - id: "fig-440-cover"
     src: "figures/case-studies/440-cover.jpg"
+    media_type: case-study
   - id: "fig-469-cover"
     src: "figures/case-studies/469-cover.jpg"
+    media_type: case-study
   - id: "fig-500-cover"
     src: "figures/case-studies/500-cover.jpg"
+    media_type: case-study
   - id: "fig-508-cover"
     src: "figures/case-studies/508-cover.jpg"
+    media_type: case-study
   - id: "fig-34-97-524-cover"
     src: "figures/case-studies/34-97-524-cover.jpg"
+    media_type: case-study
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
+    media_type: case-study
+
+  # OTHER CASE STUDY IMAGES
 
   - id: "figs-440-455-group"
     src: "figures/case-studies/figs-440-455-group.jpg"
+    media_type: case-study
     zoom: true
     label: "Figures 440–46 and 449–55"
     caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
+
+  # REGULAR FIGURES
 
   - id: "fig-001"
     src: "figures/iiif/001.png"
@@ -4341,6 +4356,8 @@ figure_list:
     label: "Figure 562"
     caption: "Andrew Lacey (British, b. 1969), sprued wax model reconstruction after Andrea Riccio (Italian, ca. 1470–1532), Satyr and Satyress, 1510–20, H. 24 cm (Victoria and Albert Museum, presented by Art Fund, inv. A.8-1949)."
 
+  # VIDEOS
+
   - id: "vid-01"
     poster: "figures/video-01.jpg"
     media_type: vimeo
@@ -4466,6 +4483,8 @@ figure_list:
     media_id: 672854085/be5c239063
     label: "Video 18"
     caption: "Arrangement and sequence of a bronze pour for small items in a modern foundry (dir. Christophe Béry), filmed during the July 2016 CAST:ING workshop at Fonderie de Coubertin, Saint-Rémy-lès-Chevreuse, France. Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
+
+  # TABLES -- captions are included in the table HTML files
 
   - id: "table-01"
     src: "tables/table-1.html"
