@@ -1660,10 +1660,15 @@ figure_list:
     caption: "Illustration of a specially designed furnace used to repair a cracked bell by welding. From Vannoccio Biringuccio (Italian, 1480–1539), *The Pirotechnia*, 1540. See %%Biringuccio [1540] 1942%%, 276."
 
   - id: "fig-187"
-    src: "figures/187.jpg"
-    # media_type: iiif
+    src: "figures/187/base.jpg"
+    zoom: true
     label: "Figure 187"
     caption: "Annotated detail of an X-radiograph of the higher-density lead-based soldering metal that surrounds the set-in patch on the nymph’s right arm (arrows). Antonio Susini (Italian 1558–1624), *Faun and Nymph*, 1580–90, H. faun 48.2 cm, H. nymph 34.6 cm (Staatliche Kunstsammlungen, Grünes Gewölbe, Dresden, inv. IX 36). See %%Bassett 2008%%, 284."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/187/solder.png"
+            selected: true
 
   - id: "fig-188"
     src: "figures/188/base.jpg"
@@ -1743,10 +1748,25 @@ figure_list:
             selected: true
 
   - id: "fig-195"
-    src: "figures/195.jpg"
-    # media_type: iiif
+    src: "figures/195/base.jpg"
+    zoom: true
     label: "Figure 195"
     caption: "Annotated X-radiograph showing internal features of a sand cast: threaded repair plugs (blue overlay), core vents (yellow overlay), core support (orange overlay), and nuts that secure the horse to the base (green overlay). Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/195/threaded-repair-plugs.png"
+            label: "Treaded Repair Plugs"
+            selected: true
+          - src: "figures/195/core-vents.png"
+            label: "Core Vents"
+            selected: true
+          - src: "figures/195/core-support.png"
+            label: "Core Support"
+            selected: true
+          - src: "figures/195/nuts.png"
+            label: "Nuts"
+            selected: true
 
   - id: "fig-196"
     src: "figures/196/base.jpg"

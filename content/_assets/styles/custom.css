@@ -2079,6 +2079,11 @@ table .poor { background-color: #F2F9F1; }
 #fig-185-0-flow-fusion-repair label::before {
   background-color: #ebe41a; /* yellow */
 }
+/* FIG 187 */
+#lightbox-fig-187-0-solder label::before,
+#fig-187-0-solder label::before {
+  background-color: #fff; /* white */
+}
 /* FIG 188 */
 #lightbox-fig-188-0-patch label::before,
 #fig-188-0-patch label::before {
@@ -2102,6 +2107,23 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-194-0-patches label::before,
 #fig-194-0-patches label::before {
   background-color: #d97272; /* red */
+}
+/* FIG 195 */
+#lightbox-fig-195-0-threaded-repair-plugs label::before,
+#fig-195-0-threaded-repair-plugs label::before {
+  background-color: #9195e7; /* lavender */
+}
+#lightbox-fig-195-0-nuts label::before,
+#fig-195-0-nuts label::before {
+  background-color: #a7d69f; /* green */
+}
+#lightbox-fig-195-0-core-vents label::before,
+#fig-195-0-core-vents label::before {
+  background-color: #f2ee7d; /* yellow */
+}
+#lightbox-fig-195-0-core-support label::before,
+#fig-195-0-core-support label::before {
+  background-color: #dbad7f; /* orange */
 }
 /* FIG 196 */
 #lightbox-fig-196-0-cast-on-repair label::before,
