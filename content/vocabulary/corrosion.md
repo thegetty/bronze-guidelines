@@ -23,7 +23,7 @@ Note: Most metals undergo natural corrosion, except for pure so-called noble met
 
 {% figuregroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-503" %}
 
-(figs. 310, 311, 312, 314, 315, 318, 334, 348, 503){.cs-figure-list .is-print-only}
+(figs. 310, 311, 312, 314, 315, 318, 334, 348, 503){.pdf-figure-list}
 
 ## Sources
 

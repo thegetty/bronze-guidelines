@@ -24,7 +24,7 @@ Note: The terms “sprue,” “sprueing,” or “sprue system” are most comm
 
 {% figuregroup "3", "fig-044, fig-046, fig-071, fig-086, fig-124, fig-539" %}
 
-(figs. 44, 46, 71, 86, 124, 539){.cs-figure-list .is-print-only}
+(figs. 44, 46, 71, 86, 124, 539){.pdf-figure-list}
 
 ## Sources
 

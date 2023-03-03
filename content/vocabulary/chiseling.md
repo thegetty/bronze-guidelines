@@ -23,7 +23,7 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 {% figuregroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
 
-(figs. 226, 249, 254, 278, 281, 550){.cs-figure-list .is-print-only}
+(figs. 226, 249, 254, 278, 281, 550){.pdf-figure-list}
 
 ## Sources
 

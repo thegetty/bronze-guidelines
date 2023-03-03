@@ -24,7 +24,7 @@ Note: When present, the {% def "core" %} is considered part of the refractory mo
 
 {% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
 
-(figs. 7, 27, 542, 549, 557){.cs-figure-list .is-print-only}
+(figs. 7, 27, 542, 549, 557){.pdf-figure-list}
 
 ## Sources
 

@@ -24,7 +24,7 @@ Note: The term is subject to dispute among CAST:ING members. Depending on discip
 
 {% figuregroup "3", "fig-001, fig-016, fig-023, fig-025, fig-041, fig-055, fig-072, fig-556" %}
 
-(figs. 1, 16, 23, 25, 41, 55, 72, 556){.cs-figure-list .is-print-only}
+(figs. 1, 16, 23, 25, 41, 55, 72, 556){.pdf-figure-list}
 
 ## Sources
 

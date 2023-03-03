@@ -23,7 +23,7 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 
 {% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
 
-(figs. 13, 16, 18, 23, 25, 28, 558){.cs-figure-list .is-print-only}
+(figs. 13, 16, 18, 23, 25, 28, 558){.pdf-figure-list}
 
 ## Sources
 

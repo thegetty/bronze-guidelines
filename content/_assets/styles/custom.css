@@ -938,17 +938,27 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding: 0;
   margin: 0.75in 0 0.5in;
 }
+/* .pdf-figure-list is also used on vocab pages */
+@media screen {
+  .pdf-figure-list {
+    display: none;
+  }
+}
 @media print {
-  .cs-figure-list {
+  .pdf-figure-list {
+    display: block;
     font-size: 6.5pt;
   }
-  .quire-page__content .content h2 + .cs-figure-list {
+  .quire-page.vocabulary .pdf-figure-list {
+    font-size: 1em;
+  }
+  .quire-page__content .content h2 + .pdf-figure-list {
     margin-top: -12px;
   }
-  .quire-page__content .content h3 + .cs-figure-list {
+  .quire-page__content .content h3 + .pdf-figure-list {
     margin-top: -14px;
   }
-  .quire-page__content .content h2 + h3 + .cs-figure-list {
+  .quire-page__content .content h2 + h3 + .pdf-figure-list {
     margin-top: -7px;
   }
 }

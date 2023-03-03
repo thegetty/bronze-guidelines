@@ -24,7 +24,7 @@ Note: In common parlance, most copper alloy sculptures are referred to as “bro
 
 {% figuregroup "3", "fig-133, fig-134" %}
 
-(figs. 133, 134){.cs-figure-list .is-print-only}
+(figs. 133, 134){.pdf-figure-list}
 
 ## Sources
 

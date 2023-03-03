@@ -24,7 +24,7 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 {% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
-(figs. 43, 65, 127, 211, 212, 213, 217, 218){.cs-figure-list .is-print-only}
+(figs. 43, 65, 127, 211, 212, 213, 217, 218){.pdf-figure-list}
 
 ## Sources
 

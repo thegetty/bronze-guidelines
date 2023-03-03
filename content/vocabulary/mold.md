@@ -24,7 +24,7 @@ Note: Molds of varying types may be used at different stages of the {% def "bron
 
 {% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
-(figs. 7, 27, 101, 112, 542, 549, 557){.cs-figure-list .is-print-only}
+(figs. 7, 27, 101, 112, 542, 549, 557){.pdf-figure-list}
 
 ## Sources
 

@@ -23,7 +23,7 @@ Note: In {% def "sand casting" %}, a foundry model is referred to as a “patter
 
 {% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
-(figs. 210, 531, 544, 553, 554){.cs-figure-list .is-print-only}
+(figs. 210, 531, 544, 553, 554){.pdf-figure-list}
 
 ## Sources
 

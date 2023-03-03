@@ -17,7 +17,7 @@ lang:
 
 {% figuregroup "3", "fig-005, fig-013, fig-557, fig-558" %}
 
-(figs. 5, 13, 557, 558){.cs-figure-list .is-print-only}
+(figs. 5, 13, 557, 558){.pdf-figure-list}
 
 ## Sources
 

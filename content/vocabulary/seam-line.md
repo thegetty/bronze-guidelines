@@ -24,7 +24,7 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 {% figuregroup "3", "fig-006, fig-026, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" %}
 
-(figs. 6, 26, 43, 61, 72, 73, 74, 75){.cs-figure-list .is-print-only}
+(figs. 6, 26, 43, 61, 72, 73, 74, 75){.pdf-figure-list}
 
 ## Sources
 

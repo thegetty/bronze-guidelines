@@ -24,7 +24,7 @@ Note: Metal is used rather than plaster because it can better withstand the wear
 
 {% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
-(figs. 102, 103, 210, 531, 553){.cs-figure-list .is-print-only}
+(figs. 102, 103, 210, 531, 553){.pdf-figure-list}
 
 ## Sources
 

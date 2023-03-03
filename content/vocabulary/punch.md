@@ -24,7 +24,7 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 {% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
 
-(figs. 238, 239, 240, 242, 244, 256, 272, 494){.cs-figure-list .is-print-only}
+(figs. 238, 239, 240, 242, 244, 256, 272, 494){.pdf-figure-list}
 
 ## Sources
 

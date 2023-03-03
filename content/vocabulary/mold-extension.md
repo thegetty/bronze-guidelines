@@ -24,7 +24,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 {% figuregroup "3", "fig-023, fig-041, fig-122, fig-123" %}
 
-(figs. 23, 41, 122, 123){.cs-figure-list .is-print-only}
+(figs. 23, 41, 122, 123){.pdf-figure-list}
 
 ## Source
 

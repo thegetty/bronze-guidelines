@@ -24,7 +24,7 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
-(figs. 38, 39, 40, 122){.cs-figure-list .is-print-only}
+(figs. 38, 39, 40, 122){.pdf-figure-list}
 
 ## Sources
 

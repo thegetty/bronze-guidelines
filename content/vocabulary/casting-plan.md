@@ -23,7 +23,7 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 {% figuregroup "3", "fig-367" %}
 
-(fig. 367){.cs-figure-list .is-print-only}
+(fig. 367){.pdf-figure-list}
 
 ## Source
 

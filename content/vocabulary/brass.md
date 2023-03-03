@@ -17,7 +17,7 @@ lang:
 
 {% figuregroup "3", "fig-133" %}
 
-(fig. 133){.cs-figure-list .is-print-only}
+(fig. 133){.pdf-figure-list}
 
 ## Sources
 
