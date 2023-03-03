@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
 
+(figs. 1, 76, 544){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}

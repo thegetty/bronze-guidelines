@@ -23,6 +23,8 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 {% figuregroup "3", "fig-246" %}
 
+(fig. 246){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Smith 2015" %}

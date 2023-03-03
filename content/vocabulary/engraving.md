@@ -23,6 +23,8 @@ Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to 
 
 {% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 
+(figs. 241, 243, 254, 276, 279, 280, 495){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 43

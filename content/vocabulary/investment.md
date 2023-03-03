@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-005, fig-013, fig-557, fig-558" %}
 
+(figs. 5, 13, 557, 558){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Motture 2019" %}, 35; {% cite "Salter and Gilmour n.d." %}

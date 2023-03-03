@@ -24,6 +24,8 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 {% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
 
+(figs. 238, 239, 240, 242, 244, 256, 272, 494){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 1993" %}, 308; {% cite "Allen et al. 2022" %}, 302

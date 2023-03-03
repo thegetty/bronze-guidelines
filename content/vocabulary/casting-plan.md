@@ -23,6 +23,8 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 {% figuregroup "3", "fig-367" %}
 
+(fig. 367){.cs-figure-list .is-print-only}
+
 ## Source
 
 Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}

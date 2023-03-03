@@ -24,6 +24,8 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 {% figuregroup "3", "fig-001, fig-284" %}
 
+(figs. 1, 284){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite "Penny 1993" %}

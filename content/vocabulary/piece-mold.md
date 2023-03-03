@@ -24,6 +24,8 @@ Note: Sometimes very large sculptures—both reliefs and in the round—need to 
 
 {% figuregroup "3", "fig-009, fig-015, fig-018, fig-025, fig-026, fig-062, fig-074, fig-111, fig-116, fig-536, fig-556" %}
 
+(figs. 9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}; {% cite "Boulton 2006" %}

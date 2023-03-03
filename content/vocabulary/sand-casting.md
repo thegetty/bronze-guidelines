@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
 
+(figs. 9, 61, 101, 107, 108, 542){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Penny 1993" %}

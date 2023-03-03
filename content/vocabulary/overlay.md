@@ -24,6 +24,8 @@ Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscr
 
 {% figuregroup "3", "fig-223, fig-340, fig-346, fig-347" %}
 
+(figs. 223, 340, 346, 347){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}

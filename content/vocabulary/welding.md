@@ -23,6 +23,8 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 {% figuregroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
+(figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}; {% cite "Beale 1975" %}, 28–55

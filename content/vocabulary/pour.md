@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-549, fig-560" %}
 
+(figs. 549, 560){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Mattusch 1996" %}, 25; {% cite "Maish 2017" %}, 342

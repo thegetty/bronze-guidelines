@@ -24,6 +24,8 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 
 {% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
+(figs. 322, 323, 324, 326, 330){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Art and Craft Textbook: {% cite "Hughes and Rowe 1989" %}, 45–46

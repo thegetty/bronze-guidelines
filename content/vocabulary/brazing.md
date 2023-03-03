@@ -23,6 +23,8 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {% figuregroup "3", "fig-188, fig-206, fig-229" %}
 
+(figs. 188, 206, 229){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}, 23, 60; {% cite "Bolland 1894" %}, 72

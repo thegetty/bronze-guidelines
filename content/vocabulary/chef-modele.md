@@ -24,6 +24,8 @@ Note: Metal is used rather than plaster because it can better withstand the wear
 
 {% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
+(figs. 102, 103, 210, 531, 553){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and Sturman 2017" %}, 83; {% cite "Lebon 2003" %}, 14

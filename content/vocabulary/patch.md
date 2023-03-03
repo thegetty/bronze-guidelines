@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-035, fig-065, fig-125, fig-152, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198, fig-367" %}
 
+(figs. 35, 65, 125, 152, 166, 168, 170, 172, 173, 187, 194, 198, 367){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett 2008" %}, 280, 283; {% cite "Dillon 2002" %}, 301–2; {% cite "Mattusch 1996" %}, 169–70

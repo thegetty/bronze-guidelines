@@ -24,6 +24,8 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 
 {% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
+(figs. 177, 178, 193, 195, 197, 478){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "Sturman 2004" %}

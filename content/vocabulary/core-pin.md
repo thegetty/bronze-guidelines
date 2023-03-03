@@ -24,6 +24,8 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 {% figuregroup "3", "fig-035, fig-036, fig-037, fig-122, fig-547" %}
 
+(figs. 35, 36, 37, 122, 547){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Penny 1993" %}; {% cite "Lie and Bewer 2014" %}; {% cite "Mattusch 1996" %}, 22–24

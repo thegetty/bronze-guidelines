@@ -24,6 +24,8 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 {% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
+(figs. 5, 62, 104, 277){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Kienlin, Bischoff, and Opielka 2006" %}

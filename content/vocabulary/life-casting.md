@@ -23,6 +23,8 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 {% figuregroup "3", "fig-011, fig-027" %}
 
+(figs. 11, 27){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Smith and Beentjes 2010" %}

@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-546" %}
 
+(fig. 546){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Boulton 2006" %}

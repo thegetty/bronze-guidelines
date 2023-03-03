@@ -23,6 +23,8 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 {% figuregroup "3", "fig-041" %}
 
+(fig. 41){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}; {% cite "Bolland 1894" %}

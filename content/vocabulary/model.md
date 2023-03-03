@@ -24,6 +24,8 @@ Note: When used in reference to general sculptural practice, the term may refer 
 
 {% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
 
+(figs. 1, 52, 75, 130, 472, 559){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}

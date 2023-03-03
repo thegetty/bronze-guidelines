@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 
+(figs. 65, 123, 169, 177, 179, 180, 181, 182, 184, 196){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture and Martin 2001" %}, 222

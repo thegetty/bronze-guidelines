@@ -24,6 +24,8 @@ Note: Casts from any given edition will be essentially identical in form and siz
 
 {% figuregroup "3", "fig-261, fig-551" %}
 
+(figs. 261, 551){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 1975" %}; {% cite "Dillon 2002" %}

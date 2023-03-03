@@ -24,6 +24,8 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 {% figuregroup "3", "fig-001, fig-554" %}
 
+(figs. 1, 554){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}, 300

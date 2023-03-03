@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-104, fig-552" %}
 
+(figs. 104, 552){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}, 23; {% cite "Penny 1993" %}

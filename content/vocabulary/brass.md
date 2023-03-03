@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-133" %}
 
+(fig. 133){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bayley 1991" %}; {% cite "Dillon 2002" %}, 299; {% cite "Penny 1993" %}, 297

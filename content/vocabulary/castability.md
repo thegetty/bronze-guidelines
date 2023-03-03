@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-437, fig-438" %}
 
+(figs. 437, 438){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}

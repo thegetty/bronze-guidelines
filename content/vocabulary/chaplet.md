@@ -24,6 +24,8 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
+(figs. 38, 39, 40, 122){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 40; {% cite "Mattusch 1996" %}, 24; {% cite "Penny 1993" %}, 298; {% cite "Salter and Gilmour n.d." %}

@@ -23,6 +23,8 @@ Note: A common way to characterize the quality of a cast is to report the degree
 
 {% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
+(figs. 127, 152, 153, 155, 165, 184, 205, 464){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Stone 2008" %}

@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-009, fig-016, fig-025, fig-042, fig-122, fig-195" %}
 
+(figs. 9, 16, 25, 42, 122, 195){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Bassett 2008" %}; {% cite "Sturman 2004" %}; {% cite "Stone 2008" %}

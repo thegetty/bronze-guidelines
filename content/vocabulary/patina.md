@@ -24,6 +24,8 @@ Note: Some researchers do not consider applied organic coatings part of the pati
 
 {% figuregroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" %}
 
+(figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Weil 1996" %}, 394–414; {% cite "Ward 2008" %}

@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-006, fig-159" %}
 
+(figs. 6, 159){.cs-figure-list .is-print-only}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett 2008" %}
