@@ -47,16 +47,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 671, 683
-
-#### Alternate Translation
-
-- *Edition* | Source: {% cite "Mietzsch 2009" %}, 103
-
 ### **French**: *{{ lang.fr }}*
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
@@ -72,6 +62,16 @@ Note: Le nombre d'épreuves dépend de la volonté de l'artiste ou de celle du p
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Lebon et al. 2016" %}, 330
 
 Art and Craft Textbook: {% cite "Rama 1988" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 671, 683
+
+#### Alternate Translation
+
+- *Edition* | Source: {% cite "Mietzsch 2009" %}, 103
 
 ### **Italian**: *{{ lang.it }}*
 

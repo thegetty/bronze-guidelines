@@ -29,14 +29,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
-
-#### Source
-
-{% cite "Wallack 1840" %}, 191–219
-
 ### **French**: *{{ lang.fr }}*
 
 Terme générique décrivant toute application d’une couche métallique exogène à la surface d’un bronze.
@@ -50,6 +42,14 @@ Note: La {% def "dorure" %}, l’argenture, et dans une moindre mesure l’étam
 #### Sources
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
+
+### **German**: *{{ lang.de }}*
+
+In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
+
+#### Source
+
+{% cite "Wallack 1840" %}, 191–219
 
 ### **Italian**: *{{ lang.it }}*
 

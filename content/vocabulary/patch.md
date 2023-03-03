@@ -34,12 +34,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
-
 ### **French**: *{{ lang.fr }}*
 
 Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la {% def "brasage" %}, à la {% def "soudage" %} et même à la coulée secondaire sont également possibles.
@@ -57,6 +51,12 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 #### Alternate Translation
 
 - *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
 ### **Italian**: *{{ lang.it }}*
 

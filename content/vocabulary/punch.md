@@ -43,12 +43,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 718
-
 ### **French**: *{{ lang.fr }}*
 
 Un des deux grands types de ciselets (dit aussi « mat », l’autre grand type étant le « ciselet clair ») dont la partie active, de section quadrangulaire ou circulaire, texturée ou lisse, permet de donner à la surface du bronze une certaine texture, par matage.
@@ -62,6 +56,12 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 #### Alternate Translation
 
 - *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 718
 
 ### **Italian**: *{{ lang.it }}*
 

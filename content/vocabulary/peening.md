@@ -37,12 +37,6 @@ Copper Industry: {% cite "Palmer 1929" %}, 294
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Bol 1985" %}, 142
-
 ### **French**: *{{ lang.fr }}*
 
 Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la {% def "porosité" %} ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
@@ -52,6 +46,12 @@ Traitement mécanique de surfaçage directement au marteau à panne plane ou lé
 Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening », qui renvoie à la fois au matage et au grenaillage.
 
 {% endbackmatter %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Bol 1985" %}, 142
 
 ### **Italian**: *{{ lang.it }}*
 

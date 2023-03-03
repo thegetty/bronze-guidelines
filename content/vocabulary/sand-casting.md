@@ -33,18 +33,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 723
-
-#### Alternate Translations
-
-- *Sandguss* oder
-
-- *Sandgussverfahren*
-
 ### **French**: *{{ lang.fr }}*
 
 Technique de fonderie utilisant un {% def "moule réfractaire" %} en sable.
@@ -72,6 +60,18 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 - *moulage en sable* | Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
 
 - *moulage en sable vert* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 723
+
+#### Alternate Translations
+
+- *Sandguss* oder
+
+- *Sandgussverfahren*
 
 ### **Italian**: *{{ lang.it }}*
 

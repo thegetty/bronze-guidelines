@@ -44,10 +44,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-Source: {% cite "Maaz 2010" %}, 710
-
 ### **French**: *{{ lang.fr }}*
 
 Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en bronze.
@@ -70,6 +66,10 @@ Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({%
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 634; {% cite "Lebon 2012" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 375
+
+### **German**: *{{ lang.de }}*
+
+Source: {% cite "Maaz 2010" %}, 710
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -37,12 +37,6 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *metallische Verbindung*
-
 ### **French**: *{{ lang.fr }}*
 
 Joint métal-métal faisant intervenir du métal liquide (brasage ou soudage par fusion), par opposition à joint mécanique.
@@ -52,6 +46,12 @@ Joint métal-métal faisant intervenir du métal liquide (brasage ou soudage par
 Note: Ce terme a été introduit par les membres de CAST:ING – et reste débattu – pour permettre de décrire un assemblage quand bien même il n’est pas possible de distinguer une brasure d’un joint obtenu par soudage par fusion.
 
 {% endbackmatter %}
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *metallische Verbindung*
 
 ### **Italian**: *{{ lang.it }}*
 

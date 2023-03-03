@@ -37,24 +37,6 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-#### Alternate Translations
-
-- *Formfüllungsvermögen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-- *Gießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
-
-- *Gießeingeschaften* | Source: {% cite "Brunhuber 1988" %}
-
-- *Gießfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
-
-- *Vergießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Aptitude d’un métal à remplir un moule réfractaire dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
@@ -74,6 +56,24 @@ Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique d
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %}, 174
 
 General Dictionary: {% cite "Office québécois de la langue française n.d." %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+#### Alternate Translations
+
+- *Formfüllungsvermögen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Gießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
+
+- *Gießeingeschaften* | Source: {% cite "Brunhuber 1988" %}
+
+- *Gießfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
+
+- *Vergießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

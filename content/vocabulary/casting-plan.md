@@ -33,8 +33,6 @@ Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
 ### **French**: *{{ lang.fr }}*
 
 Plan de découpage prévu par le {% def "fondeur" %} d’une sculpture en plusieurs éléments coulés séparément.
@@ -48,6 +46,8 @@ Note: Ce terme est très récent, il a été proposé par Benoît Mille comme é
 #### Source
 
 Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
+
+### **German**: *{{ lang.de }}*
 
 ### **Italian**: *{{ lang.it }}*
 

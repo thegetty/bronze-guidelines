@@ -29,12 +29,6 @@ Note: Both “cast” and “casting” can be correctly used as nouns, but the 
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *Gussstück* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Statue ou plus généralement objet métallique obtenu par fonderie. Attention à l’homonyme fonte qui désigne la fonte de fer.
@@ -59,6 +53,12 @@ Source: Historical: {% cite "Félibien 1690" %}, 623
 - *pièce coulée* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *pièce d'art* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *Gussstück* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

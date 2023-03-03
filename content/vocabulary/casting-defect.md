@@ -40,8 +40,6 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
 ### **French**: *{{ lang.fr }}*
 
 Défaut non intentionnel dans l’objet survenant lors de la {% def "coulée" %}.
@@ -63,6 +61,8 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 - *anomalie de fonderie* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *défaut de coulée* | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+
+### **German**: *{{ lang.de }}*
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -29,16 +29,6 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Alscher 1987" %}, 554
-
-#### Alternate Translation
-
-- *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
-
 ### **French**: *{{ lang.fr }}*
 
 Terme réservé à la {% def "fonte à la cire perdue" %}. Désigne la partie externe du {% def "moule réfractaire" %}, qui peut être à base de plâtre ou d'argile, notamment.
@@ -64,6 +54,16 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 - *moule de coulée* | Sources: Cultural Heritage: {% cite "Rolley 1994" %}, 69; {% cite "Mille and Robcis 2012" %}; {% cite "Azéma and Mille 2013b" %}; Historical: {% cite "Gonon 1876" %}, 6; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *potée* | Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Alscher 1987" %}, 554
+
+#### Alternate Translation
+
+- *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
 
 ### **Italian**: *{{ lang.it }}*
 

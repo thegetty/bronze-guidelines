@@ -38,12 +38,6 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Koller and Baumer 2000" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Couche volontairement appliquée en surface d’un bronze pour le protéger ou le décorer, constituée d’un matériau différent du substrat en bronze. Une grande variété de matériaux peut être utilisée, depuis des substances naturelles (laques, résines, huiles, cires) jusqu’à des produits synthétiques (résines, peintures).
@@ -59,6 +53,12 @@ Note: Ne pas confondre avec les {% def "patine" "patines" %} chimiques, qui cont
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 656; {% cite "Aucouturier et al. 2003" %}
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Koller and Baumer 2000" %}
 
 ### **Italian**: *{{ lang.it }}*
 

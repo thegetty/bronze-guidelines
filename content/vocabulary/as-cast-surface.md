@@ -41,16 +41,6 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
-
-#### Alternate Translation
-
-- *gussrauhe Oberfläche*
-
 ### **French**: *{{ lang.fr }}*
 
 Surface du bronze en sortie de {% def "moule réfractaire" %}, juste après le décochage, avant la {% def "réparure" %}.
@@ -70,6 +60,16 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 - *surface brute de fonderie* | Source: {% cite "Baudry and Bozo 1978" %}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
+
+#### Alternate Translation
+
+- *gussrauhe Oberfläche*
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -41,12 +41,6 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
-
 ### **French**: *{{ lang.fr }}*
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
@@ -64,6 +58,12 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 #### Alternate Translation
 
 - *assemblage par tenon et mortaise*
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
 
 ### **Italian**: *{{ lang.it }}*
 

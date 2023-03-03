@@ -33,12 +33,6 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 671
-
 ### **French**: *{{ lang.fr }}*
 
 Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "fonte à la cire perdue" "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
@@ -58,6 +52,12 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 - *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
 
 - *pré-modèle* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 671
 
 ### **Italian**: *{{ lang.it }}*
 

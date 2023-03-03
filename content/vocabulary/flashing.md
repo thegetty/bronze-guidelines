@@ -41,16 +41,6 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-## Source
-
-Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
-
-#### Alternate Translation
-
-- *Gussgrat*
-
 ### **French**: *{{ lang.fr }}*
 
 {% def "Défaut de fonderie" %} où le métal liquide pénètre dans des fissures du {% def "moule réfractaire" %}. S’agissant de la partie interne du moule réfractaire (le {% def "noyau" %}, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule réfractaire, un défaut similaire apparaît mais sur la surface externe du bronze (notamment — mais pas seulement — à l’endroit des joints de moule quand le moule est constitué de plusieurs parties assemblées).
@@ -80,6 +70,16 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 - *gerçure* | Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
 
 - *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
+
+#### Alternate Translation
+
+- *Gussgrat*
 
 ### **Italian**: *{{ lang.it }}*
 

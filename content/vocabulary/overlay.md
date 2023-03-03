@@ -51,16 +51,6 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-A general term closer to “coating”
-
-#### Alternate Translation
-
-- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
-
-- *Verzierung* (a general term closer to “decoration” or “ornament”)
-
 ### **French**: *{{ lang.fr }}*
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
@@ -78,6 +68,16 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 #### Alternate Translation
 
 - *damasquinure* (Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
+
+### **German**: *{{ lang.de }}*
+
+A general term closer to “coating”
+
+#### Alternate Translation
+
+- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
+
+- *Verzierung* (a general term closer to “decoration” or “ornament”)
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -37,12 +37,6 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
-
 ### **French**: *{{ lang.fr }}*
 
 Pour un bronze, transformation chimique du métal en un composé non métallique sous l’action d’un environnement particulier. Désigne aussi le produit résultant.
@@ -52,6 +46,12 @@ Pour un bronze, transformation chimique du métal en un composé non métallique
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 648; {% cite "Aucouturier et al. 2003" %}; {% cite "Robbiola 2015" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -40,18 +40,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 696
-
-#### Alternate Translations
-
-- *Kanalnetz* | Source: {% cite "Alscher 1987" %}, 555
-
-- *Versorgungskanäle*
-
 ### **French**: *{{ lang.fr }}*
 
 Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la {% def "coulée" %}. Désigne, pour les procédés à la cire perdue, les éléments en cire servant cette à fonction.
@@ -77,6 +65,18 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 - *jets* (Certains auteurs distinguent les jets des attaques, ces dernières désignant exclusivement les conduits reliant les jets à l’épreuve en cire ({% cite "Rama 1988" %}, 254; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Il existe tout un répertoire de termes liés : attaques de coulée ({% cite "Cuénin 1997a" %}, 2), système d’attaque ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}).) | Sources: Copper Industry: {% cite "Cuénin 1997b" %}, 2; Historical: {% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; Art and Craft Textbooks: % cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75;{% cite "Rama 1988" %}, 253; {% cite "Lambert 2002" %}, 271
 
 - *tranches* (Spécifique à la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 628; Art and Craft Textbook: {% cite "Rama 1988" %}, 253
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 696
+
+#### Alternate Translations
+
+- *Kanalnetz* | Source: {% cite "Alscher 1987" %}, 555
+
+- *Versorgungskanäle*
 
 ### **Italian**: *{{ lang.it }}*
 

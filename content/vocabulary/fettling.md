@@ -35,20 +35,6 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-#### Alternate Translations
-
-- *Entgraten* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-- *Fertigputzen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-- *Putzen* (This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing | Source: {% cite "Brunhuber 1986" %}, 747
-
 ### **French**: *{{ lang.fr }}*
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du moule réfractaire, avant {% def "ciselure" %} et/ou patination.
@@ -81,6 +67,20 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 - *réparage* | Sources: Historical: {% cite "Mariette 1768" %}, 127; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 762
 
 - *reparure* (variante orthographique) (Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.) | Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+#### Alternate Translations
+
+- *Entgraten* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Fertigputzen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Putzen* (This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing | Source: {% cite "Brunhuber 1986" %}, 747
 
 ### **Italian**: *{{ lang.it }}*
 

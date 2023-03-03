@@ -41,16 +41,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Wallack 1840" %}; {% cite "Müller 1902" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-#### Alternate Translation
-
-- *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 {% def "Moule" %} en matériau réfractaire pour la {% def "coulée" %}.
@@ -72,6 +62,16 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 - *moule de fonderie* (terme utilisé notamment en archéologie.) | Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
 
 - *chape* (attention, ne désigne que la partie externe du moule réfractaire.) | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Wallack 1840" %}; {% cite "Müller 1902" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+#### Alternate Translation
+
+- *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

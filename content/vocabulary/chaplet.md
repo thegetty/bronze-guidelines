@@ -51,16 +51,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
-
-#### Alternate Translation
-
-- *Kernhalter* | Source: {% cite "Willer 1994" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Petite plaque métallique disposée sur le {% def "noyau" %} ou sur la paroi interne du {% def "moule réfractaire" %} pour maintenir le noyau en place lors de la {% def "coulée" %}, et dont l’épaisseur déterminera l’épaisseur de la {% def "fonte" %}.
@@ -89,6 +79,16 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 - *plaque porte noyau* (Terme réservé à la coulée sous pression.) | Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 - *support de noyau* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
+
+#### Alternate Translation
+
+- *Kernhalter* | Source: {% cite "Willer 1994" %}
 
 ### **Italian**: *{{ lang.it }}*
 

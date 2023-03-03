@@ -52,12 +52,6 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Tige ou clou, parfois fil, généralement en fer servant à maintenir le {% def "noyau" %} en place dans le {% def "moule réfractaire" %} lors de la {% def "coulée" %}.
@@ -81,6 +75,12 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 - *fer de maintien* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 249
 
 - *fer de soutien*
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

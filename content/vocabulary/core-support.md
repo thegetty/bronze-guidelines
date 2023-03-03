@@ -30,12 +30,6 @@ Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources:
-
-{% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Terme général pour décrire tout dispositif servant à maintenir le {% def "noyau" %} en place dans le {% def "moule réfractaire" %} lors de la {% def "coulée" %} (fer à noyau, cale à noyau, voire portée de noyau et {% def "armature" %}).
@@ -53,6 +47,12 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 #### Alternate translations
 
 - *support pour noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Sources:
+
+{% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -38,12 +38,6 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
-
 ### **French**: *{{ lang.fr }}*
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la fonte au sable.
@@ -76,6 +70,12 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 - *modèle mère* | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 615
 
 - *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
 ### **Italian**: *{{ lang.it }}*
 

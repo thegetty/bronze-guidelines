@@ -27,12 +27,6 @@ Cultural Heritage: {% cite "Drayman-Weisser 2000" %}; {% cite "Oddy 1993" %}; {%
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Lein 2004" %}, 58
-
 ### **French**: *{{ lang.fr }}*
 
 Opération consistant à appliquer une couche d’or en surface, quel que soit le procédé. Désigne également le résultat.
@@ -48,6 +42,12 @@ Note: Nous n’avons pas trouvé mention du substantif « dorure » dans {% ci
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Azéma and Mille 2013b" %}; {% cite "Aucouturier et al. 2003" %}
 
 Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Lein 2004" %}, 58
 
 ### **Italian**: *{{ lang.it }}*
 

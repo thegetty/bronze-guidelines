@@ -32,20 +32,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
-
-#### Sources
-
-{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}, 139–40
-
-#### Alternate Translations
-
-- *Anguss*
-
-- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Type de réparation utilisé pour combler un trou ou un manque sur un bronze en y coulant un alliage de composition proche.
@@ -61,6 +47,20 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Az�
 - *grains de bronze* | Source: Historical: {% cite "Mariette 1768" %}, 131
 
 - *réparation par surcoulée*
+
+### **German**: *{{ lang.de }}*
+
+Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
+
+#### Sources
+
+{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}, 139–40
+
+#### Alternate Translations
+
+- *Anguss*
+
+- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
 
 ### **Italian**: *{{ lang.it }}*
 

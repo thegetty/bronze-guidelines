@@ -37,12 +37,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-## Source
-
-{% cite "Brunhuber 1988" %}
-
 ### **French**: *{{ lang.fr }}*
 
 {% def "Défaut de fonderie" %} caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
@@ -58,6 +52,12 @@ Note: Il est fréquent de caractériser la qualité d’une fonte par son degré
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 646; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+{% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 

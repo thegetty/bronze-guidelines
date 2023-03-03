@@ -44,12 +44,6 @@ Other: {% cite "Van Langh 2012" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
-
 ### **French**: *{{ lang.fr }}*
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
@@ -81,6 +75,12 @@ Art and Craft Textbooks: {% cite "De Bois 1999" %}, 16; {% cite "Rama 1988" %}, 
 #### Alternate Translation
 
 - *ciselure-réparure*
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
 ### **Italian**: *{{ lang.it }}*
 

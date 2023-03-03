@@ -42,18 +42,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Müller 2014" %}, 170–71
-
-#### Alternate Translations
-
-- *Negativformteile*
-
-- *Hilfnegative*
-
 ### **French**: *{{ lang.fr }}*
 
 Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
@@ -77,6 +65,18 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 #### Alternate Translation
 
 - *creux* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Müller 2014" %}, 170–71
+
+#### Alternate Translations
+
+- *Negativformteile*
+
+- *Hilfnegative*
 
 ### **Italian**: *{{ lang.it }}*
 

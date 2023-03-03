@@ -36,12 +36,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/core>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-## Source
-
-{% cite "Brunhuber 1986" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Partie interne du {% def "moule réfractaire" %} déterminant le volume interne d’une fonte creuse. Le noyau est souvent (mais pas systématiquement) réalisé dans le même matériau que la partie externe du moule réfractaire (la chape). Le noyau peut-être plein ou creux.
@@ -59,6 +53,12 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 #### Alternate Translations
 
 - *âme* | Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+{% cite "Brunhuber 1986" %}
 
 ### **Italian**: *{{ lang.it }}*
 

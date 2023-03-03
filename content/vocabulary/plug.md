@@ -42,18 +42,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-Used primarily in speech
-
-#### Alternate Translations
-
-- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
-
-- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
-
-- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
-
 ### **French**: *{{ lang.fr }}*
 
 Type de réparation comblant un trou traversant comme ceux laissés par les {% def "noyau" "fers à noyaux" %}. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
@@ -79,6 +67,18 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 - *goupille* (On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.) | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *tige* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
+
+### **German**: *{{ lang.de }}*
+
+Used primarily in speech
+
+#### Alternate Translations
+
+- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
+
+- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
+
+- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
 
 ### **Italian**: *{{ lang.it }}*
 

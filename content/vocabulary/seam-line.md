@@ -42,12 +42,6 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 696
-
 ### **French**: *{{ lang.fr }}*
 
 Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moule" "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
@@ -77,6 +71,12 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 - *suture* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
 - *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {% cite "Launay 1827" %}, 2:261
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 696
 
 ### **Italian**: *{{ lang.it }}*
 

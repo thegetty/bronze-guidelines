@@ -42,16 +42,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *mehrteilige Form*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 730
-
 ### **French**: *{{ lang.fr }}*
 
 {% def "Moule" %} constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
@@ -65,6 +55,16 @@ Note: Pour la sculpture en bronze, un moule à pièces peut aussi bien désigner
 #### Source
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *mehrteilige Form*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 730
 
 ### **Italian**: *{{ lang.it }}*
 

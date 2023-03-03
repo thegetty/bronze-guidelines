@@ -53,8 +53,8 @@ additional_contributors: Ann Boulton, Anne-Lise Desmas, Jean Dubos, Irene Gunsto
   <thead>
     <tr>
       <th>English</th>
-      <th>German</th>
       <th>French</th>
+      <th>German</th>
       <th>Italian</th>
       <th>Chinese</th>
     </tr>
@@ -64,8 +64,8 @@ additional_contributors: Ann Boulton, Anne-Lise Desmas, Jean Dubos, Irene Gunsto
 {% for page in vocabPages %}
   <tr>
     <td><a href="{{ page.url}}">{{ page.data.title }}</a></td>
-    <td>{{ page.data.lang.de }}</td>
     <td>{{ page.data.lang.fr }}</td>
+    <td>{{ page.data.lang.de }}</td>
     <td>{{ page.data.lang.it }}</td>
     <td>{{ page.data.lang.zh }}</td>
   </tr>

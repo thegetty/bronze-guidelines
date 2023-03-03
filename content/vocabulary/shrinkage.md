@@ -37,16 +37,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *Schwindung*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des défauts de fonderie (soufflures, retassures, etc).
@@ -62,6 +52,16 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 644
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 38; {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %}, 375
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *Schwindung*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 
