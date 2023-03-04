@@ -595,6 +595,30 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .vocab-table td {
   width: 20%;
 }
+/* Make the vocab rows act as single clickable unit */
+.quire-page__content .content .vocab-table thead th {
+  background-color: var(--black);
+  border-color: var(--black) !important;
+  color: var(--white);
+}
+.quire-page__content .content .vocab-table tbody tr:hover {
+  background-color: var(--light);
+}
+.quire-page__content .content .vocab-table td {
+  padding: 0;
+}
+.quire-page__content .content .vocab-table a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url) {
+  display: block;
+  color: currentColor !important;
+  border-bottom-width: 0 !important;
+  padding: .5em .75em;
+}
+.quire-page__content .content .vocab-table a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):hover {
+  border-bottom-width: 0 !important;
+}
+.quire-page__content .content a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):focus {
+  background-color: transparent;
+}
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
