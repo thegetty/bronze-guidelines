@@ -201,6 +201,9 @@ a.quire-definition__content__more-link {
   padding-left: 0;
   padding-right: 0;
 }
+.quire-page__content .container .content .backmatter {
+  font-family: "Noto Sans", sans-serif;
+}
 /* COVER
 ============================================================================= */
 
@@ -659,6 +662,19 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-bottom: 0;
   font-size: .875rem;
   border-bottom-width: 0;
+}
+/* Make a better layout for Alternate Translations */
+.quire-page.vocabulary .quire-page__content .content .accordion ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.quire-page.vocabulary .quire-page__content .content .accordion li {
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+.quire-page.vocabulary .quire-page__content .content .accordion li p {
+  margin-bottom: .25em;
 }
 
 /*  VISUAL ATLAS PAGE
@@ -1503,15 +1519,14 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.vocabulary .quire-page__header__title {
     margin: 0;
   }
-  .quire-page.vocabulary h2,
-  .quire-page.vocabulary div.accordion h2 {
+  .quire-page.vocabulary h2 {
     font-size: 1rem;
     margin: 1rem 0 !important;
   }
-  .quire-page.vocabulary h2#translations {
+  /* .quire-page.vocabulary h2#translations {
     font-size: 1.375rem;
     margin: 1.5rem 0 1rem !important;
-  }
+  } */
   .quire-page.vocabulary h3,
   .quire-page.vocabulary div.accordion h3 {
     font-size: 1.375rem;
@@ -1529,7 +1544,7 @@ table .poor { background-color: #F2F9F1; }
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {
-    margin-top: 0;
+    margin-top: -1rem;
     border-bottom-width: 0;
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
