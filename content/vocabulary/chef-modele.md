@@ -48,8 +48,6 @@ Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle origina
 
 {% endbackmatter %}
 
-<br />
-
 #### Sources
 
 Cultural Heritage: {% cite "Lebon 2012" %}

@@ -62,8 +62,6 @@ Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23�
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Fleming and Tilch 1993" %}, 127
 
-#### Alternate Translations
-
 ### **Italian**: *{{ lang.it }}*
 
 #### Sources
