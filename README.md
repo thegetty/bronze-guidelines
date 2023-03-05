@@ -64,6 +64,10 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 ## Customizations Made to 11ty Templates/Files
 
+**_includes/components/figure/caption.js**
+**_includes/components/figure/media-embed-url.js**
+Fixed/adjusted output of Vimeo URL for PDF output
+
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 

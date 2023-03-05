@@ -112,6 +112,7 @@ figure_list:
   - id: "fig-008"
     src: "figures/008/base.jpg"
     zoom: true
+    class: pdf-full-width
     label: "Figure 8"
     caption: "View of the inside cavity showing remnants of the casting core composed by pre-baked bricks (see overlay) and clayey refractory material. See also the iron armature rods and wires (image width ~50 cm). Barthélemy Prieur (French, ca. 1536–1611), Peace, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See %%Seelig-Teuwen, Bourgarit, and Bewer 2014%%; %%Castelle et al. 2021%%."
     annotations:
@@ -138,13 +139,14 @@ figure_list:
   - id: "fig-010"
     src: "figures/010.jpg"
     # media_type: iiif
+    class: pdf-65-percent-float
     label: "Figure 10"
     caption: "Large casting flaws in the arms of a Khmer divinity reveal the tan-colored, clay-based core that remains inside the bronze. Note the very thin walls of the bronze at the edges of the losses. Standing Buddha in Abhayamudrā, post-Angkorian, Prasat Bakan (Pursat), 16th century, H. 24.2 cm (National Museum of Cambodia, inv. Ga.3330)."
 
   - id: "fig-011"
     src: "figures/011.png"
     # media_type: iiif
-    class: pdf-full-width
+    class: pdf-65-percent-float
     label: "Figure 11"
     caption: "Diagram depicting an example of life-casting: 1) the lizard is placed in a bed of clay; rolls of wax are strategically joined to the lizard to form the sprue system; a clay wall is then built around it; 2) a plaster-based slurry is poured over the lizard and sprue system, embedding the lizard and sprues, forming the top half of the refractory mold; 3) when set, the mold is turned over, the bottom clay slab is removed, and new clay walls are built up to contain the other half of the mold and additional refractory material is poured in; 4) the mold is heated until dry; the wax and as much of the lizard as possible are burned away; the bone remnants can be removed by opening the mold; 5) the two sides of the mold are clamped together and filled with molten bronze; 6) the refractory mold and sprue system are removed from the cast; 7) the finishing of the solid bronze includes sharpening of details as needed and patination. Diagram based on research related to the Making and Knowing Project at Columbia University. See %%Lacey and Lewis 2020%%."
     # annotations: true
@@ -186,6 +188,7 @@ figure_list:
   - id: "fig-017"
     src: "figures/017.jpg"
     # media_type: iiif
+    class: pdf-65-percent-float
     label: "Figure 17"
     caption: "Application of wax slabs on the internal surface of one half of a plaster mold used for a bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
@@ -212,6 +215,7 @@ figure_list:
   - id: "fig-021"
     src: "figures/021.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 21"
     caption: "Assembled silicone rubber mold of the head and neck of the horse awaiting wax application along with bucket of red casting wax, wax sprues, a casting cup freshly formed in its mold, and brushes for wax application. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
@@ -224,7 +228,7 @@ figure_list:
   - id: "fig-023"
     src: "figures/023.png"
     # media_type: iiif
-    class: pdf-full-width
+    class: pdf-65-percent-float
     label: "Figure 23"
     caption: "Diagram of a version of the lasagna technique. 1) a plaster piece mold is built up in sections around the clay model; 2) the reusable mold is disassembled; 3) sections of the mold are lined with sheets of clay that Cellini referred to as “lasagna” and that create the space to be filled eventually by bronze; 4) a fire-resistant clay core is built up around an iron armature to fit snugly into the lasagna-lined mold and dried; 5) the piece mold is disassembled in order to remove the lasagna; 6) the core is baked and reinforced by binding with wires; the fired core and plaster piece mold are assembled; and the armature and mold extension at the base help to preserve the space created by the lasagna; 7) molten wax poured into the space between the core and the piece mold creates the inter-model; when freed from the mold it is reworked to the artist’s liking; 8) the sprue system is joined to the inter-model and invested with refractory mold material; 9) the mold is then heated until dry and all traces of wax are burned out; 10) molten bronze is poured into the baked mold until it is full; 11) when the metal has cooled, the refractory mold is broken away, the armature and core removed, and the sprue system cut off; 12) separately cast parts, such as a base, may be added at this stage, and the surface color may be enhanced by various means, including patination or gilding. Sketch based on Benvenuto Cellini (Italian 1500–1571), Bust of Bindo Altoviti, 1549, H. 85.2 cm (Isabella Stewart Gardner Museum inv. S26e21). See %%Bewer and MacNamara 2012%%."
     # annotations: true
@@ -232,13 +236,14 @@ figure_list:
   - id: "fig-024"
     src: "figures/024.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 24"
     caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-025"
     src: "figures/025.png"
     # media_type: iiif
-    class: pdf-full-width
+    class: pdf-65-percent-float
     label: "Figure 25"
     caption: "Diagram depicting a version of the cut-back-core process: 1) a plaster piece mold composed of smaller pieces to account for the undercuts is formed on the model; the sections are held together by an outer mother mold; 2) the piece mold is removed from the model; core support rods and wires are positioned as needed in the partially reassembled empty mold; 3) the mold is fully reassembled and filled with refractory material (here plaster-based) to create a replica of the original model; 4) the surface of the replica is pared down (cut back) to form the core of the mold, thereby creating the space that will be filled first by wax and later by metal; 5) the cut-back core is placed back into the piece mold, suspended in place by the core support rods that also serve as core pins in this example; 6) molten wax is filled into the cavity around the core, thereby creating the inter-model; 7) the inter-model is removed from the mold and reworked as needed; the sprue system is joined to it with a heated tool and the assemblage is invested in a refractory mold; 8) the mold is baked to dry it thoroughly and to burn out all traces of the wax; 9) the mold is filled with molten metal; 10) the bronze is freed of the investment, sprues, and protruding core supports; 11) in the final stages the bronze surface may be refinished with details, then joined to the separately cast arms and base and a patina applied. Diagram based on Michel Anguier (French 1612/14–1686), *Melancholy* Pluto, before 1699, H. 23.9 cm (Staatliche Kunstsammlungen, Grünes Gewölbe, Dresden, inv. IX.37). See %%Bassett and Bewer 2014%%."
     # annotations: true
@@ -893,6 +898,7 @@ figure_list:
   - id: "fig-091"
     src: "figures/091/base.jpg"
     zoom: true
+    class: pdf-85-percent-width
     label: "Figure 91"
     caption: "X-radiograph showing the very thin and even metal walls (2 mm). Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See %%Mille et al. 2010%%."
     annotations:
@@ -1147,8 +1153,8 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/123/patch.png"
-            label: "Patch"
+          - src: "figures/123/cast-on-repair.png"
+            label: Cast-On Repair"
             selected: true
 
   - id: "fig-124"
@@ -1206,6 +1212,7 @@ figure_list:
   - id: "fig-130"
     src: "figures/130.jpg"
     media_type:
+    class: pdf-65-percent-float
     label: "Figure 130"
     caption: "Detail of the rear of the Matilda statuette showing different tool marks. The wider striations on the right and bottom were most likely made in the clay model. The finer parallel lines coming down on the left at a diagonal in the fold appear to have been made at the wax stage with a finer-toothed tool. After a model by Gian Lorenzo Bernini (Italian, 1598–1680), *Countess Matilda of Tuscany*, ca. 1633–34, H. 40 cm (Harvard Art Museums / Fogg Museum, partial gift of Max Falk and partial purchase through the Director’s Acquisition Fund, 1998.1). See %%Bewer 1999%%."
 
@@ -1451,6 +1458,7 @@ figure_list:
   - id: "fig-166"
     src: "figures/166.jpg"
     media_type: dynamic
+    class: pdf-65-percent-float
     label: "Figure 166"
     caption: "360-degree general view (click on the image to spin) before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. Eros of Agde, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See %%Mille 2012%%."
 
@@ -1526,6 +1534,7 @@ figure_list:
   - id: "fig-176"
     src: "figures/176/base.jpg"
     zoom: true
+    class: pdf-85-percent-width
     label: "Figure 176"
     caption: "Detail of a tabernacle relief (H. 25 cm). The relief was cast with a large flaw. The figure of Christ was entirely remodeled in wax and cast separately in bronze. The cast repair was then inserted into the casting flaw and chased. Due to differences in the color of the alloy, the repair became visible while cleaning the surface (upper image). As seen at the back (lower image), once inserted in the primary cast, the newly cast repair was hammered to secure it. Note: the lower image has been rotated 180 degrees so that the two images are visually aligned. Girolamo (Italian, ca. 1510–1584/89) and Ludovico Lombardo (Italian, 1507/8–1575), Tabernacle, Chapel of the Holy Sacrament, Fermo Cathedral, Marche, Italy, by 1570–71, H. 230 cm."
     annotations:
@@ -1546,8 +1555,8 @@ figure_list:
           - src: "figures/177/threaded-plugs.png"
             label: "Threaded Plugs"
             selected: true
-          - src: "figures/177/cast-on-repairs.png"
-            label: "Cast-On Repairs"
+          - src: "figures/177/cast-on-repair.png"
+            label: "Cast-On Repair"
             selected: true
 
   - id: "fig-178"
@@ -2067,7 +2076,7 @@ figure_list:
   - id: "fig-227"
     src: "figures/227/base.jpg"
     zoom: true
-    class: pdf-full-width
+    class: pdf-65-percent-float
     label: "Figure 227"
     caption: "The drapery of the bronze arm was cast in sections and assembled using a flow fusion weld (pink overlay) that is only visible from the interior. The welding appears as a chain of oval shapes. The arm was then joined to the drapery by welding (green overlay) with securing pins (blue overlay). Arm of a statue found in the Villa of Arconciel, Switzerland, end of the 1st–3rd century CE, greater than life size (Service Archéologique de l’Etat de Fribourg, Switzerland, inv. Arconciel/Es-Nés FR 85). See %%Mille and Serneels 2012%%."
     annotations:
@@ -2572,6 +2581,7 @@ figure_list:
   - id: "fig-303"
     src: "figures/303.jpg"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 303"
     caption: "Ternary diagram for gold-silver-copper alloys indicating the color of different alloy compositions."
 
@@ -2585,7 +2595,7 @@ figure_list:
   - id: "fig-305"
     src: "figures/305.png"
     # media_type: iiif
-    class: pdf-full-width
+    class: pdf-45-percent-float
     label: "Figure 305"
     caption: "Decision chart for assessing the condition and characterizing an archaeological patina layer (in a museum laboratory setting). The protocol can be useful for the study of other surface layers as well, including metal plating and inlays. Three scenarios are covered: A) sampling is not possible; B) powder or flake samples are available; and C) cross section sampling is possible. The expected outcome of each approach is indicated at the bottom of the chart."
 
@@ -2971,8 +2981,8 @@ figure_list:
           - src: "figures/364/lost-inlay.png"
             label: "Lost Inlay"
             selected: true
-          - src: "figures/364/brazing.png"
-            label: "Brazing"
+          - src: "figures/364/soldering.png"
+            label: "Soldering"
             selected: true
 
   - id: "fig-365"
@@ -3015,7 +3025,7 @@ figure_list:
   - id: "fig-368"
     src: "figures/368.png"
     # media_type: iiif
-    class: pdf-full-width
+    class: pdf-full-width pdf-85-percent-width
     label: "Figure 368"
     caption: "Poster titled “The Hephaistos database. A tool for the technological study of large bronze statues from Classical Antiquity,” presented at the XVIIIth congress on ancient bronzes in Zurich, 2013. See %%Descamps-Lequime and Mille 2017%%."
 
@@ -4064,6 +4074,7 @@ figure_list:
   - id: "fig-521"
     src: "figures/521.jpg"
     # media_type: iiif
+    class: pdf-65-percent-float
     label: "Figure 521"
     caption: "Example of Thai statuette cast in an unleaded high-tin bronze (16wt% Sn, 0.4wt% Pb, ICP-AES analyses). Buddha in Vitarkamudrā, Mon culture of Dvāravatī, central Thailand, 7th–8th century, H. 19 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3785). See %%Bourgarit et al. 2003%%; %%Mechling et al. 2018%%."
 
@@ -4077,6 +4088,7 @@ figure_list:
   - id: "fig-523"
     src: "figures/523.jpg"
     # media_type: iiif
+    class: pdf-65-percent-float
     label: "Figure 523"
     caption: "Jean Bullant (French, 1515–1578), Anne de Montmorency Funerary Heart Monument, 1571, H. 128 cm (Musée du Louvre, inv. MR1681-1683). See %%Seelig-Teuwen, Bourgarit, and Bewer 2014%%; %%Castelle et al. 2021%%."
 

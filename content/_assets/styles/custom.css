@@ -1489,6 +1489,42 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content .pdf-full-width {
     column-span: all;
   }
+  /* Full-width image area with caption to right of image */
+  .content figure.q-figure.pdf-45-percent-float,
+  .content figure.q-figure.pdf-65-percent-float  {
+    column-span: all;
+  }
+  .content figure.q-figure.pdf-45-percent-float img,
+  .content figure.q-figure.pdf-65-percent-float img  {
+    float: left;
+    margin-right: .1875in;
+  }
+  .content figure.q-figure.pdf-45-percent-float figcaption,
+  .content figure.q-figure.pdf-65-percent-float figcaption {
+    margin-top: 0;
+  }
+  .content figure.q-figure.pdf-45-percent-float img  {
+    width: 45%;
+  }
+  .content figure.q-figure.pdf-65-percent-float img  {
+    width: 65%;
+  }
+  /* Narrow image in a single column */
+  .content figure.q-figure.pdf-85-percent-width img {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Keep figure labels aligned with text */
+  .quire-page.visual-atlas .q-figure__label {
+    display: inline;
+  }
+  /* Adjust spacing for the video URL in the PDF output */
+  .q-figure__caption-embed-link {
+    font-style: italic;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+  }
   /* Adjust font size and margins for small text items */
   .content figure .q-figure__caption {
     font-size: .875rem;
@@ -1706,7 +1742,7 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.vocabulary {
     page: vocab;
   }
-  .quire-page.quire-visual-atlas {
+  .quire-page.visual-atlas {
     page: atlas;
   }
   /* Case studies */
