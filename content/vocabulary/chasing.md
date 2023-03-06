@@ -23,6 +23,8 @@ Note: In common art historical usage, the term “chasing,” when used for {% d
 
 {% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
+(figs. 105, 248, 249, 252, 253, 255, 511, 550){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}; {% cite "Penny 1993" %}, 298; {% cite "Dillon 2002" %}, 299; {% cite "Bassett 2008" %}, 274
@@ -41,12 +43,6 @@ Other: {% cite "Van Langh 2012" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
 ### **French**: *{{ lang.fr }}*
 
@@ -79,6 +75,12 @@ Art and Craft Textbooks: {% cite "De Bois 1999" %}, 16; {% cite "Rama 1988" %}, 
 #### Alternate Translation
 
 - *ciselure-réparure*
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
 ### **Italian**: *{{ lang.it }}*
 

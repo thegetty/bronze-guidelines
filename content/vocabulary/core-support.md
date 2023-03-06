@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-009, fig-016, fig-025, fig-042, fig-122, fig-195" %}
 
+(figs. 9, 16, 25, 42, 122, 195){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Bassett 2008" %}; {% cite "Sturman 2004" %}; {% cite "Stone 2008" %}
@@ -27,12 +29,6 @@ Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources:
-
-{% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -51,6 +47,12 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 #### Alternate translations
 
 - *support pour noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Sources:
+
+{% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

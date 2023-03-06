@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-549" %}
 
+(fig. 549){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Boulton 2006" %}
@@ -34,12 +36,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -60,6 +56,12 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 - *fondre* | Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 - *jeter* / *jetter* | Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

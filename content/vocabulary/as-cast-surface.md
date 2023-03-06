@@ -24,6 +24,8 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 {% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
+(figs. 5, 62, 104, 277){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Kienlin, Bischoff, and Opielka 2006" %}
@@ -38,16 +40,6 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
-
-#### Alternate Translation
-
-- *gussrauhe Oberfläche*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -68,6 +60,16 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 - *surface brute de fonderie* | Source: {% cite "Baudry and Bozo 1978" %}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
+
+#### Alternate Translation
+
+- *gussrauhe Oberfläche*
 
 ### **Italian**: *{{ lang.it }}*
 

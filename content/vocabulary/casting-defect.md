@@ -24,6 +24,8 @@ Note: Casting defects should not be confused with other defects generated before
 
 {% figuregroup "3", "fig-073, fig-150, fig-151, fig-153, fig-154, fig-155, fig-158, fig-159, fig-161" %}
 
+(figs. 73, 150, 151, 153, 154, 155, 158, 159, 161){.pdf-figure-list}
+
 ## Sources
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}
@@ -37,8 +39,6 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -61,6 +61,8 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 - *anomalie de fonderie* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *défaut de coulée* | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+
+### **German**: *{{ lang.de }}*
 
 ### **Italian**: *{{ lang.it }}*
 

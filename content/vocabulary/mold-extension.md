@@ -24,6 +24,8 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 {% figuregroup "3", "fig-023, fig-041, fig-122, fig-123" %}
 
+(figs. 23, 41, 122, 123){.pdf-figure-list}
+
 ## Source
 
 {% cite "Smith and Sepponen 2019" %}
@@ -39,8 +41,6 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -61,6 +61,8 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 #### Alternate Translation
 
 - *portée* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
+
+### **German**: *{{ lang.de }}*
 
 ### **Italian**: *{{ lang.it }}*
 

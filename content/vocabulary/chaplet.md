@@ -24,6 +24,8 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
+(figs. 38, 39, 40, 122){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 40; {% cite "Mattusch 1996" %}, 24; {% cite "Penny 1993" %}, 298; {% cite "Salter and Gilmour n.d." %}
@@ -48,16 +50,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
-
-#### Alternate Translation
-
-- *Kernhalter* | Source: {% cite "Willer 1994" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -87,6 +79,16 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 - *plaque porte noyau* (Terme réservé à la coulée sous pression.) | Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 - *support de noyau* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
+
+#### Alternate Translation
+
+- *Kernhalter* | Source: {% cite "Willer 1994" %}
 
 ### **Italian**: *{{ lang.it }}*
 

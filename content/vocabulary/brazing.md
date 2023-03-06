@@ -23,6 +23,8 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {% figuregroup "3", "fig-188, fig-206, fig-229" %}
 
+(figs. 188, 206, 229){.pdf-figure-list}
+
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}, 23, 60; {% cite "Bolland 1894" %}, 72
@@ -46,11 +48,6 @@ Other: {% cite "Scott 1991" %}, 138
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 366
-
 ### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
@@ -70,6 +67,11 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 #### Alternate Translations
 
 - *soudure indirecte* (Les termes {% def "soudage" %} ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 366
 
 ### **Italian**: *{{ lang.it }}*
 

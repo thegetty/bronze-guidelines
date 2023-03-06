@@ -24,6 +24,8 @@ Note: Some researchers do not consider applied organic coatings part of the pati
 
 {% figuregroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" %}
 
+(figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Weil 1996" %}, 394–414; {% cite "Ward 2008" %}
@@ -39,12 +41,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -69,6 +65,12 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 #### Alternate Translation
 
 - *couleur* | Source: Historical: {% cite "Félibien 1690" %}, 334
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

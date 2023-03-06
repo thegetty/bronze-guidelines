@@ -23,6 +23,8 @@ Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to 
 
 {% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 
+(figs. 241, 243, 254, 276, 279, 280, 495){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 43
@@ -41,16 +43,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
-
-#### Alternate Translation
-
-- *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Technique de décoration des bronzes par enlèvement de matière à l’aide de burins.
@@ -62,6 +54,16 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 578
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
 Art and Craft Textbook: {% cite "Hamm 1924" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
+
+#### Alternate Translation
+
+- *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
 
+(figs. 1, 76, 544){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}
@@ -38,12 +40,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Weihrauch 1967" %}, 476
-
 ### **French**: *{{ lang.fr }}*
 
 Déclinaison d’un {% def "modèle" %} avec des variations dans la forme ou dans les dimensions.
@@ -55,6 +51,12 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 549
 #### Alternate Translations
 
 - *variante*
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Weihrauch 1967" %}, 476
 
 ### **Italian**: *{{ lang.it }}*
 

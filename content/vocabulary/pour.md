@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-549, fig-560" %}
 
+(figs. 549, 560){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Mattusch 1996" %}, 25; {% cite "Maish 2017" %}, 342
@@ -33,12 +35,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-## Source
-
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 221
 
 ### **French**: *{{ lang.fr }}*
 
@@ -57,6 +53,12 @@ Cultural Heritage: {% cite "Rolley 1994" %}, 70; {% cite "Bewer, Bourgarit, and 
 Copper Industry: {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 371
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 221
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -24,6 +24,8 @@ Note: The term is subject to dispute among CAST:ING members. Depending on discip
 
 {% figuregroup "3", "fig-001, fig-016, fig-023, fig-025, fig-041, fig-055, fig-072, fig-556" %}
 
+(figs. 1, 16, 23, 25, 41, 55, 72, 556){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite "Beentjes 2019" %}
@@ -35,12 +37,6 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
 ### **French**: *{{ lang.fr }}*
 
@@ -67,6 +63,12 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 - *modèle auxiliaire* | Source: Cultural Heritage: {% cite "Mille 2007" %}
 
 - *modèle de cire* (Ce terme est ambigu : un modèle en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.) | Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
 ### **Italian**: *{{ lang.it }}*
 

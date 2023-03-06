@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
 
+(figs. 9, 61, 101, 107, 108, 542){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Penny 1993" %}
@@ -30,18 +32,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 723
-
-#### Alternate Translations
-
-- *Sandguss* oder
-
-- *Sandgussverfahren*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -70,6 +60,18 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 - *moulage en sable* | Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
 
 - *moulage en sable vert* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 723
+
+#### Alternate Translations
+
+- *Sandguss* oder
+
+- *Sandgussverfahren*
 
 ### **Italian**: *{{ lang.it }}*
 

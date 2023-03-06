@@ -24,6 +24,8 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 {% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
+(figs. 43, 65, 127, 211, 212, 213, 217, 218){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cite "Grissom and Harvey 2003" %}
@@ -38,12 +40,6 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
 
 ### **French**: *{{ lang.fr }}*
 
@@ -62,6 +58,12 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 #### Alternate Translation
 
 - *assemblage par tenon et mortaise*
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
 
 ### **Italian**: *{{ lang.it }}*
 

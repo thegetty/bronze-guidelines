@@ -23,6 +23,8 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 {% figuregroup "3", "fig-011, fig-027" %}
 
+(figs. 11, 27){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
@@ -39,16 +41,6 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Lein 2004" %}, 42–45
-
-#### Alternate Translation
-
-- *Abguss über die Natur* | Source: {% cite "Uhlenhuth 1920" %}, 51–53
-
 ### **French**: *{{ lang.fr }}*
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un {% def "moule réfractaire" %}, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
@@ -62,6 +54,16 @@ Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé
 #### Source
 
 Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Lein 2004" %}, 42–45
+
+#### Alternate Translation
+
+- *Abguss über die Natur* | Source: {% cite "Uhlenhuth 1920" %}, 51–53
 
 ### **Italian**: *{{ lang.it }}*
 

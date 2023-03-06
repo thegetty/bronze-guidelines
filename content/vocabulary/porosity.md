@@ -23,6 +23,8 @@ Note: A common way to characterize the quality of a cast is to report the degree
 
 {% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
+(figs. 127, 152, 153, 155, 165, 184, 205, 464){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Stone 2008" %}
@@ -34,12 +36,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-## Source
-
-{% cite "Brunhuber 1988" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -56,6 +52,12 @@ Note: Il est fréquent de caractériser la qualité d’une fonte par son degré
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 646; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+{% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 

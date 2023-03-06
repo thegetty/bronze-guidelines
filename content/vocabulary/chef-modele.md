@@ -24,6 +24,8 @@ Note: Metal is used rather than plaster because it can better withstand the wear
 
 {% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
+(figs. 102, 103, 210, 531, 553){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and Sturman 2017" %}, 83; {% cite "Lebon 2003" %}, 14
@@ -36,12 +38,6 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
-
 ### **French**: *{{ lang.fr }}*
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la fonte au sable.
@@ -51,8 +47,6 @@ Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sa
 Note: En sculpture, le chef-modèle est rarement sinon jamais le modèle original de l’artiste.
 
 {% endbackmatter %}
-
-<br />
 
 #### Sources
 
@@ -74,6 +68,12 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 - *modèle mère* | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 615
 
 - *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
 ### **Italian**: *{{ lang.it }}*
 

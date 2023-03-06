@@ -24,6 +24,8 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 
 {% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
+(figs. 322, 323, 324, 326, 330){.pdf-figure-list}
+
 ## Sources
 
 Art and Craft Textbook: {% cite "Hughes and Rowe 1989" %}, 45–46
@@ -35,12 +37,6 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Koller and Baumer 2000" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -57,6 +53,12 @@ Note: Ne pas confondre avec les {% def "patine" "patines" %} chimiques, qui cont
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 656; {% cite "Aucouturier et al. 2003" %}
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Koller and Baumer 2000" %}
 
 ### **Italian**: *{{ lang.it }}*
 

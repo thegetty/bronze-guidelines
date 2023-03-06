@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 
+(figs. 8, 31, 32, 34, 79, 221){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Mattusch 1996" %}; {% cite "Boulton 2006" %}; {% cite "Dillon 2002" %}
@@ -33,18 +35,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
-
-#### Alternate Translations
-
-- *Stützkonstruktion*
-
-- *Armierung* | Source: {% cite "Maaz 2010" %}, 695
 
 ### **French**: *{{ lang.fr }}*
 
@@ -69,6 +59,18 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 #### Alternate Translation
 
 - *armature de noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
+
+#### Alternate Translations
+
+- *Stützkonstruktion*
+
+- *Armierung* | Source: {% cite "Maaz 2010" %}, 695
 
 ### **Italian**: *{{ lang.it }}*
 

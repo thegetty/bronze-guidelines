@@ -23,6 +23,8 @@ Note: Most metals undergo natural corrosion, except for pure so-called noble met
 
 {% figuregroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-503" %}
 
+(figs. 310, 311, 312, 314, 315, 318, 334, 348, 503){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Gettens 1970" %}; {% cite "Scott 2002" %}; {% cite "Chase 1994" %}; {% cite "Selwyn and Canadian Conservation Institute 2004" %}
@@ -35,12 +37,6 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
-
 ### **French**: *{{ lang.fr }}*
 
 Pour un bronze, transformation chimique du métal en un composé non métallique sous l’action d’un environnement particulier. Désigne aussi le produit résultant.
@@ -50,6 +46,12 @@ Pour un bronze, transformation chimique du métal en un composé non métallique
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 648; {% cite "Aucouturier et al. 2003" %}; {% cite "Robbiola 2015" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 ### **Italian**: *{{ lang.it }}*
 

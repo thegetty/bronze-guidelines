@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
 
+(figs. 6, 59, 61, 77, 90, 249, 545){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 41
@@ -38,16 +40,6 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-## Source
-
-Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
-
-#### Alternate Translation
-
-- *Gussgrat*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -78,6 +70,16 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 - *gerçure* | Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
 
 - *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+### **German**: *{{ lang.de }}*
+
+## Source
+
+Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
+
+#### Alternate Translation
+
+- *Gussgrat*
 
 ### **Italian**: *{{ lang.it }}*
 

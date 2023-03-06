@@ -23,6 +23,8 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 {% figuregroup "3", "fig-041" %}
 
+(fig. 41){.pdf-figure-list}
+
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}; {% cite "Bolland 1894" %}
@@ -34,16 +36,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *Schwindung*
-
-#### Source
-
-{% cite "Brunhuber 1988" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -60,6 +52,16 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 644
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 38; {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %}, 375
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *Schwindung*
+
+#### Source
+
+{% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 

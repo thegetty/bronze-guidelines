@@ -24,6 +24,8 @@ Note: The terms “inlay” and “{% def "overlay" %}” are often used indiscr
 
 {% figuregroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
 
+(figs. 309, 340, 342, 343, 345, 346, 349, 351, 365){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Hemingway and Abramitis 2017" %}
@@ -49,18 +51,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-In principle more general (actually a direct translation of “inlay”).
-
-#### Source
-
-{% cite "Cüppers 1994" %}, 1013–16
-
-#### Alternate Translation
-
-- *Tauschierung* (Only if the inlay is of linear character, e.g. wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {% cite "Lein 2004" %}, 63
-
 ### **French**: *{{ lang.fr }}*
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
@@ -78,6 +68,18 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 #### Alternate Translation
 
 - *damasquinure* (Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
+
+### **German**: *{{ lang.de }}*
+
+In principle more general (actually a direct translation of “inlay”).
+
+#### Source
+
+{% cite "Cüppers 1994" %}, 1013–16
+
+#### Alternate Translation
+
+- *Tauschierung* (Only if the inlay is of linear character, e.g. wires; you wouldn't speak of a *Tauschierung* in the case of inlaid silver eyes.) | Source: {% cite "Lein 2004" %}, 63
 
 ### **Italian**: *{{ lang.it }}*
 

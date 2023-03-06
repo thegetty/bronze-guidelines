@@ -201,6 +201,9 @@ a.quire-definition__content__more-link {
   padding-left: 0;
   padding-right: 0;
 }
+.quire-page__content .container .content .backmatter {
+  font-family: "Noto Sans", sans-serif;
+}
 /* COVER
 ============================================================================= */
 
@@ -595,6 +598,30 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .vocab-table td {
   width: 20%;
 }
+/* Make the vocab rows act as single clickable unit */
+.quire-page__content .content .vocab-table thead th {
+  background-color: var(--black);
+  border-color: var(--black) !important;
+  color: var(--white);
+}
+.quire-page__content .content .vocab-table tbody tr:hover {
+  background-color: var(--light);
+}
+.quire-page__content .content .vocab-table td {
+  padding: 0;
+}
+.quire-page__content .content .vocab-table a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url) {
+  display: block;
+  color: currentColor !important;
+  border-bottom-width: 0 !important;
+  padding: .5em .75em;
+}
+.quire-page__content .content .vocab-table a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):hover {
+  border-bottom-width: 0 !important;
+}
+.quire-page__content .content a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):focus {
+  background-color: transparent;
+}
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
   margin-top: 1.75rem;
@@ -635,6 +662,19 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-bottom: 0;
   font-size: .875rem;
   border-bottom-width: 0;
+}
+/* Make a better layout for Alternate Translations */
+.quire-page.vocabulary .quire-page__content .content .accordion ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.quire-page.vocabulary .quire-page__content .content .accordion li {
+  margin-bottom: 1em;
+  margin-left: 0;
+}
+.quire-page.vocabulary .quire-page__content .content .accordion li p {
+  margin-bottom: .25em;
 }
 
 /*  VISUAL ATLAS PAGE
@@ -938,17 +978,27 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding: 0;
   margin: 0.75in 0 0.5in;
 }
+/* .pdf-figure-list is also used on vocab pages */
+@media screen {
+  .pdf-figure-list {
+    display: none;
+  }
+}
 @media print {
-  .cs-figure-list {
+  .pdf-figure-list {
+    display: block;
     font-size: 6.5pt;
   }
-  .quire-page__content .content h2 + .cs-figure-list {
+  .quire-page.vocabulary .pdf-figure-list {
+    font-size: 1em;
+  }
+  .quire-page__content .content h2 + .pdf-figure-list {
     margin-top: -12px;
   }
-  .quire-page__content .content h3 + .cs-figure-list {
+  .quire-page__content .content h3 + .pdf-figure-list {
     margin-top: -14px;
   }
-  .quire-page__content .content h2 + h3 + .cs-figure-list {
+  .quire-page__content .content h2 + h3 + .pdf-figure-list {
     margin-top: -7px;
   }
 }
@@ -1379,6 +1429,15 @@ table .poor { background-color: #F2F9F1; }
 /*  PRINT/PDF
 ============================================================================= */
 @media print {
+  /* Deactivate all links in PDF except for TOC and external links
+  https://www.princexml.com/doc/css-props/#prop-prince-link */
+  a {
+    prince-link: none;
+  }
+  a[target='_blank'],
+  .table-of-contents-list a {
+    prince-link: attr(href);
+  }
   /* Hide stuff */
   .quire-page__content figure.q-figure--group,
   .quire-entry .quire-entry__content figure.q-figure,
@@ -1439,6 +1498,42 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content .pdf-full-width {
     column-span: all;
   }
+  /* Full-width image area with caption to right of image */
+  .content figure.q-figure.pdf-45-percent-float,
+  .content figure.q-figure.pdf-65-percent-float  {
+    column-span: all;
+  }
+  .content figure.q-figure.pdf-45-percent-float img,
+  .content figure.q-figure.pdf-65-percent-float img  {
+    float: left;
+    margin-right: .1875in;
+  }
+  .content figure.q-figure.pdf-45-percent-float figcaption,
+  .content figure.q-figure.pdf-65-percent-float figcaption {
+    margin-top: 0;
+  }
+  .content figure.q-figure.pdf-45-percent-float img  {
+    width: 45%;
+  }
+  .content figure.q-figure.pdf-65-percent-float img  {
+    width: 65%;
+  }
+  /* Narrow image in a single column */
+  .content figure.q-figure.pdf-85-percent-width img {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Keep figure labels aligned with text */
+  .quire-page.visual-atlas .q-figure__label {
+    display: inline;
+  }
+  /* Adjust spacing for the video URL in the PDF output */
+  .q-figure__caption-embed-link {
+    font-style: italic;
+    margin-top: -.5rem;
+    margin-bottom: .5rem;
+  }
   /* Adjust font size and margins for small text items */
   .content figure .q-figure__caption {
     font-size: .875rem;
@@ -1469,15 +1564,14 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.vocabulary .quire-page__header__title {
     margin: 0;
   }
-  .quire-page.vocabulary h2,
-  .quire-page.vocabulary div.accordion h2 {
+  .quire-page.vocabulary h2 {
     font-size: 1rem;
     margin: 1rem 0 !important;
   }
-  .quire-page.vocabulary h2#translations {
+  /* .quire-page.vocabulary h2#translations {
     font-size: 1.375rem;
     margin: 1.5rem 0 1rem !important;
-  }
+  } */
   .quire-page.vocabulary h3,
   .quire-page.vocabulary div.accordion h3 {
     font-size: 1.375rem;
@@ -1495,7 +1589,7 @@ table .poor { background-color: #F2F9F1; }
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {
-    margin-top: 0;
+    margin-top: -1rem;
     border-bottom-width: 0;
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
@@ -1657,7 +1751,7 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.vocabulary {
     page: vocab;
   }
-  .quire-page.quire-visual-atlas {
+  .quire-page.visual-atlas {
     page: atlas;
   }
   /* Case studies */
@@ -2079,6 +2173,11 @@ table .poor { background-color: #F2F9F1; }
 #fig-185-0-flow-fusion-repair label::before {
   background-color: #ebe41a; /* yellow */
 }
+/* FIG 187 */
+#lightbox-fig-187-0-solder label::before,
+#fig-187-0-solder label::before {
+  background-color: #fff; /* white */
+}
 /* FIG 188 */
 #lightbox-fig-188-0-patch label::before,
 #fig-188-0-patch label::before {
@@ -2102,6 +2201,23 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-194-0-patches label::before,
 #fig-194-0-patches label::before {
   background-color: #d97272; /* red */
+}
+/* FIG 195 */
+#lightbox-fig-195-0-threaded-repair-plugs label::before,
+#fig-195-0-threaded-repair-plugs label::before {
+  background-color: #9195e7; /* lavender */
+}
+#lightbox-fig-195-0-nuts label::before,
+#fig-195-0-nuts label::before {
+  background-color: #a7d69f; /* green */
+}
+#lightbox-fig-195-0-core-vents label::before,
+#fig-195-0-core-vents label::before {
+  background-color: #f2ee7d; /* yellow */
+}
+#lightbox-fig-195-0-core-support label::before,
+#fig-195-0-core-support label::before {
+  background-color: #dbad7f; /* orange */
 }
 /* FIG 196 */
 #lightbox-fig-196-0-cast-on-repair label::before,

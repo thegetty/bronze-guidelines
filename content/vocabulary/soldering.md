@@ -23,6 +23,8 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 
 {% figuregroup "3", "fig-187, fig-364" %}
 
+(figs. 187, 364){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}, 42–43
@@ -47,12 +49,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Deutsches Kupferinstitut 2005" %}, 24
-
 ### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
@@ -72,6 +68,12 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 #### Alternate Translation
 
 - *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Deutsches Kupferinstitut 2005" %}, 24
 
 ### **Italian**: *{{ lang.it }}*
 

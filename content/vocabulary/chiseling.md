@@ -23,6 +23,8 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 {% figuregroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
 
+(figs. 226, 249, 254, 278, 281, 550){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Frel 1982" %}, 13
@@ -37,12 +39,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Bol 1985" %}, 139
-
 ### **French**: *{{ lang.fr }}*
 
 Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la ciselure. Il n’existe a *priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
@@ -51,6 +47,12 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 - *ciselure*
 - *ciselure-réparure*
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Bol 1985" %}, 139
 
 ### **Italian**: *{{ lang.it }}*
 

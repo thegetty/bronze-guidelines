@@ -24,6 +24,8 @@ Note: When present, the {% def "core" %} is considered part of the refractory mo
 
 {% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
 
+(figs. 7, 27, 542, 549, 557){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bourgarit et al. 2003" %}, 119; {% cite "Lie and Bewer 2014" %}
@@ -38,16 +40,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Wallack 1840" %}; {% cite "Müller 1902" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-#### Alternate Translation
-
-- *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -70,6 +62,16 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 - *moule de fonderie* (terme utilisé notamment en archéologie.) | Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
 
 - *chape* (attention, ne désigne que la partie externe du moule réfractaire.) | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Wallack 1840" %}; {% cite "Müller 1902" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+#### Alternate Translation
+
+- *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

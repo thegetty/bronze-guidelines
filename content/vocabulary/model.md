@@ -24,6 +24,8 @@ Note: When used in reference to general sculptural practice, the term may refer 
 
 {% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
 
+(figs. 1, 52, 75, 130, 472, 559){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}
@@ -35,14 +37,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Fleming and Tilch 1993" %}, 127
-
-#### Alternate Translations
 
 ### **French**: *{{ lang.fr }}*
 
@@ -61,6 +55,12 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 242–47; {% cite "Lebon 2
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23–26, 69; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Fleming and Tilch 1993" %}, 127
 
 ### **Italian**: *{{ lang.it }}*
 

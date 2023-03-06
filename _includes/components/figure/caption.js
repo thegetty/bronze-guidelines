@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// removed hard-coded <em> tags in embed url, line 22
+//
 const { oneLine } = require('~lib/common-tags')
 
 /**
@@ -15,7 +19,7 @@ module.exports = function(eleventyConfig) {
   return function({ caption, credit, content='', mediaId, mediaType}) {
     const { sourceUrl } = figureMediaEmbedUrl({ mediaId, mediaType })
     const mediaSourceLink = sourceUrl
-      ? `<span class="q-figure__caption-embed-link"><a href="${sourceUrl}"><em>${sourceUrl}</em></a></span>`
+      ? `<span class="q-figure__caption-embed-link"><a href="${sourceUrl}">${sourceUrl}</a></span>`
       : ''
     return oneLine`
       <figcaption class="q-figure__caption">

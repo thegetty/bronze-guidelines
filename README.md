@@ -64,6 +64,10 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 ## Customizations Made to 11ty Templates/Files
 
+**_includes/components/figure/caption.js**
+**_includes/components/figure/media-embed-url.js**
+Fixed/adjusted output of Vimeo URL for PDF output
+
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
@@ -94,6 +98,9 @@ New layout specifically to create grid of all figure images.
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
+
+**_plugins/filters/getContributor.js**
+Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
 
 **_plugins/shortcodes/contributors.js**
 Refactor logic to handle oxford commas correctly

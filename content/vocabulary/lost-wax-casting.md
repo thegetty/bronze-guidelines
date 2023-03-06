@@ -23,6 +23,8 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 
 {% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
 
+(figs. 13, 16, 18, 23, 25, 28, 558){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Penny 1993" %}; {% cite "Beale 1975" %}; {% cite "Mattusch 1996" %}; {% cite "Motture 2019" %}
@@ -41,16 +43,6 @@ Other: {% cite "Untracht 1968" %}
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Müller 2014" %}, 167
-
-#### Alternate Translation
-
-- *Modellausschmelzverfahren* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
 ### **French**: *{{ lang.fr }}*
 
 Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le {% def "moule réfractaire" %}, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
@@ -68,6 +60,16 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 - *moulage en cire perdue* | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Guettier 1858" %}, notice 585, p. 300; {% cite "Laboulaye 1861" %}, 81–82
 
 - *procédé à cire perdue* | Source: Cultural Heritage: {% cite "Rolley 1994" %}, 65
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Müller 2014" %}, 167
+
+#### Alternate Translation
+
+- *Modellausschmelzverfahren* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 

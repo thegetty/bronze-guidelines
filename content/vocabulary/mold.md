@@ -24,6 +24,8 @@ Note: Molds of varying types may be used at different stages of the {% def "bron
 
 {% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
+(figs. 7, 27, 101, 112, 542, 549, 557){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}; {% cite "Beale 1975" %}
@@ -39,18 +41,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Müller 2014" %}, 170–71
-
-#### Alternate Translations
-
-- *Negativformteile*
-
-- *Hilfnegative*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -75,6 +65,18 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 #### Alternate Translation
 
 - *creux* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Müller 2014" %}, 170–71
+
+#### Alternate Translations
+
+- *Negativformteile*
+
+- *Hilfnegative*
 
 ### **Italian**: *{{ lang.it }}*
 

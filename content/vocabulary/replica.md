@@ -24,6 +24,8 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 {% figuregroup "3", "fig-001, fig-554" %}
 
+(figs. 1, 554){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}, 300
@@ -39,12 +41,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 720
 
 ### **French**: *{{ lang.fr }}*
 
@@ -71,6 +67,12 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 #### Alternate Translation
 
 - *épreuve de série* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 720
 
 ### **Italian**: *{{ lang.it }}*
 

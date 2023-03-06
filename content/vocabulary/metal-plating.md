@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-293, fig-304, fig-343, fig-365" %}
 
+(figs. 293, 304, 343, 365){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}
@@ -26,14 +28,6 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
-
-#### Source
-
-{% cite "Wallack 1840" %}, 191–219
 
 ### **French**: *{{ lang.fr }}*
 
@@ -48,6 +42,14 @@ Note: La {% def "dorure" %}, l’argenture, et dans une moindre mesure l’étam
 #### Sources
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
+
+### **German**: *{{ lang.de }}*
+
+In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
+
+#### Source
+
+{% cite "Wallack 1840" %}, 191–219
 
 ### **Italian**: *{{ lang.it }}*
 

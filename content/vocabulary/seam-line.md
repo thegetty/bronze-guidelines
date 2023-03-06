@@ -24,6 +24,8 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 {% figuregroup "3", "fig-006, fig-026, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" %}
 
+(figs. 6, 26, 43, 61, 72, 73, 74, 75){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Lie and Bewer 2014" %}, 47
@@ -39,12 +41,6 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 696
 
 ### **French**: *{{ lang.fr }}*
 
@@ -75,6 +71,12 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 - *suture* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
 
 - *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {% cite "Launay 1827" %}, 2:261
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 696
 
 ### **Italian**: *{{ lang.it }}*
 

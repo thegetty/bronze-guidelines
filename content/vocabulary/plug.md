@@ -24,6 +24,8 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 
 {% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
+(figs. 177, 178, 193, 195, 197, 478){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "Sturman 2004" %}
@@ -39,18 +41,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-Used primarily in speech
-
-#### Alternate Translations
-
-- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
-
-- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
-
-- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
 
 ### **French**: *{{ lang.fr }}*
 
@@ -77,6 +67,18 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 - *goupille* (On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.) | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *tige* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
+
+### **German**: *{{ lang.de }}*
+
+Used primarily in speech
+
+#### Alternate Translations
+
+- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
+
+- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
+
+- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
 
 ### **Italian**: *{{ lang.it }}*
 

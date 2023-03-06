@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-035, fig-065, fig-125, fig-152, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198, fig-367" %}
 
+(figs. 35, 65, 125, 152, 166, 168, 170, 172, 173, 187, 194, 198, 367){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Bassett 2008" %}, 280, 283; {% cite "Dillon 2002" %}, 301–2; {% cite "Mattusch 1996" %}, 169–70
@@ -31,12 +33,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
 ### **French**: *{{ lang.fr }}*
 
@@ -55,6 +51,12 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 #### Alternate Translation
 
 - *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
 ### **Italian**: *{{ lang.it }}*
 

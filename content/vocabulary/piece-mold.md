@@ -24,6 +24,8 @@ Note: Sometimes very large sculptures—both reliefs and in the round—need to 
 
 {% figuregroup "3", "fig-009, fig-015, fig-018, fig-025, fig-026, fig-062, fig-074, fig-111, fig-116, fig-536, fig-556" %}
 
+(figs. 9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Beale 1975" %}; {% cite "Boulton 2006" %}
@@ -40,16 +42,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Alternate Translation
-
-- *mehrteilige Form*
-
-#### Source
-
-{% cite "Maaz 2010" %}, 730
-
 ### **French**: *{{ lang.fr }}*
 
 {% def "Moule" %} constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
@@ -63,6 +55,16 @@ Note: Pour la sculpture en bronze, un moule à pièces peut aussi bien désigner
 #### Source
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
+
+### **German**: *{{ lang.de }}*
+
+#### Alternate Translation
+
+- *mehrteilige Form*
+
+#### Source
+
+{% cite "Maaz 2010" %}, 730
 
 ### **Italian**: *{{ lang.it }}*
 

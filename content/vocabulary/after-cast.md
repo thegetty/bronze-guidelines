@@ -24,6 +24,8 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 {% figuregroup "3", "fig-001, fig-284" %}
 
+(figs. 1, 284){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite "Penny 1993" %}
@@ -41,10 +43,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-Source: {% cite "Maaz 2010" %}, 710
 
 ### **French**: *{{ lang.fr }}*
 
@@ -68,6 +66,10 @@ Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({%
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 634; {% cite "Lebon 2012" %}
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 375
+
+### **German**: *{{ lang.de }}*
+
+Source: {% cite "Maaz 2010" %}, 710
 
 ### **Italian**: *{{ lang.it }}*
 

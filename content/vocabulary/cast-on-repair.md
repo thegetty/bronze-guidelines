@@ -18,6 +18,8 @@ lang:
 
 {% figuregroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 
+(figs. 65, 123, 169, 177, 179, 180, 181, 182, 184, 196){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture and Martin 2001" %}, 222
@@ -29,20 +31,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
-
-#### Sources
-
-{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}, 139–40
-
-#### Alternate Translations
-
-- *Anguss*
-
-- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
 
 ### **French**: *{{ lang.fr }}*
 
@@ -59,6 +47,20 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Az�
 - *grains de bronze* | Source: Historical: {% cite "Mariette 1768" %}, 131
 
 - *réparation par surcoulée*
+
+### **German**: *{{ lang.de }}*
+
+Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
+
+#### Sources
+
+{% cite "Drescher 1958" %}; {% cite "Willer 2016" %}, 139–40
+
+#### Alternate Translations
+
+- *Anguss*
+
+- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
 
 ### **Italian**: *{{ lang.it }}*
 

@@ -23,6 +23,8 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 
 {% figuregroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
+(figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Salter and Gilmour n.d." %}; {% cite "Beale 1975" %}, 28–55
@@ -42,12 +44,6 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 <div class="accordion">
 
-### **German**: *{{ lang.de }}*
-
-#### Source
-
-{% cite "Deutsches Kupferinstitut 2005" %}, 18
-
 ### **French**: *{{ lang.fr }}*
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au brasage qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
@@ -61,6 +57,12 @@ Note: L’assemblage peut se faire sans apport de métal, par soudure dite autog
 #### Sources
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Murry 1994" %}
+
+### **German**: *{{ lang.de }}*
+
+#### Source
+
+{% cite "Deutsches Kupferinstitut 2005" %}, 18
 
 ### **Italian**: *{{ lang.it }}*
 

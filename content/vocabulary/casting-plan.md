@@ -23,6 +23,8 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 {% figuregroup "3", "fig-367" %}
 
+(fig. 367){.pdf-figure-list}
+
 ## Source
 
 Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
@@ -30,8 +32,6 @@ Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
 
 ### **French**: *{{ lang.fr }}*
 
@@ -46,6 +46,8 @@ Note: Ce terme est très récent, il a été proposé par Benoît Mille comme é
 #### Source
 
 Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
+
+### **German**: *{{ lang.de }}*
 
 ### **Italian**: *{{ lang.it }}*
 

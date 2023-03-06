@@ -23,6 +23,8 @@ Note: In {% def "sand casting" %}, a foundry model is referred to as a “patter
 
 {% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
+(figs. 210, 531, 544, 553, 554){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "Beentjes 2019" %}
@@ -30,12 +32,6 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 671
 
 ### **French**: *{{ lang.fr }}*
 
@@ -56,6 +52,12 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 - *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
 
 - *pré-modèle* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Maaz 2010" %}, 671
 
 ### **Italian**: *{{ lang.it }}*
 

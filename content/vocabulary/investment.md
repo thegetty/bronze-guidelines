@@ -17,6 +17,8 @@ lang:
 
 {% figuregroup "3", "fig-005, fig-013, fig-557, fig-558" %}
 
+(figs. 5, 13, 557, 558){.pdf-figure-list}
+
 ## Sources
 
 Cultural Heritage: {% cite "Motture 2019" %}, 35; {% cite "Salter and Gilmour n.d." %}
@@ -26,16 +28,6 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 ## Translations
 
 <div class="accordion">
-
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Alscher 1987" %}, 554
-
-#### Alternate Translation
-
-- *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
 
 ### **French**: *{{ lang.fr }}*
 
@@ -62,6 +54,16 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 - *moule de coulée* | Sources: Cultural Heritage: {% cite "Rolley 1994" %}, 69; {% cite "Mille and Robcis 2012" %}; {% cite "Azéma and Mille 2013b" %}; Historical: {% cite "Gonon 1876" %}, 6; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *potée* | Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
+
+### **German**: *{{ lang.de }}*
+
+#### Sources
+
+{% cite "Alscher 1987" %}, 554
+
+#### Alternate Translation
+
+- *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
 
 ### **Italian**: *{{ lang.it }}*
 
