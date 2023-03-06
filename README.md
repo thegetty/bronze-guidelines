@@ -99,6 +99,9 @@ New layout specifically to create grid of all figure images.
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
 
+**_plugins/filters/getContributor.js**
+Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
+
 **_plugins/shortcodes/contributors.js**
 Refactor logic to handle oxford commas correctly
 
