@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// add ALL image layers for annotation images, lines 24–55
+// css is used to stack or grid them
+//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -16,11 +21,38 @@ module.exports = function(eleventyConfig) {
   const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function(figure) {
-    const { alt, caption, credit, id, label, src } = figure
-
-    if (!src) return ''
+    const { alt, annotations=[], caption, credit, id, label, src } = figure
 
     const labelElement = figureLabel({ caption, id, label })
+
+    if (annotations.length > 0) {
+      for (const annotation of annotations) {
+
+        let baseLayer = ''
+        if (annotation.input == 'checkbox') {
+          const baseSrc = path.join(imageDir, src)
+          baseLayer = html`<img alt="${alt}" class="q-figure__image" src="${baseSrc}"/>`
+        }
+
+        let layers = '';
+        for (const item of annotation.items) {
+          const layerSrc = path.join(imageDir, item.src)
+          layers += html`<img alt="" class="q-figure__image" src="${layerSrc}"/>`
+        }
+
+        return html`
+          <div class="q-figure__layers-group q-figure__layers-group--${annotation.input}">
+            ${baseLayer}
+            ${layers}
+          </div>
+          ${figureCaption({ caption, content: labelElement, credit })}
+        `
+      }
+    }
+
+    // this has to come after annotations, because radio-button
+    // annotations don't have any src
+    if (!src) return ''
 
     let imageSrc
 

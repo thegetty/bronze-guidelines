@@ -1777,6 +1777,22 @@ table .poor { background-color: #F2F9F1; }
   .quire-entry__image-wrap {
     page: entry-image;
   }
+  /* Handle checkbox and radio annotation image layers in print */
+  .q-figure .q-figure__layers-group--checkbox {
+    position: relative;
+  }
+  .q-figure .q-figure__layers-group--checkbox .q-figure__image:not(:first-child) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .q-figure.pdf-side-by-side-layers .q-figure__layers-group--radio {
+    display: flex;
+  }
+  /* https://stackoverflow.com/questions/36230944/prevent-flex-items-from-overflowing-a-container */
+  .q-figure.pdf-side-by-side-layers .q-figure__layers-group--radio .q-figure__image {
+    min-width: 0;
+  }
 }
 
 /*  CHOICES LABEL COLORS

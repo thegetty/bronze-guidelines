@@ -330,6 +330,7 @@ figure_list:
   - id: "fig-034"
     # src: "figures/034.jpg"
     # media_type: iiif
+    class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 34"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography showing the wire wrapping the core. Note how complex the image is due to the numerous overlaps, for instance of the drapery. Barthélemy Prieur (French, ca. 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](#CaseStudy5)."
     annotations:
@@ -393,6 +394,7 @@ figure_list:
   - id: "fig-039"
     src: "figures/039.jpg"
     # media_type: iiif
+    class: pdf-65-percent-float
     label: "Figure 39"
     caption: "The different types of chaplets for twentieth-century industrial iron sand casting. Each type has a special use: A–F are perforated sheet tin for heavy loads; I–M are for the heavier castings (tons); G–I are the most common types. From {Palmer 1929}, 157, fig. 119."
 
@@ -959,6 +961,7 @@ figure_list:
   - id: "fig-097"
     # src: "figures/097.jpg"
     # media_type: iiif
+    class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 97"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Martin Lefort (French, dates unknown), Justice, 1571, H. 128 cm (Musée du Louvre, inv. MR1682). See [Case Study 5](#CaseStudy5)."
     annotations:
@@ -1721,6 +1724,7 @@ figure_list:
   - id: "fig-191"
     #src: "figures/191.jpg"
     # media_type: iiif
+    class: pdf-85-percent-width
     label: "Figure 191"
     caption: "Some restorations made of organic materials (here likely made of a type of resin) fluoresce under ultraviolet light examination. Use the cursor to shift from full-daylight to full-UV image. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See %%C2RMF Internal Report 2008b%%."
     annotations:
@@ -1734,6 +1738,7 @@ figure_list:
   - id: "fig-192"
     src: "figures/192.png"
     # media_type: iiif
+    class: pdf-full-width
     label: "Figure 192"
     caption: "Diagram of a simple core pin repair: 1) a ball of excess wax is applied adjacent to a core pin that has been inserted into the wax model (cross section); 2) the bronze is poured and the core pin is removed; 3) the resulting hole is filled by hammering the excess bronze into the void; 4) the metal that fills the hole is chased to match the surrounding surfaces."
     # annotations: true
@@ -4095,6 +4100,7 @@ figure_list:
   - id: "fig-524"
     # src: "figures/524.jpg"
     # media_type: iiif
+    class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 524"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Barthélemy Prieur (French, ca. 1536–1611), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See [Case Study 5](#CaseStudy5)."
     annotations:
