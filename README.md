@@ -71,6 +71,9 @@ Fixed/adjusted output of Vimeo URL for PDF output
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
+**includes/components/figure/image/print.js**
+Output ALL image layers for checkbox and radio button annotations
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
