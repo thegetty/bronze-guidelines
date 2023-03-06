@@ -1726,7 +1726,7 @@ figure_list:
     # media_type: iiif
     class: pdf-85-percent-width
     label: "Figure 191"
-    caption: "Some restorations made of organic materials (here likely made of a type of resin) fluoresce under ultraviolet light examination. Use the cursor to shift from full-daylight to full-UV image. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See %%C2RMF Internal Report 2008b%%."
+    caption: "Some restorations made of organic materials (here likely made of a type of resin) fluoresce under ultraviolet light examination. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). Views in daylight and ultraviolet light. See %%C2RMF Internal Report 2008b%%."
     annotations:
       - input: radio
         items:
