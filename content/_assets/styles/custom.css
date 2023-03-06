@@ -1429,6 +1429,15 @@ table .poor { background-color: #F2F9F1; }
 /*  PRINT/PDF
 ============================================================================= */
 @media print {
+  /* Deactivate all links in PDF except for TOC and external links
+  https://www.princexml.com/doc/css-props/#prop-prince-link */
+  a {
+    prince-link: none;
+  }
+  a[target='_blank'],
+  .table-of-contents-list a {
+    prince-link: attr(href);
+  }
   /* Hide stuff */
   .quire-page__content figure.q-figure--group,
   .quire-entry .quire-entry__content figure.q-figure,
