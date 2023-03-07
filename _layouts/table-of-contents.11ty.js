@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added handling for contributor_as_it_appears, line 46
+//
 /**
  * Contents page template for TOC and Section TOCs.
  * Page content from the markdown will appear in the content outlet below.
@@ -39,6 +43,7 @@ module.exports = class TableOfContents {
     return this.renderTemplate(
       `{% pageHeader
         byline_format=byline_format,
+        contributor_as_it_appears=contributor_as_it_appears,
         image=image,
         label=label,
         pageContributors=pageContributors,

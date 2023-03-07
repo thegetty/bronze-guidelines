@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// also added handling for contributor_as_it_appears, lines 38, 53–61, and 78
+//
 const { html, oneLine } = require('~lib/common-tags')
 
 /**
@@ -31,6 +35,7 @@ module.exports = function (eleventyConfig) {
     const {
       abstract,
       contributor: pageContributors,
+      contributor_as_it_appears: contributorAsItAppears,
       label,
       layout,
       short_title,
@@ -45,8 +50,15 @@ module.exports = function (eleventyConfig) {
      */
     const isPage = !!layout
 
-    const pageContributorsElement = pageContributors
-      ? `<span class="contributor-divider">${contributorDivider}</span><span class="contributor">${contributors({ context: pageContributors, format: 'string' })}</span>`
+    let contributorsText
+    if (contributorAsItAppears) {
+      contributorsText = markdownify(contributorAsItAppears)
+    } else if (pageContributors) {
+      contributorsText = contributors({ context: pageContributors, format: 'string' })
+    }
+
+    const pageContributorsElement = contributorAsItAppears || pageContributors
+      ? `<span class="contributor-divider">${contributorDivider}</span><span class="contributor">${contributorsText}</span>`
       : ''
 
     let pageTitleElement
@@ -63,7 +75,7 @@ module.exports = function (eleventyConfig) {
         ? `<div class="abstract-text">${ removeHTML(markdownify(abstract)) }</div>`
         : ''
 
-    let mainElement = `${markdownify(pageTitleElement)}${isPage && !children ? arrowIcon : ''}`
+    let mainElement = `${markdownify(pageTitleElement)}${isPage ? arrowIcon : ''}`
 
     if (isPage) {
       mainElement = `<a href="${urlFilter(page.url)}">${mainElement}</a>`
