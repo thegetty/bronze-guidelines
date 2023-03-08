@@ -47,17 +47,6 @@
   color: cyan;
   border-bottom-color: cyan;
 }
-/* TEMPORARY until we figure out how to display the editors */
-.quire-page.frontmatter.quire-contents .table-of-contents-list a[href='/vocabulary/'] .contributor-divider,
-.quire-page.frontmatter.quire-contents .table-of-contents-list a[href='/vocabulary/'] .contributor {
-  display: none;
-}
-@media print {
-  .quire-page.frontmatter.quire-contents .table-of-contents-list a[href='#vocabulary'] .contributor-divider,
-  .quire-page.frontmatter.quire-contents .table-of-contents-list a[href='#vocabulary'] .contributor {
-    display: none;
-  }
-}
 :root {
 
   /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
@@ -1454,9 +1443,6 @@ table .poor { background-color: #F2F9F1; }
   .image-grid-search-box,
   .quire-entry .side-by-side p strong:first-child {
     display: none;
-  }
-  .quire-page.section-landing-page {
-    page: no-footer;
   }
   .quire-page:not(.quire-contents).section-landing-page .quire-page__content,
   .quire-page .section-landing-page__text {

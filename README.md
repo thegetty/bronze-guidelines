@@ -80,6 +80,11 @@ Added class to enable styling in modal vs. inline
 **_includes/components/navigation.js**
 removed title truncation in navbar
 
+**_includes/components/page-header.js**
+**_includes/components/table-of-contents/item/list.js**
+**_layouts/table-of-contents.11ty.js**
+Added handling for contributor_as_it_appears at the page-level
+
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
 
@@ -127,7 +132,7 @@ Custom shortcode to wrap content in a `<div>` with a "warn" class.
 Add needed divs and classes for styling pdf.
 
 **content/_computed/eleventyComputed.js**
-Add page tags and presentation values as classes
+Add page tags and presentation values as classes, and contributor_as_it_appears as data item
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

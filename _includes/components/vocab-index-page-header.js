@@ -3,6 +3,7 @@
 // based on page-header.js except adds editorsElement and
 // additionalContributorsElement, lines 55–79
 // also called label through pageTitle()
+// also added handling for contributor_as_it_appears
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -28,7 +29,7 @@ module.exports = function(eleventyConfig) {
       pageContributors,
       subtitle,
       title,
-      edited_by,
+      contributor_as_it_appears,
       additional_contributors,
       short_title: shortTitle
     } = params
@@ -49,10 +50,10 @@ module.exports = function(eleventyConfig) {
         `
       : ''
 
-    const editorsElement = edited_by
+    const editorsElement = contributor_as_it_appears
       ? html`
           <p class="edited-by">
-            Edited by ${edited_by}
+            ${contributor_as_it_appears}
           </p>
         `
       : ''

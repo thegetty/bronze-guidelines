@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.'
+definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}. <span class="is-print-only">(figs. 44, 46, 71, 86, 124, 539)</span>'
 lang:
   de: Gusskanal
   fr: jet de coulée
@@ -23,8 +23,6 @@ Note: The terms “sprue,” “sprueing,” or “sprue system” are most comm
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-044, fig-046, fig-071, fig-086, fig-124, fig-539" %}
-
-(figs. 44, 46, 71, 86, 124, 539){.pdf-figure-list}
 
 ## Sources
 
@@ -117,6 +115,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 - *mandata*
 
     Refers to a sprue that feeds the metal into the mold vs. a vent that helps channel the air out
+
     Sources: {% cite "Giuffredi 2006" %}, 220; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata)
 
 - *mozzicone*

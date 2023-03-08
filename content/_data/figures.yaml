@@ -1726,7 +1726,7 @@ figure_list:
     # media_type: iiif
     class: pdf-85-percent-width
     label: "Figure 191"
-    caption: "Some restorations made of organic materials (here likely made of a type of resin) fluoresce under ultraviolet light examination. Use the cursor to shift from full-daylight to full-UV image. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See %%C2RMF Internal Report 2008b%%."
+    caption: "Some restorations made of organic materials (here likely made of a type of resin) fluoresce under ultraviolet light examination. The Worshipper of Larsa, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). Views in daylight and ultraviolet light. See %%C2RMF Internal Report 2008b%%."
     annotations:
       - input: radio
         items:
@@ -4401,126 +4401,126 @@ figure_list:
   # VIDEOS
 
   - id: "vid-01"
-    poster: "figures/video-01.jpg"
+    poster: "figures/video-01.png"
     media_type: vimeo
     media_id: 672850991/6c63d94252
     label: "Video 1"
     caption: "Application of the first layer of investment material on a wax model by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-02"
-    poster: "figures/video-02.jpg"
+    poster: "figures/video-02.png"
     media_type: vimeo
     media_id: 672851118/418aee344b
     label: "Video 2"
     caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the wax model and the investment, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-03"
-    poster: "figures/video-03.jpg"
+    poster: "figures/video-03.png"
     media_type: vimeo
     media_id: 672851307/f50cb47466
     label: "Video 3"
     caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the original model and the associated mold using 3D laser scanning, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-04"
-    poster: "figures/video-04.jpg"
+    poster: "figures/video-04.png"
     media_type: vimeo
     media_id: 672851374/1d4ca42c8b
     label: "Video 4"
     caption: "Fabrication of the clay-based core in preparation for direct lost-wax casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
 
   - id: "vid-05"
-    poster: "figures/video-05.jpg"
+    poster: "figures/video-05.png"
     media_type: vimeo
     media_id: 672851443/c5ac6ba826
     label: "Video 5"
     caption: "Two methods of applying wax to a pre-made core include dipping the core in liquid wax and applying wax slabs. Parts such as scales, tail, and handle are added by welding the wax joints with heat. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
 
   - id: "vid-06"
-    poster: "figures/video-06.jpg"
+    poster: "figures/video-06.png"
     media_type: youtube
     media_id: "JiofOv18o2M"
     label: "Video 6"
     caption: "Adriaen de Vries’s (Netherlandish, 1556–1626) bronze casting technique: the direct lost-wax method. All parts of the process are described, from the setup of armatures to finishing."
 
   - id: "vid-07"
-    poster: "figures/video-07.jpg"
+    poster: "figures/video-07.png"
     media_type: vimeo
     media_id: 672851502/f356f17315
     label: "Video 7"
     caption: "Short demonstration of slush molding wax into a plaster piece mold by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-08"
-    poster: "figures/video-08.jpg"
+    poster: "figures/video-08.png"
     media_type: vimeo
     media_id: 672851620/a15f318198
     label: "Video 8"
     caption: "Applying solid wax sprues and a pouring cup to the completed wax model. Vents that allow gases to escape from the mold are in blue. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491."
 
   - id: "vid-09"
-    poster: "figures/video-09.jpg"
+    poster: "figures/video-09.png"
     media_type: vimeo
     media_id: 672851728/ef8007af4c
     label: "Video 9"
     caption: "Real-time video of the X-radiography of the pouring of a bronze, showing the path of the molten 10 wt% tin bronze into a refractory mold of a life cast of a lizard. The pour results in shrinkage porosity on the surface of the bronze. It is unlikely to be gaseous porosity, as it was degassed prior to pouring and the holes are very large, with the last one being highly granular in texture, indicating slow cooling. Note also how quickly the mold is filled with bronze (see also [fig. 27](/visual-atlas/#fig-027){target=_blank}). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015). 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-10"
-    poster: "figures/video-10.jpg"
+    poster: "figures/video-10.png"
     media_type: vimeo
     media_id: 672853119/c50b735e70
     label: "Video 10"
     caption: "Short demonstration of chasing using a punch to compress the flawed surface of a cast by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-11"
-    poster: "figures/video-11.jpg"
+    poster: "figures/video-11.png"
     media_type: vimeo
     media_id: 672853278/b3f8d29d53
     label: "Video 11"
     caption: "Contemporary artist-founder Andrew Lacey’ (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the metal pouring, fettling, and assembly steps, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-12"
-    poster: "figures/video-12.jpg"
+    poster: "figures/video-12.png"
     media_type: vimeo
     media_id: 800608712/1cd80c51ad
     label: "Video 12"
     caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the Captive Gaul, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See %%Azéma et al. 2013%%."
 
   - id: "vid-13"
-    poster: "figures/video-13.jpg"
+    poster: "figures/video-13.png"
     media_type: vimeo
     media_id: 672853423/0214a29d8c
     label: "Video 13"
     caption: "Short demonstration of fettling with a chisel to remove a mold flashing by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. For the complete original video visit <https://youtu.be/vXPmorUKJuc>. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-14"
-    poster: "figures/video-14.jpg"
+    poster: "figures/video-14.png"
     media_type: vimeo
     media_id: 672853511/33ca671c7c
     label: "Video 14"
     caption: "Chemical patination demonstrated by Andrew Lacey (British, b. 1969) on a replica casting of a lion relief after Antoine-Louis Barye (French, 1795–1875) at an October 2018 CAST:ING workshop on patination and gilding at the Laboratoire de Recherche des Monuments Historiques (LRMH), Champs sur Marne, France. To start, Lacey simultaneously heats the bronze relief while gradually applying a solution of potassium polysulfide to create a dark-black background color on the bronze. Next, a layer of ferric nitrate serves to build a brown undertone. This is followed by a green textured layer by stippling copper nitrate solution over the surface at a slightly lower temperature. The final image shows the relief with two different finishes—the left-hand side had hot wax applied to the surface, while the right-hand side was waxed cold—demonstrating how the type of wax application at the final stage can radically alter the appearance of a patina."
 
   - id: "vid-15"
-    poster: "figures/video-15.jpg"
+    poster: "figures/video-15.png"
     media_type: vimeo
     media_id: 672853890/fbf173a518
     label: "Video 15"
     caption: "Sampling the core of a large bronze under safelight for OSL dating at the C2RMF, Paris. The core has been sampled in two different locations: the feet and the arms. For each, several samples were taken at various distances from the bronze wall in order to check the possible effects of an airport X-ray scan during the bronze’s transportation from Sana’a to Paris. Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, inv. YM 23206). See %%Mille et al. 2010%%."
 
   - id: "vid-16"
-    poster: "figures/video-16.jpg"
+    poster: "figures/video-16.png"
     media_type: vimeo
     media_id: 672853935/66a501d3f2
     label: "Video 16"
     caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices of and process patination, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-17"
-    poster: "figures/video-17.jpg"
+    poster: "figures/video-17.png"
     media_type: vimeo
     media_id: "801440105/7e9e74d298"
     label: "Video 17"
     caption: "TV documentary (dir. Laurène L’Allinec for French National Television FR3, 1992, 20 min.) showing how the sixth edition of Auguste Rodin’s (French, 1840–1917) *Doors of Hell* was cast at Fonderie de Coubertin in 1989–92, as requested by Musée Rodin for the Shizuoka Prefectural Museum of Art, Japan."
 
   - id: "vid-18"
-    poster: "figures/video-18.jpg"
+    poster: "figures/video-18.png"
     media_type: vimeo
     media_id: 672854085/be5c239063
     label: "Video 18"

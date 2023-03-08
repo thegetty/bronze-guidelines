@@ -1,6 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// add page tags and presentation values as classes, lines 56–60
+// add page tags and presentation values as classes, lines 57–61
+// added contributor_as_it_appears as data item, line 25
 //
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
@@ -21,6 +22,7 @@ module.exports = {
       return {
         abstract: data.abstract,
         contributor: data.contributor,
+        contributor_as_it_appears: data.contributor_as_it_appears,
         figure: data.figure,
         image: data.image,
         label: data.label,
