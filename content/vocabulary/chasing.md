@@ -36,8 +36,13 @@ Other: {% cite "Van Langh 2012" %}
 ## To Be Distinguished From
 
 - *chiseling*
+
 - *engraving*
-- *fettling* (In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.)
+
+- *fettling*
+
+    In modern foundries, fettling may be carried out by the founder using power tools, whereas “chasing” refers to finer work carried out by a specialized person—the chaser—preferentially with hand tools.
+    
 - *punching*
 
 ## Translations
@@ -92,11 +97,19 @@ Not reserved specifically for metals
 
 #### Alternate Translations
 
-- *rinettare* (v.) | Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
+- *rinettare* (v.)
 
-- *cesellare* | Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
 
-- *ritocco a freddo* (ritocco a freddo di dettagli) | Source: {% cite "Formigli 2010" %}, 20–21
+- *cesellare*
+
+    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+
+- *ritocco a freddo*
+
+    Ritocco a freddo di dettagli
+
+    Source: {% cite "Formigli 2010" %}, 20–21
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -31,7 +31,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
 ## Synonym
 
-- *{% def "pour" %}* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *{% def "pour" %}*
+
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ## Translations
 
@@ -53,9 +55,13 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 
 #### Alternate Translations
 
-- *fondre* | Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+- *fondre*
+    
+    Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
-- *jeter* / *jetter* | Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
+- *jeter* / *jetter*
+
+    Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -73,14 +79,29 @@ Foundry-specific term that relates to the pouring of metal
 
 #### Alternate Translations
 
-- *buttare* (Literally “to throw”) | Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/JPG/GDLI02/00000472.jpg)
+- *buttare*
 
-- *colare* (A more general term that can be used to specify the pouring of plaster, wax, or molten metal.) | Source:
-[Treccani](https://www.treccani.it/vocabolario/colare1/)
+    Literally “to throw”
+    
+    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/JPG/GDLI02/00000472.jpg)
 
-- *fondere* (Used in reference to the melting of the metal) | Sources: [Treccani](http://www.treccani.it/vocabolario/fondere/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {% cite "Leonardo 1490" %}, fol. 150r
+- *colare*
 
-- *gittare* (Early Italian spelling of *gettare*) | Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
+    A more general term that can be used to specify the pouring of plaster, wax, or molten metal.
+    
+    Source: [Treccani](https://www.treccani.it/vocabolario/colare1/)
+
+- *fondere*
+
+    Used in reference to the melting of the metal
+    
+    Sources: [Treccani](http://www.treccani.it/vocabolario/fondere/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {% cite "Leonardo 1490" %}, fol. 150r
+
+- *gittare*
+
+    Early Italian spelling of *gettare*
+    
+    Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
 
 ### **Chinese**: {{ lang.zh }}
 

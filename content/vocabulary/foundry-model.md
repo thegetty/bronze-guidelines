@@ -45,13 +45,23 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 #### Alternate Translations
 
-- *modèle* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; Historical: {% cite "Launay 1827" %}, 2:275; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 74–82; {% cite "Rama 1988" %}, 36; {% cite "Lambert 2002" %}, 26
+- *modèle*
 
-- *modèle servant à la fonte* | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; Historical: {% cite "Launay 1827" %}, 2:275; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 74–82; {% cite "Rama 1988" %}, 36; {% cite "Lambert 2002" %}, 26
 
-- *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
+- *modèle servant à la fonte*
 
-- *pré-modèle* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+    Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+
+- *plâtre de fonderie*
+
+    Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).
+    
+    Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
+
+- *pré-modèle*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 ### **German**: *{{ lang.de }}*
 
@@ -71,6 +81,8 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 ### **Chinese**: {{ lang.zh }}
 
-Alternate Translation: 铸模
+Alternate Translation:
+
+- 铸模
 
 </div>

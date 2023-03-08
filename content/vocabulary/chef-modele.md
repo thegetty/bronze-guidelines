@@ -32,7 +32,11 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 
 ## Synonyms
 
-- *pattern* (A more general term for such a hard model for sand casting. The term is more commonly used in the context of industrial production of machine parts, but may be applied to sculptures as well, though in the context of European bronzes from the early twentieth century onward, “chef-modèle” has been adopted more frequently.) | Sources: Cultural Heritage: {% cite "Motture 2019" %}; Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
+- *pattern*
+
+    A more general term for such a hard model for sand casting. The term is more commonly used in the context of industrial production of machine parts, but may be applied to sculptures as well, though in the context of European bronzes from the early twentieth century onward, “chef-modèle” has been adopted more frequently.)
+    
+    Sources: Cultural Heritage: {% cite "Motture 2019" %}; Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
 
 ## Translations
 
@@ -59,15 +63,25 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
 #### Alternate Translations
 
-- *cuivre* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
+- *cuivre*
 
-- *maître-modèle* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759; {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>
 
-- *modèle* | Sources: Cultural Heritage: {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {% cite "Koch and Newell 1963" %}; {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 43, 85; {% cite "Dubos 2003" %}
+- *maître-modèle*
 
-- *modèle mère* | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 615
+    Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-- *modèle-maître* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+- *modèle*
+
+    Sources: Cultural Heritage: {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {% cite "Koch and Newell 1963" %}; {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 43, 85; {% cite "Dubos 2003" %}
+
+- *modèle mère*
+
+    Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 615
+
+- *modèle-maître*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 ### **German**: *{{ lang.de }}*
 

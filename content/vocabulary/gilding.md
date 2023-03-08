@@ -63,6 +63,8 @@ Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
 #### Alternate Translation
 
-- 鎏金 (Although this literally translates to “gold-plating,” it is widely used as a general term for gilding of ancient works.)
+- 鎏金
+
+    Although this literally translates to “gold-plating,” it is widely used as a general term for gilding of ancient works.
 
 </div>

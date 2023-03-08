@@ -35,9 +35,13 @@ Other: {% cite "Untracht 1968" %}
 
 - *{% def "investment" %} casting*
 
-- *lost wax casting* (alternate spelling)
+- *lost wax casting*
 
-- *lost-wax molding* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+    Alternate spelling
+
+- *lost-wax molding*
+
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
 ## Translations
 
@@ -53,13 +57,21 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translations
 
-- *fonte à cire perdue* | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Arminjon and Bilimoff 1998" %}, 78–80
+- *fonte à cire perdue*
 
-- *moulage à la cire perdue* | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}, 437; {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 99–100; {% cite "Rama 1988" %}, 203
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Arminjon and Bilimoff 1998" %}, 78–80
 
-- *moulage en cire perdue* | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Guettier 1858" %}, notice 585, p. 300; {% cite "Laboulaye 1861" %}, 81–82
+- *moulage à la cire perdue*
 
-- *procédé à cire perdue* | Source: Cultural Heritage: {% cite "Rolley 1994" %}, 65
+    Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}, 437; {% cite "Cuénin 1994" %}, 5; {% cite "Koch and Newell 1963" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 99–100; {% cite "Rama 1988" %}, 203
+
+- *moulage en cire perdue*
+
+    Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Guettier 1858" %}, notice 585, p. 300; {% cite "Laboulaye 1861" %}, 81–82
+
+- *procédé à cire perdue*
+
+    Source: Cultural Heritage: {% cite "Rolley 1994" %}, 65
 
 ### **German**: *{{ lang.de }}*
 
@@ -69,7 +81,9 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translation
 
-- *Modellausschmelzverfahren* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Modellausschmelzverfahren*
+
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -79,7 +93,9 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translation
 
-- *fusione a cera perduta* | Source: [Treccani](http://www.treccani.it/vocabolario/cera1/)
+- *fusione a cera perduta*
+
+    Source: [Treccani](http://www.treccani.it/vocabolario/cera1/)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -89,6 +105,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translation
 
-- 失蜡铸造 | Sources: {% cite "Ming 2010" %}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
+- 失蜡铸造
+
+    Sources: {% cite "Ming 2010" %}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
 
 </div>

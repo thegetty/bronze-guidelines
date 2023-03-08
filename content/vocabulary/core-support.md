@@ -46,7 +46,9 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate translations
 
-- *support pour noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+- *support pour noyau*
+
+    Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -66,9 +68,15 @@ Same as “core pin”
 
 - *armatura interna*
 
-- *sopporto reggi anime* | Source: {% cite "Brunhuber 1988" %}
+- *sopporto reggi anime*
 
-- *sostegno di bronzo* (Also found with alternative spelling: *sustegno*) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82
+    Source: {% cite "Brunhuber 1988" %}
+
+- *sostegno di bronzo*
+
+    Also found with alternative spelling: *sustegno*
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82
 
 - *supporto dell'anima di fusione*
 

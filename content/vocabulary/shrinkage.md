@@ -43,7 +43,9 @@ Contraction du métal lors du refroidissement conduisant à une perte dimensionn
 
 #### To Be Distinguished From
 
-- *retassure* (Note: La retassure est un des résultats possible du retrait.)
+- *retassure*
+
+    Note: La retassure est un des résultats possible du retrait.
 
 #### Sources
 

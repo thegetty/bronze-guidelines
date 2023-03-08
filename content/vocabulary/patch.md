@@ -50,7 +50,9 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translation
 
-- *pièce* | Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
+- *pièce*
+
+    Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
 
 ### **German**: *{{ lang.de }}*
 
@@ -66,9 +68,13 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translations
 
-- *tassellatura* | Sources: {% cite "Pecchioli 1999" %}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
+- *tassellatura*
 
-- *tassello* | Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
+    Sources: {% cite "Pecchioli 1999" %}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
+
+- *tassello*
+
+    Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -80,10 +86,18 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translations
 
-- 补修料 (Literally “material used as a patch”) | Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+- 补修料
 
-- 补片 | Source: [TNATD](https://terms.naer.edu.tw/detail/643120/)
+    Literally “material used as a patch”
+    
+    Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 
-- 补缀 (v., n.) | Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+- 补片
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/643120/)
+
+- 补缀 (v., n.)
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 
 </div>

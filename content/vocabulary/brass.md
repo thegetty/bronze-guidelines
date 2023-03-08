@@ -51,11 +51,17 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Alternate Translations
 
-- *archal* | Sources: Cultural Heritage: {% cite "Thomas 2009" %}, 505, 507–8; Historical: {% cite "Lespinasse and Bonnardot 1879" %}, 551
+- *archal*
 
-- *cuivre jaune* | Sources: Historical: {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 4:540–47, entry « cuivre »; {% cite "Mariette 1768" %}; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224; {% cite "Grandpierre and Avale 1867" %}, 7; {% cite "Delon 1877" %}, 180
+    Sources: Cultural Heritage: {% cite "Thomas 2009" %}, 505, 507–8; Historical: {% cite "Lespinasse and Bonnardot 1879" %}, 551
 
-- *orichalque* | Source: Cultural Heritage: {% cite "Halleux 1973" %}
+- *cuivre jaune*
+
+    Sources: Historical: {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 4:540–47, entry « cuivre »; {% cite "Mariette 1768" %}; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224; {% cite "Grandpierre and Avale 1867" %}, 7; {% cite "Delon 1877" %}, 180
+
+- *orichalque*
+
+    Source: Cultural Heritage: {% cite "Halleux 1973" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -65,8 +71,9 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Alternate Translation
 
-- Messinge
-- Messinglegierung
+- *Messinge*
+
+- *Messinglegierung*
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -84,6 +91,8 @@ Literally “copper-zinc alloy”
 
 #### Alternate Translation
 
-- 黃铜 (This is a broad, colloquial term for brass.)
+- 黃铜
+
+    This is a broad, colloquial term for brass.
 
 </div>

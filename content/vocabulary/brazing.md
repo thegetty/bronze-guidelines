@@ -66,7 +66,11 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translations
 
-- *soudure indirecte* (Les termes {% def "soudage" %} ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
+- *soudure indirecte*
+
+    Les termes {% def "soudage" %} ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.
+    
+    Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **German**: *{{ lang.de }}*
 
@@ -88,8 +92,12 @@ A subset of *saldatura*
 
 #### Alternate Translations
 
-- 钎焊 | Source: {% cite "Ming 2010" %}, 1137, 1138
+- 钎焊
 
-- 铜焊 | Source: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
+    Source: {% cite "Ming 2010" %}, 1137, 1138
+
+- 铜焊
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
 
 </div>

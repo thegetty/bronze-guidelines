@@ -67,6 +67,8 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 #### Alternate Translation
 
-- 锈蚀 | Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
+- 锈蚀
+
+    Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
 
 </div>

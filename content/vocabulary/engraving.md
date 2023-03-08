@@ -63,7 +63,9 @@ Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 #### Alternate Translation
 
-- *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
+- *Gravur*
+
+    Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -79,6 +81,8 @@ Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 #### Alternate Translation
 
-- 雕刻 | Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
+- 雕刻
+
+    Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
 
 </div>

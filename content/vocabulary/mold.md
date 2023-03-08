@@ -64,7 +64,9 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Alternate Translation
 
-- *creux* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
+- *creux*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
 
 ### **German**: *{{ lang.de }}*
 
@@ -86,11 +88,21 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Alternate Translations
 
-- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
+- *cavo*
 
-- *forma* (General and also {% def "investment" %} mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
+    
+    Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
 
-- *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
+- *forma*
+
+    General and also {% def "investment" %} mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+
+- *stampo*
+
+    General term for an impression
+    
+    Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -57,7 +57,9 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 #### Alternate Translations
 
-- *surface brute de fonderie* | Source: {% cite "Baudry and Bozo 1978" %}, 632, on parle d’un état « brut de fonderie »
+- *surface brute de fonderie*
+
+    Source: {% cite "Baudry and Bozo 1978" %}, 632, on parle d’un état « brut de fonderie »
 
 - *surface brute de fonte*
 
@@ -91,6 +93,8 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Alternate Translation
 
-- 铸态表面 (Source: TNADD)
+- 铸态表面
+
+    Source: TNADD
 
 </div>

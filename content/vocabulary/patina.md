@@ -64,7 +64,9 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
 #### Alternate Translation
 
-- *couleur* | Source: Historical: {% cite "Félibien 1690" %}, 334
+- *couleur*
+
+    Source: Historical: {% cite "Félibien 1690" %}, 334
 
 ### **German**: *{{ lang.de }}*
 
@@ -84,10 +86,22 @@ This term is more commonly used in art historical references and means “an age
 
 #### Alternate Translations
 
-- 铜绿 (There is no general term in Chinese for patina as defined here; this term can be translated as “green corrosion on copper” and is used specifically for ancient works.) | Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
+- 铜绿
 
-- 铜锈 (There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.) | Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
+    There is no general term in Chinese for patina as defined here; this term can be translated as “green corrosion on copper” and is used specifically for ancient works.
+    
+    Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
 
-- 陈年色泽 (More commonly used in art historical references, meaning “an aged surface accumulated over time”) | Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
+- 铜锈
+
+    There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.
+    
+    Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
+
+- 陈年色泽
+
+    More commonly used in art historical references, meaning “an aged surface accumulated over time”
+    
+    Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
 
 </div>

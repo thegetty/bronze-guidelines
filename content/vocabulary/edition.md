@@ -71,7 +71,9 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 #### Alternate Translation
 
-- *Edition* | Source: {% cite "Mietzsch 2009" %}, 103
+- *Edition*
+
+    Source: {% cite "Mietzsch 2009" %}, 103
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -81,9 +83,15 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 #### Alternate Translations
 
-- *multiplo* (In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures) | Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+- *multiplo*
 
-- *serie* (Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning)
+    In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures
+    
+    Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+
+- *serie*
+
+    Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -29,11 +29,15 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 ## To Be Distinguished From
 
-- *seam line* (Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.)
+- *seam line*
+
+    Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.
 
 ## Synonyms
 
-- *finning* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *finning*
+
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *veining*
 
@@ -67,9 +71,13 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
 #### Alternate Translations
 
-- *gerçure* | Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
+- *gerçure*
 
-- *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+    Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
+
+- *nervure*
+
+    Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -89,7 +97,9 @@ Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Synonym
 
-- *cresta di fusione* | Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
+- *cresta di fusione*
+
+    Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -99,10 +109,16 @@ Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Translations
 
-- 溢料 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- 溢料
 
-- 溢边 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+    Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 飞边 | Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- 溢边
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+
+- 飞边
+
+    Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
 </div>

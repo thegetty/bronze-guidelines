@@ -58,7 +58,9 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translation
 
-- *armature de noyau* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+- *armature de noyau*
+
+    Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -70,7 +72,9 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *Stützkonstruktion*
 
-- *Armierung* | Source: {% cite "Maaz 2010" %}, 695
+- *Armierung*
+
+    Source: {% cite "Maaz 2010" %}, 695
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -80,11 +84,21 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translations
 
-- *armadura* (Early italian spelling of *armatura*) | Source: {% cite "Leonardo 1490" %}, fols. 155, 157v, 144v
+- *armadura*
 
-- *ferramenta* (Relates more specifically to the ferrous materials used for the armature) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 80v
+    Early italian spelling of *armatura*
+    
+    Source: {% cite "Leonardo 1490" %}, fols. 155, 157v, 144v
 
-- *rinforzo per anime* | Source: {% cite "Brunhuber 1988" %}
+- *ferramenta*
+
+    Relates more specifically to the ferrous materials used for the armature
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 80v
+
+- *rinforzo per anime*
+
+    Source: {% cite "Brunhuber 1988" %}
 
 ### **Chinese**: {{ lang.zh }}
 

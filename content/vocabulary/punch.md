@@ -55,7 +55,11 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Alternate Translation
 
-- *ciselet* (Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
+- *ciselet*
+
+    Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.
+    
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -71,7 +75,9 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Alternate Translation
 
-- *punzone* | Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {% cite "Cellini [1568] 1967" %}, fol. 27
+- *punzone*
+
+    Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {% cite "Cellini [1568] 1967" %}, fol. 27
 
 ### **Chinese**: {{ lang.zh }}
 

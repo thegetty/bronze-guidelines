@@ -67,7 +67,11 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translation
 
-- *soudure indirecte* (Les termes soudage ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.) | Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
+- *soudure indirecte*
+
+    Les termes soudage ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.
+    
+    Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **German**: *{{ lang.de }}*
 
@@ -85,7 +89,9 @@ A subset of *saldatura*
 
 #### Alternate Translation
 
-- *saldatura* | Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1967" %}, fols. 37v–38
+- *saldatura*
+
+    Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1967" %}, fols. 37v–38
 
 ### **Chinese**: {{ lang.zh }}
 

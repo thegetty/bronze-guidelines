@@ -41,7 +41,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 ## Synonyms
 
-- *encrustation* | Source: Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
+- *encrustation*
+
+    Source: Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 - *foil*
 
@@ -63,11 +65,17 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 #### To Be Distinguished From
 
-- *damassé* (Acier forgé par pliages successifs pour faire apparaître un décor.)
+- *damassé*
+
+    Acier forgé par pliages successifs pour faire apparaître un décor.
 
 #### Alternate Translation
 
-- *damasquinure* (Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».) | Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
+- *damasquinure*
+
+    Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162), désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460). Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
+    
+    Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
 ### **German**: *{{ lang.de }}*
 
@@ -75,15 +83,25 @@ A general term closer to “coating”
 
 #### Alternate Translation
 
-- *Überzug* (German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.) | Source: {% cite "Lein 2004" %}, 51
+- *Überzug*
 
-- *Verzierung* (a general term closer to “decoration” or “ornament”)
+    German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.
+    
+    Source: {% cite "Lein 2004" %}, 51
+
+- *Verzierung*
+
+    A general term closer to “decoration” or “ornament”
 
 ### **Italian**: *{{ lang.it }}*
 
 #### Alternate Translation
 
-- *riporto* (rare and not very specific) | Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
+- *riporto*
+
+    Rare and not very specific
+
+    Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -93,6 +111,8 @@ A general term closer to “coating”
 
 #### Alternate Translation
 
-- 覆盖 | Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
+- 覆盖
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
 
 </div>

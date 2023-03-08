@@ -70,9 +70,15 @@ Historical: {% cite "Boffrand 1743" %}, 15â€“17; {% cite "Mariette 1768" %}, 23â
 
 #### Alternate Translations
 
-- *forma* (Can refer to both the model and the mold, which leads to potential confusion)
+- *forma*
 
-- *forma da gittar di bronzo* (This is the wax model that is used for casting, thus also possibly referring to the {% def "inter-model" %}.) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
+    Can refer to both the model and the mold, which leads to potential confusion
+
+- *forma da gittar di bronzo*
+
+    This is the wax model that is used for casting, thus also possibly referring to the {% def "inter-model" %}.
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
 ### **Chinese**: {{ lang.zh }}
 
