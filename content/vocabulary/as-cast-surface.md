@@ -95,6 +95,6 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 - 铸态表面
 
-    Source: TNADD
+    Source: TNATD
 
 </div>
