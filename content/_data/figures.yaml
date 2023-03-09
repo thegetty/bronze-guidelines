@@ -3723,19 +3723,19 @@ figure_list:
 
   - id: "fig-469"
     src: "figures/469.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 469"
     caption: "Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
 
   - id: "fig-470"
     src: "figures/470.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 470"
     caption: "Aquamanile in the Form of Samson and the Lion, northern Europe (?), possibly Germany, ca. 1380–1400, H. 34.1 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1412)."
 
   - id: "fig-471"
     src: "figures/471.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 471"
     caption: "Aquamanile in the Form of a Lion, Nuremberg, Germany, ca. 1400, H. 31.9 cm (Metropolitan Museum of Art, The Cloisters Collection, 1994, inv. 1994.244)."
 
@@ -3771,7 +3771,7 @@ figure_list:
 
   - id: "fig-477"
     src: "figures/477.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 477"
     caption: "Radiograph. Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Dandridge 2006%%."
 
@@ -3795,7 +3795,7 @@ figure_list:
 
   - id: "fig-480"
     src: "figures/480.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 480"
     caption: "Detail from a radiograph of an aquamanile, showing the print for the original armature extending up through the center of the rider’s torso and visible as a slightly less dense, darker channel within retained core material. Aquamanile in the Form of a Falconer on Horseback, northern Germany, 13th century, H. 34.7 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.55). See %%Dandridge 2006%%."
 
@@ -3807,7 +3807,7 @@ figure_list:
 
   - id: "fig-482"
     src: "figures/482.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 482"
     caption: "Detail from radiograph of an aquamanile showing that the form of Samson’s core extends into his legs, arms, and head, and that the lion’s mane was fully modeled in the core. Aquamanile in the Form of Samson and the Lion, northern Europe (?), possibly Germany, ca. 1380–1400, H. 34.1 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1412). See %%Dandridge 2006%%."
 
@@ -3819,7 +3819,7 @@ figure_list:
 
   - id: "fig-484"
     src: "figures/484.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 484"
     caption: "Detail from an aquamanile illustrating the rod-shaped strut extending out of the chest and supporting the falconer’s right arm, as well as the exaggerated length of the glove flap on his opposite arm, allowing for the circular flow of metal during the pour. Aquamanile in the Form of a Falconer on Horseback, northern Germany, 13th century, H. 34.7 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.55). See %%Dandridge 2006%%."
 
@@ -3831,7 +3831,7 @@ figure_list:
 
   - id: "fig-486"
     src: "figures/486.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 486"
     caption: "Detail showing both iron and copper core pins in the lion’s head. Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Dandridge 2006%%."
 
@@ -3855,7 +3855,7 @@ figure_list:
 
   - id: "fig-489"
     src: "figures/489.jpg"
-    media_type:
+    zoom: true
     label: "Figure 489"
     caption: "This scatter plot of alloys used in the study group analyzed by inductively coupled plasma-mass spectrometry (ICP-MS) illustrates an increased concentration of zinc in aquamanilia produced in Nuremberg at the beginning of the 15th century. See %%Dandridge 2006%%."
 
@@ -3897,7 +3897,7 @@ figure_list:
 
   - id: "fig-493"
     src: "figures/493.jpg"
-    media_type:
+    zoom: true
     label: "Figure 493"
     caption: "Detail illustrating the use of a spade drill to clarify the iris and a V-shaped graver to delineate the edges of the feathers, other details, and the punch work around the snout of a dragon. The faint parallel marks across the neck are indications of the use of a scraper to help smooth the surface. Aquamanile in the Form of a Dragon, northern Germany, ca. 1200, H. 21.2 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.51). See %%Barnet and Dandridge 2006%%."
 
@@ -3927,13 +3927,13 @@ figure_list:
 
   - id: "fig-498"
     src: "figures/498.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 498"
     caption: "Cast reproduction of an aquamanile after removal of its investment, still retaining the evidence of its sprueing. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Barnet and Dandridge 2006%%."
 
   - id: "fig-499"
     src: "figures/499.jpg"
-    media_type:
+    zoom: true
     label: "Figure 499"
     caption: "Radiograph showing the integration of square-sectioned iron armature elements extending up out of Aristotle’s arm and leg. The sharp bend at their tops suggests a point of overlap with additional elements and a potentially different technical approach to the fabrication of armatures. Aquamanile in the Form of Phyllis and Aristotle, southern Netherlands, late 14th or early 15th century, H. 32.5 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1416). See %%Barnet and Dandridge 2006%%."
 

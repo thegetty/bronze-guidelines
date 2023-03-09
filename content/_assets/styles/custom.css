@@ -164,6 +164,19 @@ a.quire-definition__content__more-link {
 .content .q-figure {
   border-width: 0;
 }
+.content .q-figure.is-45-percent-width {
+  max-width: 45%;
+}
+.content .q-figure.is-65-percent-width {
+  max-width: 65%;
+}
+.content .q-figure.is-paired {
+  max-width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4%;
+  margin-top: 1em;
+}
 /* Fix label styling for new class names */
 .quire-page__header__title .quire-page-label {
   line-height: 1.3;
@@ -466,9 +479,12 @@ a.quire-definition__content__more-link {
   padding-bottom: 0 !important;
 }
 /* Hide choice controls on page and only display in modal */
-.quire-page__content .q-figure form {
+.quire-page:not(.quire-entry) .quire-page__content .q-figure form {
   display: none;
 }
+/* .quire-entry .quire-page__content .q-figure form {
+  display: block;
+} */
 /* Add custom label icons for choices figures and videos */
 @media screen {
   .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon,
@@ -880,7 +896,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
     background-color: transparent;
     color: white;
   }
-  .quire-entry .quire-page__header .hero-body .label,
+  .quire-entry .quire-page__header__title .quire-page-label,
   .quire-entry .q-figure__label--below .q-figure__modal-link,
   .quire-entry h1,
   .quire-entry h2,
