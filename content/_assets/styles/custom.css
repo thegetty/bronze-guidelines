@@ -983,6 +983,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry .q-figure .q-figure__credit-content {
     color: var(--white);
   }
+  /* For non-table embeds in lightbox area */
+  .quire-entry .q-lightbox-slides__element--table .overflow-container {
+    padding: 0;
+  }
+  .quire-entry .q-lightbox-slides__element--table + .q-figure-slides__slide-ui {
+    display: flex;
+  }
 }
 .quire-page.interview h1 {
   font-size: 1.75em;

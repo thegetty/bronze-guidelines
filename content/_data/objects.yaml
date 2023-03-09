@@ -60,10 +60,9 @@ object_list:
       - id: "fig-501"
       - id: "fig-116"
       - id: "fig-117"
-      - id: "fig-111"
+      - id: "fig-111-dupe"
       - id: "fig-502"
-      - id: "fig-503"
-      #- id: "fig-500"
+      - id: "fig-ZZZ"
 
   - id: case-study-4
     figure:

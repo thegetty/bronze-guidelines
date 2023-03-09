@@ -37,6 +37,18 @@ figure_list:
     label: "Figures 440–46 and 449–55"
     caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
+  - id: "fig-111-dupe"
+    src: "figures/111.jpg"
+    # media_type: iiif
+    label: "Figure 111"
+    caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+
+  - id: "fig-ZZZ"
+    src: embeds/fig-ZZZ.html
+    media_type: table
+    label: "Figure ZZZ"
+    caption: "3D scan. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+
   # REGULAR FIGURES
 
   - id: "fig-001"
@@ -1096,13 +1108,13 @@ figure_list:
 
   - id: "fig-116"
     src: "figures/116.jpg"
-    media_type:
+    zoom: true
     label: "Figure 116"
     caption: "Hand sketches mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
   - id: "fig-117"
     src: "figures/117.jpg"
-    media_type:
+    zoom: true
     label: "Figure 117"
     caption: "Hand-sketches mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
@@ -3939,7 +3951,7 @@ figure_list:
 
   - id: "fig-500"
     src: "figures/500.jpg"
-    # media_type: iiif
+    zoom: true
     label: "Figure 500"
     caption: "Side view. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research). To see the location of the detail in [fig. 503](/visual-atlas/#fig-503){target=_blank}, click to activate the overlay."
     # annotations: true
