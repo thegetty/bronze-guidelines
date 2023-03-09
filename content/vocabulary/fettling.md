@@ -29,7 +29,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 ## To Be Distinguished From
 
-- *{% def "chasing" %}*
+- {% def "chasing" "*chasing*" %}
 
 ## Translations
 
@@ -78,7 +78,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 - *reparure* 
 
-        Variante orthographique. Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.
+    Variante orthographique. Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.
     
     Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 

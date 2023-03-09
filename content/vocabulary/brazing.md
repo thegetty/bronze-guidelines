@@ -41,7 +41,7 @@ Other: {% cite "Scott 1991" %}, 138
 - *flow welding*
 - *fusion welding*
 - *repair*
-- *{% def "soldering" %}*
+- {% def "soldering" "*soldering*" %}
 - *welding*
 
 ## Translations

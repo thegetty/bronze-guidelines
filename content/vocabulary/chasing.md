@@ -105,9 +105,7 @@ Not reserved specifically for metals
 
     Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
 
-- *ritocco a freddo*
-
-    Ritocco a freddo di dettagli
+- *ritocco a freddo* (ritocco a freddo di dettagli)
 
     Source: {% cite "Formigli 2010" %}, 20–21
 

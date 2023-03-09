@@ -36,7 +36,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 ## To Be Distinguished From
 
-- *{% def "chaplet" %}*
+- {% def "chaplet" "*chaplet*" %}
 
 - *core plate*
 

@@ -31,7 +31,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
 ## Synonym
 
-- *{% def "pour" %}*
+- {% def "pour" "*pour*" %}
 
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 

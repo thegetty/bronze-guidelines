@@ -33,11 +33,9 @@ Other: {% cite "Untracht 1968" %}
 
 ## Synonyms
 
-- *{% def "investment" %} casting*
+- {% def "investment" "*investment*" %} casting
 
-- *lost wax casting*
-
-    Alternate spelling
+- *lost wax casting* (alternate spelling)
 
 - *lost-wax molding*
 

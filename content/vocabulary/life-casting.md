@@ -37,9 +37,7 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 ## Synonym
 
-- *life casting*
-
-    Alternate spelling
+- *life casting* (alternate spelling)
 
 ## Translations
 

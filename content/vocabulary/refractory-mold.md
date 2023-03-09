@@ -57,7 +57,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translations
 
-- *{% def "moule" %}* (terme ambigu, à éviter.
+- {% def "moule" "*moule*" %} (terme ambigu, à éviter.)
 
     Sources: Cultural Heritage Publications: {% cite "Baudry and Bozo 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 

@@ -65,7 +65,7 @@ Note: Ce terme a été introduit par les membres de CAST:ING – et reste débat
 
 - *saldatura*
 
-    (Metallurgica) per colata; flow fusion welding [used in antiquity]); {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
+    (Metallurgica) per colata; flow fusion welding [used in antiquity]; {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
 - *saldatura*
 

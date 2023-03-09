@@ -35,9 +35,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 ## To Be Distinguished From
 
 - *copy*
-- *{% def "replica" %}*
+- {% def "replica" "*replica*" %}
 - *version*
-- *{% def "variant" %}*
+- {% def "variant" "*variant*" %}
 
 ## Synonym
 

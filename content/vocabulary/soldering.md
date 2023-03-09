@@ -43,7 +43,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 - *flow fusion welding*
 - *flow welding*
 - *fusion welding*
-- *{% def "welding" %}*
+- {% def "welding" "*welding*" %}
 
 ## Translations
 

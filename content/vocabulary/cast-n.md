@@ -45,7 +45,7 @@ Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %
 
 - *jet*
 
-    « On dit aussi un beau jet pour dire une figure qui a esté bien jettée
+    « On dit aussi un beau jet pour dire une figure qui a esté bien jettée »
 
     Source: Historical: {% cite "Félibien 1690" %}, 623
 

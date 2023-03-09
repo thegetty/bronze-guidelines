@@ -33,7 +33,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## To Be Distinguished From
 
 - *copy*
-- *{% def "replica" %}*
+- {% def "replica" "*replica*" %}
 
 ## Synonyms
 

@@ -28,7 +28,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 ## To Be Distinguished From
 
-- *{% def "plug" %}*
+- {% def "plug" "*plug*" %}
 
 ## Translations
 

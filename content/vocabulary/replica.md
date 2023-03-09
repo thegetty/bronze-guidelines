@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
     Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast (v.)" "cast" %} by a licensed or sanctioned foundry.
 
-- *{% def "variant" %}*
+- {% def "variant" "*variant*" %}
 - *version*
 
 ## Translations
@@ -93,9 +93,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
     An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
 
-- *riproduzione*
-
-    General term
+- *riproduzione* (general term)
 
     Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
 

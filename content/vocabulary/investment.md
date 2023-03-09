@@ -49,7 +49,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 #### Alternate Translations
 
-- *{% def "moule" %}* (Terme non univoque.)
+- {% def "moule" "*moule*" %} (Terme non univoque.)
 
     Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 329
 

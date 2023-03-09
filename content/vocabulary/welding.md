@@ -37,8 +37,8 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 ## To Be Distinguished From
 
-- *{% def "brazing" %}*
-- *{% def "soldering" %}*
+- {% def "brazing" "*brazing*" %}
+- {% def "soldering" "*soldering*" %}
 
 ## Translations
 

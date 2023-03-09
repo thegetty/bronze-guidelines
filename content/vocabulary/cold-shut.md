@@ -40,13 +40,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 ## Synonyms
 
-- *cold-shot*
+- *cold-shot* (alternate spelling)
 
-    alternate spelling
-
-- *cold-shut*
-
-    alternate spelling
+- *cold-shut* (alternate spelling)
 
 ## Translations
 

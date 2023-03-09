@@ -82,7 +82,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 - *manchevolezza*
 
-    General term for describing defects)
+    General term for describing defects
     
     Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 

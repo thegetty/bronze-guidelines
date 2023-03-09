@@ -27,9 +27,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 ## To Be Distinguished From
 
-- *{% def "after-cast" %}*
+- {% def "after-cast" "*after-cast*" %}
 - *aftercast*
-- *{% def "replica" %}*
+- {% def "replica" "*replica*" %}
 - *surmoulage*
 
 ## Synonym
