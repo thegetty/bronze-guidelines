@@ -37,11 +37,35 @@ figure_list:
     label: "Figures 440–46 and 449–55"
     caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
+  - id: "fig-067-dupe"
+    src: "figures/067.jpg"
+    # media_type: iiif
+    label: "Figure 67"
+    caption: "Example of direct wax additions on a wax model, notably the attribute in the left hand. Statuette of Jambhala, Java, first half of the 9th century, H. 28 cm (Musée National des arts asiatiques – Guimet, Paris, inv. MG 3814). See %%Mechling et al. 2018%%."
+
   - id: "fig-111-dupe"
     src: "figures/111.jpg"
     # media_type: iiif
     label: "Figure 111"
     caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+
+  - id: "fig-505-dupe"
+    src: "figures/505.jpg"
+    # media_type: iiif
+    label: "Figure 505"
+    caption: "Front view. Ten-Armed Avalokiteśvara, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816). See %%Mechling et al. 2018%%."
+
+  - id: "fig-510-dupe"
+    src: "figures/510.jpg"
+    # media_type: iiif
+    label: "Figure 510"
+    caption: "X-radiograph of frontal view. Statuette of Jambhala, central Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See %%Mechling et al. 2018%%."
+
+  - id: "fig-518-dupe"
+    src: "figures/518.jpg"
+    media_type:
+    label: "Figure 518"
+    caption: "Main impurities in the metal of the Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See %%Mechling et al. 2018%%."
 
   - id: "fig-ZZZ"
     src: embeds/fig-ZZZ.html
