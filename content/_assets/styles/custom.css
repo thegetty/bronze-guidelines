@@ -39,14 +39,6 @@
     right: -130px;
   }
 }
-/* TEMPORARY until callouts are annorefs */
-.quire-entry .side-by-side p strong:first-child {
-  color: cyan;
-}
-.quire-entry .side-by-side .quire-page__content .content a.annoref {
-  color: cyan;
-  border-bottom-color: cyan;
-}
 :root {
 
   /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
