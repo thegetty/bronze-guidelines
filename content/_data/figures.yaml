@@ -511,7 +511,7 @@ figure_list:
     src: "figures/044.jpg"
     # media_type: iiif
     label: "Figure 44"
-    caption: "Sprue system on a reproduction casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.149). See [video 8](/visual-atlas/#vid-08){target=_blank}."
+    caption: "Cast reproduction of an aquamanile after removal of its investment, still retaining the evidence of its sprueing. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Barnet and Dandridge 2006%%, and [video 8](/visual-atlas/#vid-08){target=_blank}."
 
   - id: "fig-045"
     src: "figures/045.jpg"
@@ -3998,9 +3998,9 @@ figure_list:
 
   - id: "fig-498"
     src: "figures/498.jpg"
-    zoom: true
+    media_type: dynamic
     label: "Figure 498"
-    caption: "Cast reproduction of an aquamanile after removal of its investment, still retaining the evidence of its sprueing. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after Aquamanile in the Form of a Lion, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Barnet and Dandridge 2006%%."
+    caption: "A digital (DR) 360° radiograph package containing radiographs, enhanced radiographs, visible light images and blended images at 5° increments. In the online version of this publication, clicking and dragging from side to side rotates the image sets. Using the keyboard up and down arrows (or clicking and dragging up and down) switches from one image set to the next. Buttons at the bottom allow the image to be zoomed.  Holding the shift key allows the image to be repositioned with the mouse. The package was created using Ortery software. Camille Claudel (French, 1864-1943), Torso of a Crouching Woman, model about 1884–1885; cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
 
   - id: "fig-499"
     src: "figures/499.jpg"
@@ -4471,6 +4471,18 @@ figure_list:
     # media_type: iiif
     label: "Figure 562"
     caption: "Andrew Lacey (British, b. 1969), sprued wax model reconstruction after Andrea Riccio (Italian, ca. 1470–1532), Satyr and Satyress, 1510–20, H. 24 cm (Victoria and Albert Museum, presented by Art Fund, inv. A.8-1949)."
+
+  - id: "fig-563"
+    src: "figures/563.jpg"
+    # media_type: iiif
+    label: "Figure 563"
+    caption: "A digital turntable used in conjunction with a simple easel allows multiple 360° rotation series to be acquired in identical positions and composited in batches. The detector panel slides to a new position for each rotation.  Because the detector stays in one plane, the image sets can be assembled by simple tiling, without the need for sophisticated alignment algorithms."
+
+  - id: "fig-564"
+    src: "figures/564.jpg"
+    media_type: dynamic
+    label: "Figure 564"
+    caption: "A digital (DR) 360° X-ray package made using the set up shown in Fig. XXI.  Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. In the digital version of this publication, the sculpture may be spun and manipulated according to the directions for Fig. 498. After a model by Gaspard Marsy (French, 1624-1681), Boreas Abducting Orithyia, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
 
   # VIDEOS
 
