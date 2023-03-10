@@ -27,6 +27,9 @@ figure_list:
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
     visual_atlas: false
+  - id: "vid-03-cover"
+    src: "figures/case-studies/vid-03-cover.jpg"
+    visual_atlas: false
 
   # OTHER CASE STUDY IMAGES
 
@@ -185,8 +188,8 @@ figure_list:
             selected: true
 
   - id: "fig-009"
-    src: "figures/009.png"
-    # media_type: iiif
+    src: "figures/009.jpg"
+    zoom: true
     class: pdf-full-width
     label: "Figure 9"
     caption: "Diagram depicting a version of the main steps in sand casting: 1) a chef-modèle or pattern is a specially designed model for sand casting made of a hard material—often metal—to withstand the repeated handling and ramming of sand within a multipart, stacked metal or wooden frame called a casting flask; 2) the pattern is buried about halfway in backing sand in a first section of the flask called the cope; piece mold sections are built up over the model with carefully rammed special casting sand whose naturally occurring binder, clay, helps the compacted sand hold the desired shape; 3) once the exposed part of the pattern is covered with mold pieces, the second section of the flask, or “drag,” is affixed to the cope and the piece-molded side is back filled with carefully rammed sand; 4) the tightly packed flask is flipped; the cope and backing sand, now on top, are removed to provide access for a similar piece-molding process to be performed on the other side of the chef-modèle; 5) the two-part casting flask is parted and the mold pieces carefully disassembled to remove the pattern; 6) to make a hollow cast, a core must be created to define the thickness of the bronze walls; this is made by ramming the same special casting sand into the hollow impression left by the chef-modèle; metal core supports (the crossed features in black) extending out into the surrounding mold pieces are incorporated into the new sand; the cope and drag are joined, thereby creating a sand replica; 7) the flask is opened again and the sand replica is removed and shaved down evenly overall to form the core; white areas indicate hollow spaces for metal to fill; the thin legs in this case will be solid, and so will not need a core (in [Case Study 6](#CaseStudy6), the core supports were metal tubes that served as core vents as well); 8) the sand mold and core are baked, then carefully reassembled in the cope and drag; the core supports projecting from the core serve to suspend the core in place; channels are cut strategically into the mold to ensure the efficient distribution and flow of the metal and venting of air; 9) the cope and drag are reassembled and locked together, and the metal alloy, which has in the meantime been liquefied, is poured into the mold; 10) once the metal has solidified and cooled, the sand mold is broken open and the bronze cast removed; the metal sprues that have formed in the channels are cut off; and the surface is cleaned and repaired as needed; 11) the bronze surface may be reﬁnished with details before joining the separately cast arms and base. As a final step, a patina may be applied. Diagram based on Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14). See [Case Study 6](#CaseStudy6)."

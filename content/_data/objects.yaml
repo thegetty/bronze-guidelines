@@ -111,6 +111,10 @@ object_list:
       - id: "fig-534"
       - id: "fig-537"
       - id: "fig-540"
-      - id: "fig-541"
+      - id: "fig-539"
       - id: "fig-195"
-      #- id: "fig-529"
+
+  - id: case-study-7
+    figure:
+      - id: "vid-03-cover"
+
