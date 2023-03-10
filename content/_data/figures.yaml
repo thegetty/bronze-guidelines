@@ -1278,7 +1278,7 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/128/psurmoulage-lines.png"
+          - src: "figures/128/surmoulage-lines.png"
             label: "Surmoulage Lines"
             selected: true
 
