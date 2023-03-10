@@ -93,14 +93,12 @@ object_list:
       - id: "fig-070"
       - id: "fig-008"
       - id: "fig-038"
-      - id: "fig-034"
-      #- id: "fig-034"
+      - id: "fig-034-097-524-group"
       - id: "fig-023"
       - id: "fig-431"
       - id: "fig-525"
       - id: "fig-274"
       - id: "fig-528"
-      #- id: "fig-523"
 
   - id: case-study-6
     figure:
