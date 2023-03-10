@@ -667,7 +667,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-left: 0;
 }
 .quire-page.vocabulary .quire-page__content .content .accordion li {
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
   margin-left: 0;
 }
 .quire-page.vocabulary .quire-page__content .content .accordion li p {
@@ -1640,7 +1640,6 @@ table .poor { background-color: #F2F9F1; }
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {
-    margin-top: -1rem;
     border-bottom-width: 0;
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
