@@ -253,7 +253,7 @@ a.quire-definition__content__more-link {
 }
 .quire-cover__image-container .image-wrapper {
   max-height: 100%;
-  overflow: auto;
+  overflow: clip;
 }
 .quire-cover__image-container .image-wrapper img {
   width: 100%;
