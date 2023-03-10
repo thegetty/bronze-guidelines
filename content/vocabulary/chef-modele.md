@@ -38,7 +38,7 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
     
     Sources: Cultural Heritage: {% cite "Motture 2019" %}; Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

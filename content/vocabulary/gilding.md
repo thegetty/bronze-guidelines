@@ -23,7 +23,7 @@ lang:
 
 Cultural Heritage: {% cite "Drayman-Weisser 2000" %}; {% cite "Oddy 1993" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture 2019" %}, 39
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

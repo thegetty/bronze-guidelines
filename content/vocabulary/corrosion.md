@@ -33,7 +33,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/corrosion>
 
 Other: {% cite "Scott 1991" %}, 43–47, 81
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

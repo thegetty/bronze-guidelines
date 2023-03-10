@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
 
 - *patch*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

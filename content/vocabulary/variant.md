@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 - *version*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

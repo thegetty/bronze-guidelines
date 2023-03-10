@@ -30,7 +30,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 - {% def "plug" "*plug*" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

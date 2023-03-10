@@ -39,7 +39,7 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 - *life casting* (alternate spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

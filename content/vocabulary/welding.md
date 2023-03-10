@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 - {% def "brazing" "*brazing*" %}
 - {% def "soldering" "*soldering*" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

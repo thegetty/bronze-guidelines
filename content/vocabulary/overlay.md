@@ -49,7 +49,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 - *incrustation*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

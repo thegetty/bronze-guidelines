@@ -36,7 +36,7 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 
 - *casting flaw*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

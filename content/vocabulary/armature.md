@@ -32,7 +32,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 - *core rod*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

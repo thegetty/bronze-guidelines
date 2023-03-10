@@ -41,7 +41,7 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 - *sleeve join*
 - *socket and tenon join*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

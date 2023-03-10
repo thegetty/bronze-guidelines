@@ -25,7 +25,7 @@ Cultural Heritage: {% cite "Salter and Gilmour n.d." %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

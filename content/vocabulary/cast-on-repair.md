@@ -30,7 +30,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 
     The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast (v.)" "cast" %} in sections.
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

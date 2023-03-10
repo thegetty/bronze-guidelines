@@ -38,7 +38,7 @@ Art and Craft Textbook: {% cite "Fishlock 1962" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

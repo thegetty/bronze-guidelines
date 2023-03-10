@@ -44,7 +44,7 @@ Other: {% cite "Scott 1991" %}, 138
 - {% def "soldering" "*soldering*" %}
 - *welding*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

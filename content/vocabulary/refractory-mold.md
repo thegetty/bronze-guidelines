@@ -37,7 +37,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 - *fire-resistant mold*
 - *heat-resistant mold*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

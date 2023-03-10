@@ -51,7 +51,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 - *incrustation*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

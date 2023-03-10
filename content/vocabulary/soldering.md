@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 - *fusion welding*
 - {% def "welding" "*welding*" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

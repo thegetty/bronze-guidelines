@@ -50,7 +50,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 - *core rod*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

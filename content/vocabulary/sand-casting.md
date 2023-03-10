@@ -29,7 +29,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

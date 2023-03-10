@@ -25,7 +25,7 @@ Cultural Heritage: {% cite "Motture 2019" %}, 35; {% cite "Salter and Gilmour n.
 
 Art and Craft Textbook: {% cite "Untracht 1982" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

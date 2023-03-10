@@ -33,7 +33,7 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 - *mechanical joint*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

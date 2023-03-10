@@ -38,7 +38,7 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 - *flashing*
 - *veining*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
 - *chisel*
 - *cold chisel*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

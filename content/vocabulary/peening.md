@@ -33,7 +33,7 @@ Historical: {% cite "Bolland 1894" %}, 298
 
 Copper Industry: {% cite "Palmer 1929" %}, 294
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

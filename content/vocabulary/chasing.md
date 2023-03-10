@@ -45,7 +45,7 @@ Other: {% cite "Van Langh 2012" %}
     
 - *punching*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

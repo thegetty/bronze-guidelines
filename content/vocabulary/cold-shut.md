@@ -44,7 +44,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 - *cold-shut* (alternate spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

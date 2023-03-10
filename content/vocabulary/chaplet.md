@@ -51,7 +51,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
     Source: Cultural Heritage: {% cite "Strahan 2010" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

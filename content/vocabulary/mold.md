@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 - *mould* (UK spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

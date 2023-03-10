@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 - *piece-mold* (alternate spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

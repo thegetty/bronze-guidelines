@@ -43,7 +43,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 
     The French term *surmoulage* is often used in English texts.
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

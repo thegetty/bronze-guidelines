@@ -26,7 +26,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Bassett 2008" %}; {% cite 
 
 Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

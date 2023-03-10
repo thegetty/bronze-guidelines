@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 - *chasing*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

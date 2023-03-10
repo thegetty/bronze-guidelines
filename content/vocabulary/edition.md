@@ -43,7 +43,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 - *editioned replica*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

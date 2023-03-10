@@ -33,7 +33,7 @@ Copper Industry: {% cite "Campbell 2015" %}; {% cite "Brunhuber 1988" %}; {% cit
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

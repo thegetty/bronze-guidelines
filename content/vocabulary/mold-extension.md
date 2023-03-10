@@ -42,7 +42,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
     Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

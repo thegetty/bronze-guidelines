@@ -37,7 +37,7 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 - *fire scale*
 - *fire-skin*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

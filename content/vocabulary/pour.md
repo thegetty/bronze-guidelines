@@ -34,7 +34,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
     Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

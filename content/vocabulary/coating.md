@@ -34,7 +34,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/coat>
 
 Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

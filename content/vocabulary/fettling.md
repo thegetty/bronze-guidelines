@@ -31,7 +31,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 - {% def "chasing" "*chasing*" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

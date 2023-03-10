@@ -38,7 +38,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Campbell 2015" %}, 270; {
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

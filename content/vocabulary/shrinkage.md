@@ -33,7 +33,7 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundrymen’s Socie
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

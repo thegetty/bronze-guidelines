@@ -42,7 +42,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 - *foundryworker*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

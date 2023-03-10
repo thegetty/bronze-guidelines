@@ -29,7 +29,7 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

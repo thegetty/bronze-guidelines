@@ -34,7 +34,7 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

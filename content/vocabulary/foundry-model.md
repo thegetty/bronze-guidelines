@@ -29,7 +29,7 @@ Note: In {% def "sand casting" %}, a foundry model is referred to as a “patter
 
 Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "Beentjes 2019" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -31,7 +31,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/brass>
 
 Other: {% cite "Turner 1982" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

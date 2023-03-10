@@ -34,7 +34,7 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 
 - *intermediary model*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 - *chasing*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

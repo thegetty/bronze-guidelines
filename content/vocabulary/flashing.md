@@ -41,7 +41,7 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 - *veining*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

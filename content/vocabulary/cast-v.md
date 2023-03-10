@@ -35,7 +35,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
 
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

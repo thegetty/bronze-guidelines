@@ -35,7 +35,7 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
     Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
