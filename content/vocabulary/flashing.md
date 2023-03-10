@@ -13,11 +13,11 @@ lang:
   zh: 毛边
 ---
 
+See figs. 6, 59, 61, 77, 90, 249, 545.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
-
-(figs. 6, 59, 61, 77, 90, 249, 545){.pdf-figure-list}
 
 ## Sources
 
@@ -41,7 +41,7 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 
 - *veining*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

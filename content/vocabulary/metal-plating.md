@@ -13,11 +13,11 @@ lang:
   zh: 镀覆
 ---
 
+See figs. 293, 304, 343, 365.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-293, fig-304, fig-343, fig-365" %}
-
-(figs. 293, 304, 343, 365){.pdf-figure-list}
 
 ## Sources
 
@@ -25,7 +25,7 @@ Cultural Heritage: {% cite "Salter and Gilmour n.d." %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

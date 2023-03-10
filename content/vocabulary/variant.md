@@ -13,11 +13,11 @@ lang:
   zh: 变体
 ---
 
+See figs. 1, 76, 544.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-001, fig-076, fig-544" %}
-
-(figs. 1, 76, 544){.pdf-figure-list}
 
 ## Sources
 
@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 - *version*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -77,7 +77,7 @@ Literally “modification"
 - 变型
 
     Literally “modification”
-    
+
     Sources: {% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
 
 </div>

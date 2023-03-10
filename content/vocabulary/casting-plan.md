@@ -13,6 +13,8 @@ lang:
   zh: 分铸计划
 ---
 
+See fig. 367.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,13 +25,11 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 {% figuregroup "3", "fig-367" %}
 
-(fig. 367){.pdf-figure-list}
-
 ## Source
 
 Cultural Heritage: {% cite "Mille and Descamps-Lequime 2017" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -14,6 +14,8 @@ lang:
   zh: 罗马式接合
 ---
 
+See figs. 43, 65, 127, 211, 212, 213, 217, 218.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -24,8 +26,6 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 {% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
-(figs. 43, 65, 127, 211, 212, 213, 217, 218){.pdf-figure-list}
-
 ## Sources
 
 Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cite "Grissom and Harvey 2003" %}
@@ -35,13 +35,13 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 - *mortise and tenon join*
 
     Source: Cultural Heritage: {% cite "Bourgarit et al. 2003" %}
-    
+
 - *Roman join* (alternate spelling)
-    
+
 - *sleeve join*
 - *socket and tenon join*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -13,11 +13,11 @@ lang:
   zh: 可铸性
 ---
 
+See figs. 437, 438.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-437, fig-438" %}
-
-(figs. 437, 438){.pdf-figure-list}
 
 ## Sources
 
@@ -35,7 +35,7 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
     Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

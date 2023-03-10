@@ -14,6 +14,8 @@ lang:
   zh: 涂层
 ---
 
+See figs. 322, 323, 324, 326, 330.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -24,8 +26,6 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 
 {% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
-(figs. 322, 323, 324, 326, 330){.pdf-figure-list}
-
 ## Sources
 
 Art and Craft Textbook: {% cite "Hughes and Rowe 1989" %}, 45–46
@@ -34,7 +34,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/coat>
 
 Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -13,6 +13,8 @@ lang:
   zh: 阴刻
 ---
 
+See figs. 241, 243, 254, 276, 279, 280, 495.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to 
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
-
-(figs. 241, 243, 254, 276, 279, 280, 495){.pdf-figure-list}
 
 ## Sources
 
@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 - *chasing*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

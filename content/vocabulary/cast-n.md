@@ -27,7 +27,7 @@ Note: Both “cast” and “casting” can be correctly used as nouns, but the 
 
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

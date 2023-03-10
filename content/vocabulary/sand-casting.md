@@ -13,11 +13,11 @@ lang:
   zh: 砂型铸造
 ---
 
+See figs. 9, 61, 101, 107, 108, 542.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
-
-(figs. 9, 61, 101, 107, 108, 542){.pdf-figure-list}
 
 ## Sources
 
@@ -29,7 +29,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

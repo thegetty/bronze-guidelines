@@ -14,6 +14,8 @@ lang:
   zh: 复制品
 ---
 
+See figs. 1, 554.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-554" %}
-
-(figs. 1, 554){.pdf-figure-list}
 
 ## Sources
 
@@ -41,7 +41,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 - {% def "variant" "*variant*" %}
 - *version*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

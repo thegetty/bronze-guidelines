@@ -13,6 +13,8 @@ lang:
   zh: 收缩
 ---
 
+See fig. 41.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 {% figuregroup "3", "fig-041" %}
 
-(fig. 41){.pdf-figure-list}
-
 ## Sources
 
 Historical: {% cite "Buchanan 1903" %}; {% cite "Bolland 1894" %}
@@ -33,7 +33,7 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundrymen’s Socie
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

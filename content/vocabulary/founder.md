@@ -14,11 +14,11 @@ lang:
   zh: 铸工
 ---
 
+See fig. 546.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-546" %}
-
-(fig. 546){.pdf-figure-list}
 
 ## Sources
 
@@ -42,7 +42,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 - *foundryworker*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -83,7 +83,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 - *bronzier*
 
     Pour Lambert, le bronzier ou bronzeur désigne l'ouvrier fondeur, celui qui fond et coule le bronze.
-    
+
     Source: Art and Craft Textbook: {% cite "Lambert 2002" %}, 13
 
 - *fondeur en cuivre*
@@ -93,7 +93,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 - *fondeur en terre et sable*
 
     Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés [(fondeur de cloches, fondeur de canons ou fondeur d'artillerie)]. Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre [{% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038].
-    
+
     Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
 - *mouleur en terre ou en sable*

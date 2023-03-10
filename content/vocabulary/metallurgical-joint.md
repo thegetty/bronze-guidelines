@@ -13,6 +13,8 @@ lang:
   zh: 冶金接合
 ---
 
+See figs. 59, 146, 187, 188, 203, 204, 206, 207, 364.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The correct use of this term has been disputed among CAST:ING members, but
 
 {% figuregroup "3", "fig-059, fig-146, fig-187, fig-188, fig-203, fig-204, fig-206, fig-207, fig-364" %}
 
-(figs. 59, 146, 187, 188, 203, 204, 206, 207, 364){.pdf-figure-list}
-
 ## Sources
 
 Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 2002" %}, 299; {% cite "Tzachou-Alexandri 2000" %}, 92
@@ -33,7 +33,7 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 - *mechanical joint*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

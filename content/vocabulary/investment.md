@@ -13,11 +13,11 @@ lang:
   zh: 熔模
 ---
 
+See figs. 5, 13, 557, 558.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-005, fig-013, fig-557, fig-558" %}
-
-(figs. 5, 13, 557, 558){.pdf-figure-list}
 
 ## Sources
 
@@ -25,7 +25,7 @@ Cultural Heritage: {% cite "Motture 2019" %}, 35; {% cite "Salter and Gilmour n.
 
 Art and Craft Textbook: {% cite "Untracht 1982" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -86,7 +86,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 - *camicia*
 
     Literally “shirt”
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
 
 - *cappa*
@@ -96,31 +96,31 @@ The variety of terms is due to regional differences in foundry terminology. *For
 - *chappa*
 
     Early Tuscan spelling of *cappa*
-    
+
     Source: {% cite "Leonardo 1490" %}, fol. 156v
 
 - *mantello (di fusione)*
 
     Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani
-    
+
     Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Carruba 2006" %}, 24; {% cite "Formigli and Hackländer 1999" %}, 301
 
 - *refrattario*
 
     Refers to the investment material and investment mold
-    
+
     Source: {% cite "Bruni 1994" %}, 75
 
 - *terra da forme*
 
     Refers to the investment material
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fols. 76v, 80v
 
-- *tunica* 
+- *tunica*
 
     *Tonaca di terra*, and even more often: *involucro*
-    
+
     Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}

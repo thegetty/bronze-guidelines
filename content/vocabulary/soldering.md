@@ -13,6 +13,8 @@ lang:
   zh: 焊接
 ---
 
+See figs. 187, 364.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-187, fig-364" %}
-
-(figs. 187, 364){.pdf-figure-list}
 
 ## Sources
 
@@ -45,7 +45,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 - *fusion welding*
 - {% def "welding" "*welding*" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -70,7 +70,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 - *soudure indirecte*
 
     Les termes soudage ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.
-    
+
     Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **German**: *{{ lang.de }}*

@@ -13,6 +13,8 @@ lang:
   zh: 轻敲
 ---
 
+See fig. 246.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 {% figuregroup "3", "fig-246" %}
 
-(fig. 246){.pdf-figure-list}
-
 ## Sources
 
 Cultural Heritage: {% cite "Smith 2015" %}
@@ -33,7 +33,7 @@ Historical: {% cite "Bolland 1894" %}, 298
 
 Copper Industry: {% cite "Palmer 1929" %}, 294
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

@@ -14,6 +14,8 @@ lang:
   zh: 支釘
 ---
 
+See figs. 35, 36, 37, 122, 547.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-035, fig-036, fig-037, fig-122, fig-547" %}
-
-(figs. 35, 36, 37, 122, 547){.pdf-figure-list}
 
 ## Sources
 
@@ -50,7 +50,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 - *core rod*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -67,7 +67,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 - *broche*
 
     Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression [{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}].
-    
+
     Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *clou*

@@ -14,6 +14,8 @@ lang:
   zh: 自帶泥芯撐
 ---
 
+See figs. 23, 41, 122, 123.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-023, fig-041, fig-122, fig-123" %}
-
-(figs. 23, 41, 122, 123){.pdf-figure-list}
 
 ## Source
 
@@ -42,7 +42,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
     Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

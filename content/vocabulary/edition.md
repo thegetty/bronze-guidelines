@@ -14,6 +14,8 @@ lang:
   zh: 版本
 ---
 
+See figs. 261, 551.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Casts from any given edition will be essentially identical in form and siz
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-261, fig-551" %}
-
-(figs. 261, 551){.pdf-figure-list}
 
 ## Sources
 
@@ -43,7 +43,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 - *editioned replica*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -86,7 +86,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 - *multiplo*
 
     In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures
-    
+
     Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
 
 - *serie*

@@ -14,6 +14,8 @@ lang:
   zh: 块范
 ---
 
+See figs. 9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Sometimes very large sculptures—both reliefs and in the round—need to 
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-009, fig-015, fig-018, fig-025, fig-026, fig-062, fig-074, fig-111, fig-116, fig-536, fig-556" %}
-
-(figs. 9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556){.pdf-figure-list}
 
 ## Sources
 
@@ -38,7 +38,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 - *piece-mold* (alternate spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -79,7 +79,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 - *calco a tasselli*
 
     This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.
-    
+
     Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
 
 ### **Chinese**: {{ lang.zh }}

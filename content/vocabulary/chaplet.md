@@ -14,6 +14,8 @@ lang:
   zh: 墊片
 ---
 
+See figs. 38, 39, 40, 122.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
-
-(figs. 38, 39, 40, 122){.pdf-figure-list}
 
 ## Sources
 
@@ -51,7 +51,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
     Source: Cultural Heritage: {% cite "Strahan 2010" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
@@ -85,7 +85,7 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 - *plaque porte noyau*
 
     Terme réservé à la coulée sous pression.
-    
+
     Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
 - *support de noyau*

@@ -39,14 +39,6 @@
     right: -130px;
   }
 }
-/* TEMPORARY until callouts are annorefs */
-.quire-entry .side-by-side p strong:first-child {
-  color: cyan;
-}
-.quire-entry .side-by-side .quire-page__content .content a.annoref {
-  color: cyan;
-  border-bottom-color: cyan;
-}
 :root {
 
   /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */
@@ -93,18 +85,25 @@ CHOICES LABEL COLORS
 ============================================================================= */
 /* Adjust default heading styles and spacing */
 .quire-page h2 {
+  font-size: 1.625rem;
   margin-top: 3rem !important;
   text-transform: none;
   font-weight: 800;
+  line-height: 1.3;
 }
-.quire-page h3 {
+.quire-page h3,
+.quire-entry h2 {
+  font-size: 1.375rem;
   font-style: normal;
   font-weight: 800;
+  line-height: 1.3;
 }
-.quire-page h4 {
-  font-size: 1.25rem;
+.quire-page h4,
+.quire-entry h3 {
+  font-size: 1.125rem;
   font-style: italic;
   font-weight: 800;
+  line-height: 1.3;
 }
 /* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
 .quire-page__content section#additional-figures {
@@ -205,6 +204,11 @@ a.quire-definition__content__more-link {
 }
 .quire-page__content .container .content .backmatter {
   font-family: "Noto Sans", sans-serif;
+}
+.quire-contributors-list.bio .quire-contributor .title {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-style: italic;
 }
 /* COVER
 ============================================================================= */
@@ -395,6 +399,13 @@ a.quire-definition__content__more-link {
   }
   .quire-page.full-width .quire-page__content .content h2 + section {
     margin-top: .75rem;
+  }
+  /* Adjusting the first section of the innermost nested group */
+  .quire-page.full-width .quire-page__content .content section section section * + section {
+    margin-top: .5rem;
+  }
+  .quire-page.full-width .quire-page__content .content section section section section + section {
+    margin-top: 0rem;
   }
 }
 @media screen and (min-width:1592px) {
@@ -675,7 +686,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   padding-left: 0;
 }
 .quire-page.vocabulary .quire-page__content .content .accordion li {
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
   margin-left: 0;
 }
 .quire-page.vocabulary .quire-page__content .content .accordion li p {
@@ -991,7 +1002,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry h2,
   .quire-entry h3 {
     font-size: 1.375em;
-    line-height: 1.5;
+    line-height: 1.3;
   }
   .quire-entry h2 {
     letter-spacing: .75px;
@@ -1033,13 +1044,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
     display: flex;
   }
 }
-.quire-page.interview h1 {
-  font-size: 1.75em;
-  line-height: 1.2;
-  font-weight: 400;
-  padding: 0;
-  margin: 0.75in 0 0.5in;
-}
 /* .pdf-figure-list is also used on vocab pages */
 @media screen {
   .pdf-figure-list {
@@ -1055,13 +1059,26 @@ button.accordion-expander[aria-expanded="true"] .vert {
     font-size: 1em;
   }
   .quire-page__content .content h2 + .pdf-figure-list {
-    margin-top: -12px;
+    margin-top: -7px;
   }
   .quire-page__content .content h3 + .pdf-figure-list {
-    margin-top: -14px;
+    margin-top: -12px;
   }
   .quire-page__content .content h2 + h3 + .pdf-figure-list {
-    margin-top: -7px;
+    margin-top: -5px;
+  }
+  .quire-entry h1 {
+    font-size: 3em;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+  .quire-entry h2 {
+    font-size: 1.375em;
+    line-height: 1.3;
+  }
+  .quire-entry h3 {
+    font-size: 1.125em;
+    line-height: 1.3;
   }
 }
 
@@ -1644,11 +1661,10 @@ table .poor { background-color: #F2F9F1; }
     padding-left: 0;
   }
   .quire-page.vocabulary h4 {
-    font-size: 1rem;
+    font-size: 1.125rem;
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {
-    margin-top: -1rem;
     border-bottom-width: 0;
   }
   .quire-page.vocabulary .quire-page__content .container .content li {
@@ -1823,6 +1839,9 @@ table .poor { background-color: #F2F9F1; }
   .quire-entry__image-wrap figure:first-of-type {
     border-width: 0;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   @page entry-image {
     background-color: var(--deep-black);
@@ -1909,13 +1928,22 @@ table .poor { background-color: #F2F9F1; }
   background-color: #00fa00; /* green */
 }
 /* FIG 035 */
-#lightbox-fig-035-0-patches label::before,
-#fig-035-0-patches label::before {
+#lightbox-fig-035-0-patch label::before,
+#fig-035-0-patch label::before {
   background-color: #a1a8f0; /* lavender */
+}
+#lightbox-fig-035-0-plug label::before,
+#fig-035-0-plug label::before {
+  background-color: #94e566; /* green */
 }
 #lightbox-fig-035-0-core-pins label::before,
 #fig-035-0-core-pins label::before {
   background-color: #eff08a; /* yellow */
+}
+/* FIG 036 */
+#lightbox-fig-036-0-nail label::before,
+#fig-036-0-nail label::before {
+  background-color: #f4ee3a; /* yellow */
 }
 /* FIG 037 */
 #lightbox-fig-037-0-core-pins label::before,
@@ -2151,6 +2179,11 @@ table .poor { background-color: #F2F9F1; }
 #fig-127-0-roman-joints label::before {
   background-color: #cf727e; /* red */
 }
+/* FIG 128 */
+#lightbox-fig-128-0-surmoulage-lines label::before,
+#fig-128-0-surmoulage-lines label::before {
+  background-color: #f5ef3b; /* yellow */
+}
 /* FIG 152 */
 #lightbox-fig-152-0-porosity label::before,
 #fig-152-0-porosity label::before {
@@ -2169,6 +2202,11 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-156-0-sampling-hole label::before,
 #fig-156-0-sampling-hole label::before {
   background-color: #f50c0c; /* red */
+}
+/* FIG 168 */
+#lightbox-fig-168-0-patch label::before,
+#fig-168-0-patch label::before {
+  background-color:#f5f38b; /* yellow */
 }
 /* FIG 170 */
 #lightbox-fig-170-0-patch label::before,
@@ -2432,16 +2470,12 @@ table .poor { background-color: #F2F9F1; }
   background-color: #b7b21d; /* dark yellow */
 }
 /* FIG 346 */
-#lightbox-fig-346-0-copper-lips label::before,
-#fig-346-0-copper-lips label::before {
-  background-color: #6c98b7; /* blue */
-}
-#lightbox-fig-346-0-copper-drips label::before,
-#fig-346-0-copper-drips label::before {
+#lightbox-fig-346-0-copper label::before,
+#fig-346-0-copper label::before {
   background-color: #edb847; /* orange */
 }
-#lightbox-fig-346-0-lead-contusion label::before,
-#fig-346-0-lead-contusion label::before {
+#lightbox-fig-346-0-lead label::before,
+#fig-346-0-lead label::before {
   background-color: #a969c4; /* purple */
 }
 /* FIG 364 */
@@ -2660,6 +2694,10 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-545-0-sprue-remnants label::before,
 #fig-545-0-sprue-remnants label::before {
   background-color: #345dfb; /* blue */
+}
+#lightbox-fig-545-0-flashing label::before,
+#fig-545-0-flashing label::before {
+  background-color: #f5ef3a; /* blue */
 }
 /* FIG 559 */
 #lightbox-fig-559-0-wax-blobs label::before,

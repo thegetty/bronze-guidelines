@@ -13,11 +13,11 @@ lang:
   zh: 铜锌合金
 ---
 
+See fig. 133.{.pdf-figure-list}
+
 {{ definition }}
 
 {% figuregroup "3", "fig-133" %}
-
-(fig. 133){.pdf-figure-list}
 
 ## Sources
 
@@ -31,7 +31,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/brass>
 
 Other: {% cite "Turner 1982" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 

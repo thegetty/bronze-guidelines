@@ -13,6 +13,8 @@ lang:
   zh: 失蜡法
 ---
 
+See figs. 13, 16, 18, 23, 25, 28, 558.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
-
-(figs. 13, 16, 18, 23, 25, 28, 558){.pdf-figure-list}
 
 ## Sources
 
@@ -41,7 +41,7 @@ Other: {% cite "Untracht 1968" %}
 
     Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
 
