@@ -9,6 +9,9 @@
 // scss-lint:disable EmptyRule
 $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AAAB6klEQVR4Ae3bsWpUQRTG8YkkanwCa7GzVotsI/gEgk9h4Vu4ySLYmMYgbJrc3lrwZbJwC0FMt4j7F6Y4oIZrsXtgxvx/1c0ufEX4cnbmLCmSJEmSJEmSJEmSJP3XCBPvbJU+8doWmDFwyZpLBmYlNJebz0KwzykwsuSYJSNwykEJreV2BaBMaLIQZ2xYcFgqDlmw4ayE/FwL0dDk4Qh4W37DAjgqIT+3HRbigjH+iikVdxgZStgyN0Su2sXIeTwTT+esdpcbIlfNAuZ/TxresG4zV8kYWSZNiKUTokMMSWeIwTNEn4fK2TW3gRNgVkJLuVksROA9G+bEvoATNlBCa7nZXEwdxEZxzpKRKFh+bsv8LmPFmhX1OwfIz81jIRJQ5eeqG9B+riRJkiRJkiRJkiRJkiRJkiRJUkvA/8RQoEpKlJWINFkJ62AlrEP/mNBibnv2yz/A3t7Uq3LcpoxP8COjC1T5vxoAD5VdoEqdDrd5QuW1swtUSaueh3zkiuBiqgtA2OlkeMcP/uDqugsJdbjHF65VdPMKwS0+WQc/MgKvrIOHysB9vgPwk8+85hmPbnQdvHZyDMAFD7L3EOpgMcVdvnHFS0/vlatrXvCVx0U9gt3fxvnA0/hB4nmRJEmSJEmSJEmSJGmHfgFLaDPoMu5xWwAAAABJRU5ErkJggg==);
 
+$case-study-width: 740px;
+$case-study-width-larger: 900px;
+
 // .quire-entry
 // -----------------------------------------------------------------------------
 .quire-entry {
@@ -188,12 +191,12 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
     &.fullscreen {
       img {
         margin: 0 auto;
-        max-height: calc(100vh - #{$quire-entry-header-height} - #{$navbar-height} - #{$quire-progress-bar-height});    
-        
+        max-height: calc(100vh - #{$quire-entry-header-height} - #{$navbar-height} - #{$quire-progress-bar-height});
+
         @media screen and (max-width: $desktop) {
           max-height: 60vh;
         }
-        
+
       }
       figure {
         height: 100vh;
@@ -228,7 +231,7 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
           font-family: $quire-headings-font;
           font-size: 0.875rem;
           font-weight: bold;
-          
+
           @media print {
             background-color: transparent;
             display: block;
@@ -573,7 +576,7 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
   div.side-by-side {
     display: block;
 
-    @media screen and (min-width: $widescreen) {
+    @media screen and (min-width: $case-study-width) {
       display: flex;
     }
 
@@ -582,9 +585,12 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
       width: 100%;
       overflow: hidden;
 
-      @media screen and (min-width: $widescreen) {
-        width: 56%;
+      @media screen and (min-width: $case-study-width) {
+        width: 40%;
         flex: none;
+      }
+      @media screen and (min-width: $case-study-width-larger) {
+        width: 56%;
       }
 
       div.quire-entry__image {
@@ -592,15 +598,21 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
         width: 100%;
         height: calc(100vh - #{$quire-entry-header-height} - #{$navbar-height} - #{$quire-progress-bar-height});
 
-        @media screen and (min-width: $widescreen) {
+        @media screen and (min-width: $case-study-width) {
           position: fixed;
-          width: calc(56% - 8px);
+          width: calc(40% - 8px);
           height: 100vh;
+          &.menu_open {
+            width: calc(40% - 197px);
+          }
+        }
+        @media screen and (min-width: $case-study-width-larger) {
+          width: calc(56% - 8px);
           &.menu_open {
             width: calc(56% - 197px);
           }
         }
-        
+
         @media screen and (max-width: $desktop) {
           height: 60vh;
           min-height: inherit;
@@ -608,12 +620,12 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
 
         .quire-entry__image__group-container {
           figure {
-            @media screen and (min-width: $widescreen) {
+            @media screen and (min-width: $case-study-width) {
               height: calc(100vh - #{$navbar-height} - #{$quire-progress-bar-height});
             }
 
             .quire-image-info {
-              @media screen and (min-width: $widescreen) {
+              @media screen and (min-width: $case-study-width) {
                 // bottom: 53px;
               }
             }
@@ -634,22 +646,25 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
     div.quire-entry__content {
       width: 100%;
 
-      @media screen and (min-width: $widescreen) {
-        width: 44%;
+      @media screen and (min-width: $case-study-width) {
+        width: 60%;
         flex: none;
         background: $secondary-background-color;
+      }
+      @media screen and (min-width: $case-study-width-larger) {
+        width: 44%;
       }
 
       section.section,
       section,
       header {
-        @media screen and (min-width: $widescreen) {
+        @media screen and (min-width: $case-study-width) {
           padding-left: 20px;
           padding-right: 20px;
         }
 
         div.container {
-          @media screen and (min-width: $widescreen) {
+          @media screen and (min-width: $case-study-width) {
             width: 100%;
           }
         }
@@ -677,13 +692,20 @@ $image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AA
 }
 
 .side-by-side .quire-entry__lightbox {
-  @media screen and (min-width: 1184px) {
-    position: fixed;
-    /* top offsets 50px tall nav bar */
-    top: 50px;
+  position: fixed;
+  /* top offsets 50px tall nav bar */
+  top: 3rem;
+  width: 100%;
+  height: 50vh;
+  z-index: 1;
+
+  @media screen and (min-width: $case-study-width) {
     /* calculated width accounts for extra 8px of margin in .quire-entry__image-wrap */
-    width: calc(56% - 8px);
+    width: calc(40% - 8px);
     /* calculated height accounts for 50px tall nav bar */
-    height: calc(100vh - 50px);
+    height: calc(100vh - 3rem);
+  }
+  @media screen and (min-width: $case-study-width-larger) {
+    width: calc(56% - 8px);
   }
 }

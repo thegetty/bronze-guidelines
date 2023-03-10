@@ -164,6 +164,19 @@ a.quire-definition__content__more-link {
 .content .q-figure {
   border-width: 0;
 }
+.content .q-figure.is-45-percent-width {
+  max-width: 45%;
+}
+.content .q-figure.is-65-percent-width {
+  max-width: 65%;
+}
+.content .q-figure.is-paired {
+  max-width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4%;
+  margin-top: 1em;
+}
 /* Fix label styling for new class names */
 .quire-page__header__title .quire-page-label {
   line-height: 1.3;
@@ -466,9 +479,12 @@ a.quire-definition__content__more-link {
   padding-bottom: 0 !important;
 }
 /* Hide choice controls on page and only display in modal */
-.quire-page__content .q-figure form {
+.quire-page:not(.quire-entry) .quire-page__content .q-figure form {
   display: none;
 }
+/* .quire-entry .quire-page__content .q-figure form {
+  display: block;
+} */
 /* Add custom label icons for choices figures and videos */
 @media screen {
   .quire-page__content .q-figure form + figcaption .q-figure__label .q-figure__modal-link .q-figure__label-icon,
@@ -828,13 +844,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
       height: 21vw;
     }
   }
-  .grid.quire-contents .quire-page__header,
-  .grid.quire-contents .quire-page__content,
-  .grid.quire-contents .quire-contents-list.grid ol li .card {
+  .quire-page.grid.section-landing-page .quire-page__header,
+  .quire-page.grid.section-landing-page .quire-page__content,
+  .quire-page.grid.section-landing-page .quire-page__content .container .content,
+  .quire-page.grid.section-landing-page .quire-contents-list.grid ol li .card {
     background-color: var(--deep-black);
   }
-  .grid.quire-contents .quire-page__header__title,
-  .grid.quire-contents .quire-page__content,
+  .quire-page.grid.section-landing-page .quire-page__content .container .content {
+    margin-top: 0;
+  }
+  .quire-page.grid.section-landing-page .quire-page__header__contributor {
+    color: var(--light);
+  }
+  .quire-page.grid.section-landing-page .quire-page__header__title,
+  .quire-page.grid.section-landing-page .quire-page__content,
   .quire-contents-list.grid ol li .card.image .card-content {
     color: white;
   }
@@ -861,11 +884,46 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-contents-list.grid .arrow {
     display: none;
   }
-  .quire-contents-list.grid ol li .card-content span.quire-page-title {
+  .quire-contents-list.grid .quire-page-label {
+    margin-bottom: 1rem;
+  }
+  .quire-contents-list.grid .contributor {
+    margin-top: 1rem;
+  }
+  .quire-contents-list.grid ol li .card-content span.quire-page-title,
+  .quire-contents-list.grid ol li .card-content span.quire-page-seperator,
+  .quire-contents-list.grid ol li .card-content span.quire-page-subtitle {
     font-size: 1.5rem !important;
     line-height: 1.2;
-    margin: .55rem 0;
-    display: block;
+  }
+  /* Next/Prev Buttons */
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next {
+    background-color: #26491e;
+  }
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next:hover,
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next:hover,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover {
+    background-color: #113609 !important;
+    border-color: #113609 !important;
+  }
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button {
+    border-color: #26491e;
+    color: #26491e;
+  }
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next a,
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover a,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next a,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover a {
+    color: var(--light);
+  }
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next svg,
+  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover svg,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next svg,
+  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover svg{
+    fill: var(--light);
   }
   /* Case study pages */
   .quire-entry div.side-by-side div.quire-entry__image-wrap,
@@ -880,7 +938,7 @@ button.accordion-expander[aria-expanded="true"] .vert {
     background-color: transparent;
     color: white;
   }
-  .quire-entry .quire-page__header .hero-body .label,
+  .quire-entry .quire-page__header__title .quire-page-label,
   .quire-entry .q-figure__label--below .q-figure__modal-link,
   .quire-entry h1,
   .quire-entry h2,
@@ -966,6 +1024,13 @@ button.accordion-expander[aria-expanded="true"] .vert {
   .quire-entry .q-figure .q-figure__caption-content,
   .quire-entry .q-figure .q-figure__credit-content {
     color: var(--white);
+  }
+  /* For non-table embeds in lightbox area */
+  .quire-entry .q-lightbox-slides__element--table .overflow-container {
+    padding: 0;
+  }
+  .quire-entry .q-lightbox-slides__element--table + .q-figure-slides__slide-ui {
+    display: flex;
   }
 }
 .quire-page.interview h1 {

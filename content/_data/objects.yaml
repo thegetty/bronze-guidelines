@@ -29,8 +29,10 @@ object_list:
     figure:
       - id: "fig-469-cover"
       - id: "fig-469"
+      - id: "fig-471"
       - id: "fig-472"
       - id: "fig-470"
+      - id: "fig-013"
       - id: "vid-04"
       - id: "fig-474"
       - id: "fig-475"
@@ -41,16 +43,14 @@ object_list:
       - id: "fig-482"
       - id: "vid-08"
       - id: "fig-484"
-      - id: "fig-483"
       - id: "fig-180"
       - id: "fig-486"
       - id: "fig-489"
       - id: "fig-104"
       - id: "fig-490"
-      #- id: "fig-180"
-      #- id: "fig-478"
       - id: "fig-493"
       - id: "fig-498"
+      - id: "fig-499"
 
   - id: case-study-3
     figure:
@@ -60,17 +60,16 @@ object_list:
       - id: "fig-501"
       - id: "fig-116"
       - id: "fig-117"
-      - id: "fig-111"
+      - id: "fig-111-dupe"
       - id: "fig-502"
-      - id: "fig-503"
-      #- id: "fig-500"
+      - id: "fig-ZZZ"
 
   - id: case-study-4
     figure:
       - id: "fig-508-cover"
       - id: "fig-508"
-      - id: "fig-505"
-      - id: "fig-067"
+      - id: "fig-505-dupe"
+      - id: "fig-067-dupe"
       - id: "fig-054"
       - id: "fig-126"
       - id: "fig-276"
@@ -78,14 +77,14 @@ object_list:
       - id: "fig-286"
       - id: "fig-273"
       - id: "fig-513"
-      #- id: "fig-054"
+      - id: "fig-054"
       - id: "fig-404"
       - id: "fig-401"
       - id: "fig-517"
-      - id: "fig-518"
-      - id: "fig-510"
+      - id: "fig-518-dupe"
+      - id: "fig-510-dupe"
       - id: "fig-521"
-      #- id: "fig-401"
+      - id: "fig-401"
 
   - id: case-study-5
     figure:
@@ -94,14 +93,12 @@ object_list:
       - id: "fig-070"
       - id: "fig-008"
       - id: "fig-038"
-      - id: "fig-034"
-      #- id: "fig-034"
+      - id: "fig-034-097-524-group"
       - id: "fig-023"
       - id: "fig-431"
       - id: "fig-525"
       - id: "fig-274"
       - id: "fig-528"
-      #- id: "fig-523"
 
   - id: case-study-6
     figure:
@@ -114,6 +111,22 @@ object_list:
       - id: "fig-534"
       - id: "fig-537"
       - id: "fig-540"
-      - id: "fig-541"
+      - id: "fig-539"
       - id: "fig-195"
-      #- id: "fig-529"
+
+  - id: case-study-7
+    figure:
+      - id: "vid-03-cover"
+      - id: "fig-376"
+      - id: "fig-544"
+      - id: "fig-545"
+      - id: "fig-021"
+      - id: "fig-546"
+      - id: "fig-088"
+      - id: "fig-547"
+      - id: "fig-007"
+      - id: "fig-548"
+      - id: "vid-02"
+      - id: "vid-03"
+      - id: "vid-11"
+      - id: "vid-16"
