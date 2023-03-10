@@ -105,11 +105,13 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 - *attacco*
 
     Small section of sprue that is often used between the wax model and the longer gate or vent; also referred to as *mozzicone*
+    
     Source: {% cite "Bruni 1994" %}, 73
 
 - *isfiattatoio*
 
     Refers to vents; alternative modern term: *sfiato*; another alternative early Italian pronunciation/spelling: *sfiatatoro*
+    
     Source: {% cite "Cellini [1568] 1967" %}, fols. 48–50
 
 - *mandata*
@@ -121,6 +123,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 - *mozzicone*
 
     Small section of wax sprue that is often used between the wax model and the longer gate or vent; also referred to as *attacco*
+    
     Source: {% cite "Bruni 1994" %}, 72–74
 
 - *aria*

@@ -32,8 +32,12 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 
 ## Synonyms
 
-- *mortise and tenon join* | Source: Cultural Heritage: {% cite "Bourgarit et al. 2003" %}
+- *mortise and tenon join*
+
+    Source: Cultural Heritage: {% cite "Bourgarit et al. 2003" %}
+    
 - *Roman join* (alternate spelling)
+    
 - *sleeve join*
 - *socket and tenon join*
 

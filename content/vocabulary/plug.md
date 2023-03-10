@@ -64,9 +64,15 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 
 #### Alternate Translations
 
-- *goupille* (On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.) | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+- *goupille*
 
-- *tige* | Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
+    On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.
+    
+    Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+
+- *tige*
+
+    Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
 
 ### **German**: *{{ lang.de }}*
 
@@ -74,11 +80,21 @@ Used primarily in speech
 
 #### Alternate Translations
 
-- *Flicken* | Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
+- *Flicken*
 
-- *Plombe* (Used primarily in speech) | Source: {% cite "Maaz 2010" %}, 716
+    Sources: {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
-- *Stift* (Used primarily in speech) | Source: {% cite "Bol 1985" %}, 139
+- *Plombe*
+
+    Used primarily in speech
+    
+    Source: {% cite "Maaz 2010" %}, 716
+
+- *Stift*
+
+    Used primarily in speech
+    
+    Source: {% cite "Bol 1985" %}, 139
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -88,9 +104,13 @@ Used primarily in speech
 
 #### Alternate Translations
 
-- *perno* | Source: {% cite "Bruni 1994" %}, 124–250
+- *perno*
 
-- *perno filettato* (Threaded plug)
+    Source: {% cite "Bruni 1994" %}, 124–250
+
+- *perno filettato*
+
+    Threaded plug
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -100,6 +120,8 @@ Used primarily in speech
 
 #### Alternate Translation
 
-- 栓塞 | [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
+- 栓塞
+
+    [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
 
 </div>

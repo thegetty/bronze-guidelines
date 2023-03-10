@@ -26,7 +26,9 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 
 ## To Be Distinguished From
 
-- *cast-on* (The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast (v.)" "cast" %} in sections.)
+- *cast-on*
+
+    The shortened term “cast-on” refers to a type of joint in which molten metal is used to join parts that were intentionally {% def "cast (v.)" "cast" %} in sections.
 
 ## Translations
 
@@ -42,9 +44,13 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Az�
 
 #### Alternate Translations
 
-- *goutte* | Sources: Historical: {% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
+- *goutte*
 
-- *grains de bronze* | Source: Historical: {% cite "Mariette 1768" %}, 131
+    Sources: Historical: {% cite "Boffrand 1743" %}, 59; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
+
+- *grains de bronze*
+
+    Source: Historical: {% cite "Mariette 1768" %}, 131
 
 - *réparation par surcoulée*
 
@@ -60,7 +66,11 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 - *Anguss*
 
-- *Angießverfahren* (Used in reference to modern processes) | Source: {% cite "Brunhuber 1986" %}
+- *Angießverfahren*
+
+    Used in reference to modern processes
+    
+    Source: {% cite "Brunhuber 1986" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -72,9 +82,13 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 #### Alternate Translations
 
-- *rifusione* | Source: {% cite "Morigi and Morigi 2008" %}
+- *rifusione*
 
-- *rigetto* | Source: {% cite "Morigi and Morigi 2008" %}
+    Source: {% cite "Morigi and Morigi 2008" %}
+
+- *rigetto*
+
+    Source: {% cite "Morigi and Morigi 2008" %}
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -84,8 +98,12 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 #### Alternate Translations
 
-- 浇补 | Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+- 浇补
 
-- 补铸 | Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+    Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+
+- 补铸
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
 
 </div>

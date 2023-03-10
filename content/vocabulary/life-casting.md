@@ -31,7 +31,9 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 
 ## To Be Distinguished From
 
-- *casting from life* (“Life-casting” is to be distinguished from “casting from life,” in which a reusable mold is taken from a living form (e.g., a tree trunk or a body part) without harming it (e.g., a life mask). Such casts from life may be reproduced any number of times and in different materials.)
+- *casting from life*
+
+    “Life-casting” is to be distinguished from “casting from life,” in which a reusable mold is taken from a living form (e.g., a tree trunk or a body part) without harming it (e.g., a life mask). Such casts from life may be reproduced any number of times and in different materials.
 
 ## Synonym
 
@@ -63,7 +65,9 @@ Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
 #### Alternate Translation
 
-- *Abguss über die Natur* | Source: {% cite "Uhlenhuth 1920" %}, 51–53
+- *Abguss über die Natur*
+
+    Source: {% cite "Uhlenhuth 1920" %}, 51–53
 
 ### **Italian**: *{{ lang.it }}*
 

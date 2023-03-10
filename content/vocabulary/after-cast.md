@@ -33,12 +33,15 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## To Be Distinguished From
 
 - *copy*
-- *{% def "replica" %}*
+- {% def "replica" "*replica*" %}
 
 ## Synonyms
 
 - *aftercast*
-- *surmoulage* (The French term *surmoulage* is often used in English texts.)
+
+- *surmoulage*
+
+    The French term *surmoulage* is often used in English texts.
 
 ## Translations
 
@@ -79,13 +82,23 @@ Source: {% cite "Maaz 2010" %}, 710
 
 #### Alternate Translations
 
-- *rifusione* (Less common, related to the process of obtaining a new {% def "bronze" %} from an already-existing sculpture) |  Sources: {% cite "Battaglia 1961" %}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+- *rifusione* 
 
-- *fusione successiva* (Usually has smaller dimensions due to the {% def "shrinkage" %} of the metal while cooling)
+    Less common, related to the process of obtaining a new {% def "bronze" %} from an already-existing sculpture
+    
+    Sources: {% cite "Battaglia 1961" %}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+
+- *fusione successiva*
+
+    Usually has smaller dimensions due to the {% def "shrinkage" %} of the metal while cooling
 
 - *multiplo*
 
-- *sovracalco* (Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.) | Sources: {% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
+- *sovracalco*
+    
+    Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.
+    
+    Sources: {% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
 
 ### **Chinese**: {{ lang.zh }}
 

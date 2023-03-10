@@ -34,8 +34,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
 
 ## To Be Distinguished From
 
-- *copy* (Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast (v.)" "cast" %} by a licensed or sanctioned foundry.)
-- *{% def "variant" %}*
+- *copy*
+
+    Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast (v.)" "cast" %} by a licensed or sanctioned foundry.
+
+- {% def "variant" "*variant*" %}
 - *version*
 
 ## Translations
@@ -55,8 +58,14 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
 #### To Be Distinguished From
 
 - *copie*
-- *réplique* (« Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({% cite "Baudry and Bozo 1978" %}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).)
-- *reproduction* (Une reproduction est techniquement identique à une épreuve d'édition, mais différent juridiquement: une “épreuve d'édition” est considérée comme un original, une reproduction non.)
+- *réplique*
+
+    « Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({% cite "Baudry and Bozo 1978" %}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).
+
+- *reproduction*
+
+    Une reproduction est techniquement identique à une épreuve d'édition, mais différent juridiquement: une “épreuve d'édition” est considérée comme un original, une reproduction non.
+
 - *variante*
 - *version*
 
@@ -66,7 +75,9 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 #### Alternate Translation
 
-- *épreuve de série* | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
+- *épreuve de série*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 ### **German**: *{{ lang.de }}*
 
@@ -78,9 +89,13 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 #### Alternate Translations
 
-- *replica* (An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
+- *replica*
 
-- *riproduzione* (general term) | Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
+    An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
+
+- *riproduzione* (general term)
+
+    Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
 
 ### **Chinese**: {{ lang.zh }}
 

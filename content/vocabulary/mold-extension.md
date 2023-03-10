@@ -34,9 +34,13 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 - *core extension*
 
-- *core print* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+- *core print*
 
-- *core seat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+
+- *core seat*
+
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
 ## Translations
 
@@ -60,7 +64,9 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- *portée* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
+- *portée*
+
+    Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
 ### **German**: *{{ lang.de }}*
 
@@ -74,6 +80,8 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- 芯撑 | Source: {% cite "Ming 2010" %}, 1572
+- 芯撑
+
+    Source: {% cite "Ming 2010" %}, 1572
 
 </div>

@@ -27,9 +27,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
 
 ## To Be Distinguished From
 
-- *{% def "after-cast" %}*
+- {% def "after-cast" "*after-cast*" %}
 - *aftercast*
-- *{% def "replica" %}*
+- {% def "replica" "*replica*" %}
 - *surmoulage*
 
 ## Synonym
@@ -74,6 +74,10 @@ Literally “modification"
 
 #### Alternate Translation
 
-- 变型 (Literally “modification”) | Sources: {% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
+- 变型
+
+    Literally “modification”
+    
+    Sources: {% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
 
 </div>

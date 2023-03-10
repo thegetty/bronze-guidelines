@@ -31,7 +31,9 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 ## Synonym
 
-- *feeding power* | Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
+- *feeding power*
+
+    Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
 
 ## Translations
 
@@ -65,15 +67,25 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 
-- *Formfüllungsvermögen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Formfüllungsvermögen*
 
-- *Gießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Gießeingeschaften* | Source: {% cite "Brunhuber 1988" %}
+- *Gießbarkeit*
 
-- *Gießfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
 
-- *Vergießbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Gießeingeschaften*
+
+    Source: {% cite "Brunhuber 1988" %}
+
+- *Gießfähigkeit*
+
+    Source: {% cite "Koch and Newell 1963" %}
+
+- *Vergießbarkeit*
+
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -87,7 +99,9 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 - *fondibilità*
 
-- *scorrevolezza* | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+- *scorrevolezza*
+
+    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -97,6 +111,8 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 
-- 铸造性 | Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+- 铸造性
+
+    Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
 
 </div>

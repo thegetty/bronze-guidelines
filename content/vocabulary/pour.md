@@ -30,7 +30,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 - *casting*
 
-- *heat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+- *heat*
+
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
 ## Translations
 
@@ -70,9 +72,17 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translations
 
-- *getto* (Also refers to the {% def "cast (n.)" "cast" %}); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+- *getto*
 
-- *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
+    Also refers to the {% def "cast (n.)" "cast" %}
+    
+    Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+
+- *gitto*
+
+    Early Italian spelling for *getto*; also refers to the cast
+    
+    Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -82,6 +92,8 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translation
 
-- 浇铸 | Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
+- 浇铸
+
+    Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
 
 </div>

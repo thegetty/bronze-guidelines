@@ -57,11 +57,21 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translations
 
-- *{% def "moule" %}* (terme ambigu, à éviter.) | Sources: Cultural Heritage Publications: {% cite "Baudry and Bozo 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
+- {% def "moule" "*moule*" %} (terme ambigu, à éviter.)
 
-- *moule de fonderie* (terme utilisé notamment en archéologie.) | Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
+    Sources: Cultural Heritage Publications: {% cite "Baudry and Bozo 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 
-- *chape* (attention, ne désigne que la partie externe du moule réfractaire.) | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
+- *moule de fonderie*
+
+    Terme utilisé notamment en archéologie.
+
+    Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
+
+- *chape*
+
+    Attention, ne désigne que la partie externe du moule réfractaire.
+    
+    Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
 ### **German**: *{{ lang.de }}*
 
@@ -71,7 +81,9 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translation
 
-- *Giessform* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Giessform*
+
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -83,15 +95,35 @@ Also refers to the refractory investment material
 
 #### Alternate Translations
 
-- *cappa* (Also refers to investment) | Source: {% cite "Bruni 1994" %}, 750
+- *cappa*
 
-- *chappa* (Refers to outer investment/{% def "refractory mold" %}) | Source: {% cite "Leonardo 1490" %}, fol. 156v
+    Also refers to investment
+    
+    Source: {% cite "Bruni 1994" %}, 750
 
-- *forma* (Also refers to investment) | Sources: {% cite "Morigi 1990" %}, quaderni di restauro, 1; {% cite "Biringuccio [1540] 1990" %}, fols. 80v, 82; {% cite "Leonardo 1490" %}, fols. 54v, 142v; {% cite "Brunhuber 1988" %}
+- *chappa*
 
-- *mantello* (Refers to outer investment/refractory mold) | Source: {% cite "Formigli and Hackländer 1999" %}, 301
+    Refers to outer investment/{% def "refractory mold" %}
+    
+    Source: {% cite "Leonardo 1490" %}, fol. 156v
 
-- *refrattario* (Also refers to the refractory investment material) | Source: {% cite "Bruni 1994" %}, 75
+- *forma*
+
+    Also refers to investment
+    
+    Sources: {% cite "Morigi 1990" %}, quaderni di restauro, 1; {% cite "Biringuccio [1540] 1990" %}, fols. 80v, 82; {% cite "Leonardo 1490" %}, fols. 54v, 142v; {% cite "Brunhuber 1988" %}
+
+- *mantello*
+
+    Refers to outer investment/refractory mold
+    
+    Source: {% cite "Formigli and Hackländer 1999" %}, 301
+
+- *refrattario*
+
+    Also refers to the refractory investment material
+    
+    Source: {% cite "Bruni 1994" %}, 75
 
 - *stampo refrattario*
 

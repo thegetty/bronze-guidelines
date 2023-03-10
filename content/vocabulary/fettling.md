@@ -29,7 +29,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 ## To Be Distinguished From
 
-- *{% def "chasing" %}*
+- {% def "chasing" "*chasing*" %}
 
 ## Translations
 
@@ -60,13 +60,27 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 #### Alternate Translations
 
-- *ébarbage* (Traduction française de « fettling » d’après la source citée ici) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *ébarbage*
 
-- *ébavurage* (Traduction française de « fettling » d’après la source citée ici) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+    Traduction française de « fettling » d’après la source citée ici
+    
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *réparage* | Sources: Historical: {% cite "Mariette 1768" %}, 127; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 762
+- *ébavurage*
 
-- *reparure* (variante orthographique) (Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.) | Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
+    Traduction française de « fettling » d’après la source citée ici
+    
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *réparage*
+
+    Sources: Historical: {% cite "Mariette 1768" %}, 127; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 762
+
+- *reparure* 
+
+    Variante orthographique. Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.
+    
+    Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
 ### **German**: *{{ lang.de }}*
 
@@ -76,11 +90,19 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 #### Alternate Translations
 
-- *Entgraten* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Entgraten*
 
-- *Fertigputzen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Putzen* (This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing | Source: {% cite "Brunhuber 1986" %}, 747
+- *Fertigputzen*
+
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Putzen*
+
+    This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing
+    
+    Source: {% cite "Brunhuber 1986" %}, 747
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -92,9 +114,17 @@ Same word used for chasing
 
 #### Alternate Translations
 
-- *sbavatura* (Removal of flashing or traces of {% def "sprues" %}) | Sources: [Treccani](http://www.treccani.it/vocabolario/sbavatura1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura)
+- *sbavatura*
 
-- *sgrossatura* (Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*) | Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
+    Removal of flashing or traces of {% def "sprues" %}
+    
+    Sources: [Treccani](http://www.treccani.it/vocabolario/sbavatura1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura)
+
+- *sgrossatura*
+
+    Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*
+    
+    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -104,10 +134,16 @@ Same word used for chasing
 
 #### Alternate Translations
 
-- 修整 | Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
+- 修整
 
-- 清理 | Sources: {% cite "Ming 2010" %}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
+    Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
 
-- 精整 | Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+- 清理
+
+    Sources: {% cite "Ming 2010" %}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
+
+- 精整
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
 
 </div>

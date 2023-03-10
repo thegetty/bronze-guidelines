@@ -52,7 +52,9 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Alternate Translations
 
-- *âme* | Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
+- *âme*
+
+    Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
 ### **German**: *{{ lang.de }}*
 
@@ -68,11 +70,21 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Alternate Translation
 
-- *anima di fusione* | Source: {% cite "Bruni 1994" %}, 81–82
+- *anima di fusione*
 
-- *maschio* (Early Italian term for core that literally translates as “male.”) | Sources: {% cite "Leonardo 1490" %}, fols. 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
+    Source: {% cite "Bruni 1994" %}, 81–82
 
-- *nocciolo* (Early Italian term for core that means “nut.”) | Source: {% cite "Cellini [1568] 1967" %}, fols. 48, 49
+- *maschio*
+
+    Early Italian term for core that literally translates as “male.”
+    
+    Sources: {% cite "Leonardo 1490" %}, fols. 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
+
+- *nocciolo*
+
+    Early Italian term for core that means “nut.”
+    
+    Source: {% cite "Cellini [1568] 1967" %}, fols. 48, 49
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -82,6 +94,8 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Alternate Translation
 
-- 芯范 | Source: {% cite "Zhang 2010" %}, 82
+- 芯范
+
+    Source: {% cite "Zhang 2010" %}, 82
 
 </div>

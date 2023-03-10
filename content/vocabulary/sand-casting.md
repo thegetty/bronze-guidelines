@@ -53,13 +53,21 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translations
 
-- *moulage au sable* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
+- *moulage au sable*
 
-- *moulage en châssis* | Source: Historical: {% cite "Guettier 1867" %}, 221
+    Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
-- *moulage en sable* | Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
+- *moulage en châssis*
 
-- *moulage en sable vert* | Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
+    Source: Historical: {% cite "Guettier 1867" %}, 221
+
+- *moulage en sable*
+
+    Sources: Copper Industry: {% cite "Koch and Newell 1963" %}; Other: {% cite "Guettier 1867" %}, 221
+
+- *moulage en sable vert*
+
+    Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
 ### **German**: *{{ lang.de }}*
 
@@ -69,7 +77,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translations
 
-- *Sandguss* oder
+- *Sandguss oder*
 
 - *Sandgussverfahren*
 
@@ -83,7 +91,11 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- *fusione alla sabbia* (a little more common than *a staffa*) | Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+- *fusione alla sabbia*
+
+    A little more common than *a staffa*
+
+    Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -67,7 +67,11 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 #### Alternate Translation
 
-- *spugnoso* (In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
+- *spugnoso*
+
+    In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -79,8 +83,12 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 - 松孔
 
-- 气孔巢 | Source: [TNATD](https://terms.naer.edu.tw/detail/625404/?index=3)
+- 气孔巢
 
-- 砂眼 | Source: {% cite "Ming 2010" %}, 1247
+    Source: [TNATD](https://terms.naer.edu.tw/detail/625404/?index=3)
+
+- 砂眼
+
+    Source: {% cite "Ming 2010" %}, 1247
 
 </div>

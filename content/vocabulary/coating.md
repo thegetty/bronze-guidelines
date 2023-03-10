@@ -74,6 +74,8 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Alternate Translation
 
-- 涂料 | Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
+- 涂料
+
+    Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
 
 </div>

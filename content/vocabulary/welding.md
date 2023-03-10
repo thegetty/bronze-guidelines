@@ -37,8 +37,8 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/welding>
 
 ## To Be Distinguished From
 
-- *{% def "brazing" %}*
-- *{% def "soldering" %}*
+- {% def "brazing" "*brazing*" %}
+- {% def "soldering" "*soldering*" %}
 
 ## Translations
 
@@ -74,7 +74,11 @@ Often specified by *a fusione* or *per fusione*
 
 #### Alternate translations
 
-- *saldatura metallurgica per colata* (Term also used for brazing, and [in antiquity] for flow fusion welding) | Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
+- *saldatura metallurgica per colata*
+
+    Term also used for brazing, and [in antiquity] for flow fusion welding
+    
+    Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
 ### **Chinese**: {{ lang.zh }}
 

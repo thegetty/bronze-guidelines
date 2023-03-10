@@ -67,6 +67,8 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Alternate Translation
 
-- 锤平 | Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+- 锤平
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
 
 </div>

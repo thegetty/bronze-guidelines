@@ -49,11 +49,17 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 #### Alternate Translations
 
-- *{% def "moule" %}* (Terme non univoque.) | Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 329
+- {% def "moule" "*moule*" %} (Terme non univoque.)
 
-- *moule de coulée* | Sources: Cultural Heritage: {% cite "Rolley 1994" %}, 69; {% cite "Mille and Robcis 2012" %}; {% cite "Azéma and Mille 2013b" %}; Historical: {% cite "Gonon 1876" %}, 6; Art and Craft Textbook: {% cite "Dubos 2003" %}
+    Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 329
 
-- *potée* | Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
+- *moule de coulée*
+
+    Sources: Cultural Heritage: {% cite "Rolley 1994" %}, 69; {% cite "Mille and Robcis 2012" %}; {% cite "Azéma and Mille 2013b" %}; Historical: {% cite "Gonon 1876" %}, 6; Art and Craft Textbook: {% cite "Dubos 2003" %}
+
+- *potée*
+
+    Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
 
 ### **German**: *{{ lang.de }}*
 
@@ -63,7 +69,9 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 #### Alternate Translation
 
-- *Gussmantel* | Source: {% cite "Maaz 2010" %}, 706
+- *Gussmantel*
+
+    Source: {% cite "Maaz 2010" %}, 706
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -75,26 +83,56 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 #### Alternate Translations
 
-- *camicia* (Literally “shirt”) | Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
+- *camicia*
 
-- *cappa* (Layer of the {% def "investment" "investment mold" %})
+    Literally “shirt”
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
 
-- *chappa* (Early Tuscan spelling of *cappa*) | Source: {% cite "Leonardo 1490" %}, fol. 156v
+- *cappa*
 
-- *mantello (di fusione)* (Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani) | Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Carruba 2006" %}, 24; {% cite "Formigli and Hackländer 1999" %}, 301
+    Layer of the {% def "investment" "investment mold" %}
 
-- *refrattario* (Refers to the investment material and investment mold) | Source: {% cite "Bruni 1994" %}, 75
+- *chappa*
 
-- *terra da forme* (Refers to the investment material) | Source: {% cite "Biringuccio [1540] 1990" %}, fols. 76v, 80v
+    Early Tuscan spelling of *cappa*
+    
+    Source: {% cite "Leonardo 1490" %}, fol. 156v
 
-- *tunica* (*tonaca di terra*, and even more often: *involucro*) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+- *mantello (di fusione)*
+
+    Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani
+    
+    Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Carruba 2006" %}, 24; {% cite "Formigli and Hackländer 1999" %}, 301
+
+- *refrattario*
+
+    Refers to the investment material and investment mold
+    
+    Source: {% cite "Bruni 1994" %}, 75
+
+- *terra da forme*
+
+    Refers to the investment material
+    
+    Source: {% cite "Biringuccio [1540] 1990" %}, fols. 76v, 80v
+
+- *tunica* 
+
+    *Tonaca di terra*, and even more often: *involucro*
+    
+    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translations
 
-- 熔模材料 | Source: {% cite "Ming 2010" %}, 1214
+- 熔模材料
 
-- 耐火材料 | Sources: {% cite "Ming 2010" %}, 1036; {% cite "Hua 2013" %}, 347
+    Source: {% cite "Ming 2010" %}, 1214
+
+- 耐火材料
+
+    Sources: {% cite "Ming 2010" %}, 1036; {% cite "Hua 2013" %}, 347
 
 </div>

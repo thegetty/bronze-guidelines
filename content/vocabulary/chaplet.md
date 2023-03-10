@@ -43,9 +43,13 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 ## Synonyms
 
-- *core plate* | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+- *core plate*
 
-- *spacer* | Source: Cultural Heritage: {% cite "Strahan 2010" %}
+    Source: Copper Industry: {% cite "Brunhuber 1988" %}
+
+- *spacer*
+
+    Source: Cultural Heritage: {% cite "Strahan 2010" %}
 
 ## Translations
 
@@ -74,11 +78,19 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 #### Alternate Translations
 
-- *chapelet* | Source: Historical: {% cite "Diderot et al. 1751" %}, 11:267a, entry « noyau terme d’artillerie »
+- *chapelet*
 
-- *plaque porte noyau* (Terme réservé à la coulée sous pression.) | Source: Copper Industry: {% cite "Brunhuber 1988" %}
+    Source: Historical: {% cite "Diderot et al. 1751" %}, 11:267a, entry « noyau terme d’artillerie »
 
-- *support de noyau* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *plaque porte noyau*
+
+    Terme réservé à la coulée sous pression.
+    
+    Source: Copper Industry: {% cite "Brunhuber 1988" %}
+
+- *support de noyau*
+
+    Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -88,7 +100,9 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 #### Alternate Translation
 
-- *Kernhalter* | Source: {% cite "Willer 1994" %}
+- *Kernhalter*
+
+    Source: {% cite "Willer 1994" %}
 
 ### **Italian**: *{{ lang.it }}*
 
@@ -106,10 +120,16 @@ Note: This term has several translations, including “chaplet,” “shim,” �
 
 #### Alternate Translations
 
-- 撑头 | Source: {% cite "Ming 2010" %}, 141
+- 撑头
 
-- 芯撐 | Source: [TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
+    Source: {% cite "Ming 2010" %}, 141
 
-- 金属撑子 | Source: {% cite "Ming 2010" %}, 141
+- 芯撐
+
+    Source: [TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
+
+- 金属撑子
+
+    Source: {% cite "Ming 2010" %}, 141
 
 </div>

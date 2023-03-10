@@ -54,23 +54,55 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 
 #### Alternate Translations
 
-- *balesvre* / *balevre* (Attention, fait uniquement référence à l’opération de coulée et au {% def "moule réfractaire" %}. Terme désuet.) | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
+- *balesvre* / *balevre*
 
-- *barbe* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+    Attention, fait uniquement référence à l’opération de coulée et au {% def "moule réfractaire" %}. Terme désuet.
+    
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
 
-- *barbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
+- *barbe*
 
-- *bavochure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.) | Source: Cultural Heritage {% cite "Baudry and Bozo 1978" %}, 758
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
 
-- *bavure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les sources bibliographiques ne concernent que la fonte au sable.) | Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; Art and Craft Textbook: {% cite "Rama 1988" %}, 373
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *bavure de joint* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *barbure*
 
-- *ébarbure* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.
+    
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
 
-- *suture* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.)
+- *bavochure*
 
-- *toiles* (Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.) | Source: Historical: {% cite "Launay 1827" %}, 2:261
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.
+    
+    Source: Cultural Heritage {% cite "Baudry and Bozo 1978" %}, 758
+
+- *bavure*
+
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les sources bibliographiques ne concernent que la fonte au sable.
+    
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; Art and Craft Textbook: {% cite "Rama 1988" %}, 373
+
+- *bavure de joint*
+
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
+    
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *ébarbure*
+
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
+
+- *suture*
+
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
+
+- *toiles*
+
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
+    
+    Source: Historical: {% cite "Launay 1827" %}, 2:261
 
 ### **German**: *{{ lang.de }}*
 

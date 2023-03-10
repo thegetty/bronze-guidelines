@@ -58,9 +58,13 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Alternate Translations
 
-- *anomalie de fonderie* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *anomalie de fonderie*
 
-- *défaut de coulée* | Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *défaut de coulée*
+
+    Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 ### **German**: *{{ lang.de }}*
 
@@ -72,9 +76,15 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Alternate Translations
 
-- *difetto di fonderia* | Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
+- *difetto di fonderia*
 
-- *manchevolezza* (General term for describing defects) | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
+
+- *manchevolezza*
+
+    General term for describing defects
+    
+    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 
@@ -84,8 +94,12 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Alternate Translations
 
-- 铸疵 | Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
+- 铸疵
 
-- 铸造缺陷 | Source: {% cite "Ming 2010" %}, 1832
+    Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
+
+- 铸造缺陷
+
+    Source: {% cite "Ming 2010" %}, 1832
 
 </div>
