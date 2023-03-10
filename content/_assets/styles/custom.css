@@ -205,6 +205,11 @@ a.quire-definition__content__more-link {
 .quire-page__content .container .content .backmatter {
   font-family: "Noto Sans", sans-serif;
 }
+.quire-contributors-list.bio .quire-contributor .title {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-style: italic;
+}
 /* COVER
 ============================================================================= */
 
