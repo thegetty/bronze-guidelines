@@ -14,6 +14,8 @@ lang:
   zh: 冲头
 ---
 
+See figs. 238, 239, 240, 242, 244, 256, 272, 494.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
-
-(figs. 238, 239, 240, 242, 244, 256, 272, 494){.pdf-figure-list}
 
 ## Sources
 
@@ -58,7 +58,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 - *ciselet*
 
     Terme habituellement générique pour désigner aussi bien les ciselets mats que les ciselets clairs, mais dans l’Encyclopédie ({% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets ») désigne spécifiquement les ciselets mats.
-    
+
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
 
 ### **German**: *{{ lang.de }}*

@@ -13,11 +13,11 @@ lang:
   zh: 铸造
 ---
 
+See fig. 549.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-549" %}
-
-(fig. 549){.pdf-figure-list}
 
 ## Sources
 
@@ -56,7 +56,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 #### Alternate Translations
 
 - *fondre*
-    
+
     Sources: Historical: {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:80–81, entry « fondre »; {% cite "Mariette 1768" %}, 168; Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
 - *jeter* / *jetter*
@@ -82,25 +82,25 @@ Foundry-specific term that relates to the pouring of metal
 - *buttare*
 
     Literally “to throw”
-    
+
     Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/JPG/GDLI02/00000472.jpg)
 
 - *colare*
 
     A more general term that can be used to specify the pouring of plaster, wax, or molten metal.
-    
+
     Source: [Treccani](https://www.treccani.it/vocabolario/colare1/)
 
 - *fondere*
 
     Used in reference to the melting of the metal
-    
+
     Sources: [Treccani](http://www.treccani.it/vocabolario/fondere/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {% cite "Leonardo 1490" %}, fol. 150r
 
 - *gittare*
 
     Early Italian spelling of *gettare*
-    
+
     Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
 
 ### **Chinese**: {{ lang.zh }}

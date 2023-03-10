@@ -14,6 +14,8 @@ lang:
   zh: 包覆
 ---
 
+See figs. 223, 340, 346, 347.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The terms “{% def "inlay" %}” and “overlay” are often used indiscr
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-223, fig-340, fig-346, fig-347" %}
-
-(figs. 223, 340, 346, 347){.pdf-figure-list}
 
 ## Sources
 
@@ -74,7 +74,7 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 - *damasquinure*
 
     Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162, désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460. Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
-    
+
     Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
 ### **German**: *{{ lang.de }}*
@@ -86,7 +86,7 @@ A general term closer to “coating”
 - *Überzug*
 
     German has no noun for the technique of overlaying by mechanical attached sheet metal; there is just an adjective: *goldbeschlagen*, *silberbeschlagen*.
-    
+
     Source: {% cite "Lein 2004" %}, 51
 
 - *Verzierung*

@@ -13,6 +13,8 @@ lang:
   zh: 气孔
 ---
 
+See figs. 127, 152, 153, 155, 165, 184, 205, 464.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: A common way to characterize the quality of a cast is to report the degree
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
-
-(figs. 127, 152, 153, 155, 165, 184, 205, 464){.pdf-figure-list}
 
 ## Sources
 
@@ -70,7 +70,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 - *spugnoso*
 
     In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
 
 ### **Chinese**: {{ lang.zh }}

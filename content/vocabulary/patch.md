@@ -14,11 +14,11 @@ lang:
   zh: 补修
 ---
 
+See figs. 35, 65, 125, 152, 166, 168, 170, 172, 173, 187, 194, 198, 367.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-035, fig-065, fig-125, fig-152, fig-166, fig-168, fig-170, fig-172, fig-173, fig-187, fig-194, fig-198, fig-367" %}
-
-(figs. 35, 65, 125, 152, 166, 168, 170, 172, 173, 187, 194, 198, 367){.pdf-figure-list}
 
 ## Sources
 
@@ -89,7 +89,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 - 补修料
 
     Literally “material used as a patch”
-    
+
     Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 
 - 补片

@@ -13,6 +13,8 @@ lang:
   zh: 收缩
 ---
 
+See fig. 41.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-041" %}
-
-(fig. 41){.pdf-figure-list}
 
 ## Sources
 

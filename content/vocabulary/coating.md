@@ -14,6 +14,8 @@ lang:
   zh: 涂层
 ---
 
+See figs. 322, 323, 324, 326, 330.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
-
-(figs. 322, 323, 324, 326, 330){.pdf-figure-list}
 
 ## Sources
 

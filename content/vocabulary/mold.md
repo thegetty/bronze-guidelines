@@ -14,6 +14,8 @@ lang:
   zh: 范
 ---
 
+See figs. 7, 27, 101, 112, 542, 549, 557.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Molds of varying types may be used at different stages of the {% def "bron
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
-
-(figs. 7, 27, 101, 112, 542, 549, 557){.pdf-figure-list}
 
 ## Sources
 
@@ -91,7 +91,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 - *cavo*
 
     General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
-    
+
     Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
 
 - *forma*
@@ -101,7 +101,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 - *stampo*
 
     General term for an impression
-    
+
     Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
 
 ### **Chinese**: {{ lang.zh }}

@@ -14,11 +14,11 @@ lang:
   zh: 芯骨
 ---
 
+See figs. 9, 16, 25, 42, 122, 195.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-009, fig-016, fig-025, fig-042, fig-122, fig-195" %}
-
-(figs. 9, 16, 25, 42, 122, 195){.pdf-figure-list}
 
 ## Sources
 
@@ -75,7 +75,7 @@ Same as “core pin”
 - *sostegno di bronzo*
 
     Also found with alternative spelling: *sustegno*
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82
 
 - *supporto dell'anima di fusione*

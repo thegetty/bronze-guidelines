@@ -13,6 +13,8 @@ lang:
   zh: 轻敲
 ---
 
+See fig. 246.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-246" %}
-
-(fig. 246){.pdf-figure-list}
 
 ## Sources
 

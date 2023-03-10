@@ -14,6 +14,8 @@ lang:
   zh: 毛坯铸件表面
 ---
 
+See figs. 5, 62, 104, 277.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
-
-(figs. 5, 62, 104, 277){.pdf-figure-list}
 
 ## Sources
 

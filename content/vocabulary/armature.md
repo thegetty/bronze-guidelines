@@ -14,11 +14,11 @@ lang:
   zh: 塑像內部支架
 ---
 
+See figs. 8, 31, 32, 34, 79, 221.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
-
-(figs. 8, 31, 32, 34, 79, 221){.pdf-figure-list}
 
 ## Sources
 
@@ -87,13 +87,13 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 - *armadura*
 
     Early italian spelling of *armatura*
-    
+
     Source: {% cite "Leonardo 1490" %}, fols. 155, 157v, 144v
 
 - *ferramenta*
 
     Relates more specifically to the ferrous materials used for the armature
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 80v
 
 - *rinforzo per anime*

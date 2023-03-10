@@ -13,11 +13,11 @@ lang:
   zh: 铜锌合金
 ---
 
+See fig. 133.{.pdf-figure-list}
+
 {{ definition }}
 
 {% figuregroup "3", "fig-133" %}
-
-(fig. 133){.pdf-figure-list}
 
 ## Sources
 

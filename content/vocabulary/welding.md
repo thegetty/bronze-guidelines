@@ -13,6 +13,8 @@ lang:
   zh: 熔焊
 ---
 
+See figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: In a technique very specific to Greek and Roman large bronzes, a steady st
 {% endbackmatter %}
 
 {% figuregroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
-
-(figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12){.pdf-figure-list}
 
 ## Sources
 
@@ -77,7 +77,7 @@ Often specified by *a fusione* or *per fusione*
 - *saldatura metallurgica per colata*
 
     Term also used for brazing, and [in antiquity] for flow fusion welding
-    
+
     Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
 ### **Chinese**: {{ lang.zh }}

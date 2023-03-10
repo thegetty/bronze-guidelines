@@ -14,11 +14,11 @@ lang:
   zh: 浇注
 ---
 
+See figs. 549, 560.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-549, fig-560" %}
-
-(figs. 549, 560){.pdf-figure-list}
 
 ## Sources
 
@@ -75,13 +75,13 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 - *getto*
 
     Also refers to the {% def "cast (n.)" "cast" %}
-    
+
     Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
 
 - *gitto*
 
     Early Italian spelling for *getto*; also refers to the cast
-    
+
     Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
 
 ### **Chinese**: {{ lang.zh }}

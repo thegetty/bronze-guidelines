@@ -14,6 +14,8 @@ lang:
   zh: 主铸型
 ---
 
+See figs. 102, 103, 210, 531, 553.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -24,8 +26,6 @@ Note: Metal is used rather than plaster because it can better withstand the wear
 
 {% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
-(figs. 102, 103, 210, 531, 553){.pdf-figure-list}
-
 ## Sources
 
 Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and Sturman 2017" %}, 83; {% cite "Lebon 2003" %}, 14
@@ -35,7 +35,7 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 - *pattern*
 
     A more general term for such a hard model for sand casting. The term is more commonly used in the context of industrial production of machine parts, but may be applied to sculptures as well, though in the context of European bronzes from the early twentieth century onward, “chef-modèle” has been adopted more frequently.
-    
+
     Sources: Cultural Heritage: {% cite "Motture 2019" %}; Historical: {% cite "Bolland 1894" %}; {% cite "Buchanan 1903" %}
 
 ## Translations {.is-screen-only}

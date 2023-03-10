@@ -13,6 +13,8 @@ lang:
   zh: 硬焊
 ---
 
+See figs. 188, 206, 229.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-188, fig-206, fig-229" %}
-
-(figs. 188, 206, 229){.pdf-figure-list}
 
 ## Sources
 
@@ -69,7 +69,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 - *soudure indirecte*
 
     Les termes {% def "soudage" %} ou soudure ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bader and Théret 1961" %}) et souder ({% cite "Félibien 1690" %}, 757) sont souvent employés comme termes génériques décrivant tous les procédés d’assemblages de métaux mettant en jeu du métal à l’état liquide, brasage et soudage par fusion.
-    
+
     Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
 ### **German**: *{{ lang.de }}*

@@ -14,6 +14,8 @@ lang:
   zh: 翻铸
 ---
 
+Figs. 1, 284.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-284" %}
-
-(figs. 1, 284){.pdf-figure-list}
 
 ## Sources
 
@@ -82,10 +82,10 @@ Source: {% cite "Maaz 2010" %}, 710
 
 #### Alternate Translations
 
-- *rifusione* 
+- *rifusione*
 
     Less common, related to the process of obtaining a new {% def "bronze" %} from an already-existing sculpture
-    
+
     Sources: {% cite "Battaglia 1961" %}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
 
 - *fusione successiva*
@@ -95,9 +95,9 @@ Source: {% cite "Maaz 2010" %}, 710
 - *multiplo*
 
 - *sovracalco*
-    
+
     Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.
-    
+
     Sources: {% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
 
 ### **Chinese**: {{ lang.zh }}

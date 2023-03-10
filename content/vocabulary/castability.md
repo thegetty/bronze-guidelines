@@ -13,11 +13,11 @@ lang:
   zh: 可铸性
 ---
 
+See figs. 437, 438.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% figuregroup "3", "fig-437, fig-438" %}
-
-(figs. 437, 438){.pdf-figure-list}
 
 ## Sources
 

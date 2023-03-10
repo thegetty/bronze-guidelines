@@ -14,6 +14,8 @@ lang:
   zh: 古色
 ---
 
+See figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: Some researchers do not consider applied organic coatings part of the pati
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" %}
-
-(figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503){.pdf-figure-list}
 
 ## Sources
 
@@ -89,19 +89,19 @@ This term is more commonly used in art historical references and means “an age
 - 铜绿
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “green corrosion on copper” and is used specifically for ancient works.
-    
+
     Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
 
 - 铜锈
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.
-    
+
     Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
 
 - 陈年色泽
 
     More commonly used in art historical references, meaning “an aged surface accumulated over time”
-    
+
     Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
 
 </div>

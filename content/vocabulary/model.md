@@ -14,6 +14,8 @@ lang:
   zh: 模
 ---
 
+See figs. 1, 52, 75, 130, 472, 559.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: When used in reference to general sculptural practice, the term may refer 
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
-
-(figs. 1, 52, 75, 130, 472, 559){.pdf-figure-list}
 
 ## Sources
 
@@ -77,7 +77,7 @@ Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23�
 - *forma da gittar di bronzo*
 
     This is the wax model that is used for casting, thus also possibly referring to the {% def "inter-model" %}.
-    
+
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
 ### **Chinese**: {{ lang.zh }}

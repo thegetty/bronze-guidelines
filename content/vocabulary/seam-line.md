@@ -14,6 +14,8 @@ lang:
   zh: 范线
 ---
 
+See figs. 6, 26, 43, 61, 72, 73, 74, 75.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -24,7 +26,6 @@ Note: Compared with flashing, which generally forms in uneven, sharp, rough flan
 
 {% figuregroup "3", "fig-006, fig-026, fig-043, fig-061, fig-072, fig-073, fig-074, fig-075" %}
 
-(figs. 6, 26, 43, 61, 72, 73, 74, 75){.pdf-figure-list}
 
 ## Sources
 
@@ -57,7 +58,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 - *balesvre* / *balevre*
 
     Attention, fait uniquement référence à l’opération de coulée et au {% def "moule réfractaire" %}. Terme désuet.
-    
+
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
 
 - *barbe*
@@ -69,25 +70,25 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 - *barbure*
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.
-    
+
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
 
 - *bavochure*
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.
-    
+
     Source: Cultural Heritage {% cite "Baudry and Bozo 1978" %}, 758
 
 - *bavure*
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les sources bibliographiques ne concernent que la fonte au sable.
-    
+
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; Art and Craft Textbook: {% cite "Rama 1988" %}, 373
 
 - *bavure de joint*
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
-    
+
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *ébarbure*
@@ -101,7 +102,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 - *toiles*
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire.
-    
+
     Source: Historical: {% cite "Launay 1827" %}, 2:261
 
 ### **German**: *{{ lang.de }}*

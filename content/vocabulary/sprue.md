@@ -14,6 +14,8 @@ lang:
   zh: 浇铸道
 ---
 
+See figs. 44, 46, 71, 86, 124, 539.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}

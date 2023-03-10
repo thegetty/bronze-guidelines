@@ -14,6 +14,8 @@ lang:
   zh: 塞子
 ---
 
+See figs. 177, 178, 193, 195, 197, 478.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
-
-(figs. 177, 178, 193, 195, 197, 478){.pdf-figure-list}
 
 ## Sources
 
@@ -67,7 +67,7 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 - *goupille*
 
     On rencontre aussi le terme goupillage, {% cite "Lambert 2002" %}, 241.
-    
+
     Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *tige*
@@ -87,13 +87,13 @@ Used primarily in speech
 - *Plombe*
 
     Used primarily in speech
-    
+
     Source: {% cite "Maaz 2010" %}, 716
 
 - *Stift*
 
     Used primarily in speech
-    
+
     Source: {% cite "Bol 1985" %}, 139
 
 ### **Italian**: *{{ lang.it }}*

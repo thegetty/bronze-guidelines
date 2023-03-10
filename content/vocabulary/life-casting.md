@@ -13,6 +13,8 @@ lang:
   zh: 活体模铸
 ---
 
+See figs. 11, 27.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -22,8 +24,6 @@ Note: The related term “burn-out method” is used for the replication of nonl
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-011, fig-027" %}
-
-(figs. 11, 27){.pdf-figure-list}
 
 ## Sources
 

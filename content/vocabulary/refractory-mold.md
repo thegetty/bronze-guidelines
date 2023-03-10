@@ -14,6 +14,8 @@ lang:
   zh: 耐火模具
 ---
 
+See figs. 7, 27, 542, 549, 557.{.pdf-figure-list}
+
 {{ definition | hasShortcodes }}
 
 {% backmatter %}
@@ -23,8 +25,6 @@ Note: When present, the {% def "core" %} is considered part of the refractory mo
 {% endbackmatter %}
 
 {% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
-
-(figs. 7, 27, 542, 549, 557){.pdf-figure-list}
 
 ## Sources
 
@@ -70,7 +70,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 - *chape*
 
     Attention, ne désigne que la partie externe du moule réfractaire.
-    
+
     Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
 ### **German**: *{{ lang.de }}*
@@ -98,31 +98,31 @@ Also refers to the refractory investment material
 - *cappa*
 
     Also refers to investment
-    
+
     Source: {% cite "Bruni 1994" %}, 750
 
 - *chappa*
 
     Refers to outer investment/{% def "refractory mold" %}
-    
+
     Source: {% cite "Leonardo 1490" %}, fol. 156v
 
 - *forma*
 
     Also refers to investment
-    
+
     Sources: {% cite "Morigi 1990" %}, quaderni di restauro, 1; {% cite "Biringuccio [1540] 1990" %}, fols. 80v, 82; {% cite "Leonardo 1490" %}, fols. 54v, 142v; {% cite "Brunhuber 1988" %}
 
 - *mantello*
 
     Refers to outer investment/refractory mold
-    
+
     Source: {% cite "Formigli and Hackländer 1999" %}, 301
 
 - *refrattario*
 
     Also refers to the refractory investment material
-    
+
     Source: {% cite "Bruni 1994" %}, 75
 
 - *stampo refrattario*
