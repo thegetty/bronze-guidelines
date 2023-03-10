@@ -88,14 +88,6 @@ figure_list:
     label: "Figure 518"
     caption: "Main impurities in the metal of the Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See %%Mechling et al. 2018%%."
 
-  # NEW
-
-  - id: "fig-ZZZ"
-    src: embeds/fig-ZZZ.html
-    media_type: table
-    label: "Figure ZZZ"
-    caption: "3D scan. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
-
   # REGULAR FIGURES
 
   - id: "fig-001"
@@ -4350,7 +4342,7 @@ figure_list:
     src: "figures/545/base.jpg"
     zoom: true
     label: "Figure 545"
-    caption: "Annotated X-radiograph showing the flashing that formed along the juncture between different core materials—ceramic shell (in the muzzle) and plaster/clay mixture—as a white line of uneven density halfway up the horse’s head. An internal core support wire was inserted to connect the two core sections (red line). A line around the neck (green line) corresponds to TIG welding to join two separately cast parts. Remnants of sprues appear as denser patches (blue overlays). Note that the use of beam limiting shutters (used to reduce X-ray scatter, see [II.3](#II.3)) have caused underexposure of the lower quarter and the right edge of the radiograph. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
+    caption: "Annotated X-radiograph showing the flashing that formed along the juncture between different core materials—ceramic shell (in the muzzle) and plaster/clay mixture—as a white line of uneven density halfway up the horse’s head (yellow arrows). An internal core support wire was inserted to connect the two core sections (red line). A line around the neck (green line) corresponds to TIG welding to join two separately cast parts. Remnants of sprues appear as denser patches (blue overlays). Note that the use of beam limiting shutters (used to reduce X-ray scatter, see [II.3](#II.3)) have caused underexposure of the lower quarter and the right edge of the radiograph. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
     annotations:
       - input: checkbox
         items:
@@ -4684,3 +4676,11 @@ figure_list:
     src: "tables/table-15.html"
     media_type: table
     visual_atlas: false
+
+  # NEW
+
+  - id: "fig-ZZZ"
+    src: embeds/fig-ZZZ.html
+    media_type: table
+    label: "Figure ZZZ"
+    caption: "3D scan. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
