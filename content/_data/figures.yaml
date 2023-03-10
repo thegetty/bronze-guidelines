@@ -4,41 +4,41 @@ figure_list:
   # sequences, or require some viewing aparatus beyond Quire's capability
   # and will need special handling or external hosting.
 
-  # Images marked `media_type: case-study` were created especially for the
+  # Images marked `visual_atlas: false` were created especially for the
   # Case Study section and are not included in the Visual Atlast of Images
 
   # COVER/BANNER IMAGES FOR CASE STUDIES
 
   - id: "fig-440-cover"
     src: "figures/case-studies/440-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
   - id: "fig-469-cover"
     src: "figures/case-studies/469-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
   - id: "fig-500-cover"
     src: "figures/case-studies/500-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
   - id: "fig-508-cover"
     src: "figures/case-studies/508-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
   - id: "fig-34-97-524-cover"
     src: "figures/case-studies/34-97-524-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
-    media_type: case-study
+    visual_atlas: false
 
   # OTHER CASE STUDY IMAGES
 
   - id: "figs-440-455-group"
     src: "figures/case-studies/figs-440-455-group.jpg"
-    media_type: case-study
+    visual_atlas: false
     zoom: true
     label: "Figures 440–46 and 449–55"
     caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-034-097-524-group"
-    media_type: case-study
+    visual_atlas: false
     # zoom: true
     label: "Figures 34, 97, and 524"
     caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. From left to right: Barthélemy Prieur (French, ca. 1536–1611), *Abundance* (Figure 34), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681);  Martin Lefort (French, dates unknown), *Justice* (Figure 97), 1571, H. 128 cm (Musée du Louvre, inv. MR1682); Barthélemy Prieur (French, ca. 1536–1611), *Peace* (Figure 524), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683)."
@@ -57,31 +57,31 @@ figure_list:
 
   - id: "fig-067-dupe"
     src: "figures/067.jpg"
-    media_type: case-study
+    visual_atlas: false
     label: "Figure 67"
     caption: "Example of direct wax additions on a wax model, notably the attribute in the left hand. Statuette of Jambhala, Java, first half of the 9th century, H. 28 cm (Musée National des arts asiatiques – Guimet, Paris, inv. MG 3814). See %%Mechling et al. 2018%%."
 
   - id: "fig-111-dupe"
     src: "figures/111.jpg"
-    media_type: case-study
+    visual_atlas: false
     label: "Figure 111"
     caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
   - id: "fig-505-dupe"
     src: "figures/505.jpg"
-    media_type: case-study
+    visual_atlas: false
     label: "Figure 505"
     caption: "Front view. Ten-Armed Avalokiteśvara, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816). See %%Mechling et al. 2018%%."
 
   - id: "fig-510-dupe"
     src: "figures/510.jpg"
-    media_type: case-study
+    visual_atlas: false
     label: "Figure 510"
     caption: "X-radiograph of frontal view. Statuette of Jambhala, central Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See %%Mechling et al. 2018%%."
 
   - id: "fig-518-dupe"
     src: "figures/518.jpg"
-    media_type: case-study
+    visual_atlas: false
     label: "Figure 518"
     caption: "Main impurities in the metal of the Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See %%Mechling et al. 2018%%."
 
@@ -4587,59 +4587,74 @@ figure_list:
   - id: "table-01"
     src: "tables/table-1.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-02"
     src: "tables/table-2.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-03"
     src: "tables/table-3.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-04"
     src: "tables/table-4.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-05"
     src: "tables/table-5.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-06"
     src: "tables/table-6.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-07"
     src: "tables/table-7.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-08"
     src: "tables/table-8.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-09"
     src: "tables/table-9.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-10"
     src: "tables/table-10.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-11"
     src: "tables/table-11.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-12"
     src: "tables/table-12.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-13"
     src: "tables/table-13.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-14"
     src: "tables/table-14.html"
     media_type: table
+    visual_atlas: false
 
   - id: "table-15"
     src: "tables/table-15.html"
     media_type: table
+    visual_atlas: false
