@@ -413,18 +413,30 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/035/patches.png"
-            label: "Patches"
+          - src: "figures/035/patch.png"
+            label: "Patch"
+            selected: true
+          - src: "figures/035/plug.png"
+            label: "Plug"
             selected: true
           - src: "figures/035/core-pins.png"
             label: "Core Pins"
             selected: true
 
   - id: "fig-036"
-    src: "figures/036.jpg"
-    # media_type: iiif
+    src: "figures/036/base.jpg"
+    zoom: true
     label: "Figure 36"
     caption: "Detail of internal surface showing a core pin with the head in the interior (yellow overlay), testifying to the use of a process in which the core was set after the wax in the mold. Remains of clay core are visible (top right). Giovan Francesco Rustici (Italian, 1475–1554), Tomb Effigy of Alberto III Pio, Prince of Carpi, ca. 1535, L. 167 cm (Musée du Louvre, inv. MR 1680). See {C2RMF Internal Report 2016a}."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/036/core.png"
+            label: "Core"
+            selected: true
+          - src: "figures/036/nail.png"
+            label: "Nail"
+            selected: true
 
   - id: "fig-037"
     src: "figures/037/base.jpg"
@@ -1259,11 +1271,16 @@ figure_list:
             selected: true
 
   - id: "fig-128"
-    src: "figures/128.jpg"
-    # media_type: iiif
+    src: "figures/128/base.jpg"
+    zoom: true
     label: "Figure 128"
     caption: "Fine lines scratched through the paint-like patina are from mold making, so-called *surmoulage* lines. Attributed to Hans Mont (Flemish, ca. 1545–after 1585), *Mars and Venus*, 1580, H. 53.9 cm (J. Paul Getty Museum, inv. 85.SB.75)."
-    # annotations: true
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/128/psurmoulage-lines.png"
+            label: "Surmoulage Lines"
+            selected: true
 
   - id: "fig-129"
     src: "figures/129.jpg"
@@ -1532,10 +1549,16 @@ figure_list:
     caption: "Diagram of the common types of repairs found on bronze sculpture."
 
   - id: "fig-168"
-    src: "figures/168.jpg"
-    # media_type: iiif
+    src: "figures/168/base.jpg"
+    zoom: true
     label: "Figure 168"
     caption: "Detail of mantle showing a pattern of cold-worked decorative striations applied over a rectangular patch that covers a casting defect. Germain Pilon (French, ca. 1525–1590), Kneeling Figure of Henri II, ca. 1567, H. 150 cm (Saint-Denis Basilica, France). See %%Castelle 2016%%."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/168/patch.png"
+            label: "Patch"
+            selected: true
 
   - id: "fig-169"
     src: "figures/169.jpg"
@@ -2915,18 +2938,15 @@ figure_list:
     src: "figures/346/base.jpg"
     zoom: true
     label: "Figure 346"
-    caption: "Annotated detail of copper-alloy inlays. The lips and blood drips are inlaid with a reddish unalloyed copper (blue and orange annotations). A lead-rich copper alloy overlay simulates a swollen cheek contusion of a different color (purple overlay). Boxer at Rest, Greek, Hellenistic period, late 4th–2nd century BCE, H. 128 cm (Museo Nazionale Romano di Palazzo Massimo, Rome, inv. 1055). See %%Alessandri et al. 2013%%."
+    caption: "Annotated detail of copper-alloy inlays. The lips and blood drips are inlaid with a reddish unalloyed copper (orange overlays). A lead-rich copper alloy overlay simulates a swollen cheek contusion of a different color (purple overlay). Boxer at Rest, Greek, Hellenistic period, late 4th–2nd century BCE, H. 128 cm (Museo Nazionale Romano di Palazzo Massimo, Rome, inv. 1055). See %%Alessandri et al. 2013%%."
     annotations:
       - input: checkbox
         items:
-          - src: "figures/346/copper-lips.png"
-            label: "Lips (Copper-Alloy Inlay)"
+          - src: "figures/346/copper.png"
+            label: "Copper-Alloy Inlay"
             selected: true
-          - src: "figures/346/copper-drips.png"
-            label: "Blood Drips (Copper-Alloy Inlay)"
-            selected: true
-          - src: "figures/346/lead-contusion.png"
-            label: "Contusion (Lead-Rich Overlay)"
+          - src: "figures/346/lead.png"
+            label: "Lead-Rich Overlay"
             selected: true
 
   - id: "fig-347"
@@ -4342,6 +4362,9 @@ figure_list:
             selected: true
           - src: "figures/545/sprue-remnants.png"
             label: "Sprue Remnants"
+            selected: true
+          - src: "figures/545/flashing.png"
+            label: "Flashing"
             selected: true
 
   - id: "fig-546"
