@@ -2478,6 +2478,11 @@ table .poor { background-color: #F2F9F1; }
 #fig-346-0-lead label::before {
   background-color: #a969c4; /* purple */
 }
+/* FIG 347 */
+#lightbox-fig-347-0-copper-strand label::before,
+#fig-347-0-copper-strand label::before {
+  background-color: #d31132; /* red */
+}
 /* FIG 364 */
 #lightbox-fig-364-0-inlays label::before,
 #fig-364-0-inlays label::before {
