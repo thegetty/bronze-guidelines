@@ -2968,10 +2968,16 @@ figure_list:
             selected: true
 
   - id: "fig-347"
-    src: "figures/347.jpg"
-    # media_type: iiif
+    src: "figures/347/base.jpg"
+    zoom: true
     label: "Figure 347"
     caption: "Lost-wax cast of a head of a Bodhisattva showing the brass and copper bead decoration in the tiara. The brass beads belong to the primary cast (both contain 21 wt% Zn), whereas the copper beads were shaped from a wire and overlaid on the cast. Bodhisattva, Tibet, 11th–13th century, H. 34.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 6273). See %%C2RMF Internal Report 1998%%."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/347/coppe-strand.png"
+            label: "Copper Strand"
+            selected: true
 
   - id: "fig-348"
     src: "figures/348.jpg"
