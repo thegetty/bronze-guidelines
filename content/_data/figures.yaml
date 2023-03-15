@@ -70,6 +70,13 @@ figure_list:
     label: "Figure 111"
     caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
+  - id: "fig-441-dupe"
+    src: "figures/441.jpg"
+    visual_atlas: false
+    zoom: true
+    label: "Figure 441"
+    caption: "Front view of the second head. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/#fig-367){target=_blank}."
+    
   - id: "fig-505-dupe"
     src: "figures/505.jpg"
     visual_atlas: false
@@ -2975,7 +2982,7 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/347/coppe-strand.png"
+          - src: "figures/347/copper-strand.png"
             label: "Copper Strand"
             selected: true
 
@@ -3588,12 +3595,6 @@ figure_list:
     caption: "Front view of the first head. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/#fig-367){target=_blank}."
 
   - id: "fig-441"
-    src: "figures/441.jpg"
-    zoom: true
-    label: "Figure 441"
-    caption: "Front view of the second head. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/#fig-367){target=_blank}."
-
-  - id: "fig-441-cs"
     src: "figures/441.jpg"
     zoom: true
     label: "Figure 441"
@@ -4730,5 +4731,6 @@ figure_list:
   - id: "fig-ZZZ"
     src: embeds/fig-ZZZ.html
     media_type: table
+    visual_atlas: false
     label: "Figure ZZZ"
     caption: "3D scan. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
