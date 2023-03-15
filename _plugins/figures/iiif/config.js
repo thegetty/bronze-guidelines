@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// increased print-image.jpg size, lines 118–19
+//
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
@@ -111,7 +115,8 @@ module.exports = (eleventyConfig) => {
       {
         name: 'print-image',
         resize: {
-          width: 800
+          width: 2025,
+          withoutEnlargement: true
         }
       }
     ]

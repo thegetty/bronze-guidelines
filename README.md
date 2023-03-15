@@ -103,6 +103,9 @@ Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
+**_plugins/figures/iiif/config.js**
+increased print-image.jpg size
+
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
