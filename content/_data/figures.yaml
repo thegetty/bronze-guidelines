@@ -91,7 +91,8 @@ figure_list:
   # REGULAR FIGURES
 
   - id: "fig-001"
-    src: "figures/001.png"
+    # src: "figures/001.png"
+    src: "figures/jpg-alts/001.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 1"
@@ -104,7 +105,8 @@ figure_list:
     caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of Mars by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See %%Bewer 1996a%%."
 
   - id: "fig-003"
-    src: "figures/003.png"
+    # src: "figures/003.png"
+    src: "figures/jpg-alts/003.jpg"
     # media_type: iiif
     label: "Figure 3"
     caption: "Graph showing the impact of a lost-wax sculpture’s size on the time needed for the different steps in the fabrication process. The data are based on records gathered between 1973 and 2006 kindly provided by Jean Dubos, director of Fonderie de Coubertin, and are based on the casting of a standing nude man, whatever the model. The duration is given in person-hours and only factors in working hours; the time needed for drying and baking of the investment, for instance, is not taken into account here, although those steps can take a long time (as shown in [table 1](/tables/#table-01)). Also, the more people working simultaneously on a bronze, the quicker the completion (again see [table 1](/tables/#table-01))."
@@ -180,7 +182,8 @@ figure_list:
             selected: true
 
   - id: "fig-009"
-    src: "figures/009.jpg"
+    # src: "figures/009.png"
+    src: "figures/jpg-alts/009.jpg"
     zoom: true
     class: pdf-full-width
     label: "Figure 9"
@@ -195,7 +198,8 @@ figure_list:
     caption: "Large casting flaws in the arms of a Khmer divinity reveal the tan-colored, clay-based core that remains inside the bronze. Note the very thin walls of the bronze at the edges of the losses. Standing Buddha in Abhayamudrā, post-Angkorian, Prasat Bakan (Pursat), 16th century, H. 24.2 cm (National Museum of Cambodia, inv. Ga.3330)."
 
   - id: "fig-011"
-    src: "figures/011.png"
+    # src: "figures/011.png"
+    src: "figures/jpg-alts/011.jpg"
     # media_type: iiif
     class: pdf-65-percent-float
     label: "Figure 11"
@@ -209,7 +213,8 @@ figure_list:
     caption: "Overall view and X-ray radiograph of the earliest known object made by lost-wax casting. Copper Amulet, Mehrgarh, Baluchistan, mid-5th–mid-4th millennium BCE, diameter 2 cm (Mission Archéologique Française du Bassin de l’Indus, inv. MR.85.03.00.01). See %%Thoury et al. 2016%%; %%Mille 2017%%."
 
   - id: "fig-013"
-    src: "figures/013.png"
+    # src: "figures/013.png"
+    src: "figures/jpg-alts/013.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 13"
@@ -229,7 +234,8 @@ figure_list:
     caption: "Plaster molding of the 3D resin print of the head of Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the separate sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/#fig-017){target=_blank}, [19](/visual-atlas/#fig-019){target=_blank}, [24](/visual-atlas/#fig-024){target=_blank}). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-016"
-    src: "figures/016.png"
+    # src: "figures/016.png"
+    src: "figures/jpg-alts/016.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 16"
@@ -244,7 +250,8 @@ figure_list:
     caption: "Application of wax slabs on the internal surface of one half of a plaster mold used for a bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-018"
-    src: "figures/018.png"
+    # src: "figures/018.png"
+    src: "figures/jpg-alts/018.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 18"
@@ -277,7 +284,8 @@ figure_list:
     caption: "Hot molten wax is brushed onto the internal surface sections of a plaster mold as part of an indirect lost-wax casting process carried out during the 2016 CAST:ING meeting, Coubertin foundry, France."
 
   - id: "fig-023"
-    src: "figures/023.png"
+    # src: "figures/023.png"
+    src: "figures/jpg-alts/023.jpg"
     # media_type: iiif
     class: pdf-65-percent-float
     label: "Figure 23"
@@ -292,7 +300,8 @@ figure_list:
     caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-025"
-    src: "figures/025.png"
+    # src: "figures/025.png"
+    src: "figures/jpg-alts/025.jpg"
     # media_type: iiif
     class: pdf-65-percent-float
     label: "Figure 25"
@@ -300,7 +309,8 @@ figure_list:
     # annotations: true
 
   - id: "fig-026"
-    src: "figures/026.png"
+    # src: "figures/026.png"
+    src: "figures/jpg-alts/026.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 26"
@@ -314,7 +324,8 @@ figure_list:
     caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster refractory mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](#I.3). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
 
   - id: "fig-028"
-    src: "figures/028.png"
+    # src: "figures/028.png"
+    src: "figures/jpg-alts/028.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 28"
@@ -1206,7 +1217,8 @@ figure_list:
     caption: "X-radiographic sequence of a two-thirds-scale bronze reproduction of the head of the Apollo of Lillebonne showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Click on the image to spin. Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/#fig-288){target=_blank}."
 
   - id: "fig-122"
-    src: "figures/122.png"
+    # src: "figures/122.png"
+    src: "figures/jpg-alts/122.jpg"
     # media_type: iiif
     label: "Figure 122"
     caption: "Four types of core supports used to hold the core in place during the pour: 1) core pins; 2) transverse core pin; 3) chaplets; 4) mold extension."
@@ -1288,7 +1300,8 @@ figure_list:
     caption: "Detail of the rear of the Matilda statuette showing different tool marks. The wider striations on the right and bottom were most likely made in the clay model. The finer parallel lines coming down on the left at a diagonal in the fold appear to have been made at the wax stage with a finer-toothed tool. After a model by Gian Lorenzo Bernini (Italian, 1598–1680), *Countess Matilda of Tuscany*, ca. 1633–34, H. 40 cm (Harvard Art Museums / Fogg Museum, partial gift of Max Falk and partial purchase through the Director’s Acquisition Fund, 1998.1). See %%Bewer 1999%%."
 
   - id: "fig-131"
-    src: "figures/131.png"
+    # src: "figures/131.png"
+    src: "figures/jpg-alts/131.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 131"
@@ -1403,7 +1416,8 @@ figure_list:
     caption: "Detail showing how the expansion of the iron armatures due to corrosion has generated a crack in the mirror. Jean-Baptiste Poultier (French, 1653–1719), *Two Putti and a Girl Holding a Mirror*, ca. 1685, cast by Aubry, Bonvallet, Schabol, and Taubin in 1685–87, Paris, H. 145 cm (Musée National des châteaux de Versailles et de Trianon, France, inv. 1850.8925). See {Maral, Bourgarit, and Amarger 2014} for the metal composition of the cast."
 
   - id: "fig-150"
-    src: "figures/150.png"
+    # src: "figures/150.png"
+    src: "figures/jpg-alts/150.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 150"
@@ -1534,7 +1548,8 @@ figure_list:
     caption: "360-degree general view (click on the image to spin) before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. Eros of Agde, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See %%Mille 2012%%."
 
   - id: "fig-167"
-    src: "figures/167.png"
+    # src: "figures/167.png"
+    src: "figures/jpg-alts/167.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 167"
@@ -1589,14 +1604,16 @@ figure_list:
             selected: true
 
   - id: "fig-173"
-    src: "figures/173.png"
+    # src: "figures/173.png"
+    src: "figures/jpg-alts/173.jpg"
     # media_type: iiif
     label: "Figure 173"
     caption: "The process of setting in a patch to mask a superficial casting flaw: 1) casting flaw noted on the surface of the bronze (cross section); 2) the flaw is chiseled to create a geometric shape that is easily duplicated; an undercutting bevel is cut into the sides of the wall; 3) a metal patch is set into the flaw; 4) the patch is hammered and chased to fill the flaw and match the adjacent surface as much as possible; the repair is locked in place by the undercut of the bevel; 5) a similar process can be used to insert a plug to repair a flaw that extends through the entire thickness of the wall."
     # annotations: true
 
   - id: "fig-174"
-    src: "figures/174.png"
+    # src: "figures/174.png"
+    src: "figures/jpg-alts/174.jpg"
     # media_type: iiif
     label: "Figure 174"
     caption: "Diagram of a patch repair of a type seen on the statue of the Xanten Youth, Roman, last quarter of the 1st century BCE, H. 143 cm (Staatliche Museen zu Berlin, Antikensammlung, Neues Museum, inv. SK 4). 1) A copper alloy “granule” is positioned over a surface flaw; 2) a punch is used to force the granule into the flaw; and 3) the surface is further chased to conceal the flaw. After %%Peltz 2011%%, 127.1, fig. 12."
@@ -1688,7 +1705,8 @@ figure_list:
             selected: true
 
   - id: "fig-181"
-    src: "figures/181.png"
+    # src: "figures/181.png"
+    src: "figures/jpg-alts/181.jpg"
     # media_type: iiif
     label: "Figure 181"
     caption: "Cast-on repair process: 1) casting flaw that extends through the wall of the bronze; 2) the edges of the flaw are cleaned up and core under the flawed area is partially excavated; 3) the flawed surface is modeled in wax; a pouring cup and vent are added; 4) the wax is invested; heat is applied locally until the wax melts out; 5) bronze is poured into the temporary mold; when cool, the investment is removed; 6) the pouring cup and vent are removed; the surface is chased to minimize the thin gap between the bulk metal and the cast-on repair caused due to shrinkage, and to unify the surface of the bronze."
@@ -1810,7 +1828,8 @@ figure_list:
             label: "Ultraviolet"
 
   - id: "fig-192"
-    src: "figures/192.png"
+    # src: "figures/192.png"
+    src: "figures/jpg-alts/192.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 192"
@@ -1920,7 +1939,8 @@ figure_list:
             selected: true
 
   - id: "fig-201"
-    src: "figures/201.png"
+    # src: "figures/201.png"
+    src: "figures/jpg-alts/201.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 201"
@@ -1928,7 +1948,8 @@ figure_list:
     # annotations: true
 
   - id: "fig-202"
-    src: "figures/202.png"
+    # src: "figures/202.png"
+    src: "figures/jpg-alts/202.jpg"
     # media_type: iiif
     label: "Figure 202"
     caption: "Two ways of preparing the two parts to be assembled by flow fusion welding as witnessed on various antique large bronzes. Left side: the base metal is cut away to half its thickness to make a channel through which the molten bronze can run; right side: a space is left between the two parts to be joined and the welding metal is directly poured through this space. See %%Azéma et al. 2011%%."
@@ -2208,7 +2229,8 @@ figure_list:
     caption: "This slice from a computer tomography (CT) scan captured at the widest area of the neck shows a layer of metal separating the head from the body (see overlay). This is evidence that the head was cast onto an already-cast body by a localized lost-wax process. Excess metal dripped down a hollow channel along the vertical wooden armature in the torso. Elemental mapping by X-ray fluorescence (XRF) analysis revealed that the body is made of a different alloy than the head, confirming that the head was joined to the body at a separate stage. Seated Brahma, Cambodia, late 12th or early 13th century, H. 31.5 cm (Walters Art Museum, Baltimore, inv. 54.2734). See {Strahan 1998}."
 
   - id: "fig-233"
-    src: "figures/233.png"
+    # src: "figures/233.png"
+    src: "figures/jpg-alts/233.jpg"
     # media_type: iiif
     label: "Figure 233"
     caption: "Diagram of characteristic tool marks produced at various stages of the production of a bronze sculpture."
@@ -2665,14 +2687,16 @@ figure_list:
     caption: "Ternary diagram for gold-silver-copper alloys indicating the color of different alloy compositions."
 
   - id: "fig-304"
-    src: "figures/304.png"
+    # src: "figures/304.png"
+    src: "figures/jpg-alts/304.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 304"
     caption: "Decision tree for the preliminary investigation and characterization of plating by visual examination."
 
   - id: "fig-305"
-    src: "figures/305.png"
+    # src: "figures/305.png"
+    src: "figures/jpg-alts/305.jpg"
     # media_type: iiif
     class: pdf-45-percent-float
     label: "Figure 305"
@@ -2685,7 +2709,8 @@ figure_list:
     caption: "Research indicated that, although brightly polished when acquired (left), this sculpture was intended by the artist to have a thin brown patina. It was therefore allowed to darken by exposure to air for some years (middle). This appearance was still considered unacceptable, so repatination was deemed necessary to return it to its original appearance (right). Jean Arp (French German, 1886–1966), *Human Concretion without Oval Bowl*, 1933, cast 1961, H. 58.4 cm (San Francisco Museum of Modern Art, William L. Gerstle Collection, William L. Gerstle Fund purchase, inv. 62.2431). See %%Hamilton 2018%%."
 
   - id: "fig-307"
-    src: "figures/307.png"
+    # src: "figures/307.png"
+    src: "figures/jpg-alts/307.jpg"
     # media_type: iiif
     label: "Figure 307"
     caption: "Diagram showing the various factors involved in patina formation."
@@ -2872,7 +2897,8 @@ figure_list:
     caption: "Detail of a thin bronze plate showing “bronze disease”—light-green-colored eruptions of copper chlorides. Breastplate with Relief Decoration of a Four-Horse Chariot, southern Italy, ca. 480 BCE, L. 107 cm (J. Paul Getty Museum, inv. 83.AC.7.3)."
 
   - id: "fig-338"
-    src: "figures/338.png"
+    # src: "figures/338.png"
+    src: "figures/jpg-alts/338.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 338"
@@ -3099,7 +3125,8 @@ figure_list:
             selected: true
 
   - id: "fig-368"
-    src: "figures/368.png"
+    # src: "figures/368.png"
+    src: "figures/jpg-alts/368.jpg"
     # media_type: iiif
     class: pdf-full-width pdf-85-percent-width
     label: "Figure 368"
@@ -3136,7 +3163,8 @@ figure_list:
     caption: "Principle of photogrammetry."
 
   - id: "fig-374"
-    src: "figures/374.png"
+    # src: "figures/374.png"
+    src: "figures/jpg-alts/374.jpg"
     # media_type: iiif
     label: "Figure 374"
     caption: "The main steps to design a resin model of a sculpture using photogrammetry: 1–2) digital photography of the original sculpture is undertaken at several angles to cover the whole object; 3) a digital model made of a dense cloud of points is made via reconstruction software; 4) the digital model is meshed and cleaned; 5) a 3D model is printed (here in resin) using the digital model; 6) details are added as well as painting."
@@ -3274,7 +3302,8 @@ figure_list:
     caption: "X-radiograph of a pair of breastplates. Contrast optimization in order to reveal hammering marks was obtained by discarding the X-ray beam filters. Other operating conditions were: 80kV, 4mA, 10 min. exposure, 1.5 m source-to-object distance, MX125PB film. Pair of *couvre seins*, Iran, early 2nd millennium BCE, 12 cm diameter (Musée du Louvre, inv. Sb 3055 a–b)."
 
   - id: "fig-397"
-    src: "figures/397.png"
+    # src: "figures/397.png"
+    src: "figures/jpg-alts/397.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 397"
@@ -4432,7 +4461,8 @@ figure_list:
     caption: "Investment mold used to cast a small bronze (mold height ~32 cm). Andrew Lacey, 1998."
 
   - id: "fig-558"
-    src: "figures/558.png"
+    # src: "figures/558.png"
+    src: "figures/jpg-alts/558.jpg"
     # media_type: iiif
     class: pdf-full-width
     label: "Figure 558"
