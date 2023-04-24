@@ -29,7 +29,7 @@ The question of “what” (is a bronze)—bronze meant here in the sense of the
 
 ### 1.1 Current issues
 
-The thousands of bronze sculptures that have been produced over millennia around the world and that still survive in museums, other cultural institutions, and elsewhere constitute exceptional resources with potential to add to our understanding of a variety of issues around the objects themselves, as well as the diverse cultures in which they were created. The questions that provide the impetus for any given study will vary, but in all cases the inquiry into the materials and techniques of the bronze objects involved and the meaningful interpretation of the physical evidence gathered require close study of related primary sources and documentation, be it historical, art historical, archaeological, ethnographic, or other. Technical treatises and instruction manuals, archival records such as accounting books, contracts and inventories, artists’ notebooks, correspondence, interviews, ethnographic documentation, and records of archaeological excavations are all key sources, among others, to reconstructing the how, why, when, where, who, and other questions we seek to answer. The technological study thus relies on a combination of methodologies and skills that ensue from the collaboration of experts in diverse fields such as art history, the history of science and technology, materials science, archaeology, metallurgy, artistic practice, and artisanal foundry knowledge, among others.
+The thousands of bronze sculptures that have been produced over millennia around the world and that still survive in museums, other cultural institutions, and elsewhere constitute exceptional resources with potential to add to our understanding of a variety of issues around the objects themselves, as well as the diverse cultures in which they were created, used, and collected. The questions that provide the impetus for any given study will vary, but in all cases the inquiry into the materials and techniques of the bronze objects involved and the meaningful interpretation of the physical evidence gathered require close study of related primary sources and documentation, be it historical, art historical, archaeological, ethnographic, or other. Technical treatises and instruction manuals, archival records such as accounting books, contracts and inventories, artists’ notebooks, correspondence, interviews, ethnographic documentation, and records of archaeological excavations are all key sources, among others, to reconstructing the how, why, when, where, who, and other questions we seek to answer. The technological study thus relies on a combination of methodologies and skills that ensue from the collaboration of experts in diverse fields such as art history, the history of science and technology, materials science, archaeology, metallurgy, artistic practice, and artisanal foundry knowledge, among others.
 
 While the contributions of such technological research to the art historical field is significant, it can also be perceived as a threat to the established authority in a given field.[^3] But it is heartening to find that cross-disciplinary collaborations are being embraced more. To date they have highlighted:
 
@@ -78,6 +78,8 @@ The kinds of questions that bronze sculptures may raise are many. For instance:
 
 -   Is it possible to tell when a particular cast was produced, given that certain models and molds can be used by others than those who originally crafted them, even well after that person’s lifetime?
 
+-   What features may relate to the post-creation—later stage—in  the life of a bronze, and what can we learn from them? 
+
 Answering these questions can require a fair amount of comparable data on related objects. Monographic exhibitions have so far provided some of the main impetus for such systematic technological studies of particular workshops or artists, as they also rally the necessary international cooperation and funding for resources needed to even begin to tease out trends. Larger studies of related groups such as the ones represented in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/) signal the necessity of a broader sampling in order to recognize what some of the questions might even be, before one might attempt to draw definitive conclusions.
 
 It is also important to bear in mind the role of the founder and other hands that may be involved in the production of any bronze object. Depending on the challenges and solutions presented by a particular project, these problem solvers may adopt or experiment with different processes before settling on the one(s) most likely to produce successful results. This is particularly true of larger casts.
@@ -93,7 +95,7 @@ Most sculptures subjected to technological study have had a life story subsequen
 
 Traces of original use (and/or abuse) may include:
 
--   ritual dressing (pigments, jewelry);[^6]
+-   ritual dressing (pigments, jewelry);
 
 -   patterns of wear (see [I.6§1.4](/vol-1/6/#S1.4));
 
@@ -119,11 +121,11 @@ Traces of patronage and collecting may include:
 
 -   wholesale cleaning treatments (for instance to archaeological bronzes) and other traces of conservation/restoration (see more below).
 
-Traces of display and environment(s) that the object has been exposed to may include:
+Traces of display and environment(s) that the object has been designed for or exposed to may include:
 
 -   different types of mount/base (and later remounts) (see [GI§2.9](/intro/#S2.9) below);
 
--   varying degrees of finishing on different parts of the object that might suggest a particular architectural location;
+-   varying degrees of finishing on different parts of the object that might suggest creation for, or insertion in, a particular architectural location;
 
 -   alterations and accretions such as {% def "corrosion" %} particular to specific environments (soot; paint drips; burial accretions such as pseudomorphs, see [I.8§1.1.2](/vol-1/8/#S1.1.2)).
 
@@ -180,27 +182,27 @@ Damage and disfigurement may be due to any number of reasons, including:
 
 Interdisciplinary research into how bronzes were made draws on a marriage of text-based historical research and object-focused investigations of physical evidence, as well as experimental reconstructions. Depending on the approach taken and who was involved, the results see the light in a range of specialized publications in the diverse fields of conservation, archaeology, science, history of science and technology, foundry work, art history, and museum work, which exist in many languages.
 
-Precious little has survived of the vast knowledge and skill, and of the transactions, that went into the making of bronze sculptures over the millennia. But some snippets were captured in writing. The nineteenth century saw a great push toward more systematic archival research on the part of historians. The transcription and publication of large collections of documents has led to the discovery of information pertaining to bronze production centers and the commissioning and execution of bronze sculptures. Such sources form essential evidence in the reconstruction of chronologies, fabrication processes, and distribution and attribution of labor, especially with regard to large sculptural projects (see for instance [Case Study 5](/case-studies/5/)).[^7]
+Precious little has survived of the vast knowledge and skill, and of the transactions, that went into the making of bronze sculptures over the millennia. But some snippets were captured in writing. The nineteenth century saw a great push toward more systematic archival research on the part of historians. The transcription and publication of large collections of documents has led to the discovery of information pertaining to bronze production centers and the commissioning and execution of bronze sculptures. Such sources form essential evidence in the reconstruction of chronologies, fabrication processes, and distribution and attribution of labor, especially with regard to large sculptural projects (see for instance [Case Study 5](/case-studies/5/)).[^6]
 
-Founders and scientists (in particular chemists and metallurgists) with an interest in historical metallurgical processes have also made seminal contributions to the history of science and technology, which include, among other things, translations of some of the rare technical treatises that feature descriptions of medieval and later European bronze production. The information in these texts about the preparation of raw materials as well as the steps of casting processes have been invaluable in the interpretation of both technical features on bronze sculptures and analytical data on alloy and mold compositions.[^8]
+Founders and scientists (in particular chemists and metallurgists) with an interest in historical metallurgical processes have also made seminal contributions to the history of science and technology, which include, among other things, translations of some of the rare technical treatises that feature descriptions of medieval and later European bronze production. The information in these texts about the preparation of raw materials as well as the steps of casting processes have been invaluable in the interpretation of both technical features on bronze sculptures and analytical data on alloy and mold compositions.[^7]
 
-Archaeological excavations, collections, and methodology have played a key role in the study of bronze technologies, as it is in this context that object-focused studies of bronzes first developed. The challenge of how to deal with archaeological bronzes that either were already disfigured by corrosion or began to break out into active “bronze disease” following excavation was one of the impetuses for the establishment of early scientific labs in museums. It kept scientists busy for decades, and their evolving understanding of the mechanism has been reflected in the attitude toward treatment and the aesthetic choices that account for the appearance of such objects to this day ({% ref 'fig-157' %}).[^9]
+Archaeological excavations, collections, and methodology have played a key role in the study of bronze technologies, as it is in this context that object-focused studies of bronzes first developed. The challenge of how to deal with archaeological bronzes that either were already disfigured by corrosion or began to break out into active “bronze disease” following excavation was one of the impetuses for the establishment of early scientific labs in museums. It kept scientists busy for decades, and their evolving understanding of the mechanism has been reflected in the attitude toward treatment and the aesthetic choices that account for the appearance of such objects to this day ({% ref 'fig-157' %}).[^8]
 
-Increasingly methodical, scientific excavations unearthed a whole range of copper alloy artifacts and shed light as well on the more ephemeral evidence of their production and use, such as mold and furnace remains and ritual contexts.[^10] These include discoveries of foundry sites in different parts of the world, for instance from the fifth century BCE onward in Houma, China, and the Athenian Agora.[^11]
+Increasingly methodical, scientific excavations unearthed a whole range of copper alloy artifacts and shed light as well on the more ephemeral evidence of their production and use, such as mold and furnace remains and ritual contexts.[^9] These include discoveries of foundry sites in different parts of the world, for instance from the fifth century BCE onward in Houma, China, and the Athenian Agora.[^10]
 
-The taste for collecting ancient materials is centuries old and has been accompanied by a market for copies and forgeries for almost as long, many of which coexisted peacefully with the genuine early works. But the shift to a more scientific classification went hand in hand with the development of forensic methods to characterize the materials and facture of objects, which served to describe and identify objects more precisely. The discoveries of fabulous archaeological works both on land and at sea, and the publicity that surrounded them, also fed broader public interest in how the marriage of science and the humanities may unravel the mysteries of these objects and help to conserve them. The two bronze warriors from Riace are one such find.[^12]
+The taste for collecting ancient materials is centuries old and has been accompanied by a market for copies and forgeries for almost as long, many of which coexisted peacefully with the genuine early works. But the shift to a more scientific classification went hand in hand with the development of forensic methods to characterize the materials and facture of objects, which served to describe and identify objects more precisely. The discoveries of fabulous archaeological works both on land and at sea, and the publicity that surrounded them, also fed broader public interest in how the marriage of science and the humanities may unravel the mysteries of these objects and help to conserve them. The two bronze warriors from Riace are one such find.[^11]
 
-Similarly, a greater awareness and understanding of the damaging effects of pollution on well-known public monuments led to conservation projects that provided further opportunities for technical investigations. The research data and results of these scientific and historical investigations—and the often-dramatic treatments—were not infrequently featured in exhibitions and related publications.[^13]
+Similarly, a greater awareness and understanding of the damaging effects of pollution on well-known public monuments led to conservation projects that provided further opportunities for technical investigations. The research data and results of these scientific and historical investigations—and the often-dramatic treatments—were not infrequently featured in exhibitions and related publications.[^12]
 
-During the early twentieth century there was an increase in the application of science to the study and treatment of works of art, and the international exchange of data and ideas through conferences and dedicated journals. After World War II, the trend continued with the establishment of the first professional conservation organizations as well as the creation of new scientific museum labs.[^14] Over the decades these applied ever more sophisticated scientific tools and methods (for instance thermoluminescence dating, atomic absorption spectroscopy, lead isotope analysis, X-ray fluorescence analysis) to the identification and characterization of materials, tracing of sources, and dating. And the new archaeological science (also known as archaeometry) took off with a rise in, among other things, technical research on bronzes.[^15]
+During the early twentieth century there was an increase in the application of science to the study and treatment of works of art, and the international exchange of data and ideas through conferences and dedicated journals.[^13] After World War II, the trend continued with the establishment of the first professional conservation organizations as well as the creation of new scientific museum labs. Over the decades these applied ever more sophisticated scientific tools and methods (for instance thermoluminescence dating, atomic absorption spectroscopy, lead isotope analysis, X-ray fluorescence analysis) to the identification and characterization of materials, tracing of sources, and dating. And the new archaeological science (also known as archaeometry) took off with a rise in, among other things, technical research on bronzes.[^14]
 
-By the 1970s, projects covered bronzes from around the world, from the Himalayas and Southeast Asia to West Africa, from ancient Egypt to Renaissance Europe, from ancient China to nineteenth-century France.[^16] Some of these were seminal for bringing together experts in archaeology, art history, and the history of technology, conservation, and science, and were the first to be closely associated with, and even integrated into, sculpture exhibitions.[^17] Other research projects consisted of systematic and thorough technological studies of collections.[^18] For a good decade the Boston area was an important nexus of interdisciplinary collaborations and exchanges, including work on ancient bronzes, nineteenth-century European sculpture, and the Application of Science in Examination of Works of Art seminar series.[^19]
+By the 1970s, projects covered bronzes from around the world, from the Himalayas and Southeast Asia to West Africa, from ancient Egypt to Renaissance Europe, from ancient China to nineteenth-century France.[^15] Some of these were seminal for bringing together experts in archaeology, art history, and the history of technology, conservation, and science, and were the first to be closely associated with, and even integrated into, sculpture exhibitions.[^16] Other research projects consisted of systematic and thorough technological studies of collections.[^17] For a good decade the Boston area was an important nexus of interdisciplinary collaborations and exchanges, including work on ancient bronzes, nineteenth-century European sculpture, and the Application of Science in Examination of Works of Art seminar series.[^18]
 
-With the ninth meeting of the International Congress on Ancient Bronzes in 1986, the topic of technological studies assumed a permanent place in the hitherto solely archaeological and art historical gathering.[^20] The 1980s also marked the establishment of the Beginning of the Use of Metals and Alloys (BUMA) conferences in Asia, which promote exchanges of scholarship between Western and non-Western researchers. The 1990s witnessed several experimental archaeology workshops and seminars on various aspects of the production of large bronzes, which contributed to validating hands-on experience in scholarly work and also modeled rich collaborations among experts from different disciplines.[^21] It also sealed a turn in the Renaissance field toward the integration of technological studies, which thereafter became almost de rigueur in scholarly bronze publications.[^22]
+With the ninth meeting of the International Congress on Ancient Bronzes in 1986, the topic of technological studies assumed a permanent place in the hitherto solely archaeological and art historical gathering.[^19] The 1980s also marked the establishment of the Beginning of the Use of Metals and Alloys (BUMA) conferences in Asia, which promote exchanges of scholarship between Western and non-Western researchers. The 1990s witnessed several experimental archaeology workshops and seminars on various aspects of the production of large bronzes, which contributed to validating hands-on experience in scholarly work and also modeled rich collaborations among experts from different disciplines.[^20] It also sealed a turn in the Renaissance field toward the integration of technological studies, which thereafter became almost de rigueur in scholarly bronze publications.[^21]
 
-During the past two decades, archaeologists, art historians, and museum curators have increasingly collaborated with scientists and conservators as well as craftspeople, and the technology of metalworking has become central to the study of bronze sculptures, often by international teams.[^23] Research on bronzes from classical antiquity has flourished and been published as monographs and presented at meetings such as the International Congresses on Ancient Bronzes.[^24] Medieval European bronzes are also gaining more attention (see [Case Study 2](/case-studies/2/)).[^25] Interdisciplinary, systematic studies have been carried out on a wide array of small bronzes from the Himalayas.[^26] The technological study of Chinese, South Asian, and Southeast Asian bronzes is very active and the findings are shared, among other places, at international symposia and conferences, including the Forbes Symposia at the Freer Gallery of Art and BUMA.[^27] Research on the production of bronze sculpture from West Africa is also continuing apace.[^28] And archaeologists and archaeometallurgists are directing their attention toward a greater variety of periods, and thus also excavations of ancient metalworking sites.[^29]
+During the past two decades, archaeologists, art historians, and museum curators have increasingly collaborated with scientists and conservators as well as craftspeople, and the technology of metalworking has become central to the study of bronze sculptures, often by international teams.[^22] Research on bronzes from classical antiquity has flourished and been published as monographs and presented at meetings such as the International Congresses on Ancient Bronzes.[^23] Medieval European bronzes are also gaining more attention (see [Case Study 2](/case-studies/2/)).[^24] Interdisciplinary, systematic studies have been carried out on a wide array of small bronzes from the Himalayas.[^25] The technological study of Chinese, South Asian, and Southeast Asian bronzes is very active and the findings are shared, among other places, at international symposia and conferences, including the Forbes Symposia at the Freer Gallery of Art and BUMA.[^26] Research on the production of bronze sculpture from West Africa is also continuing apace.[^27] And archaeologists and archaeometallurgists are directing their attention toward a greater variety of periods, and thus also excavations of ancient metalworking sites.[^28]
 
-Among the more recent phenomena are studies of entire collections and larger corpuses of related works (see examples of this in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/)) as well as research focused on the work of a particular artist, in which technical findings are woven into the art historical narrative.[^30] Conservation projects also continue to provide unique opportunities for close investigation. Reconstruction, replication, and reenactment of historical processes and objects are gaining traction as methods of research and pedagogy.[^31] Newer technical means of analysis, including 3D scanning, are being called upon to help address the complex and challenging questions around originality and authenticity (for instance with regard to the posthumous production of {% def "editions" %} of certain nineteenth- and early twentieth-century European sculptures).[^32] And other digital tools, from imaging to databases, are instrumental in the sharing and interpretation of large bodies of data and communication across international teams.[^33] It is within, and from, this broader context that the CAST:ING project took shape.
+Among the more recent phenomena are studies of entire collections and larger corpuses of related works (see examples of this in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/)) as well as research focused on the work of a particular artist, in which technical findings are woven into the art historical narrative.[^29] Conservation projects also continue to provide unique opportunities for close investigation. Reconstruction, replication, and reenactment of historical processes and objects are gaining traction as methods of research and pedagogy.[^30] Newer technical means of analysis, including 3D scanning, are being called upon to help address the complex and challenging questions around originality and authenticity (for instance with regard to the posthumous production of {% def "editions" %} of certain nineteenth- and early twentieth-century European sculptures).[^31] And other digital tools, from imaging to databases, are instrumental in the sharing and interpretation of large bodies of data and communication across international teams.[^32] It is within, and from, this broader context that the CAST:ING project took shape.
 
 {% figuregroup "3", "fig-002" %}
 
@@ -222,7 +224,7 @@ Casting a bronze consists of creating a negative impression of a desired form in
 
 #### 2.1.1 The refractory mold and core material
 
-The refractory mold is the temporary, fire-resistant mass that holds the impression of the model to be reproduced. In {% def "lost-wax casting" %} it is often referred to as the {% def "investment" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "as-cast surface" %} of the metal (compare {% ref 'fig-004' and 'fig-005' %}).
+The refractory mold is the temporary, fire-resistant mass that holds the impression of the model to be reproduced. In {% def "lost-wax casting" %} it is often referred to as the {% def "investment" %}. Mastery of the refractory mold is essential for the successful outcome of a cast, including the quality of the {% def "as-cast surface" %} of the metal (compare {% ref 'fig-004, fig-005' %}).
 
 In designing it (see also {% ref 'vid-01, vid-02' %}), it is important to ensure that it:
 
@@ -246,9 +248,9 @@ The refractory materials used for the casting of most bronze sculptures can be c
 
 -   plaster-based slurries made of gypsum with added sand and crushed ceramic powder or “grog”;
 
--   colloidal silica slurry layered with larger refractory particles that form a “ceramic shell” through sintering of the colloidal particles ({% ref 'fig-007' %}).[^34]
+-   colloidal silica slurry layered with larger refractory particles that form a “ceramic shell” through sintering of the colloidal particles ({% ref 'fig-007' %}).[^33]
 
-Monumental bronzes may be built over cores that have an internal fired-brick structure.[^35] Bricks can also be found in life-size and medium-scale casts ({% ref 'fig-008' %}).[^36] The cores themselves may be hollow. This is the rule in bell casting, and has also been witnessed on bronze statuary, notably on ancient bronzes in the South Arabian peninsula.[^37] See also [Case Study 7](/case-studies/7/).
+Monumental bronzes may be built over cores that have an internal fired-brick structure.[^34] Bricks can also be found in life-size and medium-scale casts ({% ref 'fig-008' %}).[^35] The cores themselves may be hollow. This is the rule in bell casting, and has also been witnessed on bronze statuary, notably on ancient bronzes in the South Arabian peninsula.[^36] See also [Case Study 7](/case-studies/7/).
 
 How the core is held in place in relation to the outer mold in order to ensure the desired gap between them during casting is described in [GI§2.6](/intro/#S2.6) below on armatures and {% def "core supports" %}.
 
@@ -279,7 +281,7 @@ Art historians use the term “direct cast” for a bronze in which the original
 
 #### 2.1.4 Solid and hollow casts
 
-A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "shrinkage" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways. The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast was to be solid or hollow may also depend on a number of nontechnical parameters.[^38]
+A cast may be solid or formed as a metal shell in which the internal hollow shape is defined by an internal heat-resistant mold, referred to as the core ({% ref 'fig-010' %}, {% ref 'vid-04' %}). Casts of a certain size or volume tend to be created hollow to reduce the amount of metal. This not only saves expensive metal, but also minimizes the risk of {% def "shrinkage" %} and potential cracking, as thicker volumes of metal solidify in less controllable ways. The thicker the metal wall, the larger the difference of temperature between the wall’s middle and surfaces, so as the surface of the wall solidifies, large amounts of metal may still be liquid inside (see [I.3§1.3.1](/vol-1/3/#S1.3.1), [I.3§1.3.2](/vol-1/3/#S1.3.2)). Solid casting is therefore generally (but not always) done with smaller casts or in areas of a cast—such as extremities—where a core would be too fine and therefore too delicate to withstand the violence of the casting process. The decision as to whether a cast was to be solid or hollow may also depend on a number of nontechnical parameters.[^37]
 
 {% figuregroup "3", "fig-010, vid-04, fig-008" %}
 
@@ -290,7 +292,7 @@ A cast may be solid or formed as a metal shell in which the internal hollow shap
 
 There are three basic ways to create an impression of the desired shape in the refractory mold. The first consists of encasing a model designed to be burned or melted out in a malleable, heat-resistant mold, as in:
 
--   lost-wax casting, which encompasses other organic modeling agents such as latex or carved banana stems;[^39]
+-   lost-wax casting, which encompasses other organic modeling agents such as latex or carved banana stems;[^38]
 
 -   casting directly from life, or {% def "life-casting" %} ({% ref 'fig-011' %});
 
@@ -302,13 +304,13 @@ The second consists of compacting a heat-resistant mold material over a hard, re
 
 -   clay {% def "piece molding" %}.
 
-The third consists of carving the negative form directly into a refractory mold material, as is used in:
+The third consists of carving the negative form directly into a refractory mold material, as is used for:
 
 -   stone mold casts;
 
 -   cuttlefish casts;
 
--   loess piece-mold casts (for example to add certain decorative elements in Chinese bronze vessels);
+-   loess piece mold casts (for example to add certain decorative elements in Chinese bronze vessels);
 
 -   sand casts (also to create the casting channels).
 
@@ -326,7 +328,7 @@ Most of these casting processes are explained in greater detail below. The terms
 
 #### 2.2.1 Direct lost-wax casting
 
-Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^40] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed ({% ref 'table-03' %}).[^41]
+Although it was not a sculpture, the first known direct lost-wax (or indeed any kind of) cast dates from the fifth or fourth millennium BCE ({% ref 'fig-012' %}). The earliest known bronze statuette was also a direct lost-wax cast and dates from the beginning of the third millennium BCE.[^39] The direct technique has been used worldwide throughout history and is still in use today, though some of the materials have changed ({% ref 'table-03' %}).[^40]
 
 The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "sprueing" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% ref 'fig-013' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% ref 'vid-05, vid-06' %}).
 
@@ -341,9 +343,9 @@ The main advantage of the direct process is the creative flexibility it allows t
 
 #### 2.2.2 Indirect lost-wax casting
 
-Indirect lost-wax casting appeared comparatively early in the history of bronze sculpture,[^42] and several variants are still in use today ({% ref 'table-03' %}). In this process, reusable molds are taken from an original sculpture model in order to replicate the desired form in bronze. The original model can therefore be made of any number of materials. Undercuts in the model are dealt with either by using a flexible mold (for instance one made of rubber) or by creating a (rigid) piece mold[^43] designed in small, removable sections to fit around the model like a three-dimensional jigsaw puzzle, and usually held together by an outer “mother mold” ({% ref 'fig-015' %}). These reusable molds enable the maker to create one or more wax replicas or inter-models for use in the casting process (the “casting model” in modern parlance).
+Indirect lost-wax casting appeared comparatively early in the history of bronze sculpture,[^41] and several variants are still in use today ({% ref 'table-03' %}). In this process, reusable molds are taken from an original sculpture model in order to replicate the desired form in bronze. The original model can therefore be made of any number of materials. Undercuts in the model are dealt with either by using a flexible mold (for instance one made of rubber) or by creating a (rigid) piece mold[^42] designed in small, removable sections to fit around the model like a three-dimensional jigsaw puzzle, and usually held together by an outer “mother mold” ({% ref 'fig-015' %}). These reusable molds enable the maker to create one or more wax replicas or inter-models for use in the casting process (the “casting model” in modern parlance).
 
-The main advantages of indirect lost-wax casting include the preservation and potential reuse of the original model, and the ability to cast multiple, more or less identical replicas of the original model. These can, of course, also be manipulated intentionally to create quite distinct works.[^44]
+The main advantages of indirect lost-wax casting include the preservation and potential reuse of the original model, and the ability to cast multiple, more or less identical replicas of the original model. These can, of course, also be manipulated intentionally to create quite distinct works.[^43]
 
 {% figuregroup "3", "fig-015" %}
 
@@ -373,9 +375,9 @@ The main advantages of slush molding are its rapidity and simplicity. Because th
 
 *Indirect wax slab process*
 
-Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017, fig-018' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which the indirect wax slab process may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^45] The process appears to have been widely used during Greek and Roman antiquity,[^46] and probably long after as well.[^47] Some modern-day founders also use one form or another ({% ref 'table-03' %}).
+Another indirect process consists of lining the mold with preformed wax slabs of the desired thickness ({% ref 'fig-017, fig-018' %}). As far the authors know, there is no standardized nomenclature for this latter process. The name we propose, “indirect wax slab process,” refers directly to the slab pottery technique. The earliest examples of bronzes for which the indirect wax slab process may have been used are Egyptian statues dated to the beginning of the first millennium BCE.[^44] The process appears to have been widely used during Greek and Roman antiquity,[^45] and probably long after as well.[^46] Some modern-day founders also use it in one form or another ({% ref 'table-03' %}).
 
-This process might be used with mold sections of larger bronzes. A variant involves building up a wax layer of the desired thickness by pressing small masses of softened wax into the mold ({% ref 'fig-019, fig-050' %}).[^48] Alternatively, molten wax may be painted into the mold first, to ensure good coverage of finer details, and then built up layer by layer in a variety of ways—painted, backed with wax slabs, or reinforced with softened wax or slush molding. For all the aforementioned processes other than slush molding, it is necessary for the mold to be open before the application of wax on the internal surface of each of its sections.
+This process might be used with mold sections of larger bronzes. A variant involves building up a wax layer of the desired thickness by pressing small masses of softened wax into the mold ({% ref 'fig-019, fig-050' %}).[^47] Alternatively, molten wax may be painted into the mold first, to ensure good coverage of finer details, and then built up layer by layer in a variety of ways—painted, backed with wax slabs, or reinforced with softened wax or slush molding. For all the aforementioned processes other than slush molding, it is necessary for the mold to be open before the application of wax on the internal surface of each of its sections.
 
 The main advantage of the slab process is the ability to precisely control the thickness and evenness of the sculpture's metal walls ({% ref 'fig-020' %}).
 
@@ -390,9 +392,9 @@ The process entails painting liquefied wax into one or more sections of an open 
 
 #### 2.3.2 First core, then wax
 
-The so-called lasagna process ({% ref 'fig-023' %}) was first described by sculptor, goldsmith, and writer Benvenuto Cellini (Italian, 1500–1571),[^49] whose use of the term “lasagna” has been generally adopted. Its likely use has been identified on sixteenth-century Italian and French bronzes,[^50] and seems to draw from the practices of cannon casting (see [GI§2.4.2](/intro/#S2.4.2) below). It is still employed in some modern foundries ({% ref 'table-03' %}). Instead of wax slabs (see previous section), slabs of clay or another dough-like substance of even thickness—the so-called lasagna, which Cellini describes as being the width of a knife blade—are laid into the inner surface of a piece mold of a larger sculpture ({% ref 'fig-024' %}). The core is built up to fit the hollow space in the lasagna-lined mold using material that is either clay-based or in the form of a plaster-grog slurry. Thereafter, the lasagna is removed from the mold. The piece mold is reassembled around the core, and wax is poured into the space previously defined by the lasagna layer. As with the other processes, a fine layer of wax may be painted into the mold first. See [GI§2.4.2](/intro/#S2.4.2) below for a variant of the lasagna process without using wax. The lasagna can be applied to the piece mold much more rapidly than wax slabs (whereas wax slabs are usually applied cautiously onto the model surface to capture all the details, the lasagna clay slabs are applied more “approximately,” at least in modern foundries).[^51] This allows for more control over the condition and surface of the core, and thus also over the outcome of the cast.
+The so-called lasagna process ({% ref 'fig-023' %}) was first described by sculptor, goldsmith, and writer Benvenuto Cellini (Italian, 1500–1571),[^48] whose use of the term “lasagna” has been generally adopted. Its likely use has been identified on sixteenth-century Italian and French bronzes,[^49] and seems to draw from the practices of cannon casting (see [GI§2.4.2](/intro/#S2.4.2) below). It is still employed in some modern foundries ({% ref 'table-03' %}). Instead of wax slabs (see previous section), slabs of clay or another dough-like substance of even thickness—the so-called lasagna, which Cellini describes as being the width of a knife blade—are laid into the inner surface of a piece mold of a larger sculpture ({% ref 'fig-024' %}). The core is built up to fit the hollow space in the lasagna-lined mold using material that is either clay-based or in the form of a plaster-grog slurry. Thereafter, the lasagna is removed from the mold. The piece mold is reassembled around the core, and wax is poured into the space previously defined by the lasagna layer. As with the other processes, a fine layer of wax may be painted into the mold first. See [GI§2.4.2](/intro/#S2.4.2) below for a variant of the lasagna process without using wax. The lasagna can be applied to the piece mold much more rapidly than wax slabs (whereas wax slabs are usually applied cautiously onto the model surface to capture all the details, the lasagna clay slabs are applied more “approximately,” at least in modern foundries).[^50] This allows for more control over the condition and surface of the core, and thus also over the outcome of the cast.
 
-The cut-back core process ({% ref 'fig-025' %}) has been identified on eighteenth-century French bronzes, but might have been used elsewhere and earlier.[^52] It is still in use today ({% ref 'table-03' %}). Here the core is produced by using the piece mold to cast a replica of the model in refractory material. This is then pared down to the desired thickness, secured back into the piece mold, and liquefied wax is filled into the space between the core and the mold. As with the lasagna method, this process allows control of the core, limiting shrinkage of the wax and thus affording a more predictable and even metal thickness. This is a highly skilled operation.
+The cut-back core process ({% ref 'fig-025' %}) has been identified on eighteenth-century French bronzes, but might have been used elsewhere and earlier.[^51] It is still in use today ({% ref 'table-03' %}). Here the core is produced by using the piece mold to cast a replica of the model in refractory material. This is then pared down to the desired thickness, secured back into the piece mold, and liquefied wax is filled into the space between the core and the mold. As with the lasagna method, this process allows control of the core, limiting shrinkage of the wax and thus affording a more predictable and even metal thickness. This is a highly skilled operation.
 
 {% figuregroup "3", "fig-023, fig-024, fig-025" %}
 
@@ -400,7 +402,7 @@ The cut-back core process ({% ref 'fig-025' %}) has been identified on eighteent
 </section>
 <section id="S2.4">
 
-### 2.4 Refractory piece-molding processes
+### 2.4 Refractory piece molding processes
 
 This consists of packing a refractory material (sand and clay) over a hard, reusable model in order to form the desired matrix of rigid pieces, like a three-dimensional jigsaw puzzle designed to circumvent undercuts. Several processes of this kind have been used for sculptural casting. The one most familiar today is sand casting. Piece-mold casting, such as that used to make ancient Chinese vessels, is a much older form.
 
@@ -408,26 +410,26 @@ This consists of packing a refractory material (sand and clay) over a hard, reus
 
 #### 2.4.1 Sand casting
 
-Various forms of sand casting have been used to create a wide range of items since the beginnings of metallurgy.[^53] From the Renaissance period until the nineteenth century, the process involved a range of materials and binders not strictly classified as “sand” and was limited to small-scale sculptural works.[^54] Sand casting as we now know it was first used for bronze sculpture in Europe at the end of the eighteenth or the beginning of the nineteenth century,[^55] and is still in use today for this purpose, and prolifically for industrial casting, especially of iron.
+Various forms of sand casting have been used to create a wide range of items since the beginnings of metallurgy.[^52] From the Renaissance period until the nineteenth century, the process involved a range of materials and binders not strictly classified as “sand” and was limited to small-scale sculptural works.[^53] Sand casting as we now know it was first used for bronze sculpture in Europe at the end of the eighteenth or the beginning of the nineteenth century,[^54] and is still in use today for this purpose, and prolifically for industrial casting, especially of iron.
 
-In this process, special casting sand that is naturally bound with clay (or synthetically bonded materials such as resin)[^56] is rammed around a chef-modèle positioned in stacked metal frames (or flasks) called the cope (top) and the drag (bottom) ({% ref 'fig-009' %}). Smaller piece-mold segments are often fashioned within these larger sections and designed for ease of construction and disassembly, as it will be necessary to remove the pattern and reassemble the mold precisely for casting. Should a core be needed, it is formed using a sand version of the cut-back core process (see [GI§2.3.2](/intro/#S2.3.2) above and [Case Study 6](/case-studies/6/)).[^57]
+In this process, special casting sand that is naturally bound with clay (or synthetically bonded materials such as resin)[^55] is rammed around a chef-modèle positioned in stacked metal frames (or flasks) called the cope (top) and the drag (bottom) ({% ref 'fig-009' %}). Smaller piece-mold segments are often fashioned within these larger sections and designed for ease of construction and disassembly, as it will be necessary to remove the pattern and reassemble the mold precisely for casting. Should a core be needed, it is formed using a sand version of the cut-back core process (see [GI§2.3.2](/intro/#S2.3.2) above and [Case Study 6](/case-studies/6/)).[^56]
 
-The predominantly sandy composition of the mold minimizes shrinkage of both mold and core, which assures greater control of the thickness of the cast. Access to the inner surface of the mold before casting also allows for greater quality control and last-minute alterations or repairs.[^58] Furthermore, that surface is often coated with a layer of soot or graphite, which helps produce a reducing environment at the point of contact with the hot metal. The lower cost of sand relative to wax is also seen as an advantage,[^59] and natural sands (meaning, those that contain a natural clay binder) are reusable. Piece molding requires great skill, especially when working with models with complex textures and undercuts (see for instance [Case Study 6](/case-studies/6/)). It should be noted that high-quality sand casts such as those made in France in the nineteenth century can be essentially {% def "seam" %}-free. This is accomplished through precise ramming of the sand—not too loose, not too dense—so that the sand swells just slightly upon baking to seal the gap.[^60]
+The predominantly sandy composition of the mold minimizes shrinkage of both mold and core, which assures greater control of the thickness of the cast. Access to the inner surface of the mold before casting also allows for greater quality control and last-minute alterations or repairs.[^57] Furthermore, that surface is often coated with a layer of soot or graphite, which helps produce a reducing environment at the point of contact with the hot metal. The lower cost of sand relative to wax is also seen as an advantage,[^58] and natural sands (meaning, those that contain a natural clay binder) are reusable. Piece molding requires great skill, especially when working with models with complex textures and undercuts (see for instance [Case Study 6](/case-studies/6/)). It should be noted that high-quality sand casts such as those made in France in the nineteenth century can be essentially {% def "seam" %}-free. This is accomplished through precise ramming of the sand—not too loose, not too dense—so that the sand swells just slightly upon baking to seal the gap.[^59]
 
 {% figuregroup "3", "fig-009" %}
 
 </section>
 <section id="S2.4.2">
 
-#### 2.4.2 Piece-mold casting
+#### 2.4.2 Piece mold casting
 
-Piece-mold casting is mainly associated with early Chinese vessels, including some with very figurative forms (see [Case Study 3](/case-studies/3/)),[^61] and with bells and artillery in early modern Europe.[^62] Known examples of bronze sculpture made by this method are rare.[^63]
+Piece mold casting is mainly associated with early Chinese vessels, including some with very figurative forms (see [Case Study 3](/case-studies/3/)),[^60] and with bells and artillery in early modern Europe.[^61] Known examples of bronze sculpture made by this method are rare.[^62]
 
 This process, which is also known as section-mold casting (but recall, as noted above, that a number of other processes use piece, or section, molds), consists of creating a clay-based, refractory piece mold around a model that has also been fashioned in refractory clay. The rigid mold must, as with other piece molds, be designed to circumvent undercuts. Once the mold has been made, the model is pared down to form the core ({% ref 'fig-026' %}).
 
-Some literature points to the use in nineteenth-century Germany of a version of piece-mold casting combined with the lasagna process that omits the wax.[^64]
+Some literature points to the use in nineteenth-century Germany of a version of piece mold casting combined with the lasagna process that omits the wax.[^63]
 
-The piece-mold process allows for a very even thickness and a good dimensional stability of the resulting cast. Shrinkage is very limited (see [II.4§1.1](/vol-2/4/#S1.1)). Details can be both molded and modeled/carved. As with sand casting, the design and production of the complex piece mold required for intricate forms requires great skill.
+The piece mold process allows for a very even thickness and a good dimensional stability of the resulting cast. Shrinkage is very limited (see [II.4§1.1](/vol-2/4/#S1.1)). Details can be both molded and modeled/carved. As with sand casting, the design and production of the complex piece mold required for intricate forms requires great skill.
 
 {% figuregroup "3", "fig-026" %}
 
@@ -441,9 +443,9 @@ The piece-mold process allows for a very even thickness and a good dimensional s
 
 #### 2.5.1 Direct life-casting
 
-Casts from life are found in Roman antiquity and were also widespread during the Renaissance and the nineteenth century.[^65] Modern artists are still using the technique. Casting “from life” refers to the use of natural forms (flora and fauna, {% ref 'fig-027' %}), but also human-made materials (for instance textiles), as models. These are embedded in a refractory mold and burned out to create a void that reproduces the model in fine detail ({% ref 'fig-011' %}). Such a process eliminates the need to model the object afresh, and allows for the reproduction of fine details present in the original. As with all direct processes, the original model in this case is destroyed in the process.
+Casts from life are found in Roman antiquity and were also widespread during the Renaissance and the nineteenth century.[^64] Modern artists are still using the technique. Casting “from life” refers to the use of natural forms (flora and fauna, {% ref 'fig-027' %}), but also human-made materials (for instance textiles), as models. These are embedded in a refractory mold and burned out to create a void that reproduces the model in fine detail ({% ref 'fig-011' %}). Such a process eliminates the need to model the object afresh, and allows for the reproduction of fine details present in the original. As with all direct processes, the original model in this case is destroyed in the process.
 
-Note: It may be difficult to distinguish a direct life-cast from an indirect cast from life, in which a reusable mold is taken from a found object or creature. Life and death masks, for instance, are indirect life-casts. Also, contrary to belief, a direct cast from life can be hollow.[^66]
+Note: It may be difficult to distinguish a direct life-cast from an indirect cast from life, in which a reusable mold is taken from a found object or creature. Life and death masks, for instance, are indirect life-casts. Also, contrary to belief, a direct cast from life can be hollow.[^65]
 
 {% figuregroup "3", "fig-027, fig-011" %}
 
@@ -452,9 +454,9 @@ Note: It may be difficult to distinguish a direct life-cast from an indirect cas
 
 #### 2.5.2 Direct wax-slab process
 
-The ancient Greeks are known to have used the direct wax slab process to create bronze multiples, such as the Griffin Protomes.[^67] Theophilus, the twelfth-century artisan monk and compiler of a technical compendium on diverse arts, describes a similar process used in his time for making incense burners in Germany.[^68] See [Case Study 2](/case-studies/2/). It is also used in modern-day Nepal and Thailand for sculptural work ({% ref 'table-03' %}).[^69]
+The ancient Greeks are known to have used the direct wax slab process to create bronze multiples, such as the Griffin Protomes.[^66] Theophilus, the twelfth-century artisan monk and compiler of a technical compendium on diverse arts, describes a similar process used in his time for making incense burners in Germany.[^67] See [Case Study 2](/case-studies/2/). It is also used in modern-day Nepal and Thailand for sculptural work ({% ref 'table-03' %}).[^68]
 
-The process involves bending wax slabs freehand in order to shape the model, with the core inserted later ({% ref 'fig-028, fig-029' %}). This is not to be confused with the direct lost-wax process described above in [GI§2.2.1](/intro/#S2.2.1), where for hollow casts the wax is built over the core.[^70] It allows for quick modeling with a very good control of thickness. Its main drawback is the loss of the original model.
+The process involves bending wax slabs freehand in order to shape the model, with the core inserted later ({% ref 'fig-028, fig-029' %}). This is not to be confused with the direct lost-wax process described above in [GI§2.2.1](/intro/#S2.2.1), where for hollow casts the wax is built over the core.[^69] It allows for quick modeling with a very good control of thickness. Its main drawback is the loss of the original model.
 
 {% figuregroup "3", "fig-028, fig-029" %}
 
@@ -463,7 +465,7 @@ The process involves bending wax slabs freehand in order to shape the model, wit
 
 #### 2.5.3 Carving into a mold
 
-Another approach that has been used mostly for simpler sculptural forms involves carving a mold directly into a hard, refractory material such as stone, hardened refractory clay, sand, or cuttlebone ({% ref 'fig-030' %}). This is the purest direct process, as the tool marks create the negative space. As a result, the thickness of the cast is likely to be uneven.
+Another approach that has been used mostly for simpler sculptural forms involves carving a mold directly into a hard, refractory material such as stone, hardened refractory clay, casting sand, or cuttlebone ({% ref 'fig-030' %}). This is the purest direct process, as the tool marks create the negative space. As a result, the thickness of the cast is more likely to be uneven.
 
 {% figuregroup "3", "fig-030" %}
 
@@ -473,17 +475,17 @@ Another approach that has been used mostly for simpler sculptural forms involves
 
 ### 2.6 Armatures, core supports, and core vents
 
-Many models used for casting may be built up on an armature for structural support. This can apply not only to models with a refractory core intended for hollow casts, but also to solid ones.[^71] In both lost-wax and sand casting, an armature will further help support the core during the {% def "pour" %}. As the name implies, core supports help to both strengthen and support the core. The inclusion and placement of armatures and other supporting elements (and in some cases, core vents as found in sand casting) are crucial to the success of a hollow cast in particular. Shaped most often out of metal, their remains might be preserved in the cast.
+Many models used for casting may be built up on an armature for structural support. This can apply not only to models with a refractory core intended for hollow casts, but also to solid ones.[^70] In both lost-wax and sand casting, an armature will further help support the core during the {% def "pour" %}. As the name implies, core supports help to both strengthen and support the core. The inclusion and placement of armatures and other supporting elements (and in some cases, core vents as found in sand casting) are crucial to the success of a hollow cast in particular. Shaped most often out of metal, their remains might be preserved in the cast.
 
 <section id="S2.6.1">
 
 #### 2.6.1 Armatures
 
-The model may need structural support to prevent it from drooping, collapsing, or breaking during its making and manipulation, as well as during the pouring of the metal. Such an interconnected structural framework is usually made of ferrous metals (notably iron, and in recent times steel), though parts could be made of other materials such as wood.[^72]
+The model may need structural support to prevent it from drooping, collapsing, or breaking during its making and manipulation, as well as during the pouring of the metal. Such an interconnected structural framework is usually made of ferrous metals (notably iron, and in recent times steel), though parts could be made of other materials such as wood.[^71]
 
 These different elements may (but not always)
 
--   form a complex structure like a skeleton ({% ref 'fig-031, fig-032, fig-033' %}) bound together by various means (for instance {% def "welding" %}, twisting, or entwining with finer wires ({% ref 'fig-034' %});
+-   form a complex structure like a skeleton ({% ref 'fig-031, fig-032, fig-033' %}) bound together by various means (for instance {% def "welding" %}, twisting, or entwining with finer wires, {% ref 'fig-034' %});
 
 -   extend down into the base;
 
@@ -531,13 +533,13 @@ Core vents (also called lanterns, {% ref 'fig-006, fig-043' %}) provide an exhau
 
 ### 2.7 Sprues
 
-A sprue is any channel that feeds metal to the mold, in contrast to a vent, which lets air out. The sprue system is the entire network of channels designed to distribute the metal through the refractory mold efficiently while ensuring that air and vapors can escape so as to avoid casting flaws ({% ref 'fig-021, fig-044, fig-045, fig-046' %}, {% ref 'vid-08' %}). In sand casting these channels are carved into the mold once the impression has been formed in the sand mold parts. In lost-wax casting they are usually formed with wax rods of various sizes, which are affixed strategically to the model by melting the ends onto the surface with a hot knife before the casting model is invested with the outer mold material.[^73]
+A sprue is any channel that feeds metal to the mold, in contrast to a vent, which lets air out. The sprue system is the entire network of channels designed to distribute the metal through the refractory mold efficiently while ensuring that air and vapors can escape so as to avoid casting flaws ({% ref 'fig-021, fig-044, fig-045, fig-046' %}, {% ref 'vid-08' %}). In sand casting these channels are carved into the mold once the impression has been formed in the sand mold parts. In lost-wax casting they are usually formed with wax rods of various sizes, which are affixed strategically to the model by melting the ends onto the surface with a hot knife before the casting model is invested with the outer mold material.[^72]
 
-Sprues (generally referred to as “gates” in sand casting) are usually located on higher points of the cast surface (as opposed to depressions) and, if possible, in areas of less detail (inside, back, edges) to avoid having to re-create complex surfaces of the model after casting. More substantial castings will need a greater number of feeds/gates to allow the alloy to reach all areas of the model at the optimal temperature, minimize turbulence, and reduce risk of shrinkage ({% ref 'vid-09' %}).[^74]
+Sprues (generally referred to as “gates” in sand casting) are usually located on higher points of the cast surface (as opposed to depressions) and, if possible, in areas of less detail (inside, back, edges) to avoid having to re-create complex surfaces of the model after casting. More substantial castings will need a greater number of feeds/gates to allow the alloy to reach all areas of the model at the optimal temperature, minimize turbulence, and reduce risk of shrinkage ({% ref 'vid-09' %}).[^73]
 
-There are two main approaches to feeding the metal into the mold. The cast is described as “bottom fed” when the “feed” directs the metal straight to the bottom of the mold from whence it pushes its way up through the cavities in the mold ({% ref 'fig-013' %}). In foundry terms it might also be considered “indirectly cast” (not to be confused with the indirect casting method described above in [GI§2.2.2](/intro/#S2.2.2)). It is considered “top fed” if the feed is attached directly to the top of the figure and the metal allowed to follow whatever paths it might find down through the mold (Video 4).[^75] The former reduces the chances of erosion of the mold, or “scouring,” which can result from forceful impact of the metal on its fragile inner surface.
+There are two main approaches to feeding the metal into the mold. The cast is described as “bottom fed” when the “feed” directs the metal straight to the bottom of the mold from whence it pushes its way up through the cavities in the mold ({% ref 'fig-013' %}). In foundry terms it might also be considered “indirectly cast” (not to be confused with the indirect casting method described above in [GI§2.2.2](/intro/#S2.2.2)). It is considered “top fed” if the feed is attached directly to the top of the figure and the metal allowed to follow whatever paths it might find down through the mold (video 4).[^74] The former reduces the chances of erosion of the mold, or “scouring,” which can result from forceful impact of the metal on its fragile inner surface.
 
-The orientation of the cast—upright, upside down, horizontal, or at an angle[^76]—can vary depending on the shape and size of the form as well as on cultural context and practice of the founder.[^77]
+The orientation of the cast—upright, upside down, horizontal, or at an angle[^75]—can vary depending on the shape and size of the form as well as on cultural context and practice of the founder.[^76]
 
 {% figuregroup "3", "fig-021, fig-044, fig-045, fig-046, vid-08, vid-09, fig-013, fig-025" %}
 
@@ -546,7 +548,7 @@ The orientation of the cast—upright, upside down, horizontal, or at an angle[^
 
 ### 2.8 Alloys
 
-The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "castability" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.2](/vol-1/2/).
+The preparation of the metal that will be poured into the mold consists of many preliminary steps, including alloying, in order to achieve the desired properties (color, {% def "castability" %}, workability, corrosion resistance). This final mixing of elements, including the use of scrap metal, may happen in advance of a pour, or at the time of casting of a given sculpture. The overview of the range of alloys used in “bronze” sculpture and some of their salient qualities/properties is provided in [I.3](/vol-1/3/).
 
 </section>
 <section id="S2.9">
@@ -557,7 +559,7 @@ While castings can come out of the refractory mold with near-perfect surfaces, m
 
 Most cast bronze sculptures will at the very least need to have their sprues cut off and core pins extracted. Removal of the coarser traces of the casting process falls under the rubric of {% def "fettling" %}, often followed by refining of the metal surface via {% def "chasing" %} (see [I.6§1.2](/vol-1/6/#S1.2)). Surface treatments that do not fall under the rubric of tooling of the cast metal may include various forms of {% def "metal plating" %}, gilding, the application of patina, and/or {% def "inlays" %} and {% def "overlays" %}. And there is a long tradition of combining bronze elements with other materials to create composite objects ({% ref 'fig-047' %}).
 
-Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.5](/vol-1/5/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^78]
+Not all sculptures are cast in one piece, and the rich variety of assembly technologies and related processes are fully described in [I.5](/vol-1/5/). Although not covered in the present *Guidelines*, bases and mounts may represent a highly useful source of information to document fabrication techniques. This is the case with ancient large bronzes—notably where only the bases survive—and also for statuettes and groups from the Renaissance and Baroque periods.[^77]
 
 {% figuregroup "3", "vid-10, vid-11, fig-047" %}
 
@@ -653,150 +655,148 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^4]: {% cite "Rehren 2014" %}.
 
-[^5]: {% cite "Dehejia, Davis, Nākacāmi, and Pechilis 2002", "Gänsicke 2016", "Gänsicke and Sharma 2021" %}.
+[^5]: This very issue of the lack of shared protocols was raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
 
-[^6]: This very issue was a key point raised at a workshop sponsored by the Dutch Organization for Scientific Research (NWO) in collaboration with the Metropolitan Museum of Art, New York, “A New Model for Scientific Research on Cultural Heritage: Joint US-NL Workshop on Integrated Collaborative Research on Technical Art History, Conservation, and Scientific Research,” New York, April 2014. Private communication from Francesca G. Bewer.
+[^6]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission. More recently, {% cite "Avery 2011" %} reconstructed the complex network of Renaissance Venetian founders and their work.
 
-[^7]: For example {% cite "Bresc-Bautier 1989" %} and {% cite "Bresc-Bautier 2003" %} on archival work related to sixteenth-century Parisian founders; {% cite "Somigli 1958" %} on the *Perseus* by Benvenuto Cellini; and {% cite "Baxandall 1965" %} and {% cite "Baxandall 1966" %} for a brilliant reconstruction of the production of the Fugger altarpiece in Augsburg, Germany (1581–84), based on the account book for the commission. More recently, {% cite "Avery 2011" %} reconstructed the complex network of Renaissance Venetian founders and their work.
+[^7]: For example {% cite "Theophilus [ca. 1122] 1979" %}; {% cite "Agricola [1556] 1950" %}; {% cite "Biringuccio [1540] 1990" %}.
 
-[^8]: For example {% cite "Theophilus [ca. 1122] 1979" %}; {% cite "Agricola [1556] 1950" %}; {% cite "Biringuccio [1540] 1990" %}.
+[^8]: {% cite "Beale 1996" %}.
 
-[^9]: {% cite "Beale 1996" %}.
+[^9]: The specialized study of historical metal production from extraction to refinement and trade is more commonly referred to as archaeometallurgy.
 
-[^10]: The specialized study of historical metal production from extraction to refinement and trade is more commonly referred to as archaeometallurgy.
+[^10]: Houma in China’s southwest Shanxi province was first excavated in 1957: Shanxi Provincial Institute of Archaeology 1993; Institute of Archaeology of Shanxi Province 1996. On the Greek site see {% cite "Mattusch 1975" %}.
 
-[^11]: Houma in China’s southwest Shanxi province was first excavated in 1957: Shanxi Provincial Institute of Archaeology 1993; Institute of Archaeology of Shanxi Province 1996. On the Greek site see {% cite "Mattusch 1975" %}.
+[^11]: On the Riace bronzes see {% cite "Formigli 1984" %}. For recent publications of the Riace Bronzes and for new developments in studies of classical bronzes, see {% cite "Daehner and Lapatin 2015" %}. For another opinion on the production of these statues, not widely adopted, see {% cite "Konstam and Hoffmann 2002" %}; {% cite "Konstam and Hoffmann 2004" %}.
 
-[^12]: On the Riace bronzes see {% cite "Formigli 1984" %}. For recent publications of the Riace Bronzes and for new developments in studies of classical bronzes, see {% cite "Daehner and Lapatin 2015" %}. For another opinion on the production of these statues, not widely adopted, see {% cite "Konstam and Hoffmann 2002" %}; {% cite "Konstam and Hoffmann 2004" %}.
+[^12]: For example {% cite "Bearzi 1950" %}; {% cite "Leoni 1979" %}.
 
-[^13]: For example {% cite "Bearzi 1950" %}; {% cite "Leoni 1979" %}.
+[^13]: The 1930 conference “Study of Scientific Methods Applied to the Examination and Conservation of Works of Art,” organized by the International Museums Office, was the first of such conferences. The organization’s journal *Mouseion* was one vehicle of communication for such work. And *Technical Studies in the Field of the Fine Arts*, published by the Fogg Museum (1932–42), was the first international journal to be dedicated to this interdisciplinary area of research. The International Institute for the Conservation of Museum Objects was established in 1950. See {% cite "Bewer 2010" %}.
 
-[^14]: The 1930 conference “Study of Scientific Methods Applied to the Examination and Conservation of Works of Art,” organized by the International Museums Office, was the first of such conferences. The organization’s journal *Mouseion* was one vehicle of communication for such work. And *Technical Studies in the Field of the Fine Arts*, published by the Fogg Museum (1932–42), was the first international journal to be dedicated to this interdisciplinary area of research. The International Institute for the Conservation of Museum Objects was established in 1950. See {% cite "Bewer 2010" %}.
+[^14]: For instance, in the 1960s and 1970s, the Oxford University Research Laboratory for Archaeology and History of Art led in the development of thermoluminescence (TL) dating of archaeological materials. And in the 1970s and 1980s, the Rathgen-Forschungslabor of the State Museums of Berlin and the British Museum’s Department of Scientific Research performed large-scale systematic analyses of alloy composition for works from different cultures and also entire museum collections. X-ray fluorescence (XRF) was applied to (among other things) the study of alloys used in Renaissance medals, and TL dating made a splash almost immediately, with controversy over the dating of medieval statuettes, alerting people to the possible pitfalls of interpreting analytical data in the absence of the full life history of an artwork ({% cite "Glinsman and Hayek 1993" %}; {% cite "Craddock 2009" %}, 143–44).
 
-[^15]: For instance, in the 1960s and 1970s, the Oxford University Research Laboratory for Archaeology and History of Art led in the development of thermoluminescence (TL) dating of archaeological materials. And in the 1970s and 1980s, the Rathgen-Forschungslabor of the State Museums of Berlin and the British Museum’s Department of Scientific Research performed large-scale systematic analyses of alloy composition for works from different cultures and also entire museum collections. X-ray fluorescence (XRF) was applied to (among other things) the study of alloys used in Renaissance medals, and TL dating made a splash almost immediately, with controversy over the dating of medieval statuettes, alerting people to the possible pitfalls of interpreting analytical data in the absence of the full life history of an artwork ({% cite "Glinsman and Hayek 1993" %}; {% cite "Craddock 2009" %}, 143–44).
+[^15]: For example {% cite "Werner 1972" %}; {% cite "Beale 1975" %}; {% cite "Ashley-Smith 1977" %}; {% cite "Larsson 1979" %}; {% cite "Stone 1981" %}; {% cite "von Schroeder 1981" %}; {% cite "Riederer 1982" %}; {% cite "Craddock 1985" %}; {% cite "Craddock and Picton 1986" %}; {% cite "Bagley 1987" %}; {% cite "Reedy and Meyers 1987" %}.
 
-[^16]: For example {% cite "Werner 1972" %}; {% cite "Beale 1975" %}; {% cite "Ashley-Smith 1977" %}; {% cite "Larsson 1979" %}; {% cite "Stone 1981" %}; {% cite "von Schroeder 1981" %}; {% cite "Riederer 1982" %}; {% cite "Craddock 1985" %}; {% cite "Craddock and Picton 1986" %}; {% cite "Bagley 1987" %}; {% cite "Reedy and Meyers 1987" %}.
+[^16]: {% cite "Mitten and Doeringer 1967" %}; {% cite "Wasserman 1969" %}; {% cite "Doeringer, Mitten, and Steinberg 1970" %}; {% cite "Wasserman 1975" %}; {% cite "Born 1985" %}.
 
-[^17]: {% cite "Mitten and Doeringer 1967" %}; {% cite "Wasserman 1969" %}; {% cite "Doeringer, Mitten, and Steinberg 1970" %}; {% cite "Wasserman 1975" %}; {% cite "Born 1985" %}.
+[^17]: {% cite "Gettens 1969" %}; {% cite "Milam, Reedy, and Sussman 1988" %}.
 
-[^18]: {% cite "Gettens 1969" %}; {% cite "Milam, Reedy, and Sussman 1988" %}.
+[^18]: The Application of Science in Examination of Works of Art seminars were held at the Museum of Fine Arts, Boston, in 1958, 1965, and 1970, and the proceedings were published respectively as {% cite "Museum of Fine Arts (Boston) Research Laboratory 1970" %}; {% cite "Museum of Fine Arts (Boston) Research Laboratory 1967" %}; {% cite "Young 1973" %}.
 
-[^19]: The Application of Science in Examination of Works of Art seminars were held at the Museum of Fine Arts, Boston, in 1958, 1965, and 1970, and the proceedings were published respectively as {% cite "Museum of Fine Arts (Boston) Research Laboratory 1970" %}; {% cite "Museum of Fine Arts (Boston) Research Laboratory 1967" %}; {% cite "Young 1973" %}.
+[^19]: The initial meeting of the series took place in Nijmegen, the Netherlands, in 1970, and the most recent (XX International Congress on Ancient Bronzes) took place in Tübingen, Germany, in 2018.
 
-[^20]: The initial meeting of the series took place in Nijmegen, the Netherlands, in 1970, and the most recent (XX International Congress on Ancient Bronzes) took place in Tübingen, Germany, in 2018.
+[^20]: Among these was a series of experimental archaeology workshops on ancient bronzes organized by Edilberto Formigli ({% cite "Formigli 1993" %}; {% cite "Formigli 1999a" %}).
 
-[^21]: Among these was a series of experimental archaeology workshops on ancient bronzes organized by Edilberto Formigli ({% cite "Formigli 1993" %}; {% cite "Formigli 1999a" %}).
+[^21]: Examples include {% cite "Bewer 2001" %}; {% cite "Dillon 2002" %}; {% cite "Bewer, Stone, and Sturman 2007" %}; {% cite "Bassett 2008" %}; {% cite "Stone 2011" %}; {% cite "Van Langh 2012" %}; {% cite "Smith 2013" %}; {% cite "Bourgarit et al. 2014" %}.
 
-[^22]: Examples include {% cite "Bewer 2001" %}; {% cite "Dillon 2002" %}; {% cite "Bewer, Stone, and Sturman 2007" %}; {% cite "Bassett 2008" %}; {% cite "Stone 2011" %}; {% cite "Van Langh 2012" %}; {% cite "Smith 2013" %}; {% cite "Bourgarit et al. 2014" %}.
+[^22]: The 2012 conference in Paris on French bronzes is one example among others ({% cite "Bourgarit et al. 2014" %}).
 
-[^23]: The 2012 conference in Paris on French bronzes is one example among others ({% cite "Bourgarit et al. 2014" %}).
+[^23]: {% cite "Janietz 2000" %}; {% cite "Peltz 2011" %}; {% cite "Zimmer et al. 2011" %}; {% cite "Mattusch 2014" %}; {% cite "Descamps-Lequime and Mille 2017" %}; {% cite "Willer, Schwab, and Mirschenz 2017" %}.
 
-[^24]: {% cite "Janietz 2000" %}; {% cite "Peltz 2011" %}; {% cite "Zimmer et al. 2011" %}; {% cite "Mattusch 2014" %}; {% cite "Descamps-Lequime and Mille 2017" %}; {% cite "Willer, Schwab, and Mirschenz 2017" %}.
+[^24]: See {% cite "Thomas and Dandridge 2018" %} for a recent survey of technological studies on medieval bronzes.
 
-[^25]: See {% cite "Thomas and Dandridge 2018" %} for a recent survey of technological studies on medieval bronzes.
+[^25]: {% cite "Reedy and Meyers 1987" %}.
 
-[^26]: {% cite "Reedy and Meyers 1987" %}.
+[^26]: Technical papers on bronzes were presented at three of the five Forbes Symposia ({% cite "Bourgarit et al. 2003" %}; {% cite "Reedy and Meyers 2007" %}; {% cite "Bewer 2012" %}). See also {% cite "Vincent, Bourgarit, and Jett 2012" %}; {% cite "Mechling et al. 2018" %}; {% cite "Strahan 2019" %}.
 
-[^27]: Technical papers on bronzes were presented at three of the five Forbes Symposia ({% cite "Bourgarit et al. 2003" %}; {% cite "Reedy and Meyers 2007" %}; {% cite "Bewer 2012" %}). See also {% cite "Vincent, Bourgarit, and Jett 2012" %}; {% cite "Mechling et al. 2018" %}; {% cite "Strahan 2019" %}.
+[^27]: For an early technical examination of an African bronze see {% cite "Fagg and Underwood 1949"%}. More recent work includes {% cite "Junge 2007" %}; {% cite "Craddock 2009" %}; {% cite "Pernicka and Berswordt-Wallrabe 2008" %}; {% cite "Peek 2021" %}.
 
-[^28]: For an early technical examination of an African bronze see {% cite "Fagg and Underwood 1949"%}; {% cite "Junge 2007" %}; {% cite "Craddock 2009" %}; {% cite "Pernicka and Berswordt-Wallrabe 2008" %}; {% cite "Peek 2021" %}.
+[^28]: {% cite "Polkinghorne et al. 2014" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}.
 
-[^29]: {% cite "Polkinghorne et al. 2014" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}.
+[^29]: The Metropolitan Museum's catalogue of Italian bronzes ({% cite "Allen et al. 2022" %}) offers an exemplary integration of technical and historical information. For the work on French bronzes see {% cite "Bewer, Bourgarit, and Bassett 2009" %}; {% cite "Bourgarit et al. 2014" %}. The production of specific sculptors is a subject of increasing investigation, and the publications are too many to mention exhaustively here. See for example Adriaen de Vries (Netherlandish, ca. 1556–1626) ({% cite "Bewer 1999" %}; {% cite "Bassett 2008" %}), Edgar Degas (French, 1834–1917) ({% cite "Lindsay, Barbour, and Sturman 2010" %}), Gaston Lachaise (French, 1882–1935) ({% cite "Day et al. 2010" %}), Medardo Rosso (Italian, 1858–1928) ({% cite "Cooper and Hecker 2003" %}; {% cite "Hecker 2020" %}).
 
-[^30]: The Metropolitan Museum's catalogue of Italian bronzes ({% cite "Allen et al. 2022" %}) offers an exemplary integration of technical information. For the work on French bronzes see {% cite "Bewer, Bourgarit, and Bassett 2009" %}; {% cite "Bourgarit et al. 2014" %}. The production of specific sculptors is a subject of increasing investigation, and the publications are too many to mention exhaustively here. See for example Adriaen de Vries (Netherlandish, ca. 1556–1626) ({% cite "Bewer 1999" %}; {% cite "Bassett 2008" %}), Edgar Degas (French, 1834–1917) ({% cite "Lindsay, Barbour, and Sturman 2010" %}), Gaston Lachaise (French, 1882–1935) ({% cite "Day et al. 2010" %}), Medardo Rosso (Italian, 1858–1928) ({% cite "Cooper and Hecker 2003" %}; {% cite "Hecker 2020" %}).
+[^30]: For recent examples of this see {% cite "Smith and Beentjes 2010" %}; {% cite "Bilak et al. 2016" %}; {% cite "Lacey 2018" %}; {% cite "Lacey and Lewis 2020" %}. For a broader discussion of this methodology see {% cite "Dupré et al. 2020" %}.
 
-[^31]: For recent examples of this see {% cite "Smith and Beentjes 2010" %}; {% cite "Bilak et al. 2016" %}; {% cite "Lacey 2018" %}; {% cite "Lacey and Lewis 2020" %}. For a broader discussion of this methodology see {% cite "Dupré et al. 2020" %}.
+[^31]: {% cite "Boulton 2007" %}; {% cite "Boulton 2006" %}; {% cite "Lindsay, Barbour, and Sturman 2010" %}; {% cite "Beentjes 2019" %}; {% cite "Hecker 2020" %}.
 
-[^32]: {% cite "Boulton 2007" %}; {% cite "Boulton 2006" %}; {% cite "Lindsay, Barbour, and Sturman 2010" %}; {% cite "Beentjes 2019" %}; {% cite "Hecker 2020" %}.
+[^32]: For example, the Louvre and C2RMF have collaborated on a technical database on large bronzes from classical antiquity that includes data on over three hundred statues ({% cite "Descamps-Lequime and Mille 2017" %}). See also the aforementioned studies on Southeast Asian bronzes.
 
-[^33]: A technical database on antique large bronzes has been set up recently that gathers more than three hundred statues ({% cite "Descamps-Lequime and Mille 2017" %}). See also the aforementioned studies on Southeast Asian bronzes.
+[^33]: Developed in the 1950s for industry ({% cite "Campbell 2011" %}, 915), ceramic shell has been increasingly applied to fine art casting since the 1970s.
 
-[^34]: Developed in the 1950s for industry ({% cite "Campbell 2011" %}, 915), ceramic shells have been increasingly applied to fine art casting since the 1970s.
+[^34]: See for example the monumental equestrian statues by François Girardon (French, 1628–1715), *Louis XIV on Horseback* (1685–87), cast by Balthasar Keller (Helvetian, 1638–1702) in 1692 in Paris, and Jean-Louis Lemoyne (French, 1665–1755) and Jean-Baptiste II Lemoyne (French, 1704–1778), *Louis XV on Horseback* (1731–35), cast by Pierre Varin (French, active 1736–53) in 1758 in Paris ({% cite "Desmas 2014" %}).
 
-[^35]: See for example the monumental equestrian statues by François Girardon (French, 1628–1715), *Louis XIV on Horseback* (1685–87), cast by Balthasar Keller (Helvetian, 1638–1702) in 1692 in Paris, and Jean-Louis Lemoyne (French, 1665–1755) and Jean-Baptiste II Lemoyne (French, 1704–1778), *Louis XV on Horseback* (1731–35), cast by Pierre Varin (French, active 1736–53) in 1758 in Paris ({% cite "Desmas 2014" %}).
+[^35]: As seen notably in numerous sixteenth- and seventeenth-century life-size French bronzes ({% cite "Castelle 2016" %}) and medium-scale functional bronzes, for instance bases of sculptural Venetian firedogs and andirons (e.g. early seventeenth-century casts). See {% cite "Motture 2003b" %}, 296, no. 4.
 
-[^36]: As seen notably in numerous sixteenth- and seventeenth-century life-size French bronzes ({% cite "Castelle 2016" %}) and medium-scale functional bronzes, for instance bases of sculptural Venetian firedogs and andirons (e.g. early seventeenth-century casts). See {% cite "Motture 2003b" %}, 296, no. 4.
+[^36]: {% cite "Mille 2012" %}.
 
-[^37]: {% cite "Mille 2012" %}.
+[^37]: For instance, in antiquity the production of hollow casts may be related to the quality required by the commission and may therefore be encountered in very small figures (see {% cite "Mille 2019a" %}). Conversely, relatively large statuettes may be cast solid, as seen notably in South India or in Indonesia ({% cite "Mechling et al. 2018" %}).
 
-[^38]: For instance, in antiquity the production of hollow casts may be related to the quality required by the commission and may therefore be encountered in very small figures (see {% cite "Mille 2019a" %}). Conversely, relatively large statuettes may be cast solid, as seen notably in South India or in Indonesia ({% cite "Mechling et al. 2018" %}).
+[^38]: For more on the use of latex (a West African practice) see {% cite "Herbert 1984" %}, 85, and on carved banana stems (specific to the Kingdom of Congo, now Congo Republic) see {% cite "Herbert 1984" %}, 87.
 
-[^39]: For more on the use of latex (a West African practice) see {% cite "Herbert 1984" %}, 85, and on carved banana stems (specific to the Kingdom of Congo, now Congo Republic) see {% cite "Herbert 1984" %}, 87.
+[^39]: The first known metallic sculpture is a bull, found at Nausharo, Pakistan (inv. NS.90.09.00.12) ({% cite "Mille 2017" %}).
 
-[^40]: The first known metallic sculpture is a bull, found at Nausharo, Pakistan (inv. NS.90.09.00.12) ({% cite "Mille 2017" %}).
+[^40]: As with alloys, a variety of wax compositions have been used by founders and sculptors for a variety of reasons (cost, availability, properties, et cetera). See notably {% cite "Lebon 2020" %} and the appendix for French nineteenth-century recipes ({% cite "Rome and Young 2003" %}, 139–40) and [Case Study 7](/case-studies/7/) for examples of current practices.
 
-[^41]: As with alloys, a variety of wax compositions have been used by founders and sculptors for a variety of reasons (cost, availability, properties, et cetera). See notably {% cite "Lebon 2020" %} and the appendix for French nineteenth-century recipes ({% cite "Rome and Young 2003" %}, 139–40) and [Case Study 7](/case-studies/7/) for examples of current practices.
+[^41]: The earliest examples are Egyptian statues dated to the beginning of the first millennium BCE ({% cite "Mille 2017" %}). See also [GI§2.3.1](/intro/#S2.3.1).
 
-[^42]: The earliest examples are Egyptian statues dated to the beginning of the first millennium BCE ({% cite "Mille 2017" %}). See also [GI§2.3.1](/intro/#S2.3.1).
+[^42]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {% cite "Motture 2019" %}, 61, with refs, 242nn119–20).
 
-[^43]: Rigid material may be plaster or clay. Flexible materials such as gelatin and then silicon have been extensively used from the nineteenth century onward, although flexible molds are mentioned in connection with small reliefs in the Italian Renaissance (see {% cite "Motture 2019" %}, 61, with refs, 242nn119–20).
+[^43]: For an example of this see {% cite "Diemer 1996" %}.
 
-[^44]: For an example of this see {% cite "Diemer 1996" %}.
+[^44]: {% cite "Mille 2017" %}. It was not possible to characterize more precisely which process(es) were used (wax slabs or painting).
 
-[^45]: {% cite "Mille 2017" %}. It was not possible to characterize more precisely which process(es) were used (wax slabs or painting).
+[^45]: {% cite "Mille 2017" %}; see also [Case Study 1](/case-studies/1/).
 
-[^46]: {% cite "Mille 2017" %}; see also [Case Study 1](/case-studies/1/).
+[^46]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish based in Florence, 1529–1608, fountain completed in 1565) were made this way ({% cite "Morigi 1990" %}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {% cite "Castelle 2016" %}).
 
-[^47]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish based in Florence, 1529–1608, fountain completed in 1565) were made this way ({% cite "Morigi 1990" %}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {% cite "Castelle 2016" %}).
+[^47]: Verbal communication, Christophe Bery, director, Coubertin Foundry, July 2016.
 
-[^48]: Verbal communication, Christophe Bery, director, Coubertin Foundry, July 2016.
+[^48]: {% cite "Cellini [1568] 1967" %}, 114–26.
 
-[^49]: {% cite "Cellini [1568] 1967" %}, 114–26.
+[^49]: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Castelle, Bourgarit, and Bewer 2018" %}.
 
-[^50]: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Castelle, Bourgarit, and Bewer 2018" %}.
+[^50]: Jean Dubos, former director of Fonderie de Coubertin, personal communication to authors, June 2019.
 
-[^51]: Jean Dubos, former director of Fonderie de Coubertin, personal communication to authors, June 2019.
+[^51]: {% cite "Bassett and Bewer 2014" %}.
 
-[^52]: {% cite "Bassett and Bewer 2014" %}.
+[^52]: Such a process and material have been used to cast copper-based objects since protohistoric times ({% cite "Ottaway and Seibel 1998" %}).
 
-[^53]: Such a process and material have been used to cast copper-based objects since protohistoric times ({% cite "Ottaway and Seibel 1998" %}).
+[^53]: Casting with “green sand” or powders was used to make medals, plaquettes, small lamps, and so on, but these are still often classed and studied as sculpture by Renaissance art historians. See for example {% cite "Motture 2019" %}, 55–57, for various recipes and references.
 
-[^54]: Casting with “green sand” or powders was used to make medals, plaquettes, small lamps, and so on, but these are still often classed and studied as sculpture by Renaissance art historians. See for example ({% cite "Motture 2019" %}, 55–57), for various recipes and references.
+[^54]: {% cite "Lebon 2012" %}.
 
-[^55]: {% cite "Lebon 2012" %}.
+[^55]: In the Indian state of Himachal Pradesh they use molasses ({% cite "Reedy 1987" %}), and one expects other traditional workshops in various geographic regions may add other substances to obtain a better impression of the model.
 
-[^56]: For example, in the Indian state of Himachal Pradesh they use molasses ({% cite "Reedy 1987" %}), and one expects other traditional workshops in various geographic regions may add other substances to obtain a better impression of the model.
+[^56]: This is by far the most common technique. However, in large commercial art foundries that use resin set sand, it is common to use thin foam sheets to form the metal thickness. The foam sheets are placed or stuck on to the internal surface of the sand mold and back filled with more sand to form the core. Once set with gas, the foam sheets are removed and the mold reassembled as per normal. If the mold is complicated, the foam is burned out as the bronze is poured in.
 
-[^57]: This is by far the most common technique. However, in large commercial art foundries that use resin set sand, it is common to use thin foam sheets to form the metal thickness. The foam sheets are placed or stuck on to the internal surface of the sand mold and back filled with more sand to form the core. Once set with gas, the foam sheets are removed and the mold reassembled as per normal. If the mold is complicated, the foam is burned out as the bronze is poured in.
+[^57]: “It occurred to Mr. Eugene Aucaigne to ask the sculptor to make his last touches in the sand mold instead of on the model, in other words to finish with intaglio carving rather than by going over the round, and the result justified his reasoning completely.” *New York Times*, March 25, 1904, cited in {% cite "Boulton 2018" %}.
 
-[^58]: “It occurred to Mr. Eugene Aucaigne to ask the sculptor to make his last touches in the sand mold instead of on the model, in other words to finish with intaglio carving rather than by going over the round, and the result justified his reasoning completely.” *New York Times*, March 25, 1904, cited in {% cite "Boulton 2018" %}.
+[^58]: {% cite "Lebon 2012" %}.
 
-[^59]: {% cite "Lebon 2012" %}.
+[^59]: {% cite "Suverkrop 1912" %}.
 
-[^60]: {% cite "Suverkrop 1912" %}.
+[^60]: {% cite "Chase 1991" %}; Strahan 2010.
 
-[^61]: {% cite "Chase 1991" %}; Strahan 2010.
+[^61]: For bells see {% cite "Neri and Giannichedda 2018" %} and {% cite "Thomas and Bourgarit 2014" %}, 56. For cannons see {% cite "Biringuccio [1540] 1990" %}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({% cite "Bernardoni 2009" %}). For connections between cannon casting and sculpture see {% cite "Day and Allen 2014" %}; {% cite "Castelle, Bourgarit, and Bewer 2018" %}.
 
-[^62]: For bells see {% cite "Neri and Giannichedda 2018" %} and {% cite "Thomas and Bourgarit 2014" %}, 56. For cannons see {% cite "Biringuccio [1540] 1990" %}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({% cite "Bernardoni 2009" %}). For connections between cannon casting and sculpture see {% cite "Day and Allen 2014" %}; {% cite "Castelle, Bourgarit, and Bewer 2018" %}.
+[^62]: It has been speculated that this technique was used for the fabrication of at least several of the bronze statues of the tomb of Maximilian I, Holy Roman Emperor, in Innsbruck, which started in the early sixteenth century ({% cite "Knitel 1987" %}).
 
-[^63]: It has been speculated that this technique was used for the fabrication of at least several of the bronze statues of the tomb of Maximilian I, Holy Roman Emperor, in Innsbruck, which started in the early sixteenth century ({% cite "Knitel 1987" %}).
+[^63]: {% cite "Wallack 1840" %}, cited by {% cite "Lebon 2012" %}. In the 1950s, the Gorham foundry, headquartered in Providence, Rhode Island, set up a variant of piece mold casting to produce bronze statuettes in series using what they advertised as “plaster molding.” Here, rather than filling the void left by the lasagna, it is filled directly with the molten metal, much like the process used for casting cannons in the Renaissance.
 
-[^64]: {% cite "Wallack 1840" %}, cited by {% cite "Lebon 2012" %}. In the 1950s, the Gorham foundry, headquartered in Providence, Rhode Island, set up a variant of piece-mold casting to produce bronze statuettes in series using what they advertised as “plaster molding.” Here, rather than filling the void left by the lasagna, it is filled directly with the molten metal, much like the process used for casting cannons in the Renaissance.
+[^64]: {% cite "Papet 2001" %}; {% cite "Smith and Beentjes 2010" %}.
 
-[^65]: {% cite "Papet 2001" %}; {% cite "Smith and Beentjes 2010" %}.
+[^65]: See for example the molding of a turtle in {% cite "Making and Knowing Project et al. 2020" %}, folio 148v.
 
-[^66]: See for example the molding of a turtle in {% cite "Making and Knowing Project et al. 2020" %}, folio 148v.
+[^66]: {% cite "Mattusch 1990" %}; {% cite "Mattusch 2014" %}.
 
-[^67]: {% cite "Mattusch 1990" %}; {% cite "Mattusch 2014" %}.
+[^67]: {% cite "Theophilus [ca. 1122] 1979" %}, 132–38.
 
-[^68]: {% cite "Theophilus [ca. 1122] 1979" %}, 132–38.
+[^68]: {% cite "Craddock 2015" %}; {% cite "Craddock 2017" %}.
 
-[^69]: {% cite "Craddock 2015" %}; {% cite "Craddock 2017" %}.
+[^69]: It is used for production of series of statuettes in contemporary Nepal ({% cite "Craddock 2015" %}).
 
-[^70]: It is used for production of series of statuettes in contemporary Nepal ({% cite "Craddock 2015" %}).
+[^70]: {% cite "Jett 2010" %}.
 
-[^71]: {% cite "Jett 2010" %}.
+[^71]: See for example {% cite "Washizuka, Tomii, and Friello 1997" %}, 60; {% cite "Strahan 1997" %}, 28, fig. 10.
 
-[^72]: See for example {% cite "Washizuka, Tomii, and Friello 1997" %}, 60; {% cite "Strahan 1997" %}, 28, fig. 10.
+[^72]: Other materials, such as reeds dipped in wax, have also been used. Benvenuto Cellini described how he adapted clay water piping to use as sprues, of which traces remain on the bust of Bindo Altoviti (1549; Isabella Stewart Gardner Museum, Boston, inv. S26e21)—an astute idea, as it would prevent “scouring,” or erosion, of mold along the channels during the pour. {% cite "Cellini 1956" %}, 344; {% cite "Bewer and MacNamara 2012" %}, 73.
 
-[^73]: Other materials, such as reeds dipped in wax, have also been used. Benvenuto Cellini described how he adapted clay water piping to use as sprues, of which traces remain on the bust of Bindo Altoviti (1549; Isabella Stewart Gardner Museum, Boston, inv. S26e21)—an astute idea, as it would prevent “scouring,” or erosion, of mold along the channels during the pour. {% cite "Cellini 1956" %}, 344; {% cite "Bewer and MacNamara 2012" %}, 73.
+[^73]: For more on sprueing systems see {% cite "Rama 1988" %}; {% cite "Rome and Young 2003" %}.
 
-[^74]: For more on sprueing systems see {% cite "Rama 1988" %}; {% cite "Rome and Young 2003" %}.
+[^74]: See for example how Pierre-Jean Mariette (1694–1774) criticized Germain Boffrand’s (1667–1754) choice for the casting of a monumental equestrian statue of Louis XIV by not having used a bottom-to-top gate system ({% cite "Desmas 2014" %}, note 39).
 
-[^75]: See for example how Pierre-Jean Mariette (1694–1774) criticized Germain Boffrand’s (1667–1754) choice for the casting of a monumental equestrian statue of Louis XIV by not having used a bottom-to-top gate system ({% cite "Desmas 2014" %}, note 39).
+[^75]: For a brief synthesis on this see {% cite "Mechling et al. 2018" %}.
 
-[^76]: For a brief synthesis on this see {% cite "Mechling et al. 2018" %}.
+[^76]: This is one main area of research in modern industry ({% cite "Campbell 2011" %}, 939).
 
-[^77]: This is one main area of research in modern industry ({% cite "Campbell 2011" %}, 939).
-
-[^78]: Based on traces of attachments and inscriptions on 387 bases of Greek statues from the end of the seventh century to the first century BCE (in Delphi, Delos, Athens), Rachel Nouet ({% cite "Nouet forthcoming" %}) was able to infer not only attachment techniques, but also materials (bronze versus marble), sizes, and artisans. Warm thanks to the author for sharing this information. For Renaissance bases and socles see for example {% cite "Bewer 1995" %}, 704; {% cite "Bewer 1996b" %}, 86–88; and for further references see {% cite "Motture 2019" %}, 250n168.
+[^77]: Based on traces of attachments and inscriptions on 387 bases of Greek statues from the end of the seventh century to the first century BCE (in Delphi, Delos, Athens), Rachel Nouet ({% cite "Nouet forthcoming" %}) was able to infer not only attachment techniques, but also materials (bronze versus marble), sizes, and artisans. Warm thanks to the author for sharing this information. For Renaissance bases and socles see for example {% cite "Bewer 1995" %}, 704; {% cite "Bewer 1996b" %}, 86–88; and for further references see {% cite "Motture 2019" %}, 250n168.
