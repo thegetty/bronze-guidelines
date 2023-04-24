@@ -20,7 +20,7 @@ See figs. 102, 103, 210, 531, 553.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often {% def "cast (v.)" "cast" %} in sections to allow their removal from the sand mold without damaging the {% def "piece-mold" %} sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {% def "after-cast" %}.
+Note: Metal is used rather than plaster because it can better withstand the wear caused by repeated sand molding. To aid in mold making, the chef-modèle is often {% def "cast (v.)" "cast" %} in sections to allow their removal from the sand mold without damaging the {% def "piece mold" %} sections. The edition proofs (*épreuves d’édition*) produced with a chef-modèle are a kind of {% def "after-cast" %}.
 
 {% endbackmatter %}
 

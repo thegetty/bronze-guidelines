@@ -1,12 +1,12 @@
 ---
 title: piece mold
-aliases: [piece-mold, piece molding]
+aliases: [piece mold, piece molding]
 order: 620
 layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of {% def "mold" %} composed of two or more individually formed, interlocking sections designed to circumvent undercuts and/or be disassembled without damage to the {% def "model" %} or to the mold sections. Most often refers to molds made of a rigid material such as plaster. Smaller {% def "piece-mold" %} sections are generally held together by a rigid outer mother mold. Starting in the nineteenth century, flexible piece molds (at first gelatin, later replaced by rubber, alginate, and silicone molds) were used instead of plaster, reducing the overall number of sections required to make a wax {% def "cast (n.)" "cast" %}.'
+definition: 'A type of {% def "mold" %} composed of two or more individually formed, interlocking sections designed to circumvent undercuts and/or be disassembled without damage to the {% def "model" %} or to the mold sections. Most often refers to molds made of a rigid material such as plaster. Smaller {% def "piece mold" %} sections are generally held together by a rigid outer mother mold. Starting in the nineteenth century, flexible piece molds (at first gelatin, later replaced by rubber, alginate, and silicone molds) were used instead of plaster, reducing the overall number of sections required to make a wax {% def "cast (n.)" "cast" %}.'
 lang:
   de: Stückform
   fr: moule à pièces
@@ -20,7 +20,7 @@ See figs. 9, 15, 18, 25, 26, 62, 74, 111, 116, 536, 556.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of {% def "bronze" %} sculpture, the term may denote molds used to cast {% def "inter-models" %} in the indirect lost-wax process. {% def "Sand casting" %} molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece-mold casting process (aka “section-mold process”), baked {% def "refractory mold" %} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](/case-studies/3/)).
+Note: Sometimes very large sculptures—both reliefs and in the round—need to be broken into smaller sections simply to avoid excessive suction or vacuum when removing the mold from the model. In the context of {% def "bronze" %} sculpture, the term may denote molds used to cast {% def "inter-models" %} in the indirect lost-wax process. {% def "Sand casting" %} molds are also piece molds formed by compacting the sand in discrete portions around a rigid pattern. In the piece mold casting process (aka “section-mold process”), baked {% def "refractory mold" %} clay and loess—a fine-grained refractory soil found throughout northern China—are used to make piece molds into which bronze is poured (see [Case Study 3](/case-studies/3/)).
 
 {% endbackmatter %}
 
@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 
 ## Synonym
 
-- *piece-mold* (alternate spelling)
+- *piece mold* (alternate spelling)
 
 ## Translations {.is-screen-only}
 
