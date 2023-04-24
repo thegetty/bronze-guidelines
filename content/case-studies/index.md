@@ -7,7 +7,7 @@ class: section-landing-page
 slug: .
 pdf: false
 epub: false
-contributor_as_it_appears: Edited by Francesca G. Bewer, Pete Dandridge, and Ruven Pilay
+contributor_as_it_appears: Edited by Francesca G. Bewer, Pete Dandridge, and Ruven Pillay
 ---
 
 {{ introductions.case_studies | markdownify }}
