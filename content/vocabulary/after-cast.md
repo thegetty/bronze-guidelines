@@ -14,7 +14,7 @@ lang:
   zh: 翻铸
 ---
 
-Figs. 1, 284.{.pdf-figure-list}
+See figs. 1, 284.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
