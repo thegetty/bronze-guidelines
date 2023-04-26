@@ -56,7 +56,7 @@ Note: Le terme désigne souvent tout objet fabriqué en alliage à base de cuivr
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 300, 643; {% cite "Rolley 1994" %}, 64; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Welter 2008" %}; {% cite "Thomas 2009" %}, 510
 
-Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Comité international du dictionnaire technique de fonderie 1955" %}, 7; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
+Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "CTIF 2022" %}; {% cite "Comité international du dictionnaire technique de fonderie 1955" %}, 7; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
 Historical: {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; {% cite "Launay 1827" %}, 2:251; {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}, 54–55; {% cite "Mariette 1768" %}, 75, 105–6
 
