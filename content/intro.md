@@ -765,7 +765,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^59]: {% cite "Suverkrop 1912" %}.
 
-[^60]: {% cite "Chase 1991" %}; Strahan 2010.
+[^60]: {% cite "Chase 1991" %}; {% cite "Strahan 2010" %}.
 
 [^61]: For bells see {% cite "Neri and Giannichedda 2018" %} and {% cite "Thomas and Bourgarit 2014" %}, 56. For cannons see {% cite "Biringuccio [1540] 1990" %}, 220–21. Loam piece molds such as those used for bells and artillery inspired Leonardo da Vinci’s (Italian, 1452–1519) plans for the *Sforza Horse*, although it was never executed ({% cite "Bernardoni 2009" %}). For connections between cannon casting and sculpture see {% cite "Day and Allen 2014" %}; {% cite "Castelle, Bourgarit, and Bewer 2018" %}.
 
