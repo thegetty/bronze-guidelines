@@ -5,6 +5,8 @@ layout: page
 class: full-width tables-page
 ---
 
+{{ introductions.case_studies | markdownify }}
+
 {% figure "table-01" %}
 
 {% figure "table-02" %}

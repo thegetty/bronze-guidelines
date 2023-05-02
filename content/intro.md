@@ -594,23 +594,23 @@ The *Guidelines* are accessible in a variety of ways.
 </section>
 <section id="S3.4">
 
-### 3.4 Visual Atlas of Features
+### 3.4 Case Studies
 
-{{ introductions.visual_atlas | markdownify }}
+{{ introductions.case_studies | markdownify }}
 
 </section>
 <section id="S3.5">
 
-### 3.5 Videos
+### 3.5 Visual Atlas of Features
 
-{{ introductions.videos | markdownify }}
+{{ introductions.visual_atlas | markdownify }}
 
 </section>
 <section id="S3.6">
 
-### 3.6 Case studies
+### 3.6 Tables
 
-{{ introductions.case_studies | markdownify }}
+{{ introductions.tables | markdownify }}
 
 </section>
 <section id="S3.7">
