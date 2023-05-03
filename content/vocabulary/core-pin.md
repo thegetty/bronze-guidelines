@@ -10,11 +10,11 @@ definition: 'A metal rod, nail, or wire that is embedded in both the {% def "cor
 lang:
   de: Kernstift
   fr: fer à noyau
-  it: chiodo di sostegno
+  it: distanziatore
   zh: 支釘
 ---
 
-See figs. 35, 36, 37, 122, 547.{.pdf-figure-list}
+See figs. 35, 36, 37, 64, 122, 547.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
@@ -24,7 +24,7 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-035, fig-036, fig-037, fig-122, fig-547" %}
+{% figuregroup "3", "fig-035, fig-036, fig-037, fig-64, fig-122, fig-547" %}
 
 ## Sources
 
@@ -42,7 +42,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
 - *spacer*
 
-    Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes [{% cite "Mattusch 1996" %}, 22–24].
+    Note that “spacer” has been used as a synonym for “core pin” in some technical studies in reference to ancient bronzes ({% cite "Mattusch 1996" %}, 22–24).
 
 ## Synonyms
 
@@ -66,7 +66,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *broche*
 
-    Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression [{% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}].
+    Pour certains auteurs de l’industrie, terme spécifique à la coulée sous pression ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}).
 
     Sources: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbook: {% cite "Dubos 2003" %}
 
@@ -100,7 +100,9 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-Same as "{% def "core support" %}"
+#### Source 
+
+{% cite "Bruni 1994" %}, 72
 
 #### Alternate Translations
 
@@ -108,15 +110,17 @@ Same as "{% def "core support" %}"
 
     Sources: {% cite "Giumlia-Mair 1999" %}, 257; {% cite "Pecchioli 1999" %}, 193
 
-- *distanziatore*
+- *chiodo di sostegno*
 
-    Source: {% cite "Bruni 1994" %}, 72
+    Same as "{% def "core support" %}"
+
+    Source: Treccani, under fusion a cera persa [https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29]
 
 ### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translation
 
-- 銷釘
+- 销钉
 
     Sources: {% cite "Ming 2010" %}, 1559; [TNATD](https://terms.naer.edu.tw/detail/625481/?index=3)
 

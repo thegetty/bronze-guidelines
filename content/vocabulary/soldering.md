@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary {% def "cast (n.)" "cast" %}. For the purpose of visual identification or sculpture, while metal can be considered solder (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
+definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts, {% def "inlays" %}, {% def "overlays" %}, or repairs, or for filling {% def "casting defects" %}, by adding a metal with a lower melting temperature than that of the primary {% def "cast (n.)" "cast" %}. For the purpose of visual identification on sculpture, white metal can be considered solder (alloys of silver, tin, lead, etc.), whereas {% def "brazing" %} is yellow (copper alloys). Two types of solder include soft solder (low-melting-temperature alloys such as a combination of lead, tin, and/or bismuth) and hard solder (higher-melting-temperature silver alloys).'
 lang:
   de: Löten
   fr: brasage
@@ -51,7 +51,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 
 ### **French**: *{{ lang.fr }}*
 
-Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
+Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au {% def "soudage" %}.
 
 {% backmatter %}
 
@@ -75,7 +75,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 ### **German**: *{{ lang.de }}*
 
-#### Sources
+#### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 24
 
@@ -91,7 +91,9 @@ A subset of *saldatura*
 
 - *saldatura*
 
-    Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1967" %}, fols. 37v–38
+    A term also used for welding
+
+    Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1983" %}, fols. 37v–38
 
 ### **Chinese**: {{ lang.zh }}
 

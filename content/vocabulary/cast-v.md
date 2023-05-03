@@ -101,7 +101,7 @@ Foundry-specific term that relates to the pouring of metal
 
     Early Italian spelling of *gettare*
 
-    Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
+    Sources: {% cite "Leonardo 1490" %}, fol. 143r; {% cite "Biringuccio [1540] 1977" %}, fols. 89vff
 
 ### **Chinese**: {{ lang.zh }}
 

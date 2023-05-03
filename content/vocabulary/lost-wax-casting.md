@@ -97,7 +97,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 ### **Chinese**: {{ lang.zh }}
 
-#### Sources
+#### Source
 
 [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
 

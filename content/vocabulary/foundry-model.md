@@ -65,7 +65,7 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 ### **German**: *{{ lang.de }}*
 
-#### Sources
+#### Source
 
 {% cite "Maaz 2010" %}, 671
 
@@ -73,7 +73,7 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 #### Source
 
-{% cite "Biringuccio [1540] 1990" %}, fol. 82v
+{% cite "Biringuccio [1540] 1977" %}, fol. 82v
 
 #### Alternate Translation
 
@@ -81,7 +81,7 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 ### **Chinese**: {{ lang.zh }}
 
-Alternate Translation:
+#### Alternate Translation
 
 - 铸模
 

@@ -39,13 +39,13 @@ Statue ou plus généralement objet métallique obtenu par fonderie. Attention �
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
-Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %}, 7:106, entry « fonte »; {% cite "Mariette 1768" %}
+Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %}, 7:106, entry « fonte »; {% cite "Mariette 1768" %}, 105–10.
 
 #### Alternate Translations
 
 - *jet*
 
-    « On dit aussi un beau jet pour dire une figure qui a esté bien jettée »
+    « On dit aussi un beau jet pour dire une figure qui a esté bien jettée »
 
     Source: Historical: {% cite "Félibien 1690" %}, 623
 
@@ -55,7 +55,7 @@ Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %
 
 - *œuvre fondue*
 
-    Le terme est employé dans ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}, 635) mais uniquement en titre de section, dans le sommaire. Le seul terme en relation qui y est défini est « Exemplaire [coulé] », p. 634
+    Le terme est employé dans ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}, 635) mais uniquement en titre de section, dans le sommaire. Le seul terme en relation qui y est défini est « Exemplaire (coulé) », p. 634
     
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
@@ -101,7 +101,7 @@ Foundry-specific term
 
     Early Italian form of *getto* that can refer to the cast object as well as the act of pouring
     
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 81
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 81
 
 ### **Chinese**: {{ lang.zh }}
 

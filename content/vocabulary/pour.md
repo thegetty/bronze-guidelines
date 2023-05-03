@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 ### **French**: *{{ lang.fr }}*
 
-Opération consistant à verser du métal liquide dans un moule réfractaire.
+Opération consistant à verser du métal liquide dans un {% def "moule réfractaire" %}.
 
 {% backmatter %}
 
@@ -82,7 +82,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Early Italian spelling for *getto*; also refers to the cast
 
-    Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
+    Sources: {% cite "Biringuccio [1540] 1977" %}, fols. 108–10
 
 ### **Chinese**: {{ lang.zh }}
 

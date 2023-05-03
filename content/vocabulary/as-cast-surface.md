@@ -67,7 +67,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 #### Sources
 
-{% cite "Maaz 2010" %}, 696; {% cite "Alscher 1987" %}, 555
+{% cite "Alscher 1987" %}, 555; {% cite "Maaz 2010" %}, 696 
 
 #### Alternate Translation
 
@@ -90,11 +90,5 @@ Used as part of expression “superfiecie al grezzo di fusione”
 #### Source
 
 {% cite "Ming 2010" %}, 998
-
-#### Alternate Translation
-
-- 铸态表面
-
-    Source: TNATD
 
 </div>

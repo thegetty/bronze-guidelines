@@ -71,7 +71,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
     In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 90
 
 ### **Chinese**: {{ lang.zh }}
 

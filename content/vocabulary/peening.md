@@ -27,7 +27,7 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 ## Sources
 
-Cultural Heritage: {% cite "Smith 2015" %}
+Cultural Heritage: {% cite "Smith 2015" %}; {% cite "Allen et al. 2022" %}, 254
 
 Historical: {% cite "Bolland 1894" %}, 298
 
@@ -61,7 +61,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 ### **Chinese**: {{ lang.zh }}
 
-#### Sources
+#### Source
 
 [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
 

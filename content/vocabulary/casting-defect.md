@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
+definition: 'An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See I.3.'
 lang:
   de: Gussfehler
   fr: défaut de fonderie
@@ -85,6 +85,18 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
     General term for describing defects
 
     Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+
+- *sbollitura*
+
+    Term for a specific casting defect used for general reference to that defect
+
+    Sources: Treccani, under sbollitura [http://www.treccani.it/vocabolario/sbollitura/]; Battaglia 1961, under sbollitura [http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura]
+
+- *soffiatura* 
+
+    Term for a specific casting defect used for general reference to that defect
+
+    Source: Treccani, under soffiatura, definition 2a [link: http://www.treccani.it/vocabolario/soffiatura]
 
 ### **Chinese**: {{ lang.zh }}
 

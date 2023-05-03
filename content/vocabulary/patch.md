@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 ### **French**: *{{ lang.fr }}*
 
-Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la {% def "brasage" %}, à la {% def "soudage" %} et même à la coulée secondaire sont également possibles.
+Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours au {% def "brasage" %}, au {% def "soudage" %} et même à la coulée secondaire sont également possibles.
 
 {% backmatter %}
 

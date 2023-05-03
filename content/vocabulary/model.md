@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model>
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, réplique, épreuve en cire, etc.).
+Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, {% def "replica" "réplique" %}, épreuve en cire, etc.).
 
 {% backmatter %}
 
@@ -66,7 +66,7 @@ Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23�
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/modello/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {% cite "Cellini [1568] 1967" %}, fol. 46
+[Treccani](http://www.treccani.it/vocabolario/modello/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {% cite "Cellini [1568] 1983" %}, 11, fol. 46
 
 #### Alternate Translations
 

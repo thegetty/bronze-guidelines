@@ -13,7 +13,7 @@ lang:
   zh: 硬焊
 ---
 
-See figs. 188, 206, 229.{.pdf-figure-list}
+See figs. 106, 188, 206, 229.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
@@ -23,15 +23,15 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-188, fig-206, fig-229" %}
+{% figuregroup "3", "fig-106, fig-188, fig-206, fig-229" %}
 
 ## Sources
+
+Cultural Heritage: {% cite "Allen et al. 2022" %}, 39
 
 Historical: {% cite "Buchanan 1903" %}, 23, 60; {% cite "Bolland 1894" %}, 72
 
 Copper Industry: {% cite "Schwartz and Aircraft 1951" %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/brazing>
 
 Other: {% cite "Scott 1991" %}, 138
 
@@ -50,7 +50,7 @@ Other: {% cite "Scott 1991" %}, 138
 
 ### **French**: *{{ lang.fr }}*
 
-Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au soudage.
+Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au {% def "soudage" %}.
 
 {% backmatter %}
 
@@ -98,6 +98,6 @@ A subset of *saldatura*
 
 - 铜焊
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
+    Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
 
 </div>

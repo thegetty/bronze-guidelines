@@ -9,7 +9,7 @@ definition: 'Act of using a chisel and hammer to remove metal. With each strike 
 lang:
   de: meißeln
   fr: travail au ciseau
-  it: scalpellatura
+  it: incisione a bulino
   zh: 凿
 ---
 
@@ -41,7 +41,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
 
 ### **French**: *{{ lang.fr }}*
 
-Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la ciselure. Il n’existe a *priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
+Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la {% def "ciselure" %}. Il n’existe *a priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
 
 #### To Be Distinguished From
 
@@ -56,15 +56,15 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 ### **Italian**: *{{ lang.it }}*
 
-#### Source
+#### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/scalpellatura/)
+Battaglia 1961, under bolino [http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino]; and incisione, definition 9 [https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione]
 
 #### Alternate Translation
 
-- *incisione a bulino*
+- *Scalpello battuto a Martello*
 
-    Source: {% cite "Battaglia 1961" %}
+    Source: {% cite "Formigli 1999d" %}, 148
 
 ### **Chinese**: {{ lang.zh }}
 

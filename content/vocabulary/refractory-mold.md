@@ -10,7 +10,7 @@ definition: 'A temporary, heat-resistant, cohesive, porous mass that captures th
 lang:
   de: Form
   fr: moule réfractaire
-  it: camicia
+  it: forma
   zh: 耐火模具
 ---
 
@@ -43,11 +43,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 ### **French**: *{{ lang.fr }}*
 
-{% def "Moule" %} en matériau réfractaire pour la {% def "coulée" %}.
+Moule en matériau réfractaire pour la {% def "coulée" %}.
 
 {% backmatter %}
 
-Note: Bien que le terme de moule réfractaire soit relativement peu utilisé — « moule » lui étant préféré, il permet d’éviter les confusions avec tous les types de moule susceptibles d’intervenir dans la fabrication d’un bronze (voir terme « moule »). Noter que quand il est présent, le {% def "noyau" %} est considéré comme faisant partie du moule réfractaire. Il peut alors être désigné comme une partie interne du moule, par opposition à la partie externe dite aussi chape.
+Note: Bien que le terme de moule réfractaire soit relativement peu utilisé — « moule » lui étant préféré, il permet d’éviter les confusions avec tous les types de moule susceptibles d’intervenir dans la fabrication d’un bronze (voir terme « {% def "moule" %} »). Noter que quand il est présent, le {% def "noyau" %} est considéré comme faisant partie du moule réfractaire. Il peut alors être désigné comme une partie interne du moule, par opposition à la partie externe dite aussi chape.
 
 {% endbackmatter %}
 
@@ -57,13 +57,15 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translations
 
-- {% def "moule" "*moule*" %} (terme ambigu, à éviter.)
+- {% def "moule" "*moule*" %}
+
+    Terme ambigu, à éviter
 
     Sources: Cultural Heritage Publications: {% cite "Baudry and Bozo 1978" %}, 625; Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1963" %}
 
 - *moule de fonderie*
 
-    Terme utilisé notamment en archéologie.
+    Terme utilisé notamment en archéologie
 
     Source: Cultural Heritage: {% cite "Saussus and Thomas 2019" %}
 
@@ -81,37 +83,37 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 #### Alternate Translation
 
-- *Giessform*
+- *Gießform*
 
     Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-Also refers to the refractory investment material
+Also refers to investment
 
 #### Source
 
-{% cite "Biringuccio [1540] 1990" %}, fol. 95
+{% cite "Morigi 1990" %}, quaderni di restauro, vol. 1–3; {% cite "Biringuccio [1540] 1977" %}, fols. 80v, 82; {% cite "Leonardo 1490" %}, fols. 54v, 142v; {% cite "Brunhuber 1988" %}
 
 #### Alternate Translations
+
+- *camicia*
+
+    Also refers to the refractory investment material
+
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 95
 
 - *cappa*
 
     Also refers to investment
 
-    Source: {% cite "Bruni 1994" %}, 750
+    Source: {% cite "Bruni 1994" %}, 75
 
 - *chappa*
 
-    Refers to outer investment/{% def "refractory mold" %}
+    Refers to outer investment
 
     Source: {% cite "Leonardo 1490" %}, fol. 156v
-
-- *forma*
-
-    Also refers to investment
-
-    Sources: {% cite "Morigi 1990" %}, quaderni di restauro, 1; {% cite "Biringuccio [1540] 1990" %}, fols. 80v, 82; {% cite "Leonardo 1490" %}, fols. 54v, 142v; {% cite "Brunhuber 1988" %}
 
 - *mantello*
 

@@ -38,7 +38,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## Synonyms
 
 - *aftercast*
-
 - *surmoulage*
 
     The French term *surmoulage* is often used in English texts.

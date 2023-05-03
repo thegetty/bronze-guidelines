@@ -61,7 +61,7 @@ Petite plaque métallique disposée sur le {% def "noyau" %} ou sur la paroi int
 
 {% backmatter %}
 
-Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissance pour décrire un élément rencontré dans plusieurs bronzes anciens, le terme « cale à noyau » a été proposé et soumis à l’approbation des membres francophones de CASTING. Certains auteurs ({% cite "Bader and Théret 1961" %}) précisent que « ce sont de petites cales métalliques » pour fonte au sable. D’autres qu’elles servent « à le caler dans sa position » ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Tous donnent la traduction en anglais « chaplet ».
+Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissance pour décrire un élément rencontré dans plusieurs bronzes anciens, le terme « cale à noyau » a été proposé et soumis à l’approbation des membres francophones de CAST:ING. Certains auteurs ({% cite "Bader and Théret 1961" %}) précisent que « ce sont de petites cales métalliques » pour fonte au sable. D’autres qu’elles servent « à le caler dans sa position » ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Tous donnent la traduction en anglais « chaplet ».
 
 {% endbackmatter %}
 

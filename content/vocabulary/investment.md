@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "cast (n.)" "cast bronze" %}.'
+definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "bronze" "cast bronze" %}.'
 lang:
   de: Formmantel
   fr: moule de potée
@@ -63,7 +63,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
 ### **German**: *{{ lang.de }}*
 
-#### Sources
+#### Source
 
 {% cite "Alscher 1987" %}, 554
 
@@ -79,7 +79,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
 #### Sources
 
-{% cite "Morigi 1990" %}, quaderni di restauro, 3; {% cite "Pecchioli 1999" %}, 193; {% cite "Leonardo 1490" %}, fols. 154v, 142v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v–78
+{% cite "Morigi 1990" %}, quaderni di restauro, vols. 1–3; {% cite "Pecchioli 1999" %}, 193; {% cite "Leonardo 1490" %}, fols. 154v, 142v; {% cite "Biringuccio [1540] 1977" %}, fols. 77v–78
 
 #### Alternate Translations
 
@@ -87,7 +87,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Literally “shirt”
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 95
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 95
 
 - *cappa*
 
@@ -115,7 +115,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Refers to the investment material
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fols. 76v, 80v
+    Source: {% cite "Biringuccio [1540] 1977" %}, fols. 76v, 80v
 
 - *tunica*
 

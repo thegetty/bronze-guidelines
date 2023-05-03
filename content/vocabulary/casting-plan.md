@@ -53,8 +53,4 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
 
 ### **Chinese**: {{ lang.zh }}
 
-#### Source
-
-TNATD
-
 </div>

@@ -45,7 +45,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceret
 
 ### **German**: *{{ lang.de }}*
 
-In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
+In German, *Plattierung* (the result) and *Plattieren* (the action) are specific to obtaining the adhesion of a (noble) plate on a (less noble) substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
 
 #### Source
 

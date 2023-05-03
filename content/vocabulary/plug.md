@@ -98,15 +98,11 @@ Used primarily in speech
 
 ### **Italian**: *{{ lang.it }}*
 
-#### Sources
-
-[Treccani](https://www.treccani.it/vocabolario/tappo/)
-
 #### Alternate Translations
 
 - *perno*
 
-    Source: {% cite "Bruni 1994" %}, 124–250
+    Source: {% cite "Bruni 1994" %}, 124–25
 
 - *perno filettato*
 
@@ -122,6 +118,6 @@ Used primarily in speech
 
 - 栓塞
 
-    [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
+    Source: [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
 
 </div>

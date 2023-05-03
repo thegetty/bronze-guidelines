@@ -44,11 +44,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
+Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "model" "modèles" %} voire des {% def "core" "noyaux" %} précédant la sculpture en bronze.
 
 {% backmatter %}
 
-Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %} (« moule de potée »).
+Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %}.
 
 {% endbackmatter %}
 
@@ -92,11 +92,11 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
+    Source: {% cite "Cellini [1568] 1982" %}, 11, fols. 45v–46
 
 - *forma*
 
-    General and also {% def "investment" %} mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General and also {% def "investment" %} mold | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo*
 

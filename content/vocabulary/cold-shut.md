@@ -50,7 +50,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
 
 ### **French**: *{{ lang.fr }}*
 
-{% def "Défaut de fonderie" %} dû à la fusion imparfaite de deux flux de métal liquide qui se rencontrent dans le moule réfractaire, laissant en surface un sillon. On parle de « solution de continuité ».
+{% def "Défaut de fonderie" %} dû à la fusion imparfaite de deux flux de métal liquide qui se rencontrent dans le {% def "moule réfractaire" %}, laissant en surface un sillon. On parle de « solution de continuité ».
 
 #### To Be Distinguished From
 
@@ -70,13 +70,13 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 - *goutte froide*
 
-    Attention, coutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce [{% cite "Baudry and Bozo 1978" %}], 648]).
+    Attention, goutte froide désigne également une particule métallique, généralement oxydée, de même composition que la pièce, incluse en surface de la pièce ({% cite "Baudry and Bozo 1978" %}, 648).
 
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 ### **German**: *{{ lang.de }}*
 
-#### Sources
+#### Source
 
 {% cite "Brunhuber 1986" %}
 

@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#S2.1.1)).'
+definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see GI§2.1.1).'
 lang:
   de: Kern
   fr: noyau
@@ -60,15 +60,15 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 ## Source
 
-{% cite "Brunhuber 1986" %}
+{% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/anima/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {% cite "Giuffredi 2006" %}, 219; {% cite "Biringuccio [1540] 1990" %}, fols. 77–78; {% cite "Bruni 1994" %}, 81–82; {% cite "Brunhuber 1988" %}
+[Treccani](http://www.treccani.it/vocabolario/anima/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {% cite "Giuffredi 2006" %}, 219; {% cite "Biringuccio [1540] 1977" %}, fols. 77–78; {% cite "Bruni 1994" %}, 81–82; {% cite "Brunhuber 1988" %}
 
-#### Alternate Translation
+#### Alternate Translations
 
 - *anima di fusione*
 
@@ -78,13 +78,13 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
     Early Italian term for core that literally translates as “male.”
 
-    Sources: {% cite "Leonardo 1490" %}, fols. 156, 157v; {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 84
+    Sources: {% cite "Leonardo 1490" %}, fols. 156, 157v; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 84
 
 - *nocciolo*
 
     Early Italian term for core that means “nut.”
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 48, 49
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 48, 49
 
 ### **Chinese**: {{ lang.zh }}
 
