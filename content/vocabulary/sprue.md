@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.
+definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.'
 lang:
   de: Gusskanal
   fr: jet de coulée
@@ -42,11 +42,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 
 ### **French**: *{{ lang.fr }}*
 
-Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la {% def "coulée" %}. Désigne, pour les procédés à la cire perdue, les éléments en cire servant cette à fonction.
+Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la {% def "coulée" %}. Désigne, pour les {% def "lost-wax casting" "procédés à la cire perdue" %}, les éléments en cire servant à cette fonction.
 
 {% backmatter %}
 
-Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la coulée, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent une nom spécifique, *évents* ({% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; {% cite "Launay 1827" %}, 2:264; {% cite "Baudry and Bozo 1978" %}, 627; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Rolley 1994" %}, 66; {% cite "Rama 1988" %}, 254, 373; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry and Bozo 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
+Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la {% def "coulée" %}, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent un nom spécifique, évents ({% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Launay 1827" %}, 2:264;{% cite "Gonon 1876" %}, 5;  {% cite "Baudry and Bozo 1978" %}, 627; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Rama 1988" %}, 254, 373; {% cite "Rolley 1994" %}, 66; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry and Bozo 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
 
 {% endbackmatter %}
 
@@ -72,7 +72,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Certains auteurs distinguent les jets des attaques, ces dernières désignant exclusivement les conduits reliant les jets à l’épreuve en cire ({% cite "Rama 1988" %}, 254; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). Il existe tout un répertoire de termes liés : attaques de coulée ({% cite "Cuénin 1997a" %}, 2), système d’attaque ({% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}).
 
-    Sources: Copper Industry: {% cite "Cuénin 1997b" %}, 2; Historical: {% cite "Félibien 1690" %}, 335; {% cite "Gonon 1876" %}, 5; Art and Craft Textbooks: % cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75;{% cite "Rama 1988" %}, 253; {% cite "Lambert 2002" %}, 271
+    Sources: Historical: {% cite "Félibien 1690" %}, 335; Art and Craft Textbooks: {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Gonon 1876" %}, 5; {% cite "Rama 1988" %}, 253; Copper Industry: {% cite "Cuénin 1997b" %}, 2; {% cite "Lambert 2002" %}, 271
 
 - *tranches*
 
@@ -96,7 +96,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 ### **Italian**: *{{ lang.it }}*
 
-Term also found as part of expression *getto di colata*, referring to a gate or sprue that feeds the metal into the mold. The term is also used to describe a cast [act of casting] and {% def "pour" %} [act of pouring, as well as content of the crucible].
+Term also found as part of expression *getto di colata*, referring to a gate or sprue that feeds the metal into the mold. The term is also used to describe a cast (act of casting) and {% def "pour" %} (act of pouring, as well as content of the crucible).
 
 #### Sources
 
@@ -114,7 +114,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to vents; alternative modern term: *sfiato*; another alternative early Italian pronunciation/spelling: *sfiatatoro*
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 48–50
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 48, 50
 
 - *mandata*
 
@@ -136,9 +136,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to gate/runner
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 51v–52
-
-- *canale*
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 51v–52
 
 - *canale di alimentazione*
 
@@ -154,7 +152,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to gate/runner
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 81
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 81
 
 - *esalatorio*
 
@@ -164,21 +162,21 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 - *gitto*
 
-    Refers to a gate [sprue that feeds the metal into the mold]; also used to describe a cast [act of casting] and pour [act of pouring], as well as content of the crucible
+    Refers to a gate (sprue that feeds the metal into the mold); also used to describe a cast (act of casting) and pour (act of pouring), as well as content of the crucible
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fols. 75–78
+    Source: {% cite "Biringuccio [1540] 1977" %}, fols. 75–78, 89, 91
 
 - *sfiatatoio*
 
-    Refers to vent; alternative term modern: *sfiato*; alternative early Italian: *sfiatatoro, isfiattatoio*
+    Refers to vent; alternative modern term: *sfiato*; alternative early Italian: *sfiatatoro
 
-    Sources: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoio); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r
+    Sources: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoio); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81,89-89v
 
 - *spiraculo*
 
     Refers to vent
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 89
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 89
 
 ### **Chinese**: {{ lang.zh }}
 

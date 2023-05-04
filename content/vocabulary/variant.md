@@ -21,9 +21,7 @@ See figs. 1, 76, 544.{.pdf-figure-list}
 
 ## Sources
 
-Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/variant>
+Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% cite "Bassett 2008" %}; {% cite "Allen et al. 2022" %}, 331
 
 ## To Be Distinguished From
 
