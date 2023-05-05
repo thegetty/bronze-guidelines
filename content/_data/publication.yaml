@@ -82,35 +82,35 @@ contributor:
     first_name: Jane
     last_name: Bassett
     bio: |
-      Jane Bassett (Head of Decorative Arts and Sculpture Conservation, J. Paul Getty Museum, Los Angeles) completed her graduate studies in conservation at New York State College at Buffalo. A conservator at the Getty Museum since 1991, she has co-curated many exhibitions focused on sculptural processes, including *La Roldana’s St. Ginés: The Making of a Polychrome Sculpture*; *Bernini and Marble* and *Foundry to Finish* on the direct lost-wax casting process. She authored *The Artist Revealed: Adriaen de Vries, Sculptor in Bronze* (2008) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014).
+      Jane Bassett (Head of Decorative Arts and Sculpture Conservation, J. Paul Getty Museum, Los Angeles) completed her graduate studies in conservation at New York State College at Buffalo. A conservator at the Getty Museum since 1991, she has co-curated many exhibitions focused on sculptural processes, including *La Roldana’s St. Ginés: The Making of a Polychrome Sculpture*, *Bernini and Marble*, and *Foundry to Finish* on the direct lost-wax casting process. She authored *The Artist Revealed: Adriaen de Vries, Sculptor in Bronze* (2008) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014).
 
   - id: fbewer
     type: primary
     first_name: Francesca G.
     last_name: Bewer
     bio: |
-      Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs, Harvard Art Museums, Cambridge, Massachusetts), undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019).
+      Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs and Director, Summer Institute for Technical Studie in Art, Harvard Art Museums, Cambridge, Massachusetts) undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019).
 
   - id: aheginbotham
     type: primary
     first_name: Arlen
     last_name: Heginbotham
     bio: |
-      Arlen Heginbotham (Conservator of Decorative Arts and Sculpture, J. Paul Getty Museum, Los Angeles) received his AB in East Asian studies from Stanford University, his MA in art conservation from Buffalo State College, and his PhD in earth sciences from Vrije Universiteit Amsterdam. His research interests include the use of X-ray fluorescence spectroscopy as a tool for studying copper alloy artifacts, microscopic and chemical wood identification, X-radiographic dendrochronology, and the technical study of Asian export lacquer. He coauthored, with Gillian Wilson, the exhibition catalogue *French Rococo Ébénisterie in the J. Paul Getty Museum* (2021).
+      Arlen Heginbotham (Conservator of Decorative Arts and Sculpture, J. Paul Getty Museum, Los Angeles) received his AB in East Asian studies from Stanford University, his MA in art conservation from Buffalo State College, and his PhD in earth sciences from Vrije Universiteit Amsterdam. His research interests include the use of X-ray fluorescence spectroscopy as a tool for studying copper alloy artifacts, microscopic and chemical wood identification, X-radiographic dendrochronology, and the technical study of Asian export lacquer. He coauthored, with Gillian Wilson, the collection catalogue *French Rococo Ébénisterie in the J. Paul Getty Museum* (2021).
 
   - id: alacey
     type: primary
     first_name: Andrew
     last_name: Lacey
     bio: |
-      Andrew Lacey (Artist, Founder, and Independent Scholar) studied archaeometallurgy at the Institute of Archaeology, University College London (MSc. 1998) focusing on interview techniques for gaining insight into the working practices of London fine art foundries. His work as a contemporary artist is highly experimental; casting all his own work in bronze enables creative interception in all stages of the process, further developing visual and material symbologies that are embodied within the sculpture. His work as an independent scholar is a creative collaboration among conservators, historians, makers, and curators, and explores possibilities of hypothetical facture via processes of experimental reconstruction.
+      Andrew Lacey (Artist, Founder, and Independent Scholar) studied archaeometallurgy at the Institute of Archaeology, University College London (MSc 1998), focusing on interview techniques for gaining insight into the working practices of London fine art foundries. His work as a contemporary artist is highly experimental; casting all his own work in bronze enables creative interception in all stages of the process, further developing visual and material symbologies that are embodied within the sculpture. His work as an independent scholar is a creative collaboration among conservators, historians, makers, and curators, and explores possibilities of hypothetical facture via processes of experimental reconstruction.
 
   - id: pmotture
     type: primary
     first_name: Peta
     last_name: Motture
     bio: |
-      Peta Motture (Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and since 1990 has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019).
+      Peta Motture (formerly Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and retired in 2022. Since 1990 she has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019).
 
   - id: aboulton
     type: secondary
@@ -145,21 +145,21 @@ contributor:
     first_name: Lorenzo
     last_name: Morigi
     bio: |
-      Lorenzo Morigi (Independent Restorer) joined the company owned by his father in 1990, specializing in the restoration of outdoor bronze sculptures and metal objects. He studied chemistry for conservators at ICCROM in Rome. He has been responsible for planning, direct restoration, and technological study of many Italian bronze sculptures from ancient Rome to the modern era, and specializes in the conservation of contemporary sculptures, also with thorough experience in consolidation and restoration of waterlogged wood. He has reproduced medieval bronze doors and sculptures in art foundries. He collaborates with art handling companies in conceiving, designing, and building special art crating with reverse engineering. He works with 3D scanners and digital fabrication systems).
+      Lorenzo Morigi (Independent Restorer) joined the company owned by his father in 1990, specializing in the restoration of outdoor bronze sculptures and metal objects. He studied chemistry for conservators at ICCROM in Rome. He has been responsible for planning, direct restoration, and technological study of many Italian bronze sculptures from ancient Rome to the modern era, and specializes in the conservation of contemporary sculptures, also with thorough experience in consolidation and restoration of waterlogged wood. He has reproduced medieval bronze doors and sculptures in art foundries. He collaborates with art handling companies in conceiving, designing, and building special art crating with reverse engineering. He works with 3D scanners and digital fabrication.
 
   - id: dstrahan
     type: secondary
     first_name: Donna
     last_name: Strahan
     bio: |
-      Donna Strahan (Head of the Department of Conservation and Scientific Research, Freer and Sackler Galleries of Art, Smithsonian Institution, Washington, DC) holds a BA in Chinese language and an MA in conservation of ethnographic and archaeological objects from George Washington University. From 2006 to 2014 she was the conservator of Asian objects at the Metropolitan Museum of Art, New York. Her major interests are the technology and preservation of ancient metals and Asian lacquer. She has lectured and published widely, including *Wisdom Embodied: Chinese Buddhist and Daoist Sculpture in the Metropolitan Museum of Art* coauthored with Denise Patry Leidy (2010).
+      Donna Strahan (Head of the Department of Conservation and Scientific Research, Freer and Sackler Galleries of Art, Smithsonian Institution, Washington, DC) holds a BA in Chinese language and an MA in conservation of ethnographic and archaeological objects from George Washington University. From 2006 to 2014 she was the conservator of Asian objects at the Metropolitan Museum of Art, New York. Her major interests are the technology and preservation of ancient metals and Asian lacquer. She has lectured and published widely, including *Wisdom Embodied: Chinese Buddhist and Daoist Sculpture in the Metropolitan Museum of Art*, coauthored with Denise Patry Leidy (2010).
 
   - id: jmwelter
     type: secondary
     first_name: Jean-Marie
     last_name: Welter
     bio: |
-      Jean-Marie Welter (Independent Scholar, Luxembourg) holds an engineering diploma from Ecole Polytechnique, Paris (1966) and graduated as a Dr. rer. nat. from the Technische Hochschule, Munich (1969). He started his professional career in academia, producing and studying metallic materials. In 1985 he joined the copper industry and became corporate director of research and development of a major European group (KME) fabricating semi-products of copper and copper alloys. In those days he started investigating historical copper artifacts, which he presently continues to do within the context of the history of the copper industry, its products, and their applications.
+      Jean-Marie Welter (Independent Scholar, Luxembourg) held an engineering diploma from École Polytechnique, Paris (1966), and graduated as a Dr. rer. nat. from the Technische Hochschule, Munich (1969). He started his professional career in academia, producing and studying metallic materials. In 1985 he joined the copper industry and became corporate director of research and development of a major European group (KME) fabricating semi-products of copper and copper alloys. At that time, he started investigating historical copper artifacts, which he continued to do within the context of the history of the copper industry, its products, and their applications including exploring its historic use in sculpture until his death in 2022.
 
 # ------------------------------------------------------------------------------
 # Copright & License
