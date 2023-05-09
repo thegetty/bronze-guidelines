@@ -101,7 +101,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 - *scorrevolezza*
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione di oggetti artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

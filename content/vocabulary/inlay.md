@@ -101,7 +101,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
 #### Source
 
-[Treccani](https://www.treccani.it/vocabolario/ricerca/agemina/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*agemina*](https://www.treccani.it/vocabolario/ricerca/agemina/)
 
 #### Alternate Translations
 
@@ -115,7 +115,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
     General term referring to the insertion of different materials on a decorated surface
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/intarsio); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*intarsio*](http://www.treccani.it/vocabolario/intarsio); {% cite "Battaglia 1961" %}, under [*intarsio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
 
 - *lavori di tanccia*
 

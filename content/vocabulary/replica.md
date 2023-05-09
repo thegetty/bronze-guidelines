@@ -30,7 +30,7 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 Cultural Heritage: {% cite "Dillon 2002" %}, 300
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/replica>
+General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [definition 1a]
 
 ## To Be Distinguished From
 
@@ -91,11 +91,13 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 - *replica*
 
-    An Italian word, but more related to later reproductions of an artwork) | Source: [Treccani](https://www.treccani.it/vocabolario/replica/)
+    An Italian word, but more related to later reproductions of an artwork) 
+    
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*replica*](https://www.treccani.it/vocabolario/replica/) [definition 2]
 
 - *riproduzione* (general term)
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/riproduzione); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riproduzione*](http://www.treccani.it/vocabolario/riproduzione) [definition 2]; {% cite "Battaglia 1961" %}, under [*riproduzione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione) [definition 2]
 
 ### **Chinese**: {{ lang.zh }}
 

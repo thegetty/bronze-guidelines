@@ -77,7 +77,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 #### Source
 
-[Treccani](http://www.treccani.it/vocabolario/edizione)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*edizione*](http://www.treccani.it/vocabolario/edizione)
 
 #### Alternate Translations
 
@@ -85,7 +85,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
     In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures.
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*multiplo*](https://www.treccani.it/enciclopedia/multiplo/) [definition 1]
 
 - *serie*
 

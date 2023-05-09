@@ -100,7 +100,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Bruni 1994" %}, 72–73
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Bruni 1994" %}, 72–73
 
 #### Alternate Translations
 
@@ -120,7 +120,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to a sprue that feeds the metal into the mold vs. a vent that helps channel the air out
 
-    Sources: {% cite "Giuffredi 2006" %}, 220; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata)
+    Sources: {% cite "Giuffredi 2006" %}, 220; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata) [definition 8]
 
 - *mozzicone*
 
@@ -170,7 +170,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to vent; alternative modern term: *sfiato*; alternative early Italian: *sfiatatoro
 
-    Sources: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoio); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81,89-89v
+    Sources: {% cite "Battaglia 1961" %}, under [*sfiatatoio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoi) [definition 1]; {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81,89-89v
 
 - *spiraculo*
 

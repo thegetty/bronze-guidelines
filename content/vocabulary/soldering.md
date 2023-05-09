@@ -85,7 +85,7 @@ A subset of *saldatura*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/ricerca/brasatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](https://www.treccani.it/vocabolario/ricerca/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
 #### Alternate Translation
 
@@ -93,7 +93,7 @@ A subset of *saldatura*
 
     A term also used for welding
 
-    Sources: [Treccani](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1983" %}, fols. 37v–38
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1983" %}, fols. 37v–38
 
 ### **Chinese**: {{ lang.zh }}
 

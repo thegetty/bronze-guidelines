@@ -78,7 +78,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Sources
 
-{% cite "Giuffredi 2006" %}, 19–21; [Treccani](http://www.treccani.it/vocabolario/armatura); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura)
+{% cite "Giuffredi 2006" %}, 19–21; {% cite "Treccani n.d." "" "Treccani" %}, under [*armatura*](http://www.treccani.it/vocabolario/armatura) [definition 6]; {% cite "Battaglia 1961" %}, under [*armatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura) [definition 4]
 
 #### Alternate Translations
 

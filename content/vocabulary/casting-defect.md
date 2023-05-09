@@ -72,7 +72,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Sources
 
-{% cite "Pecchioli 1999" %}, 193; [Treccani](http://www.treccani.it/vocabolario/sbollitura/)
+{% cite "Pecchioli 1999" %}, 193; {% cite "Treccani n.d." "" "Treccani" %}, under [*difetto di fusione*](http://www.treccani.it/vocabolario/sbollitura/)
 
 #### Alternate Translations
 
@@ -84,19 +84,19 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     General term for describing defects
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*manchevolezza*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 - *sbollitura*
 
     Term for a specific casting defect used for general reference to that defect
 
-    Sources: Treccani, under sbollitura [http://www.treccani.it/vocabolario/sbollitura/]; Battaglia 1961, under sbollitura [http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura]
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbollitura](http://www.treccani.it/vocabolario/sbollitura/); {% cite "Battaglia 1961" %}, under [*sbollitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura)
 
 - *soffiatura* 
 
     Term for a specific casting defect used for general reference to that defect
 
-    Source: Treccani, under soffiatura, definition 2a [link: http://www.treccani.it/vocabolario/soffiatura]
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](link: http://www.treccani.it/vocabolario/soffiatura0 [definition 2a]
 
 ### **Chinese**: {{ lang.zh }}
 

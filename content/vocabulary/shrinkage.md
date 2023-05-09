@@ -67,7 +67,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %},
 
 #### Source
 
-[Treccani](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*ritiro*](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

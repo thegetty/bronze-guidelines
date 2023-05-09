@@ -93,7 +93,7 @@ Not reserved specifically for metals
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*rifinitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura) [definition 2]; {% cite "Formigli 2010" %}, 17 and 20f
 
 #### Alternate Translations
 
@@ -103,7 +103,7 @@ Not reserved specifically for metals
 
 - *cesellare*
 
-    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+    Source: {% cite "Battaglia 1961" %}, under [*cesellare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
 
 - *ritocco a freddo* (ritocco a freddo di dettagli)
 

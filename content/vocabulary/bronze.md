@@ -36,7 +36,7 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 302
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Campbell 2015" %}, 270; {% cite "Koch and Newell 1963" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/bronze>
+General Dictionary: <https://www.merriam-webster.com/dictionary/bronze> [definitions 1a, 2]
 
 ## Translations {.is-screen-only}
 
@@ -87,7 +87,7 @@ General Dictionary: {% cite "Office québécois de la langue française. n.d." %
 ### **Italian**: *{{ lang.it }}*
 
 #### Sources
-[Treccani](http://www.treccani.it/vocabolario/bronzo/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola); {% cite "Biringuccio [1540] 1990" %}, fols. 80v–81; {% cite "Brunhuber 1988" %}
+{% cite "Treccani n.d." "" "Treccani" %}, under [*bronzo*](http://www.treccani.it/vocabolario/bronzo/); {% cite "Treccani n.d." "" "Treccani" %} under [*bronzi e ottoni* and *bronzi artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*bronzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola) [definition 1]; {% cite "Biringuccio [1540] 1990" %}, fols. 80vff; {% cite "Brunhuber 1988" %}
 
 ### **Chinese**: {{ lang.zh }}
 

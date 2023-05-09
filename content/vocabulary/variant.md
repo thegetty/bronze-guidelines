@@ -60,7 +60,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 549
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/variante1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*variante*](http://www.treccani.it/vocabolario/variante1/); {% cite "Battaglia 1961" %}, under [*variante*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante) [definition 3]
 
 ### **Chinese**: {{ lang.zh }}
 

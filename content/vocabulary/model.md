@@ -32,7 +32,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}
 
 Art and Craft Textbook: {% cite "McCreight 1996" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/model>
+General Dictionary: <https://www.merriam-webster.com/dictionary/model> [definition 1]
 
 ## Translations {.is-screen-only}
 
@@ -66,7 +66,7 @@ Historical: {% cite "Boffrand 1743" %}, 15â€“17; {% cite "Mariette 1768" %}, 23â
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/modello/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello); {% cite "Cellini [1568] 1983" %}, 11, fol. 46
+{% cite "Treccani n.d." "" "Treccani" %}, under [*modello*](http://www.treccani.it/vocabolario/modello/) [definition 3]; {% cite "Battaglia 1961" %}, under [*modello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_653.pdf&parola=modello) [definition 14 and 16]; {% cite "Cellini [1568] 1983" %}, 11, fol. 46
 
 #### Alternate Translations
 

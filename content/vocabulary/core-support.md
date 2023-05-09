@@ -62,7 +62,7 @@ Same as “core pin”
 
 #### Source
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*chiodo di sostegno*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 #### Alternate Translations
 

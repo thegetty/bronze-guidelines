@@ -103,7 +103,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Used in the way defined here under the long entry “fusione” for the casting of bells under the paragraph “formatura” in Treccani
 
-    Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Carruba 2006" %}, 24; {% cite "Formigli and Hackländer 1999" %}, 301
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*mantello (di fusione)*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Carruba 2006" %}, 24; {% cite "Formigli and Hackländer 1999" %}, 301
 
 - *refrattario*
 
@@ -121,7 +121,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     *Tonaca di terra*, and even more often: *involucro*
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*tunica*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

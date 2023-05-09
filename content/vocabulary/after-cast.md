@@ -87,7 +87,7 @@ Closest translation to *surmoulage*; could refer to the process as well as to th
 
     Less common, related to the process of obtaining a new {% def "bronze" %} from an already-existing sculpture
 
-    Sources: {% cite "Battaglia 1961" %}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+    Sources: {% cite "Battaglia 1961" %}, under *rifusione*; {% cite "Treccani n.d." "" "Treccani" %}, under [*rifusione*](http://www.treccani.it/vocabolario/rifusione/)
 
 - *fusione successiva*
 

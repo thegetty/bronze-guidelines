@@ -114,7 +114,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Same as "{% def "core support" %}"
 
-    Source: Treccani, under fusion a cera persa [https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29]
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusion a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29)
 
 ### **Chinese**: {{ lang.zh }}
 

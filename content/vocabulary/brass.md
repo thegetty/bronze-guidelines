@@ -27,7 +27,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Campbell 2015" %}, 270; {
 
 Historical: {% cite "Buchanan 1903" %}, 23
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/brass>
+General Dictionary: <https://www.merriam-webster.com/dictionary/brass> [definition 1]
 
 Other: {% cite "Turner 1982" %}
 
@@ -79,7 +79,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/ottone/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/), under “Bronzi e ottoni”; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*ottone*](http://www.treccani.it/vocabolario/ottone/); {% cite "Treccani n.d." "" "Treccani" %}, under [*Bronzi e ottoni*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*ottone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone) [definition 1]
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -57,7 +57,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/martellatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1]
 
 ### **Chinese**: {{ lang.zh }}
 

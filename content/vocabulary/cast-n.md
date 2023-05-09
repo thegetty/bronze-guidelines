@@ -87,15 +87,15 @@ Foundry-specific term
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto); {% cite "Baglione 1642" %}, 324–25
+{% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3]; {% cite "Battaglia 1961" %}, under [*getto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto) [definition 15]; {% cite "Baglione 1642" %}, 324–25
 
 #### Alternate Translations
-
+ 
 - *colata*
 
     A more general term that can be used to specify the pouring of plaster, wax, or molten metal
     
-    Sources: [Treccani](https://www.treccani.it/enciclopedia/colata/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tecnica*](https://www.treccani.it/enciclopedia/colata/); {% cite "Treccani n.d." "" "Treccani" %}, under [*procedimento di fusione del bronzo*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29); {% cite "Battaglia 1961" %}, under [*colata*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata) [definintion 2]
 
 - *gitto*
 

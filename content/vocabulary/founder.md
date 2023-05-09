@@ -88,7 +88,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *fondeur en terre et sable*
 
-    Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038.
+    Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20<sup>e</sup> siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038.
 
     Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
@@ -134,7 +134,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 - *fonditore*
 
-    Sources: [Treccani](https://www.treccani.it/vocabolario/ricerca/fonditore/); {% cite "Morigi and Morigi 2008" %}, 12; {% cite "Bruni 1994" %}, 133
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fonditore*](https://www.treccani.it/vocabolario/ricerca/fonditore/) [definition 1]; {% cite "Morigi and Morigi 2008" %}, 12; {% cite "Bruni 1994" %}, 133
 
 - *fusore*
 

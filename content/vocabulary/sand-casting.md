@@ -87,7 +87,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Source
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 #### Alternate Translation
 
@@ -95,7 +95,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     A little more common than *a staffa*
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione alla sabbia*](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

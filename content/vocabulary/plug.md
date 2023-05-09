@@ -32,7 +32,7 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Penny 1993" %}; {% cite "S
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 311
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/plug>
+General Dictionary: <https://www.merriam-webster.com/dictionary/plug> [definition 1a]
 
 ## To Be Distinguished From
 

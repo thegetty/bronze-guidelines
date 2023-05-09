@@ -29,7 +29,7 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 Cultural Heritage: {% cite "Frel 1982" %}, 13
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
+General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling> [definition 1]
 
 ## To Be Distinguished From
 
@@ -58,7 +58,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 #### Sources
 
-Battaglia 1961, under bolino [http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino]; and incisione, definition 9 [https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione]
+{% cite "Battaglia 1961" %}, under [*bolino*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino); {% cite "Battaglia 1961" %}, under [*incisione*](https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 9]
 
 #### Alternate Translation
 

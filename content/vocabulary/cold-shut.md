@@ -30,7 +30,7 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "American Foundry Society (AFS
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}, 303
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut>
+General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut> [definition 1]
 
 ## To Be Distinguished From
 

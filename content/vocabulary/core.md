@@ -30,7 +30,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/core>
+General Dictionary: <https://www.merriam-webster.com/dictionary/core> [definition 1e]
 
 ## Translations {.is-screen-only}
 
@@ -66,7 +66,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/anima/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima); {% cite "Giuffredi 2006" %}, 219; {% cite "Biringuccio [1540] 1977" %}, fols. 77–78; {% cite "Bruni 1994" %}, 81–82; {% cite "Brunhuber 1988" %}
+{% cite "Treccani n.d." "" "Treccani" %}, under [*anima*](http://www.treccani.it/vocabolario/anima/) [definition 4]; {% cite "Battaglia 1961" %}, under [*anima*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_489.pdf&parola=anima) [definition 6]; {% cite "Giuffredi 2006" %}, 219; {% cite "Biringuccio [1540] 1977" %}, fols. 77–78; {% cite "Bruni 1994" %}, 81–82; {% cite "Brunhuber 1988" %}
 
 #### Alternate Translations
 

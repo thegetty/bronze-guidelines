@@ -74,7 +74,7 @@ Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
     Often specified by “a fusione” or “per fusione”
 
-    [Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Formigli 2010" %}, 19
+    {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, under [*saldatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Formigli 2010" %}, 19
 
 ### **Chinese**: {{ lang.zh }}
 

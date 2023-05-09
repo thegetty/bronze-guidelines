@@ -68,7 +68,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
+{% cite "Treccani n.d." "" "Treccani" %}, under [*colata*](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, under [*colata*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
 
 #### Alternate Translations
 
@@ -76,7 +76,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Also refers to the {% def "cast (n.)" "cast" %}
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3b]; {% cite "Battaglia 1961" %}, under [*getto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto) [definition 15]; {% cite "Bruni 1994" %}, 106
 
 - *gitto*
 

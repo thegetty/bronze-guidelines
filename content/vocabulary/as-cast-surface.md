@@ -79,7 +79,7 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 #### Source
 
-{% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni)
+{% cite "Battaglia 1961" %}, under [*superficie al grezzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_46.pdf&parola=grezzoni) [definition 10]
 
 #### Alternate Translation
 

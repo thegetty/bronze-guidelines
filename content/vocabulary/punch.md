@@ -32,7 +32,7 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 74; {% cite "Penny 19
 
 Art and Craft Textbook: {% cite "Untracht 1982" %}, 122
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/punch>
+General Dictionary: <https://www.merriam-webster.com/dictionary/punch> [definition 1a]
 
 ## To Be Distinguished From
 
@@ -71,13 +71,13 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/cesello/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/JPG/GDLI03/00000019.jpg); {% cite "Cellini [1568] 1983" %}, 11, fols. 21v, 33v
+{% cite "Treccani n.d." "" "Treccani" %}, under [*cesello*](https://www.treccani.it/vocabolario/cesello/); {% cite "Battaglia 1961" %}, under [*cesello*](http://www.gdli.it/JPG/GDLI03/00000019.jpg); {% cite "Cellini [1568] 1983" %}, 11, fols. 21v, 33v
 
 #### Alternate Translation
 
 - *punzone*
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/punzone/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone); {% cite "Cellini [1568] 1983" %}, 1, fol. 27
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*punzone*](http://www.treccani.it/vocabolario/punzone/) [definition 3]; {% cite "Battaglia 1961" %}, under [*punzone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone) [definition 2]; {% cite "Cellini [1568] 1983" %}, 1, fol. 27
 
 ### **Chinese**: {{ lang.zh }}
 

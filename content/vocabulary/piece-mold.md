@@ -72,7 +72,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Biringuccio [1540] 1990" %}, fols. 80v–81; {% cite "Bruni 1994" %}, 53–55
+{% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 2]; {% cite "Biringuccio [1540] 1977" %}, fols. 80v–81; {% cite "Bruni 1994" %}, 53–55
 
 #### Alternate Translation
 
@@ -80,7 +80,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
     This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.
 
-    Sources: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*calco a tasselli*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*calco a tasselli*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
 
 ### **Chinese**: {{ lang.zh }}
 
