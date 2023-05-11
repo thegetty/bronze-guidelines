@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See II.4§1.1.1.'
+definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#S1.1.1/).'
 lang:
   de: Schrumpfung
   fr: retrait
@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
 ### **French**: *{{ lang.fr }}*
 
-Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des {% def "casting defect" "défauts de fonderie" %} (soufflures, retassures, etc).
+Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des {% def "défaut de fonderie" "défauts de fonderie" %} (soufflures, retassures, etc).
 
 #### To Be Distinguished From
 

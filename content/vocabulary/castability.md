@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See I.2§2.2.'
+definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#S2.2).'
 lang:
   de: Fliessvermögen
   fr: coulabilité
