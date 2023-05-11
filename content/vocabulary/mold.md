@@ -84,7 +84,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Sources
 
-{% "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
+{% cite "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
 
 #### Alternate Translations
 
@@ -92,7 +92,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
 
-    Source: {% cite "Cellini [1568] 1982" %}, 11, fols. 45v–46
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 45v–46
 
 - *forma*
 

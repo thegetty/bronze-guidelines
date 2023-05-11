@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model> [definiti
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, {% def "replica" "réplique" %}, épreuve en cire, etc.).
+Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, {% def "réplique" %}, épreuve en cire, etc.).
 
 {% backmatter %}
 

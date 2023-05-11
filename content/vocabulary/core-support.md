@@ -44,7 +44,7 @@ Note: En anglais, à cette définition propre à la fonderie industrielle vient 
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
-#### Alternate translation
+#### Alternate Translation
 
 - *support pour noyau*
 

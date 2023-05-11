@@ -70,7 +70,7 @@ Often specified by *a fusione* or *per fusione*
 
 [Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Bruni 1994" %}, 122–23; {% cite "Brunhuber 1988" %}
 
-#### Alternate translation
+#### Alternate Translation
 
 - *saldatura metallurgica per colata*
 

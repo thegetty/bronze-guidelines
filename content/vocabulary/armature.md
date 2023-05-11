@@ -40,7 +40,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 {% backmatter %}
 
-Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les {% def "fondeurs" %} pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
+Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les {% def "fondeur" "fondeurs" %} pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
 
 {% endbackmatter %}
 

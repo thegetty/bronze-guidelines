@@ -24,7 +24,7 @@ Note: The term “transverse core pin” (or “transfixing core pin”) is used
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-035, fig-036, fig-037, fig-64, fig-122, fig-547" %}
+{% figuregroup "3", "fig-035, fig-036, fig-037, fig-064, fig-122, fig-547" %}
 
 ## Sources
 
