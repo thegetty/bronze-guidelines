@@ -48,7 +48,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 ### **French**: *{{ lang.fr }}*
 
-Partie intégrante du {% def "noyau" %} ou partie rajoutée ({% def "fonte au sable" %}), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la {% def "cast (v.)" "coulée" %}.
+Partie intégrante du {% def "noyau" %} ou partie rajoutée ({% def "fonte au sable" %}), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la {% def "couler" "coulée" %}.
 
 {% backmatter %}
 

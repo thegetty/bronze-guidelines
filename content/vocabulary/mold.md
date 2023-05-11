@@ -44,7 +44,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold> [definiton
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "model" "modèles" %} voire des {% def "core" "noyaux" %} précédant la sculpture en bronze.
+Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "modèle" "modèles" %} voire des {% def "noyau" "noyaux" %} précédant la sculpture en bronze.
 
 {% backmatter %}
 

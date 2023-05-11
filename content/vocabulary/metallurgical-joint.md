@@ -39,8 +39,7 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 ### **French**: *{{ lang.fr }}*
 
-Joint métal-métal faisant intervenir du métal liquide ({% def "brasage" %} ou  
-soudage par fusion), par opposition à joint mécanique.
+Joint métal-métal faisant intervenir du métal liquide ({% def "brasage" %} ou {% def "soudage" "soudage par fusion" %}), par opposition à joint mécanique.
 
 {% backmatter %}
 
