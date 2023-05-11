@@ -95,6 +95,12 @@ figure_list:
     label: "Figure 518"
     caption: "Main impurities in the metal of the Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See %%Mechling et al. 2018%%."
 
+  - id: "fig-519-dupe"
+    src: "figures/519.jpg"
+    visual_atlas: false
+    label: "Figure 519"
+    caption: "Tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See %%Mechling et al. 2018%%."
+
   # REGULAR FIGURES
 
   - id: "fig-001"
