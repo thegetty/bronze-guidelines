@@ -40,7 +40,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 ### **French**: *{{ lang.fr }}*
 
-Opération consistant à verser du métal liquide dans un moule réfractaire.
+Opération consistant à verser du métal liquide dans un {% def "moule réfractaire" %}.
 
 {% backmatter %}
 
@@ -68,7 +68,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
+{% cite "Treccani n.d." "" "Treccani" %}, under [*colata*](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, under [*colata*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
 
 #### Alternate Translations
 
@@ -76,13 +76,13 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Also refers to the {% def "cast (n.)" "cast" %}
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3b]; {% cite "Battaglia 1961" %}, under [*getto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto) [definition 15]; {% cite "Bruni 1994" %}, 106
 
 - *gitto*
 
     Early Italian spelling for *getto*; also refers to the cast
 
-    Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
+    Sources: {% cite "Biringuccio [1540] 1977" %}, fols. 108–10
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -20,7 +20,7 @@ See figs. 261, 551.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in {% def "chasing" %}, patination, or deterioration of the molds/{% def "chef-modèle" %} over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “versions”), modern {% def "bronze" %} casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
+Note: Casts from any given edition will be essentially identical in form and size (understanding that within an edition, different bases may be used, and there may be variations in how the edition is mounted), yet may vary owing to casting flaws or differences in {% def "chasing" %}, patination, or deterioration of the molds/{% def "chef-modèle" %} over time. Whereas before the nineteenth century it was rare for replicas to be made without small variations (hence the use of the term “{% def "variant" "variants" %}”), modern {% def "bronze" %} casting practice is more consistent, and generally predicated on the notion of editions. Starting in the early twentieth century, it became common practice to mark casts with their individual number within an edition.
 
 {% endbackmatter %}
 
@@ -29,8 +29,6 @@ Note: Casts from any given edition will be essentially identical in form and siz
 ## Sources
 
 Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 1975" %}; {% cite "Dillon 2002" %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/edition>
 
 ## To Be Distinguished From
 
@@ -79,24 +77,26 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
 #### Source
 
-[Treccani](http://www.treccani.it/vocabolario/edizione)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*edizione*](http://www.treccani.it/vocabolario/edizione)
 
 #### Alternate Translations
 
 - *multiplo*
 
-    In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures
+    In the arts, specifies that the {% def "cast (n.)" "cast" %} is not a one-off but part of a group of essentially identical sculptures.
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/multiplo/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*multiplo*](https://www.treccani.it/enciclopedia/multiplo/) [definition 1]
 
 - *serie*
 
-    Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning
+    Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning.
 
 ### **Chinese**: {{ lang.zh }}
 
 #### Alternate Translation
 
 - 翻版
+
+    Source: {% cite "Ming 2010" %}, 310; TNATD
 
 </div>

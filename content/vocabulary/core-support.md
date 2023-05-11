@@ -44,7 +44,7 @@ Note: En anglais, à cette définition propre à la fonderie industrielle vient 
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}
 
-#### Alternate translations
+#### Alternate Translation
 
 - *support pour noyau*
 
@@ -62,7 +62,7 @@ Same as “core pin”
 
 #### Source
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*chiodo di sostegno*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 #### Alternate Translations
 
@@ -76,7 +76,7 @@ Same as “core pin”
 
     Also found with alternative spelling: *sustegno*
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 82
 
 - *supporto dell'anima di fusione*
 

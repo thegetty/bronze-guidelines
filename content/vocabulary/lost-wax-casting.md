@@ -87,17 +87,17 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/cera1/); {% cite "Giuffredi 2006" %}, 61–62
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](http://www.treccani.it/vocabolario/cera1/) [definition 3b]; {% cite "Giuffredi 2006" %}, 61–62
 
 #### Alternate Translation
 
 - *fusione a cera perduta*
 
-    Source: [Treccani](http://www.treccani.it/vocabolario/cera1/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera perduta*](http://www.treccani.it/vocabolario/cera1/)
 
 ### **Chinese**: {{ lang.zh }}
 
-#### Sources
+#### Source
 
 [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
 

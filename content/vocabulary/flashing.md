@@ -83,7 +83,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
 ## Source
 
-Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Translation
 
@@ -93,7 +93,7 @@ Fachkunde mitall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {% cite "Biringuccio [1540] 1990" %}, fol. 78
+{% cite "Biringuccio [1540] 1977" %}, fol. 78
 
 #### Alternate Synonym
 

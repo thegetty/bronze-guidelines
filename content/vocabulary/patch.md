@@ -36,7 +36,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 
 ### **French**: *{{ lang.fr }}*
 
-Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours à la {% def "brasage" %}, à la {% def "soudage" %} et même à la coulée secondaire sont également possibles.
+Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours au {% def "brasage" %}, au {% def "soudage" %} et même à la coulée secondaire sont également possibles.
 
 {% backmatter %}
 
@@ -70,11 +70,11 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 - *tassellatura*
 
-    Sources: {% cite "Pecchioli 1999" %}, 193; [Treccani](https://www.treccani.it/vocabolario/tassellatura/)
+    Sources: {% cite "Pecchioli 1999" %}, 193; {% cite "Treccani n.d." "" "Treccani" %}, under [*tassellatura*](https://www.treccani.it/vocabolario/tassellatura/)
 
 - *tassello*
 
-    Sources: [Treccani](https://www.treccani.it/vocabolario/tassello1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 1a]; {% cite "Battaglia 1961" %}, under [*tassello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello) [definition 1]
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A type of repair consisting of a localized {% def "cast (v.)" "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
+definition: 'A type of repair consisting of a localized {% def "cast (n.)" "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
 lang:
   de: Überfangguss
   fr: réparation par coulée secondaire
@@ -66,6 +66,8 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 - *Anguss*
 
+- *Anguss oder*
+
 - *Angießverfahren*
 
     Used in reference to modern processes
@@ -76,19 +78,19 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
 More general term to denote casting on, could apply to joints and repairs; see German *Überfangguss*
 
-#### Sources
+#### Source
 
-{% cite "Rohnstock 1999" %}
+{% cite "Rohnstock 1999" %}, 402–3
 
 #### Alternate Translations
 
 - *rifusione*
 
-    Source: {% cite "Morigi and Morigi 2008" %}
+    Source: {% cite "Morigi and Morigi 2008" %}, 3, 5
 
 - *rigetto*
 
-    Source: {% cite "Morigi and Morigi 2008" %}
+    Source: {% cite "Morigi and Morigi 2008" %}, 3, 5
 
 ### **Chinese**: {{ lang.zh }}
 

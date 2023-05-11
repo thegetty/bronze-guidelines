@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (v.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (n.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
 lang:
   de: ziselieren
   fr: ciselure
@@ -93,21 +93,21 @@ Not reserved specifically for metals
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*rifinitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura) [definition 2]; {% cite "Formigli 2010" %}, 17 and 20f
 
 #### Alternate Translations
 
 - *rinettare* (v.)
 
-    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_526.pdf&parola=rinettare)
+    Source: {% cite "Cellini (1568) 1983" %}, 1, fol. 18v, 38f
 
 - *cesellare*
 
-    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+    Source: {% cite "Battaglia 1961" %}, under [*cesellare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
 
 - *ritocco a freddo* (ritocco a freddo di dettagli)
 
-    Source: {% cite "Formigli 2010" %}, 20–21
+    Source: {% cite "Formigli 2010" %}, 20f
 
 ### **Chinese**: {{ lang.zh }}
 

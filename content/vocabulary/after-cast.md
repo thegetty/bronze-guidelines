@@ -10,11 +10,11 @@ definition: 'A {% def "bronze" %} cast that has been created from a {% def "mold
 lang:
   de: Nachguss
   fr: surmoulé
-  it: calco
+  it: sovracalco
   zh: 翻铸
 ---
 
-Figs. 1, 284.{.pdf-figure-list}
+See figs. 1, 284.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
@@ -38,7 +38,6 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## Synonyms
 
 - *aftercast*
-
 - *surmoulage*
 
     The French term *surmoulage* is often used in English texts.
@@ -76,9 +75,11 @@ Source: {% cite "Maaz 2010" %}, 710
 
 ### **Italian**: *{{ lang.it }}*
 
+Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.
+
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/calco/)
+{% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
 
 #### Alternate Translations
 
@@ -86,19 +87,14 @@ Source: {% cite "Maaz 2010" %}, 710
 
     Less common, related to the process of obtaining a new {% def "bronze" %} from an already-existing sculpture
 
-    Sources: {% cite "Battaglia 1961" %}, here; [Treccani](http://www.treccani.it/vocabolario/rifusione/)
+    Sources: {% cite "Battaglia 1961" %}, under *rifusione*; {% cite "Treccani n.d." "" "Treccani" %}, under [*rifusione*](http://www.treccani.it/vocabolario/rifusione/)
 
 - *fusione successiva*
 
     Usually has smaller dimensions due to the {% def "shrinkage" %} of the metal while cooling
 
 - *multiplo*
-
-- *sovracalco*
-
-    Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.
-
-    Sources: {% cite "Cuomo di Caprio 2007" %}, 224; {% cite "Panazza 2011" %}, 30
+ 
 
 ### **Chinese**: {{ lang.zh }}
 

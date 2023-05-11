@@ -41,7 +41,7 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 ### **French**: *{{ lang.fr }}*
 
-Aptitude d’un métal à remplir un moule réfractaire dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
+Aptitude d’un métal à remplir un {% def "moule réfractaire" %} dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
 
 #### To Be Distinguished From
 
@@ -53,7 +53,7 @@ Aptitude d’un métal à remplir un moule réfractaire dans tous ses détails, 
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; {% cite "Mille 2017" %}
 
-Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Koch and Newell 1963" %}
+Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; {% cite "CTIF 2022" %}; {% cite "Koch and Newell 1963" %}
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %}, 174
 
@@ -101,7 +101,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 - *scorrevolezza*
 
-    Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione di oggetti artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

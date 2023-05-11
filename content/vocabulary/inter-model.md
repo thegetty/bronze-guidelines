@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% ref "fig-016" %}, Case Study 7. One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
+definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% ref "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
 lang:
   de: Wachsmodell
   fr: modèle intermédiaire
@@ -56,13 +56,13 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
 - *cire*
 
-    Ce terme est ambigu : une cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.
+    Ce terme est ambigu: une cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve, et le modèle intermédiaire utilisés dans le procédé indirect.
 
     Source: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}
 
 - *épreuve en cire*
 
-    Ce terme est ambigu : une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.
+    Ce terme est ambigu: une épreuve en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.
 
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 254; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}; Art and Craft Textbook: {% cite "Lambert 2002" %}, 214
 
@@ -76,7 +76,7 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
 - *modèle de cire*
 
-    Ce terme est ambigu : un modèle en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.
+    Ce terme est ambigu: un modèle en cire peut être à la fois le produit final désiré par l’artiste, le modèle en cire utilisé dans le procédé direct, l’épreuve et le modèle intermédiaire utilisés dans le procédé indirect.
 
     Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
 

@@ -24,8 +24,6 @@ See figs. 8, 31, 32, 34, 79, 221.{.pdf-figure-list}
 
 Cultural Heritage: {% cite "Mattusch 1996" %}; {% cite "Boulton 2006" %}; {% cite "Dillon 2002" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/armature>
-
 Copper Industry: {% cite "Brunhuber 1988" %}
 
 ## Synonym
@@ -42,7 +40,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 
 {% backmatter %}
 
-Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les fondeurs pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
+Note: On parle aussi de « système d’armatures » pour décrire l’ensemble des éléments armant un noyau. Des termes plus spécialisés sont parfois employés par les {% def "fondeur" "fondeurs" %} pour désigner des types spécifiques d’armatures comme la « lanterne », un tube creux perforé ({% cite "Delon 1877" %}, 144; {% cite "Rama 1988" %}, 374).
 
 {% endbackmatter %}
 
@@ -80,7 +78,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Sources
 
-{% cite "Giuffredi 2006" %}, 19–21; [Treccani](http://www.treccani.it/vocabolario/armatura); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura)
+{% cite "Giuffredi 2006" %}, 19–21; {% cite "Treccani n.d." "" "Treccani" %}, under [*armatura*](http://www.treccani.it/vocabolario/armatura) [definition 6]; {% cite "Battaglia 1961" %}, under [*armatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI01/GDLI_01_ocr_676.pdf&parola=armatura) [definition 4]
 
 #### Alternate Translations
 
@@ -88,13 +86,13 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Early italian spelling of *armatura*
 
-    Source: {% cite "Leonardo 1490" %}, fols. 155, 157v, 144v
+    Source: {% cite "Leonardo 1490" %}, fols. 155r, 157v, 144v
 
 - *ferramenta*
 
     Relates more specifically to the ferrous materials used for the armature
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 80v
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 80v
 
 - *rinforzo per anime*
 
@@ -104,10 +102,12 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Source
 
-{% cite "Ming 2010" %}, 1783
+{% cite "Ming 2010" %}, 1783; TNATD
 
 #### Alternate Translation
 
 - 雕塑骨架
+
+    Source: TNATD
 
 </div>

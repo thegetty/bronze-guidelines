@@ -27,7 +27,7 @@ Historical: {% cite "Buchanan 1903" %}; {% cite "Bolland 1894" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/cast>
+General Dictionary: <https://www.merriam-webster.com/dictionary/cast> [definition 4]
 
 ## Synonym
 
@@ -75,7 +75,7 @@ Foundry-specific term that relates to the pouring of metal
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/gettare/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_726.pdf&parola=gettare)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*gettare*](http://www.treccani.it/vocabolario/gettare/); {% cite "Battaglia 1961" %}, under [*gettare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_726.pdf&parola=gettare)
 
 #### Alternate Translations
 
@@ -83,25 +83,25 @@ Foundry-specific term that relates to the pouring of metal
 
     Literally “to throw”
 
-    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/JPG/GDLI02/00000472.jpg)
+    Source: {% cite "Battaglia 1961" %}, under [*buttare*](http://www.gdli.it/JPG/GDLI02/00000472.jpg)
 
 - *colare*
 
     A more general term that can be used to specify the pouring of plaster, wax, or molten metal.
 
-    Source: [Treccani](https://www.treccani.it/vocabolario/colare1/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*colare*](https://www.treccani.it/vocabolario/colare1/)
 
 - *fondere*
 
     Used in reference to the melting of the metal
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/fondere/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {% cite "Leonardo 1490" %}, fol. 150r
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fondere*](http://www.treccani.it/vocabolario/fondere/); {% cite "Battaglia 1961" %}, under [*fondere*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_137.pdf&parola=fondere); {% cite "Leonardo 1490" %}, fol. 150r
 
 - *gittare*
 
     Early Italian spelling of *gettare*
 
-    Sources: {% cite "Leonardo 1490" %}, fol. 143; {% cite "Biringuccio [1540] 1990" %}, fols. 89v–90
+    Sources: {% cite "Leonardo 1490" %}, fol. 143r; {% cite "Biringuccio [1540] 1977" %}, fols. 89vff
 
 ### **Chinese**: {{ lang.zh }}
 

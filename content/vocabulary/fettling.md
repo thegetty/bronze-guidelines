@@ -9,7 +9,7 @@ definition: 'Steps carried out directly after casting to remove unwanted feature
 lang:
   de: Abgraten
   fr: réparure
-  it: rifinitura
+  it: sbavatura
   zh: 清砂
 ---
 
@@ -25,7 +25,7 @@ Cultural Heritage: {% cite "Salter and Gilmour n.d." %}, 23; {% cite "Penny 1993
 
 Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-Art and Craft Textbook: {% cite "Untracht 1982" %}
+Art and Craft Textbook: {% cite "Untracht 1982" %}, 526
 
 ## To Be Distinguished From
 
@@ -37,11 +37,11 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 
 ### **French**: *{{ lang.fr }}*
 
-Ensemble des opérations visant à nettoyer un bronze au sortir du moule réfractaire, avant {% def "ciselure" %} et/ou patination.
+Ensemble des opérations visant à nettoyer un bronze au sortir du {% def "moule réfractaire" %}, avant {% def "ciselure" %} et/ou patination.
 
 {% backmatter %}
 
-Note: Suivant les périodes et l’organisation de l’atelier la réparure peut être subdivisée en plusieurs opérations distinctes et conduire, de fait, à des termes plus spécialisés. Au 19e siècle, par exemple, la réparure consiste, dans l’ordre, en l’ ébarbage, le rachevage, la réparure proprement dite, et la ciselure ({% cite "Baudry and Bozo 1978" %}, 633; {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Grandpierre and Avale 1867" %}, 8n1).
+Note: Suivant les périodes et l’organisation de l’atelier la réparure peut être subdivisée en plusieurs opérations distinctes et conduire, de fait, à des termes plus spécialisés. Au 19e siècle, par exemple, la réparure consiste, dans l’ordre, en l’ ébarbage, le rachevage, la réparure proprement dite, et la {% def "ciselure" %} ({% cite "Baudry and Bozo 1978" %}, 633; {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Grandpierre and Avale 1867" %}, 8n1).
 
 {% endbackmatter %}
 
@@ -78,7 +78,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 - *reparure*
 
-    Variante orthographique. Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58); {% cite "Lebon 2012" %}.
+    Variante orthographique. Le terme « reparer » apparaît dans {% cite "Félibien 1690" %}, 333; {% cite "Boffrand 1743" %}, 58; {% cite "Lebon 2012" %}.
 
     Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
@@ -100,31 +100,29 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
 - *Putzen*
 
-    This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing
+    This term is used primarily in the modern casting industry and for mass production; in an art foundry it is not always distinguished as a separate step from chasing.
 
     Source: {% cite "Brunhuber 1986" %}, 747
 
 ### **Italian**: *{{ lang.it }}*
 
-Same word used for chasing
+Removal of flashing or traces of {% def "sprues" %}
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura)
+Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://www.treccani.it/vocabolario/sbavatura1/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*sbavatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura) [second entry]
 
 #### Alternate Translations
 
-- *sbavatura*
+- *rifinitura*
 
-    Removal of flashing or traces of {% def "sprues" %}
+    Same word used for chasing
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/sbavatura1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*rifinitura*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*rifinitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura) [definition 2]
 
 - *sgrossatura*
 
     Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*
-
-    Source: {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI10/GDLI_10_ocr_700.pdf&parola=sgrossatura)
 
 ### **Chinese**: {{ lang.zh }}
 

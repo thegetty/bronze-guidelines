@@ -6,9 +6,9 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
+definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
 lang:
-  de: Giesser
+  de: Gießer
   fr: fondeur
   it: artefice
   zh: 铸工
@@ -27,10 +27,6 @@ Cultural Heritage: {% cite "Boulton 2006" %}
 Historical: {% cite "Buchanan 1903" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-Art and Craft Textbook: {% cite "Wikipedia n.d." %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
 
 ## Synonyms
 
@@ -62,7 +58,7 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 - *mouleur*
 
-    Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} (édition originale 1844), 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276, l'auteur précise "mouleur en cuivre"). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %}).
+    Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} [édition originale 1844], 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276, l'auteur précise "mouleur en cuivre"). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %}).
 
 #### Sources
 
@@ -92,7 +88,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *fondeur en terre et sable*
 
-    Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés [(fondeur de cloches, fondeur de canons ou fondeur d'artillerie)]. Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20e siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre [{% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038].
+    Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20<sup>e</sup> siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038.
 
     Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
@@ -132,23 +128,23 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 #### Source
 
-{% cite "Biringuccio [1540] 1990" %}, fols. 75–76
+{% cite "Biringuccio [1540] 1977" %}, fols. 75–76
 
 #### Alternate Translations
 
 - *fonditore*
 
-    Sources: [Treccani](https://www.treccani.it/vocabolario/ricerca/fonditore/); {% cite "Morigi and Morigi 2008" %}; {% cite "Bruni 1994" %}
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fonditore*](https://www.treccani.it/vocabolario/ricerca/fonditore/) [definition 1]; {% cite "Morigi and Morigi 2008" %}, 12; {% cite "Bruni 1994" %}, 133
 
 - *fusore*
 
 - *gettatore*
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 51v, 55
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 51v, 55
 
 - *maestro*
 
-    Sources: {% cite "Cellini 1996" %}, 668; {% cite "Biringuccio [1540] 1990" %}, fols. 75–76
+    Sources: {% cite "Biringuccio [1540] 1977" %}, fol. 75, 107
 
 - *tragettatore*
 
@@ -156,7 +152,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 ### **Chinese**: {{ lang.zh }}
 
-#### Sources
+#### Source
 
 [TNATD](https://terms.naer.edu.tw/detail/626946/?index=3)
 

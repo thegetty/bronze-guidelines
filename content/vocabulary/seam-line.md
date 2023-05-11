@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A faintly raised line that forms at the joints between {% def "mold" %} sections when a molten material or slurry is poured into a mold. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](/case-studies/3/) ({% ref "fig-026" %}). The term also refers to the line along which the pieces of a {% def "refractory mold" "refractory" %} {% def "piece mold" %} join, which is the locus of the line that forms on the bronze. Depending on the how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme {% def "flashing" %} occurs with ill-fitting pieces.'
+definition: 'A faintly raised line that forms at the joints between {% def "mold" %} sections when a molten material or slurry is poured into a mold. Seam lines are found on plaster or wax casts as well as on bronzes cast in piece molds. In ancient Chinese bronzes, some seam lines were exaggerated and integrated into the design of the casts, as can be seen in the elephant-shaped vessel in [Case Study 3](/case-studies/3/) ({% ref "fig-026" %}). The term also refers to the line along which the pieces of a {% def "refractory mold" "refractory" %} {% def "piece mold" %} join, which is the locus of the line that forms on the bronze. Depending on how well the piece mold pieces fit together, the seam line may be more or less raised. More extreme {% def "flashing" %} occurs with ill-fitting pieces.'
 lang:
   de: Gussnaht
   fr: couture
@@ -45,7 +45,7 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 
 ### **French**: *{{ lang.fr }}*
 
-Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moule" "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du modèle : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
+Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moule" "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du {% def "modèle" %} : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
 
 #### Sources
 
@@ -77,11 +77,11 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 
     Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Terme désuet.
 
-    Source: Cultural Heritage {% cite "Baudry and Bozo 1978" %}, 758
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 758
 
 - *bavure*
 
-    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les sources bibliographiques ne concernent que la fonte au sable.
+    Attention, fait uniquement référence à l’opération de coulée et au moule réfractaire. Les sources bibliographiques données ci-après ne concernent que la fonte au sable.
 
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; Art and Craft Textbook: {% cite "Rama 1988" %}, 373
 
@@ -117,7 +117,7 @@ Literally “line of joint”
 
 #### Alternate Translations
 
-- *o linea di saldatura*
+- *linea di saldatura*
 
 - *traccia del calco*
 

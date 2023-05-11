@@ -8,8 +8,8 @@ menu: false
 definition: 'A type of joint between two metal parts that is undertaken using molten metal. Examples of metallurgical joints include those made using {% def "welding" %}, {% def "brazing" %}, {% def "soldering" %}, and interlock casting.'
 lang:
   de: Metallurgische Verbindung
-  fr: oint métallurgique
-  it: saldatura (often specified by a “fusione” or “per fusione”)
+  fr: joint métallurgique
+  it: saldatura metallurgica
   zh: 冶金接合
 ---
 
@@ -39,7 +39,7 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 
 ### **French**: *{{ lang.fr }}*
 
-Joint métal-métal faisant intervenir du métal liquide (brasage ou soudage par fusion), par opposition à joint mécanique.
+Joint métal-métal faisant intervenir du métal liquide ({% def "brasage" %} ou {% def "soudage" "soudage par fusion" %}), par opposition à joint mécanique.
 
 {% backmatter %}
 
@@ -57,19 +57,23 @@ Note: Ce terme a été introduit par les membres de CAST:ING – et reste débat
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Formigli 2010" %}, 19
+Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
 #### Alternate Translation
 
 - *giunzione metallurgica*
 
-- *saldatura*
+- *saldatura (metallurgica) per colata* 
 
-    (Metallurgica) per colata; flow fusion welding [used in antiquity]; {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
-
-- *saldatura*
-
+    Flow fusion welding (used in antiquity) 
+    
     Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
+
+- *saldatura*
+
+    Often specified by “a fusione” or “per fusione”
+
+    {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, under [*saldatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Formigli 2010" %}, 19
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -39,7 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 
 ### **French**: *{{ lang.fr }}*
 
-Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des défauts de fonderie (soufflures, retassures, etc).
+Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des {% def "défaut de fonderie" "défauts de fonderie" %} (soufflures, retassures, etc).
 
 #### To Be Distinguished From
 
@@ -61,15 +61,13 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %},
 
 - *Schwindung*
 
-#### Source
-
-{% cite "Brunhuber 1988" %}
+    Source: {% cite "Brunhuber 1988" %}
 
 ### **Italian**: *{{ lang.it }}*
 
 #### Source
 
-[Treccani](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*ritiro*](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
 
 ### **Chinese**: {{ lang.zh }}
 

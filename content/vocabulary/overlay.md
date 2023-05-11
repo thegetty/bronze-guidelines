@@ -59,7 +59,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 {% backmatter %}
 
-Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« inlay » en anglais) d’un élément formant relief (« overlay »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
+Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« {% def "inlay" %} » en anglais) d’un élément formant relief (« overlay »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
 
 {% endbackmatter %}
 
@@ -73,7 +73,7 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 - *damasquinure*
 
-    Pour certains auteurs [{% cite "Arminjon and Bilimoff 1998" %}], 162, désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre [on parle aussi de damasquinage pour décrire le procédé ({% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure [{% cite "Félibien 1690" %}], 460. Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
+    Pour certains auteurs ({% cite "Arminjon and Bilimoff 1998" %}), 162, désigne une sous-catégorie d'incrustations, en l'occurrence l'incrustation d'un métal sur un autre (on parle aussi de damasquinage pour décrire le procédé [{% cite "Arminjon and Bilimoff 1998" %}, 162–63; {% cite "Baudry and Bozo 1978" %}, 661]). Pour d’autres auteurs, la damasquinure ne concerne que les incrustations d’or ou d’argent sur un objet en fer ou acier, typiquement une arme ou une armure ({% cite "Félibien 1690" %}), 460. Il est suggéré d’éviter d’employer ce terme pour la sculpture en bronze, on lui préférera « incrustation métallique ».
 
     Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
@@ -81,7 +81,7 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
 A general term closer to “coating”
 
-#### Alternate Translation
+#### Alternate Translations
 
 - *Überzug*
 
@@ -101,7 +101,7 @@ A general term closer to “coating”
 
     Rare and not very specific
 
-    Sources: [Treccani](http://www.treccani.it/vocabolario/riporto/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riporto*](http://www.treccani.it/vocabolario/riporto/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*riporto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto) [definition 2, vol. 6, 68a]
 
 ### **Chinese**: {{ lang.zh }}
 

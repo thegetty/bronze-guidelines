@@ -45,7 +45,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceret
 
 ### **German**: *{{ lang.de }}*
 
-In German, *Plattierung* [the result] and *Plattieren* [the action] are specific to obtaining the adhesion of a [noble] plate on a [less noble] substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
+In German, *Plattierung* (the result) and *Plattieren* (the action) are specific to obtaining the adhesion of a (noble) plate on a (less noble) substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
 
 #### Source
 
@@ -55,7 +55,7 @@ In German, *Plattierung* [the result] and *Plattieren* [the action] are specific
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*placcatura*](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, under [*placcatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
 
 ### **Chinese**: {{ lang.zh }}
 

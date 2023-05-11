@@ -31,7 +31,7 @@ Cultural Heritage: {% cite "Stone 2008" %}
 
 Copper Industry: {% cite "Campbell 2015" %}; {% cite "Brunhuber 1988" %}; {% cite "Ammen 1980" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/porosity>
+General Dictionary: <https://www.merriam-webster.com/dictionary/porosity> [definition 1a]
 
 ## Translations {.is-screen-only}
 
@@ -63,7 +63,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/porosita/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_924.pdf&parola=porosità)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*tecnica*](https://www.treccani.it/enciclopedia/porosita/); {% cite "Battaglia 1961" %}, under [*porosità*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_924.pdf&parola=porosità)
 
 #### Alternate Translation
 
@@ -71,7 +71,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
     In early Italian no direct translation has been found, but this adjective is a descriptive term that means “spongy,” used in *bucato e spugnoso*, “with holes and spongy.”
 
-    Source: {% cite "Biringuccio [1540] 1990" %}, fol. 90
+    Source: {% cite "Biringuccio [1540] 1977" %}, fol. 90
 
 ### **Chinese**: {{ lang.zh }}
 

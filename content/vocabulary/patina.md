@@ -36,15 +36,13 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 
 Art and Craft Textbook: {% cite "Fishlock 1962" %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/patina>
-
 ## Translations {.is-screen-only}
 
 <div class="accordion">
 
 ### **French**: *{{ lang.fr }}*
 
-Le terme patine recouvre plusieurs sens. 1) Désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) Désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps (corrosion) ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) Peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) {% cite "Aucouturier et al. 2003" %}.
+Le terme patine recouvre plusieurs sens. 1) Désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) Désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps ({% def "corrosion" %}) ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) Peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) ({% cite "Aucouturier et al. 2003" %}).
 
 {% backmatter %}
 
@@ -78,7 +76,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
 #### Sources
 
-{% cite "Giuffredi 2006" %}, 144, 220; [Treccani](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
+{% cite "Giuffredi 2006" %}, 144, 220; {% cite "Treccani n.d." "" "Treccani" %}, under [*patina*](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, under [*patina*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -32,7 +32,7 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}; {% cite "Beale 1975" 
 
 Art and Craft Textbook: {% cite "Reliance Foundry n.d." %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
+General Dictionary: <https://www.merriam-webster.com/dictionary/mold> [definiton 1a(1)]
 
 ## Synonym
 
@@ -44,11 +44,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 ### **French**: *{{ lang.fr }}*
 
-Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
+Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "modèle" "modèles" %} voire des {% def "noyau" "noyaux" %} précédant la sculpture en bronze.
 
 {% backmatter %}
 
-Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %} (« moule de potée »).
+Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %}.
 
 {% endbackmatter %}
 
@@ -84,7 +84,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/calco1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
 
 #### Alternate Translations
 
@@ -92,17 +92,17 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
 
-    Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 45v–46
 
 - *forma*
 
-    General and also {% def "investment" %} mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General and also {% def "investment" %} mold | Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo*
 
     General term for an impression
 
-    Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*stampo*](http://www.treccani.it/vocabolario/stampo/) [definition 2c]
 
 ### **Chinese**: {{ lang.zh }}
 

@@ -67,7 +67,7 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 #### Source
 
-{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 158–59
+{% cite "Willer, Schwab, and Mirschenz 2016b" %}, 122, 128, 186
 
 ### **Italian**: *{{ lang.it }}*
 
