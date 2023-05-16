@@ -679,6 +679,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-size: .875rem;
   border-bottom-width: 0;
 }
+.quire-page.vocabulary-index .quire-page__header__contributor .additional-contributors  p{
+  margin-bottom: 1em;
+}
 /* Make a better layout for Alternate Translations */
 .quire-page.vocabulary .quire-page__content .content .accordion ul {
   list-style-type: none;
