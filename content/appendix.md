@@ -12,7 +12,7 @@ outputs: [html]
 
 [*Examination and Treatment Report*](/_assets/downloads/examination-treatment-report--freer-sackler.pdf), Smithsonian, Freer Gallery of Art and Arthur M. Sackler Gallery
 
-[*Bronze Sculpture Examination: Sample Worksheet*](/_assets/downloads/examination-wroksheet--bewer.pdf), Francesca Bewer
+[*Bronze Sculpture Examination: Sample Worksheet*](/_assets/downloads/examination-wroksheet--bewer.pdf), Francesca G. Bewer
 
 [*Technical Examination Worksheet*](/_assets/downloads/technical-examination-worksheet--castelle.pdf), Manon Castelle
 

@@ -355,7 +355,7 @@ figure_list:
     src: "figures/030.jpg"
     # media_type: iiif
     label: "Figure 30"
-    caption: "Various images from a Harvard University January-term bronze casting course (2012) led by Francesca Bewer showing the process of carving into a resin-bonded sand mold, and the textures and details on the resulting bronzes."
+    caption: "Various images from a Harvard University January-term bronze casting course (2012) led by Francesca G. Bewer showing the process of carving into a resin-bonded sand mold, and the textures and details on the resulting bronzes."
 
   - id: "fig-031"
     src: "figures/031/base.jpg"
@@ -634,7 +634,7 @@ figure_list:
     src: "figures/056/base.jpg"
     zoom: true
     label: "Figure 56"
-    caption: "Detail of the lower portion of a lost-wax after-cast of a Renaissance partially gilded silver plaquette as cast. The myriad small bronze spherules (see overlay) result from air bubbles in the poorly applied plaster-based investment slurry, which settled on the surface of the wax inter-model. Francesca Bewer after-cast (private collection) made from an electrotype copy (date unknown) after Galeazzo Mondella (Italian, 1467–1528), *Sacra Conversazione*, ca. 1510, H. 13.9 cm (Kunsthistorisches Museum, Vienna, inv. Kunstkammer, 1107)."
+    caption: "Detail of the lower portion of a lost-wax after-cast of a Renaissance partially gilded silver plaquette as cast. The myriad small bronze spherules (see overlay) result from air bubbles in the poorly applied plaster-based investment slurry, which settled on the surface of the wax inter-model. Francesca G. Bewer after-cast (private collection) made from an electrotype copy (date unknown) after Galeazzo Mondella (Italian, 1467–1528), *Sacra Conversazione*, ca. 1510, H. 13.9 cm (Kunsthistorisches Museum, Vienna, inv. Kunstkammer, 1107)."
     annotations:
       - input: checkbox
         items:
@@ -2354,7 +2354,7 @@ figure_list:
     src: "figures/249.jpg"
     media_type:
     label: "Figure 249"
-    caption: "Francesca Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, H. 40.5 cm. See %%Bewer 1996b%%."
+    caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, H. 40.5 cm. See %%Bewer 1996b%%."
 
   - id: "fig-250"
     src: "figures/250.jpg"
@@ -3416,7 +3416,7 @@ figure_list:
     src: "figures/410.jpg"
     # media_type: iiif
     label: "Figure 410"
-    caption: "The measurements of a sculpture will vary significantly depending on the position one chooses to make them in—choices that are particularly challenging when there is no obvious primary view, or when an object is fragmentary. For the sake of argument, Francesca Bewer positioned the rearing horse, flawed with its front legs missing, in several ways and measured the width and length, projecting the farthest points onto gridded paper, to show the variations. The uppermost gridded sketch reflects measurements taken with the horse in alignment with the paper (red lines correspond to the horse upright on its hind legs, the blue ones with it posed on all fours). The bottom two images show measuring done with the horse at an angle, first upright (lines in blue), then lowered (lines in red). The height, of course, will vary in relation to the position. Andrew Lacey (British, b. 1969), equine study demonstration model, 2004, H. 20.3 cm horse upright and 15.5 cm with legs lowered (private collection), cast by the artist in 2004 for experimental purposes at AMTeC (Ancient materials and technologies) Renaissance bronze workshop, Chatham Dockyard, UK."
+    caption: "The measurements of a sculpture will vary significantly depending on the position one chooses to make them in—choices that are particularly challenging when there is no obvious primary view, or when an object is fragmentary. For the sake of argument, Francesca G. Bewer positioned the rearing horse, flawed with its front legs missing, in several ways and measured the width and length, projecting the farthest points onto gridded paper, to show the variations. The uppermost gridded sketch reflects measurements taken with the horse in alignment with the paper (red lines correspond to the horse upright on its hind legs, the blue ones with it posed on all fours). The bottom two images show measuring done with the horse at an angle, first upright (lines in blue), then lowered (lines in red). The height, of course, will vary in relation to the position. Andrew Lacey (British, b. 1969), equine study demonstration model, 2004, H. 20.3 cm horse upright and 15.5 cm with legs lowered (private collection), cast by the artist in 2004 for experimental purposes at AMTeC (Ancient materials and technologies) Renaissance bronze workshop, Chatham Dockyard, UK."
 
   - id: "fig-411"
     src: "figures/411.jpg"
