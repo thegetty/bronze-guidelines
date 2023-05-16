@@ -19,7 +19,7 @@ See figs. 241, 243, 254, 276, 279, 280, 495.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#S2.3).
+Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#s2-3).
 
 {% endbackmatter %}
 

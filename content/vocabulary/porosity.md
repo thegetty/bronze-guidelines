@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#S1.3.1).'
+definition: 'A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#s1-3-1).'
 lang:
   de: Porosität
   fr: porosité

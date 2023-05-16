@@ -47,7 +47,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [defini
 
 ### **French**: *{{ lang.fr }}*
 
-Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même {% def "modèle" %}. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](/vol-2/4/#S1.1.1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
+Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même {% def "modèle" %}. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](/vol-2/4/#s1-1-1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
 {% backmatter %}
 
