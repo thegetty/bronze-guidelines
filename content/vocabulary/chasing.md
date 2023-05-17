@@ -115,6 +115,6 @@ Not reserved specifically for metals
 
     Source: {% cite "Formigli 2010" %}, 20f
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

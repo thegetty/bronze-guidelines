@@ -64,7 +64,7 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*rivestimento*](https://www.treccani.it/vocabolario/rivestimento) [definition 2]; {% cite "Battaglia 1961" %}, under [*rivestimento*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento); {% cite "Giuffredi 2006" %}, 221
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 
@@ -72,7 +72,7 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Alternate Translation
 
-- 涂料
+- <span lang="zh">涂料</span>
 
     Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
 

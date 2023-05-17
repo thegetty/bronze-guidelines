@@ -72,7 +72,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -80,7 +80,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- 芯撑
+- <span lang="zh">芯撑</span>
 
     Source: {% cite "Ming 2010" %}, 1572
 

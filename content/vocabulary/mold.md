@@ -104,7 +104,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*stampo*](http://www.treccani.it/vocabolario/stampo/) [definition 2c]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

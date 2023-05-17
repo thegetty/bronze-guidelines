@@ -94,10 +94,10 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
 Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translation
 
-- 主铸模
+- <span lang="zh">主铸模</span>
 
 </div>

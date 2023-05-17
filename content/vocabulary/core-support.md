@@ -80,7 +80,7 @@ Same as “core pin”
 
 - *supporto dell'anima di fusione*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

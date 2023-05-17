@@ -92,7 +92,7 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
     Source: {% cite "Morigi and Morigi 2008" %}, 3, 5
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -100,11 +100,11 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 #### Alternate Translations
 
-- 浇补
+- <span lang="zh">浇补</span>
 
     Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
 
-- 补铸
+- <span lang="zh">补铸</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
 

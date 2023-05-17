@@ -125,7 +125,7 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
     Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -133,15 +133,15 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
 #### Alternate Translations
 
-- 修整
+- <span lang="zh">修整</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
 
-- 清理
+- <span lang="zh">清理</span>
 
     Sources: {% cite "Ming 2010" %}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
 
-- 精整
+- <span lang="zh">精整</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
 

@@ -108,7 +108,7 @@ Used primarily in speech
 
     Threaded plug
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -116,7 +116,7 @@ Used primarily in speech
 
 #### Alternate Translation
 
-- 栓塞
+- <span lang="zh">栓塞</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
 

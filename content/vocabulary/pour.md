@@ -84,7 +84,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Sources: {% cite "Biringuccio [1540] 1977" %}, fols. 108–10
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -92,7 +92,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translation
 
-- 浇铸
+- <span lang="zh">浇铸</span>
 
     Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
 

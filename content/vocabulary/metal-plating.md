@@ -57,7 +57,7 @@ In German, *Plattierung* (the result) and *Plattieren* (the action) are specific
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*placcatura*](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, under [*placcatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

@@ -86,7 +86,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
     Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 48, 49
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -94,7 +94,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Alternate Translation
 
-- 芯范
+- <span lang="zh">芯范</span>
 
     Source: {% cite "Zhang 2010" %}, 82
 

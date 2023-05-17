@@ -80,7 +80,7 @@ Historical: {% cite "Boffrand 1743" %}, 15â€“17; {% cite "Mariette 1768" %}, 23â
 
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

@@ -82,11 +82,11 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*calco a tasselli*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*calco a tasselli*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translation
 
-- 范块
+- <span lang="zh">范块</span>
 
     Source: {% cite "Zhang 2010" %}, 80
 

@@ -79,7 +79,7 @@ Often specified by *a fusione* or *per fusione*
 
     Sources: {% cite "Formigli 2010" %}, 20
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

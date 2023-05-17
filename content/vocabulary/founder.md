@@ -150,7 +150,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
     Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -158,7 +158,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 #### Alternate Translation
 
-- 铸造工
+- <span lang="zh">铸造工</span>
 
     Source: {% cite "Ming 2010" %}, 1831
 

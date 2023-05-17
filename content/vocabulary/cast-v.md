@@ -103,7 +103,7 @@ Foundry-specific term that relates to the pouring of metal
 
     Sources: {% cite "Leonardo 1490" %}, fol. 143r; {% cite "Biringuccio [1540] 1977" %}, fols. 89vff
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

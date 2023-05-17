@@ -78,25 +78,25 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
 {% cite "Giuffredi 2006" %}, 144, 220; {% cite "Treccani n.d." "" "Treccani" %}, under [*patina*](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, under [*patina*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 This term is more commonly used in art historical references and means “an aged surface accumulated over time.”
 
 #### Alternate Translations
 
-- 铜绿
+- <span lang="zh">铜绿</span>
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “green corrosion on copper” and is used specifically for ancient works.
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
 
-- 铜锈
+- <span lang="zh">铜锈</span>
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
 
-- 陈年色泽
+- <span lang="zh">陈年色泽</span>
 
     More commonly used in art historical references, meaning “an aged surface accumulated over time”
 

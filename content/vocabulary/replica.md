@@ -102,7 +102,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riproduzione*](http://www.treccani.it/vocabolario/riproduzione) [definition 2]; {% cite "Battaglia 1961" %}, under [*riproduzione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione) [definition 2]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

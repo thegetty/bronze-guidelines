@@ -80,7 +80,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*punzone*](http://www.treccani.it/vocabolario/punzone/) [definition 3]; {% cite "Battaglia 1961" %}, under [*punzone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone) [definition 2]; {% cite "Cellini [1568] 1983" %}, 1, fol. 27
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

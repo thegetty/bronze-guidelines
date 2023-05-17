@@ -94,11 +94,11 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
     Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning.
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translation
 
-- 翻版
+- <span lang="zh">翻版</span>
 
     Source: {% cite "Ming 2010" %}, 310; TNATD
 

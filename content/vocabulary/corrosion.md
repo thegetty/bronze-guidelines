@@ -59,7 +59,7 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*corrosione*](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, under [*corrosione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione) [definition 2]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 
@@ -67,7 +67,7 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 #### Alternate Translation
 
-- 锈蚀
+- <span lang="zh">锈蚀</span>
 
     Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
 

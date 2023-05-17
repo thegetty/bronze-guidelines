@@ -89,7 +89,7 @@ General Dictionary: {% cite "Office québécois de la langue française. n.d." %
 #### Sources
 {% cite "Treccani n.d." "" "Treccani" %}, under [*bronzo*](http://www.treccani.it/vocabolario/bronzo/); {% cite "Treccani n.d." "" "Treccani" %} under [*bronzi e ottoni* and *bronzi artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*bronzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola) [definition 1]; {% cite "Biringuccio [1540] 1990" %}, fols. 80vff; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 Literally “copper-tin alloy”
 
@@ -99,7 +99,7 @@ Literally “copper-tin alloy”
 
 #### Alternate Translation
 
-- 青铜
+- <span lang="zh">青铜</span>
 
     This is a broad, colloquial term used for bronze.
 

@@ -125,7 +125,7 @@ Literally “line of joint”
 
 - *traccia dello stampo*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

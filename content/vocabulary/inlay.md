@@ -126,7 +126,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 138
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

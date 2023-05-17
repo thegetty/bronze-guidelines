@@ -103,7 +103,7 @@ Foundry-specific term
     
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 81
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -111,6 +111,6 @@ Foundry-specific term
 
 #### Alternate Translation
 
-- 铸品
+- <span lang="zh">铸品</span>
 
 </div>

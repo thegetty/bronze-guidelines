@@ -214,6 +214,10 @@ a.quire-definition__content__more-link {
 .quire-page__content .container .content ul li::before {
   line-height: 2;
 }
+/* Handle Chinese */
+[lang=zh] {
+  font-family: 'Noto Sans SC', sans-serif;
+}
 /* COVER
 ============================================================================= */
 

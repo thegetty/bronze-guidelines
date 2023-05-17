@@ -116,11 +116,11 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusion a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translation
 
-- 销钉
+- <span lang="zh">销钉</span>
 
     Sources: {% cite "Ming 2010" %}, 1559; [TNATD](https://terms.naer.edu.tw/detail/625481/?index=3)
 

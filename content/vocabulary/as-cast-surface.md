@@ -86,7 +86,7 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 - *grezzo*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

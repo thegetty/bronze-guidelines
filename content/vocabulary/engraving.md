@@ -73,7 +73,7 @@ Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*incisione*](http://www.treccani.it/vocabolario/incisione/) [definition 1]; {% cite "Battaglia 1961" %}, under [*incisione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 8]; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -81,7 +81,7 @@ Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 #### Alternate Translation
 
-- 雕刻
+- <span lang="zh">雕刻</span>
 
     Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
 

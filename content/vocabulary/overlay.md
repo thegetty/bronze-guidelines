@@ -106,7 +106,7 @@ A general term closer to “coating”
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riporto*](http://www.treccani.it/vocabolario/riporto/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*riporto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto) [definition 2, vol. 6, 68a]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -114,7 +114,7 @@ A general term closer to “coating”
 
 #### Alternate Translation
 
-- 覆盖
+- <span lang="zh">覆盖</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
 

@@ -107,7 +107,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione di oggetti artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 
@@ -115,7 +115,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 
-- 铸造性
+- <span lang="zh">铸造性</span>
 
     Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
 

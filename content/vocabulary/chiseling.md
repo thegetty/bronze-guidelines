@@ -67,7 +67,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
     Source: {% cite "Formigli 1999d" %}, 148
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 (v., n.)
 
@@ -77,12 +77,12 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 #### Alternate Translations
 
-- 錾 (v., n.)
+- <span lang="zh">錾</span> (v., n.)
 
     Source: {% cite "Ming 2010" %}, 1735
 
-- 镌  (v.)
+- <span lang="zh">镌</span>  (v.)
 
-- 雕  (v.)
+- <span lang="zh">雕</span>  (v.)
 
 </div>

@@ -55,7 +55,7 @@ Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*doratura*](http://www.treccani.it/vocabolario/doratura/); {% cite "Battaglia 1961" %}, under [*doratura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI04/GDLI_04_ocr_970.pdf&parola=doratura); {% cite "Cellini [1568] 1983" %}, 1, fol. 41
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 
@@ -63,7 +63,7 @@ Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
 #### Alternate Translation
 
-- 鎏金
+- <span lang="zh">鎏金</span>
 
     Although this literally translates to “gold-plating,” it is widely used to describe the technique of mercury gilding on ancient Chinese works.
 

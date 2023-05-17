@@ -79,10 +79,10 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 - *modello di fonderia*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translation
 
-- 铸模
+- <span lang="zh">铸模</span>
 
 </div>

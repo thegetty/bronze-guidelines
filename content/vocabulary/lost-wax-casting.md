@@ -95,7 +95,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera perduta*](http://www.treccani.it/vocabolario/cera1/)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -103,7 +103,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
 #### Alternate Translation
 
-- 失蜡铸造
+- <span lang="zh">失蜡铸造</span>
 
     Sources: {% cite "Ming 2010" %}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
 

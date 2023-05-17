@@ -178,7 +178,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 89
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -186,19 +186,19 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Alternate Translations
 
-- 浇口
+- <span lang="zh">浇口</span>
 
     Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
 
-- 竖浇道
+- <span lang="zh">竖浇道</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/941804/?index=1)
 
-- 铸口
+- <span lang="zh">铸口</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
 
-- 铸道
+- <span lang="zh">铸道</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
 

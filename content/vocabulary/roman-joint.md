@@ -80,6 +80,6 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *giuntura a innesto*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

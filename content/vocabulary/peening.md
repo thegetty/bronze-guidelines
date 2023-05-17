@@ -59,7 +59,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -67,7 +67,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Alternate Translation
 
-- 锤平
+- <span lang="zh">锤平</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
 

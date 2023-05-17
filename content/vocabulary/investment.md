@@ -123,15 +123,15 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*tunica*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Alternate Translations
 
-- 熔模材料
+- <span lang="zh">熔模材料</span>
 
     Source: {% cite "Ming 2010" %}, 1214
 
-- 耐火材料
+- <span lang="zh">耐火材料</span>
 
     Sources: {% cite "Ming 2010" %}, 1036; {% cite "Hua 2013" %}, 347
 

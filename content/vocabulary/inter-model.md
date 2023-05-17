@@ -88,6 +88,6 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

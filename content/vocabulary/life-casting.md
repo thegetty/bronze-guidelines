@@ -71,6 +71,6 @@ Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

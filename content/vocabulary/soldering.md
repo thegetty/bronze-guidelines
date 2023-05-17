@@ -99,7 +99,7 @@ A subset of *saldatura*
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1983" %}, fols. 37v–38
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 

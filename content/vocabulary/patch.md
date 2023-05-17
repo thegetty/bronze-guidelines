@@ -76,7 +76,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 1a]; {% cite "Battaglia 1961" %}, under [*tassello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 (v., n.)
 
@@ -86,17 +86,17 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translations
 
-- 补修料
+- <span lang="zh">补修料</span>
 
     Literally “material used as a patch”
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 
-- 补片
+- <span lang="zh">补片</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643120/)
 
-- 补缀 (v., n.)
+- <span lang="zh">补缀</span> (v., n.)
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 

@@ -98,7 +98,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: {% cite "Brunhuber 1988" %}
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -106,7 +106,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translation
 
-- 雕塑骨架
+- <span lang="zh">雕塑骨架</span>
 
     Source: TNATD
 

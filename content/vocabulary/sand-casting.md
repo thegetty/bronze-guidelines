@@ -97,7 +97,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione alla sabbia*](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 

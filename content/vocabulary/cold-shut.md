@@ -92,7 +92,7 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 - *solidificazione prematura*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -100,15 +100,15 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 #### Alternate Translations
 
-- 冷结
+- <span lang="zh">冷结</span>
 
     Source: {% cite "Ming 2010" %}, 883
 
-- 冷隔
+- <span lang="zh">冷隔</span>
 
     Source: {% cite "Ming 2010" %}, 883
 
-- 流界
+- <span lang="zh">流界</span>
 
     Source: [TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
 

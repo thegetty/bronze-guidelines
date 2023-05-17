@@ -111,7 +111,7 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
     Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -119,15 +119,15 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Translations
 
-- 溢料
+- <span lang="zh">溢料</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 溢边
+- <span lang="zh">溢边</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 飞边
+- <span lang="zh">飞边</span>
 
     Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 

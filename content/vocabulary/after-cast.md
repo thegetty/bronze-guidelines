@@ -101,6 +101,6 @@ Closest translation to *surmoulage*; could refer to the process as well as to th
 - *multiplo*
  
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

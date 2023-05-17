@@ -74,7 +74,7 @@ additional_contributors: |
     <td><a href="{{ page.url}}">{{ page.data.lang.fr }}</a></td>
     <td><a href="{{ page.url}}">{{ page.data.lang.de }}</a></td>
     <td><a href="{{ page.url}}">{{ page.data.lang.it }}</a></td>
-    <td><a href="{{ page.url}}">{{ page.data.lang.zh }}</a></td>
+    <td><a href="{{ page.url}}" lang="zh">{{ page.data.lang.zh }}</a></td>
   </tr>
 {% endfor %}
   </tbody>

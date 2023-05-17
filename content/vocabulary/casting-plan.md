@@ -51,6 +51,6 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}
 
 ### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

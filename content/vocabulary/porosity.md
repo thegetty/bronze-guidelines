@@ -73,7 +73,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 90
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -81,13 +81,13 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 #### Alternate Translations
 
-- 松孔
+- <span lang="zh">松孔</span>
 
-- 气孔巢
+- <span lang="zh">气孔巢</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625404/?index=3)
 
-- 砂眼
+- <span lang="zh">砂眼</span>
 
     Source: {% cite "Ming 2010" %}, 1247
 

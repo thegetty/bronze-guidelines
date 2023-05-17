@@ -90,18 +90,18 @@ A subset of *saldatura*
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Sources
 {% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
 
 #### Alternate Translations
 
-- 钎焊
+- <span lang="zh">钎焊</span>
 
     Source: {% cite "Ming 2010" %}, 1137, 1138
 
-- 铜焊
+- <span lang="zh">铜焊</span>
 
     Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
 

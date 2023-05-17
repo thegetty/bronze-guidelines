@@ -98,7 +98,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](link: http://www.treccani.it/vocabolario/soffiatura0 [definition 2a]
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 #### Source
 
@@ -106,11 +106,11 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Alternate Translations
 
-- 铸疵
+- <span lang="zh">铸疵</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
 
-- 铸造缺陷
+- <span lang="zh">铸造缺陷</span>
 
     Source: {% cite "Ming 2010" %}, 1832
 

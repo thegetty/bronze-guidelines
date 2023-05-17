@@ -116,7 +116,7 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
 ### **Italian**: *{{ lang.it }}*
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 {% backmatter %}
 
@@ -130,15 +130,15 @@ Note: This term has several translations, including “chaplet,” “shim,” �
 
 #### Alternate Translations
 
-- 撑头
+- <span lang="zh">撑头</span>
 
     Source: {% cite "Ming 2010" %}, 141
 
-- 芯撐
+- <span lang="zh">芯撐</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
 
-- 金属撑子
+- <span lang="zh">金属撑子</span>
 
     Source: {% cite "Ming 2010" %}, 141
 
