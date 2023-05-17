@@ -35,8 +35,11 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 ## To Be Distinguished From
 
 - *coating*
+
 - *damascene*
+
 - *incrustation*
+
 - *inlay*
 
 ## Synonyms

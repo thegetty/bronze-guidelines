@@ -39,6 +39,7 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 - *Roman join* (alternate spelling)
 
 - *sleeve join*
+
 - *socket and tenon join*
 
 ## Translations {.is-screen-only}

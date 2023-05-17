@@ -36,7 +36,9 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 ## To Be Distinguished From
 
 - *finning*
+
 - *flashing*
+
 - *veining*
 
 ## Translations {.is-screen-only}

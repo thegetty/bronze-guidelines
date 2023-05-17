@@ -37,8 +37,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 ## To Be Distinguished From
 
 - *encrustation*
+
 - *foil*
+
 - *incrustation*
+
 - *overlay*
 
 ## Synonyms

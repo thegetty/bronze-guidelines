@@ -62,11 +62,17 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 #### To Be Distinguished From
 
 - *ciseler*
+
 - *parachèvement*
+
 - *réparage*
+
 - *réparure*
+
 - *travail au ciseau*
+
 - *ébarbage*
+
 - *ébavurage*
 
 #### Sources

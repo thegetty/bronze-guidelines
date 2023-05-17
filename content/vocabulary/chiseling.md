@@ -46,6 +46,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 #### To Be Distinguished From
 
 - *ciselure*
+
 - *ciselure-réparure*
 
 ### **German**: *{{ lang.de }}*

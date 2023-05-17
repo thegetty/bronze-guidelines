@@ -37,8 +37,11 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## To Be Distinguished From
 
 - *core nail*
+
 - *core pin*
+
 - *core rod*
+
 - *{% def "core support" %}*
 
 ## Synonyms
@@ -68,12 +71,19 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 #### To Be Distinguished From
 
 - *broche*
+
 - *clou*
+
 - *clou distanciateur*
+
 - *distanciateur*
+
 - *fer*
+
 - *fer de maintien*
+
 - *fer de soutien*
+
 - *fer à noyau*
 
 #### Alternate Translations

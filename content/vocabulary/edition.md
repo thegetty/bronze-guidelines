@@ -33,8 +33,11 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 19
 ## To Be Distinguished From
 
 - *copy*
+
 - {% def "replica" "*replica*" %}
+
 - *version*
+
 - {% def "variant" "*variant*" %}
 
 ## Synonym

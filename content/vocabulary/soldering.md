@@ -40,9 +40,13 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 ## To Be Distinguished From
 
 - *brazing*
+
 - *flow fusion welding*
+
 - *flow welding*
+
 - *fusion welding*
+
 - {% def "welding" "*welding*" %}
 
 ## Translations {.is-screen-only}

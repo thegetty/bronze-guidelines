@@ -39,6 +39,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [defini
     Note: A “copy” is understood here to refer to a cast that reproduces the features of a model or bronze, but is not created by the original artist of the model or bronze, or {% def "cast (v.)" "cast" %} by a licensed or sanctioned foundry.
 
 - {% def "variant" "*variant*" %}
+
 - *version*
 
 ## Translations {.is-screen-only}
@@ -58,6 +59,7 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
 #### To Be Distinguished From
 
 - *copie*
+
 - *réplique*
 
     « Réplique » et le terme anglais « replica » sont ce qu’il convient d’appeler des faux amis. La réplique diffère de son modèle par les dimensions, le matériau ou les deux à la fois ({% cite "Baudry and Bozo 1978" %}, 549), ce qui n’est pas le cas de la « replica » (traduite par « épreuve d’édition »).
@@ -67,6 +69,7 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
     Une reproduction est techniquement identique à une épreuve d'édition, mais différent : juridiquementé : une “épreuve d'édition” est considérée comme un original, une reproduction non.
 
 - *variante*
+
 - *version*
 
 #### Source

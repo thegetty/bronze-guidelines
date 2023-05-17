@@ -26,7 +26,9 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 ## To Be Distinguished From
 
 - *fluidity*
+
 - *fusibility*
+
 - *viscosity*
 
 ## Synonym
@@ -46,7 +48,9 @@ Aptitude d’un métal à remplir un {% def "moule réfractaire" %} dans tous se
 #### To Be Distinguished From
 
 - *fluidité*
+
 - *fusibilité*
+
 - *viscosité*
 
 #### Sources

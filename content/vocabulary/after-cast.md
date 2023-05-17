@@ -33,11 +33,13 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## To Be Distinguished From
 
 - *copy*
+
 - {% def "replica" "*replica*" %}
 
 ## Synonyms
 
 - *aftercast*
+
 - *surmoulage*
 
     The French term *surmoulage* is often used in English texts.
@@ -59,8 +61,11 @@ Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({%
 #### To Be Distinguished From
 
 - *copie*
+
 - *réplique*
+
 - *variante*
+
 - *version*
 
 #### Sources

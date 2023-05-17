@@ -38,10 +38,15 @@ Other: {% cite "Scott 1991" %}, 138
 ## To Be Distinguished From
 
 - *flow fusion welding*
+
 - *flow welding*
+
 - *fusion welding*
+
 - *repair*
+
 - {% def "soldering" "*soldering*" %}
+
 - *welding*
 
 ## Translations {.is-screen-only}

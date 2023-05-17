@@ -52,15 +52,25 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 #### To Be Distinguished From
 
 - *balesvre*
+
 - *balevre*
+
 - *barbe*
+
 - *barbure*
+
 - *bavochure*
+
 - *bavure*
+
 - *bavure de joint*
+
 - *couture*
+
 - *suture*
+
 - *toiles*
+
 - *ébarbure*
 
 #### Sources

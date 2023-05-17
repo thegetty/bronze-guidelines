@@ -26,8 +26,11 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% ci
 ## To Be Distinguished From
 
 - {% def "after-cast" "*after-cast*" %}
+
 - *aftercast*
+
 - {% def "replica" "*replica*" %}
+
 - *surmoulage*
 
 ## Synonym

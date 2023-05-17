@@ -35,6 +35,7 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Synonyms
 
 - *fire-resistant mold*
+
 - *heat-resistant mold*
 
 ## Translations {.is-screen-only}

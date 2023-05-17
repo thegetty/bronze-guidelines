@@ -210,6 +210,10 @@ a.quire-definition__content__more-link {
   line-height: 1.3;
   font-style: italic;
 }
+/* Ensure bullets line up with text */
+.quire-page__content .container .content ul li::before {
+  line-height: 2;
+}
 /* COVER
 ============================================================================= */
 
@@ -696,9 +700,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-bottom: .25em;
 }
 @media screen {
-  .quire-page.vocabulary .quire-page__content .content .accordion li::before {
-    margin-top: 5px;
-  }
   .quire-page.vocabulary #accordion-controls li {
     margin-left: 1em;
   }

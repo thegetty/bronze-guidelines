@@ -35,6 +35,7 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 ## To Be Distinguished From
 
 - *fire scale*
+
 - *fire-skin*
 
 ## Translations {.is-screen-only}
