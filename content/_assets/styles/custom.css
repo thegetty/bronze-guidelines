@@ -1665,7 +1665,8 @@ table .poor { background-color: #F2F9F1; }
     padding-left: 0;
   }
   .quire-page.vocabulary h4 {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    font-style: normal;
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {
