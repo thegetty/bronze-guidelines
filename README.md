@@ -110,6 +110,9 @@ increased print-image.jpg size
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
 
+**_plugins/filters/fullname.js**
+Join names with a non-breaking space.
+
 **_plugins/filters/getContributor.js**
 Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
 
