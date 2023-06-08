@@ -12,7 +12,10 @@ const { warn } = chalkFactory('eleventyComputed')
  * Global computed data
  */
 module.exports = {
-  canonicalURL: ({ publication, page }) => page.url && path.join(publication.url, page.url),
+  canonicalURL: ({ publication, page }) => {
+    const pageUrl = page.url.replace(/^\/+/, '')
+    return new URL(pageUrl, publication.url).href
+  },
   eleventyNavigation: {
     /**
      * Explicitly define page data properties used in the TOC
@@ -83,7 +86,7 @@ module.exports = {
     return collections.all.find(({ url }) => url === page.url)
   },
   /**
-   * Figures data for figures referenced by id in page frontmatter
+   * Figures data for figures referenced by id in page frontmatter 
    */
   pageFigures: ({ figure, figures }) => {
     if (!figure || !figure.length) return

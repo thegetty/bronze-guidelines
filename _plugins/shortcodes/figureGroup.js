@@ -38,14 +38,20 @@ module.exports = function (eleventyConfig, { page }) {
 
     const gridClass = `quire-grid-${columns}`
 
-    let figures = '';
-    for (let i=0; i < ids.length; i++) {
-      figures += await figure(eleventyConfig, { page })(ids[i]);
+    const rows = 1
+    let figureTags = []
+    for (let i=0; i < rows; ++i) {
+      const startIndex = i * columns
+      let row = ''
+      for (let id of ids) {
+        row += await figure(eleventyConfig, { page }).bind(this)(id)
+      }
+      figureTags.push(`${row}`)
     }
 
     return html`
       <figure class="${['q-figure', 'q-figure--group', gridClass].join(' ')}">
-        ${figures}
+        ${figureTags.join('\n')}
       </figure>
     `
 }

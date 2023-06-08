@@ -1,6 +1,6 @@
+import Accordion from './accordion'
 import poll from './poll'
 import scrollToHash from './scroll-to-hash'
-import { intersectionObserverFactory } from './intersection-observer-factory'
 
 /**
  * Get annotation data from annotaitons UI input element
@@ -22,14 +22,21 @@ const annotationData = (input) => {
  * @return {String} canvasId
  */
 const getServiceId = (element) => {
+  if (!element) return
+
   const canvasPanel = element.querySelector('canvas-panel')
+  const imageSequence = element.querySelector('image-sequence')
   const imageService = element.querySelector('image-service')
+
   if (canvasPanel) {
     return canvasPanel.getAttribute('canvas-id')
   } else if (imageService) {
     return imageService.getAttribute('src')
+  } else if (imageSequence) {
+    return imageSequence.getAttribute('sequence-id')
   } else {
-    console.error(`Element does not contain a canvas panel or image service component:`, element)
+    // console.info(`Hash does not reference a canvas panel or image service component:`, element)
+    return
   }
 }
 
@@ -54,7 +61,7 @@ const getTarget = (region) => {
  * @param  {Array} annotationIds  The IIIF ids of the annotations to select
  * @param  {String} region      The canvas region
  */
-const goToFigureState = function ({ annotationIds=[], figureId, region }) {
+const goToFigureState = function ({ annotationIds=[], figureId, index, region }) {
   if (!figureId) {
     console.error(`goToFigureState called without an undefined figureId`)
     return
@@ -65,7 +72,8 @@ const goToFigureState = function ({ annotationIds=[], figureId, region }) {
   const figureSlide = document.querySelector(slideSelector)
   const serviceId = getServiceId(figure || figureSlide)
 
-  if (!figure && !figureSlide) return
+  // return if id does not reference a figure
+  if ((!figure && !figureSlide) || !serviceId) return
 
   const inputs = document.querySelectorAll(`#${figureId} .annotations-ui__input, [data-lightbox-slide-id="${figureId}"] .annotations-ui__input`)
   const annotations = [...inputs].map((input) => {
@@ -79,10 +87,14 @@ const goToFigureState = function ({ annotationIds=[], figureId, region }) {
     lightbox.currentId = figureId
   }
 
+  Accordion.elements.forEach((element) => {
+    if (element.contains(figure)) element.setAttribute('open', true)
+  })
+
   /**
    * Update figure state
    */
-  update(serviceId, { annotations, region: region || 'reset' })
+  update(serviceId, { annotations, index, region })
 
   /**
    * Build URL
@@ -195,20 +207,14 @@ const setUpUIEventHandlers = () => {
     let annotationIds = annoRef.getAttribute('data-annotation-ids')
     annotationIds = annotationIds.length ? annotationIds.split(',') : undefined
     const figureId = annoRef.getAttribute('data-figure-id')
+    const index = annoRef.getAttribute('data-index')
     /**
      * Annoref shortcode resets the region if none is provided
      */
     const region = annoRef.getAttribute('data-region')
-
-    const onscroll = annoRef.getAttribute('data-on-scroll')
-    if (onscroll === 'true') {
-      const callback = () => goToFigureState({ annotationIds, figureId, region })
-      intersectionObserverFactory(annoRef, callback)
-    } else {
-      annoRef.addEventListener('click', ({ target }) =>
-        goToFigureState({ annotationIds, figureId, region })
-      )
-    }
+    annoRef.addEventListener('click', ({ target }) => {
+      goToFigureState({ annotationIds, figureId, index, region })
+    })
   }
 
   /**
@@ -230,18 +236,22 @@ const setUpUIEventHandlers = () => {
  * @property {Array<Object>} annotations
  */
 const update = (id, data) => {
-  const webComponents = document.querySelectorAll(`canvas-panel[canvas-id="${id}"], image-service[src="${id}"]`)
+  const webComponents = document.querySelectorAll(`canvas-panel[canvas-id="${id}"], image-service[src="${id}"], image-sequence[sequence-id="${id}"]`)
   if (!webComponents.length) {
     console.error(`Failed to call update on canvas panel or image-service component with id ${id}. Element does not exist.`)
   }
-  const { annotations, region } = data
+  const { annotations, index, region } = data
   webComponents.forEach((element) => {
 
-    if (region) {
-      const target =
-        region === 'reset'
-          ? getTarget(element.getAttribute('region'))
-          : getTarget(region)
+    const isImageSequence = element.tagName.toLowerCase() === 'image-sequence'
+    if (index && isImageSequence) {
+      element.setAttribute('index', index)
+    }
+
+    if (region && !isImageSequence) {
+      const target = region && region !== 'reset'
+        ? getTarget(region)
+        : getTarget(element.getAttribute('region'))
       element.transition(tm => {
         tm.goToRegion(target, {
           transition: {

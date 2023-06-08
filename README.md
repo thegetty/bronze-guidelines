@@ -65,8 +65,7 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 ## Customizations Made to 11ty Templates/Files
 
 **_includes/components/figure/caption.js**
-**_includes/components/figure/media-embed-url.js**
-Fixed/adjusted output of Vimeo URL for PDF output
+Remove hard-coded `<em>` tags
 
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
@@ -129,13 +128,6 @@ Rewrote to output a wrapped set of figures, not broken down into rows.
 Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig-5', 'fig-6' %}`, add class .q-figure__modal-link to links so they'll open in the modal, remove "and" from list, and trim extra zeros if figure ids.
 
 **_plugins/shortcodes/index.js**
-
-**_plugins/shortcodes/warn.js**
-Custom shortcode to wrap content in a `<div>` with a "warn" class.
-
-**_plugins/transforms/outputs/pdf/layout.html**
-**_plugins/transforms/outputs/pdf/write.js**
-Add needed divs and classes for styling pdf.
 
 **content/_computed/eleventyComputed.js**
 Add page tags and presentation values as classes, and contributor_as_it_appears as data item

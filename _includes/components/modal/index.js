@@ -1,7 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // added .q-lightbox--modal class in order to style the modal lightbox
-// differently than the non-modal lightbox, line 27
+// differently than the non-modal lightbox, line 23
 //
 const { html } = require('~lib/common-tags')
 
@@ -11,11 +11,11 @@ const { html } = require('~lib/common-tags')
  * @param      {Object}  eleventyConfig
  * @param      {Object}  globalData
  */
-module.exports = function (eleventyConfig, { page }) {
+module.exports = function (eleventyConfig) {
   const lightboxSlides = eleventyConfig.getFilter('lightboxSlides')
   const lightboxUI = eleventyConfig.getFilter('lightboxUI')
 
-  return async function (figures=page.figures) {
+  return async function (figures) {
     if (!figures) return
 
     return html`
