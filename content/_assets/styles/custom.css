@@ -356,30 +356,64 @@ a.quire-definition__content__more-link {
     margin-left: 6rem;
     margin-right: 3rem;
   }
-  /* Set grid, text to the left, figuregroups to right, headers span across */
-  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
+  .quire-page.full-width .accordion-section {
+    margin: 0;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section {
+    margin-top: .5rem;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section + .accordion-section {
+    margin-top: 0;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section:last-child {
+    margin-bottom: 1.5rem;
+  }
+  .quire-page.full-width .accordion-section[open] > summary :is(h2, h3, h4, h5, h6),
+  .quire-page.full-width .accordion-section[open] > summary::after {
+    color: var(--green-wax);
+  }
+  .quire-page.full-width .quire-page__content .accordion-section__body,
+  .quire-page.full-width .quire-page__content .non-accordion-section__body {
     column-gap: 2rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
   }
-  .quire-page.full-width .quire-page__content .content section > * {
+  .quire-page.full-width .quire-page__content .accordion-section__body > *,
+  .quire-page .quire-page__content .non-accordion-section__body > * {
     grid-column-start: 1;
   }
-  .quire-page.full-width .quire-page__content .content section > figure {
+  .quire-page.full-width .quire-page__content .accordion-section__body > figure,
+  .quire-page .quire-page__content .non-accordion-section__body > figure {
     grid-column-start: 2;
-    grid-row: 2/100;
-    margin-top: 0;
+    grid-row: 1/100;
+    margin-top: .5rem;
+    margin-bottom: 0;
   }
-  .quire-page.full-width .quire-page__content .content section > .accordion-wrapper > figure,
-  .quire-page.full-width .quire-page__content .content section.display-accordion > figure,
-  .quire-page.full-width .quire-page__content .content section.intro-with-figures > figure {
-    grid-row-start: 1;
+  .quire-page.full-width .quire-page__content .accordion-section__body > details.accordion-section {
+    grid-column: 1/-1;
   }
-  .quire-page.full-width .quire-page__content .content section > section,
-  .quire-page.full-width .quire-page__content .content section > h2,
-  .quire-page.full-width .quire-page__content .content section > h3,
-  .quire-page.full-width .quire-page__content .content section > h4 {
-    grid-column-end: -1;
+  .quire-page.full-width .quire-page__content .non-accordion-section__body {
+    margin-bottom: 1.25rem;
+  }
+  .quire-page.full-width .accordion-section__heading > :is(h3, h4, h5, h6) {
+    margin-bottom: 1rem;
+    margin-top: 0 !important;
+    width: auto;
+    line-height: 1.7875rem;
+  }
+  .quire-page.full-width h2,
+  .quire-page.full-width #section-notes {
+    margin-top: 4.5rem !important;
+  }
+  .quire-page.full-width .accordion-section__heading h2 {
+    margin-top: 0 !important;
+  }
+  .accordion-section__controls::after {
+    height: 100%;
+    text-indent: 0;
+  }
+  .quire-page.full-width #section-notes  .accordion-section__controls::after {
+    line-height: 1.3;
   }
   @media screen and (max-width:810px) {
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
@@ -387,33 +421,18 @@ a.quire-definition__content__more-link {
     }
   }
   @media screen and (max-width:640px) {
-    .quire-page.full-width .quire-page__content .content section {
+    .quire-page.full-width .quire-page__content .accordion-section__body,
+    .quire-page .quire-page__content .non-accordion-section__body {
       display: block;
     }
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
       column-count: 3;
-      margin-bottom: 1rem;
-      margin-top: 1.5rem;
     }
   }
   @media screen and (max-width:500px) {
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
       column-count: 2;
     }
-  }
-  /* Ensure proper spacing between sections */
-  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
-    margin-bottom: .75rem;
-  }
-  .quire-page.full-width .quire-page__content .content h2 + section {
-    margin-top: .75rem;
-  }
-  /* Adjusting the first section of the innermost nested group */
-  .quire-page.full-width .quire-page__content .content section section section * + section {
-    margin-top: .5rem;
-  }
-  .quire-page.full-width .quire-page__content .content section section section section + section {
-    margin-top: 0rem;
   }
 }
 @media screen and (min-width:1592px) {
@@ -429,12 +448,13 @@ a.quire-definition__content__more-link {
 ============================================================================= */
 @media screen {
   /* The .indented-heading and .section-number classes are added in custom.js */
-  .quire-page.full-width .content .indented-heading,
-  .quire-page.interview .content h2:not(.no-indent) {
+  .quire-page.full-width .content .indented-heading {
     text-indent: -6rem;
   }
-  .quire-page.full-width .content .indented-heading .section-number,
-  .quire-page.interview .content h2:not(.no-indent) .section-number {
+  .quire-page.full-width .content summary.indented-heading {
+    text-indent: -8rem;
+  }
+  .quire-page.full-width .content .indented-heading .section-number {
     width: 6rem;
     display: inline-block;
     text-align: right;
@@ -447,7 +467,6 @@ a.quire-definition__content__more-link {
   }
   .quire-page.full-width .quire-page__content .container .content ul li::before {
     font-size: 1rem;
-    margin-top: .2rem;
     margin-left: -2.7rem;
   }
   .quire-page.full-width .quire-page__content .container .content li ul,
@@ -580,10 +599,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 
 /* Expand and Collapse All buttons */
-.quire-page.full-width #accordion-controls,
-.quire-page.interview #accordion-controls {
+.quire-page.full-width .global-accordion-controls {
   position: fixed;
-  bottom: 0;
   right: 0;
   background-color: var(--black);
   border-top-left-radius: 4px;
@@ -592,26 +609,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
   z-index: 1;
   height: 2.9rem;
   bottom: -2.9rem;
-  transition: bottom 1s;
+  transition: bottom 500ms;
+  margin-bottom: 0;
+  padding-left: .75rem;
+  padding-right: 2.25rem;
 }
-.quire-page.full-width #accordion-controls.show-controls,
-.quire-page.interview #accordion-controls.show-controls {
+.quire-page.full-width .global-accordion-controls.show-controls {
   bottom: 0;
 }
-.quire-page.full-width #accordion-controls li,
-.quire-page.interview #accordion-controls li {
-  display: inline-block;
-  padding: .5rem 1.5rem;
-  height: 100%;
-}
-.quire-page.vocabulary #accordion-controls {
-  font-size: .875rem;
-  height: 1rem;
-  display: flex;
-  justify-content: flex-end;
-}
-.quire-page.vocabulary #accordion-controls li::before {
-  content: '' !important;
+.quire-page.full-width .global-accordion-controls button {
+  margin: 0;
+  color: var(--white);
+  text-decoration: none;
+  font-size: inherit;
+  padding: 0 .75rem;
 }
 
 /*  VOCABULARY PAGES
