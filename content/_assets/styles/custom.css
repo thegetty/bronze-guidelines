@@ -106,7 +106,7 @@ CHOICES LABEL COLORS
   line-height: 1.3;
 }
 /* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
-.quire-page__content section#additional-figures {
+.quire-page__content div#additional-figures {
   display: none;
 }
 /* Hide contributor page links */
@@ -365,6 +365,9 @@ a.quire-definition__content__more-link {
   .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section + .accordion-section {
     margin-top: 0;
   }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section .accordion-section__body {
+    margin-bottom: 1.25rem;
+  }
   .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section:last-child {
     margin-bottom: 1.5rem;
   }
@@ -400,6 +403,9 @@ a.quire-definition__content__more-link {
     margin-top: 0 !important;
     width: auto;
     line-height: 1.7875rem;
+  }
+  .quire-page.full-width .accordion-section__heading > h2 {
+    width: auto;
   }
   .quire-page.full-width h2,
   .quire-page.full-width #section-notes {
@@ -464,6 +470,10 @@ a.quire-definition__content__more-link {
   .quire-page.full-width .quire-page__content .container .content ul,
   .quire-page.full-width .quire-page__content .container .content ul li {
     margin-left: 0;
+    margin-top: 0;
+  }
+  .quire-page.full-width .quire-page__content .container .content ul li:last-child {
+    margin-bottom: 0;
   }
   .quire-page.full-width .quire-page__content .container .content ul li::before {
     font-size: 1rem;
