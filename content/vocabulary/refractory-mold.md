@@ -41,8 +41,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Moule en matériau réfractaire pour la {% def "coulée" %}.
 
@@ -76,7 +77,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -88,7 +90,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Also refers to investment
 
@@ -130,10 +133,13 @@ Also refers to investment
 
 - *stampo refrattario*
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 1037
+
+{% endaccordion %}
 
 </div>

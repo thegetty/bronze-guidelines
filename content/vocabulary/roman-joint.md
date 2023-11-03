@@ -45,8 +45,9 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
 
@@ -64,13 +65,15 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *assemblage par tenon et mortaise*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Willer, Schwab, and Mirschenz 2016b" %}, 122, 128, 186
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
@@ -79,6 +82,8 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 #### Alternate Translation
 
 - *giuntura a innesto*
+
+{% endaccordion %}
 
 ### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 

@@ -42,8 +42,9 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}, 312; {% cite "Untrach
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au {% def "brasage" %} qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
@@ -57,13 +58,15 @@ Note: L’assemblage peut se faire sans apport de métal, par soudure dite autog
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Murry 1994" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 18
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Often specified by *a fusione* or *per fusione*
 
@@ -79,10 +82,13 @@ Often specified by *a fusione* or *per fusione*
 
     Sources: {% cite "Formigli 2010" %}, 20
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
 {% cite "Ming 2010" %}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
+
+{% endaccordion %}
 
 </div>

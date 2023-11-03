@@ -37,8 +37,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model> [definiti
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, {% def "épreuve d’édition" "réplique" %}, épreuve en cire, etc.).
 
@@ -56,13 +57,15 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23–26, 69; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Fleming and Tilch 1993" %}, 127
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -80,10 +83,13 @@ Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23�
 
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Hua 2013" %}
+
+{% endaccordion %}
 
 </div>

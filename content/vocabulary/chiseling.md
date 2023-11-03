@@ -38,8 +38,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling> [defi
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la {% def "ciselure" %}. Il n’existe *a priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
 
@@ -49,13 +50,15 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 - *ciselure-réparure*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Bol 1985" %}, 139
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -67,7 +70,8 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
     Source: {% cite "Formigli 1999d" %}, 148
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 (v., n.)
 
@@ -84,5 +88,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 - <span lang="zh">镌</span>  (v.)
 
 - <span lang="zh">雕</span>  (v.)
+
+{% endaccordion %}
 
 </div>

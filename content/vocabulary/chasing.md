@@ -48,8 +48,9 @@ Other: {% cite "Van Langh 2012" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
@@ -87,13 +88,15 @@ Art and Craft Textbooks: {% cite "De Bois 1999" %}, 16; {% cite "Rama 1988" %}, 
 
 - *ciselure-réparure*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Not reserved specifically for metals
 
@@ -114,6 +117,8 @@ Not reserved specifically for metals
 - *ritocco a freddo* (ritocco a freddo di dettagli)
 
     Source: {% cite "Formigli 2010" %}, 20f
+
+{% endaccordion %}
 
 ### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 

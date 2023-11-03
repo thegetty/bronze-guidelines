@@ -42,8 +42,9 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un {% def "moule réfractaire" %}, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
@@ -57,7 +58,8 @@ Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé
 
 Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -69,7 +71,9 @@ Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
     Source: {% cite "Uhlenhuth 1920" %}, 51–53
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+
+### **Italian**: <span lang="it">{{ lang.it }}</span>
 
 ### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 

@@ -32,8 +32,9 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "fonte à la cire perdue" "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
 
@@ -63,13 +64,15 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Maaz 2010" %}, 671
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
@@ -79,10 +82,13 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 - *modello di fonderia*
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
 - <span lang="zh">铸模</span>
+
+{% endaccordion %}
 
 </div>

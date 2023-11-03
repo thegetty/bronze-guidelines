@@ -36,8 +36,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity> [defin
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 {% def "Défaut de fonderie" %} caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
 
@@ -53,13 +54,15 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 646; {% cite "Bewer, Bourg
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
-## Source
+#### Source
 
 {% cite "Brunhuber 1988" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -73,7 +76,8 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 90
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -90,5 +94,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 - <span lang="zh">砂眼</span>
 
     Source: {% cite "Ming 2010" %}, 1247
+
+{% endaccordion %}
 
 </div>

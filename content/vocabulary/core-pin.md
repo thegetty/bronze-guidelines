@@ -53,8 +53,9 @@ Art and Craft Textbook: {% cite "Rome and Young 2003" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Tige ou clou, parfois fil, généralement en fer servant à maintenir le {% def "noyau" %} en place dans le {% def "moule réfractaire" %} lors de la {% def "coulée" %}.
 
@@ -92,13 +93,15 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - *fer de soutien*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source 
 
@@ -116,12 +119,15 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusion a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29)
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
 - <span lang="zh">销钉</span>
 
     Sources: {% cite "Ming 2010" %}, 1559; [TNATD](https://terms.naer.edu.tw/detail/625481/?index=3)
+
+{% endaccordion %}
 
 </div>

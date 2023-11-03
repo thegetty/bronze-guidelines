@@ -36,8 +36,9 @@ Cultural Heritage: {% cite "Lechtman and Steinberg 1970" %}; {% cite "Dillon 200
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Joint métal-métal faisant intervenir du métal liquide ({% def "brasage" %} ou {% def "soudage" "soudage par fusion" %}), par opposition à joint mécanique.
 
@@ -47,13 +48,15 @@ Note: Ce terme a été introduit par les membres de CAST:ING – et reste débat
 
 {% endbackmatter %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Alternate Translation
 
 - *metallische Verbindung*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -75,10 +78,13 @@ Sources: {% cite "Formigli 2010" %}, 20; {% cite "Formigli 1999c" %}, 318–19
 
     {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, under [*saldatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Formigli 2010" %}, 19
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 1643
+
+{% endaccordion %}
 
 </div>

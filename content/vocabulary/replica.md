@@ -45,8 +45,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [defini
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Epreuve en plusieurs exemplaires obtenus de la même façon et à partir d’un même {% def "modèle" %}. Les dimensions sont conservées peu ou prou, compte tenu des retraits possibles (voir [II.4§1.1.1](/vol-2/4/#s1-1-1)). La série de ces épreuves constitue l'édition du modèle. Une édition peut être en nombre limité, ou illimité.
 
@@ -82,13 +83,15 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Maaz 2010" %}, 720
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Alternate Translations
 
@@ -102,10 +105,13 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riproduzione*](http://www.treccani.it/vocabolario/riproduzione) [definition 2]; {% cite "Battaglia 1961" %}, under [*riproduzione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione) [definition 2]
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
 {% cite "Ming 2010" %}, 457; [TNATD](https://terms.naer.edu.tw/detail/625076/?index=1)
+
+{% endaccordion %}
 
 </div>

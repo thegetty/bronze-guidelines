@@ -45,8 +45,9 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Partie intégrante du {% def "noyau" %} ou partie rajoutée ({% def "fonte au sable" %}), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la {% def "couler" "coulée" %}.
 
@@ -68,11 +69,13 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
 
-### **Italian**: *{{ lang.it }}*
+### **German**: <span lang="de">{{ lang.it }}</span>
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -83,5 +86,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 - <span lang="zh">芯撑</span>
 
     Source: {% cite "Ming 2010" %}, 1572
+
+{% endaccordion %}
 
 </div>

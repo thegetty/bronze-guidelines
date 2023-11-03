@@ -41,8 +41,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
@@ -96,7 +97,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
     Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -122,7 +124,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
     This designates the operator standing next to the furnace and deciding when to pour the molten metal into the mold.
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Many sources used the general terms *artefice* or *maestro* to refer to founders.
 
@@ -150,7 +153,8 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
     Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -161,5 +165,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 - <span lang="zh">铸造工</span>
 
     Source: {% cite "Ming 2010" %}, 1831
+
+{% endaccordion %}
 
 </div>

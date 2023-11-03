@@ -39,8 +39,9 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Défaut non intentionnel dans l’objet survenant lors de la {% def "coulée" %}.
 
@@ -66,9 +67,11 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
 
-### **Italian**: *{{ lang.it }}*
+### **German**: <span lang="de">{{ lang.it }}</span>
+
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -98,7 +101,8 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](link: http://www.treccani.it/vocabolario/soffiatura0 [definition 2a]
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -113,5 +117,7 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 - <span lang="zh">铸造缺陷</span>
 
     Source: {% cite "Ming 2010" %}, 1832
+
+{% endaccordion %}
 
 </div>

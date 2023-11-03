@@ -39,8 +39,9 @@ Art and Craft Textbook: {% cite "Fishlock 1962" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Le terme patine recouvre plusieurs sens. 1) Désigne la belle surface aussi bien d’un bronze, d’un marbre que d’un meuble en bois, colorée par le temps. 2) Désigne, pour un bronze, les couches non métalliques de surface issues de la transformation chimique du métal par l’action de l’homme et/ou du temps ({% def "corrosion" %}) ({% cite "Baudry and Bozo 1978" %}, 634; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Robbiola 2015" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}). 3) Peut parfois désigner (surtout en anglais), en sus des couches transformées, toute couche de surface présente sur un bronze (vernis, etc.) ({% cite "Aucouturier et al. 2003" %}).
 
@@ -66,19 +67,22 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
     Source: Historical: {% cite "Félibien 1690" %}, 334
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Giuffredi 2006" %}, 144, 220; {% cite "Treccani n.d." "" "Treccani" %}, under [*patina*](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, under [*patina*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 This term is more commonly used in art historical references and means “an aged surface accumulated over time.”
 
@@ -101,5 +105,7 @@ This term is more commonly used in art historical references and means “an age
     More commonly used in art historical references, meaning “an aged surface accumulated over time”
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
+
+{% endaccordion %}
 
 </div>

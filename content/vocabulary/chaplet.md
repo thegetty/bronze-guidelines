@@ -57,8 +57,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Petite plaque métallique disposée sur le {% def "noyau" %} ou sur la paroi interne du {% def "moule réfractaire" %} pour maintenir le noyau en place lors de la {% def "coulée" %}, et dont l’épaisseur déterminera l’épaisseur de la {% def "fonte" %}.
 
@@ -102,7 +103,8 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
     Sources: Copper Industry: {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -114,9 +116,11 @@ Note: Dans la mesure ou aucun terme spécifique n’existait à notre connaissan
 
     Source: {% cite "Willer 1994" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+{% accordion chinese "zh" %}
 
 {% backmatter %}
 
@@ -141,5 +145,7 @@ Note: This term has several translations, including “chaplet,” “shim,” �
 - <span lang="zh">金属撑子</span>
 
     Source: {% cite "Ming 2010" %}, 141
+
+{% endaccordion %}
 
 </div>

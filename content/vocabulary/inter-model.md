@@ -37,8 +37,9 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Modèle en cire utilisé dans le procédé indirect de {% def "fonte à la cire perdue" %}, obtenu dans le moule à bon creux.
 
@@ -80,13 +81,16 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
     Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+
+### **Italian**: <span lang="it">{{ lang.it }}</span>
 
 ### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 

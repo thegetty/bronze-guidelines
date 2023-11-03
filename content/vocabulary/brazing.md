@@ -52,8 +52,9 @@ Other: {% cite "Scott 1991" %}, 138
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au {% def "soudage" %}.
 
@@ -77,12 +78,14 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 366
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 A subset of *saldatura*
 
@@ -90,7 +93,8 @@ A subset of *saldatura*
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 {% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
@@ -104,5 +108,7 @@ A subset of *saldatura*
 - <span lang="zh">铜焊</span>
 
     Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
+
+{% endaccordion %}
 
 </div>

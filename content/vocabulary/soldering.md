@@ -52,8 +52,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/soldering>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au {% def "soudage" %}.
 
@@ -77,13 +78,15 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 24
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 A subset of *saldatura*
 
@@ -99,10 +102,13 @@ A subset of *saldatura*
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*saldatura*](https://www.treccani.it/enciclopedia/saldatura/); {% cite "Cellini [1568] 1983" %}, fols. 37v–38
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
 {% cite "Ming 2010" %}, 596; [TNATD](https://terms.naer.edu.tw/detail/993229/?index=4)
+
+{% endaccordion %}
 
 </div>

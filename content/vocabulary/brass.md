@@ -34,8 +34,9 @@ Other: {% cite "Turner 1982" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Alliage à base de cuivre dans lequel le zinc est l’élément d’addition principal.
 
@@ -63,7 +64,8 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
     Source: Cultural Heritage: {% cite "Halleux 1973" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -75,13 +77,15 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 - *Messinglegierung*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*ottone*](http://www.treccani.it/vocabolario/ottone/); {% cite "Treccani n.d." "" "Treccani" %}, under [*Bronzi e ottoni*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*ottone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone) [definition 1]
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 Literally “copper-zinc alloy”
 
@@ -94,5 +98,7 @@ Literally “copper-zinc alloy”
 - <span lang="zh">黃铜</span>
 
     This is a broad, colloquial term for brass.
+
+{% endaccordion %}
 
 </div>

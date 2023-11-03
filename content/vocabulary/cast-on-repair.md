@@ -33,8 +33,9 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Type de réparation utilisé pour combler un trou ou un manque sur un bronze en y coulant un alliage de composition proche.
 
@@ -54,7 +55,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Az�
 
 - *réparation par surcoulée*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 Literally “cast-on.” Generally used in reference to an ancient process. In German, the term describes everything related to casting-on: it designates indiscriminately a cast-on repair or a cast-on joint. *Überfanggussreparatur* might be invented to avoid confusion.
 
@@ -74,7 +76,8 @@ Literally “cast-on.” Generally used in reference to an ancient process. In G
 
     Source: {% cite "Brunhuber 1986" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 More general term to denote casting on, could apply to joints and repairs; see German *Überfangguss*
 
@@ -92,7 +95,8 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
     Source: {% cite "Morigi and Morigi 2008" %}, 3, 5
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -107,5 +111,7 @@ More general term to denote casting on, could apply to joints and repairs; see G
 - <span lang="zh">补铸</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+
+{% endaccordion %}
 
 </div>

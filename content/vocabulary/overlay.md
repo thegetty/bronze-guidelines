@@ -55,8 +55,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
 
@@ -80,7 +81,8 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
     Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 A general term closer to “coating”
 
@@ -96,7 +98,8 @@ A general term closer to “coating”
 
     A general term closer to “decoration” or “ornament”
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Alternate Translation
 
@@ -106,7 +109,8 @@ A general term closer to “coating”
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riporto*](http://www.treccani.it/vocabolario/riporto/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*riporto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto) [definition 2, vol. 6, 68a]
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -117,5 +121,7 @@ A general term closer to “coating”
 - <span lang="zh">覆盖</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
+
+{% endaccordion %}
 
 </div>

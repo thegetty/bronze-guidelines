@@ -41,8 +41,9 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la {% def "fonte au sable" %}.
 
@@ -84,20 +85,25 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
 - <span lang="zh">主铸模</span>
+
+{% endaccordion %}
 
 </div>

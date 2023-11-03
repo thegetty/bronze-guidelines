@@ -33,8 +33,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le {% def "noyau" %}, et plus généralement le {% def "modèle" %}. Ils peuvent se trouver dans le {% def "moule réfractaire" %} pour le rendre plus résistant lors de sa manipulation et lors de la {% def "coulée" %}. Une cire pleine peut être armée. L'armature peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
@@ -60,7 +61,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -74,7 +76,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: {% cite "Maaz 2010" %}, 695
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -98,7 +101,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: {% cite "Brunhuber 1988" %}
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -109,5 +113,7 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 - <span lang="zh">雕塑骨架</span>
 
     Source: TNATD
+
+{% endaccordion %}
 
 </div>

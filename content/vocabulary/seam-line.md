@@ -44,8 +44,9 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}; {% cite "Rich 1988" %
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Ligne en relief en surface d’un bronze due à un joint de moule. Attention, peut provenir du {% def "moule réfractaire" %} mais aussi de tous les {% def "moule" "moules" %} possiblement utilisés avant la {% def "coulée" %} pour la fabrication du {% def "modèle" %} : moulage de l’original, moule à bon creux (joint cire-cire, cf. {% cite "Mille and Robcis 2012" %}, etc., voir [I.1](/vol-1/1/)).
 
@@ -107,13 +108,15 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 268; {% cite "Rama 1988" %},
 
     Source: Historical: {% cite "Launay 1827" %}, 2:261
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Maaz 2010" %}, 696
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Literally “line of joint”
 
@@ -125,10 +128,13 @@ Literally “line of joint”
 
 - *traccia dello stampo*
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Zhang 2010" %}, 80
+
+{% endaccordion %}
 
 </div>

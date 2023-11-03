@@ -28,8 +28,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme réservé à la {% def "fonte à la cire perdue" %}. Désigne la partie externe du {% def "moule réfractaire" %}, qui peut être à base de plâtre ou d'argile, notamment.
 
@@ -61,7 +62,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
     Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -73,7 +75,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
     Source: {% cite "Maaz 2010" %}, 706
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the {% def "pour" %}. See *refractory mold*.
 
@@ -123,7 +126,8 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*tunica*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translations
 
@@ -134,5 +138,7 @@ The variety of terms is due to regional differences in foundry terminology. *For
 - <span lang="zh">耐火材料</span>
 
     Sources: {% cite "Ming 2010" %}, 1036; {% cite "Hua 2013" %}, 347
+
+{% endaccordion %}
 
 </div>

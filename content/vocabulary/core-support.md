@@ -29,8 +29,9 @@ Copper Industry: {% cite "American Foundrymen’s Society 1984" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme général pour décrire tout dispositif servant à maintenir le {% def "noyau" %} en place dans le {% def "moule réfractaire" %} lors de la {% def "coulée" %} (fer à noyau, cale à noyau, voire portée de noyau et {% def "armature" %}).
 
@@ -50,13 +51,15 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources:
 
 {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Same as “core pin”
 
@@ -80,10 +83,13 @@ Same as “core pin”
 
 - *supporto dell'anima di fusione*
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 1572
+
+{% endaccordion %}
 
 </div>

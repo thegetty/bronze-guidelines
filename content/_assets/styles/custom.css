@@ -581,33 +581,8 @@ figure .q-figure__modal-link {
 }
 
 /*  ACCORDION BUTTONS
-    <div class="accordion">   <-- used in VOCABULARY PAGES
     presentation: accordion   <-- used on FULL-WIDTH PAGES
 ============================================================================= */
-button.accordion-expander,
-#accordion-controls button {
-  all: inherit;
-  border: 0 !important;
-  cursor: pointer;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-button.accordion-expander svg {
-  fill: currentColor;
-  height: 1rem;
-  width: 1rem;
-}
-button.accordion-expander[aria-expanded="true"] svg {
-  fill: var(--green-wax);
-}
-button.accordion-expander[aria-expanded="true"],
-button.accordion-expander[aria-expanded="true"] * {
-  color: var(--green-wax);
-}
-button.accordion-expander[aria-expanded="true"] .vert {
-  display: none;
-}
-
 /* Expand and Collapse All buttons */
 .quire-page.full-width .global-accordion-controls {
   position: fixed;
@@ -669,23 +644,38 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
-  margin-top: 1.75rem;
+  margin-top: .75rem;
 }
-.quire-page.vocabulary div.accordion h3 {
+.quire-page.vocabulary div.accordion .global-accordion-controls {
+  margin-bottom: .75rem;
+}
+.quire-page.vocabulary div.accordion .global-accordion-controls button {
+  text-decoration: none;
+  color: var(--black);
+}
+.quire-page.vocabulary div.accordion .accordion-section {
+  margin: 0;
+}
+.quire-page.vocabulary div.accordion h3,
+.quire-page.vocabulary div.accordion .accordion-section__heading h3 {
   border-top: 2px solid var(--black);
   font-weight: 400;
   margin-bottom: 1.75rem;
   padding-top: 1.75rem;
+  width: 100% !important;
+  margin-top: 0;
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander {
-  width: 100%;
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary h3,
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary h3 strong,
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary::after {
+  color: var(--green-wax);
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander strong {
-  font-weight: 800;
+.quire-page.vocabulary .accordion-section__controls::after,
+.quire-page.vocabulary .accordion-section__copy-link-button {
+  padding-top: 1.75rem;
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander svg {
-  float: right;
-  margin-top: .65rem;
+.quire-page.vocabulary .accordion-section__controls::after {
+  margin-left: -1rem;
 }
 .quire-page.vocabulary .q-figure--group {
   border-top: 2px solid var(--black);

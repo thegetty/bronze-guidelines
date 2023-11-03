@@ -34,8 +34,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 526
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du {% def "moule réfractaire" %}, avant {% def "ciselure" %} et/ou patination.
 
@@ -83,7 +84,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
     Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -105,7 +107,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
     Source: {% cite "Brunhuber 1986" %}, 747
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Removal of flashing or traces of {% def "sprues" %}
 
@@ -125,7 +128,8 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
     Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*
 
-### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -144,5 +148,7 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 - <span lang="zh">精整</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+
+{% endaccordion %}
 
 </div>

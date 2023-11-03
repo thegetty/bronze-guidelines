@@ -96,6 +96,9 @@ Custom include to create definition pop-ups.
 **_includes/web-components/modal/index.js**
 Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
+**_includes/translation-headings.liquid**
+Assigns title with liquid variable to be used in vocab page accordions and includes accordionGlobalControls
+
 **_layouts/page.case-study**
 Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
