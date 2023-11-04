@@ -19,7 +19,7 @@ See figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12.{.pdf-f
 
 {% backmatter %}
 
-Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten {% def "bronze" %} was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% ref 'vid-12' %}.
+Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten {% def "bronze" %} was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% open 'vid-12' %}.
 
 {% endbackmatter %}
 

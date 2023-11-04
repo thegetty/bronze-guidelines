@@ -127,8 +127,8 @@ Custom shortcode to display vocabulary pop-ups with definitions and links.
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
-**_plugins/shortcodes/figureRef.js**
-Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig-5', 'fig-6' %}`, add class .q-figure__modal-link to links so they'll open in the modal, remove "and" from list, and trim extra zeros if figure ids.
+**_plugins/shortcodes/open.js**
+Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' %}` instead of `{% open 'fig-4', 'fig-5', 'fig-6' %}`; add class ``.q-figure__modal-link`` to links so they'll open in the modal; remove "and" from list; and trim extra zeros if figure ids.
 
 **_plugins/shortcodes/index.js**
 
