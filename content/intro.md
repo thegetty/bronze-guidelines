@@ -202,9 +202,13 @@ Among the more recent phenomena are studies of entire collections and larger cor
 
 ## 2 What? The basics of making a bronze sculpture {.indented-heading #s2}
 
+<div class="non-accordion-section__body">
+
 Casting a bronze consists of creating a negative impression of a desired form in a refractory mold material, generally by using a model, and filling that with a molten copper alloy. Control over the mold is crucial for a successful casting. An overview of main materials and techniques used to make a bronze sculpture is given below. The processes comprise several steps. [Table 1](#table-01){.q-figure__modal-link} and [figure 3](#fig-003){.q-figure__modal-link} give some clues on the relative time these different steps may require.
 
 {% figuregroup "3", "fig-003" %}
+
+</div>
 
 {% accordion "### 2.1 Casting: Primarily the impression of a model in a refractory mold" "s2-1" %}
 
@@ -505,7 +509,11 @@ Not all sculptures are cast in one piece, and the rich variety of assembly techn
 
 ## 3 How? User guide {.indented-heading #s3}
 
+<div class="non-accordion-section__body">
+
 The *Guidelines* are accessible in a variety of ways.
+
+</div>
 
 {% accordion "### 3.1 Evidence of the fabrication process (volume I)" "s3-1" %}
 
@@ -545,12 +553,15 @@ The *Guidelines* are accessible in a variety of ways.
 
 ## 4 Overall disclaimer {.indented-heading #s4}
 
+<div class="non-accordion-section__body">
+
 The information and images presented here have been selected to illustrate specific technical features without necessarily suggesting that they are characteristic of a given artist’s production or period. This resource is *not* primarily intended to provide a guide to the attribution or dating of specific bronzes.
 
 The interpretation of a feature as evidence of a particular process, technique, or material is often complex, carrying frequent risks of misidentification. And while we have done our best to illustrate each feature with a representative photograph, these images cannot replace the experience of close examination of an object under different angles, lighting, and magnification conditions. Where applicable, we strongly invite the reader to seek out the publications referred to in the image captions for more in-depth discussions of the examples.
 
 Making meaningful sense of the physical evidence preserved in an object requires weighing these technical observations with a wide range of contextual information from related/comparative objects as well as historical, archaeological, or other relevant sources. Ultimately, these *Guidelines* cannot replace the hard-won experience of experts.
 
+</div>
 
 <div id="additional-figures">
 
