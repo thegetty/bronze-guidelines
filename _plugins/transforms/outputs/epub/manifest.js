@@ -5,12 +5,14 @@ const logger = chalkFactory('_plugins:epub:manifest')
 
 /**
  * Returns publication.yaml data as JSON for the EPUB generation library
- * 
+ *
  * @param  {Object} publication
  * @return {Object}
  */
 module.exports = (eleventyConfig) => {
   const removeHTML = eleventyConfig.getFilter('removeHTML')
+  const sortByKeys = eleventyConfig.getFilter('sortByKeys')
+
   const { assets, readingOrder } = eleventyConfig.globalData.epub
 
   const {
@@ -27,7 +29,6 @@ module.exports = (eleventyConfig) => {
     title
   } = eleventyConfig.globalData.publication
   const { epub, figures: { imageDir } } = eleventyConfig.globalData.config
-  const { url } = eleventyConfig.globalData.publication
 
   /**
    * Contributor name, filtered by type
@@ -84,10 +85,16 @@ module.exports = (eleventyConfig) => {
    * Publication title, subtitle, and reading line
    */
   const pubTitle = () => {
-    if (subtitle && readingLine) {
-      return `${title}: ${subtitle} ${readingLine}`
-    } else if (subtitle) {
-      return `${title}: ${subtitle}`
+    const separator = title.match(/[.,:!?]$/) ? '' : ':';
+    switch (true) {
+      case !!subtitle && !!readingLine:
+        return `${title}${separator} ${subtitle} ${readingLine}`;
+      case !!readingLine:
+        return `${title} (${readingLine})`;
+      case !!subtitle:
+        return `${title}${separator} ${subtitle}`;
+      default:
+        return title;
     }
   }
 
@@ -103,11 +110,12 @@ module.exports = (eleventyConfig) => {
   }
 
   const coverUrl = cover()
+  resources.push({
+    url: coverUrl,
+    rel: 'cover-image'
+  })
   for (const asset of assets) {
     let item = { url: asset }
-    if (asset === coverUrl) {
-      item.rel = 'cover-image'
-    }
     resources.push(item)
   }
 
@@ -116,6 +124,13 @@ module.exports = (eleventyConfig) => {
     ? removeHTML(full).replace(/\r?\n|\r/g, ' ')
     : oneLine
 
+  /**
+   * Strip milliseconds from ISO date string (`.sss`)
+   */
+  const pubDateWithoutMs = pubDate
+    .toISOString()
+    .replace(/\.\d{3}/, '')
+
   return {
     '@context': [
       'https://schema.org',
@@ -123,14 +138,13 @@ module.exports = (eleventyConfig) => {
     ],
     conformsTo: 'https://www.w3.org/TR/pub-manifest/',
     contributors: contributors('secondary'),
-    cover: coverUrl,
     creators: contributors('primary'),
-    dateModifed: pubDate,
+    dateModified: pubDateWithoutMs,
     description: publicationDescription,
     id: isbn,
     languages: language,
     publisher: publisherNameAndLocations(),
-    readingOrder: readingOrder.sort(),
+    readingOrder: readingOrder.sort(sortByKeys(['url'])),
     resources: resources,
     rights: copyright,
     title: pubTitle(),

@@ -105,9 +105,6 @@ Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
-**_plugins/figures/iiif/config.js**
-increased print-image.jpg size
-
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
@@ -133,7 +130,7 @@ Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' 
 **_plugins/shortcodes/index.js**
 
 **content/_computed/eleventyComputed.js**
-Add page tags and presentation values as classes, and contributor_as_it_appears as data item
+Add page tags value as classes, and contributor_as_it_appears as data item
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

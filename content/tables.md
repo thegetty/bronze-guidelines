@@ -2,7 +2,9 @@
 title: Tables
 order: 980
 layout: page
-class: full-width tables-page
+classes: 
+  - full-width 
+  - tables-page
 ---
 
 {{ introductions.tables | markdownify }}

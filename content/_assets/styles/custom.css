@@ -384,6 +384,7 @@ a.quire-definition__content__more-link {
   .quire-page.full-width .quire-page__content .accordion-section__body > *,
   .quire-page .quire-page__content .non-accordion-section__body > * {
     grid-column-start: 1;
+    margin-bottom: 20px;
   }
   .quire-page.full-width .quire-page__content .accordion-section__body > figure,
   .quire-page .quire-page__content .non-accordion-section__body > figure {

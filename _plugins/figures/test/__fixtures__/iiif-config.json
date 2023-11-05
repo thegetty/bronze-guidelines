@@ -2,9 +2,9 @@
   "baseURI": "http://localhost:8080",
   "dirs": {
     "imagesDir": "_assets/images",
-    "inputRoot": "/Users/apollack/Code/getty/sequence-blarg/content",
+    "inputRoot": "/test-project/_site",
     "outputPath": "iiif",
-    "outputRoot": "/Users/apollack/Code/getty/sequence-blarg/_site"
+    "outputRoot": "/test-project/_site"
   },
   "formats": [
     {
@@ -16,7 +16,6 @@
     },
     {
       "input": [
-        ".jp2",
         ".jpg",
         ".jpeg",
         ".tif",
@@ -39,7 +38,8 @@
     {
       "name": "print-image",
       "resize": {
-        "width": 800
+        "width": 2025,
+        "withoutEnlargement": true
       }
     }
   ]

@@ -2,7 +2,9 @@
 title: Vocabulary
 order: 400
 layout: vocab-index
-class: full-width vocabulary-index
+classes: 
+  - full-width 
+  - vocabulary-index
 contributor:
   - id: jbassett
   - id: fbewer

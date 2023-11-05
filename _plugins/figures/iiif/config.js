@@ -1,7 +1,3 @@
-//
-// CUSTOMIZED FILE
-// increased print-image.jpg size, lines 118–19
-//
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
@@ -113,6 +109,15 @@ module.exports = (eleventyConfig) => {
         resize: {
           width: 2025,
           withoutEnlargement: true
+        }
+      },
+      /**
+       * Transformation applied to IIIF resources for use in inline figures
+       */
+      {
+        name: 'static-inline-figure-image',
+        resize: {
+          width: 626
         }
       }
     ]

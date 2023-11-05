@@ -77,14 +77,12 @@ object_list:
       - id: "fig-286"
       - id: "fig-273"
       - id: "fig-513"
-      - id: "fig-054"
       - id: "fig-404"
       - id: "fig-401"
       - id: "fig-517"
       - id: "fig-518-dupe"
       - id: "fig-510-dupe"
       - id: "fig-521"
-      - id: "fig-401"
 
   - id: case-study-5
     figure:
