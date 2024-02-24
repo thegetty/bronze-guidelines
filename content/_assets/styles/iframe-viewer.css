@@ -1,0 +1,24 @@
+/* 
+CUSTOMIZED FILE -- Bronze Guidelines 
+Styles that are injected into the page being viewed in the iframe image viewer
+*/
+html, body {
+  background-color: black;
+  height: 100%;
+}
+.quire-navbar,
+.quire-contents-buttons {
+  display: none;
+}
+.side-by-side .quire-entry__lightbox {
+  height: 100%;
+  top: 0;
+}
+.quire-page::before,
+.quire-page::after {
+  content: '';
+  background-color: transparent;
+}
+.quire-entry__content {
+  animation: none;
+}

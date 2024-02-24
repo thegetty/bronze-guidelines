@@ -129,6 +129,11 @@ Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' 
 
 **_plugins/shortcodes/index.js**
 
+**_layouts/page.liquid**
+**content/_assets/javascript/application/iframe-viewer.js**
+**content/_assets/styles/iframe-viewer.css**
+Add iframe-based image viewer
+
 **content/_computed/eleventyComputed.js**
 Add page tags value as classes, and contributor_as_it_appears as data item
 
