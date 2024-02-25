@@ -8,8 +8,7 @@ window['toggleViewer'] = () => {
 }
 
 window['updateViewer'] = () => {
-
-  // Update iframe page styles
+  // Update iframe page styles 
   var myIFrame = document.getElementById('iframe');
   myIFrame.addEventListener("load", function() {
     const iframeDocumentHead = this.contentDocument.head;
@@ -24,19 +23,27 @@ window['updateViewer'] = () => {
   var nav = document.getElementById('iframe-nav');
   nav.innerHTML = '';
   const figureLinks = document.querySelectorAll("a[target='iframe_viewer__iframe']:not(.iframe-control)")
-  const currentFigureIndex = parseInt(event.target.getAttribute('data-index'))
-  const prevFigureIndex = currentFigureIndex == 0 ? figureLinks.length - 1 : currentFigureIndex - 1
-  const nextFigureIndex = currentFigureIndex == figureLinks.length - 1 ? 0 : currentFigureIndex + 1
-  const prevButton = figureLinks[prevFigureIndex].cloneNode(true)
-  const nextButton = figureLinks[nextFigureIndex].cloneNode(true)
+  const currentFigureHref = event.target.getAttribute('href')
+  let hrefArrayAll = []
+  for (var index = 0; index < figureLinks.length; ++index) {
+    hrefArrayAll.push(figureLinks[index].getAttribute('href'))
+  }
+  let hrefArrayUnique = [...new Set(hrefArrayAll)];
+  const currentFigureIndex = hrefArrayUnique.indexOf(currentFigureHref)
+  const prevFigureIndex = currentFigureIndex == 0 ? hrefArrayUnique.length - 1 : currentFigureIndex - 1
+  const nextFigureIndex = currentFigureIndex == hrefArrayUnique.length - 1 ? 0 : currentFigureIndex + 1
 
-  prevButton.innerHTML = ''
+  const prevButton = document.createElement("a");
+  prevButton.href = hrefArrayUnique[prevFigureIndex]
   prevButton.setAttribute('aria-label', 'Previous image')
+  prevButton.setAttribute('target', 'iframe_viewer__iframe')
   prevButton.classList.add('iframe-control')
   prevButton.addEventListener('click', updateViewer)
 
-  nextButton.innerHTML = ''
+  const nextButton = document.createElement("a");
+  nextButton.href = hrefArrayUnique[nextFigureIndex]
   nextButton.setAttribute('aria-label', 'Next image')
+  nextButton.setAttribute('target', 'iframe_viewer__iframe')
   nextButton.classList.add('iframe-control')
   nextButton.addEventListener('click', updateViewer)
   
@@ -47,7 +54,6 @@ window['updateViewer'] = () => {
 window.addEventListener('load', () => {
   const figureLinks = document.querySelectorAll("a[target='iframe_viewer__iframe']:not(.button)")
   for (var index = 0; index <= figureLinks.length; ++index) {
-    figureLinks[index].setAttribute('data-index', index)
     figureLinks[index].addEventListener('click', updateViewer)
     figureLinks[index].addEventListener('click', toggleViewer)
   }
