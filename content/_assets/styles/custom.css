@@ -1180,6 +1180,28 @@ figure .q-figure__modal-link {
   background-position-y: -44px;
   margin-right: 10px;
 }
+.page-object {
+  position: relative;
+  margin: 0 !important;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left !important;
+}
+.quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link),
+.quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link):hover {
+  border-bottom-width: 0 !important;
+  font-weight: bold;
+  font-size: .875rem;
+}
+.page-object a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+}
 .quire-entry__header .container {
   background-color: var(--deep-black);
 }
