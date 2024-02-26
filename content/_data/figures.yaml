@@ -4533,6 +4533,7 @@ figure_list:
 
   - id: "vid-01"
     poster: "figures/video-01.png"
+    thumb: "figures/thumbs/video-01.jpg"
     media_type: vimeo
     media_id: 672850991/6c63d94252
     label: "Video 1"
@@ -4540,6 +4541,7 @@ figure_list:
 
   - id: "vid-02"
     poster: "figures/video-02.png"
+    thumb: "figures/thumbs/video-02.jpg"
     media_type: vimeo
     media_id: 672851118/418aee344b
     label: "Video 2"

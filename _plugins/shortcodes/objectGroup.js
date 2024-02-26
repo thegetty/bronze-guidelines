@@ -34,40 +34,38 @@ module.exports = function (eleventyConfig, { page }) {
       logger.warn(`NoId: the q-figures shortcode must include one or more 'id' values that correspond to an 'id' in the 'figures.yaml' file. @example {% qfiguregroup columns=2, ids='3.1, 3.2, 3.3' %}`)
     }
 
-    // if (ErrorNoMediaType) {
-    //   logger.warn(`NoMediaType: One of the figures passed to the q-figures shortcode is missing the 'media_type' attribute. Figures in 'figures.yaml' must be have a 'media_type' attribute with a value of either  "vimeo" or "youtube"`)
-    // }
-
-    const gridClass = `quire-grid-${columns}`
-
-    // const rows = 1
-    // let figureTags = []
-    // for (let i=0; i < rows; ++i) {
-    //   const startIndex = i * columns
-    //   let row = ''
-    //   for (let id of ids) {
-    //     row += await figure(eleventyConfig, { page }).bind(this)(id)
-    //   }
-    //   figureTags.push(`${row}`)
-    // }
-
     let objectTags = []
     for (let id of ids) {
-      const objIcon = `${icon({ type: 'fullscreen', description: 'Expand' })}`
-
-      const objNumber = id.replace(/[a-z|-]/g, '')
+      const objNumber = id.replace('fig-', '').replace('vid-', 'v')
+      let objIcon = ''
       let objImagePath = ''
       let objLabel = ''
       for ( let fig of figureList ) {
         if (fig.id == id) {
-          if (fig.annotations) {
+          // objIcon
+          if (fig.media_type == 'vimeo' ) {
+            objIcon = `${icon({ type: 'video', description: 'Open viewer' })}`
+          } else if (fig.media_type == 'table' ) {
+            objIcon = `${icon({ type: 'table', description: 'Open viewer' })}`
+          } else if (fig.sequences ) {
+            objIcon = `${icon({ type: 'rotation', description: 'Open viewer' })}`
+          } else if (fig.annotations ) {
+            objIcon = `${icon({ type: 'layers', description: 'Open viewer' })}`
+          } else {
+            objIcon = `${icon({ type: 'fullscreen', description: 'Open viewer' })}`
+          }
+          // objImagePath
+          if (fig.thumb) {
             objImagePath = `/_assets/images/${fig.thumb}`
+          } else if (fig.annotations) {
+            objImagePath = `/iiif/${id}/base/thumbnail.jpg`
           } else if (fig.zoom) {
             objImagePath = `/iiif/${id}/${objNumber}/thumbnail.jpg`
-          } else if (fig.thumb) {
-            objImagePath = `/_assets/images/${fig.thumb}`
+          } else if (fig.media_type == 'vimeo' || 'youtube') {
+            objImagePath = `/_assets/images/${fig.poster}`
           } 
-        objLabel = fig.label ? fig.label : ''
+          // objLabel
+          objLabel = fig.label ? fig.label : ''
         }
       }     
       const objElement = html`<figure class="page-object">
@@ -77,7 +75,6 @@ module.exports = function (eleventyConfig, { page }) {
 
       objectTags.push(`${objElement}`)
     }
-
 
     return html`
       <div class="object-group group-grid-${columns}">

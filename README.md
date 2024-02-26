@@ -73,11 +73,17 @@ Added Poster image to Vimeo output so that could show poster on page, and iframe
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
+**_includes/components/icons.js**
+Add some icons and made sure they are consistent weight and size
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
 **_includes/components/navigation.js**
 removed title truncation in navbar
+
+**_includes/components/object-filters/object-card/object-image.webc**
+Fixed source of thumbnails for videos
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
