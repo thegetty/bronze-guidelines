@@ -1180,6 +1180,20 @@ figure .q-figure__modal-link {
   background-position-y: -44px;
   margin-right: 10px;
 }
+.object-group {
+  display: grid;
+  gap: 1rem;
+  width: fit-content;
+}
+.object-group.group-grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.object-group.group-grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.object-group.group-grid-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 .page-object {
   position: relative;
   margin: 0 !important;
@@ -1191,8 +1205,6 @@ figure .q-figure__modal-link {
 .quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link),
 .quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link):hover {
   border-bottom-width: 0 !important;
-  font-weight: bold;
-  font-size: .875rem;
 }
 .page-object a::before {
   position: absolute;
@@ -1202,6 +1214,18 @@ figure .q-figure__modal-link {
   right: 0;
   content: '';
 }
+.object-link {
+  font-weight: bold;
+  font-size: .75rem;
+  display: inline-flex;
+  align-items: center;
+}
+.object-link svg {
+  width: 1.375rem;
+  height: 1.375rem;
+  fill: currentColor;
+}
+
 .quire-entry__header .container {
   background-color: var(--deep-black);
 }

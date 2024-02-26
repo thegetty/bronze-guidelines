@@ -1,6 +1,6 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// added def and open shortcodes
+// added def, objgroup, and open shortcodes
 //
 const accordion = require('./accordion.js')
 const addComponentTag = require('../../_plugins/components/addComponentTag')
@@ -11,6 +11,7 @@ const contributors = require('./contributors')
 const def = require('./def')
 const figure = require('./figure')
 const figureGroup = require('./figureGroup')
+const objectGroup = require('./objectGroup')
 const open = require('./open')
 const ref = require('./ref')
 const shortcodeFactory = require('../components/shortcodeFactory')
@@ -29,6 +30,7 @@ module.exports = function(eleventyConfig, collections, options) {
   addShortcode('def', def)
   addShortcode('figure', figure)
   addShortcode('figuregroup', figureGroup)
+  addShortcode('objgroup', objectGroup)
   addShortcode('open', open)
   addShortcode('title', title)
   addShortcode('tombstone', tombstone)

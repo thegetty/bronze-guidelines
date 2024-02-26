@@ -138,6 +138,7 @@ figure_list:
 
   - id: "fig-006"
     src: "figures/006/base.jpg"
+    thumb: "figures/thumbs/006.jpg"
     zoom: true
     label: "Figure 6"
     caption: "Experimental sand-cast torso (H. 16 cm). Yellow overlay indicates the hollow lantern made of rolled sheet metal that runs vertically through the body and has been used to mount the torso to a base. See also the area where the bronze did not fill the mold, an extreme example of a cold shut. White arrows indicate the typically rounded edge of the bronze wall where it stopped flowing. Green arrows denote the seam line along the proper right side of the torso where bronze flowed into a gap along the joint of the cope and drag. Red arrows indicate flashing at either side of the lower horizontal armature rod. Made with consultant Tonny Beentjes, Decorative Arts and Sculpture Conservation, J. Paul Getty Museum."
@@ -177,6 +178,7 @@ figure_list:
 
   - id: "fig-008"
     src: "figures/008/base.jpg"
+    thumb: "figures/thumbs/008.jpg"
     zoom: true
     class: pdf-full-width
     label: "Figure 8"
