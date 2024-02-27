@@ -7,7 +7,8 @@ html, body {
   height: 100%;
 }
 .quire-navbar,
-.quire-contents-buttons {
+.quire-contents-buttons,
+.tables-page .quire-page__header {
   display: none;
 }
 .side-by-side .quire-entry__lightbox {
@@ -21,4 +22,20 @@ html, body {
 }
 .quire-entry__content {
   animation: none;
+}
+.quire .quire__primary main,
+.tables-page .quire-page__content {
+  background-color: black;
+}
+.q-figure.q-figure--table {
+  margin-bottom: 0 !important;
+}
+.table-zoom .content {
+  overflow: scroll;
+}
+.table-zoom .container table {
+  font-size: 1rem !important;
+}
+.tables-page .quire-page__content .container .content {
+  padding-top: 1.5rem;
 }

@@ -7,9 +7,16 @@ window['toggleViewer'] = () => {
   div.style.display = div.style.display == "none" ? "block" : "none";
 }
 
+window['toggleTextSize'] = () => {
+  const myIFrame = document.getElementById('object-iframe');
+  const mains = myIFrame.contentDocument.getElementsByTagName('main');
+  mains[0].classList.toggle("table-zoom")
+}
+
 window['updateViewer'] = () => {
   // Update iframe page styles 
-  var myIFrame = document.getElementById('object-iframe');
+  const myIFrame = document.getElementById('object-iframe');
+  let textSizeButton = document.getElementById('iframe-toggle-size');
   myIFrame.addEventListener("load", function() {
     const iframeDocumentHead = this.contentDocument.head;
     const iframeCssLink = document.createElement("link");
@@ -17,6 +24,12 @@ window['updateViewer'] = () => {
     iframeCssLink.rel = "stylesheet"; 
     iframeCssLink.type = "text/css"; 
     iframeDocumentHead.appendChild(iframeCssLink);
+    
+    // Display textSizeButton if it's a table
+    const iframeMains = this.contentDocument.getElementsByTagName('main');
+    textSizeButton.style.display = iframeMains[0].classList.contains('tables-page') 
+      ? "flex"
+      : "none"
   });
 
   // Update Prev / Next Links
@@ -58,4 +71,3 @@ window.addEventListener('load', () => {
     objectLinks[index].addEventListener('click', toggleViewer)
   }
 })
-
