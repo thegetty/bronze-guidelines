@@ -26,7 +26,9 @@ description: Single page default template
         <div class="iframe_viewer__nav-buttons" id="iframe-nav"></div>
         <div class="iframe_viewer__controls">
           <a class="iframe-control--close" aria-label="Close" onclick="toggleViewer()">{% icon type='close', description='Close image viewer' %}</a>
+          <a class="iframe-control--share" id="iframe-share" aria-label="Copy link" onclick="copyLink()" data-baseurl="{{ publication.url }}">{% icon type='share', description='Copy link' %}</a>
           <a class="iframe-control--toggle-size" id="iframe-toggle-size" style="display:none;" aria-label="Change text size" onclick="toggleTextSize()">{% icon type='text-size', description='Toggle text size' %}</a>
+          <span id="iframe-control-tooltip" style="display:none;"></span>
         </div>
         <iframe class="iframe_viewer__iframe" id="object-iframe" name="object-iframe"></iframe>
       </div>

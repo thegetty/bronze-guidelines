@@ -13,6 +13,23 @@ window['toggleTextSize'] = () => {
   mains[0].classList.toggle("table-zoom")
 }
 
+window['copyLink'] = () => {
+  const thisButton = event.target.closest('a')
+  const baseURL = thisButton.getAttribute('data-baseurl')
+  const href = thisButton.getAttribute('data-href')
+  const copyLink = baseURL.concat(href.replace(/^\//, ''))
+  navigator.clipboard.writeText(copyLink);
+
+  const toolTipText = "Link copied to the clipboard"
+  const toolTipElement = document.getElementById('iframe-control-tooltip')
+  toolTipElement.innerHTML = toolTipText
+  toolTipElement.style.display = "block"
+  setTimeout(() => {
+    console.log("Delayed for 3 seconds.");
+    toolTipElement.style.display = "none";
+  }, 3000);
+}
+
 window['updateViewer'] = () => {
   // Update iframe page styles 
   const myIFrame = document.getElementById('object-iframe');
@@ -62,6 +79,10 @@ window['updateViewer'] = () => {
   
   nav.prepend(nextButton)
   nav.prepend(prevButton)  
+
+  // Add href path to share button for copying
+  const shareButton = document.getElementById('iframe-share')
+  shareButton.setAttribute('data-href', currentObjectHref)
 }
 
 window.addEventListener('load', () => {

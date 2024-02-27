@@ -1173,6 +1173,18 @@ figure .q-figure__modal-link {
   background-position-x: -95px;
   background-position-y: -44px;
 }
+#iframe-control-tooltip {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 6px;
+  width: max-content;
+  animation: fade 2s linear forwards;
+  -webkit-animation: fade 2s linear forwards;
+}
 .object-group {
   display: grid;
   gap: 1rem;
