@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Return the `id`, highlighted in yellow, if citation is missing in references.yaml
+//
 const chalkFactory = require('~lib/chalk')
 const { renderOneLine, stripIndent } = require('~lib/common-tags')
 
@@ -91,7 +95,7 @@ module.exports = function(eleventyConfig, { page }) {
 
     const citation = findCitationReference(id)
 
-    if (!citation) return
+    if (!citation) return `<span style="background-color: #fbda00;">${id}</span>`
 
     // ensure that the page citations object exists
     if (!page.citations) page.citations = {}

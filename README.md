@@ -121,6 +121,9 @@ Join names with a non-breaking space.
 **_plugins/filters/getContributor.js**
 Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
 
+**_plugins/shortcodes/cite.js**
+Return the `id`, highlighted in yellow, if citation is missing in references.yaml
+
 **_plugins/shortcodes/contributors.js**
 Refactor logic to handle oxford commas correctly
 
