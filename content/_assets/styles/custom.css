@@ -1533,7 +1533,15 @@ figure .q-figure__modal-link {
     display: none;
   }
 }
-
+/* Visually hide main heads on table pages, they duplicate the table captions, 
+but they need to be there for the tables index.md page */
+.tables-page .quire-page__header__title {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
 /* Style tables as they appear on the page */
 .q-figure.q-figure--table {
   border-width: 0;
@@ -1650,6 +1658,9 @@ table .poor { background-color: #F2F9F1; }
   text-align: left;
 }
 @media print {
+  .tables-index .quire-contents-list {
+    display: none;
+  }
   .quire-page__content .container .content table caption,
   .quire-page__content .container .content table caption .details{
     font-size: 7.5pt;

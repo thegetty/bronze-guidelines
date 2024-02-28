@@ -1,13 +1,15 @@
 ---
 title: Tables
 order: 2000
-layout: page
-classes: 
-  - full-width 
-  - tables-page
+layout: table-of-contents
+presentation: list
+classes:
+  - tables-index
 ---
 
 {{ introductions.tables | markdownify }}
+
+<div data-outputs-exclude="html">
 
 {% renderFile "./_tables/01.md" %}
 
@@ -15,26 +17,28 @@ classes:
 
 {% renderFile "./_tables/03.md" %}
 
-{% figure "table-04" %}
+{% renderFile "./_tables/04.md" %}
 
-{% figure "table-05" %}
+{% renderFile "./_tables/05.md" %}
 
-{% figure "table-06" %}
+{% renderFile "./_tables/06.md" %}
 
-{% figure "table-07" %}
+{% renderFile "./_tables/07.md" %}
 
-{% figure "table-08" %}
+{% renderFile "./_tables/08.md" %}
 
-{% figure "table-09" %}
+{% renderFile "./_tables/09.md" %}
 
-{% figure "table-10" %}
+{% renderFile "./_tables/10.md" %}
 
-{% figure "table-11" %}
+{% renderFile "./_tables/11.md" %}
 
-{% figure "table-12" %}
+{% renderFile "./_tables/12.md" %}
 
-{% figure "table-13" %}
+{% renderFile "./_tables/13.md" %}
 
-{% figure "table-14" %}
+{% renderFile "./_tables/14.md" %}
 
-{% figure "table-15" %}
+{% renderFile "./_tables/15.md" %}
+
+</div>
