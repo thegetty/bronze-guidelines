@@ -351,6 +351,13 @@ a.quire-definition__content__more-link {
 .menu-list a[href='/tables/'] + ol {
   display: none;
 }
+/* Override default label divider, it's a period everywhere else, but here we want a colon */
+.menu-list a[href='/appendix/'] .quire-page-label-divider {
+  display: none;
+}
+.menu-list a[href='/appendix/'] .quire-page-label::after {
+  content: ': ';
+}
 
 /* FULL-WIDTH PAGES
     presentation: full-width
