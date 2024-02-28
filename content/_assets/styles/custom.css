@@ -337,6 +337,7 @@ a.quire-definition__content__more-link {
 .quire-contents-list.abstract .contributor-divider {
   display: none;
 }
+.quire-contents-list .menu-list a .arrow,
 .quire-contents-list.abstract .arrow {
   display: none;
 }
@@ -344,6 +345,11 @@ a.quire-definition__content__more-link {
 .quire-contents .quire-page__content .container .content,
 .quire-page.full-width .quire-page__content .container .content {
   margin-top: 0;
+}
+/* Hide listing of all individual object and table pages */
+.menu-list a[href='/visual-atlas/'] + ol,
+.menu-list a[href='/tables/'] + ol {
+  display: none;
 }
 
 /* FULL-WIDTH PAGES
