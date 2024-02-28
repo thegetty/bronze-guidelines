@@ -1,6 +1,6 @@
 ---
 title: Tables
-order: 980
+order: 2000
 layout: page
 classes: 
   - full-width 
@@ -9,11 +9,11 @@ classes:
 
 {{ introductions.tables | markdownify }}
 
-{% figure "table-01" %}
+{% renderFile "./_tables/01.md" %}
 
-{% figure "table-02" %}
+{% renderFile "./_tables/02.md" %}
 
-{% figure "table-03" %}
+{% renderFile "./_tables/03.md" %}
 
 {% figure "table-04" %}
 

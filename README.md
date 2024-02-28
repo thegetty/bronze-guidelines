@@ -73,11 +73,17 @@ Added Poster image to Vimeo output so that could show poster on page, and iframe
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
+**_includes/components/icons.js**
+Add some icons and made sure they are consistent weight and size
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
 **_includes/components/navigation.js**
 removed title truncation in navbar
+
+**_includes/components/object-filters/object-card/object-image.webc**
+Fixed source of thumbnails for videos
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
@@ -124,10 +130,21 @@ Custom shortcode to display vocabulary pop-ups with definitions and links.
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
+**_plugins/shortcodes/objectGroup.js**
+A variant of the figure group shortcode, but creates groups of simple figure thumbnails that are linked to open in the custom iframe viewer.
+
+**_plugins/shortcodes/objectLink.js**
+Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
+
 **_plugins/shortcodes/open.js**
 Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' %}` instead of `{% open 'fig-4', 'fig-5', 'fig-6' %}`; add class ``.q-figure__modal-link`` to links so they'll open in the modal; remove "and" from list; and trim extra zeros if figure ids.
 
 **_plugins/shortcodes/index.js**
+
+**_layouts/page.liquid**
+**content/_assets/javascript/application/iframe-viewer.js**
+**content/_assets/styles/iframe-viewer.css**
+Add iframe-based image viewer
 
 **content/_computed/eleventyComputed.js**
 Add page tags value as classes, and contributor_as_it_appears as data item
