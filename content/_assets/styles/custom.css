@@ -583,16 +583,18 @@ figure .q-figure__modal-link {
   border-bottom-width: 0;
 }
 
-/*  ACCORDION BUTTONS
-    presentation: accordion   <-- used on FULL-WIDTH PAGES
+/*  ACCORDION and TABLE SIZE BUTTONS
+    Buttons to expand and collapse accordion sections, and to toggle table text size
 ============================================================================= */
-/* Expand and Collapse All buttons */
-.quire-page.full-width .global-accordion-controls {
+.quire-page.full-width .global-accordion-controls,
+.quire-page.tables-page .table-control--toggle-size {
   position: fixed;
   right: 0;
   background-color: var(--black);
   border-top-left-radius: 4px;
+  border-width: 0;
   color: var(--white);
+  cursor: pointer;
   font-size: .875rem;
   z-index: 1;
   height: 2.9rem;
@@ -601,6 +603,16 @@ figure .q-figure__modal-link {
   margin-bottom: 0;
   padding-left: .75rem;
   padding-right: 2.25rem;
+}
+.quire-page.tables-page .table-control--toggle-size {
+  bottom: 0;
+  padding-left: 1rem;
+}
+.quire-page.tables-page .table-control--toggle-size svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: var(--white);
+  margin-bottom: -3px;
 }
 .quire-page.full-width .global-accordion-controls.show-controls {
   bottom: 0;
@@ -611,6 +623,13 @@ figure .q-figure__modal-link {
   text-decoration: none;
   font-size: inherit;
   padding: 0 .75rem;
+}
+.table-zoom .content {
+  overflow: scroll;
+}
+.table-zoom .container table,
+.table-zoom .container table + .table-key {
+  font-size: 1rem !important;
 }
 
 /*  VOCABULARY PAGES
@@ -3064,12 +3083,10 @@ body.iframe-version .tables-page .quire-page__content {
 body.iframe-version .q-figure.q-figure--table {
   margin-bottom: 0 !important;
 }
-body.iframe-version .table-zoom .content {
-  overflow: scroll;
-}
-body.iframe-version .table-zoom .container table {
-  font-size: 1rem !important;
+body.iframe-version .quire-page.tables-page .table-control--toggle-size {
+  display: none;
 }
 body.iframe-version .tables-page .quire-page__content .container .content {
   padding-top: 1.5rem;
 }
+

@@ -7,9 +7,15 @@ window['toggleViewer'] = () => {
   div.style.display = div.style.display == "none" ? "block" : "none";
 }
 
-window['toggleTextSize'] = () => {
-  const myIFrame = document.getElementById('object-iframe');
-  const mains = myIFrame.contentDocument.getElementsByTagName('main');
+window['toggleTextSize'] = (target) => {
+  const toggleButton = document.getElementById('toggle-button-label')
+  toggleButton.textContent = toggleButton.textContent == 'Increase Text Size'
+    ? 'Decrease Text Size'
+    : 'Increase Text Size'
+  const targetDoc = target == 'iframe'
+    ? document.getElementById('object-iframe').contentDocument
+    : document
+  const mains = targetDoc.getElementsByTagName('main');
   mains[0].classList.toggle("table-zoom")
 }
 
