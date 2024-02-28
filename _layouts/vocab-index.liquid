@@ -2,7 +2,8 @@
 ## CUSTOMIZED FILE -- Bronze Guidelines
 ## uses vocabIndexPageHeader for custom contributor treatment
 ##
-class: quire-page
+classes: 
+  - quire-page
 layout: base.11ty.js
 description: Custom template for the Vocabulary index/table
 ---
@@ -24,7 +25,7 @@ description: Custom template for the Vocabulary index/table
   <div class="container">
     <div class="content">
       {{ content }}
-      {% bibliography pageReferences %}
+      {% bibliography citations %}
     </div>
   </div>
 </section>

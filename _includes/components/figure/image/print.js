@@ -21,7 +21,7 @@ module.exports = function(eleventyConfig) {
   const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function(figure) {
-    const { alt, annotations=[], caption, credit, id, label, src } = figure
+    const { alt, annotations=[], caption, credit, id, label, src, staticInlineFigureImage } = figure
 
     const labelElement = figureLabel({ caption, id, label })
 
@@ -52,11 +52,14 @@ module.exports = function(eleventyConfig) {
 
     // this has to come after annotations, because radio-button
     // annotations don't have any src
-    if (!src) return ''
+    if (!src && !staticInlineFigureImage) return ''
 
     let imageSrc
 
     switch (true) {
+      case figure.isSequence:
+        imageSrc = figure.staticInlineFigureImage
+        break
       case figure.isCanvas || figure.isImageService:
         imageSrc = figure.printImage
         break

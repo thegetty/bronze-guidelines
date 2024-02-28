@@ -35,8 +35,9 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Couche volontairement appliquée en surface d’un bronze pour le protéger ou le décorer, constituée d’un matériau différent du substrat en bronze. Une grande variété de matériaux peut être utilisée, depuis des substances naturelles (laques, résines, huiles, cires) jusqu’à des produits synthétiques (résines, peintures).
 
@@ -52,19 +53,22 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 656; {% cite "Aucouturier 
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Koller and Baumer 2000" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*rivestimento*](https://www.treccani.it/vocabolario/rivestimento) [definition 2]; {% cite "Battaglia 1961" %}, under [*rivestimento*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento); {% cite "Giuffredi 2006" %}, 221
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
@@ -72,8 +76,10 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Alternate Translation
 
-- 涂料
+- <span lang="zh">涂料</span>
 
     Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
+
+{% endaccordion %}
 
 </div>

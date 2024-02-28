@@ -60,9 +60,9 @@ module.exports = function(eleventyConfig) {
 
     const additionalContributorsElement = additional_contributors
       ? html`
-          <p class="backmatter additional-contributors">
-            Additional Contributors ${additional_contributors}
-          </p>
+          <div class="backmatter additional-contributors">
+            ${markdownify(additional_contributors)}
+          </div>
         `
       : ''
 

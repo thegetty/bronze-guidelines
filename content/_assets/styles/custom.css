@@ -106,7 +106,7 @@ CHOICES LABEL COLORS
   line-height: 1.3;
 }
 /* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
-.quire-page__content section#additional-figures {
+.quire-page__content div#additional-figures {
   display: none;
 }
 /* Hide contributor page links */
@@ -209,6 +209,14 @@ a.quire-definition__content__more-link {
   font-size: 1.125rem;
   line-height: 1.3;
   font-style: italic;
+}
+/* Ensure bullets line up with text */
+.quire-page__content .container .content ul li::before {
+  line-height: 2;
+}
+/* Handle Chinese */
+[lang=zh] {
+  font-family: 'Noto Sans SC', sans-serif;
 }
 /* COVER
 ============================================================================= */
@@ -348,30 +356,73 @@ a.quire-definition__content__more-link {
     margin-left: 6rem;
     margin-right: 3rem;
   }
-  /* Set grid, text to the left, figuregroups to right, headers span across */
-  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
+  .quire-page.full-width .accordion-section {
+    margin: 0;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section {
+    margin-top: .5rem;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section + .accordion-section {
+    margin-top: 0;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section .accordion-section__body {
+    margin-bottom: 1.25rem;
+  }
+  .quire-page.full-width .accordion-section .accordion-section__body > .accordion-section:last-child {
+    margin-bottom: 1.5rem;
+  }
+  .quire-page.full-width .accordion-section[open] > summary :is(h2, h3, h4, h5, h6),
+  .quire-page.full-width .accordion-section[open] > summary::after {
+    color: var(--green-wax);
+  }
+  .quire-page.full-width .quire-page__content .accordion-section__body,
+  .quire-page.full-width .quire-page__content .non-accordion-section__body {
     column-gap: 2rem;
     display: grid;
     grid-template-columns: 3fr 2fr;
   }
-  .quire-page.full-width .quire-page__content .content section > * {
+  .quire-page.full-width .quire-page__content .accordion-section__body > *,
+  .quire-page .quire-page__content .non-accordion-section__body > * {
     grid-column-start: 1;
+    margin-bottom: 20px;
   }
-  .quire-page.full-width .quire-page__content .content section > figure {
+  .quire-page.full-width .quire-page__content .accordion-section__body > figure,
+  .quire-page .quire-page__content .non-accordion-section__body > figure,
+  .quire-page.full-width .quire-page__content .accordion-section__body > .object-group,
+  .quire-page .quire-page__content .non-accordion-section__body > .object-group  {
     grid-column-start: 2;
-    grid-row: 2/100;
-    margin-top: 0;
+    grid-row: 1/100;
+    margin-top: .5rem;
+    margin-bottom: 0;
   }
-  .quire-page.full-width .quire-page__content .content section > .accordion-wrapper > figure,
-  .quire-page.full-width .quire-page__content .content section.display-accordion > figure,
-  .quire-page.full-width .quire-page__content .content section.intro-with-figures > figure {
-    grid-row-start: 1;
+  .quire-page.full-width .quire-page__content .accordion-section__body > details.accordion-section {
+    grid-column: 1/-1;
   }
-  .quire-page.full-width .quire-page__content .content section > section,
-  .quire-page.full-width .quire-page__content .content section > h2,
-  .quire-page.full-width .quire-page__content .content section > h3,
-  .quire-page.full-width .quire-page__content .content section > h4 {
-    grid-column-end: -1;
+  .quire-page.full-width .quire-page__content .non-accordion-section__body {
+    margin-bottom: 1.25rem;
+  }
+  .quire-page.full-width .accordion-section__heading > :is(h3, h4, h5, h6) {
+    margin-bottom: 1rem;
+    margin-top: 0 !important;
+    width: auto;
+    line-height: 1.7875rem;
+  }
+  .quire-page.full-width .accordion-section__heading > h2 {
+    width: auto;
+  }
+  .quire-page.full-width h2,
+  .quire-page.full-width #section-notes {
+    margin-top: 4.5rem !important;
+  }
+  .quire-page.full-width .accordion-section__heading h2 {
+    margin-top: 0 !important;
+  }
+  .accordion-section__controls::after {
+    height: 100%;
+    text-indent: 0;
+  }
+  .quire-page.full-width #section-notes  .accordion-section__controls::after {
+    line-height: 1.3;
   }
   @media screen and (max-width:810px) {
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
@@ -379,33 +430,18 @@ a.quire-definition__content__more-link {
     }
   }
   @media screen and (max-width:640px) {
-    .quire-page.full-width .quire-page__content .content section {
+    .quire-page.full-width .quire-page__content .accordion-section__body,
+    .quire-page .quire-page__content .non-accordion-section__body {
       display: block;
     }
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
       column-count: 3;
-      margin-bottom: 1rem;
-      margin-top: 1.5rem;
     }
   }
   @media screen and (max-width:500px) {
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
       column-count: 2;
     }
-  }
-  /* Ensure proper spacing between sections */
-  .quire-page.full-width .quire-page__content .content section:not([hidden]) {
-    margin-bottom: .75rem;
-  }
-  .quire-page.full-width .quire-page__content .content h2 + section {
-    margin-top: .75rem;
-  }
-  /* Adjusting the first section of the innermost nested group */
-  .quire-page.full-width .quire-page__content .content section section section * + section {
-    margin-top: .5rem;
-  }
-  .quire-page.full-width .quire-page__content .content section section section section + section {
-    margin-top: 0rem;
   }
 }
 @media screen and (min-width:1592px) {
@@ -421,12 +457,13 @@ a.quire-definition__content__more-link {
 ============================================================================= */
 @media screen {
   /* The .indented-heading and .section-number classes are added in custom.js */
-  .quire-page.full-width .content .indented-heading,
-  .quire-page.interview .content h2:not(.no-indent) {
+  .quire-page.full-width .content .indented-heading {
     text-indent: -6rem;
   }
-  .quire-page.full-width .content .indented-heading .section-number,
-  .quire-page.interview .content h2:not(.no-indent) .section-number {
+  .quire-page.full-width .content summary.indented-heading {
+    text-indent: -8rem;
+  }
+  .quire-page.full-width .content .indented-heading .section-number {
     width: 6rem;
     display: inline-block;
     text-align: right;
@@ -436,10 +473,13 @@ a.quire-definition__content__more-link {
   .quire-page.full-width .quire-page__content .container .content ul,
   .quire-page.full-width .quire-page__content .container .content ul li {
     margin-left: 0;
+    margin-top: 0;
+  }
+  .quire-page.full-width .quire-page__content .container .content ul li:last-child {
+    margin-bottom: 0;
   }
   .quire-page.full-width .quire-page__content .container .content ul li::before {
     font-size: 1rem;
-    margin-top: .2rem;
     margin-left: -2.7rem;
   }
   .quire-page.full-width .quire-page__content .container .content li ul,
@@ -544,38 +584,11 @@ figure .q-figure__modal-link {
 }
 
 /*  ACCORDION BUTTONS
-    <div class="accordion">   <-- used in VOCABULARY PAGES
     presentation: accordion   <-- used on FULL-WIDTH PAGES
 ============================================================================= */
-button.accordion-expander,
-#accordion-controls button {
-  all: inherit;
-  border: 0 !important;
-  cursor: pointer;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-button.accordion-expander svg {
-  fill: currentColor;
-  height: 1rem;
-  width: 1rem;
-}
-button.accordion-expander[aria-expanded="true"] svg {
-  fill: var(--green-wax);
-}
-button.accordion-expander[aria-expanded="true"],
-button.accordion-expander[aria-expanded="true"] * {
-  color: var(--green-wax);
-}
-button.accordion-expander[aria-expanded="true"] .vert {
-  display: none;
-}
-
 /* Expand and Collapse All buttons */
-.quire-page.full-width #accordion-controls,
-.quire-page.interview #accordion-controls {
+.quire-page.full-width .global-accordion-controls {
   position: fixed;
-  bottom: 0;
   right: 0;
   background-color: var(--black);
   border-top-left-radius: 4px;
@@ -584,26 +597,20 @@ button.accordion-expander[aria-expanded="true"] .vert {
   z-index: 1;
   height: 2.9rem;
   bottom: -2.9rem;
-  transition: bottom 1s;
+  transition: bottom 500ms;
+  margin-bottom: 0;
+  padding-left: .75rem;
+  padding-right: 2.25rem;
 }
-.quire-page.full-width #accordion-controls.show-controls,
-.quire-page.interview #accordion-controls.show-controls {
+.quire-page.full-width .global-accordion-controls.show-controls {
   bottom: 0;
 }
-.quire-page.full-width #accordion-controls li,
-.quire-page.interview #accordion-controls li {
-  display: inline-block;
-  padding: .5rem 1.5rem;
-  height: 100%;
-}
-.quire-page.vocabulary #accordion-controls {
-  font-size: .875rem;
-  height: 1rem;
-  display: flex;
-  justify-content: flex-end;
-}
-.quire-page.vocabulary #accordion-controls li::before {
-  content: '' !important;
+.quire-page.full-width .global-accordion-controls button {
+  margin: 0;
+  color: var(--white);
+  text-decoration: none;
+  font-size: inherit;
+  padding: 0 .75rem;
 }
 
 /*  VOCABULARY PAGES
@@ -640,23 +647,38 @@ button.accordion-expander[aria-expanded="true"] .vert {
 }
 .quire-page.vocabulary div.accordion {
   border-bottom: 2px solid var(--black);
-  margin-top: 1.75rem;
+  margin-top: .75rem;
 }
-.quire-page.vocabulary div.accordion h3 {
+.quire-page.vocabulary div.accordion .global-accordion-controls {
+  margin-bottom: .75rem;
+}
+.quire-page.vocabulary div.accordion .global-accordion-controls button {
+  text-decoration: none;
+  color: var(--black);
+}
+.quire-page.vocabulary div.accordion .accordion-section {
+  margin: 0;
+}
+.quire-page.vocabulary div.accordion h3,
+.quire-page.vocabulary div.accordion .accordion-section__heading h3 {
   border-top: 2px solid var(--black);
   font-weight: 400;
   margin-bottom: 1.75rem;
   padding-top: 1.75rem;
+  width: 100% !important;
+  margin-top: 0;
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander {
-  width: 100%;
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary h3,
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary h3 strong,
+.quire-page.vocabulary div.accordion .accordion-section[open] > summary::after {
+  color: var(--green-wax);
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander strong {
-  font-weight: 800;
+.quire-page.vocabulary .accordion-section__controls::after,
+.quire-page.vocabulary .accordion-section__copy-link-button {
+  padding-top: 1.75rem;
 }
-.quire-page.vocabulary div.accordion h3 button.accordion-expander svg {
-  float: right;
-  margin-top: .65rem;
+.quire-page.vocabulary .accordion-section__controls::after {
+  margin-left: -1rem;
 }
 .quire-page.vocabulary .q-figure--group {
   border-top: 2px solid var(--black);
@@ -679,6 +701,9 @@ button.accordion-expander[aria-expanded="true"] .vert {
   font-size: .875rem;
   border-bottom-width: 0;
 }
+.quire-page.vocabulary-index .quire-page__header__contributor .additional-contributors  p{
+  margin-bottom: 1em;
+}
 /* Make a better layout for Alternate Translations */
 .quire-page.vocabulary .quire-page__content .content .accordion ul {
   list-style-type: none;
@@ -693,9 +718,6 @@ button.accordion-expander[aria-expanded="true"] .vert {
   margin-bottom: .25em;
 }
 @media screen {
-  .quire-page.vocabulary .quire-page__content .content .accordion li::before {
-    margin-top: 5px;
-  }
   .quire-page.vocabulary #accordion-controls li {
     margin-left: 1em;
   }
@@ -1084,6 +1106,167 @@ button.accordion-expander[aria-expanded="true"] .vert {
 
 /*  LIGHTBOX & MODAL
 ============================================================================= */
+#iframe-viewer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--deep-black);
+  z-index: 1;
+}
+.iframe_viewer__iframe {
+  position: absolute;
+  width: calc(100% - 6rem);
+  height: calc(100% - 6rem);
+  top: 3rem;
+  left: 3rem;
+}
+.iframe_viewer__nav-buttons,
+.iframe_viewer__controls {
+  position: absolute;
+}
+.iframe_viewer__controls {
+  right: 0;
+  top: 0;
+}
+.iframe_viewer__nav-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 45%;
+}
+.iframe_viewer__controls a,
+.iframe_viewer__nav-buttons a,
+.quire-page__content .content .iframe_viewer__controls a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link):hover,
+.quire-page__content .content .iframe_viewer__nav-buttons a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link):hover {
+  background-color: transparent;
+  border-bottom-width: 0 !important;
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iframe_viewer__controls svg {
+  fill: white;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.iframe_viewer__nav-buttons a:first-child::before,
+.iframe_viewer__nav-buttons a:last-child::before {
+  content: '';
+  display: block;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAABYCAQAAACjBqE3AAAB6klEQVR4Ae3bsWpUQRTG8YkkanwCa7GzVotsI/gEgk9h4Vu4ySLYmMYgbJrc3lrwZbJwC0FMt4j7F6Y4oIZrsXtgxvx/1c0ufEX4cnbmLCmSJEmSJEmSJEmSJP3XCBPvbJU+8doWmDFwyZpLBmYlNJebz0KwzykwsuSYJSNwykEJreV2BaBMaLIQZ2xYcFgqDlmw4ayE/FwL0dDk4Qh4W37DAjgqIT+3HRbigjH+iikVdxgZStgyN0Su2sXIeTwTT+esdpcbIlfNAuZ/TxresG4zV8kYWSZNiKUTokMMSWeIwTNEn4fK2TW3gRNgVkJLuVksROA9G+bEvoATNlBCa7nZXEwdxEZxzpKRKFh+bsv8LmPFmhX1OwfIz81jIRJQ5eeqG9B+riRJkiRJkiRJkiRJkiRJkiRJUkvA/8RQoEpKlJWINFkJ62AlrEP/mNBibnv2yz/A3t7Uq3LcpoxP8COjC1T5vxoAD5VdoEqdDrd5QuW1swtUSaueh3zkiuBiqgtA2OlkeMcP/uDqugsJdbjHF65VdPMKwS0+WQc/MgKvrIOHysB9vgPwk8+85hmPbnQdvHZyDMAFD7L3EOpgMcVdvnHFS0/vlatrXvCVx0U9gt3fxvnA0/hB4nmRJEmSJEmSJEmSJGmHfgFLaDPoMu5xWwAAAABJRU5ErkJggg==);
+}
+.iframe_viewer__nav-buttons a:first-child::before {
+  background-position-x: -139px;
+  background-position-y: -44px;
+}
+.iframe_viewer__nav-buttons a:last-child::before {
+  background-position-x: -95px;
+  background-position-y: -44px;
+}
+#iframe-control-tooltip {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 6px;
+  width: max-content;
+  animation: fade 2s linear forwards;
+  -webkit-animation: fade 2s linear forwards;
+  z-index: 1;
+}
+.object-group {
+  column-count: 3;
+}
+.object-group.group-grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.object-group.group-grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.object-group.group-grid-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.page-object {
+  position: relative;
+  margin: 0 0 1rem !important;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left !important;
+}
+.quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link),
+.quire-page__content .content .page-object a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link):hover {
+  border-bottom-width: 0 !important;
+}
+.page-object a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+}
+.page-object .object-link {
+  font-weight: bold;
+  font-size: .75rem;
+  display: inline-flex;
+  align-items: center;
+}
+.object-link svg,
+.object-link-group svg {
+  width: 1.375rem;
+  height: 1.375rem;
+  fill: var(--accent-color);
+}
+.object-link-group svg {
+  margin-left: 3px;
+  margin-bottom: -6px;
+  margin-right: -3px;
+}
+.object-link-group a,
+.quire-page__content .content p a[target=object-iframe]:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link) {
+  color: currentColor !important;
+}
+.quire-entry__header .container {
+  background-color: var(--deep-black);
+}
+.quire-entry:not(.quire-case-study) .quire-entry__header .quire-page__header__title {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+.quire-entry:not(.quire-case-study) .q-lightbox-slides__caption {
+  display: none;
+}
+.quire-entry:not(.quire-case-study) .quire-entry__lightbox .q-lightbox-slides__element canvas-panel, 
+.quire-entry:not(.quire-case-study) .quire-entry__lightbox .q-lightbox-slides__element img, 
+.quire-entry:not(.quire-case-study) .quire-entry__lightbox .q-lightbox-slides__element image-service {
+  height: 100%;
+}
+@media screen and (min-width: 700px) {
+  .quire-entry:not(.quire-case-study) div.side-by-side div.quire-entry__image-wrap,
+  .quire-entry:not(.quire-case-study) .side-by-side .quire-entry__lightbox {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .quire-entry:not(.quire-case-study) div.side-by-side div.quire-entry__content {
+    width: 35%;
+  }
+}
+
 /* Lightbox */
 .q-lightbox__image {
   height: calc(100vh - 8.75rem)
@@ -1218,6 +1401,10 @@ button.accordion-expander[aria-expanded="true"] .vert {
 
 /*  TABLES
 ============================================================================= */
+/* Remove yellow hover effect */
+.quire-page__content .content tbody tr:hover {
+  background-color: transparent;
+}
 /* Even out the margins on the page of tables */
 @media screen and (max-width:1591px) {
   .quire-page.full-width.tables-page .quire-page__content .container,
@@ -1253,7 +1440,8 @@ button.accordion-expander[aria-expanded="true"] .vert {
 .quire-page:not(.vocabulary-index) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
-.quire-page__content .container .content #table-03 table {
+.quire-page__content .container .content #table-03 table,
+.quire-page__content .container .content table#table-03 {
   font-size: .35vw;
 }
 .quire-page__content .container .content table caption {
@@ -1288,6 +1476,10 @@ table a,
 .table-key a {
   color: inherit;
   border-bottom: 1px dotted var(--accent-color);
+}
+table caption,
+table caption strong {
+  color: var(--accent-color);
 }
 
 /* TABLES IN THE LIGHTBOX / MODAL */
@@ -1381,7 +1573,7 @@ table .poor { background-color: #F2F9F1; }
   cursor: pointer;
 }
 .annotations-ui__input-wrapper input + label {
-  font-size: .75rem;
+  font-size: .875rem;
   font-weight: bold;
   cursor: pointer;
   position: relative;
@@ -1661,7 +1853,8 @@ table .poor { background-color: #F2F9F1; }
     padding-left: 0;
   }
   .quire-page.vocabulary h4 {
-    font-size: 1.125rem;
+    font-size: 1rem;
+    font-style: normal;
     margin: 1rem 0 !important;
   }
   .quire-page.vocabulary div.accordion {

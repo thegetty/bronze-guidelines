@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A casting technique in which metal is poured into a {% def "piece mold" %} made of a specific type of sand that is bound by clay (or oil or resin in modern foundries). The piece mold is made by ramming the sand around a rigid {% def "model" %} or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#S2.4.1).'
+definition: 'A casting technique in which metal is poured into a {% def "piece mold" %} made of a specific type of sand that is bound by clay (or oil or resin in modern foundries). The piece mold is made by ramming the sand around a rigid {% def "model" %} or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#s2-4-1).'
 lang:
   de: Sandformguss
   fr: fonte au sable
@@ -32,8 +32,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sand%20casting>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique de fonderie utilisant un {% def "moule réfractaire" %} en sable.
 
@@ -69,7 +70,8 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     Sources: Copper Industry: {% cite "Cuénin 1994" %}, 5; Art and Craft Textbook: {% cite "Rama 1988" %}, 31
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -81,7 +83,8 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 - *Sandgussverfahren*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 *Staffa* is Italian for “flask,” the wooden or metal frame containing the sand.
 
@@ -97,10 +100,13 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione alla sabbia*](http://www.treccani.it/vocabolario/ricerca/fusione-alla-sabbia/); {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 1247
+
+{% endaccordion %}
 
 </div>

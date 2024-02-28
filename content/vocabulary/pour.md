@@ -37,8 +37,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Opération consistant à verser du métal liquide dans un {% def "moule réfractaire" %}.
 
@@ -56,13 +57,15 @@ Copper Industry: {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 371
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
-## Source
+#### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 221
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Refers to the act of casting and to the metal contained in the crucible or furnace that is poured in one session
 
@@ -84,7 +87,8 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Sources: {% cite "Biringuccio [1540] 1977" %}, fols. 108–10
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -92,8 +96,10 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translation
 
-- 浇铸
+- <span lang="zh">浇铸</span>
 
     Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
+
+{% endaccordion %}
 
 </div>

@@ -33,8 +33,11 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 19
 ## To Be Distinguished From
 
 - *copy*
+
 - {% def "replica" "*replica*" %}
+
 - *version*
+
 - {% def "variant" "*variant*" %}
 
 ## Synonym
@@ -44,8 +47,9 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}, 32; {% cite "Beale 19
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Désigne les épreuves issues d'un même modèle original multiplié dans des matériaux tels que plâtre, alliage métallique, terres cuites, etc.
 
@@ -61,7 +65,8 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Lebon et al. 2016
 
 Art and Craft Textbook: {% cite "Rama 1988" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -73,7 +78,8 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
     Source: {% cite "Mietzsch 2009" %}, 103
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
@@ -91,12 +97,15 @@ Art and Craft Textbook: {% cite "Rama 1988" %}
 
     Correctly describes the presence of a number of issued sculptures; less used in artwork because production “in serie” has a less valuable industrial production meaning.
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
-- 翻版
+- <span lang="zh">翻版</span>
 
     Source: {% cite "Ming 2010" %}, 310; TNATD
+
+{% endaccordion %}
 
 </div>

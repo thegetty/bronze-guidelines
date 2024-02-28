@@ -65,8 +65,7 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 ## Customizations Made to 11ty Templates/Files
 
 **_includes/components/figure/caption.js**
-**_includes/components/figure/media-embed-url.js**
-Fixed/adjusted output of Vimeo URL for PDF output
+Remove hard-coded `<em>` tags
 
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
@@ -74,11 +73,17 @@ Added Poster image to Vimeo output so that could show poster on page, and iframe
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
+**_includes/components/icons.js**
+Add some icons and made sure they are consistent weight and size
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
 **_includes/components/navigation.js**
 removed title truncation in navbar
+
+**_includes/components/object-filters/object-card/object-image.webc**
+Fixed source of thumbnails for videos
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
@@ -97,18 +102,21 @@ Custom include to create definition pop-ups.
 **_includes/web-components/modal/index.js**
 Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
+**_includes/translation-headings.liquid**
+Assigns title with liquid variable to be used in vocab page accordions and includes accordionGlobalControls
+
 **_layouts/page.case-study**
 Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
-**_plugins/figures/iiif/config.js**
-increased print-image.jpg size
-
 **_plugins/filters/index.js**
 **_plugins/filters/hasShortcodes.js**
 Custom filter to process text with shortcodes in it.
+
+**_plugins/filters/fullname.js**
+Join names with a non-breaking space.
 
 **_plugins/filters/getContributor.js**
 Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
@@ -122,20 +130,24 @@ Custom shortcode to display vocabulary pop-ups with definitions and links.
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
-**_plugins/shortcodes/figureRef.js**
-Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig-5', 'fig-6' %}`, add class .q-figure__modal-link to links so they'll open in the modal, remove "and" from list, and trim extra zeros if figure ids.
+**_plugins/shortcodes/objectGroup.js**
+A variant of the figure group shortcode, but creates groups of simple figure thumbnails that are linked to open in the custom iframe viewer.
+
+**_plugins/shortcodes/objectLink.js**
+Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
+
+**_plugins/shortcodes/open.js**
+Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' %}` instead of `{% open 'fig-4', 'fig-5', 'fig-6' %}`; add class ``.q-figure__modal-link`` to links so they'll open in the modal; remove "and" from list; and trim extra zeros if figure ids.
 
 **_plugins/shortcodes/index.js**
 
-**_plugins/shortcodes/warn.js**
-Custom shortcode to wrap content in a `<div>` with a "warn" class.
-
-**_plugins/transforms/outputs/pdf/layout.html**
-**_plugins/transforms/outputs/pdf/write.js**
-Add needed divs and classes for styling pdf.
+**_layouts/page.liquid**
+**content/_assets/javascript/application/iframe-viewer.js**
+**content/_assets/styles/iframe-viewer.css**
+Add iframe-based image viewer
 
 **content/_computed/eleventyComputed.js**
-Add page tags and presentation values as classes, and contributor_as_it_appears as data item
+Add page tags value as classes, and contributor_as_it_appears as data item
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

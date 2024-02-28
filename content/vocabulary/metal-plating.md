@@ -28,8 +28,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme générique décrivant toute application d’une couche métallique exogène à la surface d’un bronze.
 
@@ -43,7 +44,8 @@ Note: La {% def "dorure" %}, l’argenture, et dans une moindre mesure l’étam
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 657; {% cite "Darque-Ceretti and Aucouturier 2012" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 In German, *Plattierung* (the result) and *Plattieren* (the action) are specific to obtaining the adhesion of a (noble) plate on a (less noble) substrate by mechanical pressure via hammering, rolling, friction. *Plattierung* may actually not be applicable for sculpture. In German the construction *Ver* + metal + *ung* is preferred: *Vergoldung*, *Versilberung*, *Verkupferung*, *Verzinnung*, *Verzinkung.*
 
@@ -51,16 +53,20 @@ In German, *Plattierung* (the result) and *Plattieren* (the action) are specific
 
 {% cite "Wallack 1840" %}, 191–219
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*placcatura*](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, under [*placcatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 327
+
+{% endaccordion %}
 
 </div>

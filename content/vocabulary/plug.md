@@ -41,8 +41,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug> [definitio
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Type de réparation comblant un trou traversant comme ceux laissés par les {% def "noyau" "fers à noyaux" %}. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
 
@@ -74,7 +75,8 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 
     Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 Used primarily in speech
 
@@ -96,7 +98,8 @@ Used primarily in speech
 
     Source: {% cite "Bol 1985" %}, 139
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Alternate Translations
 
@@ -108,7 +111,8 @@ Used primarily in speech
 
     Threaded plug
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -116,8 +120,10 @@ Used primarily in speech
 
 #### Alternate Translation
 
-- 栓塞
+- <span lang="zh">栓塞</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
+
+{% endaccordion %}
 
 </div>

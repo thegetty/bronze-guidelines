@@ -22,7 +22,7 @@ CAST:ING editorial committee:
 
 David Bourgarit
 Jane Bassett
-Francesca Bewer
+Francesca G. Bewer
 Arlen Heginbotham
 Andrew Lacey
 Peta Motture

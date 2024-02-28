@@ -1,3 +1,13 @@
+accordion:
+  controls: plus-minus # arrow | plus-minus
+  copyButton:
+    ariaLabel: Copy page section link to clipboard
+    successText: Copied page section link to clipboard
+    symbol: §
+  globalControls:
+    collapseText: Collapse Sections
+    expandText: Expand Sections
+
 analytics:
   googleId: ''
 
@@ -13,7 +23,7 @@ citations:
   popupStyle: text # text | icon
 
 entryPage:
-  sideBySide: false
+  sideBySide: true
   objectLinkText: View in Collection
 
 epub:
@@ -41,6 +51,9 @@ navigation:
 
 pageTitle:
   labelDivider: '. '
+
+ref:
+  sequenceTransition: 30
 
 searchEnabled: true
 

@@ -37,13 +37,15 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/punch> [definiti
 ## To Be Distinguished From
 
 - *chisel*
+
 - *cold chisel*
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Un des deux grands types de ciselets (dit aussi « mat », l’autre grand type étant le « ciselet clair ») dont la partie active, de section quadrangulaire ou circulaire, texturée ou lisse, permet de donner à la surface du bronze une certaine texture, par matage.
 
@@ -61,13 +63,15 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 640; Historical: {% cite "Diderot et al. 1751" %}, 3:480, entry « ciselets »; Art and Craft Textbook: {% cite "De Bois 1999" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Maaz 2010" %}, 718
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -79,10 +83,13 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*punzone*](http://www.treccani.it/vocabolario/punzone/) [definition 3]; {% cite "Battaglia 1961" %}, under [*punzone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI14/GDLI_14_ocr_1017.pdf&parola=punzone) [definition 2]; {% cite "Cellini [1568] 1983" %}, 1, fol. 27
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
 {% cite "Ming 2010" %}, 156; [TNATD](https://terms.naer.edu.tw/detail/625279/?index=1)
+
+{% endaccordion %}
 
 </div>

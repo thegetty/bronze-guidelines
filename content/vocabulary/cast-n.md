@@ -30,8 +30,9 @@ Note: Both “cast” and “casting” can be correctly used as nouns, but the 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Statue ou plus généralement objet métallique obtenu par fonderie. Attention à l’homonyme fonte qui désigne la fonte de fer.
 
@@ -73,7 +74,8 @@ Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %
 
     Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Alternate Translation
 
@@ -81,7 +83,8 @@ Historical: {% cite "Boffrand 1743" %}, 51–56; {% cite "Diderot et al. 1751" %
 
     Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Foundry-specific term
 
@@ -103,7 +106,8 @@ Foundry-specific term
     
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 81
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -111,6 +115,8 @@ Foundry-specific term
 
 #### Alternate Translation
 
-- 铸品
+- <span lang="zh">铸品</span>
+
+{% endaccordion %}
 
 </div>

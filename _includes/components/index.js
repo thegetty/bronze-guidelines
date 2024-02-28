@@ -1,12 +1,13 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// added vocabIndexPageHeader, line 70
+// added vocabIndexPageHeader, line 75
 //
 /**
  * Export all component includes
  */
 
 module.exports = {
+  accordionGlobalControls: require('./accordion/global-controls'),
   annotationsUI: require('./figure/annotations-ui'),
   abstract: require('./abstract.js'),
   analytics: require('./analytics.js'),
@@ -23,6 +24,7 @@ module.exports = {
   figureCaption: require('./figure/caption'),
   figureImage: require('./figure/image'),
   figureImageElement: require('./figure/image/element'),
+  figureImageSequence: require('./figure/image/sequence'),
   figureLabel: require('./figure/label'),
   figureModalLink: require('./figure/modal-link'),
   figureMediaEmbedUrl: require('./figure/media-embed-url'),
@@ -59,7 +61,9 @@ module.exports = {
   pageButtons: require('./page-buttons.js'),
   pageHeader: require('./page-header.js'),
   pageTitle: require('./page-title.js'),
+  search: require('./search.js'),
   scripts: require('./scripts.js'),
+  sequencePanel: require('./figure/image/sequence-panel'),
   siteTitle: require('./site-title.js'),
   tableOfContents: require('./table-of-contents/index.js'),
   tableOfContentsGridItem: require('./table-of-contents/item/grid.js'),

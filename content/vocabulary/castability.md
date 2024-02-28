@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#S2.2).'
+definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#s2-2).'
 lang:
   de: Fliessvermögen
   fr: coulabilité
@@ -26,7 +26,9 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 ## To Be Distinguished From
 
 - *fluidity*
+
 - *fusibility*
+
 - *viscosity*
 
 ## Synonym
@@ -38,15 +40,18 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Aptitude d’un métal à remplir un {% def "moule réfractaire" %} dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
 
 #### To Be Distinguished From
 
 - *fluidité*
+
 - *fusibilité*
+
 - *viscosité*
 
 #### Sources
@@ -59,7 +64,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %},
 
 General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -87,7 +93,8 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
     Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -103,7 +110,8 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione di oggetti artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
@@ -111,8 +119,10 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 
-- 铸造性
+- <span lang="zh">铸造性</span>
 
     Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+
+{% endaccordion %}
 
 </div>

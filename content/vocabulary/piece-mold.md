@@ -41,8 +41,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/piece%20mold>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 {% def "Moule" %} constitué d’au moins deux parties ou pièces assemblées pour faciliter le démoulage et souvent pour s’affranchir des problèmes de contre-dépouille.
 
@@ -56,7 +57,8 @@ Note: Pour la sculpture en bronze, un moule à pièces peut aussi bien désigner
 
 Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Alternate Translation
 
@@ -66,7 +68,8 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
 {% cite "Maaz 2010" %}, 730
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 *Tassello* is a piece of a mold. In Treccani, the description refers uniquely to sand casting. Biringuccio describes forming a clay mold in pieces with locking parts he calls *incastrature*.
 
@@ -82,12 +85,15 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*calco a tasselli*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*calco a tasselli*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
-- 范块
+- <span lang="zh">范块</span>
 
     Source: {% cite "Zhang 2010" %}, 80
+
+{% endaccordion %}
 
 </div>

@@ -47,8 +47,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cold%20shut> [de
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 {% def "Défaut de fonderie" %} dû à la fusion imparfaite de deux flux de métal liquide qui se rencontrent dans le {% def "moule réfractaire" %}, laissant en surface un sillon. On parle de « solution de continuité ».
 
@@ -74,7 +75,8 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
     Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -84,7 +86,8 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 - *Kaltschweisse*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Alternate Translations
 
@@ -92,7 +95,8 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 - *solidificazione prematura*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -100,16 +104,18 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 #### Alternate Translations
 
-- 冷结
+- <span lang="zh">冷结</span>
 
     Source: {% cite "Ming 2010" %}, 883
 
-- 冷隔
+- <span lang="zh">冷隔</span>
 
     Source: {% cite "Ming 2010" %}, 883
 
-- 流界
+- <span lang="zh">流界</span>
 
     Source: [TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
+
+{% endaccordion %}
 
 </div>

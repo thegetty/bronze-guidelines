@@ -33,8 +33,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Type de réparation pour recouvrir un trou ou un manque par insertion d’une plaque faite d’un alliage à base de cuivre. L’insertion et le maintien peuvent être mécaniques, mais le recours au {% def "brasage" %}, au {% def "soudage" %} et même à la coulée secondaire sont également possibles.
 
@@ -54,13 +55,15 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
     Sources: Historical: {% cite "Boffrand 1743" %}, 60; {% cite "Mariette 1768" %}, 127; {% cite "Diderot et al. 1751" %}, 2:442, entry « bronze »
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Meissner, Haber, and Mach 2000" %}, 102; {% cite "Maaz 2010" %}, 688
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -76,7 +79,8 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
     Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 1a]; {% cite "Battaglia 1961" %}, under [*tassello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 (v., n.)
 
@@ -86,18 +90,20 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Alternate Translations
 
-- 补修料
+- <span lang="zh">补修料</span>
 
     Literally “material used as a patch”
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
 
-- 补片
+- <span lang="zh">补片</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/643120/)
 
-- 补缀 (v., n.)
+- <span lang="zh">补缀</span> (v., n.)
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+
+{% endaccordion %}
 
 </div>

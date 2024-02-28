@@ -26,8 +26,11 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% ci
 ## To Be Distinguished From
 
 - {% def "after-cast" "*after-cast*" %}
+
 - *aftercast*
+
 - {% def "replica" "*replica*" %}
+
 - *surmoulage*
 
 ## Synonym
@@ -37,8 +40,9 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Frapiccini 2017" %}; {% ci
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Déclinaison d’un {% def "modèle" %} avec des variations dans la forme ou dans les dimensions.
 
@@ -50,19 +54,22 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 549
 
 - *variante*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Weihrauch 1967" %}, 476
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*variante*](http://www.treccani.it/vocabolario/variante1/); {% cite "Battaglia 1961" %}, under [*variante*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI21/GDLI_21_ocr_680.pdf&parola=variante) [definition 3]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 Literally “modification"
 
@@ -72,10 +79,12 @@ Literally “modification"
 
 #### Alternate Translation
 
-- 变型
+- <span lang="zh">变型</span>
 
     Literally “modification”
 
     Sources: {% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
+
+{% endaccordion %}
 
 </div>

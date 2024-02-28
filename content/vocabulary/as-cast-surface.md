@@ -35,13 +35,15 @@ Other: {% cite "Burd and Greene 1948" %}; {% cite "Mödlinger and Sabatini 2016"
 ## To Be Distinguished From
 
 - *fire scale*
+
 - *fire-skin*
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Surface du bronze en sortie de {% def "moule réfractaire" %}, juste après le décochage, avant la {% def "réparure" %}.
 
@@ -63,7 +65,8 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 - *surface brute de fonte*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -73,7 +76,8 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 238
 
 - *gussrauhe Oberfläche*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Used as part of expression “superfiecie al grezzo di fusione”
 
@@ -85,10 +89,13 @@ Used as part of expression “superfiecie al grezzo di fusione”
 
 - *grezzo*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 998
+
+{% endaccordion %}
 
 </div>

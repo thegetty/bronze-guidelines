@@ -33,11 +33,13 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## To Be Distinguished From
 
 - *copy*
+
 - {% def "replica" "*replica*" %}
 
 ## Synonyms
 
 - *aftercast*
+
 - *surmoulage*
 
     The French term *surmoulage* is often used in English texts.
@@ -45,8 +47,9 @@ Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Motture 2019" %}; {% cite 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Reproduction en métal par moulage d’un bronze ou d’une partie d’œuvre en bronze.
 
@@ -59,8 +62,11 @@ Note: En français, le mot surmoulé peut être chargé d’un sens négatif ({%
 #### To Be Distinguished From
 
 - *copie*
+
 - *réplique*
+
 - *variante*
+
 - *version*
 
 #### Sources
@@ -69,11 +75,13 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 634; {% cite "Lebon 2012" 
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 Source: {% cite "Maaz 2010" %}, 710
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Closest translation to *surmoulage*; could refer to the process as well as to the product of surmoulage; not specifically used for metal in these sources.
 
@@ -95,7 +103,8 @@ Closest translation to *surmoulage*; could refer to the process as well as to th
 
 - *multiplo*
  
+{% endaccordion %}
 
-### **Chinese**: {{ lang.zh }}
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

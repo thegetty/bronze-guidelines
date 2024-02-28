@@ -36,8 +36,9 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Pour un bronze, transformation chimique du métal en un composé non métallique sous l’action d’un environnement particulier. Désigne aussi le produit résultant.
 
@@ -47,19 +48,22 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 648; {% cite "Aucouturier 
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*corrosione*](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, under [*corrosione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione) [definition 2]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
@@ -67,8 +71,10 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 #### Alternate Translation
 
-- 锈蚀
+- <span lang="zh">锈蚀</span>
 
     Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
+
+{% endaccordion %}
 
 </div>

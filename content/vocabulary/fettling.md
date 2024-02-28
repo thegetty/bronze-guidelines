@@ -34,8 +34,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 526
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Ensemble des opérations visant à nettoyer un bronze au sortir du {% def "moule réfractaire" %}, avant {% def "ciselure" %} et/ou patination.
 
@@ -48,6 +49,7 @@ Note: Suivant les périodes et l’organisation de l’atelier la réparure peut
 #### To Be Distinguished From
 
 - *ciselure*
+
 - *ciselure-réparure*
 
 #### Sources
@@ -82,7 +84,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
     Sources: Historical: {% cite "Gonon 1876" %}, 12; Art and Craft Textbook: {% cite "Rama 1988" %}, 375
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -104,7 +107,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %},
 
     Source: {% cite "Brunhuber 1986" %}, 747
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Removal of flashing or traces of {% def "sprues" %}
 
@@ -124,7 +128,8 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
     Designates more specifically the quick removal prior to {% def "chasing" %}; see *chiseling*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -132,16 +137,18 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
 #### Alternate Translations
 
-- 修整
+- <span lang="zh">修整</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
 
-- 清理
+- <span lang="zh">清理</span>
 
     Sources: {% cite "Ming 2010" %}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
 
-- 精整
+- <span lang="zh">精整</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+
+{% endaccordion %}
 
 </div>

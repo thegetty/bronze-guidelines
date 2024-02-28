@@ -20,7 +20,7 @@ See figs. 44, 46, 71, 86, 124, 539.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {% def "sand casting" %} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {% def "piece mold" %} casting the channels are cut directly into the refractory mold. See [GI§2.7](/intro/#S2.7). Depending on the complexity of the {% def "cast (n.)" "cast" %}, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
+Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {% def "sand casting" %} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {% def "piece mold" %} casting the channels are cut directly into the refractory mold. See [GI§2.7](/intro/#s2-7). Depending on the complexity of the {% def "cast (n.)" "cast" %}, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
 
 {% endbackmatter %}
 
@@ -39,8 +39,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/sprue>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par le métal liquide. Désigne aussi les mêmes éléments remplis de métal dont il faut débarrasser le bronze après la {% def "coulée" %}. Désigne, pour les {% def "lost-wax casting" "procédés à la cire perdue" %}, les éléments en cire servant à cette fonction.
 
@@ -80,7 +81,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 628; Art and Craft Textbook: {% cite "Rama 1988" %}, 253
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -94,7 +96,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 - *Versorgungskanäle*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Term also found as part of expression *getto di colata*, referring to a gate or sprue that feeds the metal into the mold. The term is also used to describe a cast (act of casting) and {% def "pour" %} (act of pouring, as well as content of the crucible).
 
@@ -178,7 +181,8 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 89
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -186,20 +190,22 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Alternate Translations
 
-- 浇口
+- <span lang="zh">浇口</span>
 
     Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
 
-- 竖浇道
+- <span lang="zh">竖浇道</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/941804/?index=1)
 
-- 铸口
+- <span lang="zh">铸口</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
 
-- 铸道
+- <span lang="zh">铸道</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+
+{% endaccordion %}
 
 </div>

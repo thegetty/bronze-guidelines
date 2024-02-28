@@ -1,11 +1,17 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// add Akrobat font, lines 15–34
+// add Noto Sans Simplified Chinese and Akrobat font, lines 10-13 and 21–40
 //
 // =============================================================================
 // Fonts.scss
 // -----------------------------------------------------------------------------
 // Custom font declarations (if any) can be imported here
+
+/// Noto Sans Simplified Chinese
+// https://fonts.google.com/noto/specimen/Noto+Sans+SC
+// Open Font License 1.1 (https://scripts.sil.org/OFL)
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
 $assets-dir: "/_assets/" !default;
 
 @function font($file) {

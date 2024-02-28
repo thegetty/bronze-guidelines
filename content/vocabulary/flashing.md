@@ -44,23 +44,34 @@ Art and Craft Textbook: {% cite "McCreight 1996" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 {% def "Défaut de fonderie" %} où le métal liquide pénètre dans des fissures du {% def "moule réfractaire" %}. S’agissant de la partie interne du moule réfractaire (le {% def "noyau" %}, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule réfractaire, un défaut similaire apparaît mais sur la surface externe du bronze (notamment — mais pas seulement — à l’endroit des joints de moule quand le moule est constitué de plusieurs parties assemblées).
 
 #### To Be Distinguished From
 
 - *balesvre*
+
 - *balevre*
+
 - *barbe*
+
 - *barbure*
+
 - *bavochure*
+
 - *bavure*
+
 - *bavure de joint*
+
 - *couture*
+
 - *suture*
+
 - *toiles*
+
 - *ébarbure*
 
 #### Sources
@@ -79,9 +90,10 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
     Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
-## Source
+#### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
@@ -89,7 +101,8 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 - *Gussgrat*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -101,7 +114,8 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
     Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -109,16 +123,18 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 #### Alternate Translations
 
-- 溢料
+- <span lang="zh">溢料</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 溢边
+- <span lang="zh">溢边</span>
 
     Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
 
-- 飞边
+- <span lang="zh">飞边</span>
 
     Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+
+{% endaccordion %}
 
 </div>

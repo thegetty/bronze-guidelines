@@ -2,7 +2,9 @@
 title: Vocabulary
 order: 400
 layout: vocab-index
-class: full-width vocabulary-index
+classes: 
+  - full-width 
+  - vocabulary-index
 contributor:
   - id: jbassett
   - id: fbewer
@@ -40,7 +42,14 @@ contributor:
       Jeremy Warren (Honorary Curator of Sculpture, Ashmolean Museum, Oxford, and Sculpture Research Curator, the National Trust) is a specialist in Renaissance and later European sculpture. His numerous publications include the catalogues *Medieval and Renaissance Sculpture in the Ashmolean Museum* (2014) and *Italian Sculpture in the Wallace Collection* (2016), as well as articles on the sculptors Antico, Giovanni Bandini, Giambologna, Vincenzo and Gian Gerolamo Grandi, Leone Leoni, and Severo da Ravenna.  Exhibitions include *Beauty and Power: Renaissance and Baroque Bronzes from the Peter Marino Collection* (2010). He has also written extensively on the history of collecting.
   - id: jmwelter
 contributor_as_it_appears: Edited by Jane Bassett and David Bourgarit
-additional_contributors: Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze, Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
+additional_contributors: |
+  Additional Contributors Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze, Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
+
+  English: Francesca G. Bewer
+  French: Anne-Lise Desmas, Elisabeth Lebon
+  German: Joachim Kreutner, Jean-Marie Welter
+  Italian: Francesca G. Bewer, Lorenzo Morigi
+  Chinese: Linda Ying-Chun Lin
 ---
 
 <div class="section-landing-page__text">
@@ -67,7 +76,7 @@ additional_contributors: Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpri
     <td><a href="{{ page.url}}">{{ page.data.lang.fr }}</a></td>
     <td><a href="{{ page.url}}">{{ page.data.lang.de }}</a></td>
     <td><a href="{{ page.url}}">{{ page.data.lang.it }}</a></td>
-    <td><a href="{{ page.url}}">{{ page.data.lang.zh }}</a></td>
+    <td><a href="{{ page.url}}" lang="zh">{{ page.data.lang.zh }}</a></td>
   </tr>
 {% endfor %}
   </tbody>

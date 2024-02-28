@@ -1,6 +1,6 @@
 ---
-title: Visual Atlas of Features
-order: 800
+title: Visual Atlas of Features (v1)
+order: 799
 layout: visual-atlas
 ---
 

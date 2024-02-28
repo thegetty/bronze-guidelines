@@ -1,8 +1,9 @@
 ---
 title: About
-order: 1020
+order: 2050
 layout: page
-class: about-copyright-page
+classes: 
+  - about-copyright-page
 outputs: [html]
 ---
 

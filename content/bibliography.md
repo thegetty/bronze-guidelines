@@ -1,8 +1,9 @@
 ---
 title: Bibliography
-order: 1000
+order: 2030
 layout: bibliography
-class: pdf-backmatter
+classes: 
+  - pdf-backmatter
 ---
 
 <div class="section-landing-page__text pdf-add-bottom-margin">
