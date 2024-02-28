@@ -117,7 +117,7 @@ module.exports = (eleventyConfig) => {
       {
         name: 'static-inline-figure-image',
         resize: {
-          width: 626
+          width: 400
         }
       }
     ]

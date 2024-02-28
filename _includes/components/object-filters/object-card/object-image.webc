@@ -1,7 +1,7 @@
-/**
- * CUSTOMIZED FILE -- Bronze Guidelines
- * Fixed source of thumbnails for videos
- */
+ <!-- 
+CUSTOMIZED FILE -- Bronze Guidelines
+Fixed source of thumbnails for videos
+-->
 <figure class="object-card__image" :data-field-name="attribute.name">
   <img :src="src(attributes)" :alt="alt(attributes)">
 </figure>
@@ -21,9 +21,11 @@ const src = ({ data }) => {
   let thumbnail = ''
   if (figures) {
     if (figures.find(({ mediaType }) => mediaType === 'image')) {
-      thumbnail = figures.find(({ mediaType }) => mediaType === 'image').thumbnail
+      thumbnail = figures.find(({ mediaType }) => mediaType === 'image').static_inline
+        ? figures.find(({ mediaType }) => mediaType === 'image').static_inline
+        : figures.find(({ mediaType }) => mediaType === 'image').thumbnail
     } else if (figures.find(({ mediaType }) => mediaType === 'vimeo')) {
-      thumbnail = figures.find(({ mediaType }) => mediaType === 'vimeo').poster
+      thumbnail = figures.find(({ mediaType }) => mediaType === 'vimeo').static_inline
     }
   } else {
     thumbnail = data.thumbnail
