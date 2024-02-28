@@ -3010,3 +3010,49 @@ table .poor { background-color: #F2F9F1; }
 #fig-559-0-fingerprint-streak label::before {
   background-color: #fff; /* white */
 }
+
+/*  IFRAME OVERRIDES
+============================================================================= */
+/* When a page is viewed in the iframe viewer, a script in `content/_assets/javascript/application/iframe-viewer.js` 
+adds the `iframe-version` class to the <body> so that these override styles may be applied  */
+.quire.iframe-version .quire-entry .quire-page__header__title .quire-page-label, 
+.quire-iframe-version .quire-entry h1 {
+  color: fuchsia;
+} 
+body.iframe-version {
+  background-color: black;
+  height: 100%;
+}
+body.iframe-version .quire-navbar,
+body.iframe-version .quire-contents-buttons,
+body.iframe-version .tables-page .quire-page__header {
+  display: none;
+}
+body.iframe-version .side-by-side .quire-entry__lightbox {
+  height: 100%;
+  top: 0;
+}
+body.iframe-version .quire-page::before,
+body.iframe-version .quire-page::after {
+  content: '';
+  background-color: transparent;
+}
+body.iframe-version .quire-entry__content {
+  animation: none;
+}
+body.iframe-version .quire .quire__primary main,
+body.iframe-version .tables-page .quire-page__content {
+  background-color: black;
+}
+body.iframe-version .q-figure.q-figure--table {
+  margin-bottom: 0 !important;
+}
+body.iframe-version .table-zoom .content {
+  overflow: scroll;
+}
+body.iframe-version .table-zoom .container table {
+  font-size: 1rem !important;
+}
+body.iframe-version .tables-page .quire-page__content .container .content {
+  padding-top: 1.5rem;
+}

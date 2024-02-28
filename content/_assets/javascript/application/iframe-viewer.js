@@ -35,13 +35,16 @@ window['updateViewer'] = () => {
   const myIFrame = document.getElementById('object-iframe');
   let textSizeButton = document.getElementById('iframe-toggle-size');
   myIFrame.addEventListener("load", function() {
-    const iframeDocumentHead = this.contentDocument.head;
-    const iframeCssLink = document.createElement("link");
-    iframeCssLink.href = "/_assets/styles/iframe-viewer.css"; 
-    iframeCssLink.rel = "stylesheet"; 
-    iframeCssLink.type = "text/css"; 
-    iframeDocumentHead.appendChild(iframeCssLink);
+    // const iframeDocumentHead = this.contentDocument.head;
+    // const iframeCssLink = document.createElement("link");
+    // iframeCssLink.href = "/_assets/styles/iframe-viewer.css"; 
+    // iframeCssLink.rel = "stylesheet"; 
+    // iframeCssLink.type = "text/css"; 
+    // iframeDocumentHead.appendChild(iframeCssLink);
     
+    const pageBody = this.contentDocument.body
+    pageBody.classList.add('iframe-version')
+
     // Display textSizeButton if it's a table
     const iframeMains = this.contentDocument.getElementsByTagName('main');
     textSizeButton.style.display = iframeMains[0].classList.contains('tables-page') 
