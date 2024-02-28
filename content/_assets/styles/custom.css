@@ -776,6 +776,33 @@ figure .q-figure__modal-link {
     color: var(--white);
     font-style: italic;
     text-align: center;
+}
+  /* Object filters */
+  .quire-page.visual-atlas .object-filters {
+    color: var(--light);
+    font-size: 1rem;
+  }
+  .quire-page.visual-atlas .object-filters__list {
+    padding-bottom: 1rem;
+  }
+  .quire-page.visual-atlas .object-filters__button {
+    background-color: transparent;
+    color: var(--light);
+    border: 1px solid var(--mid);
+  }
+  .quire-page.visual-atlas .object-filters__button.object-filters__button--active {
+    background-color: var(--light);
+    color: var(--black);
+  }
+  .quire-page.visual-atlas .object-filters__select select, 
+  .quire-page.visual-atlas .object-filters__select select:focus, 
+  .quire-page.visual-atlas .object-filters__select select:focus-visible {
+    border-bottom-color: var(--mid);
+    color: var(--light);
+    font-size: 1rem;
+  }
+  .quire-page.visual-atlas .object-filters__select::after {
+    border-top-color: var(--light);
   }
   /* Object grid */
   .quire-page.visual-atlas .object-cards {

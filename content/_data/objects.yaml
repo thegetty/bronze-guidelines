@@ -1,4 +1,6 @@
-object_filters: false
+object_filters:
+  - type
+  - chapter
 
 object_card:
   - thumbnail
@@ -136,235 +138,329 @@ object_list:
       - id: "vid-11"
       - id: "vid-16"
 
+# I.1 Casting Processes
+# I.2 Metals
+# I.3 Casting Defects
+
   - id: '001'
     label: '1'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-001
+
   - id: '002'
     label: '2'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-002
   - id: '003'
     label: '3'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-003
   - id: '004'
     label: '4'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-004
   - id: '005'
     label: '5'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-005
   - id: '006'
     label: '6'
+    type: [ Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-006
   - id: '007'
     label: '7'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-007
   - id: '008'
     label: '8'
+    type: [ Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-008
   - id: '009'
     label: '9'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-009
   - id: '010'
     label: '10'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-010
   - id: '011'
     label: '11'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-011
   - id: '012'
     label: '12'
+    type: [ X-radiograph ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-012
   - id: '013'
     label: '13'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-013
   - id: '014'
     label: '14'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-014
   - id: '015'
     label: '15'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-015
   - id: '016'
     label: '16'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-016
   - id: '017'
     label: '17'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-017
   - id: '018'
     label: '18'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-018
   - id: '019'
     label: '19'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-019
   - id: '020'
     label: '20'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-020
   - id: '021'
     label: '21'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-021
   - id: '022'
     label: '22'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-022
   - id: '023'
     label: '23'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-023
   - id: '024'
     label: '24'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-024
   - id: '025'
     label: '25'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-025
   - id: '026'
     label: '26'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-026
   - id: '027'
     label: '27'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-027
   - id: '028'
     label: '28'
+    type: [ Diagram  ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-028
   - id: '029'
     label: '29'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-029
   - id: '030'
     label: '30'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-030
   - id: '031'
     label: '31'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-031
   - id: '032'
     label: '32'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-032
   - id: '033'
     label: '33'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-033
   - id: '034'
     label: '34'
+    type: [ X-radiograph ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-034
   - id: '035'
     label: '35'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-035
   - id: '036'
     label: '36'
+    type: [ Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-036
   - id: '037'
     label: '37'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-037
   - id: '038'
     label: '38'
+    type: [ Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-038
   - id: '039'
     label: '39'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-039
   - id: '040'
     label: '40'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-040
   - id: '041'
     label: '41'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-041
   - id: '042'
     label: '42'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-042
   - id: '043'
     label: '43'
+    type: [ X-radiograph, Annotated ]
+    chapter: [ General Introduction ]
     figure:
       - id: fig-043
   - id: '044'
     label: '44'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-044
   - id: '045'
     label: '45'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-045
   - id: '046'
     label: '46'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-046
   - id: '047'
     label: '47'
+    chapter: [ General Introduction ]
     figure:
       - id: fig-047
   - id: vid-01
     label: 'Video 1'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-01
   - id: vid-02
     label: 'Video 2'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-02
   - id: vid-03
     label: 'Video 3'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-03
   - id: vid-04
     label: 'Video 4'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-04
   - id: vid-05
     label: 'Video 5'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-05
   - id: vid-06
     label: 'Video 6'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-06
   - id: vid-07
     label: 'Video 7'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-07
   - id: vid-08
     label: 'Video 8'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-08
   - id: vid-09
     label: 'Video 9'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-09
   - id: vid-10
     label: 'Video 10'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-10
   - id: vid-11
     label: 'Video 11'
+    type: [ Video ]
+    chapter: [ General Introduction ]
     figure:
       - id: vid-11
