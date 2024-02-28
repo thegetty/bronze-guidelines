@@ -30,7 +30,8 @@ description: Single page default template
           <a class="iframe-control--toggle-size" id="iframe-toggle-size" style="display:none;" aria-label="Change text size" onclick="toggleTextSize()">{% icon type='text-size', description='Toggle text size' %}</a>
           <span id="iframe-control-tooltip" style="display:none;"></span>
         </div>
-        <iframe class="iframe_viewer__iframe" id="object-iframe" name="object-iframe"></iframe>
+        <iframe class="iframe_viewer__iframe" id="object-iframe" name="object-iframe" style="display:none;"></iframe>
+        <span id="iframe-loading-indicator" style="display:block;">Loading ...</span>
       </div>
     </div>
   </div>

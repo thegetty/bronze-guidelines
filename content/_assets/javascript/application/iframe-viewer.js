@@ -25,23 +25,21 @@ window['copyLink'] = () => {
   toolTipElement.innerHTML = toolTipText
   toolTipElement.style.display = "block"
   setTimeout(() => {
-    console.log("Delayed for 3 seconds.");
-    toolTipElement.style.display = "none";
+    toolTipElement.style.display = "none"
   }, 3000);
 }
 
 window['updateViewer'] = () => {
-  // Update iframe page styles 
+  const textSizeButton = document.getElementById('iframe-toggle-size');
   const myIFrame = document.getElementById('object-iframe');
-  let textSizeButton = document.getElementById('iframe-toggle-size');
+  const myIFrameLoadIndicator = document.getElementById('iframe-loading-indicator');
+  
+  // Hide iframe and display loading indicator to start
+  myIFrame.style.display = "none"
+  myIFrameLoadIndicator.style.display = "block"
+  
   myIFrame.addEventListener("load", function() {
-    // const iframeDocumentHead = this.contentDocument.head;
-    // const iframeCssLink = document.createElement("link");
-    // iframeCssLink.href = "/_assets/styles/iframe-viewer.css"; 
-    // iframeCssLink.rel = "stylesheet"; 
-    // iframeCssLink.type = "text/css"; 
-    // iframeDocumentHead.appendChild(iframeCssLink);
-    
+    // Add class for style overrides
     const pageBody = this.contentDocument.body
     pageBody.classList.add('iframe-version')
 
@@ -50,6 +48,13 @@ window['updateViewer'] = () => {
     textSizeButton.style.display = iframeMains[0].classList.contains('tables-page') 
       ? "flex"
       : "none"
+
+    // Show iframe and hide loading indicator after 1000 ms
+    setTimeout(() => {
+      myIFrame.style.display = "block"
+      myIFrameLoadIndicator.style.display = "none"
+      console.log("SET");
+    }, 1000);
   });
 
   // Update Prev / Next Links

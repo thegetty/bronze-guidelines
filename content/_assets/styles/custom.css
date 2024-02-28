@@ -1219,6 +1219,12 @@ figure .q-figure__modal-link {
   background-color: var(--deep-black);
   z-index: 1;
 }
+#iframe-loading-indicator {
+  color: var(--light);
+  display: block;
+  margin: 45vh auto 0;
+  text-align: center;
+}
 .iframe_viewer__iframe {
   position: absolute;
   width: calc(100% - 6rem);
