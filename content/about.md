@@ -1,6 +1,6 @@
 ---
 title: About
-order: 1020
+order: 2050
 layout: page
 classes: 
   - about-copyright-page

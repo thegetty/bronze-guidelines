@@ -387,7 +387,9 @@ a.quire-definition__content__more-link {
     margin-bottom: 20px;
   }
   .quire-page.full-width .quire-page__content .accordion-section__body > figure,
-  .quire-page .quire-page__content .non-accordion-section__body > figure {
+  .quire-page .quire-page__content .non-accordion-section__body > figure,
+  .quire-page.full-width .quire-page__content .accordion-section__body > .object-group,
+  .quire-page .quire-page__content .non-accordion-section__body > .object-group  {
     grid-column-start: 2;
     grid-row: 1/100;
     margin-top: .5rem;
@@ -1123,7 +1125,6 @@ figure .q-figure__modal-link {
 .iframe_viewer__nav-buttons,
 .iframe_viewer__controls {
   position: absolute;
-  z-index: 10;
 }
 .iframe_viewer__controls {
   right: 0;
@@ -1133,7 +1134,6 @@ figure .q-figure__modal-link {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  position: absolute;
   top: 45%;
 }
 .iframe_viewer__controls a,
@@ -1184,11 +1184,10 @@ figure .q-figure__modal-link {
   width: max-content;
   animation: fade 2s linear forwards;
   -webkit-animation: fade 2s linear forwards;
+  z-index: 1;
 }
 .object-group {
-  display: grid;
-  gap: 1rem;
-  width: fit-content;
+  column-count: 3;
 }
 .object-group.group-grid-2 {
   grid-template-columns: 1fr 1fr;
@@ -1201,7 +1200,7 @@ figure .q-figure__modal-link {
 }
 .page-object {
   position: relative;
-  margin: 0 !important;
+  margin: 0 0 1rem !important;
   padding: 0;
   display: inline-flex;
   flex-direction: column;
@@ -1441,7 +1440,8 @@ figure .q-figure__modal-link {
 .quire-page:not(.vocabulary-index) .quire-page__content .container .content .table-key {
   font-size: .75vw;
 }
-.quire-page__content .container .content #table-03 table {
+.quire-page__content .container .content #table-03 table,
+.quire-page__content .container .content table#table-03 {
   font-size: .35vw;
 }
 .quire-page__content .container .content table caption {
@@ -1573,7 +1573,7 @@ table .poor { background-color: #F2F9F1; }
   cursor: pointer;
 }
 .annotations-ui__input-wrapper input + label {
-  font-size: .75rem;
+  font-size: .875rem;
   font-weight: bold;
   cursor: pointer;
   position: relative;

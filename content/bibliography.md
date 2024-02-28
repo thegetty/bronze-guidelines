@@ -1,6 +1,6 @@
 ---
 title: Bibliography
-order: 1000
+order: 2030
 layout: bibliography
 classes: 
   - pdf-backmatter

@@ -334,6 +334,7 @@ figure_list:
 
   - id: "fig-027"
     src: "figures/027.jpg"
+    zoom: true
     media_type:
     label: "Figure 27"
     caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster refractory mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](#I.3). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
@@ -349,6 +350,7 @@ figure_list:
 
   - id: "fig-029"
     src: "figures/029.jpg"
+    zoom: true
     media_type:
     label: "Figure 29"
     caption: "Example of the direct wax slab process as seen in Patan, Gujarat, India, in the 1980s. The wax torso of a large statuette is shaped by modeling wax slabs, before adding the core. See %%Craddock 2015%%; %%Furger 2017%%."
@@ -361,6 +363,7 @@ figure_list:
 
   - id: "fig-031"
     src: "figures/031/base.jpg"
+    thumb: "figures/thumbs/031.jpg"
     zoom: true
     label: "Figure 31"
     caption: "Radiographic detail of the torso of Apollo clearly shows a wax-to-wax joint as a dark ellipse at the junction of the arm to the shoulder (blue). See also the complex armature and notably the transverse rods (orange) going through the main armature rods (red). *Apollo and Daphne*, probably France, early 18th century, H. 85 cm (Musée Fabre, Montpellier, France, inv. 836.4.86). See %%C2RMF Internal Report #37090, 2018%%."
@@ -385,6 +388,7 @@ figure_list:
 
   - id: "fig-032"
     src: "figures/032/base.jpg"
+    thumb: "figures/thumbs/032.jpg"
     zoom: true
     label: "Figure 32"
     caption: "X-radiograph showing a complex armature made of different sizes of rods and wire (11 mm, 7 mm, and 4 mm in diameter). See also the wax-to-wax joints. A 15 mm Cu filter was needed to keep the same exposure parameters for all the different areas of the sculpture, despite the significant variations in thickness (400kV, 8mA, 15 min. exposure, 3 m source-to-object distance, AA400PB film). Antoine-Louis Barye (French, 1795–1875), *Theseus and the Centaur Bienor*, cast by Eugène Gonon (1814–1892) in 1877, H. 1.3 m (Musée du Louvre, inv. RF 3882). For daylight photography of the statue see [fig. 395](/visual-atlas/#fig-395){target=_blank}. See %%C2RMF Internal Report 2016b%%."
@@ -406,6 +410,7 @@ figure_list:
 
   - id: "fig-034"
     # src: "figures/034.jpg"
+    thumb: "figures/thumbs/034.jpg"
     zoom: true
     class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 34"
@@ -425,6 +430,7 @@ figure_list:
 
   - id: "fig-035"
     src: "figures/035/base.jpg"
+    thumb: "figures/thumbs/035.jpg"
     zoom: true
     label: "Figure 35"
     caption: "Detail of an annotated digital X-radiograph showing transverse core pins in both thighs (yellow overlays), one running side to side, the other front to back. A circular plug (green overlay) and rectangular surface patch (blue overlay) repair the holes left in the bronze wall when the front-to-back core pins were cut off at the surface and pushed into the hollow bronze cavity. Giovanni Battista Foggini (Italian, 1652–1725), *Dancing Faun*, ca. 1700, H. 54 cm (J. Paul Getty Museum, inv. 2000.8)."
@@ -443,6 +449,7 @@ figure_list:
 
   - id: "fig-036"
     src: "figures/036/base.jpg"
+    thumb: "figures/thumbs/036.jpg"
     zoom: true
     label: "Figure 36"
     caption: "Detail of internal surface showing a core pin with the head in the interior (yellow overlay), testifying to the use of a process in which the core was set after the wax in the mold. Remains of clay core are visible (top right). Giovan Francesco Rustici (Italian, 1475–1554), *Tomb Effigy of Alberto III Pio, Prince of Carpi*, ca. 1535, L. 167 cm (Musée du Louvre, inv. MR 1680). See %%C2RMF Internal Report 2016a%%."
@@ -458,6 +465,7 @@ figure_list:
 
   - id: "fig-037"
     src: "figures/037/base.jpg"
+    thumb: "figures/thumbs/037.jpg"
     zoom: true
     label: "Figure 37"
     caption: "X-radiographs showing the influence of lead intensifying screens placed directly in front of and behind the film. Without lead screens (left), the contrast is low. On the right, the addition of the lead reinforcing screens (MX125PB film) reveals technical features, including core pins (some marked with red overlays). Operating conditions for both images are: 260kV, 4mA, 8 min. exposure, 2.5 m source-to-object distance, 2.6 mm Cu beam filtering. Candlestick representing Samson and the Lion, Lower Saxony, ca. 1175–1225, H. 22 cm (Musée départemental des antiquités de Rouen, France, inv. R.91.23). See %%C2RMF Internal Report 2015b%%."
@@ -470,6 +478,7 @@ figure_list:
 
   - id: "fig-038"
     src: "figures/038/base.jpg"
+    thumb: "figures/thumbs/038.jpg"
     zoom: true
     label: "Figure 38"
     caption: "Endoscope image of the inside cavity revealing a particular type of chaplet (approx. H. 1 cm). Martin Lefort (French, dates unknown), *Justice*, 1571, H. of chaplet 128 cm (Musée du Louvre, inv. MR1682). See %%Castelle et al. 2021%%."
@@ -502,6 +511,7 @@ figure_list:
 
   - id: "fig-042"
     src: "figures/042/base.jpg"
+    thumb: "figures/thumbs/042.jpg"
     zoom: true
     label: "Figure 42"
     caption: "Annotated detail of an X-radiograph showing core support rods (yellow overlay) supporting a wax-to-wax joint in the arm (blue overlay). Giovanni Battista Foggini (Italian, 1652–1725), *Dancing Faun*, ca. 1700, H. 54 cm (J. Paul Getty Museum, inv. 2000.8). See %%Fogelman and Fusco 2002%%, 238, 357."
@@ -517,6 +527,7 @@ figure_list:
 
   - id: "fig-043"
     src: "figures/043/base.jpg"
+    thumb: "figures/thumbs/043.jpg"
     zoom: true
     label: "Figure 43"
     caption: "Annotated X-radiograph of a sand cast. Both Dejanira’s and Hercules’s heads were cast separately and secured at the neck with Roman joints (yellow overlay). Roman joints also secure Dejanira’s proper right arm as well as Hercules’s proper left arm. There is an internal seam line in Dejanira’s left shoulder where the separately formed core in the arm abuts the core used in the torso (blue line). Lanterns can be seen in the torso and the proper left arm (red overlays). Charles Crozatier (French, 1795–155), *Hercules Freeing Dejanira from the Centaur Nessus*, Paris 19th century, after Adriaen de Vries (Netherlandish, 1556–1626), H. 78.5 cm (Rijksmuseum, Amsterdam, inv. BK-1957-2)."
@@ -541,9 +552,10 @@ figure_list:
 
   - id: "fig-045"
     src: "figures/045.jpg"
+    zoom: true
     media_type:
     label: "Figure 45"
-    caption: "Alignment of gates and vents for the circulation of molten bronze and gases during the casting. {Mariette 1768}, 78, plate II detail, showing Edme Bouchardon (French, 1698–1762), *Louis XV*, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After %%Desmas 2014%%."
+    caption: "Alignment of gates and vents for the circulation of molten bronze and gases during the casting. %%Mariette 1768%%, 78, plate II detail, showing Edme Bouchardon (French, 1698–1762), *Louis XV*, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After %%Desmas 2014%%."
 
   - id: "fig-046"
     src: "figures/046.jpg"
@@ -1338,7 +1350,7 @@ figure_list:
     src: "figures/134.jpg"
     zoom: true
     label: "Figure 134"
-    caption: "Synthetic samples of tin bronzes from 1 wt% tin (top left) to 20 wt% tin (bottom right), showing the evolution of color. Bronze plates, 5 × 6 cm, were cast by Frank Willer/LVR-Landesmuseum Bonn as part of the experimental archaeology for a research project on Roman large bronzes (see {Willer, Schwab, and Mirschenz 2017}). The pieces were polished with pumice stone to enable a clearer perception of the actual color of the alloy with as little reflection as possible. Photograph using neutral studio strobes."
+    caption: "Synthetic samples of tin bronzes from 1 wt% tin (top left) to 20 wt% tin (bottom right), showing the evolution of color. Bronze plates, 5 × 6 cm, were cast by Frank Willer/LVR-Landesmuseum Bonn as part of the experimental archaeology for a research project on Roman large bronzes (see %%Willer, Schwab, and Mirschenz 2017%%). The pieces were polished with pumice stone to enable a clearer perception of the actual color of the alloy with as little reflection as possible. Photograph using neutral studio strobes."
 
   - id: "fig-135"
     src: "figures/135.jpg"
@@ -1368,7 +1380,7 @@ figure_list:
     src: "figures/139.jpg"
     zoom: true
     label: "Figure 139"
-    caption: "Diagram showing how atoms of copper are stacked within a cube. The black dots represent the cores of the atoms; they are located on each corner of the cube and at the center of each face. This crystalline structure is called face-centered-cubic (FCC). After {Scott 1991}, 1, fig. 2."
+    caption: "Diagram showing how atoms of copper are stacked within a cube. The black dots represent the cores of the atoms; they are located on each corner of the cube and at the center of each face. This crystalline structure is called face-centered-cubic (FCC). After %%Scott 1991%%, 1, fig. 2."
 
   - id: "fig-140"
     src: "figures/140.jpg"
@@ -2141,7 +2153,7 @@ figure_list:
     src: "figures/221/base.jpg"
     zoom: true
     label: "Figure 221"
-    caption: "Sketches showing how armature rods included in the construction of the model are used to mount the over-life-size equestrian figure of Louis XV to its pedestal. Left: overall view showing the armature rods extending beyond the hooves; right: cross section showing the internal armature in the legs (red overlay) and some of the external structural supports removed after casting (yellow overlay). {Mariette 1768}, ch. 4, plate IX, p. 56 (left), ch. 14, plate III, p. 160 (right), showing Edme Bouchardon (French, 1698–1762), Louis XV, Paris, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After %%Desmas 2014%%."
+    caption: "Sketches showing how armature rods included in the construction of the model are used to mount the over-life-size equestrian figure of Louis XV to its pedestal. Left: overall view showing the armature rods extending beyond the hooves; right: cross section showing the internal armature in the legs (red overlay) and some of the external structural supports removed after casting (yellow overlay). %%Mariette 1768%%, ch. 4, plate IX, p. 56 (left), ch. 14, plate III, p. 160 (right), showing Edme Bouchardon (French, 1698–1762), Louis XV, Paris, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After %%Desmas 2014%%."
     annotations:
       - input: checkbox
         items:
@@ -2241,7 +2253,7 @@ figure_list:
     src: "figures/232.jpg"
     media_type:
     label: "Figure 232"
-    caption: "This slice from a computer tomography (CT) scan captured at the widest area of the neck shows a layer of metal separating the head from the body (see overlay). This is evidence that the head was cast onto an already-cast body by a localized lost-wax process. Excess metal dripped down a hollow channel along the vertical wooden armature in the torso. Elemental mapping by X-ray fluorescence (XRF) analysis revealed that the body is made of a different alloy than the head, confirming that the head was joined to the body at a separate stage. *Seated Brahma*, Cambodia, late 12th or early 13th century, H. 31.5 cm (Walters Art Museum, Baltimore, inv. 54.2734). See {Strahan 1998}."
+    caption: "This slice from a computer tomography (CT) scan captured at the widest area of the neck shows a layer of metal separating the head from the body (see overlay). This is evidence that the head was cast onto an already-cast body by a localized lost-wax process. Excess metal dripped down a hollow channel along the vertical wooden armature in the torso. Elemental mapping by X-ray fluorescence (XRF) analysis revealed that the body is made of a different alloy than the head, confirming that the head was joined to the body at a separate stage. *Seated Brahma*, Cambodia, late 12th or early 13th century, H. 31.5 cm (Walters Art Museum, Baltimore, inv. 54.2734). See %%Strahan 1998%%."
 
   - id: "fig-233"
     # src: "figures/233.png"
@@ -2332,7 +2344,7 @@ figure_list:
     src: "figures/245.jpg"
     media_type:
     label: "Figure 245"
-    caption: "Sampling of matting tool faces used in cold working a surface. After {Untracht 1968}, 96."
+    caption: "Sampling of matting tool faces used in cold working a surface. After %%Untracht 1968%%, 96."
 
   - id: "fig-246"
     src: "figures/246.jpg"
@@ -2740,7 +2752,7 @@ figure_list:
     src: "figures/309.jpg"
     zoom: true
     label: "Figure 309"
-    caption: "Metallographic investigation of a cross section has shown that the dark-green patina on this bust formed naturally during burial and is of the type referred to as “noble patina” ({Gettens 1970}; {Robbiola and Hurtel 1997}). Heated glass-paste inlay is used to create solid and translucent colors within depressions or elevated chambers. Here, elementary chemical analysis indicates the eyes were produced using luxury glassmaking techniques, including colored glass (%%Descamps-Lequime, Biron, and Langlois 2017%%). *Livia*, Neuilly-le-Réal (Allier, France), 1st century CE, H. 21 cm; head H. 10 cm (Musée du Louvre, inv. Br 28)."
+    caption: "Metallographic investigation of a cross section has shown that the dark-green patina on this bust formed naturally during burial and is of the type referred to as “noble patina” (%%Gettens 1970%%; %%Robbiola and Hurtel 1997%%). Heated glass-paste inlay is used to create solid and translucent colors within depressions or elevated chambers. Here, elementary chemical analysis indicates the eyes were produced using luxury glassmaking techniques, including colored glass (%%Descamps-Lequime, Biron, and Langlois 2017%%). *Livia*, Neuilly-le-Réal (Allier, France), 1st century CE, H. 21 cm; head H. 10 cm (Musée du Louvre, inv. Br 28)."
 
   - id: "fig-310"
     src: "figures/310.jpg"
@@ -3864,7 +3876,7 @@ figure_list:
     src: "figures/473.jpg"
     media_type:
     label: "Figure 473"
-    caption: "Modeling the clay core for an experimental casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See {Barnet and Dandridge 2006}."
+    caption: "Modeling the clay core for an experimental casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See %%Barnet and Dandridge 2006%%."
 
   - id: "fig-474"
     src: "figures/474.jpg"
@@ -4549,6 +4561,7 @@ figure_list:
 
   - id: "vid-03"
     poster: "figures/video-03.png"
+    thumb: "figures/thumbs/video-03.jpg"
     media_type: vimeo
     media_id: 672851307/f50cb47466
     label: "Video 3"
@@ -4556,6 +4569,7 @@ figure_list:
 
   - id: "vid-04"
     poster: "figures/video-04.png"
+    thumb: "figures/thumbs/video-04.jpg"
     media_type: vimeo
     media_id: 672851374/1d4ca42c8b
     label: "Video 4"
@@ -4563,6 +4577,7 @@ figure_list:
 
   - id: "vid-05"
     poster: "figures/video-05.png"
+    thumb: "figures/thumbs/video-05.jpg"
     media_type: vimeo
     media_id: 672851443/c5ac6ba826
     label: "Video 5"
@@ -4570,6 +4585,7 @@ figure_list:
 
   - id: "vid-06"
     poster: "figures/video-06.png"
+    thumb: "figures/thumbs/video-06.jpg"
     media_type: youtube
     media_id: "JiofOv18o2M"
     label: "Video 6"
@@ -4577,6 +4593,7 @@ figure_list:
 
   - id: "vid-07"
     poster: "figures/video-07.png"
+    thumb: "figures/thumbs/video-07.jpg"
     media_type: vimeo
     media_id: 672851502/f356f17315
     label: "Video 7"
@@ -4584,6 +4601,7 @@ figure_list:
 
   - id: "vid-08"
     poster: "figures/video-08.png"
+    thumb: "figures/thumbs/video-08.jpg"
     media_type: vimeo
     media_id: 672851620/a15f318198
     label: "Video 8"
@@ -4591,6 +4609,7 @@ figure_list:
 
   - id: "vid-09"
     poster: "figures/video-09.png"
+    thumb: "figures/thumbs/video-09.jpg"
     media_type: vimeo
     media_id: 672851728/ef8007af4c
     label: "Video 9"
@@ -4598,6 +4617,7 @@ figure_list:
 
   - id: "vid-10"
     poster: "figures/video-10.png"
+    thumb: "figures/thumbs/video-10.jpg"
     media_type: vimeo
     media_id: 672853119/c50b735e70
     label: "Video 10"
@@ -4605,6 +4625,7 @@ figure_list:
 
   - id: "vid-11"
     poster: "figures/video-11.png"
+    thumb: "figures/thumbs/video-11.jpg"
     media_type: vimeo
     media_id: 672853278/b3f8d29d53
     label: "Video 11"

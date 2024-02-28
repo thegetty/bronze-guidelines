@@ -1,6 +1,6 @@
 ---
 title: About the Contributors
-order: 1010
+order: 2040
 layout: page
 classes: 
   - pdf-backmatter
