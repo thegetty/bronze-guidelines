@@ -199,7 +199,7 @@ During the past two decades, archaeologists, art historians, and museum curators
 
 Among the more recent phenomena are studies of entire collections and larger corpuses of related works (see examples of this in [Case Study 2](/case-studies/2/) and [Case Study 4](/case-studies/4/)) as well as research focused on the work of a particular artist, in which technical findings are woven into the art historical narrative.[^29] Conservation projects also continue to provide unique opportunities for close investigation. Reconstruction, replication, and reenactment of historical processes and objects are gaining traction as methods of research and pedagogy.[^30] Newer technical means of analysis, including 3D scanning, are being called upon to help address the complex and challenging questions around originality and authenticity (for instance with regard to the posthumous production of {% def "editions" %} of certain nineteenth- and early twentieth-century European sculptures).[^31] And other digital tools, from imaging to databases, are instrumental in the sharing and interpretation of large bodies of data and communication across international teams.[^32] It is within, and from, this broader context that the CAST:ING project took shape.
 
-{% objgroup "3", "fig-002" %}
+{% objgroup "3", "fig-157" %}
 
 {% endaccordion %}
 
@@ -360,7 +360,7 @@ The main advantage of the slab process is the ability to precisely control the t
 
 The process entails painting liquefied wax into one or more sections of an open mold. While it could be used on its own there is little evidence of that; most often it might serve to supplement other indirect processes such as slush molding as a way to ensure good coverage of the mold and to capture fine details ({% objlink 'fig-021, fig-022' %}).
 
-{% objgroup "3", "fig-016, fig-017, fig-018, fig-019, fig-020, fig-021, fig-022" %}
+{% objgroup "3", "fig-016, fig-017, fig-018, fig-019, fig-050, fig-020, fig-021, fig-022" %}
 
 {% endaccordion %}
 {% accordion "#### 2.3.2 First core, then wax" "s2-3-2" %}
@@ -448,7 +448,7 @@ These different elements may (but not always)
 
 Not all sculptures necessitate armatures. And any kind of armature can act as core support if it extends from the core into the refractory mold. The armature in a cast bronze may be preserved to serve as a structural/mounting function post-casting, depending on the shape of the sculpture and location of the armature. Iron left inside an outdoor bronze may cause damage due to expansion of the iron as it rusts ({% objlink 'fig-149' %}).
 
-{% objgroup "3", "fig-031, fig-032, fig-032, fig-034" %}
+{% objgroup "3", "fig-031, fig-032, fig-032, fig-034, fig-149" %}
 
 {% endaccordion %}
 {% accordion "#### 2.6.2 Core supports" "s2-6-2" %}
@@ -469,7 +469,7 @@ The term may also apply to internal wires or rods that help strengthen the core 
 
 -   They may be used to support joins between core sections, as may occur in sand casting ({% objlink 'fig-009' %}).
 
-{% objgroup "3", "fig-035, fig-036, fig-037, fig-038, fig-039, fig-040, fig-041, fig-042, fig-009" %}
+{% objgroup "3", "fig-035, fig-036, fig-037, fig-038, fig-039, fig-040, fig-041, fig-002, fig-042, fig-009" %}
 
 {% endaccordion %}
 {% accordion "#### 2.6.3 Core vents" "s2-6-3" %}
