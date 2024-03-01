@@ -218,6 +218,14 @@ a.quire-definition__content__more-link {
 [lang=zh] {
   font-family: 'Noto Sans SC', sans-serif;
 }
+/* Reset pop-up box sizing in CSS, now being set by JS with setPositionInContainer() */
+.quire-citation .quire-citation__content {
+  transform: translateX(0);
+  left: 0;
+  width: auto;
+  font-size: .875rem;
+}
+
 /* COVER
 ============================================================================= */
 

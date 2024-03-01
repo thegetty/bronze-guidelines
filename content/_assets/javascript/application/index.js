@@ -1,6 +1,8 @@
 //@ts-check
 // CUSTOMIZED FILE -- Bronze Guidelines
-// Adds scrip for iframe-based image viewer
+// Adds script for iframe-based image viewer
+// Allow only one pop-up to be open at a time
+// Fix max-width of pop-ups, especially for narrower Visual Atlas text areas
 //
 /**
  * @fileOverview
@@ -247,18 +249,33 @@ function setDate() {
 * @param {number} container margin
 */
 function setPositionInContainer(el, container) {
-  const margin = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--gap'))
-  const elRect = el.getBoundingClientRect()
   const containerRect = container.getBoundingClientRect()
+  // Computer width of content w/0 padding
+  const computedStyle = getComputedStyle(container)
+  const offsetLeft = parseFloat(computedStyle.paddingLeft)
+  const offsetRight = parseFloat(computedStyle.paddingRight)
+  const maxWidth = containerRect.width - offsetLeft - offsetRight
+  // Set max size of pop-up box
+  const setWidth = maxWidth > 400 ? 400 : maxWidth
+  // Size and position pop-up box
+  el.style.width = `${setWidth}px`
+  el.style.left = `50%`
+  el.style.transform = `translateX(-${setWidth/2}px)`
+
+  const elRect = el.getBoundingClientRect()
 
   const leftDiff = containerRect.left - elRect.left
   const rightDiff = elRect.right - containerRect.right
   const halfElWidth = elRect.width/2
-  // x
+
+  // Shift position if pop-up box is outside container
+  let offset = 0
   if (rightDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth+rightDiff+margin}px)`
+    offset = offsetRight * .5
+    el.style.transform = `translateX(-${halfElWidth+rightDiff+offset}px)`
   } else if (leftDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth-leftDiff-margin}px)`
+    offset = offsetLeft * 1.5
+    el.style.transform = `translateX(-${halfElWidth-leftDiff-offset}px)`
   }
   // @todo y
 }
@@ -277,6 +294,13 @@ function toggleCite() {
     expandables[i].addEventListener('click', event => {
       // Allow these links to bubble up
       event.stopPropagation()
+      // Close any open pop-ups
+      for (let i = 0; i < expandables.length; i++) {
+        expandables[i].setAttribute('aria-expanded', 'false')
+        expandables[i].parentNode
+          .querySelector('.quire-citation__content')
+          .setAttribute('hidden', 'hidden')
+      }
       let expanded = event.target.getAttribute('aria-expanded')
       if (expanded === 'false') {
         event.target.setAttribute('aria-expanded', 'true')
@@ -286,6 +310,8 @@ function toggleCite() {
       let content = event.target.parentNode.querySelector(
         '.quire-citation__content'
       )
+      const contentContainer = content.closest('div.content')
+ 
       if (content) {
         content.getAttribute('hidden')
         if (typeof content.getAttribute('hidden') === 'string') {
@@ -293,7 +319,7 @@ function toggleCite() {
         } else {
           content.setAttribute('hidden', 'hidden')
         }
-        setPositionInContainer(content, document.documentElement)
+        setPositionInContainer(content, contentContainer)
       }
     })
   }
