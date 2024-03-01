@@ -152,6 +152,9 @@ Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' 
 **content/_assets/styles/iframe-viewer.css**
 Add iframe-based image viewer
 
+**content/_assets/javascript/application/index.js**
+Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas
+
 **content/_computed/eleventyComputed.js**
 Add page tags value as classes, and contributor_as_it_appears as data item
 
