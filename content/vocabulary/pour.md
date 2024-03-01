@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The operation of pouring or casting metal into the {% def "refractory mold" %}.'
+definition_has_shortcodes: true
 lang:
   de: Guss
   fr: coulée
@@ -16,7 +17,7 @@ lang:
 
 See figs. 549, 560.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The operation of pouring or casting metal into the {% def "refractory mold" %}.
 
 {% objgroup "3", "fig-549, fig-560" %}
 

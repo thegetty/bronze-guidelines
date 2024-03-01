@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (n.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+definition_has_shortcodes: true
 lang:
   de: ziselieren
   fr: ciselure
@@ -15,7 +16,7 @@ lang:
 
 See figs. 105, 248, 249, 252, 253, 255, 511, 550.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (n.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.
 
 {% backmatter %}
 

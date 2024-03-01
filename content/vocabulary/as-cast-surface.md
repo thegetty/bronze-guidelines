@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Refers to the surface immediately after removal from the {% def "mold" %}, before {% def "fettling" %} and {% def "chasing" %}.'
+definition_has_shortcodes: true
 lang:
   de: Gusshaut
   fr: surface brute de coulée
@@ -16,7 +17,7 @@ lang:
 
 See figs. 5, 62, 104, 277.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Refers to the surface immediately after removal from the {% def "mold" %}, before {% def "fettling" %} and {% def "chasing" %}.
 
 {% backmatter %}
 

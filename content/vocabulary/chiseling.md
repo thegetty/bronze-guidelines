@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either {% def "fettling" %} or {% def "chasing" %}.'
+definition_has_shortcodes: true
 lang:
   de: meißeln
   fr: travail au ciseau
@@ -15,7 +16,7 @@ lang:
 
 See figs. 226, 249, 254, 278, 281, 550.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either {% def "fettling" %} or {% def "chasing" %}.
 
 {% backmatter %}
 

@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A methodological tool that has been developed by researchers to reverse engineer the casting sequence of a {% def "bronze" %} sculpture and visually represent the separately {% def "cast (v.)" "cast" %} parts. It is based on the evidence presented in the object and attempts to map the decisions made by a foundry regarding the number and position of separately cast pieces.'
+definition_has_shortcodes: true
 lang:
   de: Teilungsplan
   fr: plan de coulée
@@ -15,7 +16,7 @@ lang:
 
 See fig. 367.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A methodological tool that has been developed by researchers to reverse engineer the casting sequence of a {% def "bronze" %} sculpture and visually represent the separately {% def "cast (v.)" "cast" %} parts. It is based on the evidence presented in the object and attempts to map the decisions made by a foundry regarding the number and position of separately cast pieces.
 
 {% backmatter %}
 

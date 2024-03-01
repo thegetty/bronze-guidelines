@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The intentional production of a sculpture in several virtually identical casts, usually from the same set of {% def "molds" %} derived from the original {% def "model" %}. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.'
+definition_has_shortcodes: true
 lang:
   de: Auflagenguss
   fr: édition
@@ -16,7 +17,7 @@ lang:
 
 See figs. 261, 551.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The intentional production of a sculpture in several virtually identical casts, usually from the same set of {% def "molds" %} derived from the original {% def "model" %}. In modern castings, item number and total number of multiples produced is often reported somewhere on the surface, as it has legal value.
 
 {% backmatter %}
 

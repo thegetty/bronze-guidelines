@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.'
+definition_has_shortcodes: true
 lang:
   de: Ausführungsmodell
   fr: modèle de fonderie
@@ -15,7 +16,7 @@ lang:
 
 See figs. 210, 531, 544, 553, 554.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.
 
 {% backmatter %}
 

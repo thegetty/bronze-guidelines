@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
+definition_has_shortcodes: true
 lang:
   de: Gussfehler
   fr: défaut de fonderie
@@ -16,7 +17,7 @@ lang:
 
 See figs. 73, 150, 151, 153, 154, 155, 158, 159, 161.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).
 
 {% backmatter %}
 

@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A technique for joining separately {% def "cast (v.)" "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
+definition_has_shortcodes: true
 lang:
   de: Schweißen
   fr: soudage
@@ -15,7 +16,7 @@ lang:
 
 See figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A technique for joining separately {% def "cast (v.)" "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.
 
 {% backmatter %}
 

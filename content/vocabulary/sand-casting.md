@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A casting technique in which metal is poured into a {% def "piece mold" %} made of a specific type of sand that is bound by clay (or oil or resin in modern foundries). The piece mold is made by ramming the sand around a rigid {% def "model" %} or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#s2-4-1).'
+definition_has_shortcodes: true
 lang:
   de: Sandformguss
   fr: fonte au sable
@@ -15,7 +16,7 @@ lang:
 
 See figs. 9, 61, 101, 107, 108, 542.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A casting technique in which metal is poured into a {% def "piece mold" %} made of a specific type of sand that is bound by clay (or oil or resin in modern foundries). The piece mold is made by ramming the sand around a rigid {% def "model" %} or {% def "chef-modèle" %} within stacked metal frames (aka flasks). See [GI§2.4.1](/intro/#s2-4-1).
 
 {% objgroup "3", "fig-009, fig-061, fig-101, fig-107, fig-108, fig-542" %}
 

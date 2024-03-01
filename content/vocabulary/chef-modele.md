@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'French term for a {% def "replica" %} of the artist’s {% def "model" %} (often in bronze) that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.'
+definition_has_shortcodes: true
 lang:
   de: Dauermodell
   fr: chef-modèle
@@ -16,7 +17,7 @@ lang:
 
 See figs. 102, 103, 210, 531, 553.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+French term for a {% def "replica" %} of the artist’s {% def "model" %} (often in bronze) that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.
 
 {% backmatter %}
 

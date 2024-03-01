@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The creation of a {% def "bronze" %} may involve a series of {% def "models" %} and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See I.1.'
+definition_has_shortcodes: true
 lang:
   de: Modell
   fr: modèle
@@ -16,7 +17,7 @@ lang:
 
 See figs. 1, 52, 75, 130, 472, 559.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The creation of a {% def "bronze" %} may involve a series of {% def "models" %} and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See I.1.
 
 {% backmatter %}
 

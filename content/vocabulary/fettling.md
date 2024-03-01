@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Steps carried out directly after casting to remove unwanted features, including oxidized metal, {% def "sprues" %}, {% def "core pins" %}, {% def "flashing" %}, etc. Fettling may entail the use of power tools and/or hand tools such as saws, chisels, hammers, coarse files, and abrasives.'
+definition_has_shortcodes: true
 lang:
   de: Abgraten
   fr: réparure
@@ -15,7 +16,7 @@ lang:
 
 See figs. 104, 552.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Steps carried out directly after casting to remove unwanted features, including oxidized metal, {% def "sprues" %}, {% def "core pins" %}, {% def "flashing" %}, etc. Fettling may entail the use of power tools and/or hand tools such as saws, chisels, hammers, coarse files, and abrasives.
 
 {% objgroup "3", "fig-104, fig-552" %}
 

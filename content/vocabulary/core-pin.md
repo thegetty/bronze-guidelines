@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A metal rod, nail, or wire that is embedded in both the {% def "core" %} and the outer {% def "mold" %} and serves to secure the core in place during the {% def "pour" %}. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.'
+definition_has_shortcodes: true
 lang:
   de: Kernstift
   fr: fer à noyau
@@ -16,7 +17,7 @@ lang:
 
 See figs. 35, 36, 37, 64, 122, 547.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A metal rod, nail, or wire that is embedded in both the {% def "core" %} and the outer {% def "mold" %} and serves to secure the core in place during the {% def "pour" %}. Core pins have traditionally been made of copper alloys, iron, or steel, and today are generally made of stainless steel.
 
 {% backmatter %}
 

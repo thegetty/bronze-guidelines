@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The interface where two streams of metal come together in the {% def "mold" %} but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a {% def "cast (n.)" "cast" %} caused by premature cooling ({% cite "Rome and Young 2003" %}, 303). The cooled metal edges will be rounded in profile.'
+definition_has_shortcodes: true
 lang:
   de: Kaltguss
   fr: reprise
@@ -16,7 +17,7 @@ lang:
 
 See figs. 6, 159.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The interface where two streams of metal come together in the {% def "mold" %} but do not fuse properly, often due to premature cooling of the metal in the mold. A cold shut may also describe a hole or void in a {% def "cast (n.)" "cast" %} caused by premature cooling ({% cite "Rome and Young 2003" %}, 303). The cooled metal edges will be rounded in profile.
 
 {% objgroup "3", "fig-006, fig-159" %}
 

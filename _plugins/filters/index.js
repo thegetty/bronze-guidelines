@@ -1,14 +1,9 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// add hasShortcodes filter, lines 11 and 35
-//
 // Quire data filters
 const fullname = require('./fullname')
 const getAnnotation = require('./getAnnotation')
 const getContributor = require('./getContributor')
 const getFigure = require('./getFigure')
 const getObject = require('./getObject')
-const hasShortcodes = require('./hasShortcodes')
 const initials = require('./initials')
 const keywords = require('./keywords')
 const sortContributors = require('./sortContributors')
@@ -40,7 +35,6 @@ module.exports = function(eleventyConfig, options) {
   eleventyConfig.addFilter('getContributor', (id) => getContributor(eleventyConfig, id))
   eleventyConfig.addFilter('getFigure', (id) => getFigure(eleventyConfig, id))
   eleventyConfig.addFilter('getObject', (id) => getObject(eleventyConfig, id))
-  eleventyConfig.addFilter('hasShortcodes', (text) => hasShortcodes(text))
   eleventyConfig.addFilter('initials', (person, options) => initials(person, options))
   eleventyConfig.addFilter('keywords', () => keywords(eleventyConfig))
   eleventyConfig.addFilter('sortContributors', (contributors) => sortContributors(eleventyConfig, contributors))

@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair that fills a flaw that extends through the full thickness of the metal wall, specifically those that occur with the removal of {% def "core pins" %} and {% def "armature" %} rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](/vol-1/4/).'
+definition_has_shortcodes: true
 lang:
   de: Dübel
   fr: insert
@@ -16,7 +17,7 @@ lang:
 
 See figs. 177, 178, 193, 195, 197, 478.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A type of repair that fills a flaw that extends through the full thickness of the metal wall, specifically those that occur with the removal of {% def "core pins" %} and {% def "armature" %} rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](/vol-1/4/).
 
 {% backmatter %}
 

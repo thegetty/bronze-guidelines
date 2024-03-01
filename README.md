@@ -61,6 +61,13 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 4. Output the PDF: `npm run build:prince`
 
+## Editorial Production Notes
+
+While it is a core principle of Quire for all content to only exist in one place in the Markdown and YAML files (chapter titles in the chapter Markdown file, references in `references.yaml`, etc.), a number of technical hurdles with this publication necessitated some duplication of content in a number of areas. They are documented here. Care should be taken that any changes should be made in **all** content locations.
+
+- **Figure Captions**: Figure captions now exist both in the `figures.yaml` file as usual, and on the individual figure Markdown pages in the Visual Atlas (`/visual-atlas/`) section. Those in `figures.yaml` are used in the PDF and EPUB outputs and do not include any shortcode markup (instead of `{% cite 'Bourgarit 2019' %}` it is just "Bourgarit 2019"); those in the Visual Atlas are used online exclusively and include both `cite` and `ref` shortcodes.
+
+- Definitions: Definitions for the Vocabulary section are stored as YAML on on each page so that they can be accessed with the `def` shortcode. However, they also need to appear on the pages themselves. They include shortcodes though and we were unable to process those from where the definitions were stored in YAML. For these pages, the definition exists in the YAML of the page, and in the Markdown section just below. Pages with this duplication have been marked `definition_has_shortcodes: true` for ready identification, though they are a majority of the Vocabulary pages.
 
 ## Customizations Made to 11ty Templates/Files
 
@@ -110,10 +117,6 @@ Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
-
-**_plugins/filters/index.js**
-**_plugins/filters/hasShortcodes.js**
-Custom filter to process text with shortcodes in it.
 
 **_plugins/filters/fullname.js**
 Join names with a non-breaking space.

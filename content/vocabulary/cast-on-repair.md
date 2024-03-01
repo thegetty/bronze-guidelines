@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair consisting of a localized {% def "cast (n.)" "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.'
+definition_has_shortcodes: true
 lang:
   de: Überfangguss
   fr: réparation par coulée secondaire
@@ -16,7 +17,7 @@ lang:
 
 See figs. 65, 123, 169, 177, 179, 180, 181, 182, 184, 196.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A type of repair consisting of a localized {% def "cast (n.)" "cast" %} of molten copper alloy to fill cavities or other {% def "casting defects" %}. Cast-on repairs may fill a void in the sculpture or secure a separately formed {% def "patch" %} or element to the cast.
 
 {% objgroup "3", "fig-065, fig-123, fig-169, fig-177, fig-179, fig-180, fig-181, fig-182, fig-184, fig-196" %}
 

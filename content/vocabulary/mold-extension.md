@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.'
+definition_has_shortcodes: true
 lang:
   de: Mold extension
   fr: portée de noyau
@@ -16,7 +17,7 @@ lang:
 
 See figs. 23, 41, 122, 123.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.
 
 {% backmatter %}
 

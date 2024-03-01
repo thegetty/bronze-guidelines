@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Purposefully applied surface deposits or films on {% def "bronze" %} sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
+definition_has_shortcodes: true
 lang:
   de: Überzug
   fr: revêtement
@@ -16,7 +17,7 @@ lang:
 
 See figs. 322, 323, 324, 326, 330.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Purposefully applied surface deposits or films on {% def "bronze" %} sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”
 
 {% backmatter %}
 

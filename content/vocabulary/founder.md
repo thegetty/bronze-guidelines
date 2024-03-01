@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
+definition_has_shortcodes: true
 lang:
   de: Gießer
   fr: fondeur
@@ -16,7 +17,7 @@ lang:
 
 See fig. 546.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.
 
 {% objgroup "3", "fig-546" %}
 

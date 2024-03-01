@@ -8,6 +8,7 @@ toc: false
 menu: false
 my_data:
 definition: 'Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax {% def "bronze" %}, the armature is created to support the {% def "model" %}, whether it is hollow or solid. In the case of a hollow {% def "cast (n.)" "cast" %}, it will further help support the refractory mass of the {% def "core" %} during the {% def "pour" %} (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes).'
+definition_has_shortcodes: true
 lang:
   de: Kerneisen
   fr: armature
@@ -17,7 +18,7 @@ lang:
 
 See figs. 8, 31, 32, 34, 79, 221.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax {% def "bronze" %}, the armature is created to support the {% def "model" %}, whether it is hollow or solid. In the case of a hollow {% def "cast (n.)" "cast" %}, it will further help support the refractory mass of the {% def "core" %} during the {% def "pour" %} (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes).
 
 {% objgroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 

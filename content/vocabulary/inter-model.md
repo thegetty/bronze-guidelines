@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% objlink "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
+definition_has_shortcodes: true
 lang:
   de: Wachsmodell
   fr: modèle intermédiaire
@@ -16,7 +17,7 @@ lang:
 
 See figs. 1, 16, 23, 25, 41, 55, 72, 556.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% objlink "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.
 
 {% backmatter %}
 

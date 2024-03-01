@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "bronze" "cast bronze" %}.'
+definition_has_shortcodes: true
 lang:
   de: Formmantel
   fr: moule de potée
@@ -15,7 +16,7 @@ lang:
 
 See figs. 5, 13, 557, 558.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "bronze" "cast bronze" %}.
 
 {% objgroup "3", "fig-005, fig-013, fig-557, fig-558" %}
 

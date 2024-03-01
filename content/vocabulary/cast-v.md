@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or {% def "mold" %} that will determine the shape of the material in order to produce a {% def "cast (n.)" %}.'
+definition_has_shortcodes: true
 lang:
   de: gießen
   fr: couler
@@ -15,7 +16,7 @@ lang:
 
 See fig. 549.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or {% def "mold" %} that will determine the shape of the material in order to produce a {% def "cast (n.)" %}.
 
 {% objgroup "3", "fig-549" %}
 

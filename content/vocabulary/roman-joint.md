@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of joint between two separately {% def "cast (v.)" "cast" %} elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.'
+definition_has_shortcodes: true
 lang:
   de: Steckverbindung
   fr: assemblage à la romaine
@@ -16,7 +17,7 @@ lang:
 
 See figs. 43, 65, 127, 211, 212, 213, 217, 218.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A type of joint between two separately {% def "cast (v.)" "cast" %} elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.
 
 {% backmatter %}
 
