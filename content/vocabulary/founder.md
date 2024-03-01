@@ -18,7 +18,7 @@ See fig. 546.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
-{% figuregroup "3", "fig-546" %}
+{% objgroup "3", "fig-546" %}
 
 ## Sources
 

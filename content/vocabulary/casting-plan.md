@@ -23,7 +23,7 @@ Note: {% def "Founders" %} do not work with such charts or maps, although strate
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-367" %}
+{% objgroup "3", "fig-367" %}
 
 ## Source
 

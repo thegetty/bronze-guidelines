@@ -24,7 +24,7 @@ Note: An after-cast will usually replicate surface traces of alterations on its 
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-284" %}
+{% objgroup "3", "fig-001, fig-284" %}
 
 ## Sources
 

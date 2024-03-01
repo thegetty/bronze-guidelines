@@ -23,7 +23,7 @@ Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to 
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
+{% objgroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 
 ## Sources
 

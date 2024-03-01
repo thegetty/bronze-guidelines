@@ -24,7 +24,7 @@ Note: The quality of the as-cast surface varies depending on the characteristics
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-005, fig-062, fig-104, fig-277" %}
+{% objgroup "3", "fig-005, fig-062, fig-104, fig-277" %}
 
 ## Sources
 

@@ -23,7 +23,7 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
+{% objgroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
 
 ## Sources
 

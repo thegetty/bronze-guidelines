@@ -17,7 +17,7 @@ See figs. 287, 290, 293, 294, 295, 296, 297, 299, 301, 555.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
-{% figuregroup "3", "fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555" %}
+{% objgroup "3", "fig-287, fig-290, fig-293, fig-294, fig-295, fig-296, fig-297, fig-299, fig-301, fig-555" %}
 
 ## Sources
 

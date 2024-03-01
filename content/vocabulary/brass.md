@@ -17,7 +17,7 @@ See fig. 133.{.pdf-figure-list}
 
 {{ definition }}
 
-{% figuregroup "3", "fig-133" %}
+{% objgroup "3", "fig-133" %}
 
 ## Sources
 

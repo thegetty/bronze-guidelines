@@ -24,7 +24,7 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
+{% objgroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
 ## Sources
 

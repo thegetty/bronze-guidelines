@@ -24,7 +24,7 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-554" %}
+{% objgroup "3", "fig-001, fig-554" %}
 
 ## Sources
 

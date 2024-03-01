@@ -24,7 +24,7 @@ Note: During chasing, a number of punches with a variety of custom-made textures
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
+{% objgroup "3", "fig-238, fig-239, fig-240, fig-242, fig-244, fig-256, fig-272, fig-494" %}
 
 ## Sources
 

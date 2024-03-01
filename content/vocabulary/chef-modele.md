@@ -24,7 +24,7 @@ Note: Metal is often used rather than plaster because it can better withstand th
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
+{% objgroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
 ## Sources
 

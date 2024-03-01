@@ -23,7 +23,7 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-041" %}
+{% objgroup "3", "fig-041" %}
 
 ## Sources
 

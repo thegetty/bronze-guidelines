@@ -23,7 +23,7 @@ Note: In common art historical usage, the term “chasing,” when used for {% d
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
+{% objgroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
 ## Sources
 

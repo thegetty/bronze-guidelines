@@ -23,7 +23,7 @@ Note: The use of hard solder (a silver alloy) is sometimes referred to as brazin
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-187, fig-364" %}
+{% objgroup "3", "fig-187, fig-364" %}
 
 ## Sources
 

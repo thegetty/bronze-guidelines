@@ -24,7 +24,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-023, fig-041, fig-122, fig-123" %}
+{% objgroup "3", "fig-023, fig-041, fig-122, fig-123" %}
 
 ## Source
 

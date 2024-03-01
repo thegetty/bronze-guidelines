@@ -24,7 +24,7 @@ Note: The terms “inlay” and “{% def "overlay" %}” are often used indiscr
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
+{% objgroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
 
 ## Sources
 

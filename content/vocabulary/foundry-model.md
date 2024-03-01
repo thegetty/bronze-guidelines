@@ -23,7 +23,7 @@ Note: In {% def "sand casting" %}, a foundry model is referred to as a “patter
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
+{% objgroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
 ## Sources
 

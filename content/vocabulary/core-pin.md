@@ -20,11 +20,11 @@ See figs. 35, 36, 37, 64, 122, 547.{.pdf-figure-list}
 
 {% backmatter %}
 
-Note: The term “transverse core pin” (or “transfixing core pin”) is used to describe long core pins that extend through both sides of the core (e.g., straight through a limb) ({% open 'fig-035, fig-064, fig-122' %}).
+Note: The term “transverse core pin” (or “transfixing core pin”) is used to describe long core pins that extend through both sides of the core (e.g., straight through a limb) ({% objlink 'fig-035, fig-064, fig-122' %}).
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-035, fig-036, fig-037, fig-064, fig-122, fig-547" %}
+{% objgroup "3", "fig-035, fig-036, fig-037, fig-064, fig-122, fig-547" %}
 
 ## Sources
 

@@ -23,7 +23,7 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-246" %}
+{% objgroup "3", "fig-246" %}
 
 ## Sources
 

@@ -24,7 +24,7 @@ Note: When used in reference to general sculptural practice, the term may refer 
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
+{% objgroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
 
 ## Sources
 

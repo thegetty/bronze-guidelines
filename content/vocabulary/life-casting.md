@@ -23,7 +23,7 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-011, fig-027" %}
+{% objgroup "3", "fig-011, fig-027" %}
 
 ## Source
 

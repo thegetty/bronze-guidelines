@@ -24,7 +24,7 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
+{% objgroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
 ## Sources
 

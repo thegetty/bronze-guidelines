@@ -24,7 +24,7 @@ Note: The term “chaplet” has occasionally been used in the context of techni
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-038, fig-039, fig-040, fig-122" %}
+{% objgroup "3", "fig-038, fig-039, fig-040, fig-122" %}
 
 ## Sources
 

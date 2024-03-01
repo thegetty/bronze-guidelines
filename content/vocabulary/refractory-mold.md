@@ -24,7 +24,7 @@ Note: When present, the {% def "core" %} is considered part of the refractory mo
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
+{% objgroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
 
 ## Sources
 

@@ -18,7 +18,7 @@ See figs. 8, 10, 57, 61, 69, 112, 428, 431, 473, 475.{.pdf-figure-list}
 
 {{ definition | hasShortcodes }}
 
-{% figuregroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" %}
+{% objgroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" %}
 
 ## Sources
 

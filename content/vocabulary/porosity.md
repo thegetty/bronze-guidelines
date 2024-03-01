@@ -23,7 +23,7 @@ Note: A common way to characterize the quality of a cast is to report the degree
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
+{% objgroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
 ## Sources
 

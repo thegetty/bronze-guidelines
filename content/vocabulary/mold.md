@@ -24,7 +24,7 @@ Note: Molds of varying types may be used at different stages of the {% def "bron
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
+{% objgroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
 ## Sources
 
