@@ -98,7 +98,7 @@ module.exports = (eleventyConfig) => {
       {
         name: 'thumbnail',
         resize: {
-          width: 160
+          width: 210
         }
       },
       /**
