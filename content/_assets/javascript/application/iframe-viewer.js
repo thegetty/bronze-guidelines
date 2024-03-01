@@ -9,9 +9,11 @@ window['toggleViewer'] = () => {
 
 window['toggleTextSize'] = (target) => {
   const toggleButton = document.getElementById('toggle-button-label')
-  toggleButton.textContent = toggleButton.textContent == 'Increase Text Size'
+  if (toggleButton) {
+    toggleButton.textContent = toggleButton.textContent == 'Increase Text Size'
     ? 'Decrease Text Size'
     : 'Increase Text Size'
+  }
   const targetDoc = target == 'iframe'
     ? document.getElementById('object-iframe').contentDocument
     : document
@@ -55,12 +57,22 @@ window['updateViewer'] = () => {
       ? "flex"
       : "none"
 
+    // Add target=_blank to links displayed in iframe
+    if (this.contentDocument.URL.includes('visual-atlas')) {
+      const contentAreas = this.contentDocument.getElementsByClassName('quire-page__content')
+      for (let area of contentAreas) {
+        const links = area.querySelectorAll('a:not(.ref)')
+        for (let link of links) {
+          link.setAttribute('target', '_blank')
+        }
+      }
+    }
+
     // Show iframe and hide loading indicator after 1000 ms
     setTimeout(() => {
       myIFrame.style.display = "block"
       myIFrameLoadIndicator.style.display = "none"
-      console.log("SET");
-    }, 1000);
+    }, 750);
   });
 
   // Update Prev / Next Links
