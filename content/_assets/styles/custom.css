@@ -1138,6 +1138,35 @@ figure .q-figure__modal-link {
     color: var(--brown-bronze) !important;
     border-bottom-color: var(--brown-bronze) !important;
   }
+  .quire-entry .quire-page__content .content a[target="_blank"]::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 -960 960 960' width='16' fill='%23d0773f'%3E%3Cpath d='M218.87-135.869q-34.483 0-58.742-24.259t-24.259-58.742v-522.26q0-34.483 24.259-58.742t58.742-24.259H480v83.001H218.87v522.26h522.26V-480h83.001v261.13q0 34.483-24.259 58.742t-58.742 24.259H218.87ZM394.413-336 336-394.413 682.717-741.13H576v-83.001h248.131V-576H741.13v-106.717L394.413-336Z'/%3E%3C/svg%3E");
+    background-color: black;
+    break-before: avoid;
+    position: relative;
+    top: 3px;
+    padding-left: 4px;
+  }
+  /* Icon added to target="_blank links in iframe viewer */
+  .quire-entry .quire-page__content .content a[target="_blank"]:hover::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' viewBox='0 -960 960 960' width='16' fill='%23784721'%3E%3Cpath d='M218.87-135.869q-34.483 0-58.742-24.259t-24.259-58.742v-522.26q0-34.483 24.259-58.742t58.742-24.259H480v83.001H218.87v522.26h522.26V-480h83.001v261.13q0 34.483-24.259 58.742t-58.742 24.259H218.87ZM394.413-336 336-394.413 682.717-741.13H576v-83.001h248.131V-576H741.13v-106.717L394.413-336Z'/%3E%3C/svg%3E");
+  }
+  .quire-entry .quire-citation__button:hover {
+    color: var(--brown-bronze) !important;
+    border-bottom-color: var(--brown-bronze) !important;
+  }
+  /* .ref links  */
+  .quire-entry .quire-page__content .content a.ref:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url) {
+    border-radius: .75rem;
+    text-align: center;
+    color: white !important;
+    background-color: var(--black);
+    padding: .15rem .5rem;
+    border-bottom-width: 0;
+  }
+  .quire-entry .quire-page__content .content a.ref:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):hover {
+    background-color: var(--brown-bronze);
+    border-bottom-width: 0 !important;
+  }
   .quire-entry .quire-page__abstract,
   .quire-entry .quire-entry__tombstone,
   .quire-page.interview .quire-page__abstract,
@@ -3064,13 +3093,9 @@ table .poor { background-color: #F2F9F1; }
 ============================================================================= */
 /* When a page is viewed in the iframe viewer, a script in `content/_assets/javascript/application/iframe-viewer.js` 
 adds the `iframe-version` class to the <body> so that these override styles may be applied  */
-.quire.iframe-version .quire-entry .quire-page__header__title .quire-page-label, 
-.quire-iframe-version .quire-entry h1 {
-  color: fuchsia;
-} 
 body.iframe-version {
   background-color: black;
-  height: 100%;
+  height: 100vh;
 }
 body.iframe-version .quire-navbar,
 body.iframe-version .quire-contents-buttons,
