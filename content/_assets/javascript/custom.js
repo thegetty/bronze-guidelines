@@ -14,6 +14,7 @@
 window.toggleControlsVisibility = function () {
   const accordions = document.getElementsByClassName('accordion-section')
   const firstAccordion = accordions[0]
+  const lastAccordion = accordions[accordions.length - 1]
 
   const accordionControls = document.getElementsByClassName('global-accordion-controls')
 
@@ -28,7 +29,7 @@ window.toggleControlsVisibility = function () {
       : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
   };
 
-  if ( elementIsVisibleInViewport(firstAccordion, true) && (window.scrollY !== 0) ) {
+  if ( (elementIsVisibleInViewport(firstAccordion, true) && (window.scrollY !== 0)) || (elementIsVisibleInViewport(lastAccordion, true) ) ) {
     accordionControls[0].classList.add('show-controls')
   } else if ( window.scrollY == 0 ) {
     accordionControls[0].classList.remove('show-controls')
