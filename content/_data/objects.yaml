@@ -2602,6 +2602,8 @@ object_list:
     chapter: ''
     figure:
       - id: fig-403
+      # - id: fig-403-h
+      # - id: fig-403-v
   - id: '404'
     label: '404'
     type: ''

@@ -1319,6 +1319,13 @@ figure_list:
     media_type: dynamic
     label: "Figure 121"
     caption: "X-radiographic sequence of a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    # sequences:
+    #   - id: "figures/121/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
+    #     start: 085.jpg
 
   - id: "fig-122"
     # src: "figures/122.png"
@@ -1677,6 +1684,13 @@ figure_list:
     class: pdf-65-percent-float
     label: "Figure 166"
     caption: "360-degree overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
+    # sequences:
+    #   - id: "figures/166/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
+    #     start: 085.jpg
 
   - id: "fig-167"
     # src: "figures/167.png"
@@ -3546,6 +3560,13 @@ figure_list:
     media_type: dynamic
     label: "Figure 390"
     caption: "X-radiographic sequence. Jupiter (or Neptune?), Bavay (Nord, France), 1st century CE, H. 26.4 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 15 / Biévelet 10). See Mille 2019a."
+    # sequences:
+    #   - id: "figures/390/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
+    #     start: 125.jpg
 
   - id: "fig-391"
     src: "figures/391.jpg"
@@ -3643,6 +3664,36 @@ figure_list:
     media_type: dynamic
     label: "Figure 403"
     caption: "Neutron tomography. *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). Some of the consecration offerings are revealed by the tomography (in yellow). See Mechling et al. 2018."
+    # sequences:
+    #   - id: "figures/403/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
+  
+  # - id: "fig-403-h"
+  #   zoom: true
+  #   media_type: dynamic
+  #   label: "Figure 403 (horizontal)"
+  #   caption: ""
+  #   sequences:
+  #     - id: "figures/403-h/"
+  #       behavior:
+  #         - continuous
+  #         - sequence
+  #       viewing_direction: "right-to-left"
+  
+  # - id: "fig-403-v"
+  #   zoom: true
+  #   media_type: dynamic
+  #   label: "Figure 403 (vertical)"
+  #   caption: ""
+  #   sequences:
+  #     - id: "figures/403-v/"
+  #       behavior:
+  #         - continuous
+  #         - sequence
+  #       viewing_direction: "right-to-left"
 
   - id: "fig-404"
     src: "figures/404.jpg"
@@ -3650,6 +3701,13 @@ figure_list:
     media_type: dynamic
     label: "Figure 404"
     caption: "Neutron tomography (in negative for better visualization). Most consecration offerings (coin, bead, copper foil) can be observed (black shapes under the seat). Click on the image to spin. *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
+    # sequences:
+    #   - id: "figures/404/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
+    #     start: 080.jpg
 
   - id: "fig-405"
     src: "figures/405.jpg"
