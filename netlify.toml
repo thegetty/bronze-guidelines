@@ -6,7 +6,7 @@
 # unless otherwise overridden by more specific contexts.
 [build]
 publish = "_site"
-command = "npx @thegetty/quire-cli build"
+command = "npx @thegetty/quire-cli build --debug"
 
 [build.environment]
 NODE_VERSION = "18.16.0"
