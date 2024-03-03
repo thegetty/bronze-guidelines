@@ -1752,6 +1752,18 @@ table .poor { background-color: #F2F9F1; }
   }
 }
 
+/*  EMBEDS (layout: entry-embed)
+============================================================================= */
+.quire-entry-embed .side-by-side .quire-entry__lightbox {
+  padding: 1.5rem;
+}
+model-viewer {
+  width: 100%;
+  height: 100%;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(126,126,250,1) 100%);
+}
+
 /*  CHOICES UI
 ============================================================================= */
 .annotations-ui__input-wrapper {
