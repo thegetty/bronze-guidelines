@@ -10,6 +10,8 @@ command = "npx @thegetty/quire-cli build"
 
 [build.environment]
 NODE_VERSION = "18.16.0"
+NPM_VERSION = "9.5.1"
+NODE_OPTIONS = "--max-old-space-size=65536"
 
 # These two GIT_LFS variables need to be added to the project’s
 # Deploy Settings in the Netlify UI, under Environment Variables:
