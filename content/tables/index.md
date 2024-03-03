@@ -11,34 +11,34 @@ classes:
 
 <div data-outputs-exclude="html">
 
-{% renderFile "./_tables/01.md" %}
+{% renderFile "./_render/table-01.md" %}
 
-{% renderFile "./_tables/02.md" %}
+{% renderFile "./_render/table-02.md" %}
 
-{% renderFile "./_tables/03.md" %}
+{% renderFile "./_render/table-03.md" %}
 
-{% renderFile "./_tables/04.md" %}
+{% renderFile "./_render/table-04.md" %}
 
-{% renderFile "./_tables/05.md" %}
+{% renderFile "./_render/table-05.md" %}
 
-{% renderFile "./_tables/06.md" %}
+{% renderFile "./_render/table-06.md" %}
 
-{% renderFile "./_tables/07.md" %}
+{% renderFile "./_render/table-07.md" %}
 
-{% renderFile "./_tables/08.md" %}
+{% renderFile "./_render/table-08.md" %}
 
-{% renderFile "./_tables/09.md" %}
+{% renderFile "./_render/table-09.md" %}
 
-{% renderFile "./_tables/10.md" %}
+{% renderFile "./_render/table-10.md" %}
 
-{% renderFile "./_tables/11.md" %}
+{% renderFile "./_render/table-11.md" %}
 
-{% renderFile "./_tables/12.md" %}
+{% renderFile "./_render/table-12.md" %}
 
-{% renderFile "./_tables/13.md" %}
+{% renderFile "./_render/table-13.md" %}
 
-{% renderFile "./_tables/14.md" %}
+{% renderFile "./_render/table-14.md" %}
 
-{% renderFile "./_tables/15.md" %}
+{% renderFile "./_render/table-15.md" %}
 
 </div>
