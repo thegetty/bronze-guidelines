@@ -3464,14 +3464,14 @@ figure_list:
   - id: "fig-376"
     src: "figures/376.jpg"
     zoom: true
-    media_type: dynamic
+    media_type: 3D
     label: "Figure 376"
     caption: "Digital 3D structured light scan. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-377"
     src: "figures/377.jpg"
     zoom: true
-    media_type: dynamic
+    media_type: 3D
     label: "Figure 377"
     caption: "3D structured light scan. *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br 37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 

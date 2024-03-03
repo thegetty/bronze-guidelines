@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig, { page }) {
             objIcon = `${icon({ type: 'video', description: 'Open viewer' })}`
           } else if (fig.media_type == 'table' ) {
             objIcon = `${icon({ type: 'table', description: 'Open viewer' })}`
-          } else if (fig.sequences ) {
+          } else if (fig.sequences || fig.media_type == '3D' ) {
             objIcon = `${icon({ type: 'rotation', description: 'Open viewer' })}`
           } else if (fig.annotations ) {
             objIcon = `${icon({ type: 'layers', description: 'Open viewer' })}`

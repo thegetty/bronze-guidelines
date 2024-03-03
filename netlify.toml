@@ -15,7 +15,7 @@ NODE_VERSION = "18.16.0"
 # Deploy Settings in the Netlify UI, under Environment Variables:
 # https://app.netlify.com/sites/<your-subdomain-here>/settings/deploys#environment
 GIT_LFS_ENABLED = "true"
-GIT_LFS_FETCH_INCLUDE = "*.jpg, *.png, *.gif, *.epub, *.pdf"
+GIT_LFS_FETCH_INCLUDE = "*.jpg, *.png, *.gif, *.epub, *.pdf, *.glb"
 
 # Settings for a `forthcoming` branch, which is just a static page
 # They may also need to be cleared in the Netlify UI:
