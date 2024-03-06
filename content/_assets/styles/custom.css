@@ -1754,14 +1754,40 @@ table .poor { background-color: #F2F9F1; }
 
 /*  EMBEDS (layout: entry-embed)
 ============================================================================= */
-.quire-entry-embed .side-by-side .quire-entry__lightbox {
+.quire-entry-embed .side-by-side .quire-entry__lightbox--embed {
   padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-model-viewer {
+/* 3D models with <mode-viewer> component */
+.quire-entry__lightbox--embed model-viewer {
   width: 100%;
   height: 100%;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(126,126,250,1) 100%);
+}
+/* Diagrams with SVG */
+.quire-entry__lightbox--embed > svg {
+  height: 100%;
+}
+.quire-entry__lightbox--embed svg a:hover g path.st8 {
+  fill: var(--brown-bronze);
+}
+/* Extended image descriptions and transcriptions */
+.quire-page__content .container .content .image-description summary {
+  cursor: pointer;
+}
+.quire-page__content .container .content .image-description strong {
+  color: currentColor;
+}
+.quire-page__content .container .content .image-description ul li,
+.quire-page__content .container .content .image-description ul li ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.quire-page__content .container .content .image-description ul li::before {
+  content: '';
 }
 
 /*  CHOICES UI

@@ -59,7 +59,7 @@ window['updateViewer'] = () => {
 
     // Add target=_blank to links displayed in iframe
     if (this.contentDocument.URL.includes('visual-atlas')) {
-      const contentAreas = this.contentDocument.getElementsByClassName('quire-page__content')
+      const contentAreas = this.contentDocument.querySelectorAll('.quire-page__content, .quire-entry__lightbox--embed')
       for (let area of contentAreas) {
         const links = area.querySelectorAll('a:not(.ref)')
         for (let link of links) {
