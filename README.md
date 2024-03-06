@@ -87,7 +87,7 @@ Add some icons and made sure they are consistent weight and size
 Added class to enable styling in modal vs. inline
 
 **_includes/components/navigation.js**
-removed title truncation in navbar
+Removed title truncation in navbar, and show section titles/links in center instead of home page link
 
 **_includes/components/object-filters/object-card/object-image.webc**
 Fixed source of thumbnails for videos

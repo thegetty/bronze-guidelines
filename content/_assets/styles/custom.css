@@ -154,11 +154,22 @@ a.quire-definition__content__more-link {
   max-width: 80%;
   overflow: clip;
 }
+/* Ensure full section title can be seen */
+.quire-navbar-controls__center .quire-navbar-button {
+  width: auto;
+}
 @media screen and (max-width:1024px) {
   .quire-navbar p .quire-page-label-divider,
   .quire-navbar p .quire-page-title {
     display: none;
   }
+}
+ /* Hide all Next/Prev buttons */
+ .quire-contents-buttons {
+  display: none;
+}
+.quire-page__content {
+  margin-bottom: 140px;
 }
 .content .q-figure {
   border-width: 0;
@@ -1082,35 +1093,6 @@ figure .q-figure__modal-link {
   .quire-contents-list.grid ol li .card-content span.quire-page-subtitle {
     font-size: 1.5rem !important;
     line-height: 1.2;
-  }
-  /* Next/Prev Buttons */
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next {
-    background-color: #26491e;
-  }
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next:hover,
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next:hover,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover {
-    background-color: #113609 !important;
-    border-color: #113609 !important;
-  }
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button {
-    border-color: #26491e;
-    color: #26491e;
-  }
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next a,
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover a,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next a,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover a {
-    color: var(--light);
-  }
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button.next svg,
-  .quire-page.grid.section-landing-page .quire-contents-buttons li.quire-nav-button:hover svg,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button.next svg,
-  .quire-entry div.side-by-side .quire-contents-buttons li.quire-nav-button:hover svg{
-    fill: var(--light);
   }
   /* Case study pages */
   .quire-entry div.side-by-side div.quire-entry__image-wrap,
