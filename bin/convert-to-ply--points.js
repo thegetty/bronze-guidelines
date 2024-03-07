@@ -5,7 +5,7 @@ const fileName = process.argv[2]
 
 const csv = fileName.concat('.csv')
 const jpg = fileName.concat('.jpg')
-const outputFile = fileName.concat('.ply')
+const outputFile = fileName.concat('--points.ply')
 
 // Load color data from the JPG
 let imgData
