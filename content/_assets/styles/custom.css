@@ -1437,6 +1437,11 @@ figure .q-figure__modal-link {
     width: 35%;
   }
 }
+@media screen and (max-width: 700px) {
+  .quire-entry div.side-by-side div.quire-entry__image-wrap::after {
+    background-color: black;
+  }
+}
 
 /* Lightbox */
 .q-lightbox__image {
@@ -1634,6 +1639,7 @@ but they need to be there for the tables index.md page */
 }
 .quire-page__content .container .content table ul {
   list-style-type: disc;
+  margin-left: .5rem !important;
 }
 .quire-page__content .container .content table ul li {
   margin-left: 0;
@@ -1642,14 +1648,17 @@ but they need to be there for the tables index.md page */
 .quire-page__content .container .content table ul li::before {
   display: none;
 }
-.table-key dl {
+.quire-page__content .container .content .table-key dl {
   display: grid;
   grid-template-columns: 1.5rem auto;
   row-gap: .5rem;
-  margin-top: 1rem;
+  margin-left: 1rem;
 }
 .table-key dl dt {
   font-weight: bold;
+}
+.quire-page__content .container .content .table-key dl dd {
+  margin-bottom: 0;
 }
 table a,
 .table-key a {
@@ -1759,6 +1768,7 @@ table .poor { background-color: #F2F9F1; }
 /* Extended image descriptions and transcriptions */
 .quire-page__content .container .content .image-description summary {
   cursor: pointer;
+  margin-bottom: 1.5rem;
 }
 .quire-page__content .container .content .image-description strong {
   color: currentColor;
