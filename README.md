@@ -127,6 +127,10 @@ Join names with a non-breaking space.
 **_plugins/filters/getContributor.js**
 Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
 
+**_plugins/markdown/index.js**
+**content/_assets/javascript/application/index.js**
+Create better line breaks for URLs by inserting zero-width spaces, but remove space when copied to clipboard
+
 **_plugins/shortcodes/cite.js**
 Return the `id`, highlighted in yellow, if citation is missing in references.yaml
 

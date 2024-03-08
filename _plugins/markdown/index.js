@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Create better line breaks for URLs by inserting zero-width spaces, lines 77–94
+//
 const MarkdownIt = require('markdown-it')
 const anchorsPlugin = require('markdown-it-anchor')
 const attributesPlugin = require('markdown-it-attrs')
@@ -67,6 +71,27 @@ module.exports = function(eleventyConfig, options) {
     if (href.startsWith('http')) {
       tokens[idx].attrSet('target', '_blank')
     }
+    return defaultRender(tokens, idx, options, env, self)
+  }
+
+  /**
+   * Insert zero-width space with punctuation for better line breaks in URLs
+   * per Chicago Manual of Style
+   */
+  markdownLibrary.renderer.rules.link_open = (tokens, idx, options, env, self) => {
+    const linkTextIndex = idx + 1
+    const breakAfter = /([[\/]{2}|:])/g // double-slash and colon
+    const breakBefore = /([(?<!\/)\/(?!\/)|~|\.|,|_|?|#|%|=|+|&|-])/g // single-slash and others
+    const breakCharacter = '​' // zero-width space  
+
+    const linkText = tokens[linkTextIndex].content.includes('http') 
+      ? tokens[linkTextIndex].content
+        .replace(breakAfter, '$1' + breakCharacter)
+        .replace(breakBefore, breakCharacter + '$1')
+      : tokens[linkTextIndex].content
+    
+    tokens[linkTextIndex].content = linkText
+
     return defaultRender(tokens, idx, options, env, self)
   }
 
