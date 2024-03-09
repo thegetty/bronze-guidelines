@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Add <details> element around lightbox captions
+//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -86,7 +90,10 @@ module.exports = function(eleventyConfig) {
             ${await figureElement(figure)}
           </div>
           <div class="q-figure-slides__slide-ui">
+            <details>
+            <summary>Caption</summary>
             ${captionElement}
+            </details>
             ${annotationsElement}
           </div>
         </div>

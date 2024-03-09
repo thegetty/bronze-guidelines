@@ -83,6 +83,9 @@ Output ALL image layers for checkbox and radio button annotations
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
 
+**_includes/components/lightbox/slides.js**
+Add `<details>` element around lightbox captions
+
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
