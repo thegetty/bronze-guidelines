@@ -134,6 +134,10 @@ Include local sort_as value if one is given, so page-level contributors are sort
 **content/_assets/javascript/application/index.js**
 Create better line breaks for URLs by inserting zero-width spaces, but remove space when copied to clipboard
 
+**_plugins/shortcodes/accordion.js**
+**content/_assets/styles/components/accordion.scss**
+Adjusted appearance of accordions copy icon and tooltip
+
 **_plugins/shortcodes/cite.js**
 Return the `id`, highlighted in yellow, if citation is missing in references.yaml
 

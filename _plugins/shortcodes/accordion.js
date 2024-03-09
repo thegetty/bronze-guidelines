@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Use link icon for copy function, rather that unicode character
+//
 const { oneLine } = require('~lib/common-tags')
 const chalkFactory = require('~lib/chalk')
 
@@ -14,6 +18,7 @@ const logger = chalkFactory('shortcodes: accordion')
  * @return     {String}  An HTML <details> element with <summary> and <section>
  */
 module.exports = function (eleventyConfig, { page }) {
+  const icon = eleventyConfig.getFilter('icon')
   const markdownify = eleventyConfig.getFilter('markdownify')
   const slugify = eleventyConfig.getFilter('slugify')
   let { controls, copyButton } = eleventyConfig.globalData.config.accordion
@@ -58,7 +63,7 @@ module.exports = function (eleventyConfig, { page }) {
             value="#${sectionId}"
             tabindex="2"
           >
-            ${copyButton.symbol}
+            ${icon({ type: 'link', description: 'Copy link'})}
           </button>
           <span
             aria-hidden="true"

@@ -247,6 +247,30 @@ a.quire-definition__content__more-link {
   font-size: .875rem;
   line-height: 1.5;
 }
+.accordion-section__heading:hover :is(h2, h3, h4, h5, h6),
+.accordion-section__heading:focus-visible :is(h2, h3, h4, h5, h6),
+.accordion-section__heading:hover :is(h2, h3, h4, h5, h6) strong,
+.accordion-section__heading:focus-visible :is(h2, h3, h4, h5, h6) strong,
+.accordion-section__heading:hover::after,
+.accordion-section__heading:focus-visible::after {
+  color: var(--green-wax) !important;
+}
+.accordion-section__heading .accordion-section__copy-link-button {
+  display: none;
+}
+.accordion-section__heading .accordion-section__copy-link-button svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: var(--green-wax);
+}
+.accordion-section__heading:hover .accordion-section__copy-link-button, 
+.accordion-section__heading:focus-visible .accordion-section__copy-link-button {
+  display: block;
+  position: absolute;
+}
+.quire-page.vocabulary .accordion-section__heading .accordion-section__copy-link-button {
+  display: none;
+}
 
 /* COVER
 ============================================================================= */
@@ -508,6 +532,10 @@ a.quire-definition__content__more-link {
   }
   .quire-page.full-width .content summary.indented-heading {
     text-indent: -8rem;
+  }
+  .quire-page.full-width .content .indented-heading .accordion-tooltip, 
+  .quire-page.full-width .content summary.indented-heading .accordion-tooltip {
+    text-indent: 0;
   }
   .quire-page.full-width .content .indented-heading .section-number {
     width: 6rem;
@@ -1332,6 +1360,10 @@ figure .q-figure__modal-link {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
+}
+.iframe_viewer__controls .iframe-control--share svg {
+  width: 1rem;
+  height: 1rem;
 }
 .iframe_viewer__nav-buttons a:first-child::before,
 .iframe_viewer__nav-buttons a:last-child::before {

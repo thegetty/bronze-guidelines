@@ -1,8 +1,13 @@
+// 
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Adjusted appearance of accordions copy tooltip
+// 
 $controls-width: 18px;
 $controls-margin: 10px;
 $copy-button-offset: 6px;
 $copy-button-width: 20px;
 $tooltip-padding: 10px;
+$tooltip-padding: 1rem;
 
 // Summary
 .accordion-section {
@@ -174,7 +179,8 @@ $tooltip-padding: 10px;
   font-family: $quire-navigation-font;
   font-size: 1em;
   display: none;
-  background: black;
+  background: $accent-color;
+  border-radius: 4px;
   color: #fff;
   margin: 0;
   height: 0;
