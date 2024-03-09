@@ -65,10 +65,25 @@ figure_list:
     caption: "Example of direct wax additions on a wax model, notably the attribute in the left hand. Statuette of Jambhala, Java, first half of the 9th century, H. 28 cm (Musée National des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-111-dupe"
-    src: "figures/111.jpg"
+    src: "figures/111/base.jpg"
+    thumb: "figures/thumbs/111.jpg"
+    static_inline: "figures/static-inline/111.jpg"
     visual_atlas: false
+    zoom: true
     label: "Figure 111"
     caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/111/a-core.png"
+            label: "Core: A"
+            selected: true
+          - src: "figures/111/c.png"
+            label: "Seam Lines: C"
+            selected: true
+          - src: "figures/111/e.png"
+            label: "E"
+            selected: true
 
   - id: "fig-441-dupe"
     src: "figures/441.jpg"
@@ -1232,40 +1247,121 @@ figure_list:
     caption: "Inscription on the inner surface of the bust: “A. Rodin” stands for Auguste Rodin. It has been marked on the sand core and thus appears in relief on the bronze. Auguste Rodin (French, 1840–1917), *Victor Hugo*, reduction sand casting by Eugène Rudier (French, 1875–1952), 1883–92 for the reduction, cast in November 1916, H. 38.4 cm (Galerie Univers du Bronze, Paris)."
 
   - id: "fig-110"
-    src: "figures/110.jpg"
+    src: "figures/110/base.jpg"
+    thumb: "figures/thumbs/110.jpg"
+    static_inline: "figures/static-inline/110.jpg"
     zoom: true
     label: "Figure 110"
     caption: "Annotated back view without the lid indicating the location of the seam lines. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/110/c.png"
+            label: "Seam Lines: C"
+            selected: true
 
   - id: "fig-111"
-    src: "figures/111.jpg"
+    src: "figures/111/base.jpg"
+    thumb: "figures/thumbs/111.jpg"
+    static_inline: "figures/static-inline/111.jpg"
     zoom: true
     label: "Figure 111"
     caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/111/a-core.png"
+            label: "Core: A"
+            selected: true
+          - src: "figures/111/c.png"
+            label: "Seam Lines: C"
+            selected: true
+          - src: "figures/111/e.png"
+            label: "E"
+            selected: true
 
   - id: "fig-112"
-    src: "figures/112.jpg"
+    src: "figures/112/base.jpg"
+    thumb: "figures/thumbs/112.jpg"
+    static_inline: "figures/static-inline/112.jpg"
     zoom: true
     label: "Figure 112"
     caption: "Annotated view of the underside indicating the location of the seam lines created at the joints of the loess piece mold. Note remnants of core material in the legs. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/112/core.png"
+            label: "Core"
+            selected: true
+          - src: "figures/112/d.png"
+            label: "Seam Lines: D"
+            selected: true
+          - src: "figures/112/e.png"
+            label: "E"
+            selected: true
+          - src: "figures/112/f.png"
+            label: "F"
+            selected: true
+          - src: "figures/112/g.png"
+            label: "G"
+            selected: true
 
   - id: "fig-113"
-    src: "figures/113.jpg"
+    src: "figures/113/base.jpg"
+    thumb: "figures/thumbs/113.jpg"
+    static_inline: "figures/static-inline/113.jpg"
     zoom: true
     label: "Figure 113"
     caption: "Annotated frontal view indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/113/core.png"
+            label: "Core"
+            selected: true
+          - src: "figures/113/e.png"
+            label: "Seam Lines: E"
+            selected: true
+          - src: "figures/113/f.png"
+            label: "F"
+            selected: true
+          - src: "figures/113/g.png"
+            label: "G"
+            selected: true
 
   - id: "fig-114"
-    src: "figures/114.jpg"
+    src: "figures/114/base.jpg"
+    thumb: "figures/thumbs/114.jpg"
+    static_inline: "figures/static-inline/114.jpg"
     zoom: true
     label: "Figure 114"
     caption: "Annotated three-quarter view of the lid indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/114/i-core.png"
+            label: "Cores: I"
+            selected: true
+          - src: "figures/114/k-core.png"
+            label: "K"
+            selected: true
+          - src: "figures/114/j.png"
+            label: "Seam Line: J"
+            selected: true
 
   - id: "fig-115"
-    src: "figures/115.jpg"
+    src: "figures/115/base.jpg"
+    thumb: "figures/thumbs/115.jpg"
+    static_inline: "figures/static-inline/115.jpg"
     zoom: true
     label: "Figure 115"
     caption: "Annotated view from above of the lid indicating the location of the central seam line. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/115/h.png"
+            label: "Seam Lines: H"
+            selected: true
 
   - id: "fig-116"
     src: "figures/116.jpg"
