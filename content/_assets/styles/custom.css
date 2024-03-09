@@ -2864,6 +2864,11 @@ table .poor { background-color: #F2F9F1; }
 #fig-229-0-brazing-metal label::before {
   background-color: #85f876; /* green */
 }
+/* FIG 232 */
+#lightbox-fig-232-0-increased-density label::before,
+#fig-232-0-increased-density label::before {
+  background-color: #d41022; /* red */
+}
 /* FIG 235 */
 #lightbox-fig-235-0-matting-marks label::before,
 #fig-235-0-matting-marks label::before {

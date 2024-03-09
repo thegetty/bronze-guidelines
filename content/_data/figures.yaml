@@ -2444,11 +2444,18 @@ figure_list:
     caption: "Ultrasonic phased array applied to the study of the welding. *Captive Gaul*, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962). See Azéma et al. 2013."
 
   - id: "fig-232"
-    src: "figures/232.jpg"
+    src: "figures/232/base.jpg"
+    thumb: "figures/thumbs/232.jpg"
+    static_inline: "figures/static-inline/232.jpg"
     zoom: true
-    media_type:
     label: "Figure 232"
     caption: "This slice from a computer tomography (CT) scan captured at the widest area of the neck shows a layer of metal separating the head from the body (see overlay). This is evidence that the head was cast onto an already-cast body by a localized lost-wax process. Excess metal dripped down a hollow channel along the vertical wooden armature in the torso. Elemental mapping by X-ray fluorescence (XRF) analysis revealed that the body is made of a different alloy than the head, confirming that the head was joined to the body at a separate stage. *Seated Brahma*, Cambodia, late 12th or early 13th century, H. 31.5 cm (Walters Art Museum, Baltimore, inv. 54.2734). See Strahan 1998."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/232/increased-density.png"
+            label: "Increased Density"
+            selected: true
 
   - id: "fig-233"
     # src: "figures/233.png"
@@ -4428,6 +4435,12 @@ figure_list:
     media_type: dynamic
     label: "Figure 498"
     caption: "A digital (DR) 360° radiograph package containing radiographs, enhanced radiographs, visible light images and blended images at 5° increments. In the online version of this publication, clicking and dragging from side to side rotates the image sets. Using the keyboard up and down arrows (or clicking and dragging up and down) switches from one image set to the next. Buttons at the bottom allow the image to be zoomed.  Holding the shift key allows the image to be repositioned with the mouse. The package was created using Ortery software. Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
+    # sequences:
+    #   - id: "figures/498/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
 
   - id: "fig-499"
     src: "figures/499.jpg"
@@ -4943,6 +4956,12 @@ figure_list:
     media_type: dynamic
     label: "Figure 564"
     caption: "A digital (DR) 360° X-ray package made using the set up shown in Fig. XXI.  Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. In the digital version of this publication, the sculpture may be spun and manipulated according to the directions for Fig. 498. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
+    # sequences:
+    #   - id: "figures/564/"
+    #     behavior:
+    #       - continuous
+    #       - sequence
+    #     viewing_direction: "right-to-left"
 
   # VIDEOS
 
@@ -4995,8 +5014,8 @@ figure_list:
     poster: "figures/video-06.jpg"
     thumb: "figures/thumbs/video-06.jpg"
     static_inline: "figures/static-inline/video-06.jpg"
-    media_type: youtube
-    media_id: "JiofOv18o2M"
+    media_type: vimeo
+    media_id: 816385794/dc744473bb
     label: "Video 6"
     caption: "Adriaen de Vries’s (Netherlandish, 1556–1626) bronze casting technique: the direct lost-wax method. All parts of the process are described, from the setup of armatures to finishing."
 
