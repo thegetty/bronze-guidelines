@@ -1,6 +1,10 @@
-// This version of the script assigns color to both the vertices and faces
-// The vertices needs color on the vertices, also having on the faces seems 
-// to give some exposure control once it's converted to glTF for <mode-viewer>
+// node convert-to-ply.js [filename]
+//
+// Expects a JPG and a CSV both with the same [filename] in the same directory as the script
+//
+// CSV must have the exact same number of rows as the JPG pixel height (and no blank end row)
+// and the same number of entries in each row as the JPG pixel width
+//
 //
 const fs = require('fs');
 const inkjet = require('inkjet');
@@ -169,3 +173,26 @@ fs.readFile(csv, 'utf8', (err, coordinateData) => {
     });
   });
 });
+
+// =========================================
+// On the last vertex of each row, and new line is inserted between the x,y,x coordinates and the r,g,b
+// I'm not sure why this is, but I've just been fixing it manually after generating the PLY file for now.
+// Example:
+//
+// 1598 1 165.249 59 39 41
+// 1599 1 165.459 63 41 44
+// 1600 1 165.568
+//  66 44 47
+// 1 2 103.817 54 34 27
+// 2 2 103.999 54 34 27
+// 3 2 104.205 54 34 27
+//
+// =========================================
+// Once these are output as PLY files, I upload them to Sketchfab to the convert them to glTF format
+// for use in <model-viewer>. They look very washed out in <model-viewer> though, so I've bumped the
+// saturation in the source images by +30 prior to creating the PLY files.
+// =========================================
+// This version of the script assigns color to both the vertices and faces
+// The vertices needs color on the vertices, also having on the faces seems 
+// to give some exposure control once it's converted to glTF for <mode-viewer>
+// =========================================
