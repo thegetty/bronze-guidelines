@@ -68,7 +68,7 @@ module.exports = function (eleventyConfig, { page }) {
           objLabel = fig.label ? fig.label : ''
         }
       }     
-      const objElement = html`<figure class="page-object">
+      const objElement = html`<figure class="page-object" data-outputs-exclude="pdf,epub">
       <img src="${objImagePath}" alt="" />
       <a href="/visual-atlas/${objNumber}/" target="object-iframe" class="object-link">${objIcon} <span class="object-label">${objLabel}</span></a>
       </figure>`

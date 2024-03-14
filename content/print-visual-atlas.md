@@ -1,6 +1,7 @@
 ---
-title: Visual Atlas of Features (v1)
+title: Visual Atlas of Features
 order: 799
+outputs: [ pdf, epub ]
 layout: visual-atlas
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Visual Atlas of Features
 order: 800
+outputs: [ html ]
 layout: objects-page
 classes:
   - visual-atlas

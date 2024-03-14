@@ -1815,8 +1815,8 @@ table .poor { background-color: #F2F9F1; }
 .quire-entry__lightbox--embed model-viewer {
   width: 100%;
   height: 100%;
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(126,126,250,1) 100%);
+  background: var(--deep-black);
+  background: linear-gradient(0deg, var(--deep-black) 0%, var(--black) 100%);
 }
 /* Diagrams with SVG */
 .quire-entry__lightbox--embed > svg {
@@ -1881,6 +1881,9 @@ table .poor { background-color: #F2F9F1; }
   border-radius: 2px;
   position: relative;
   top: 1.5px;
+}
+.annotations-ui__input-wrapper input[type=radio] + label::before {
+  border-radius: 7px;
 }
 /* Backgroiund image icons are Google Material font icons (https://fonts.google.com/icons) at 500 weight, adjusted to 16px square and processed with a URL encoder (https://yoksel.github.io/url-encoder/) */
 .annotations-ui__input-wrapper input[type=checkbox] + label::before {
@@ -2032,11 +2035,11 @@ table .poor { background-color: #F2F9F1; }
     display: inline-block;
   }
   .quire-page .pdf-footers__label {
-    flow: static(sectiontitle);
+    -prince-flow: static(sectiontitle);
     text-align: right;
   }
   .quire-page .pdf-footers__title {
-    flow: static(pagetitle);
+    -prince-flow: static(pagetitle);
     text-align: left;
   }
   /* Make 2 columns throughout */
@@ -2104,6 +2107,9 @@ table .poor { background-color: #F2F9F1; }
     font-size: .75rem;
     line-height: 1.6;
   }
+  .quire-page__content .container .content .footnotes-list li p {
+    margin-bottom: .5rem;
+  }
   .quire-page__content .content .quire-page__content__references dl {
     margin-bottom: .375rem;
     font-size: .75rem;
@@ -2161,8 +2167,10 @@ table .poor { background-color: #F2F9F1; }
   .quire-contents-list .page-item a::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page);
   }
-  .quire-contents-list .page-item.frontmatter-page a::after {
-    content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman);
+  .quire-contents-list .page-item.frontmatter-page a::after,
+  .quire-contents-list .page-item a[href='#page-foreword']::after,
+  .quire-contents-list .page-item a[herf='#page-acknowledgments']::after {
+    content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman); 
   }
   /* Style half title and title pages */
   .half-title-page,
@@ -2170,18 +2178,31 @@ table .poor { background-color: #F2F9F1; }
     height: auto;
     page: no-footer;
   }
-  .title-page {
-    break-before: right;
+  .half-title-page {
+    padding-top: 3.25in;
   }
   .title-page {
+    break-before: right;
     padding-top: 2.25in;
     padding-right: .75in;
   }
   .half-title-page {
     padding-right: .75in;
   }
+  .title-page * {
+    max-width: 5in;
+  }
+  .title-page .title-tp {
+    font-size: 4.25rem;
+    color: var(--accent-color);
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    mad
+  }
   .title-page .publisher {
     right: .875in;
+    margin-top: 3in;
+    display: block;
   }
   /* Headers */
   .quire-page__header:not(.hero__image) {
@@ -2208,7 +2229,7 @@ table .poor { background-color: #F2F9F1; }
     page-break-after: avoid;
   }
   /* Fallback to standard list CSS */
-  .quire-page__content .container .content ul:not(.bio) {
+  .quire-page__content .container .content ul:not(.bio, .name-title-block) {
     list-style-type: disc;
   }
   .quire-page__content .container .content .cip-data ul {
