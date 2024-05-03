@@ -105,10 +105,6 @@ CHOICES LABEL COLORS
   font-weight: 800;
   line-height: 1.3;
 }
-/* Hide tables and figures that are referenced on the page, but aren't to be displayed on the page. This allows them to setill be viewable in the modal. */
-.quire-page__content div#additional-figures {
-  display: none;
-}
 /* Hide contributor page links */
 .quire-contributor__bio + ul {
   display: none;
