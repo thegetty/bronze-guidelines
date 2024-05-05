@@ -39,6 +39,13 @@ figure_list:
     zoom: true
     label: "Figures 440–46 and 449–55"
     caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
+  
+  - id: "figs-440-446-group-front"
+    src: "figures/case-studies/figs-440-446-group-front.jpg"
+    visual_atlas: false
+    zoom: true
+    label: "Figures 440–46"
+    caption: "Seven fragments from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-034-097-524-group"
     visual_atlas: false
@@ -85,13 +92,6 @@ figure_list:
             label: "E"
             selected: true
 
-  - id: "fig-441-dupe"
-    src: "figures/441.jpg"
-    visual_atlas: false
-    zoom: true
-    label: "Figure 441"
-    caption: "Front view of the second head. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/367/)."
-    
   - id: "fig-505-dupe"
     src: "figures/505.jpg"
     visual_atlas: false
@@ -3502,9 +3502,13 @@ figure_list:
           - src: "figures/367/patches.png"
             label: "Patches"
           - src: "figures/367/rivets.png"
-            label: "Rievts"
+            label: "Rivets"
+          - src: "figures/367/rivet-holes.png"
+            label: "Rivet holes"
           - src: "figures/367/core-pins.png"
             label: "Core pins"
+          - src: "figures/367/x-ray-artifacts.png"
+            label: "X-Ray artifacts"
           - src: "figures/367/outline.png"
             label: "Outline"
             selected: true
@@ -3585,9 +3589,10 @@ figure_list:
     caption: "Two 3D models of different versions of a terra-cotta sculpture were made using a structured light scanner. By overlaying the scans, it is clear that the torsos are closely aligned. The hands, hair, and lapels are misaligned, suggesting possible joint locations for the separately mold-made parts. Albert-Ernest Carrier-Belleuse (French, 1824–1887), *Model for a Monument to Alexandre Dumas*, 1885, H. 76 cm (Musée Carnavalet, Paris, inv. S1893; Musée Alexandre Dumas, Villers-Cotterêts, France, inv. 91.2.54). See Carré 2005."
 
   - id: "fig-379"
-    src: "figures/379.jpg"
-    zoom: true
-    media_type: dynamic
+    src: "embeds/fig-379.html"
+    thumb: "figures/thumbs/379.jpg"
+    static_inline: "figures/static-inline/379.jpg"
+    media_type: table
     label: "Figure 379"
     caption: "Interactive 3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
@@ -4182,10 +4187,21 @@ figure_list:
             selected: true
 
   - id: "fig-459"
-    src: "figures/459.jpg"
+    src: "figures/459/base.jpg"
+    thumb: "figures/thumbs/459.jpg"
+    static_inline: "figures/static-inline/459.jpg"
     zoom: true
     label: "Figure 459"
-    caption: "The new presentation of the frieze. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "The new presentation of the frieze. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). The neat square hole (overlay) between the two heads is the result of the impact of a pile driver used in 1839 during the building of the Rhone riverbanks. Also visible is a neat cutout at the top, possibly the place for a rider (arrows)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/459/cutout.png"
+            label: "Cutout"
+            selected: false
+          - src: "figures/459/pile-driver-holes.png"
+            label: "Pile Driver Holes"
+            selected: false
 
   - id: "fig-460"
     src: "figures/460.jpg"
@@ -4233,8 +4249,8 @@ figure_list:
           - src: "figures/465/rivet-holes.png"
             label: "Rivet Holes"
             selected: true
-          - src: "figures/465/rivet-heads.png"
-            label: "Rivet Heads"
+          - src: "figures/465/rivets.png"
+            label: "Rivets"
             selected: true
 
   - id: "fig-466"
@@ -4287,10 +4303,15 @@ figure_list:
             label: "Patches"
           - src: "figures/467/rivets.png"
             label: "Rivets"
+          - src: "figures/467/rivet-holes.png"
+            label: "Rivet holes"
           - src: "figures/467/core-pins.png"
             label: "Core pins"
+          - src: "figures/367/x-ray-artifacts.png"
+            label: "X-Ray artifacts"
           - src: "figures/467/outline.png"
             label: "Outline"
+            selected: true
 
   - id: "fig-468"
     src: "figures/468.jpg"
@@ -5214,6 +5235,6 @@ figure_list:
   - id: "fig-ZZZ"
     src: embeds/fig-ZZZ.html
     media_type: table
-    visual_atlas: false
+    # visual_atlas: false
     label: "Figure ZZZ"
     caption: "3D scan. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."

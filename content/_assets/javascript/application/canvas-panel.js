@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE
+// Changed historyBehavior to replace instead of push
+// Rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
+//
 import { intersectionObserverFactory } from './intersection-observer-factory'
 import Accordion from './accordion'
 import poll from './poll'
@@ -68,7 +73,7 @@ const getTarget = (region) => {
 const goToFigureState = function ({
   annotationIds = [],
   figureId,
-  historyBehavior = 'push',
+  historyBehavior = 'replace',
   region,
   sequence = {}
 }) {
@@ -83,7 +88,7 @@ const goToFigureState = function ({
   const serviceId = getServiceId(figure || figureSlide)
 
   // return if id does not reference a figure
-  if ((!figure && !figureSlide) || !serviceId) return
+  if (!figure && !figureSlide) return
 
   const inputs = document.querySelectorAll(`#${figureId} .annotations-ui__input, [data-lightbox-slide-id="${figureId}"] .annotations-ui__input`)
   const annotations = [...inputs].map((input) => {

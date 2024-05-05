@@ -1244,6 +1244,9 @@ figure .q-figure__modal-link {
   .quire-entry .slide {
     margin-bottom: 90vh;
   }
+  .quire-entry .slide:last-child {
+    margin-bottom: 30vh;
+  }
   .quire-entry .q-figure__label .q-figure__label-icon {
     display: none;
   }
@@ -1260,6 +1263,14 @@ figure .q-figure__modal-link {
   }
   .quire-entry .q-lightbox-slides__element--table + .q-figure-slides__slide-ui {
     display: flex;
+  }
+  /* For externally embedded 3d models in iframe */
+  .quire-entry .q-lightbox-slides__element iframe {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    height: calc(100% - 7.5rem);
+    width: calc(100% - 1.5rem);
   }
 }
 /* .pdf-figure-list is also used on vocab pages */
@@ -1517,8 +1528,9 @@ figure .q-figure__modal-link {
   margin-bottom: -.5rem;
 }
 .quire-entry__lightbox .q-figure-slides__slide-ui details summary {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-family: 'Akrobat', 'IBM Plex Sans Condensed', sans-serif;
+  cursor: pointer;
 }
 .quire-entry__lightbox .q-figure-slides__slide-ui details summary::marker {
   content: '+ ';
@@ -1860,7 +1872,7 @@ table .poor { background-color: #F2F9F1; }
 }
 .annotations-ui__input-wrapper input + label {
   font-family: 'Akrobat', 'IBM Plex Sans Condensed', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   font-weight: bold;
   cursor: pointer;
   position: relative;
@@ -3022,13 +3034,21 @@ table .poor { background-color: #F2F9F1; }
 #fig-367-0-rivets label::before {
   background-color: #256d2f; /* dark green */
 }
+#lightbox-fig-367-0-rivet-holes label::before,
+#fig-367-0-rivet-holes label::before {
+  background-color: #fff; /* white */
+}
 #lightbox-fig-367-0-core-pins label::before,
 #fig-367-0-core-pins label::before {
   background-color: #fff; /* white */
 }
 #lightbox-fig-367-0-outline label::before,
 #fig-367-0-outline label::before {
-  background-color: #000; /* black */
+  background-color: #fff; /* white */
+}
+#lightbox-fig-367-0-x-ray-artifacts label::before,
+#fig-367-0-x-ray-artifacts label::before {
+  background-color: #dbdb00; /* yellow */
 }
 /* FIG 401 */
 #lightbox-fig-401-0-sealing-material label::before,
@@ -3053,6 +3073,15 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-458-0-pile-driver-hole label::before,
 #fig-458-0-pile-driver-hole label::before {
   background-color: #ff0000; /* red */
+}
+/* FIG 459 */
+#lightbox-fig-459-0-pile-driver-holes label::before,
+#fig-459-0-pile-driver-holes label::before {
+  background-color: #ff0000; /* red */
+}
+#lightbox-fig-459-0-cutout label::before,
+#fig-459-0-cutout label::before {
+  background-color: #eff08a; /* yellow */
 }
 /* FIG 465 */
 #lightbox-fig-465-0-rivet-holes label::before,
@@ -3121,13 +3150,21 @@ table .poor { background-color: #F2F9F1; }
 #fig-467-0-rivets label::before {
   background-color: #377241; /* dark green */
 }
+#lightbox-fig-467-0-rivet-holes label::before,
+#fig-467-0-rivet-holes label::before {
+  background-color: #fff; /* white */
+}
 #lightbox-fig-467-0-core-pins label::before,
 #fig-467-0-core-pins label::before {
   background-color: #fff; /* white */
 }
 #lightbox-fig-467-0-outline label::before,
 #fig-467-0-outline label::before {
-  background-color: #000; /* black */
+  background-color: #fff; /* white */
+}
+#lightbox-fig-467-0-x-ray-artifacts label::before,
+#fig-467-0-x-ray-artifacts label::before {
+  background-color: #dbdb00; /* yellow */
 }
 /* FIG 478 */
 #lightbox-fig-478-0-plugs label::before,

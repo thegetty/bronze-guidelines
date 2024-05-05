@@ -93,7 +93,7 @@ Added class to enable styling in modal vs. inline
 Removed title truncation in navbar, and show section titles/links in center instead of home page link
 
 **_includes/components/object-filters/object-card/object-image.webc**
-Fixed source of thumbnails for videos
+Fixed source of thumbnails for videos and embeds/tables
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
@@ -165,6 +165,12 @@ Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' 
 **content/_assets/javascript/application/iframe-viewer.js**
 **content/_assets/styles/iframe-viewer.css**
 Add iframe-based image viewer
+
+**content/_assets/javascript/application/canvas-panel.js**
+Changed historyBehavior to replace instead of push; and rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
+
+**content/_assets/javascript/application/intersection-observer-factory.js**
+Changed rootMargin to 0 for better slide triggering
 
 **content/_assets/javascript/application/index.js**
 Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas

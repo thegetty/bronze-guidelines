@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Changed rootMargin to 0 for better slide triggering
+//
 /**
  * Intersection Observer Factory
  * 
@@ -10,7 +14,8 @@
 const intersectionObserverFactory = (target, fn, options = {}) => {
   const observerOptions = {
     root: document.querySelector('.quire-entry__content'),
-    rootMargin: '-50% 0% -50% 0%',
+    // rootMargin: '-50% 0% -50% 0%',
+    rootMargin: '0px',
     threshold: 0,
     ...options
   }
