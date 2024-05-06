@@ -136,6 +136,18 @@ a.quire-definition__content__more-link {
   display: inline-block;
   height: 0;
 }
+/* Increase navbaar font size */
+.quire-navbar {
+  font-size: 1rem;
+}
+.quire-navbar svg {
+  vertical-align: initial;
+}
+.quire-navbar-page-controls__item.quire-previous-page svg,
+.quire-navbar-page-controls__item.quire-next-page svg {
+  position: relative;
+  top: 3px;
+}
 /* Enure titles in navbar aren't bumped to second line and so hidden
   and handle truncation differently */
 .quire-navbar-page-controls__item.quire-previous-page a,

@@ -89,7 +89,7 @@ $print-entry-image-display: first; // first | all
 $quire-primary-font: null; // body and menu text
 $quire-headings-font: 'Akrobat', $ibm-sans, sans-serif; // headings
 $quire-footnotes-font: null; // footnotes and page backmatter
-$quire-navigation-font: null; // navbar and next/prev buttons
+$quire-navigation-font: 'Akrobat', $ibm-sans, sans-serif; // navbar and next/prev buttons
 
 @if $theme == classic {
   // Classic Theme
