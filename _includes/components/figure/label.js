@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Removed modal link, line 25
+//
 const { oneLine } = require('~lib/common-tags')
 
 /**
@@ -18,7 +22,7 @@ module.exports = function(eleventyConfig) {
       content += `<span class="q-figure__label-icon">${icon({ type: 'rotation', description: 'Click and drag to rotate' })}</span>`
     }
     content += `<span class="q-figure__label-text">${markdownify(label || '')}</span>`
-    content = modalLink({ content, id })
+    // content = modalLink({ content, id })
 
     const labelElement = `<span class="q-figure__label q-figure__label--below">
       ${content}

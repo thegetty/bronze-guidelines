@@ -74,6 +74,11 @@ While it is a core principle of Quire for all content to only exist in one place
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
 
+**_includes/components/figure/modal-link.js**
+**_includes/components/figure/label.js**
+**_includes/components/figure/video/element.js**
+Linked figures to iframe viewer rather than modal
+
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 

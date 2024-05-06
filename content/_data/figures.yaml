@@ -12,7 +12,9 @@ figure_list:
   - id: "fig-440-cover"
     src: "figures/case-studies/440-cover.jpg"
     visual_atlas: false
-  - id: "fig-469-cover"
+    label: "Figure 440"
+    caption: "Front view of the first head. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/367/)."
+  - id: "469-cover"
     src: "figures/case-studies/469-cover.jpg"
     visual_atlas: false
   - id: "fig-500-cover"

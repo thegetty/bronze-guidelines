@@ -590,7 +590,7 @@ a.quire-definition__content__more-link {
   display: none;
 }
 /* Videos, show poster on page and Vimeo embed in modal */
-.q-lightbox--modal .q-figure-video-element--poster {
+q-lightbox .q-figure-video-element--poster {
   display: none;
 }
 .q-figure.q-figure--vimeo .q-figure-video-element--embed {
@@ -1320,7 +1320,7 @@ figure .q-figure__modal-link {
   width: 100vw;
   height: 100vh;
   background-color: var(--deep-black);
-  z-index: 1;
+  z-index: 10;
 }
 #iframe-loading-indicator {
   color: var(--light);
@@ -1403,17 +1403,17 @@ figure .q-figure__modal-link {
   -webkit-animation: fade 2s linear forwards;
   z-index: 1;
 }
-.object-group {
-  column-count: 3;
-}
-.object-group.group-grid-2 {
-  grid-template-columns: 1fr 1fr;
+.object-group.group-grid-1 {
+  column-count: 1;
 }
 .object-group.group-grid-3 {
-  grid-template-columns: 1fr 1fr 1fr;
+  column-count: 2;
+}
+.object-group.group-grid-3 {
+  column-count: 3;
 }
 .object-group.group-grid-4 {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-count: 4;
 }
 .page-object {
   position: relative;
@@ -1490,6 +1490,16 @@ figure .q-figure__modal-link {
 }
 .quire-entry.quire-case-study .q-lightbox-ui__navigation {
   display: none !important;
+}
+.quire-entry.quire-case-study .q-figure .q-figure__label {
+  color: var(--white);
+}
+.quire-entry.quire-case-study .iframe_viewer__nav-buttons {
+  display: none;
+}
+.quire-entry .quire-page__content .content a.q-figure-video-element--poster:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url) {
+  color: inherit;
+  border-bottom: none;
 }
 
 /* Lightbox */

@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
           frameborder="0"
           src="${embedUrl}"
         ></iframe>
-        <a href="#${id}" class="q-figure-video-element--poster q-figure__modal-link">
+        <a href="/visual-atlas/${id.replace('vid-','v')}/" target="object-iframe" class="q-figure-video-element--poster object-link">
         <img src="${poster}" />
         </a>
       `
