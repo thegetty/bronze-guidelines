@@ -15,7 +15,8 @@ const intersectionObserverFactory = (target, fn, options = {}) => {
   const observerOptions = {
     root: document.querySelector('.quire-entry__content'),
     // rootMargin: '-50% 0% -50% 0%',
-    rootMargin: '0px',
+    // rootMargin: '0px',
+    rootMargin: '-10% 0% -10% 0%',
     threshold: 0,
     ...options
   }
