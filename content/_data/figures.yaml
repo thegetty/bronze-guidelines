@@ -5185,6 +5185,8 @@ figure_list:
 
   - id: "vid-12"
     poster: "figures/video-12.jpg"
+    thumb: "figures/thumbs/video-12.jpg"
+    static_inline: "figures/static-inline/video-12.jpg"
     media_type: vimeo
     media_id: 800608712/1cd80c51ad
     label: "Video 12"
@@ -5192,6 +5194,8 @@ figure_list:
 
   - id: "vid-13"
     poster: "figures/video-13.jpg"
+    thumb: "figures/thumbs/video-13.jpg"
+    static_inline: "figures/static-inline/video-13.jpg"
     media_type: vimeo
     media_id: 672853423/0214a29d8c
     label: "Video 13"
@@ -5199,6 +5203,8 @@ figure_list:
 
   - id: "vid-14"
     poster: "figures/video-14.jpg"
+    thumb: "figures/thumbs/video-14.jpg"
+    static_inline: "figures/static-inline/video-14.jpg"
     media_type: vimeo
     media_id: 672853511/33ca671c7c
     label: "Video 14"
@@ -5206,6 +5212,8 @@ figure_list:
 
   - id: "vid-15"
     poster: "figures/video-15.jpg"
+    thumb: "figures/thumbs/video-15.jpg"
+    static_inline: "figures/static-inline/video-15.jpg"
     media_type: vimeo
     media_id: 672853890/fbf173a518
     label: "Video 15"
@@ -5213,6 +5221,8 @@ figure_list:
 
   - id: "vid-16"
     poster: "figures/video-16.jpg"
+    thumb: "figures/thumbs/video-16.jpg"
+    static_inline: "figures/static-inline/video-16.jpg"
     media_type: vimeo
     media_id: 672853935/66a501d3f2
     label: "Video 16"
@@ -5220,6 +5230,8 @@ figure_list:
 
   - id: "vid-17"
     poster: "figures/video-17.jpg"
+    thumb: "figures/thumbs/video-17.jpg"
+    static_inline: "figures/static-inline/video-17.jpg"
     media_type: vimeo
     media_id: "801440105/7e9e74d298"
     label: "Video 17"
@@ -5227,6 +5239,8 @@ figure_list:
 
   - id: "vid-18"
     poster: "figures/video-18.jpg"
+    thumb: "figures/thumbs/video-18.jpg"
+    static_inline: "figures/static-inline/video-18.jpg"
     media_type: vimeo
     media_id: 672854085/be5c239063
     label: "Video 18"
