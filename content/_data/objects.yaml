@@ -37,7 +37,7 @@ object_list:
 
   - id: case-study-2
     figure:
-      - id: "fig-469-cover"
+      - id: "fig-469-470-471-cover"
       - id: "fig-469"
       - id: "fig-471"
       - id: "fig-472"
