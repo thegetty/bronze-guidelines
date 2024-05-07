@@ -14,7 +14,7 @@ lang:
   zh: 腐蚀
 ---
 
-See figs. 310, 311, 312, 314, 315, 318, 334, 348, 503.{.pdf-figure-list}
+See figs. 310, 311, 312, 314, 315, 318, 334, 348, 500.{.pdf-figure-list}
 
 A chemical process that causes a metal such as {% def "bronze" %} to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.
 
@@ -24,7 +24,7 @@ Note: Most metals undergo natural corrosion, except for pure so-called noble met
 
 {% endbackmatter %}
 
-{% objgroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-503" %}
+{% objgroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-500" %}
 
 ## Sources
 

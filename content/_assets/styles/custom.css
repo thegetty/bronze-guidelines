@@ -1935,6 +1935,10 @@ table .poor { background-color: #F2F9F1; }
   color: var(--white);
 }
 
+.q-figure .annotations-ui {
+  margin-bottom: 1rem;
+}
+
 /*  ABOUT & COPYRIGHT PAGES
 ============================================================================= */
 
@@ -2683,6 +2687,122 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-104-0-core-pins label::before,
 #fig-104-0-core-pins label::before {
   background-color: #946585; /* purple */
+}
+/* FIG 110 */
+#lightbox-fig-110-0-c label::before,
+#fig-110-0-c label::before {
+  background-color: #00aa9d; /* teal */
+}
+/* FIG 111 */
+#lightbox-fig-111-0-c label::before,
+#fig-111-0-c label::before {
+  background-color: #00aa9d; /* teal */
+}
+#lightbox-fig-111-0-e label::before,
+#fig-111-0-e label::before {
+  background-color: #ee1c25; /* red */
+}
+#lightbox-fig-111-0-a-core label::before,
+#fig-111-0-a-core label::before {
+  background-color: #fdc589; /* tan */
+}
+/* FIG 112 */
+#lightbox-fig-112-0-d label::before,
+#fig-112-0-d label::before {
+  background-color: #f26522; /* orange */
+}
+#lightbox-fig-112-0-e label::before,
+#fig-112-0-e label::before {
+  background-color: #ee1c25; /* red */
+}
+#lightbox-fig-112-0-f label::before,
+#fig-112-0-f label::before {
+  background-color: #39b44a; /* green */
+}
+#lightbox-fig-112-0-g label::before,
+#fig-112-0-g label::before {
+  background-color: #fff200; /* yellow */
+}
+#lightbox-fig-112-0-core label::before,
+#fig-112-0-core label::before {
+  background-color: #fdc589; /* tan */
+}
+/* FIG 113 */
+#lightbox-fig-113-0-e label::before,
+#fig-113-0-e label::before {
+  background-color: #ee1c25; /* red */
+}
+#lightbox-fig-113-0-f label::before,
+#fig-113-0-f label::before {
+  background-color: #00aa9d; /* teal */
+}
+#lightbox-fig-113-0-g label::before,
+#fig-113-0-g label::before {
+  background-color: #fff200; /* yellow */
+}
+#lightbox-fig-113-0-core label::before,
+#fig-113-0-core label::before {
+  background-color: #fdc589; /* tan */
+}
+/* FIG 114 */
+#lightbox-fig-114-0-j label::before,
+#fig-114-0-j label::before {
+  background-color: #652c91; /* purple */
+}
+#lightbox-fig-114-0-i-core label::before,
+#fig-114-0-i-core label::before {
+  background-color: #00aeef; /* blue */
+}
+#lightbox-fig-114-0-k-core label::before,
+#fig-114-0-k-core label::before {
+  background-color: #fdc589; /* tan */
+}
+/* FIG 115 */
+#lightbox-fig-115-0-h label::before,
+#fig-115-0-h label::before {
+  background-color: #ee1c25; /* red */
+}
+/* FIG 116 */
+#lightbox-fig-116-0-a-b label::before,
+#fig-116-0-a-b label::before {
+  background-color: #fdc589; /* tan */
+}
+#lightbox-fig-116-0-c label::before,
+#fig-116-0-c label::before {
+  background-color: #00aa9d; /* teal */
+}
+#lightbox-fig-116-0-d label::before,
+#fig-116-0-d label::before {
+  background-color: #f26522; /* orange */
+}
+#lightbox-fig-116-0-e label::before,
+#fig-116-0-e label::before {
+  background-color: #ee1c25; /* red */
+}
+#lightbox-fig-116-0-f label::before,
+#fig-116-0-f label::before {
+  background-color: #39b44a; /* green */
+}
+#lightbox-fig-116-0-g label::before,
+#fig-116-0-g label::before {
+  background-color: #fff200; /* yellow */
+}
+/* FIG 117 */
+#lightbox-fig-117-0-h label::before,
+#fig-117-0-h label::before {
+  background-color: #ee1c25; /* red */
+}
+#lightbox-fig-117-0-i label::before,
+#fig-117-0-i label::before {
+  background-color: #00aeef; /* blue */
+}
+#lightbox-fig-117-0-j label::before,
+#fig-117-0-j label::before {
+  background-color: #652c91; /* purple */
+}
+#lightbox-fig-117-0-k label::before,
+#fig-117-0-k label::before {
+  background-color: #fdc589; /* tan */
 }
 /* FIG 119 */
 #lightbox-fig-119-0-patches label::before,

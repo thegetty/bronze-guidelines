@@ -66,13 +66,13 @@ object_list:
     figure:
       - id: "fig-500-cover"
       - id: "fig-500"
+      - id: "fig-503"
       - id: "fig-026"
       - id: "fig-501"
       - id: "fig-116"
       - id: "fig-117"
       - id: "fig-111-dupe"
       - id: "fig-502"
-      - id: "fig-ZZZ"
 
   - id: case-study-4
     figure:
@@ -836,13 +836,13 @@ object_list:
   -
       id: '116'
       label: '116'
-      type: [ Diagram ]
+      type: [ Annotated, Diagram ]
       chapter: [ I.1. Casting Processes ]
       figure: [ id: fig-116 ]
   -
       id: '117'
       label: '117'
-      type: [ Diagram ]
+      type: [ Annotated, Diagram ]
       chapter: [ I.1. Casting Processes ]
       figure: [ id: fig-117 ]
   -
@@ -3056,7 +3056,7 @@ object_list:
   -
       id: '486'
       label: '486'
-      type: 
+      type: [ Annotated ]
       chapter: 
       figure: [ id: fig-486 ]
   -
@@ -3158,7 +3158,7 @@ object_list:
   -
       id: '503'
       label: '503'
-      type: 
+      type: [ 3D Model ]
       chapter: 
       figure: [ id: fig-503 ]
   -

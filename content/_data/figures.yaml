@@ -23,6 +23,9 @@ figure_list:
   - id: "fig-500-cover"
     src: "figures/case-studies/500-cover.jpg"
     visual_atlas: false
+    zoom: true
+    label: "Figure 500"
+    caption: "Side view. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
   - id: "fig-508-cover"
     src: "figures/case-studies/508-cover.jpg"
     visual_atlas: false
@@ -1275,14 +1278,14 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/111/a-core.png"
-            label: "Core: A"
-            selected: true
           - src: "figures/111/c.png"
             label: "Seam Lines: C"
             selected: true
           - src: "figures/111/e.png"
             label: "E"
+            selected: true
+          - src: "figures/111/a-core.png"
+            label: "Core: A"
             selected: true
 
   - id: "fig-112"
@@ -1295,9 +1298,6 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/112/core.png"
-            label: "Core"
-            selected: true
           - src: "figures/112/d.png"
             label: "Seam Lines: D"
             selected: true
@@ -1310,6 +1310,9 @@ figure_list:
           - src: "figures/112/g.png"
             label: "G"
             selected: true
+          - src: "figures/112/core.png"
+            label: "Core"
+            selected: true
 
   - id: "fig-113"
     src: "figures/113/base.jpg"
@@ -1321,9 +1324,6 @@ figure_list:
     annotations:
       - input: checkbox
         items:
-          - src: "figures/113/core.png"
-            label: "Core"
-            selected: true
           - src: "figures/113/e.png"
             label: "Seam Lines: E"
             selected: true
@@ -1332,6 +1332,9 @@ figure_list:
             selected: true
           - src: "figures/113/g.png"
             label: "G"
+            selected: true
+          - src: "figures/113/core.png"
+            label: "Core"
             selected: true
 
   - id: "fig-114"
@@ -1344,14 +1347,14 @@ figure_list:
     annotations:
       - input: checkbox
         items:
+          - src: "figures/114/j.png"
+            label: "Seam Line: J"
+            selected: true
           - src: "figures/114/i-core.png"
             label: "Cores: I"
             selected: true
           - src: "figures/114/k-core.png"
             label: "K"
-            selected: true
-          - src: "figures/114/j.png"
-            label: "Seam Line: J"
             selected: true
 
   - id: "fig-115"
@@ -1369,16 +1372,46 @@ figure_list:
             selected: true
 
   - id: "fig-116"
-    src: "figures/116.jpg"
+    src: "figures/116/base.jpg"
+    thumb: "figures/thumbs/116.jpg"
+    static_inline: "figures/static-inline/116.jpg"
     zoom: true
     label: "Figure 116"
     caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/116/a-b.png"
+            label: "A/B"
+          - src: "figures/116/c.png"
+            label: "C"
+          - src: "figures/116/d.png"
+            label: "D"
+          - src: "figures/116/e.png"
+            label: "E"
+          - src: "figures/116/f.png"
+            label: "F"
+          - src: "figures/116/g.png"
+            label: "G"
 
   - id: "fig-117"
-    src: "figures/117.jpg"
+    src: "figures/117/base.jpg"
+    thumb: "figures/thumbs/117.jpg"
+    static_inline: "figures/static-inline/117.jpg"
     zoom: true
     label: "Figure 117"
     caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    annotations:
+      - input: checkbox
+        items:
+          - src: "figures/117/h.png"
+            label: "H"
+          - src: "figures/117/i.png"
+            label: "I"
+          - src: "figures/117/j.png"
+            label: "J"
+          - src: "figures/117/k.png"
+            label: "K"
 
   - id: "fig-118"
     src: "figures/118.jpg"
@@ -4600,11 +4633,11 @@ figure_list:
     caption: "X-radiograph from the side without the lid. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
   - id: "fig-503"
-    src: "figures/503.jpg"
-    zoom: true
-    media_type:
+    src: embeds/fig-503.html
+    media_type: table
+    visual_atlas: false
     label: "Figure 503"
-    caption: "Detail of the relief decoration across the surface and of the uneven corrosion or patina. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "3D scan. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
   - id: "fig-504"
     src: "figures/504.jpg"
@@ -5259,12 +5292,3 @@ figure_list:
     media_id: 672854085/be5c239063
     label: "Video 18"
     caption: "Arrangement and sequence of a bronze pour for small items in a modern foundry (dir. Christophe Béry), filmed during the July 2016 CAST:ING workshop at Fonderie de Coubertin, Saint-Rémy-lès-Chevreuse, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
-
-  # NEW
-
-  - id: "fig-ZZZ"
-    src: embeds/fig-ZZZ.html
-    media_type: table
-    # visual_atlas: false
-    label: "Figure ZZZ"
-    caption: "3D scan. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
