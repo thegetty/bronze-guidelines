@@ -82,6 +82,10 @@ Linked figures to iframe viewer rather than modal
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
+**_includes/components/figure/image/element.js**
+**_includes/components/figure/image/html.js**
+Allow annotated images to display in line on page, not just modal
+
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
