@@ -14,21 +14,35 @@ figure_list:
     visual_atlas: false
     label: "Figure 440"
     caption: "Front view of the first head. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). For a description of all visible technical evidence, refer to [fig. 367](/visual-atlas/367/)."
+  
   - id: "fig-469-470-471-cover"
     src: "figures/case-studies/469-470-471-cover.jpg"
     visual_atlas: false
     zoom: true
     label: "Figures 469–71"
     caption: "Clockwise from top left: *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491); *Aquamanile in the Form of Samson and the Lion*, northern Europe (?), possibly Germany, ca. 1380–1400, H. 34.1 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1412);*Aquamanile in the Form of a Lion*, Nuremberg, Germany, ca. 1400, H. 31.9 cm (Metropolitan Museum of Art, The Cloisters Collection, 1994, inv. 1994.244)."
+  
   - id: "fig-500-cover"
     src: "figures/case-studies/500-cover.jpg"
     visual_atlas: false
     zoom: true
     label: "Figure 500"
     caption: "Side view. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
-  - id: "fig-508-cover"
-    src: "figures/case-studies/508-cover.jpg"
+
+  - id: "fig-504-508-cover"
+    src: "figures/case-studies/504-508-cover.jpg"
     visual_atlas: false
+    zoom: true
+    label: "Figures 504–8"
+    caption: "From left to right: *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
+
+  - id: "fig-504-508-cover-graph"
+    src: "figures/case-studies/504-508-cover-graph.jpg"
+    visual_atlas: false
+    zoom: true
+    label: "Figures 504–8, 519"
+    caption: "Underlay ([fig. 519](/visual-atlas/519/)): Tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). Overlay, from left to right: *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
+  
   - id: "fig-34-97-524-cover"
     src: "figures/case-studies/34-97-524-cover.jpg"
     visual_atlas: false
@@ -73,12 +87,6 @@ figure_list:
             src: "figures/034-097-524/armature.jpg"
             label: "Armature"
 
-  - id: "fig-067-dupe"
-    src: "figures/067.jpg"
-    visual_atlas: false
-    label: "Figure 67"
-    caption: "Example of direct wax additions on a wax model, notably the attribute in the left hand. Statuette of Jambhala, Java, first half of the 9th century, H. 28 cm (Musée National des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
-
   - id: "fig-111-dupe"
     src: "figures/111/base.jpg"
     thumb: "figures/thumbs/111.jpg"
@@ -100,29 +108,11 @@ figure_list:
             label: "E"
             selected: true
 
-  - id: "fig-505-dupe"
-    src: "figures/505.jpg"
-    visual_atlas: false
-    label: "Figure 505"
-    caption: "Front view. Ten-Armed Avalokiteśvara, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816). See Mechling et al. 2018."
-
-  - id: "fig-510-dupe"
-    src: "figures/510.jpg"
-    visual_atlas: false
-    label: "Figure 510"
-    caption: "X-radiograph of frontal view. Statuette of Jambhala, central Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
-
   - id: "fig-518-dupe"
     src: "figures/518.jpg"
     visual_atlas: false
     label: "Figure 518"
     caption: "Main impurities in the metal of the Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See Mechling et al. 2018."
-
-  - id: "fig-519-dupe"
-    src: "figures/519.jpg"
-    visual_atlas: false
-    label: "Figure 519"
-    caption: "Tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). See Mechling et al. 2018."
 
   # REGULAR FIGURES
 
@@ -2865,9 +2855,11 @@ figure_list:
     caption: "Photomicrograph of punch marks in experimental cast produced during the 2004 ancient materials and technologies workshop “The Technical Analysis of Renaissance Bronze Casting” (AMTeC), Chatham Dockyard, UK. The same punch was used in the metal after casting (left), where it preserves its crisp outline, and in the wax before casting (right), where the distortion of the punch mark, the ridge of displaced malleable material along the edge, and the loss of crispness are all more common in marks made in the wax."
 
   - id: "fig-273"
-    src: "figures/273.jpg"
-    zoom: true
+    src: embeds/fig-273.html
+    thumb: "figures/thumbs/273.jpg"
+    static_inline: "figures/static-inline/273.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 273"
     caption: "3D model of a chiseled line generated by a digital microscope using automated focus stacking. The line, on a lost-wax cast statuette, is approximately 1 mm across. Click on the 3D image to turn it to visualize the altered V shape of the imprint, which demonstrates that the engraving in the metal was made by following a line already in the wax model. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
@@ -2950,9 +2942,11 @@ figure_list:
     caption: "Digital microscopy detail of a punch mark (0.8 mm in diameter) on the lotus of a Buddha Vairocana. Note the smooth, compressed surface produced by the punch and the ridge of displaced metal around the edge. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 
   - id: "fig-286"
-    src: "figures/286.jpg"
-    zoom: true
+    src: embeds/fig-286.html
+    thumb: "figures/thumbs/286.jpg"
+    static_inline: "figures/static-inline/286.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 286"
     caption: "3D model of a punch mark (0.8 mm in diameter) from the lotus of a Buddha Vairocana (see fig. 285). The model was generated by a digital microscope using automated focus stacking. Note the imperfection in the sphere resulting from a defect on the face of the punching tool. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 

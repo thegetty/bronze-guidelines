@@ -1842,11 +1842,21 @@ table .poor { background-color: #F2F9F1; }
   align-items: center;
 }
 /* 3D models with <mode-viewer> component */
-.quire-entry__lightbox--embed model-viewer {
+.quire-entry__lightbox--embed model-viewer,
+.quire-entry__lightbox model-viewer {
   width: 100%;
   height: 100%;
   background: var(--deep-black);
   background: linear-gradient(0deg, var(--deep-black) 0%, var(--black) 100%);
+}
+.quire-entry .q-lightbox-slides__element--table {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quire-entry .q-lightbox-slides__element--table .overflow-container {
+  width: calc(100% - 1.5rem);
+  height: calc((100% - 7.5rem));
+  margin: 1.5rem;
 }
 /* Diagrams with SVG */
 .quire-entry__lightbox--embed > svg {

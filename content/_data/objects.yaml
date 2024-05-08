@@ -76,10 +76,11 @@ object_list:
 
   - id: case-study-4
     figure:
-      - id: "fig-508-cover"
+      - id: "fig-504-508-cover"
+      - id: "fig-504-508-cover-graph"
       - id: "fig-508"
-      - id: "fig-505-dupe"
-      - id: "fig-067-dupe"
+      - id: "fig-505"
+      - id: "fig-067"
       - id: "fig-054"
       - id: "fig-126"
       - id: "fig-276"
@@ -91,8 +92,8 @@ object_list:
       - id: "fig-401"
       - id: "fig-517"
       - id: "fig-518-dupe"
-      - id: "fig-510-dupe"
-      - id: "fig-521"
+      - id: "fig-519"
+      - id: "fig-522"
 
   - id: case-study-5
     figure:
