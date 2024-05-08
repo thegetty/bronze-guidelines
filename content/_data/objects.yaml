@@ -97,15 +97,14 @@ object_list:
 
   - id: case-study-5
     figure:
-      - id: "fig-34-97-524-cover"
+      - id: "fig-034-097-524-cover"
       - id: "fig-523"
       - id: "fig-070"
       - id: "fig-008"
       - id: "fig-038"
       - id: "fig-034-097-524-group"
       - id: "fig-023"
-      - id: "fig-431"
-      - id: "fig-525"
+      - id: "fig-427-428-525-group"
       - id: "fig-274"
       - id: "fig-528"
 

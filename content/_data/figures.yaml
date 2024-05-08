@@ -43,9 +43,12 @@ figure_list:
     label: "Figures 504–8, 519"
     caption: "Underlay ([fig. 519](/visual-atlas/519/)): Tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). Overlay, from left to right: *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
   
-  - id: "fig-34-97-524-cover"
-    src: "figures/case-studies/34-97-524-cover.jpg"
+  - id: "fig-034-097-524-cover"
+    src: "figures/case-studies/034-097-524-cover.jpg"
     visual_atlas: false
+    label: "Figures 524, 34, and 97"
+    caption: "From left to right: *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683); *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681); *Justice*, 1571, H. 128 cm (Musée du Louvre, inv. MR1682)."
+    
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
     visual_atlas: false
@@ -107,6 +110,22 @@ figure_list:
           - src: "figures/111/e.png"
             label: "E"
             selected: true
+  
+  - id: "fig-427-428-525-group"
+    src: "figures/427-428-525-group/base.jpg"
+    visual_atlas: false
+    # zoom: true
+    label: "Figures 427, 428, and 525"
+    caption: ""
+    annotations:
+      - input: checkbox
+        items:
+          - id: "f-525"
+            src: "figures/427-428-525-group/525.jpg"
+          - id: "f-427"
+            src: "figures/427-428-525-group/427.png"
+          - id: "f-428"
+            src: "figures/427-428-525-group/428.png"
 
   - id: "fig-518-dupe"
     src: "figures/518.jpg"
