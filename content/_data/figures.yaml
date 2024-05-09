@@ -220,6 +220,9 @@ figure_list:
     annotations:
       - input: checkbox
         items:
+          - src: "figures/008/armature.png"
+            label: "Armature"
+            selected: true
           - src: "figures/008/brick-a.png"
             label: "Brick A"
             selected: true

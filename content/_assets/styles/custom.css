@@ -2472,6 +2472,10 @@ table .poor { background-color: #F2F9F1; }
   background-color: #1ad14e; /* green */
 }
 /* FIG 008 */
+#lightbox-fig-008-0-armature  label::before,
+#fig-008-0-armature  label::before {
+  background-color: #61ddfb; /* blue */
+}
 #lightbox-fig-008-0-brick-a  label::before,
 #fig-008-0-brick-a  label::before {
   background-color: #ff3333; /* red */
