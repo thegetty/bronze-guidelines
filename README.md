@@ -165,9 +165,6 @@ A variant of the figure group shortcode, but creates groups of simple figure thu
 **_plugins/shortcodes/objectLink.js**
 Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
 
-**_plugins/shortcodes/open.js**
-Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' %}` instead of `{% open 'fig-4', 'fig-5', 'fig-6' %}`; add class ``.q-figure__modal-link`` to links so they'll open in the modal; remove "and" from list; and trim extra zeros if figure ids.
-
 **_plugins/shortcodes/index.js**
 
 **_layouts/page.liquid**
