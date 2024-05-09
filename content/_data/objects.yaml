@@ -1084,6 +1084,7 @@ object_list:
       label: '157'
       type: 
       chapter: [ General Introduction, I.3. Casting Defects ]
+      thumbnail: "figures/157.jpg"
       figure: [ id: fig-157 ]
   -
       id: '158'
@@ -1594,6 +1595,7 @@ object_list:
       label: '242'
       type: [ Annotated ]
       chapter: [ I.6. Tool Marks, II.4. Measurements of Dimension ]
+      thumbnail: "figures/242.jpg"
       figure: [ id: fig-242 ]
   -
       id: '243'
@@ -1636,6 +1638,7 @@ object_list:
       label: '249'
       type: 
       chapter: [ I.6. Tool Marks ]
+      thumbnail: "figures/249.jpg"
       figure: [ id: fig-249 ]
   -
       id: '250'
@@ -1924,6 +1927,7 @@ object_list:
       label: '297'
       type: 
       chapter: [ I.7. Gilding and Plating, I.9. Inlays and Overlays ]
+      thumbnail: "figures/297.jpg"
       figure: [ id: fig-297 ]
   -
       id: '298'
@@ -2104,6 +2108,7 @@ object_list:
       label: '327'
       type: 
       chapter: [ I.8. Patina ]
+      thumbnail: "figures/327.jpg"
       figure: [ id: fig-327 ]
   -
       id: '328'
@@ -2122,6 +2127,7 @@ object_list:
       label: '330'
       type: 
       chapter: [ I.8. Patina ]
+      thumbnail: "figures/330.jpg"
       figure: [ id: fig-330 ]
   -
       id: '331'
@@ -2380,6 +2386,7 @@ object_list:
       label: '373'
       type: [ Diagram ]
       chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      thumbnail: "figures/373.jpg"
       figure: [ id: fig-373 ]
   -
       id: '374'
@@ -2626,6 +2633,7 @@ object_list:
       label: '414'
       type: 
       chapter: [ II.5. Metal Analysis ]
+      thumbnail: "figures/414.jpg"
       figure: [ id: fig-414 ]
   -
       id: '415'
@@ -2734,6 +2742,7 @@ object_list:
       label: '432'
       type: 
       chapter: [ II.7. Core Analysis ]
+      thumbnail: "figures/432.jpg"
       figure: [ id: fig-432 ]
   -
       id: '433'
@@ -2824,6 +2833,7 @@ object_list:
       label: '447'
       type: 
       chapter: [ Case Study 1 ]
+      thumbnail: "figures/447.jpg"
       figure: [ id: fig-447 ]
   -
       id: '448'
@@ -3070,6 +3080,7 @@ object_list:
       label: '488'
       type: 
       chapter: [ Case Study 2 ]
+      thumbnail: "figures/488.jpg"
       figure: [ id: fig-488 ]
   -
       id: '489'
@@ -3214,6 +3225,7 @@ object_list:
       label: '512'
       type: [ Graph ]
       chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 4 ]
+      thumbnail: "figures/512.jpg"
       figure: [ id: fig-512 ]
   -
       id: '513'

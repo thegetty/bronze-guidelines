@@ -19,7 +19,9 @@ const src = ({ data }) => {
   const { figures } = data;
 
   let thumbnail = ''
-  if (figures) {
+  if (data.thumbnail) {
+    thumbnail = data.thumbnail
+  } else if (figures) {
     if (figures.find(({ mediaType }) => mediaType === 'image')) {
       thumbnail = figures.find(({ mediaType }) => mediaType === 'image').static_inline
         ? figures.find(({ mediaType }) => mediaType === 'image').static_inline
@@ -29,8 +31,6 @@ const src = ({ data }) => {
     } else if (figures.find(({ mediaType }) => mediaType === 'table')) {
       thumbnail = figures.find(({ mediaType }) => mediaType === 'table').static_inline
     }
-  } else {
-    thumbnail = data.thumbnail
   }
 
   const src = typeof thumbnail === 'object'

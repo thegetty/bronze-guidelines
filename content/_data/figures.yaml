@@ -1756,7 +1756,7 @@ figure_list:
 
   - id: "fig-157"
     src: "figures/157.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 157"
     caption: "The many losses and worn appearance of the statuette are probably a result of ill-controlled electrolytic cleaning. Youth Holding an Oinochoe and Strainer, Greek, second quarter of the 5th century BCE, H. 11.8 cm (Harvard Art Museums / Arthur M. Sackler Museum, gift of Mrs. Edward Jackson Holmes, inv. 1952.20)."
@@ -2674,7 +2674,7 @@ figure_list:
 
   - id: "fig-242"
     src: "figures/242.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 242"
     caption: "The same punch marks with the same sequential strikes were found on two statues by Benvenuto Cellini (Italian, 1500–1571). The right image from the forehead of the *Bust of Bindo Altoviti*, 1546–50, H. 105.5 cm (Isabella Stewart Gardner Museum, Boston, inv. S26e21) and the left and middle images from Medusa’s neck on *Perseus with the Head of Medusa*, 1545–54, H. 320 cm (bronze group) (Loggia dei Lanzi, Piazza della Signoria, Florence). Micro-hardness tests were undertaken using a calibrated prism penetration durimeter, showing values very similar to that of a cold-worked copper surface. See [I.6](/vol-1/6/), note 17; Morigi and Morigi 2004."
@@ -2721,7 +2721,7 @@ figure_list:
 
   - id: "fig-249"
     src: "figures/249.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 249"
     caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, H. 40.5 cm. See Bewer 1996b."
@@ -3055,7 +3055,7 @@ figure_list:
 
   - id: "fig-297"
     src: "figures/297.jpg"
-    zoom: true
+    # zoom: true
     label: "Figure 297"
     caption: "Detail showing foil gilding of face and hands using 0.1–0.2 mm gold foil (30–40% Ag) on an unalloyed copper cast. See also the aragonite in the left eye. *The Worshipper of Larsa*, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See C2RMF Internal Report 2008b."
 
@@ -3255,7 +3255,7 @@ figure_list:
 
   - id: "fig-327"
     src: "figures/327.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 327"
     caption: "Photomicrograph detail showing metallic flakes in the organic patina. Antoine-Louis Barye (French, 1795–1875), *Dead Gazelle*, modeled 1832, cast 1833–34 by Honoré Gonon (French, 1780–1850), H. 7.6 cm (Walters Art Museum, Baltimore, inv. 27.96)."
@@ -3274,7 +3274,7 @@ figure_list:
 
   - id: "fig-330"
     src: "figures/330.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 330"
     caption: "Detail of leg, showing core material from inside the sculpture that migrated to the surface of this porous bronze when the weather was particularly wet. The surface has been covered with a tinted wax coating to reduce porosity, water incursion, and irregularities in the surface color. *Mercury*, 19th-century Italian reproduction of a bronze from Herculaneum, H. 131 cm (Baltimore Museum of Art, gift of the City of Baltimore, Department of Recreation and Parks, inv. 1948.46)."
@@ -3609,7 +3609,7 @@ figure_list:
 
   - id: "fig-373"
     src: "figures/373.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 373"
     caption: "Principle of photogrammetry."
@@ -3941,7 +3941,7 @@ figure_list:
 
   - id: "fig-414"
     src: "figures/414.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 414"
     caption: "2D chemical mapping by XRF of the right profile of a bronze animal head showing gold inlay in the eye (green); silver teeth and silver inlay in the cheek (blue); and copper in the cast bronze substrate (red). *Statuette of a Dog or a Wolf*, Bavay (Nord, France), 1st century CE, H. 6.8 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 23/ in. Biévelet 20). See Mille 2019a, 182–85; Laval, Calligaro, and Mille 2019."
@@ -4062,7 +4062,7 @@ figure_list:
 
   - id: "fig-432"
     src: "figures/432.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 432"
     caption: "Sampling of casting core in process. Barthélémy Prieur (French, ca. 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée du Louvre - Fontainebleau Castle, inv. RF261). See Castelle, Coquinot, and Bourgarit 2016."
@@ -4158,7 +4158,7 @@ figure_list:
 
   - id: "fig-447"
     src: "figures/447.jpg"
-    zoom: true
+    # zoom: true
     label: "Figure 447"
     caption: "The Museum of Vienne’s former presentation of the *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). From Boucher 1964."
 
@@ -4536,7 +4536,7 @@ figure_list:
 
   - id: "fig-488"
     src: "figures/488.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 488"
     caption: "Detail of circular disc inserted as a core plug and secured with solder. *Aquamanile in the Form of a Lion*, Nuremberg, Germany, ca. 1400, H. 31.9 cm (Metropolitan Museum of Art, The Cloisters Collection, 1994, inv. 1994.244). See Dandridge 2006."
@@ -4717,7 +4717,7 @@ figure_list:
 
   - id: "fig-512"
     src: "figures/512.jpg"
-    zoom: true
+    # zoom: true
     media_type:
     label: "Figure 512"
     caption: "Profile of an engraving made in the metal on the front piece of the cloth of the *Statuette of Jambhala*, as measured by digital microscopy. The vertical axis reports the depth and the horizontal axis the width of the engraving (both in µm). The surface of the bronze is represented by the horizontal green dotted line. The cross section of the engraving and its dimensions are represented by the red curve. The maximum depth appears to be ~0.6 mm (600 µm), and the width at the surface is ~2 mm (2000 µm). See the altered V shape of the imprint (blue arrow), which demonstrates that the engraving in the metal was made by following a line already in the wax model. *Statuette of Jambhala*, central Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
