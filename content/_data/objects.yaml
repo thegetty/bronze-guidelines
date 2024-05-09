@@ -149,7 +149,7 @@ object_list:
       type: [ Diagram ]
       chapter: [ General Introduction, II.4. Measurements of Dimension ]
       figure: [ id: fig-001 ]
-    -
+  -
       id: '002'
       label: '2'
       type: 
