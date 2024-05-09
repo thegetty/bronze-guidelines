@@ -5,6 +5,7 @@ layout: table-of-contents
 presentation: grid
 classes: 
   - section-landing-page
+  - case-studies-grid
 slug: .
 pdf: false
 epub: false

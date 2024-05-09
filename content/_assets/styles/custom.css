@@ -1085,20 +1085,21 @@ figure .q-figure__modal-link {
       height: 21vw;
     }
   }
-  .quire-page.grid.section-landing-page .quire-page__header,
-  .quire-page.grid.section-landing-page .quire-page__content,
-  .quire-page.grid.section-landing-page .quire-page__content .container .content,
-  .quire-page.grid.section-landing-page .quire-contents-list.grid ol li .card {
+  .quire main.quire-page.case-studies-grid.section-landing-page,
+  .quire-page.case-studies-grid.section-landing-page .quire-page__header,
+  .quire-page.case-studies-grid.section-landing-page .quire-page__content,
+  .quire-page.case-studies-grid.section-landing-page .quire-page__content .container .content,
+  .quire-page.case-studies-grid.section-landing-page .quire-contents-list.grid ol li .card {
     background-color: var(--deep-black);
   }
-  .quire-page.grid.section-landing-page .quire-page__content .container .content {
+  .quire-page.case-studies-grid.section-landing-page .quire-page__content .container .content {
     margin-top: 0;
   }
-  .quire-page.grid.section-landing-page .quire-page__header__contributor {
+  .quire-page.case-studies-grid.section-landing-page .quire-page__header__contributor {
     color: var(--light);
   }
-  .quire-page.grid.section-landing-page .quire-page__header__title,
-  .quire-page.grid.section-landing-page .quire-page__content,
+  .quire-page.case-studies-grid.section-landing-page .quire-page__header__title,
+  .quire-page.case-studies-grid.section-landing-page .quire-page__content,
   .quire-contents-list.grid ol li .card.image .card-content {
     color: white;
   }
