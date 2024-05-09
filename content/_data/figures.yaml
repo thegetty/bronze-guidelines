@@ -2915,9 +2915,11 @@ figure_list:
     caption: "Features and textures of the bridle and eyes of the horse’s head were enhanced in the metal with chisel, engraver, and punch. *Aquamanile in the Form of a Knight on Horseback*, Lower Saxony, Germany (probably Hildesheim), ca. 1250, H. 37.3 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1492). See Dandridge 2006."
 
   - id: "fig-279"
-    src: "figures/279.jpg"
-    zoom: true
+    src: embeds/fig-279.html
+    thumb: "figures/thumbs/279.jpg"
+    static_inline: "figures/static-inline/279.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 279"
     caption: "3D reconstructed image of a chiseled line made in the metal (detail of left knee). Click on the 3D image to turn it to visualize the V shape of the imprint, which demonstrates the use of engraving. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
@@ -2934,16 +2936,20 @@ figure_list:
     caption: "Digital micrographs comparing the results of experimental chasing using a tracer on two different metals in two different metallurgical states. View of the chisel (left), the mark left in the as-cast tin-bronze and its dimensions (middle), and the mark in the laminated sheet of unalloyed electrolytic copper and dimensions (right). The copper sheet, having not been annealed, is much harder than the as-cast bronze, and consequently the mark is much shallower. Chasing by Dominique Robcis during the CAST:ING chiseling workshop, C2RMF, Paris, May 2017."
 
   - id: "fig-282"
-    src: "figures/282.jpg"
-    zoom: true
+    src: embeds/fig-282.html
+    thumb: "figures/thumbs/282.jpg"
+    static_inline: "figures/static-inline/282.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 282"
     caption: "3D model of a chisel mark in an as-cast tin-bronze. Model created with a digital microscope using automated focus stacking during the CAST:ING chasing workshop, C2RMF, Paris, May 2017."
 
   - id: "fig-283"
-    src: "figures/283.jpg"
-    zoom: true
+    src: embeds/fig-283.html
+    thumb: "figures/thumbs/283.jpg"
+    static_inline: "figures/static-inline/283.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 283"
     caption: "3D model of a chisel mark in an unalloyed electrolytic copper. Model created with a digital microscope using automated focus stacking during the CAST:ING chasing workshop, C2RMF, Paris, May 2017."
 
@@ -2954,9 +2960,11 @@ figure_list:
     caption: "Comparison of an original gilt bronze mount (left) and an after-cast, nineteenth- or twentieth-century copy (right). The copy is more finely and “mechanically” chased in comparison to the original. The scale of the image is 9 cm from top to bottom. Attributed to André Charles Boulle (French, 1642–1732), pair of pedestals, ca. 1700 (J. Paul Getty Museum, inv. 88.DA.75.1–2). After Heginbotham 2014, fig. 1."
 
   - id: "fig-285"
-    src: "figures/285.jpg"
-    zoom: true
+    src: embeds/fig-285.html
+    thumb: "figures/thumbs/285.jpg"
+    static_inline: "figures/static-inline/285.jpg"
     # media_type: dynamic
+    media_type: table
     label: "Figure 285"
     caption: "Digital microscopy detail of a punch mark (0.8 mm in diameter) on the lotus of a Buddha Vairocana. Note the smooth, compressed surface produced by the punch and the ridge of displaced metal around the edge. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 
@@ -3620,16 +3628,23 @@ figure_list:
     caption: "3D model of the new stainless steel mount for the bust (left), and back view of the bust once mounted (right). The mount was created using a 3D model designed using photogrammetry. Giovanni Bandini (called Giovanni dell’Opera, Italian, 1540–1599), *Bust of Roman Emperor Antoninus Pius*, Urbino, TKdate, H. 68 cm (Museo Nazionale del Bargello, Florence, inv. 441B). See Morigi 2018."
 
   - id: "fig-376"
-    src: "figures/376.jpg"
-    zoom: true
-    # media_type: 3D
+    src: embeds/fig-376.html
+    thumb: "figures/thumbs/376.jpg"
+    static_inline: "figures/static-inline/376.jpg"
+    # media_type: dynamic
+    media_type: table
     label: "Figure 376"
     caption: "Digital 3D structured light scan. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-377"
-    src: "figures/377.jpg"
-    zoom: true
+    # src: "figures/377.jpg"
+    # zoom: true
     # media_type: 3D
+    src: embeds/fig-377.html
+    thumb: "figures/thumbs/377.jpg"
+    static_inline: "figures/static-inline/377.jpg"
+    # media_type: dynamic
+    media_type: table
     label: "Figure 377"
     caption: "3D structured light scan. *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br 37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
