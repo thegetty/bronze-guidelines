@@ -40,7 +40,7 @@ entries:
     full: "Ammen, Charles William. 1980. *The Metalcaster’s Bible*. New York: McGraw-Hill and TAB Books."
 
   - id: "Andrieu et al. 2000"
-    full: "Andrieu, Sandra, Bernard Bayle, Michel Pernot, and Jean-Marie Welter. 2000. “Influence de diverses inclusions sur le comportement d’un bronze CuSn9 sous différentes sollicitations mécaniques.” Revue de Métallurgie 97 (5): 599–612. https://doi.org/10.1051/metal/200097050599."
+    full: "Andrieu, Sandra, Bernard Bayle, Michel Pernot, and Jean-Marie Welter. 2000. “Influence de diverses inclusions sur le comportement d’un bronze CuSn9 sous différentes sollicitations mécaniques.” *Revue de Métallurgie* 97 (5): 599–612. https://doi.org/10.1051/metal/200097050599."
 
   - id: "Anguisola 2018"
     full: "Anguisola, Anna. 2018. *Supports in Roman Marble Sculpture: Workshop Practice and Modes of Viewing*. Cambridge, UK: Cambridge University Press."
@@ -146,6 +146,9 @@ entries:
 
   - id: "Barnet and Dandridge 2006"
     full: "Barnet, Peter, and Pete Dandridge, eds. 2006. *Lions, Dragons, and Other Beasts: Aquamanilia of the Middle Ages, Vessels for Church and Table*. New Haven, CT: Yale University Press."
+  
+  - id: "Baruffetti, De Marchi, and Ciatti 2021"
+    full: "Baruffetti, Maria, Andrea De Marchi, and Marco Ciatti. 2021. “Per un glossario interdisciplinare rivolto alla conservazione della scultura in bronzo.” PhD diss., Università degli Studi di Firenze."
 
   - id: "Bassett 2008"
     full: "Bassett, Jane. 2008. *The Craftsman Revealed: Adriaen de Vries, Sculptor in Bronze*. Los Angeles: Getty Conservation Institute. <https://www.getty.edu/publications/virtuallibrary/9780892369195.html>."
@@ -169,7 +172,7 @@ entries:
     full: "Baudry, Marie Thérèse, and Dominique Bozo. 1978. *La sculpture: Méthode et vocabulaire*. Principes d’analyse scientifique. Paris: Impr. nationale."
 
   - id: "Baulez 1991"
-    full: "Baulez, Christian. 1991. “Le luminaire de la princesse Kinsky”, L'Objet d'art 247: 84–99."
+    full: "Baulez, Christian. 1991. “Le luminaire de la princesse Kinsky”, *L'Objet d'art* 247: 84–99."
 
   - id: "Baxandall 1965"
     full: "Baxandall, Michael. 1965. “A Masterpiece by Hubert Gerhard.” *Victoria and Albert Museum Bulletin* 1 (2): 1–17."
@@ -256,7 +259,7 @@ entries:
     full: "Bewer, Francesca G. 1999. “Bronze Casts after Bozzetti and Modelli by Bernini.” *Harvard University Art Museums Bulletin* 6 (3): 162–67."
 
   - id: "Bewer 2001"
-    full: "Bewer, Francesca G. 2001. “The Sculpture of Adriaen de Vries: A Technical Study.” In *Small Bronzes in the Renaissance*, edited by Debra Pincus, 158–93. Studies in the History of Art 62. Washington, DC: National Gallery of Art; New Haven, CT: Yale University Press."
+    full: "Bewer, Francesca G. 2001. “The Sculptur 2008e of Adriaen de Vries: A Technical Study.” In *Small Bronzes in the Renaissance*, edited by Debra Pincus, 158–93. Studies in the History of Art 62. Washington, DC: National Gallery of Art; New Haven, CT: Yale University Press."
 
   - id: "Bewer 2010"
     full: "Bewer, Francesca G. 2010. *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America, 1900–1950*. Cambridge, MA, and New Haven, CT: Harvard Art Museums."
@@ -295,7 +298,7 @@ entries:
     full: "Biringuccio, Vannoccio. (1540) 1942. *The Pirotechnia of Vannoccio Biringuccio*. Translated by Cyril Stanley Smith and Martha Teach Gnudi. New York: American Institute of Mining and Metallurgical Engineers."
 
   - id: "Biringuccio [1540] 1977"
-    full: "Biringuccio, Vannoccio. (1540) 1977. De la pirotechnia. Edited by Adriano Carugo. Milano: Edizioni Il Polifilo."
+    full: "Biringuccio, Vannoccio. (1540) 1977. *De la pirotechnia*. Edited by Adriano Carugo. Milano: Edizioni Il Polifilo."
 
   - id: "Biringuccio [1540] 1990"
     full: "Biringuccio, Vannoccio. (1540) 1990. *The Pirotechnia of Vannoccio Biringuccio*. Translated by Cyril Stanley Smith and Martha Teach Gnudi. New York: American Institute of Mining and Metallurgical Engineers."
@@ -553,7 +556,7 @@ entries:
     full: "Cellini, Benvenuto. 1568 (1967). *The Treatises of Benvenuto Cellini on Goldsmithing and Sculpture*. Translated by Charles Robert Ashbee. New York: Dover Publications."
 
   - id: "Cellini [1568] 1983"
-    full: "Cellini, Benvenuto. (1568) 1983. Due Trattati: Uno Intorno Alle Otto Principali Arti Dell’oreficeria: L’altro in Materia Dell’arte Della Scultura, Dove Si Veggono Infiniti Segreti Nel Lavorar Le Figure Di Marmo, & Nel Gettarle Di Bronzo. Edited by Antonio Altomonte. Modena: Edizioni Aldine."
+    full: "Cellini, Benvenuto. (1568) 1983. *Due Trattati: Uno Intorno Alle Otto Principali Arti Dell’oreficeria: L’altro in Materia Dell’arte Della Scultura, Dove Si Veggono Infiniti Segreti Nel Lavorar Le Figure Di Marmo, & Nel Gettarle Di Bronzo*. Edited by Antonio Altomonte. Modena: Edizioni Aldine."
 
   - id: "Cellini 1956"
     full: "Cellini, Benvenuto. 1956. *The Autobiography of Benvenuto Cellini.* Translated by George Bull. Harmondsworth, UK: Penguin."
@@ -727,7 +730,7 @@ entries:
     full: "Descamps-Lequime, Sophie. 2015. “The Color of Bronze: Polychromy and the Aesthetics of Bronze Surfaces.” In *Power and Pathos: Bronze Sculpture of the Hellenistic World*, edited by Jens M. Daehner and Kenneth Lapatin, 150–66. Los Angeles: J. Paul Getty Museum."
 
   - id: "Descamps-Lequime 2019 "
-    full: "Descamps-Lequime, Sophie. 2019. “La couleur des bronzes antiques: recherches récentes.” Technè: La science au service de l’histoire de l’art et de la préservation des biens culturels, no. 48 (December): 72–82. <https://doi.org/10.4000/techne.2323>."
+    full: "Descamps-Lequime, Sophie. 2019. “La couleur des bronzes antiques: recherches récentes.” *Technè: La science au service de l’histoire de l’art et de la préservation des biens culturels*, no. 48 (December): 72–82. <https://doi.org/10.4000/techne.2323>."
 
   - id: "Descamps-Lequime, Biron, and Langlois 2017"
     full: "Descamps-Lequime, Sophie, Isabelle Biron, and Juliette Langlois. 2017. “Les yeux d’Auguste et de Livie au musée du Louvre: Une nouvelle technique antique identifiée.” *Techné* 45:84–99. <https://doi.org/10.4000/techne.1304>."
@@ -874,7 +877,7 @@ entries:
     full: "Formigli, Edilberto. 1999c. “Resoconto degli esperimenti di saldatura per colate e di rifinitura a freddo sui grandi bronzi antichi.” In *I grandi bronzi antichi: le fonderie e le tecniche di lavorazione dall’età arcaica al rinascimento: atti dei Seminari di Studi ed Esperimenti, Murlo 24–30 luglio 1993 e 1–7 luglio 1995*, edited by Edilberto Formigli, 317–34. Siena, Italy: Nuova Immagine."
 
   - id: "Formigli 1999d"      
-    full: "Formigli, Edilberto. 1999d. “Due millenni di storia della metallotecnica nei restauri alla statua equestre del Marco Aurelio in Roma.” In I grandi bronzi antichi : le fonderie e le tecniche di lavorazione dall’età arcaica al Rinascimento: atti dei seminari di studi ed esperimenti, Murlo 24-30 luglio 1993 e 1-7 luglio 1995, edited by Edilberto Formigli, 147–90. Siena, Italy: Nuova immagine."
+    full: "Formigli, Edilberto. 1999d. “Due millenni di storia della metallotecnica nei restauri alla statua equestre del Marco Aurelio in Roma.” In *I grandi bronzi antichi : le fonderie e le tecniche di lavorazione dall’età arcaica al Rinascimento: atti dei seminari di studi ed esperimenti, Murlo 24-30 luglio 1993 e 1-7 luglio 1995*, edited by Edilberto Formigli, 147–90. Siena, Italy: Nuova immagine."
 
   - id: "Formigli 2007"
     full: "Formigli, Edilberto. 2007. “Ghiberti and the Art of Chasing.” In *The Gates of Paradise: Lorenzo Ghiberti’s Renaissance Masterpiece*, edited by Gary M. Radke, 118–33. Atlanta: High Museum of Art."
@@ -916,10 +919,10 @@ entries:
     full: "Gale, Noël H. 2009. “A Response to the Paper of A. M. Pollard: What a Long, Strange Trip It’s Been: Lead Isotopes and Archaeology.” In *From Mine to Microscope*, edited by Andrew J. Shortland, Ian C. Freestone, and Thilo Rehren, 191–95. Oxford: Oxbow Books."
 
   - id: "Gänsicke 2016"
-    full: "Gänsicke, Susanne. 2016. “Bodies in Bronze: Four South Indian Temple Bronzes in the Museum of Fine Arts, Boston.” In Proceedings of the Interim Meeting of the ICOM-CC Metals Working Group, September 26–30, 2016 New Delhi, India., edited by Raghu Menon, Claudia Chemello, and Achal Pandya, 14–21. Paris; New Delhi: ICOM-CC & Indira Gandhi National Centre of the Arts." 
+    full: "Gänsicke, Susanne. 2016. “Bodies in Bronze: Four South Indian Temple Bronzes in the Museum of Fine Arts, Boston.” In *Proceedings of the Interim Meeting of the ICOM-CC Metals Working Group, September 26–30, 2016 New Delhi, India*, edited by Raghu Menon, Claudia Chemello, and Achal Pandya, 14–21. Paris; New Delhi: ICOM-CC & Indira Gandhi National Centre of the Arts." 
 
   - id: "Gänsicke and Sharma 2021"
-    full: "Gänsicke, Susanne, and Nutandhar Sharma. 2021. “The Preservation of Metalwork in the Kathmandu Valley: Reflections on Past and Current Practices.” In Transcending Boundaries: Integrated Approaches to Conservation. ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021, edited by Janet Bridgeland, 1–9. Paris: International Council of Museums. <https://www.icom-cc-publications-online.org/4274/The-preservation-of-metalwork-in-the-Kathmandu-Valley--Reflections-on-past-and-current-practices>."
+    full: "Gänsicke, Susanne, and Nutandhar Sharma. 2021. “The Preservation of Metalwork in the Kathmandu Valley: Reflections on Past and Current Practices.” In *Transcending Boundaries: Integrated Approaches to Conservation. ICOM-CC 19th Triennial Conference Preprints, Beijing, 17–21 May 2021*, edited by Janet Bridgeland, 1–9. Paris: International Council of Museums. <https://www.icom-cc-publications-online.org/4274/The-preservation-of-metalwork-in-the-Kathmandu-Valley--Reflections-on-past-and-current-practices>."
 
   - id: "Garenne-Marot, Robion, and Mille 2003"
     full: "Garenne-Marot, Laurence, Caroline Robion, and Benoît Mille. 2003. “Cuivre, alliages de cuivre et histoire de l’empire du Mali. À propos de trois figurines animales d’un tumulus du delta intérieur du Niger (Mali).” *Techné* 18:74–85."
@@ -1144,7 +1147,7 @@ entries:
     full: "Hunter, Erica C. D. 2002. “Beautiful Black Bronzes: Zosimos’ Treatises in Cam. Mm.6.29.” In *I bronzi antichi: Produzione e tecnologia. Atti del XV Congresso Internazionale sui Bronzi Antichi*, edited by Alessandra Giumlia-Mair, 655–60. Montagnac, France: Editions Monique Mergoil."
 
   - id: "Hüls, Petri, and Föll 2019" 
-    full: "Hüls, C. Matthias, Ingo Petri, and Helmut Föll. 2019. “Absolute Dating of Early Iron Objects from the Ancient Orient: Radiocarbon Dating of Luristan Iron Mask Swords.” Radiocarbon 61 (5): 1229–38. https://doi.org/10.1017/RDC.2019.13."
+    full: "Hüls, C. Matthias, Ingo Petri, and Helmut Föll. 2019. “Absolute Dating of Early Iron Objects from the Ancient Orient: Radiocarbon Dating of Luristan Iron Mask Swords.” *Radiocarbon* 61 (5): 1229–38. https://doi.org/10.1017/RDC.2019.13."
     
   - id: "Ioannidou et al. 2000"
     full: "Ioannidou, E., D. Bourgarit, T. Calligaro, J. C. Dran, M. Dubus, J. Salomon, and P. Walter. 2000. “RBS and NRA with External Beams for Archaeometric Applications.” *Nuclear Instrument and Methods B* 161/162/163:730–36."
@@ -1156,7 +1159,7 @@ entries:
     full: "ISO. 2007. “International Vocabulary of Metrology — Basic and General Concepts and Associated Terms (VIM).” *ISO/IEC Guide* 99:2007. Geneva: International Organization for Standardization. https://www.iso.org/standard/45324.html."
 
   - id: "ISO 2008" 
-    full: "ISO. 2008. “Uncertainty of Measurement — Part 3: Guide to the Expression of Uncertainty in Measurement (GUM:1995).” ISO/IEC Guide 98-3:2008. Geneva: International Organization for Standardization. https://www.iso.org/standard/50461.html."
+    full: "ISO. 2008. “Uncertainty of Measurement — Part 3: Guide to the Expression of Uncertainty in Measurement (GUM:1995).” *ISO/IEC Guide* 98-3:2008. Geneva: International Organization for Standardization. https://www.iso.org/standard/50461.html."
 
   - id: "Jacobs et al. 2011"
     full: "Jacobs, Z., M. C. Meyer, R. G. Roberts, V. Aldeias, H. Dibble, and M. A. El Hajraoui. 2011. “Single-Grain OSL Dating at La Grotte Des Contrebandiers (‘Smugglers’ Cave’), Morocco: Improved Age Constraints for the Middle Paleolithic Levels.” *Journal of Archaeological Science* 38 (12): 3631–43."
@@ -1168,7 +1171,7 @@ entries:
     full: "Janietz, B. 2001. “Untersuchungen an geometrischen Bronzen.” Phd diss., Albert-Ludwigs-Universität. 2001. <https://freidok.uni-freiburg.de/fedora/objects/freidok:199/datastreams/FILE1/content>."
 
   - id: "JCGM/WG 1 2008" 
-    full: "JCGM/WG 1, Working Group 1 of the Joint Committee for Guides in. 2008. “Evaluation of Measurement Data — Guide to the Expression of Uncertainty in Measurement.” JCGM 100:2008. Sèvres, France: Bureau International des Poids et Mesures. https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf/cb0ef43f-baa5-11cf-3f85-4dcd86f77bd6." 
+    full: "JCGM/WG 1, Working Group 1 of the Joint Committee for Guides in 2008. “Evaluation of Measurement Data — Guide to the Expression of Uncertainty in Measurement.” *JCGM* 100:2008. Sèvres, France: Bureau International des Poids et Mesures. https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf/cb0ef43f-baa5-11cf-3f85-4dcd86f77bd6." 
 
   - id: "Jett 1993"
     full: "Jett, Paul. 1993. “A Study of the Gilding of Chinese Buddhist Bronzes.” In *Metal Plating and Patination: Cultural, Technical and Historical Developments*, edited by Susan La Niece and Paul Craddock, 193–200. Oxford, London, Boston [etc.]: Butterworth-Heinemann."
@@ -1198,7 +1201,7 @@ entries:
     full: "Kipper, Patrick V. 1995. *Patinas for Silicon Bronze*. Loveland, CO: Path."
 
   - id: "Kirby et al. 2011"
-    full: "Kirby, Daniel. P., Narayan Khandekar, Julie Arslanoglu, and Ken Sutherland. 2011. “Protein Identification in Artworks by Peptide Mass Fingerprinting.” In *ICOM Committee for Conservation 16th Triennial Conference, Lisbon, Portugal, 19–23 September 2011*, edited by Janet Bridgland, TKpage*–*TKpage. Almada, Portugal: Critério."
+    full: "Kirby, Daniel. P., Narayan Khandekar, Julie Arslanoglu, and Ken Sutherland. 2011. “Protein Identification in Artworks by Peptide Mass Fingerprinting.” In *ICOM Committee for Conservation 16th Triennial Conference, Lisbon, Portugal, 19–23 September 2011*, edited by Janet Bridgland. Almada, Portugal: Critério."
 
   - id: "Kleinbauer 1976"
     full: "Kleinbauer, W. Eugene. 1976. *A Byzantine Revival: The Inlaid Bronze Doors of Constantinople*. Cambridge, MA: Archaeology."
@@ -1867,7 +1870,7 @@ entries:
     full: "Pollard, A. M., B. Stern, C. M. Batt, and S. M. M. Young. 2007. “Inductively Coupled Plasma–Mass Spectrometry (ICP–MS).” In *Analytical Chemistry in Archaeology*, 195–214. Cambridge Manuals in Archaeology. Cambridge, UK: Cambridge University Press."
 
   - id: "Pollard et al. 2018"
-    full: "Pollard, A. M., P. Bray, A. Cuénod, P. Hommel, Y.-K. Hsu, R. Liu, L. Perucchetti, J. Pouncett, and M. Saunders. 2018. “The Flame GIS-Database.” In *Beyond Provenance: New Approaches to Interpreting the Chemistry of Archaeological Copper Alloys* A. M. Pollard, 171–86. Studies in Archaeological Sciences 6. Leuven, Belgium: Leuven University Press. https://doi.org/10.2307/j.ctv7xbs5r.10."
+    full: "Pollard, A. M., P. Bray, A. Cuénod, P. Hommel, Y.-K. Hsu, R. Liu, L. Perucchetti, J. Pouncett, and M. Saunders. 2018. “The Flame GIS-Database.” In *Beyond Provenance: New Approaches to Interpreting the Chemistry of Archaeological Copper Alloys*, edited by A. M. Pollard, 171–86. Studies in Archaeological Sciences 6. Leuven, Belgium: Leuven University Press. https://doi.org/10.2307/j.ctv7xbs5r.10."
 
   - id: "Pope et al. 1969"
     full: "Pope, John A., Rutherford J. Gettens, James Cahill, and Noel Barnard. *The Freer Chinese Bronzes*, Vol. 1. Washington, DC: Smithsonian Institution."
@@ -2059,7 +2062,7 @@ entries:
     full: "Scott, David A., and Lynn Swartz Dodd. 2002. “Examination, Conservation, and Analysis of a Gilded Bronze Osiris.” *Journal of Cultural Heritage* 3 (4): 333–45."
 
   - id: "*Secrets concernant les arts et métiers* 1810"
-    full: "*Secrets concernant les arts et métiers (Nouvelle édition, revue, corrigée et considérablement augmentée)*. 1810. Avignon, France: E. T. Chaillot. [https://books.google.fr/books?id=J3U7AAAAcAAJ&printsec=frontcover&dq=)."
+    full: "*Secrets concernant les arts et métiers (Nouvelle édition, revue, corrigée et considérablement augmentée)*. 1810. Avignon, France: E. T. Chaillot. https://books.google.fr/books?id=J3U7AAAAcAAJ&printsec=frontcover&dq=."
 
   - id: "Seelig-Teuwen, Bourgarit, and Bewer 2014"
     full: "Seelig-Teuwen, Regina, David Bourgarit, and Francesca G. Bewer. 2014. “Barthélemy Prieur Fondeur, son atelier, ses méthodes de travail.” In *French Bronze Sculpture: Materials and Techniques 16th - 18th Century*, edited by David Bourgarit, Jane Bassett, Francesca G. Bewer, Geneviève Bresc-Bautier, Phillippe Malgouyres, and Guilhem Scherf, 18–38. London: Archetype."
@@ -2074,7 +2077,7 @@ entries:
     full: "Sequenzia, Gaetano, Gabriele Fatuzzo, and Salvatore Massimo Oliveri. 2021. “A Computer-Based Method to Reproduce and Analyse Ancient Series-Produced Moulded Artefacts.” *Digital Applications in Archaeology and Cultural Heritage* 20 (March): e00174. https://doi.org/10.1016/j.daach.2021.e00174."
 
   - id: "Shanxi Provincial Institute of Archaeology 1993" 
-    full: "Shanxi Provincial Institute of Archaeology | 山西省考古研究所编. 1993. 侯马铸铜遗址 = The Houma Bronze Casting Site. 北京 = Beijing: 文物出版社 = Cultural Relics Press. https://book.douban.com/subject/3828980/."
+    full: "Shanxi Provincial Institute of Archaeology | 山西省考古研究所编. 1993. 侯马铸铜遗址 = *The Houma Bronze Casting Site*. 北京 = Beijing: 文物出版社 = Cultural Relics Press. https://book.douban.com/subject/3828980/."
 
   - id: "Shearman 2010"
     full: "Shearman, Fleur. 2010. “Patina and Polychromy: Reconstructing Some Technical Histories for Small Egyptian Bronze Sculpture in the British Museum.” In *Decorated Surfaces on Ancient Egyptian Objects: Technology, Deterioration and Conservation; Proceedings of a Conference Held in Cambridge, UK, on 7–8 September 2007*, edited by J. Dawson, C. Rozeik, and M. M. Wright, 46–57. London: Archetype."
@@ -2140,7 +2143,7 @@ entries:
     full: "Stephens, J. A., M. N. Ducea, D. J. Killick, and J. Ruiz. 2021. “Use of Non-Traditional Heavy Stable Isotopes in Archaeological Research.” *Journal of Archaeological Science* 127 (March): 105334."
 
   - id: "Stephens et al. 2022"    
-    full: "Stephens, Catherine H., Eric M. Breitung, Corina Geiculescu, and Thomas Strange. 2022. “Determination of Nitrile Gloves Appropriate for Use When Dry Handling Art.” Journal of the American Institute for Conservation 61 (3): 162–71. https://doi.org/10.1080/01971360.2021.1913543."
+    full: "Stephens, Catherine H., Eric M. Breitung, Corina Geiculescu, and Thomas Strange. 2022. “Determination of Nitrile Gloves Appropriate for Use When Dry Handling Art.” *Journal of the American Institute for Conservation* 61 (3): 162–71. https://doi.org/10.1080/01971360.2021.1913543."
 
   - id: "Stewart 2014"
     full: "Stewart, Andrew. 2014. “Why Bronze?” In *Power and Pathos: Bronze Sculpture of the Hellenistic World*, edited by Jens M. Daehner and Kenneth Lapatin, 34–47. Los Angeles: J. Paul Getty Museum."
