@@ -13,7 +13,7 @@ contributor:
     last_name: Chen
     type: secondary
     bio: |
-      Yi Chen received her PhD in Chinese archaeology from the University of Oxford. She is a former curator of early Chinese collections and now a visiting researcher at the British Museum. In addition, she is an academic advisor of the Dresden Porcelain Project of the Staatliche Kunstsammlungen Dresden and a J.S. Lee Memorial Fellow (2022/2023), hosted by The Art Museum, Chinese University of Hong Kong. Before she joined the British Museum in 2015, she was the Christensen Fellow in Chinese Painting at the Ashmolean Museum of Art and Archaeology in Oxford.
+      Yi Chen received her PhD in Chinese archaeology from the University of Oxford. She is a former curator of early Chinese collections and now a visiting researcher at the British Museum. In addition, she is an academic advisor of the Dresden Porcelain Project of the Staatliche Kunstsammlungen Dresden and a J. S. Lee Memorial Fellow (2022/2023), hosted by The Art Museum, Chinese University of Hong Kong. Before she joined the British Museum in 2015, she was the Christensen Fellow in Chinese Painting at the Ashmolean Museum of Art and Archaeology in Oxford.
   - first_name: Joachim
     last_name: Kreutner
     type: secondary
