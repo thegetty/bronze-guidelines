@@ -110,8 +110,8 @@
  </tr>
  <tr>
   <td>Comparison of two monumental equestrian
-  statues: François Girardon’s monumental Louis XIV (cast by Balthasar Keller
-  in 1699) and Edme Bouchardon’s Louis XV (cast by Pierre Gor in 1758)<sup>(3)</sup></td>
+  statues: François Girardon’s monumental <em>Louis XIV</em> (cast by Balthasar Keller
+  in 1699) and Edme Bouchardon’s <em>Louis XV</em> (cast by Pierre Gor in 1758)<sup>(3)</sup></td>
   <td>1
   month</td>
   <td>Once the wax
@@ -213,7 +213,7 @@
  <tr>
   <td>Comparison of two monumental equestrian
   statues: François Girardon’s monumental <i>Louis XIV</i> (cast by Balthasar Keller
-  in 1699) and Edme Bouchardon’s Louis XV (cast by Pierre Gor in 1758)</td>
+  in 1699) and Edme Bouchardon’s <i>Louis XV</i> (cast by Pierre Gor in 1758)</td>
   <td>1–2
   days</td>
   <td>For
@@ -361,8 +361,8 @@
  </tr>
  <tr>
   <td>Comparison of two monumental equestrian
-  statues: François Girardon’s monumental Louis XIV (cast by Balthasar Keller
-  in 1699) and Edme Bouchardon’s Louis XV (cast by Pierre Gor in 1758)</td>
+  statues: François Girardon’s monumental <em>Louis XIV</em> (cast by Balthasar Keller
+  in 1699) and Edme Bouchardon’s <em>Louis XV</em> (cast by Pierre Gor in 1758)</td>
   <td>A few years</td>
   <td>Due to major
   casting flaws, chasing and repairing the monumental cast of Louis XV took 5
@@ -374,8 +374,7 @@
   <td rowspan=5 >{% def 'patination' %}</td>
   <td rowspan=5 >For more on patination, see <a target="_blank" href="/vol-1/8/">I.8</a>. Other finishing processes such as metal plating and inlaying
   might be carried out instead of or in addition to patination.</td>
-  <td>Head of Apollo
-  of Lillebonne (H. 18 cm), Fonderie Coubertin<sup>(1)</sup></td>
+  <td>Head of <em>Apollo of Lillebonne</em> (H. 18 cm), Fonderie Coubertin<sup>(1)</sup></td>
   <td>1 hour</td>
   <td>Chemical
   patination took 1 hour.</td>

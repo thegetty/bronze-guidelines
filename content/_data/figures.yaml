@@ -97,7 +97,7 @@ figure_list:
     visual_atlas: false
     zoom: true
     label: "Figure 111"
-    caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated top view without the lid, indicating the location of the seam lines. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -147,7 +147,7 @@ figure_list:
     src: "figures/002.jpg"
     zoom: true
     label: "Figure 2"
-    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of Mars by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
+    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of *Mars* by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
 
   - id: "fig-003"
     # src: "figures/003.png"
@@ -283,7 +283,7 @@ figure_list:
     src: "figures/015.jpg"
     zoom: true
     label: "Figure 15"
-    caption: "Plaster molding of the 3D resin print of the head of Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the separate sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/017/), [19](/visual-atlas/019/), [24](/visual-atlas/024/)). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Plaster molding of the 3D resin print of the head of *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the separate sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/017/), [19](/visual-atlas/019/), [24](/visual-atlas/024/)). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-016"
     # src: "figures/016.png"
@@ -299,7 +299,7 @@ figure_list:
     zoom: true
     class: pdf-65-percent-float
     label: "Figure 17"
-    caption: "Application of wax slabs on the internal surface of one half of a plaster mold used for a bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Application of wax slabs on the internal surface of one half of a plaster mold used for a bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-018"
     # src: "figures/018.png"
@@ -314,7 +314,7 @@ figure_list:
     src: "figures/019.jpg"
     zoom: true
     label: "Figure 19"
-    caption: "Application of balls of wax on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Application of balls of wax on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-020"
     src: "figures/020.jpg"
@@ -349,7 +349,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 24"
-    caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: Apollo of Lillebonne, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-025"
     # src: "figures/025.png"
@@ -1057,7 +1057,7 @@ figure_list:
     src: "figures/087.jpg"
     zoom: true
     label: "Figure 87"
-    caption: "View from the inside of a bronze reproduction of the head of the Apollo of Lillebonne made during the 2016 CAST:ING workshop, Coubertin foundry, France, showing the typical smooth flowing surface of slush-molding casts. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "View from the inside of a bronze reproduction of the head of the *Apollo of Lillebonne* made during the 2016 CAST:ING workshop, Coubertin foundry, France, showing the typical smooth flowing surface of slush-molding casts. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-088"
     src: "figures/088.jpg"
@@ -1143,7 +1143,7 @@ figure_list:
     static_inline: "figures/static-inline/095.jpg"
     zoom: true
     label: "Figure 95"
-    caption: "Inside view of a bronze reproduction of the head of the Apollo of Lillebonne made by the lasagna process during the 2016 CAST:ING meeting at the Coubertin foundry, France. The outer contours of the hair are not at all visible on the simplified interior of the head. See the working marks of the clay sheet (lasagna), and particularly the thick joint between the two main sheets crossing the length of the head (red arrows). The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Inside view of a bronze reproduction of the head of the *Apollo of Lillebonne* made by the lasagna process during the 2016 CAST:ING meeting at the Coubertin foundry, France. The outer contours of the hair are not at all visible on the simplified interior of the head. See the working marks of the clay sheet (lasagna), and particularly the thick joint between the two main sheets crossing the length of the head (red arrows). The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
     annotations:
       - input: checkbox
         items:
@@ -1286,7 +1286,7 @@ figure_list:
     static_inline: "figures/static-inline/111.jpg"
     zoom: true
     label: "Figure 111"
-    caption: "Annotated top view without the lid, indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated top view without the lid, indicating the location of the seam lines. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1306,7 +1306,7 @@ figure_list:
     static_inline: "figures/static-inline/112.jpg"
     zoom: true
     label: "Figure 112"
-    caption: "Annotated view of the underside indicating the location of the seam lines created at the joints of the loess piece mold. Note remnants of core material in the legs. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated view of the underside indicating the location of the seam lines created at the joints of the loess piece mold. Note remnants of core material in the legs. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1332,7 +1332,7 @@ figure_list:
     static_inline: "figures/static-inline/113.jpg"
     zoom: true
     label: "Figure 113"
-    caption: "Annotated frontal view indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated frontal view indicating the location of the seam lines. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1355,7 +1355,7 @@ figure_list:
     static_inline: "figures/static-inline/114.jpg"
     zoom: true
     label: "Figure 114"
-    caption: "Annotated three-quarter view of the lid indicating the location of the seam lines. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated three-quarter view of the lid indicating the location of the seam lines. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1375,7 +1375,7 @@ figure_list:
     static_inline: "figures/static-inline/115.jpg"
     zoom: true
     label: "Figure 115"
-    caption: "Annotated view from above of the lid indicating the location of the central seam line. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated view from above of the lid indicating the location of the central seam line. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1389,7 +1389,7 @@ figure_list:
     static_inline: "figures/static-inline/116.jpg"
     zoom: true
     label: "Figure 116"
-    caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1412,7 +1412,7 @@ figure_list:
     static_inline: "figures/static-inline/117.jpg"
     zoom: true
     label: "Figure 117"
-    caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. Huo Ritual Vessel, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Conservator's working drawings mapping the piece mold sections used to create the *huo*. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
@@ -1486,7 +1486,7 @@ figure_list:
     static_inline: "figures/static-inline/123.jpg"
     zoom: true
     label: "Figure 123"
-    caption: "Detail of proper left side of torso. The square cast-on patch (yellow overlay) is an original repair of a hole left during casting by the presence of a mold extension. After Leone Leoni (Milanese, 1509–1590), *Emperor Charles V, Innsbruck*2, second half of the 16th century, H. 109 cm (National Gallery of Art, Washington, DC, Samuel H. Kress Collection, inv. 1952.5.104). See Smith and Sepponen 2019."
+    caption: "Detail of proper left side of torso. The square cast-on patch (yellow overlay) is an original repair of a hole left during casting by the presence of a mold extension. After Leone Leoni (Milanese, 1509–1590), *Emperor Charles V, Innsbruck*, second half of the 16th century, H. 109 cm (National Gallery of Art, Washington, DC, Samuel H. Kress Collection, inv. 1952.5.104). See Smith and Sepponen 2019."
     annotations:
       - input: checkbox
         items:
@@ -1762,7 +1762,7 @@ figure_list:
     # zoom: true
     media_type:
     label: "Figure 157"
-    caption: "The many losses and worn appearance of the statuette are probably a result of ill-controlled electrolytic cleaning. Youth Holding an Oinochoe and Strainer, Greek, second quarter of the 5th century BCE, H. 11.8 cm (Harvard Art Museums / Arthur M. Sackler Museum, gift of Mrs. Edward Jackson Holmes, inv. 1952.20)."
+    caption: "The many losses and worn appearance of the statuette are probably a result of ill-controlled electrolytic cleaning. *Youth Holding an Oinochoe and Strainer*, Greek, second quarter of the 5th century BCE, H. 11.8 cm (Harvard Art Museums / Arthur M. Sackler Museum, gift of Mrs. Edward Jackson Holmes, inv. 1952.20)."
 
   - id: "fig-158"
     src: "figures/158.jpg"
@@ -2165,7 +2165,7 @@ figure_list:
     src: "figures/193.jpg"
     zoom: true
     label: "Figure 193"
-    caption: "Interior shot showing a seriously flawed area that has been repaired by inserting threaded plugs. Note the variation in their diameter. Giovanni Battista Bianco (Italian, d. 1657), after a design by Domenico Fiasella (Italian, 1589–1669), *Virgin as Queen of Genoa*, High Altar, San Lorenzo, Genoa, Italy, 1651, H. TK cm."
+    caption: "Interior shot showing a seriously flawed area that has been repaired by inserting threaded plugs. Note the variation in their diameter. Giovanni Battista Bianco (Italian, d. 1657), after a design by Domenico Fiasella (Italian, 1589–1669), *Virgin as Queen of Genoa*, High Altar, San Lorenzo, Genoa, Italy, 1651."
 
   - id: "fig-194"
     src: "figures/194/base.jpg"
@@ -2333,7 +2333,7 @@ figure_list:
     static_inline: "figures/static-inline/206.jpg"
     zoom: true
     label: "Figure 206"
-    caption: "Daylight photograph and X-radiograph of a detail of a right arm showing the brazing between the hand and the wrist (red overlay). The area was finished, removing any exterior signs of the joining method. Gilded Standing Divinity, Cambodia, Angkor, Siem Reap province, 11th century, H. 130.8 cm (Metropolitan Museum of Art, from the Collection of Walter H. and Leonor Annenberg, inv. 1988.355)."
+    caption: "Daylight photograph and X-radiograph of a detail of a right arm showing the brazing between the hand and the wrist (red overlay). The area was finished, removing any exterior signs of the joining method. *Gilded Standing Divinity*, Cambodia, Angkor, Siem Reap province, 11th century, H. 130.8 cm (Metropolitan Museum of Art, from the Collection of Walter H. and Leonor Annenberg, inv. 1988.355)."
     annotations:
       - input: checkbox
         items:
@@ -2370,7 +2370,7 @@ figure_list:
     static_inline: "figures/static-inline/209.jpg"
     zoom: true
     label: "Figure 209"
-    caption: "Cross section of a vessel fragment. The leg (green overlay) was cast first then put into the mold. The body of the vessel (lilac overlay) was then cast onto the leg, mechanically locking them together. The reddish material in the center is the core preserved in the leg; the widest dimension of the current section is 5.5 cm. Fragment of ritual vessel, China, Zhou dynasty, ca. 830 BC, H. 36.5 cm (Freer Study Collection, Department of Conservation and Scientific Research, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
+    caption: "Cross section of a vessel fragment. The leg (green overlay) was cast first, then put into the mold. The body of the vessel (lilac overlay) was then cast onto the leg, mechanically locking them together. The reddish material in the center is the core preserved in the leg; the widest dimension of the current section is 5.5 cm. Fragment of ritual vessel, China, Zhou dynasty, ca. 830 BC, H. 36.5 cm (Freer Study Collection, Department of Conservation and Scientific Research, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
     annotations:
       - input: checkbox
         items:
@@ -2433,7 +2433,7 @@ figure_list:
     static_inline: "figures/static-inline/215.jpg"
     zoom: true
     label: "Figure 215"
-    caption: "Annotated X-radiograph of Prajnaparamita and Lokeshvara showing the solid ring-shaped tangs cast with the statuettes to attach the figures to their base (arrows). Khmer Buddhist Triad, late 12th–early 13th century, H. 49.5 cm (National Museum of Cambodia, inv. Ga 2424). See Bourgarit et al. 2003."
+    caption: "Annotated X-radiograph of Prajnaparamita and Lokeshvara showing the solid ring-shaped tangs cast with the statuettes to attach the figures to their base (arrows). *Khmer Buddhist Triad*, late 12th–early 13th century, H. 49.5 cm (National Museum of Cambodia, inv. Ga 2424). See Bourgarit et al. 2003."
     annotations:
       - input: checkbox
         items:
@@ -2507,7 +2507,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 223"
-    caption: "One of a pair of cloisonné enamel figures combining both cast sections (hands) and hammered sections (body and head) using mechanical methods for joining, namely bent tabs between head and body and rivets for the hands. Note that the enamel overlays are only on the hammered sections. Seated Figure, China, Qing dynasty, Qianlong period (1736–95), H. 88.3 cm (Metropolitan Museum of Art, gift of A. W. Bahr in memory of his wife, Helen Marion Bahr, 1954, inv. 54.124.2a–b.)."
+    caption: "One of a pair of cloisonné enamel figures combining both cast sections (hands) and hammered sections (body and head) using mechanical methods for joining, namely bent tabs between head and body and rivets for the hands. Note that the enamel overlays are only on the hammered sections. *Seated Figure*, China, Qing dynasty, Qianlong period (1736–95), H. 88.3 cm (Metropolitan Museum of Art, gift of A. W. Bahr in memory of his wife, Helen Marion Bahr, 1954, inv. 54.124.2a–b.)."
 
   - id: "fig-224"
     src: "figures/224/base.jpg"
@@ -2673,7 +2673,7 @@ figure_list:
     zoom: true
     media_type: dynamic
     label: "Figure 241"
-    caption: "Reflectance transformation image (RTI) of the upper surface of the lotus of a lost-wax-cast statuette. This imaging technique allows examination of engraving marks made in the metal under variable lighting conditions. Statuette of Bodhisattva, Java, late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3822). See Mechling et al. 2018."
+    caption: "Reflectance transformation image (RTI) of the upper surface of the lotus of a lost-wax-cast statuette. This imaging technique allows examination of engraving marks made in the metal under variable lighting conditions. *Statuette of Bodhisattva*, Java, late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3822). See Mechling et al. 2018."
 
   - id: "fig-242"
     src: "figures/242.jpg"
@@ -2883,7 +2883,7 @@ figure_list:
     # media_type: dynamic
     media_type: table
     label: "Figure 273"
-    caption: "3D model of a chiseled line generated by a digital microscope using automated focus stacking. The line, on a lost-wax cast statuette, is approximately 1 mm across. Click on the 3D image to turn it to visualize the altered V shape of the imprint, which demonstrates that the engraving in the metal was made by following a line already in the wax model. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "3D model of a chiseled line generated by a digital microscope using automated focus stacking. The line, on a lost-wax cast statuette, is approximately 1 mm across. The altered V shape of the imprint demonstrates that the engraving in the metal was made by following a line already in the wax model. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-274"
     src: "figures/274.jpg"
@@ -2924,7 +2924,7 @@ figure_list:
     # media_type: dynamic
     media_type: table
     label: "Figure 279"
-    caption: "3D reconstructed image of a chiseled line made in the metal (detail of left knee). Click on the 3D image to turn it to visualize the V shape of the imprint, which demonstrates the use of engraving. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "3D reconstructed image of a chiseled line made in the metal (detail of left knee). The V shape of the imprint demonstrates the use of engraving. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-280"
     src: "figures/280.jpg"
@@ -3473,7 +3473,7 @@ figure_list:
     src: "figures/357.jpg"
     zoom: true
     label: "Figure 357"
-    caption: "Cast bronze with gold appliqués and traces of powdered mineral inlay. *Lidded Square Wine Jar (fanghu)*, China, Late Eastern Zhou dynasty or Middle Warring States period, ca. 481–300 BCE, H. 48.3 cm (Los Angeles County Museum of Art, gift of Mr. and Mrs. Lidow, inv. M.76.109a–b)."
+    caption: "Cast bronze with gold appliqués and traces of powdered mineral inlay. *Lidded Square Wine Jar (Fanghu)*, China, Late Eastern Zhou dynasty or Middle Warring States period, ca. 481–300 BCE, H. 48.3 cm (Los Angeles County Museum of Art, gift of Mr. and Mrs. Lidow, inv. M.76.109a–b)."
 
   - id: "fig-358"
     src: "figures/358.jpg"
@@ -3491,7 +3491,7 @@ figure_list:
     src: "figures/360.jpg"
     zoom: true
     label: "Figure 360"
-    caption: "Lines of holes run between the lobes of the ears and across the upper lip of a brass Ife head. Based on ethnographic parallels, these may possibly be for the attachment of added elements. Red paint is used to add color to feathers; tubular beads and rosettes and traces of black paint appear on incised elements of the crown. Ife head, Yoruba, probably 14th–early 15th century, H. 35 cm (British Museum, inv. Af1939,34.1)."
+    caption: "Lines of holes run between the lobes of the ears and across the upper lip of a brass Ife head. Based on ethnographic parallels, these may possibly be for the attachment of added elements. Red paint is used to add color to feathers; tubular beads and rosettes and traces of black paint appear on incised elements of the crown. *Ife Head*, Yoruba, probably 14th–early 15th century, H. 35 cm (British Museum, inv. Af1939,34.1)."
 
   - id: "fig-361"
     src: "figures/361.jpg"
@@ -3503,7 +3503,7 @@ figure_list:
     src: "figures/362.jpg"
     zoom: true
     label: "Figure 362"
-    caption: "Bronze, mercury-gilded figure with overlaid stones and painted pigments. Buddhist Deity Vajradhara in Union with His Consort Prajnaparamita, probably Chinese or Tibetan, 1403–24, H. 28.6 cm (Metropolitan Museum of Art, Robert Lehman Collection, inv. 1975.1.1442)."
+    caption: "Bronze, mercury-gilded figure with overlaid stones and painted pigments. *Buddhist Deity Vajradhara in Union with His Consort Prajnaparamita*, probably Chinese or Tibetan, 1403–24, H. 28.6 cm (Metropolitan Museum of Art, Robert Lehman Collection, inv. 1975.1.1442)."
 
   - id: "fig-363"
     src: "figures/363.jpg"
@@ -3551,7 +3551,7 @@ figure_list:
     static_inline: "figures/static-inline/367.jpg"
     zoom: true
     label: "Figure 367"
-    caption: "Annotated X-radiograph showing technical features observed on the front surface. Click on the legend to reveal or mask the different overlays (refer to [fig. 467](/visual-atlas/467/) for mapping of evidence visible on the reverse). *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE., max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "Annotated X-radiograph showing technical features observed on the front surface (refer to [fig. 467](/visual-atlas/467/) for mapping of evidence visible on the reverse). *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE., max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
     annotations:
       - input: checkbox
         items:
@@ -3663,7 +3663,7 @@ figure_list:
     static_inline: "figures/static-inline/379.jpg"
     media_type: table
     label: "Figure 379"
-    caption: "Interactive 3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-380"
     src: "figures/380.jpg"
@@ -3877,7 +3877,7 @@ figure_list:
     zoom: true
     media_type: dynamic
     label: "Figure 404"
-    caption: "Neutron tomography (in negative for better visualization). Most consecration offerings (coin, bead, copper foil) can be observed (black shapes under the seat). Click on the image to spin. *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
+    caption: "Neutron tomography (in negative for better visualization). Most consecration offerings (coin, bead, copper foil) can be observed (black shapes under the seat). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
     # sequences:
     #   - id: "figures/404/"
     #     behavior:
@@ -4342,7 +4342,7 @@ figure_list:
     static_inline: "figures/static-inline/467.jpg"
     zoom: true
     label: "Figure 467"
-    caption: "Annotated X-radiograph showing the technical features observed on the reverse. Click on the legend to reveal or mask the different overlays (see [fig. 367](/visual-atlas/367/) for mapping of evidence visible on the front). *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "Annotated X-radiograph showing the technical features observed on the reverse (see [fig. 367](/visual-atlas/367/) for mapping of evidence visible on the front). *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
     annotations:
       - input: checkbox
         items:
@@ -4631,7 +4631,7 @@ figure_list:
     zoom: true
     media_type: dynamic
     label: "Figure 498"
-    caption: "A digital (DR) 360° radiograph package containing radiographs, enhanced radiographs, visible light images and blended images at 5° increments. In the online version of this publication, clicking and dragging from side to side rotates the image sets. Using the keyboard up and down arrows (or clicking and dragging up and down) switches from one image set to the next. Buttons at the bottom allow the image to be zoomed.  Holding the shift key allows the image to be repositioned with the mouse. The package was created using Ortery software. Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
+    caption: "A digital (DR) 360° radiograph. Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
     # sequences:
     #   - id: "figures/498/"
     #     behavior:
@@ -5044,7 +5044,7 @@ figure_list:
     src: "figures/549.jpg"
     zoom: true
     label: "Figure 549"
-    caption: "Molten bronze poured into a cylindrical plaster refractory mold with a separate pouring cup. Experimental reproduction cast of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Molten bronze poured into a cylindrical plaster refractory mold with a separate pouring cup. Experimental reproduction cast of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-550"
     src: "figures/550.jpg"
@@ -5069,7 +5069,7 @@ figure_list:
     src: "figures/553.jpg"
     zoom: true
     label: "Figure 553"
-    caption: "Plaster chef-modèle used to sand cast a two-thirds-scale bronze reproduction of the head of the Apollo of Lillebonne during the 2016 CAST:ING meeting, Coubertin, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Plaster chef-modèle used to sand cast a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-554"
     src: "figures/554.jpg"
@@ -5152,7 +5152,7 @@ figure_list:
     zoom: true
     media_type: dynamic
     label: "Figure 564"
-    caption: "A digital (DR) 360° X-ray package made using the set up shown in Fig. XXI.  Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. In the digital version of this publication, the sculpture may be spun and manipulated according to the directions for Fig. 498. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
+    caption: "A digital (DR) 360° X-ray package made using the set up shown in [fig. 563](/visual-atlas/563/). Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
     # sequences:
     #   - id: "figures/564/"
     #     behavior:

@@ -258,7 +258,7 @@
   <td>Naked-eye
   examination (good lighting at different angles, including raking light and
   RTI and UV light), portable loupe,
-  stereo microscope X-radiography</td>
+  stereo microscope, X-radiography</td>
   <td>3D
   scanning, RTI, high-energy X-rays (1 MeV and beyond) or gamma or neutron
   radiography, computerized tomography (CT)</td>
