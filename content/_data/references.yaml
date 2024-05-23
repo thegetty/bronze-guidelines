@@ -945,8 +945,8 @@ entries:
   - id: "Gehres and Querré 2018"
     full: "Gehres, B., and G. Querré. 2018. “New Applications of LA–ICP–MS for Sourcing Archaeological Ceramics: Microanalysis of Inclusions as Fingerprints of Their Origin.” *Archaeometry* 60 (4): 750–63."
 
-  - id: "Gesamtverband Deutscher Metallgiessereien 1982"
-    full: "Gesamtverband Deutscher Metallgiessereien, Verein Deutscher Giessereifachleute. 1982. *Guss aus Kupfer und Kupferlegierungen. Technische richtlinien*. Düsseldorf: Deutsches Kupfer-Institut."
+  - id: "Gesamtverband Deutscher Metallgießereien 1982" 
+    full: "Gesamtverband Deutscher Metallgießereien, Verein Deutscher Giessereifachleute. 1982. *Guss aus Kupfer und Kupferlegierungen. Technische richtlinien*. Düsseldorf: Deutsches Kupfer-Institut."
 
   - id: "Gettens 1933"
     full: "Gettens, Rutherford J. 1933. “Mineralization, Electrolytic Treatment, and Radiographic Examination of Copper and Bronze Objects from Nuzi.” *Technical Studies in the Field of the Fine Arts* 1 (3): 118–42."
@@ -1758,7 +1758,7 @@ entries:
   - id: "Odegaard, Carroll, and Zimmt 2005"
     full: "Odegaard, Nancy, Scott Carroll, and Werner S. Zimmt. 2005. *Material Characterization Tests for Objects of Art and Archaeology*. London: Archetype."
 
-  - id: "Office québécois de la langue française. n.d."
+  - id: "Office québécois de la langue française n.d."
     full: "Office québécois de la langue française. n.d. *Le grand dictionnaire terminologique (GDT)*. <http://www.granddictionnaire.com/>."
 
   - id: "Ogden 2000"

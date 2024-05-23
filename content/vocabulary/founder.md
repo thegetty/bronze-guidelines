@@ -113,7 +113,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *Gießereifachman*
 
-    Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}
 
 - *Gießereileiter*
 

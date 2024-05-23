@@ -94,13 +94,13 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Term for a specific casting defect used for general reference to that defect
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbollitura](http://www.treccani.it/vocabolario/sbollitura/); {% cite "Battaglia 1961" %}, under [*sbollitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbollitura*](http://www.treccani.it/vocabolario/sbollitura/); {% cite "Battaglia 1961" %}, under [*sbollitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura)
 
 - *soffiatura* 
 
     Term for a specific casting defect used for general reference to that defect
 
-    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](link: http://www.treccani.it/vocabolario/soffiatura0 [definition 2a]
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](http://www.treccani.it/vocabolario/soffiatura/) [definition 2a]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}
