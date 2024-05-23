@@ -116,13 +116,13 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 838; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+{% cite "Ming 2010" %}, 838; TNATD
 
 #### Alternate Translations
 
 - <span lang="zh">铸造性</span>
 
-    Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+    Sources: {% cite "Ming 2010" %}, 1832; TNATD
 
 {% endaccordion %}
 

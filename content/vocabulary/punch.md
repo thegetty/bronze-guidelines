@@ -88,7 +88,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Sources
 
-{% cite "Ming 2010" %}, 156; [TNATD](https://terms.naer.edu.tw/detail/625279/?index=1)
+{% cite "Ming 2010" %}, 156; TNATD
 
 {% endaccordion %}
 

@@ -112,7 +112,7 @@ Foundry-specific term that relates to the pouring of metal
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1831; [TNATD](https://terms.naer.edu.tw/detail/11563468/?index=2)
+{% cite "Ming 2010" %}, 1831; TNATD
 
 {% endaccordion %}
 

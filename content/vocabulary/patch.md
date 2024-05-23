@@ -87,7 +87,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+TNATD
 
 #### Alternate Translations
 
@@ -95,15 +95,15 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
     Literally “material used as a patch”
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+    Source: TNATD
 
 - <span lang="zh">补片</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/643120/)
+    Source: TNATD
 
 - <span lang="zh">补缀</span> (v., n.)
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625599/?index=1)
+    Source: TNATD
 
 {% endaccordion %}
 

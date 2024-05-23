@@ -187,25 +187,25 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+TNATD
 
 #### Alternate Translations
 
 - <span lang="zh">浇口</span>
 
-    Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
+    Sources: {% cite "Ming 2010" %}, 740; TNATD
 
 - <span lang="zh">竖浇道</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/941804/?index=1)
+    Source: TNATD
 
 - <span lang="zh">铸口</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+    Source: TNATD
 
 - <span lang="zh">铸道</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+    Source: TNATD
 
 {% endaccordion %}
 

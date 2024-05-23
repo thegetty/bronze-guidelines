@@ -107,11 +107,11 @@ More general term to denote casting on, could apply to joints and repairs; see G
 
 - <span lang="zh">浇补</span>
 
-    Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+    Sources: {% cite "Ming 2010" %}, 740; TNATD
 
 - <span lang="zh">补铸</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3457911/?index=3)
+    Source: TNATD
 
 {% endaccordion %}
 

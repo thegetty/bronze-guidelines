@@ -107,13 +107,13 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/1009176/?index=1)
+TNATD
 
 #### Alternate Translations
 
 - <span lang="zh">铸疵</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
+    Source: TNATD
 
 - <span lang="zh">铸造缺陷</span>
 

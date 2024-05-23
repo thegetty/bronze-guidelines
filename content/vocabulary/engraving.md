@@ -81,13 +81,13 @@ Art and Craft Textbook: {% cite "Hamm 1924" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/3608499/?index=3)
+TNATD
 
 #### Alternate Translation
 
 - <span lang="zh">雕刻</span>
 
-    Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
+    Sources: {% cite "Ming 2010" %}, 310; TNATD
 
 {% endaccordion %}
 

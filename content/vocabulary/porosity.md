@@ -90,7 +90,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 - <span lang="zh">气孔巢</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625404/?index=3)
+    Source: TNATD
 
 - <span lang="zh">砂眼</span>
 

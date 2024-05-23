@@ -76,7 +76,7 @@ Literally “modification"
 
 #### Sources
 
-{% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/1092446/?index=4)
+{% cite "Ming 2010" %}, 65; TNATD
 
 #### Alternate Translation
 
@@ -84,7 +84,7 @@ Literally “modification"
 
     Literally “modification”
 
-    Sources: {% cite "Ming 2010" %}, 65; [TNATD](https://terms.naer.edu.tw/detail/2795748/?index=10)
+    Sources: {% cite "Ming 2010" %}, 65; TNATD
 
 {% endaccordion %}
 

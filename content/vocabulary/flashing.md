@@ -126,15 +126,15 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
 
 - <span lang="zh">溢料</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+    Source: TNATD
 
 - <span lang="zh">溢边</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+    Source: TNATD
 
 - <span lang="zh">飞边</span>
 
-    Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+    Sources: {% cite "Ming 2010" %}, 409; TNATD
 
 {% endaccordion %}
 

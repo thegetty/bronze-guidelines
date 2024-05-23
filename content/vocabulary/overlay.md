@@ -120,7 +120,7 @@ A general term closer to “coating”
 
 - <span lang="zh">覆盖</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/643624/?index=2)
+    Source: TNATD
 
 {% endaccordion %}
 

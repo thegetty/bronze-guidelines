@@ -159,7 +159,7 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/626946/?index=3)
+TNATD
 
 #### Alternate Translation
 

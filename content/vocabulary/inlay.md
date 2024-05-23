@@ -134,7 +134,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1554; [TNATD](https://terms.naer.edu.tw/detail/11566239/?index=5)
+{% cite "Ming 2010" %}, 1554; TNATD
 
 {% endaccordion %}
 

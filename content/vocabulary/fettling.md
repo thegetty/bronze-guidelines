@@ -140,15 +140,15 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
 - <span lang="zh">修整</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/634620/?index=3)
+    Source: TNATD
 
 - <span lang="zh">清理</span>
 
-    Sources: {% cite "Ming 2010" %}, 1828; [TNATD](https://terms.naer.edu.tw/detail/627107/?index=2)
+    Sources: {% cite "Ming 2010" %}, 1828; TNATD
 
 - <span lang="zh">精整</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/14194174/?index=5)
+    Source: TNATD
 
 {% endaccordion %}
 

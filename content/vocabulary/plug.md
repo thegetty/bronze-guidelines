@@ -123,7 +123,7 @@ Used primarily in speech
 
 - <span lang="zh">栓塞</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
+    Source: TNATD
 
 {% endaccordion %}
 

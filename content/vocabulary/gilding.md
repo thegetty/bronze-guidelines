@@ -64,7 +64,7 @@ Historical: {% cite "Diderot et al. 1751" %}, 5:57–60, entry « dorure »
 
 #### Sources
 
-{% cite "Ming 2010" %}, 328; [TNATD](https://terms.naer.edu.tw/detail/633619/?index=1)
+{% cite "Ming 2010" %}, 328; TNATD
 
 #### Alternate Translation
 

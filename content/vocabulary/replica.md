@@ -111,7 +111,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 #### Sources
 
-{% cite "Ming 2010" %}, 457; [TNATD](https://terms.naer.edu.tw/detail/625076/?index=1)
+{% cite "Ming 2010" %}, 457; TNATD
 
 {% endaccordion %}
 

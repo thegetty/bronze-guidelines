@@ -73,13 +73,13 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1448; [TNATD](https://terms.naer.edu.tw/detail/207700/?index=8)
+{% cite "Ming 2010" %}, 1448; TNATD
 
 #### Alternate Translation
 
 - <span lang="zh">涂料</span>
 
-    Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
+    Sources: {% cite "Ming 2010" %}, 1449; TNATD
 
 {% endaccordion %}
 

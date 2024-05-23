@@ -68,13 +68,13 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 #### Sources
 
-{% cite "Ming 2010" %}, 452; [TNATD](https://terms.naer.edu.tw/detail/655779/?index=2)
+{% cite "Ming 2010" %}, 452; TNATD
 
 #### Alternate Translation
 
 - <span lang="zh">锈蚀</span>
 
-    Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
+    Sources: {% cite "Ming 2010" %}, 1586; TNATD
 
 {% endaccordion %}
 
