@@ -681,6 +681,8 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^56]: This is by far the most common technique. However, in large commercial art foundries that use resin set sand, it is common to use thin foam sheets to form the metal thickness. The foam sheets are placed or stuck on to the internal surface of the sand mold and back filled with more sand to form the core. Once set with gas, the foam sheets are removed and the mold reassembled as per normal. If the mold is complicated, the foam is burned out as the bronze is poured in.
 
+    This process is clearly illustrated in this two-part video, https://www.youtube.com/watch?v=ZaPeYeEIuv0 and https://www.youtube.com/watch?v=DSw0lHTf7oc.
+
 [^57]: “It occurred to Mr. Eugene Aucaigne to ask the sculptor to make his last touches in the sand mold instead of on the model, in other words to finish with intaglio carving rather than by going over the round, and the result justified his reasoning completely.” *New York Times*, March 25, 1904, cited in {% cite "Boulton 2018" %}.
 
 [^58]: {% cite "Lebon 2012" %}.
