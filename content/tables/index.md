@@ -7,7 +7,11 @@ classes:
   - tables-index
 ---
 
+<div class="section-landing-page__text pdf-add-bottom-margin">
+
 {{ introductions.tables | markdownify }}
+
+</div>
 
 <div data-outputs-exclude="html">
 

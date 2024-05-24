@@ -806,18 +806,19 @@ figure .q-figure__modal-link {
 .quire-page.vocabulary-index .quire-page__header__contributor .additional-contributors  p{
   margin-bottom: 1em;
 }
-/* Make a better layout for Alternate Translations */
-.quire-page.vocabulary .quire-page__content .content .accordion ul {
-  list-style-type: none;
+/* Make a better layout for list items */
+.quire-page.vocabulary .quire-page__content .content ul {
+  list-style-type: none !important;
   margin-left: 0;
   padding-left: 0;
+  margin-bottom: 1.15rem;
 }
-.quire-page.vocabulary .quire-page__content .content .accordion li {
+.quire-page.vocabulary .quire-page__content .content li {
   margin-bottom: 1em !important;
   margin-left: 0;
 }
-.quire-page.vocabulary .quire-page__content .content .accordion li p {
-  margin-bottom: .25em;
+.quire-page.vocabulary .quire-page__content .content li p {
+  margin-bottom: 0.25em;
 }
 @media screen {
   .quire-page.vocabulary #accordion-controls li {
@@ -1857,14 +1858,51 @@ table .poor { background-color: #F2F9F1; }
     display: none;
   }
   .quire-page__content .container .content table caption,
-  .quire-page__content .container .content table caption .details{
+  .quire-page__content .container .content table caption .details {
     font-size: 7.5pt;
   }
-  .quire-page__content table {
-    font-size: 5.5pt;
+  .quire-page__content .container .content table caption .details {
+    color: var(--deep-black);
   }
-  .quire-page__content .container .content #table-03 table {
-    font-size: 5.5pt;
+  .quire-page:not(.vocabulary-index) .quire-page__content .container .content table,
+  .quire-page:not(.vocabulary-index) .quire-page__content .container .content .table-key {
+    font-size: 6pt;
+  }
+  .tables-index .quire-page__content .container .content table {
+    margin-bottom: 0.75in;
+  }
+  .tables-index .quire-page__content .container .content .table-key {
+    display: inline-block;
+    margin-bottom: calc(0.75in - 2em);
+  }
+  .tables-index .quire-page__content .container .content table#table-01,
+  .tables-index .quire-page__content .container .content table#table-05,
+  .tables-index .quire-page__content .container .content table#table-10,
+  .tables-index .quire-page__content .container .content table#table-13 {
+    margin-bottom: 1rem;
+  }
+  .tables-index .quire-page__content .container .content table#table-11 {
+    page-break-before: always;
+  }
+  .tables-index .quire-page__content .container .content table tr {
+    page-break-inside: avoid;
+  }
+  .tables-index .quire-page__content .container .content table#table-03 {
+    font-size: 4.5pt;
+  }
+  .tables-index .quire-page__content .container .content table#table-10 {
+    font-size: 5.25pt;
+  }
+  .tables-index .quire-page__content .container .content .table-key dl {
+    display: block;
+  }
+  .tables-index .quire-page__content .container .content .table-key dl dt {
+    float: left;
+    margin-right: 0.5rem;
+  }
+  .tables-index .quire-page__content .container .content table ul li::marker {
+    padding-left: 0;
+    padding-right: 0.3rem;
   }
 }
 
@@ -2328,10 +2366,10 @@ table .poor { background-color: #F2F9F1; }
     -prince-rotate-body: -90deg;
     -prince-shrink-to-fit: auto;
   }
-  .q-figure.q-figure--table {
+  #page-tables table {
     column-span: all;
   }
-  .q-figure.q-figure--table#table-03 {
+  #page-tables #table-03 {
     page: big_table;
   }
   /* TABBED PAGES */
