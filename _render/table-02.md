@@ -22,7 +22,7 @@
  <tr>
   <td> {% def 'lost-wax casting' 'lost‑wax' %} (casting or casting process)</td>
   <td>procédé (ou fonte) à la cire perdue</td>
-  <td>{% cite 'Bewer 2008' %}; {% cite 'Lebon et al. 2016' %}, 330; {% cite 'Mille 2012' %}; {% cite 'Azéma 2013' %}</td>
+  <td>{% cite 'Bewer, Bourgarit, and Bassett 2008' %}; {% cite 'Lebon et al. 2016' %}, 330; {% cite 'Mille 2012' %}; {% cite 'Azéma 2013' %}</td>
   <td>Wachsausschmelzverfahren / Guss nach dem Wachsausschmelzverfahren</td>
   <td>{% cite 'Weihrauch 1944' %}</td>
   <td>(fusione o processo) a cera persa</td>
@@ -31,7 +31,7 @@
  <tr>
   <td>direct {% def 'lost-wax casting' 'lost‑wax' %} (casting or casting process)</td>
   <td>procédé (ou fonte) direct(e) à la cire perdue</td>
-  <td>{% cite 'Bewer 2008' %}</td>
+  <td>{% cite 'Bewer, Bourgarit, and Bassett 2008' %}</td>
   <td>Direktes Wachsausschmelzverfahren / Direktes Bronzegussverfahren</td>
   <td>{% cite 'Lein 2000' %}, 9</td>
   <td>(fusione o processo) a cera persa con metodo diretto</td>
@@ -39,7 +39,7 @@
  </tr>
  <tr>
   <td>indirect {% def 'lost-wax casting' 'lost‑wax' %} (casting or casting process)</td> <td>procédé (ou fonte) indirect(e) à la cire perdue</td>
-  <td>{% cite 'Bewer 2008' %}; {% cite 'Azéma 2013' %}</td>
+  <td>{% cite 'Bewer, Bourgarit, and Bassett 2008' %}; {% cite 'Azéma 2013' %}</td>
   <td>Indirektes Wachsausschmelzverfahren / Indirektes Bronzegussverfahren</td>
   <td>{% cite 'Lein 2000' %}, 9</td>
   <td>(fusione o processo) a cera persa con metodo indiretto</td>
@@ -84,7 +84,7 @@
  <tr>
   <td>lasagna (process)</td>
   <td>procédé (ou fonte) en lasagne ou à l’épargne ou par estampage à la terre (dit à la plaque)</td>
-  <td>{% cite 'Bewer 2008' %}; J. Dubos, pers. comm. (pour “estampage à la terre”)</td>
+  <td>{% cite 'Bewer, Bourgarit, and Bassett 2008' %}; J. Dubos, pers. comm. (pour “estampage à la terre”)</td>
   <td>Lasagne-Technik</td>
   <td>{% cite 'Brepohl 2005' %}, 182</td>
   <td>(fusione o processo) alla “lasagna” (suggestion by F. Bewer)</td>
@@ -102,7 +102,7 @@
  <tr>
   <td>{% def 'sand casting' %}</td>
   <td>fonte au sable</td>
-  <td>{% cite 'Rolley 1994' %}, 66; {% cite 'Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978' %}, 624; {% cite 'Bewer 2008' %}; {% cite 'Lebon et al. 2016' %}, 330; {% cite 'Dubos 2003' %}; {% cite 'Rama 1988' %}</td>
+  <td>{% cite 'Rolley 1994' %}, 66; {% cite 'Baudry and Bozo 1978' %}, 624; {% cite 'Bewer, Bourgarit, and Bassett 2008' %}; {% cite 'Lebon et al. 2016' %}, 330; {% cite 'Dubos 2003' %}; {% cite 'Rama 1988' %}</td>
   <td>Sandformguss (casting); Sandguss / Sandgussverfahren (process)</td>
   <td>{% cite 'Maaz 2010' %}, 723</td>
   <td>fusione a staffa OR/ALSO fusione a terra (suggestion by F. Bewer)</td>
