@@ -182,7 +182,7 @@ Changed historyBehavior to replace instead of push; and rolled back a change to 
 Changed rootMargin to 0 for better slide triggering
 
 **content/_assets/javascript/application/index.js**
-Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas
+Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas; manage loading indicator on case study pages
 
 **content/_computed/eleventyComputed.js**
 Add page tags value as classes, and contributor_as_it_appears as data item
