@@ -4664,9 +4664,10 @@ figure_list:
     caption: "X-radiograph from the side without the lid. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
   - id: "fig-503"
-    src: embeds/fig-503.html
+    src: "embeds/fig-503.html"
+    thumb: "figures/thumbs/503.jpg"
+    static_inline: "figures/static-inline/503.jpg"
     media_type: table
-    visual_atlas: false
     label: "Figure 503"
     caption: "3D scan. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
