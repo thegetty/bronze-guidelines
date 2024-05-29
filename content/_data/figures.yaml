@@ -20,7 +20,7 @@ figure_list:
     visual_atlas: false
     zoom: true
     label: "Figures 469–71"
-    caption: "Clockwise from top left: *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491); *Aquamanile in the Form of Samson and the Lion*, northern Europe (?), possibly Germany, ca. 1380–1400, H. 34.1 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1412);*Aquamanile in the Form of a Lion*, Nuremberg, Germany, ca. 1400, H. 31.9 cm (Metropolitan Museum of Art, The Cloisters Collection, 1994, inv. 1994.244)."
+    caption: "Clockwise from top left: [Fig. 469](/visual-atlas/469/), *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491); [Fig. 470](/visual-atlas/470/), *Aquamanile in the Form of Samson and the Lion*, northern Europe (?), possibly Germany, ca. 1380–1400, H. 34.1 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1412); [Fig. 471](/visual-atlas/471/), *Aquamanile in the Form of a Lion*, Nuremberg, Germany, ca. 1400, H. 31.9 cm (Metropolitan Museum of Art, The Cloisters Collection, 1994, inv. 1994.244)."
   
   - id: "fig-500-cover"
     src: "figures/case-studies/500-cover.jpg"
@@ -34,20 +34,20 @@ figure_list:
     visual_atlas: false
     zoom: true
     label: "Figures 504–8"
-    caption: "From left to right: *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
+    caption: "From left to right: [Fig. 504](/visual-atlas/504/), *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); [Fig. 505](/visual-atlas/505/), *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); [Fig. 506](/visual-atlas/506/), *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); [Fig. 507](/visual-atlas/507/), *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); [Fig. 508](/visual-atlas/508/), *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
 
   - id: "fig-504-508-cover-graph"
     src: "figures/case-studies/504-508-cover-graph.jpg"
     visual_atlas: false
     zoom: true
     label: "Figures 504–8, 519"
-    caption: "Underlay ([fig. 519](/visual-atlas/519/)): Tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). Overlay, from left to right: *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
+    caption: "Underlay: [Fig. 519](/visual-atlas/519/), tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). Overlay, from left to right: [Fig. 504](/visual-atlas/504/), *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); [Fig. 505](/visual-atlas/505/), *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); [Fig. 506](/visual-atlas/506/), *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); [Fig. 507](/visual-atlas/507/), *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); [Fig. 508](/visual-atlas/508/), *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
   
   - id: "fig-034-097-524-cover"
     src: "figures/case-studies/034-097-524-cover.jpg"
     visual_atlas: false
     label: "Figures 524, 34, and 97"
-    caption: "From left to right: *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683); *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681); *Justice*, 1571, H. 128 cm (Musée du Louvre, inv. MR1682)."
+    caption: "From left to right: [Fig. 524](/visual-atlas/524/), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683); [Fig. 34](/visual-atlas/034/), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681); [Fig. 97](/visual-atlas/097/), *Justice*, 1571, H. 128 cm (Musée du Louvre, inv. MR1682)."
     
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
@@ -63,14 +63,14 @@ figure_list:
     visual_atlas: false
     zoom: true
     label: "Figures 440–46 and 449–55"
-    caption: "Seven fragments (front and back) from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "Seven fragments (front and back) from the *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
   
   - id: "figs-440-446-group-front"
     src: "figures/case-studies/figs-440-446-group-front.jpg"
     visual_atlas: false
     zoom: true
     label: "Figures 440–46"
-    caption: "Seven fragments from the Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "Seven fragments from the *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE. (Musée des beaux-arts et d’archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-034-097-524-group"
     visual_atlas: false
@@ -1022,7 +1022,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 84"
-    caption: "Rear surface of a fragment of the dolphins showing a fingerprint (yellow overlay) and the elongated traces made by a fine-toothed tool or finger (white arrows indicate the direction of the strokes) drawn along the inside of the wax model. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/367/)."
+    caption: "Rear surface of a fragment of the dolphins showing a fingerprint (yellow overlay) and the elongated traces made by a fine-toothed tool or finger (white arrows indicate the direction of the strokes) drawn along the inside of the wax model. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/367/)."
     annotations:
       - input: checkbox
         items:
@@ -1045,7 +1045,7 @@ figure_list:
     static_inline: "figures/static-inline/086.jpg"
     zoom: true
     label: "Figure 86"
-    caption: "Rear surface of the head of the front dolphin showing sprues added on the wax model (yellow overlay). The wax model of the head was made of several pieces joined together at the juncture of the upper and lower lips, and also at the rostrum. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/367/)."
+    caption: "Rear surface of the head of the front dolphin showing sprues added on the wax model (yellow overlay). The wax model of the head was made of several pieces joined together at the juncture of the upper and lower lips, and also at the rostrum. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). See technical sketch, [fig. 367](/visual-atlas/367/)."
     annotations:
       - input: checkbox
         items:
@@ -3663,20 +3663,20 @@ figure_list:
     static_inline: "figures/static-inline/379.jpg"
     media_type: table
     label: "Figure 379"
-    caption: "3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-380"
     src: "figures/380.jpg"
     zoom: true
     label: "Figure 380"
-    caption: "A reconstruction of the frieze based on 3D laser scans. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "A reconstruction of the frieze based on 3D laser scans. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-381"
     src: "figures/381.jpg"
     zoom: true
     media_type:
     label: "Figure 381"
-    caption: "Detail of the virtual 3D reconstruction of the frieze showing what may have been its original dichromatic appearance. Great Dolphins of Vienne, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
+    caption: "Detail of the virtual 3D reconstruction of the frieze showing what may have been its original dichromatic appearance. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-382"
     src: "figures/382.jpg"
