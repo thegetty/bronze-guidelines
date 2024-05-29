@@ -5324,3 +5324,125 @@ figure_list:
     media_id: 672854085/be5c239063
     label: "Video 18"
     caption: "Arrangement and sequence of a bronze pour for small items in a modern foundry (dir. Christophe Béry), filmed during the July 2016 CAST:ING workshop at Fonderie de Coubertin, Saint-Rémy-lès-Chevreuse, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+
+  ## TEMP FOR IMAGE SEQUENCES
+
+  - id: "fig-121-temp"
+    # src: "figures/121.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 121"
+    caption: "X-radiographic sequence of a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    sequences:
+      - id: "figures/121/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 085.jpg
+
+  - id: "fig-166-temp"
+    # src: "figures/166.jpg"
+    # zoom: true
+    # media_type: dynamic
+    class: pdf-65-percent-float
+    label: "Figure 166"
+    caption: "360-degree overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
+    sequences:
+      - id: "figures/166/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        # start: 085.jpg
+  
+  - id: "fig-390-temp"
+    # src: "figures/390.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 390"
+    caption: "X-radiographic sequence. Jupiter (or Neptune?), Bavay (Nord, France), 1st century CE, H. 26.4 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 15 / Biévelet 10). See Mille 2019a."
+    sequences:
+      - id: "figures/390/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 125.jpg
+
+  - id: "fig-403-temp"
+    # src: "figures/403.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 403"
+    caption: "Neutron tomography. *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). Some of the consecration offerings are revealed by the tomography (in yellow). See Mechling et al. 2018."
+    sequences:
+      - id: "figures/403/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+  
+  - id: "fig-403-h-temp"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 403 (horizontal)"
+    caption: ""
+    sequences:
+      - id: "figures/403-h/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+  
+  - id: "fig-403-v-temp"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 403 (vertical)"
+    caption: ""
+    sequences:
+      - id: "figures/403-v/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+
+  - id: "fig-404-temp"
+    # src: "figures/404.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 404"
+    caption: "Neutron tomography (in negative for better visualization). Most consecration offerings (coin, bead, copper foil) can be observed (black shapes under the seat). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
+    sequences:
+      - id: "figures/404/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 080.jpg
+    
+  - id: "fig-498-temp"
+    # src: "figures/498.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 498"
+    caption: "A digital (DR) 360° radiograph. Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
+    sequences:
+      - id: "figures/498/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+
+  - id: "fig-564-temp"
+    # src: "figures/564.jpg"
+    # zoom: true
+    # media_type: dynamic
+    label: "Figure 564"
+    caption: "A digital (DR) 360° X-ray package made using the set up shown in [fig. 563](/visual-atlas/563/). Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
+    sequences:
+      - id: "figures/564/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
