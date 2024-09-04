@@ -3169,7 +3169,7 @@ object_list:
   -
       id: '503'
       label: '503'
-      type: 
+      type: [ 3D Model ]
       chapter: [ Case Study 3 ]
       figure: [ id: fig-503 ]
   -
