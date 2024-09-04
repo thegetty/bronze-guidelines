@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of repair that fills a flaw that extends through the full thickness of the metal wall, specifically those that occur with the removal of {% def "core pins" %} and {% def "armature" %} rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](/vol-1/4/).'
+definition_has_shortcodes: true
 lang:
   de: Dübel
   fr: insert
@@ -16,7 +17,7 @@ lang:
 
 See figs. 177, 178, 193, 195, 197, 478.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A type of repair that fills a flaw that extends through the full thickness of the metal wall, specifically those that occur with the removal of {% def "core pins" %} and {% def "armature" %} rods. Circular plugs are often threaded in order to mechanically lock them in place. See [I.4](/vol-1/4/).
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: It is not always easy to distinguish a plug from a {% def "patch" %}. Radi
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
+{% objgroup "3", "fig-177, fig-178, fig-193, fig-195, fig-197, fig-478" %}
 
 ## Sources
 
@@ -41,8 +42,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/plug> [definitio
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Type de réparation comblant un trou traversant comme ceux laissés par les {% def "noyau" "fers à noyaux" %}. Les inserts sont souvent des tiges, filetées ou non, faites d’un alliage à base de cuivre.
 
@@ -74,7 +76,8 @@ Cultural Heritage Publication: {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014
 
     Source: Art and Craft Textbook: {% cite "Rama 1988" %}, 326
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 Used primarily in speech
 
@@ -96,7 +99,8 @@ Used primarily in speech
 
     Source: {% cite "Bol 1985" %}, 139
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Alternate Translations
 
@@ -108,7 +112,8 @@ Used primarily in speech
 
     Threaded plug
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -116,8 +121,10 @@ Used primarily in speech
 
 #### Alternate Translation
 
-- 栓塞
+- <span lang="zh">栓塞</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625440/?index=3)
+    Source: TNATD
+
+{% endaccordion %}
 
 </div>

@@ -5,7 +5,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#S1.1.1/).'
+definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1/).'
+definition_has_shortcodes: true
 lang:
   de: Schrumpfung
   fr: retrait
@@ -15,7 +16,7 @@ lang:
 
 See fig. 41.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1/).
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: Defects resulting from shrinkage may also be called “shrinkage” ({% ci
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-041" %}
+{% objgroup "3", "fig-041" %}
 
 ## Sources
 
@@ -36,8 +37,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/shrinkage>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Contraction du métal lors du refroidissement conduisant à une perte dimensionnelle et/ou à des {% def "défaut de fonderie" "défauts de fonderie" %} (soufflures, retassures, etc).
 
@@ -55,7 +57,8 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 38; {% cite "Cué
 
 Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %}, 375
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Alternate Translation
 
@@ -63,16 +66,20 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %},
 
     Source: {% cite "Brunhuber 1988" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*ritiro*](https://www.treccani.it/enciclopedia/ritiro_%28Dizionario-delle-Scienze-Fisiche%29/)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1313; [TNATD](https://terms.naer.edu.tw/detail/941509/?index=5)
+{% cite "Ming 2010" %}, 1313; TNATD
+
+{% endaccordion %}
 
 </div>

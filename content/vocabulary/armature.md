@@ -6,7 +6,9 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
+my_data:
 definition: 'Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax {% def "bronze" %}, the armature is created to support the {% def "model" %}, whether it is hollow or solid. In the case of a hollow {% def "cast (n.)" "cast" %}, it will further help support the refractory mass of the {% def "core" %} during the {% def "pour" %} (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes).'
+definition_has_shortcodes: true
 lang:
   de: Kerneisen
   fr: armature
@@ -16,9 +18,9 @@ lang:
 
 See figs. 8, 31, 32, 34, 79, 221.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Assemblage of joined metal rods, tubes, and/or wires (and/or other materials such as wood) that provides a structural framework for a sculpture and usually attaches to a base. Though generally internal, it may also include external supporting components that are eventually removed. In a lost-wax {% def "bronze" %}, the armature is created to support the {% def "model" %}, whether it is hollow or solid. In the case of a hollow {% def "cast (n.)" "cast" %}, it will further help support the refractory mass of the {% def "core" %} during the {% def "pour" %} (see [GI](/intro/)). Armatures may also be used in the assembly of a sculpture that was cast in parts, and in the repair of sculptures that have been structurally damaged (e.g., large archaeological bronzes).
 
-{% figuregroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
+{% objgroup "3", "fig-008, fig-031, fig-032, fig-034, fig-079, fig-221" %}
 
 ## Sources
 
@@ -33,8 +35,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Élément ou ensemble d’éléments (barres, tubes, fils) destinés à armer le {% def "noyau" %}, et plus généralement le {% def "modèle" %}. Ils peuvent se trouver dans le {% def "moule réfractaire" %} pour le rendre plus résistant lors de sa manipulation et lors de la {% def "coulée" %}. Une cire pleine peut être armée. L'armature peut, dans le cas des grandes fontes, également servir à renforcer le bronze.
 
@@ -60,7 +63,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Brunhuber 1988" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -74,7 +78,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: {% cite "Maaz 2010" %}, 695
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -98,7 +103,8 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: {% cite "Brunhuber 1988" %}
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -106,8 +112,10 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 #### Alternate Translation
 
-- 雕塑骨架
+- <span lang="zh">雕塑骨架</span>
 
     Source: TNATD
+
+{% endaccordion %}
 
 </div>

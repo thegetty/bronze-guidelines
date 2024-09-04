@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A technique for joining separately {% def "cast (v.)" "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.'
+definition_has_shortcodes: true
 lang:
   de: Schweißen
   fr: soudage
@@ -15,15 +16,15 @@ lang:
 
 See figs. 59, 146, 185, 189, 202, 203, 204, 227, 230, 545, 548, video 12.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A technique for joining separately {% def "cast (v.)" "cast" %} parts using high temperatures resulting in partial melting of the parts. A filler metal is often applied.
 
 {% backmatter %}
 
-Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten {% def "bronze" %} was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% ref 'vid-12' %}.
+Note: In a technique very specific to Greek and Roman large bronzes, a steady stream of poured molten {% def "bronze" %} was used both to melt and to join the edges of separately cast sections or to secure repairs. This process is known as flow welding or flow-fusion welding. Modern welding processes for copper alloys include MIG (metal inert gas) and TIG (tungsten inert gas). See [I.5](/vol-1/5/), {% objlink 'vid-12' %}.
 
 {% endbackmatter %}
 
-{% figuregroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
+{% objgroup "3", "vid-12, fig-059, fig-146, fig-185, fig-189, fig-202, fig-203, fig-204, fig-227, fig-230, fig-545, fig-548" %}
 
 ## Sources
 
@@ -36,13 +37,15 @@ Art and Craft Textbooks: {% cite "Rome and Young 2003" %}, 312; {% cite "Untrach
 ## To Be Distinguished From
 
 - {% def "brazing" "*brazing*" %}
+
 - {% def "soldering" "*soldering*" %}
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique d’assemblage de deux éléments métalliques coulés séparément, entraînant le développement, entre les deux éléments, d’une microstructure commune – on parle de solution de continuité, contrairement au {% def "brasage" %} qui s’apparente à du collage. Le résultat est similaire à celui observé lors du soudage de deux parties d’os après fracture.
 
@@ -56,13 +59,15 @@ Note: L’assemblage peut se faire sans apport de métal, par soudure dite autog
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Murry 1994" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Deutsches Kupferinstitut 2005" %}, 18
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Often specified by *a fusione* or *per fusione*
 
@@ -78,10 +83,13 @@ Often specified by *a fusione* or *per fusione*
 
     Sources: {% cite "Formigli 2010" %}, 20
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
+{% cite "Ming 2010" %}, 1211; TNATD
+
+{% endaccordion %}
 
 </div>

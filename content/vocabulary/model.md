@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The creation of a {% def "bronze" %} may involve a series of {% def "models" %} and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See I.1.'
+definition_has_shortcodes: true
 lang:
   de: Modell
   fr: modèle
@@ -16,7 +17,7 @@ lang:
 
 See figs. 1, 52, 75, 130, 472, 559.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The creation of a {% def "bronze" %} may involve a series of {% def "models" %} and {% def "molds" %} that can differ in size and material depending on the artist’s design process, and ultimately also on the casting process chosen to create the bronze version. The model is a positive version of the sculpture (as opposed to the negative mold); the word may refer to any work made as a step in the preparation of a finished sculpture, at any stage. An existing artwork or a live subject may also serve as model for a bronze. See I.1.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: When used in reference to general sculptural practice, the term may refer 
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
+{% objgroup "3", "fig-001, fig-052, fig-075, fig-130, fig-472, fig-559" %}
 
 ## Sources
 
@@ -37,8 +38,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/model> [definiti
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme générique désignant ici toute réalisation intervenant dans la fabrication d’une sculpture en bronze. Celle-ci peut mobiliser un grand nombre de modèles (et {% def "moule" "moules" %}) successifs (modèle original, {% def "épreuve d’édition" "réplique" %}, épreuve en cire, etc.).
 
@@ -56,13 +58,15 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
 Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23–26, 69; {% cite "Diderot et al. 1751" %}, 2:436–38, entry « bronze »
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Fleming and Tilch 1993" %}, 127
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -80,10 +84,13 @@ Historical: {% cite "Boffrand 1743" %}, 15–17; {% cite "Mariette 1768" %}, 23�
 
     Source: {% cite "Biringuccio [1540] 1990" %}, fol. 82v
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Hua 2013" %}
+
+{% endaccordion %}
 
 </div>

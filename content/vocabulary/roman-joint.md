@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A type of joint between two separately {% def "cast (v.)" "cast" %} elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.'
+definition_has_shortcodes: true
 lang:
   de: Steckverbindung
   fr: assemblage à la romaine
@@ -16,7 +17,7 @@ lang:
 
 See figs. 43, 65, 127, 211, 212, 213, 217, 218.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A type of joint between two separately {% def "cast (v.)" "cast" %} elements in which one element slots into the hollow “sleeve” of the other. The joint is generally further secured using pins, rivets, or by {% def "soldering" %}.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: “Join” is a verb and “joint” is a noun. We have chosen here to use
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
+{% objgroup "3", "fig-043, fig-065, fig-127, fig-211, fig-212, fig-213, fig-217, fig-218" %}
 
 ## Sources
 
@@ -39,13 +40,15 @@ Cultural Heritage: {% cite "Bassett 2008" %}; {% cite "Beentjes 2019" %}; {% cit
 - *Roman join* (alternate spelling)
 
 - *sleeve join*
+
 - *socket and tenon join*
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Assemblage par emboîtement de deux éléments coulés séparément, l’un constituant la partie mâle, l’autre la partie femelle.
 
@@ -63,13 +66,15 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *assemblage par tenon et mortaise*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Willer, Schwab, and Mirschenz 2016b" %}, 122, 128, 186
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
@@ -79,6 +84,8 @@ Art and Craft Textbook: {% cite "Rama 1988" %}, 125
 
 - *giuntura a innesto*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

@@ -1,5 +1,11 @@
 //@ts-check
-
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Adds script for iframe-based image viewer
+// Allow only one pop-up to be open at a time
+// Fix max-width of pop-ups, especially for narrower Visual Atlas text areas
+// Added copyURL() function to strip zero-width spaces from URLs on copy
+// Manage loading indicator for case study pages
+//
 /**
  * @fileOverview
  * @name application.js
@@ -8,15 +14,19 @@
  */
 
 // Stylesheets
+import '../../fonts/index.scss';
 import '../../styles/application.scss'
+import '../../styles/screen.scss'
 import '../../styles/custom.css'
 
 // Modules (feel free to define your own and import here)
 import './canvas-panel'
 import './soundcloud-api.min.js'
 import { goToFigureState, setUpUIEventHandlers } from './canvas-panel'
+import Accordion from './accordion'
 import Search from '../../../../_plugins/search/search.js'
 import scrollToHash from './scroll-to-hash'
+import './iframe-viewer'
 
 // array of leaflet instances
 const mapArr = []
@@ -117,8 +127,9 @@ window['search'] = () => {
 
 function onHashLinkClick(event) {
   // only override default link behavior if it points to the same page
-  const hash = event.target.hash
-  if (event.target.pathname.includes(window.location.pathname)) {
+  const anchor = event.target.closest('a')
+  const hash = anchor.hash
+  if (anchor.pathname.includes(window.location.pathname)) {
     // prevent default scrolling behavior
     event.preventDefault()
     // ensure the hash is manually set after preventing default
@@ -132,6 +143,7 @@ function setupCustomScrollToHash() {
   const invalidHashLinkSelectors = [
     '[href="#"]',
     '[href="#0"]',
+    '.accordion-section__heading-link',
     '.q-figure__modal-link'
   ]
   const validHashLinkSelector =
@@ -190,7 +202,7 @@ function loadSearchData() {
 
 /**
  * Applies MLA format to date
- * 
+ *
  * @param  {Date}   date   javascript date object
  * @return {String}        MLA formatted date
  */
@@ -239,18 +251,33 @@ function setDate() {
 * @param {number} container margin
 */
 function setPositionInContainer(el, container) {
-  const margin = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--gap'))
-  const elRect = el.getBoundingClientRect()
   const containerRect = container.getBoundingClientRect()
+  // Computer width of content w/0 padding
+  const computedStyle = getComputedStyle(container)
+  const offsetLeft = parseFloat(computedStyle.paddingLeft)
+  const offsetRight = parseFloat(computedStyle.paddingRight)
+  const maxWidth = containerRect.width - offsetLeft - offsetRight
+  // Set max size of pop-up box
+  const setWidth = maxWidth > 400 ? 400 : maxWidth
+  // Size and position pop-up box
+  el.style.width = `${setWidth}px`
+  el.style.left = `50%`
+  el.style.transform = `translateX(-${setWidth/2}px)`
+
+  const elRect = el.getBoundingClientRect()
 
   const leftDiff = containerRect.left - elRect.left
   const rightDiff = elRect.right - containerRect.right
   const halfElWidth = elRect.width/2
-  // x
+
+  // Shift position if pop-up box is outside container
+  let offset = 0
   if (rightDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth+rightDiff+margin}px)`
+    offset = offsetRight * .5
+    el.style.transform = `translateX(-${halfElWidth+rightDiff+offset}px)`
   } else if (leftDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth-leftDiff-margin}px)`
+    offset = offsetLeft * 1.5
+    el.style.transform = `translateX(-${halfElWidth-leftDiff-offset}px)`
   }
   // @todo y
 }
@@ -269,6 +296,13 @@ function toggleCite() {
     expandables[i].addEventListener('click', event => {
       // Allow these links to bubble up
       event.stopPropagation()
+      // Close any open pop-ups
+      for (let i = 0; i < expandables.length; i++) {
+        expandables[i].setAttribute('aria-expanded', 'false')
+        expandables[i].parentNode
+          .querySelector('.quire-citation__content')
+          .setAttribute('hidden', 'hidden')
+      }
       let expanded = event.target.getAttribute('aria-expanded')
       if (expanded === 'false') {
         event.target.setAttribute('aria-expanded', 'true')
@@ -278,6 +312,8 @@ function toggleCite() {
       let content = event.target.parentNode.querySelector(
         '.quire-citation__content'
       )
+      const contentContainer = content.closest('div.content')
+ 
       if (content) {
         content.getAttribute('hidden')
         if (typeof content.getAttribute('hidden') === 'string') {
@@ -285,7 +321,7 @@ function toggleCite() {
         } else {
           content.setAttribute('hidden', 'hidden')
         }
-        setPositionInContainer(content, document.documentElement)
+        setPositionInContainer(content, contentContainer)
       }
     })
   }
@@ -313,11 +349,30 @@ function toggleCite() {
 }
 
 /**
+ * @description 
+ * When a reader copies a URL, this removes the break character that was inserted 
+ * as a markdown rendering rule in _plugins/markdown/index.js for better URL line breaks
+ * https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event
+ */
+function copyURL() {
+  const links = document.querySelectorAll("a");
+  const breakCharacter = '​' // zero-width space
+  for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener("copy", event => {
+      const selection = document.getSelection();
+      event.clipboardData.setData("text/plain", selection.toString().replaceAll(breakCharacter, ''));
+      event.preventDefault();
+    })
+  }
+}
+
+/**
  * pageSetup
  * @description This function is called after each smoothState reload.
  * Set up page UI elements here.
  */
 function pageSetup() {
+  copyURL()
   setDate()
   toggleCite()
 }
@@ -343,14 +398,35 @@ globalSetup()
 window.addEventListener('load', () => {
   pageSetup()
   scrollToHash(window.location.hash, 75, 'swing')
+
+  // hide loading indicator a given time
+  const loadingIndicator = document.getElementById('case-study-loading-indicator')
+  if (loadingIndicator) {
+    setTimeout(() => {
+      loadingIndicator.style.opacity = "0"
+    }, 9000);
+    setTimeout(() => {
+      loadingIndicator.style.display = "none"
+    }, 10000);
+  }
+  
   const params = parseQueryParams()
+  /**
+   * Accordion Setup
+   */
+  Accordion.setup()
   /**
    * Canvas Panel Setup
    */
   setUpUIEventHandlers()
-  goToFigureState({
-    figureId: window.location.hash.replace(/^#/, ''),
-    annotationIds: params['annotation-id'],
-    region: params['region'] ? params['region'][0] : null
-  })
+  if (window.location.hash) {
+    goToFigureState({
+      figureId: window.location.hash.replace(/^#/, ''),
+      annotationIds: params['annotation-id'],
+      region: params['region'] ? params['region'][0] : null,
+      sequence: {
+        index: params['sequence-index'] ? params['sequence-index'][0] : null,
+      },
+    })
+  }
 })

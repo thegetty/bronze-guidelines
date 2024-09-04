@@ -5,7 +5,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#S1.3.1).'
+definition: 'A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#s1-3-1).'
+definition_has_shortcodes: true
 lang:
   de: Porosität
   fr: porosité
@@ -15,7 +16,7 @@ lang:
 
 See figs. 127, 152, 153, 155, 165, 184, 205, 464.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A common type of casting flaw that includes a group or area of cavities caused by {% def "shrinkage" %} or trapped gases. Porosity may vary considerably in dimension and may or may not break through the surface of the {% def "bronze" %}. See [I.3§1.3.1](/vol-1/3/#s1-3-1).
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: A common way to characterize the quality of a cast is to report the degree
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
+{% objgroup "3", "fig-127, fig-152, fig-153, fig-155, fig-165, fig-184, fig-205, fig-464" %}
 
 ## Sources
 
@@ -36,8 +37,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/porosity> [defin
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 {% def "Défaut de fonderie" %} caractérisé par des zones plus ou moins spongieuses, c'est-à-dire comportant de nombreuses cavités résultant de la contraction du métal ou de gaz piégé dans le métal lors du refroidissement.
 
@@ -53,13 +55,15 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 646; {% cite "Bewer, Bourg
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
-## Source
+#### Source
 
 {% cite "Brunhuber 1988" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -73,7 +77,8 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 90
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -81,14 +86,16 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 #### Alternate Translations
 
-- 松孔
+- <span lang="zh">松孔</span>
 
-- 气孔巢
+- <span lang="zh">气孔巢</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625404/?index=3)
+    Source: TNATD
 
-- 砂眼
+- <span lang="zh">砂眼</span>
 
     Source: {% cite "Ming 2010" %}, 1247
+
+{% endaccordion %}
 
 </div>

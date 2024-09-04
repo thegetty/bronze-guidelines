@@ -24,7 +24,7 @@ Note: Molds of varying types may be used at different stages of the {% def "bron
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
+{% objgroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
 ## Sources
 
@@ -41,8 +41,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold> [definiton
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "modèle" "modèles" %} voire des {% def "noyau" "noyaux" %} précédant la sculpture en bronze.
 
@@ -68,7 +69,8 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -80,7 +82,8 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *Hilfnegative*
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -96,7 +99,9 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *forma*
 
-    General and also {% def "investment" %} mold | Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General and also {% def "investment" %} mold
+    
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo*
 
@@ -104,10 +109,13 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*stampo*](http://www.treccani.it/vocabolario/stampo/) [definition 2c]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Zhang 2010" %}
+
+{% endaccordion %}
 
 </div>

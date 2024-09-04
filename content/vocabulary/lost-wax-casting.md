@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A technique in which a {% def "model" %} made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See GI§2.'
+definition_has_shortcodes: true
 lang:
   de: Wachsausschmelzverfahren
   fr: fonte à la cire perdue
@@ -15,7 +16,7 @@ lang:
 
 See figs. 13, 16, 18, 23, 25, 28, 558.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A technique in which a {% def "model" %} made of wax is embedded in a {% def "refractory mold" %} that is heated, thereby melting out the wax and creating a void to be filled with molten metal. Two primary variations of the technique are referred to as “direct” or “indirect” lost-wax casting, depending on whether the original model is the one sacrificed in the process. See GI§2.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: The French term “cire perdue” is often adopted in English as well. The
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
+{% objgroup "3", "fig-013, fig-016, fig-018, fig-023, fig-025, fig-028, fig-558" %}
 
 ## Sources
 
@@ -44,8 +45,9 @@ Other: {% cite "Untracht 1968" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Procédé de fonte consistant à créer un modèle dans un matériau fusible à base de cire. Une fois entièrement recouvert par le {% def "moule réfractaire" %}, le matériau fusible est évacué par chauffage, et l’espace vacant est rempli par du bronze. Les deux variantes principales du procédé sont le procédé direct et le procédé indirect.
 
@@ -71,7 +73,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
     Source: Cultural Heritage: {% cite "Rolley 1994" %}, 65
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -83,7 +86,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
     Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -95,16 +99,19 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Leb
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera perduta*](http://www.treccani.it/vocabolario/cera1/)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
+TNATD
 
 #### Alternate Translation
 
-- 失蜡铸造
+- <span lang="zh">失蜡铸造</span>
 
-    Sources: {% cite "Ming 2010" %}, 1286; [TNATD](https://terms.naer.edu.tw/detail/3610078/?index=4)
+    Sources: {% cite "Ming 2010" %}, 1286; TNATD
+
+{% endaccordion %}
 
 </div>

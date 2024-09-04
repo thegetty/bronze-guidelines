@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or {% def "mold" %} that will determine the shape of the material in order to produce a {% def "cast (n.)" %}.'
+definition_has_shortcodes: true
 lang:
   de: gießen
   fr: couler
@@ -15,9 +16,9 @@ lang:
 
 See fig. 549.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+In the sculptural context, the verb refers to pouring a slurry or liquefied material (e.g., plaster, wax, metal) into a hollow matrix or {% def "mold" %} that will determine the shape of the material in order to produce a {% def "cast (n.)" %}.
 
-{% figuregroup "3", "fig-549" %}
+{% objgroup "3", "fig-549" %}
 
 ## Sources
 
@@ -38,8 +39,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/cast> [definitio
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Opération consistant à fabriquer un objet par fonderie. Plus généralement, exécuter une opération de {% def "coulée" %}.
 
@@ -63,13 +65,15 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 268
 
     Sources: Historical: {% cite "Félibien 1690" %}, 320; {% cite "*Secrets concernant les arts et métiers* 1810" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Foundry-specific term that relates to the pouring of metal
 
@@ -103,10 +107,13 @@ Foundry-specific term that relates to the pouring of metal
 
     Sources: {% cite "Leonardo 1490" %}, fol. 143r; {% cite "Biringuccio [1540] 1977" %}, fols. 89vff
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1831; [TNATD](https://terms.naer.edu.tw/detail/11563468/?index=2)
+{% cite "Ming 2010" %}, 1831; TNATD
+
+{% endaccordion %}
 
 </div>

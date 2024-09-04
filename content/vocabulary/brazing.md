@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts or repairs or filling {% def "casting defects" %} by localized addition of a molten copper alloy of slightly lower melting temperature than that of the {% def "cast (n.)" "cast" %}. Unlike in {% def "welding" %}, the contact zones of the sections to be joined are not brought to a molten stage.'
+definition_has_shortcodes: true
 lang:
   de: Hartlöten
   fr: brasage
@@ -15,7 +16,7 @@ lang:
 
 See figs. 106, 188, 206, 229.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+In {% def "bronze" %} sculpture, a technique for joining separately {% def "cast (v.)" "cast" %} parts or repairs or filling {% def "casting defects" %} by localized addition of a molten copper alloy of slightly lower melting temperature than that of the {% def "cast (n.)" "cast" %}. Unlike in {% def "welding" %}, the contact zones of the sections to be joined are not brought to a molten stage.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: In industry, brazing is often defined as a joining method using a filler m
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-106, fig-188, fig-206, fig-229" %}
+{% objgroup "3", "fig-106, fig-188, fig-206, fig-229" %}
 
 ## Sources
 
@@ -38,17 +39,23 @@ Other: {% cite "Scott 1991" %}, 138
 ## To Be Distinguished From
 
 - *flow fusion welding*
+
 - *flow welding*
+
 - *fusion welding*
+
 - *repair*
+
 - {% def "soldering" "*soldering*" %}
+
 - *welding*
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Technique d’assemblage de deux pièces métalliques ou plus, par addition d’un alliage à point de fusion plus bas que celui des métaux à assembler, n’entraînant pas la fusion des zones de contact, contrairement au {% def "soudage" %}.
 
@@ -72,12 +79,14 @@ Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénie
 
     Source: Copper Industry: {% cite "Bader and Théret 1961" %}, 595
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 366
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 A subset of *saldatura*
 
@@ -85,19 +94,22 @@ A subset of *saldatura*
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
-{% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
+{% cite "Ming 2010" %}, 1684; TNATD
 
 #### Alternate Translations
 
-- 钎焊
+- <span lang="zh">钎焊</span>
 
     Source: {% cite "Ming 2010" %}, 1137, 1138
 
-- 铜焊
+- <span lang="zh">铜焊</span>
 
-    Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
+    Sources: TNATD; {% cite "Ming 2010" %}, 1436
+
+{% endaccordion %}
 
 </div>

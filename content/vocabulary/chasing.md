@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (n.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.'
+definition_has_shortcodes: true
 lang:
   de: ziselieren
   fr: ciselure
@@ -15,15 +16,15 @@ lang:
 
 See figs. 105, 248, 249, 252, 253, 255, 511, 550.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The process of fine detailed “cold work” after casting and {% def "fettling" %} that serves to correct or enhance the {% def "cast (n.)" "cast" %} surface by removing and/or compressing metal using hand tools by punching, {% def "engraving" %}, and/or {% def "chiseling" %}, and in modern times also with power and pneumatic tools.
 
 {% backmatter %}
 
-Note: In common art historical usage, the term “chasing,” when used for {% def "bronze" %} sculpture, refers specifically to all of the steps taken to embellish the surface of the {% def "cast (n.)" "cast" %} after fettling. Modern {% def "founders" %} include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by compressing the metal (using {% def "punches" %}), as opposed to {% def "engraving" %}.
+Note: In common art historical usage, the term “chasing,” when used for {% def "bronze" %} sculpture, refers specifically to all of the steps taken to embellish the surface of the {% def "cast (n.)" "cast" %} after fettling. Modern {% def "founders" %} include the detailed process of removing and repairing {% def "casting defects" %}. In decorative arts, on the other hand, chasing of gilt bronze refers to the steps taken after filing to embellish the surface by punching (compressing the metal using {% def "punches" %}), as opposed to {% def "engraving" %}.
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
+{% objgroup "3", "fig-105, fig-248, fig-249, fig-252, fig-253, fig-255, fig-511, fig-550" %}
 
 ## Sources
 
@@ -48,8 +49,9 @@ Other: {% cite "Van Langh 2012" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Opérations servant à la fois à masquer les imperfections de fonderie et ajouter ou rehausser certains éléments décoratifs, lors desquelles une grande panoplie d’outils est susceptible d’être mise en œuvre (limes, ciseaux, ciselets, burins, etc).
 
@@ -62,11 +64,17 @@ Note: Le terme a un sens plus général que celui utilisé par les orfèvres et 
 #### To Be Distinguished From
 
 - *ciseler*
+
 - *parachèvement*
+
 - *réparage*
+
 - *réparure*
+
 - *travail au ciseau*
+
 - *ébarbage*
+
 - *ébavurage*
 
 #### Sources
@@ -81,13 +89,15 @@ Art and Craft Textbooks: {% cite "De Bois 1999" %}, 16; {% cite "Rama 1988" %}, 
 
 - *ciselure-réparure*
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Maaz 2010" %}, 744; {% cite "Alscher 1987" %}, 555
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Not reserved specifically for metals
 
@@ -109,6 +119,8 @@ Not reserved specifically for metals
 
     Source: {% cite "Formigli 2010" %}, 20f
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

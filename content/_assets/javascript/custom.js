@@ -11,135 +11,45 @@
 // function filterImageGrid() { ... }
 // window.filterImageGrid = filterImageGrid
 
-// Accordion sections modified from
-// https://inclusive-components.design/collapsible-sections/
-function createAccordion(selector) {
-  const tag = selector.match(/h[1-6]/)[0].toUpperCase()
-  const headings = document.querySelectorAll(selector)
-  for ( const heading of headings ) {
-    if (
-      heading.nextElementSibling && heading.nextElementSibling.tagName !== tag ) {
-      heading.innerHTML = `
-        <button class="accordion-expander" aria-expanded="false">
-          ${heading.innerHTML}
-          <svg aria-hidden="true" focusable="false" viewBox="0 0 10 10">
-            <rect class="vert" height="8" width="1.5" y="1" x="4.25"/>
-            <rect height="1.5" width="8" y="4.25" x="1"/>
-          </svg>
-        </button>`
-
-      const tags = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6']
-      const slice = tag.match(/[0-9]/)
-      const higherHeads = tags.slice( 0, slice )
-      const getContent = (elem) => {
-        let elems = []
-        while (elem.nextElementSibling && !higherHeads.includes(elem.nextElementSibling.tagName) ) {
-          elems.push(elem.nextElementSibling)
-          elem = elem.nextElementSibling
-        }
-        elems.forEach((node) => {
-          node.parentNode.removeChild(node)
-        })
-        return elems
-      }
-      let contents = getContent(heading)
-      let wrapper = document.createElement('section')
-      wrapper.hidden = true
-      contents.forEach(node => {
-        wrapper.appendChild(node)
-      })
-      heading.parentNode.insertBefore(wrapper, heading.nextElementSibling)
-
-      let btn = heading.querySelector('button')
-      btn.onclick = () => {
-        let expanded = btn.getAttribute('aria-expanded') === 'true' || false
-        btn.setAttribute('aria-expanded', !expanded)
-        wrapper.hidden = expanded
-        wrapper.classList.toggle('accordion-wrapper')
-      }
-    }
-  }
-  // headings.length > 0 ? console.log("Accordion sections made on select " + tag + " tags") : ''
-  if (headings.length > 0) {
-    console.log("Accordion sections made on select " + tag + " tags")
-    addAccordionControls()
-  }
-
-};
-
-function addAccordionControls() {
-  const accordion = document.getElementsByClassName('accordion')
-  const existingControls = document.getElementById('accordion-controls')
-  if ( accordion[0] && !existingControls ) {
-    const controls = `
-      <li><button id="expand-accordions">Expand All</button></li>
-      <li><button id="collapse-accordions">Collapse All</button></li>
-    `
-    const controlWrapper = document.createElement('ul')
-    controlWrapper.setAttribute('aria-label', 'section controls')
-    controlWrapper.setAttribute('id', 'accordion-controls')
-    controlWrapper.innerHTML = controls
-
-    accordion[0].prepend(controlWrapper)
-
-    document.getElementById('expand-accordions').addEventListener('click', expandAllAccordions)
-
-    document.getElementById('collapse-accordions').addEventListener('click', collapseAllAccordions)
-
-    window.addEventListener('scroll', toggleControlsVisibility)
-
-    console.log("Accordion controls added")
-  }
-};
-window.expandAllAccordions = function () {
-  const buttons = document.querySelectorAll('button.accordion-expander')
-  for (const button of buttons) {
-    button.setAttribute('aria-expanded', 'true')
-    const section = button.parentNode.nextElementSibling
-    section.hidden = false
-    section.classList.add('accordion-wrapper')
-  }
-};
-window.collapseAllAccordions = function () {
-  const buttons = document.querySelectorAll('button.accordion-expander')
-  for (const button of buttons) {
-    button.setAttribute('aria-expanded', 'false')
-    const section = button.parentNode.nextElementSibling
-    section.hidden = true
-    section.classList.remove('accordion-wrapper')
-  }
-};
 window.toggleControlsVisibility = function () {
-  const accordions = document.getElementsByClassName('accordion-expander')
+  const accordions = document.getElementsByClassName('accordion-section')
   const firstAccordion = accordions[0]
+  const lastAccordion = accordions[accordions.length - 1]
 
-  const accordionControls = document.getElementById('accordion-controls')
+  const accordionControls = document.getElementsByClassName('global-accordion-controls')
 
-  if ( isInViewport(firstAccordion) && (window.scrollY !== 0) ) {
-    accordionControls.classList.add('show-controls')
+  // https://www.30secondsofcode.org/js/s/element-is-visible-in-viewport/
+  const elementIsVisibleInViewport = (el, partiallyVisible = false) => {
+    const { top, left, bottom, right } = el.getBoundingClientRect();
+    const { innerHeight, innerWidth } = window;
+    return partiallyVisible
+      ? ((top > 0 && top < innerHeight) ||
+          (bottom > 0 && bottom < innerHeight)) &&
+          ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
+      : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
+  };
+
+  if ( (elementIsVisibleInViewport(firstAccordion, true) && (window.scrollY !== 0)) || (elementIsVisibleInViewport(lastAccordion, true) ) ) {
+    accordionControls[0].classList.add('show-controls')
   } else if ( window.scrollY == 0 ) {
-    accordionControls.classList.remove('show-controls')
+    accordionControls[0].classList.remove('show-controls')
   }
-};
-// https://www.javascripttutorial.net/dom/css/check-if-an-element-is-visible-in-the-viewport/
-function isInViewport(element) {
-  const rect = element.getBoundingClientRect();
-  return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
 };
 
 function wrapHeadingNumbers() {
   // Wrap heading section numbers in spans so they can be styled when indented
-  const headings = document.querySelectorAll('.quire-page.full-width h2, .quire-page.full-width h3, .quire-page.full-width h4');
+  const headingsToo = document.querySelectorAll('.indented-heading');
   const regex = /^\s*([0-9|\.]+\s+)/
   const replace = '<span class="section-number">$1 </span>'
+  for (const heading of headingsToo) {
+    const text = heading.innerHTML
+    if ( regex.test(text) ) {
+      heading.innerHTML = text.replace(regex, replace)
+    }
+  }
+  const headings = document.querySelectorAll('.quire-page.full-width .accordion-section__heading');
   for (const heading of headings) {
-    heading.classList.add('query-selected')
-    const node = heading.firstElementChild && heading.firstElementChild.tagName == 'BUTTON' ? heading.firstElementChild : heading
+    const node = heading.lastElementChild
     const nodeText = node.innerHTML
     if ( regex.test(nodeText) ) {
       node.innerHTML = nodeText.replace(regex, replace)
@@ -194,15 +104,11 @@ window.filterImageGrid = function () {
   }
 };
 
+window.addEventListener('scroll', toggleControlsVisibility)
+
 // Was originally triggering these with window.onload = function () {...}
 // bit it was breaking the Canvas Panel choices functionality, not sure why
 window.addEventListener('DOMContentLoaded', () => {
-  createAccordion('.quire-page.accordion.full-width h4')
-  createAccordion('.quire-page.accordion.full-width h3')
-  createAccordion('.quire-page.accordion.full-width h2[id=notes]')
-  createAccordion('.quire-page.accordion.interview h2')
-  createAccordion('div.accordion h3')
-
   wrapHeadingNumbers()
   prepImageGrid()
 });

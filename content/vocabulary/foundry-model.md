@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.'
+definition_has_shortcodes: true
 lang:
   de: Ausführungsmodell
   fr: modèle de fonderie
@@ -15,7 +16,7 @@ lang:
 
 See figs. 210, 531, 544, 553, 554.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: In {% def "sand casting" %}, a foundry model is referred to as a “patter
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
+{% objgroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
 ## Sources
 
@@ -32,8 +33,9 @@ Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "fonte à la cire perdue" "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
 
@@ -63,13 +65,15 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Maaz 2010" %}, 671
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Source
 
@@ -79,10 +83,13 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 - *modello di fonderia*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
-- 铸模
+- <span lang="zh">铸模</span>
+
+{% endaccordion %}
 
 </div>

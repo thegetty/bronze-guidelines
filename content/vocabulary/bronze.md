@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Depending on the user, “bronze” may designate a copper alloy that has tin as the primary added element or any other copper-based alloy. We recommend using the term “bronze” specifically for copper-tin alloys unless qualified by another term (e.g., “silicon bronze”). See [I.2§1](/vol-1/2/#S1).'
+definition: 'Depending on the user, “bronze” may designate a copper alloy that has tin as the primary added element or any other copper-based alloy. We recommend using the term “bronze” specifically for copper-tin alloys unless qualified by another term (e.g., “silicon bronze”). See [I.2§1](/vol-1/2/#s1).'
 lang:
   de: Bronze
   fr: bronze
@@ -24,7 +24,7 @@ Note: In common parlance, most copper alloy sculptures are referred to as “bro
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-133, fig-134" %}
+{% objgroup "3", "fig-133, fig-134" %}
 
 ## Sources
 
@@ -41,8 +41,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/bronze> [definit
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Suivant l’utilisateur, désigne aussi bien un alliage à base de cuivre dans lequel l’étain est l’élément d’addition principal que tout alliage à base de cuivre ({% cite "Félibien 1690" %}, 333; {% cite "Launay 1827" %}, 2:251–52; {% cite "Hamm 1924" %}, 83; voir aussi [I.2](/vol-1/2/)). Pour lever l’ambiguité, il est recommandé de restreindre le terme aux alliages cuivre-étain.
 
@@ -62,7 +63,7 @@ Historical: {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; 
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 372; {% cite "Lambert 2002" %}, 266
 
-General Dictionary: {% cite "Office québécois de la langue française. n.d." %}
+General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 
@@ -78,18 +79,21 @@ General Dictionary: {% cite "Office québécois de la langue française. n.d." %
 
     Sources: Historical: {% cite "Launay 1827" %}, 2:251–52; Art and Craft Textbooks: {% cite "Rama 1988" %}, 372; {% cite "Hamm 1924" %}, 83
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Weihrauch 1944" %}; {% cite "Maaz 2010" %}, 677; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 {% cite "Treccani n.d." "" "Treccani" %}, under [*bronzo*](http://www.treccani.it/vocabolario/bronzo/); {% cite "Treccani n.d." "" "Treccani" %} under [*bronzi e ottoni* and *bronzi artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*bronzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola) [definition 1]; {% cite "Biringuccio [1540] 1990" %}, fols. 80vff; {% cite "Brunhuber 1988" %}
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 Literally “copper-tin alloy”
 
@@ -99,10 +103,12 @@ Literally “copper-tin alloy”
 
 #### Alternate Translation
 
-- 青铜
+- <span lang="zh">青铜</span>
 
     This is a broad, colloquial term used for bronze.
 
     Source: TNATD
+
+{% endaccordion %}
 
 </div>

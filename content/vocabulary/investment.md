@@ -5,7 +5,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "bronze" "cast bronze" %}.'
+definition: 'The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the cast {% def "bronze" %}.'
+definition_has_shortcodes: true
 lang:
   de: Formmantel
   fr: moule de potée
@@ -15,9 +16,9 @@ lang:
 
 See figs. 5, 13, 557, 558.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The term can refer to the {% def "refractory mold" %} used in the {% def "lost-wax casting" %} process or to the material used to make that mold. It also denotes the process of coating or embedding the wax {% def "model" %} in this material and is applicable to clay-based, plaster-based, and ceramic shell molds. In all of these, the first layers have a special, fine consistency that is designed to pick up the detail and avoid problems during casting; the later layers are coarser. Clay-based investment may also be referred to as “loam.” The investment is destroyed to free the {% def "bronze" "cast bronze" %}.
 
-{% figuregroup "3", "fig-005, fig-013, fig-557, fig-558" %}
+{% objgroup "3", "fig-005, fig-013, fig-557, fig-558" %}
 
 ## Sources
 
@@ -28,8 +29,9 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Terme réservé à la {% def "fonte à la cire perdue" %}. Désigne la partie externe du {% def "moule réfractaire" %}, qui peut être à base de plâtre ou d'argile, notamment.
 
@@ -61,7 +63,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
     Art and Craft Textbooks: {% cite "Rama 1988" %}, 375; {% cite "Lambert 2002" %}, 274
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -73,7 +76,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 
     Source: {% cite "Maaz 2010" %}, 706
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the {% def "pour" %}. See *refractory mold*.
 
@@ -123,16 +127,19 @@ The variety of terms is due to regional differences in foundry terminology. *For
 
     Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*tunica*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translations
 
-- 熔模材料
+- <span lang="zh">熔模材料</span>
 
     Source: {% cite "Ming 2010" %}, 1214
 
-- 耐火材料
+- <span lang="zh">耐火材料</span>
 
     Sources: {% cite "Ming 2010" %}, 1036; {% cite "Hua 2013" %}, 347
+
+{% endaccordion %}
 
 </div>

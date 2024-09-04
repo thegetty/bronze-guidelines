@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.'
+definition_has_shortcodes: true
 lang:
   de: Mold extension
   fr: portée de noyau
@@ -16,7 +17,7 @@ lang:
 
 See figs. 23, 41, 122, 123.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-023, fig-041, fig-122, fig-123" %}
+{% objgroup "3", "fig-023, fig-041, fig-122, fig-123" %}
 
 ## Source
 
@@ -45,8 +46,9 @@ Note: Such mold extensions may be created naturally when the core is not fully e
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Partie intégrante du {% def "noyau" %} ou partie rajoutée ({% def "fonte au sable" %}), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la {% def "couler" "coulée" %}.
 
@@ -68,11 +70,13 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
     Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
 
-### **Italian**: *{{ lang.it }}*
+### **German**: <span lang="de">{{ lang.it }}</span>
 
-### **Chinese**: {{ lang.zh }}
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -80,8 +84,10 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- 芯撑
+- <span lang="zh">芯撑</span>
 
     Source: {% cite "Ming 2010" %}, 1572
+
+{% endaccordion %}
 
 </div>

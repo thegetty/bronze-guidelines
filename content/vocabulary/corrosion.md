@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A chemical process that causes a metal such as {% def "bronze" %} to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.'
+definition_has_shortcodes: true
 lang:
   de: Korrosion
   fr: corrosion
@@ -13,9 +14,9 @@ lang:
   zh: 腐蚀
 ---
 
-See figs. 310, 311, 312, 314, 315, 318, 334, 348, 503.{.pdf-figure-list}
+See figs. 310, 311, 312, 314, 315, 318, 334, 348, 500.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A chemical process that causes a metal such as {% def "bronze" %} to change from a metallic state into a chemically more stable mineral compound known as a corrosion product.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: Most metals undergo natural corrosion, except for pure so-called noble met
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-503" %}
+{% objgroup "3", "fig-310, fig-311, fig-312, fig-314, fig-315, fig-318, fig-334, fig-348, fig-500" %}
 
 ## Sources
 
@@ -36,8 +37,9 @@ Other: {% cite "Scott 1991" %}, 43–47, 81
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Pour un bronze, transformation chimique du métal en un composé non métallique sous l’action d’un environnement particulier. Désigne aussi le produit résultant.
 
@@ -47,28 +49,33 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 648; {% cite "Aucouturier 
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*corrosione*](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, under [*corrosione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione) [definition 2]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 452; [TNATD](https://terms.naer.edu.tw/detail/655779/?index=2)
+{% cite "Ming 2010" %}, 452; TNATD
 
 #### Alternate Translation
 
-- 锈蚀
+- <span lang="zh">锈蚀</span>
 
-    Sources: {% cite "Ming 2010" %}, 1586; [TNATD](https://terms.naer.edu.tw/detail/175745/?index=10)
+    Sources: {% cite "Ming 2010" %}, 1586; TNATD
+
+{% endaccordion %}
 
 </div>

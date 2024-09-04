@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
+definition_has_shortcodes: true
 lang:
   de: Gießer
   fr: fondeur
@@ -16,9 +17,9 @@ lang:
 
 See fig. 546.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.
 
-{% figuregroup "3", "fig-546" %}
+{% objgroup "3", "fig-546" %}
 
 ## Sources
 
@@ -41,8 +42,9 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
@@ -96,7 +98,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
     Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -110,7 +113,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
 - *Gießereifachman*
 
-    Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}
 
 - *Gießereileiter*
 
@@ -122,7 +125,8 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 
 
     This designates the operator standing next to the furnace and deciding when to pour the molten metal into the mold.
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Many sources used the general terms *artefice* or *maestro* to refer to founders.
 
@@ -150,16 +154,19 @@ Many sources used the general terms *artefice* or *maestro* to refer to founders
 
     Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/626946/?index=3)
+TNATD
 
 #### Alternate Translation
 
-- 铸造工
+- <span lang="zh">铸造工</span>
 
     Source: {% cite "Ming 2010" %}, 1831
+
+{% endaccordion %}
 
 </div>

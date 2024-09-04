@@ -1,7 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// add page tags and presentation values as classes, lines 57–61
-// added contributor_as_it_appears as data item, line 25
+// add page tags value as classes, lines 61, 71–72
+// added contributor_as_it_appears as data item, line 29
 //
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
@@ -12,7 +12,10 @@ const { warn } = chalkFactory('eleventyComputed')
  * Global computed data
  */
 module.exports = {
-  canonicalURL: ({ publication, page }) => page.url && path.join(publication.url, page.url),
+  canonicalURL: ({ publication, page }) => {
+    const pageUrl = page.url.replace(/^\/+/, '')
+    return new URL(pageUrl, publication.url).href
+  },
   eleventyNavigation: {
     /**
      * Explicitly define page data properties used in the TOC
@@ -21,6 +24,7 @@ module.exports = {
     data: (data) => {
       return {
         abstract: data.abstract,
+        classes: data.classes,
         contributor: data.contributor,
         contributor_as_it_appears: data.contributor_as_it_appears,
         figure: data.figure,
@@ -29,7 +33,6 @@ module.exports = {
         layout: data.layout,
         object: data.object,
         order: data.order,
-        classes: data.pageClasses,
         short_title: data.short_title,
         subtitle: data.subtitle,
         summary: data.summary,
@@ -55,19 +58,24 @@ module.exports = {
   /**
    * Classes applied to <main> page element
    */
-  pageClasses: ({ collections, class: classes, layout, page, presentation, tags }) => {
-    const pageClasses = []
-    // Add classes based on tags and presentation
-    tags ? pageClasses.push(tags) : ''
-    presentation ? pageClasses.push(presentation) : ''
+  classes: ({ collections, classes=[], page, tags }) => {
+    const computedClasses = []
     // Add computed frontmatter and page-one classes
     const pageIndex = collections.allSorted.findIndex(({ outputPath }) => outputPath === page.outputPath)
-    const pageOneIndex = collections.allSorted.findIndex(({ data }) => data.class && data.class.includes('page-one'))
+    const pageOneIndex = collections.allSorted.findIndex(
+      ({ data }) => Array.isArray(data.classes) && data.classes.includes('page-one')
+    )
     if (pageIndex < pageOneIndex) {
-      pageClasses.push('frontmatter')
+      computedClasses.push('frontmatter')
     }
+    // Add classes based on tags
+    tags ? computedClasses.push(tags) : ''
+
+    // filter null values, handles 11ty's first pass at build
+    const filteredClasses = Array.from(classes).filter((x) => x)
+
     // add custom classes from page frontmatter
-    return classes ? pageClasses.concat(classes) : pageClasses
+    return computedClasses.concat(filteredClasses)
   },
   pageContributors: ({ contributor, contributor_as_it_appears }) => {
     if (!contributor) return
@@ -96,15 +104,15 @@ module.exports = {
     if (!object || !object.length) return
     return object
       .reduce((validObjects, item) => {
-        const objectData = objects.object_list.find(({ id }) => id === item.id)
+        const objectData = objects.object_list && objects.object_list.length
+          ? objects.object_list.find(({ id }) => id === item.id)
+          : item
         if (!objectData) {
           warn(`pageObjects: no object found with id ${item.id}`)
           return validObjects
         }
 
-        if (!objectData.figure) {
-          warn(`pageObjects: object id ${objectData.id} has no figure data`)
-        } else {
+        if (objectData.figure) {
           objectData.figures = objectData.figure.map((figure) => {
             if (figure.id) {
               return this.getFigure(figure.id)

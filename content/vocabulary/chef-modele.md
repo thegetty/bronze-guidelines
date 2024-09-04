@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'French term for a {% def "replica" %} of the artist’s {% def "model" %} (often in bronze) that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.'
+definition_has_shortcodes: true
 lang:
   de: Dauermodell
   fr: chef-modèle
@@ -16,7 +17,7 @@ lang:
 
 See figs. 102, 103, 210, 531, 553.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+French term for a {% def "replica" %} of the artist’s {% def "model" %} (often in bronze) that is used to make {% def "molds" %} for the production of large {% def "editions" %} in {% def "sand casting" %}. In rare cases, a chef-modèle has been used in {% def "lost-wax casting" %}.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: Metal is often used rather than plaster because it can better withstand th
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
+{% objgroup "3", "fig-102, fig-103, fig-210, fig-531, fig-553" %}
 
 ## Sources
 
@@ -41,8 +42,9 @@ Cultural Heritage: {% cite "Grissom and Harvey 2003" %}; {% cite "Barbour and St
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Modèle, souvent en bronze, servant à marquer l’empreinte dans un moule en sable dans le cas de productions en série. Terme presque exclusivement utilisé pour la {% def "fonte au sable" %}.
 
@@ -84,20 +86,25 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
     Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Alternate Translation
 
-- 主铸模
+- <span lang="zh">主铸模</span>
+
+{% endaccordion %}
 
 </div>

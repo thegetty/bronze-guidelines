@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).'
+definition_has_shortcodes: true
 lang:
   de: Gussfehler
   fr: défaut de fonderie
@@ -16,7 +17,7 @@ lang:
 
 See figs. 73, 150, 151, 153, 154, 155, 158, 159, 161.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+An unintended imperfection on a {% def "bronze" %} that occurs during casting and appears as a more or less subtle discontinuity in the desired form and is associated with either a lack or an excess of metal. See [I.3](/vol-1/3/).
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: Casting defects should not be confused with other defects generated before
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-073, fig-150, fig-151, fig-153, fig-154, fig-155, fig-158, fig-159, fig-161" %}
+{% objgroup "3", "fig-073, fig-150, fig-151, fig-153, fig-154, fig-155, fig-158, fig-159, fig-161" %}
 
 ## Sources
 
@@ -39,8 +40,9 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Campbell 2015" %}; {% cite "N
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Défaut non intentionnel dans l’objet survenant lors de la {% def "coulée" %}.
 
@@ -66,9 +68,11 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
 
-### **Italian**: *{{ lang.it }}*
+### **German**: <span lang="de">{{ lang.it }}</span>
+
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -90,28 +94,31 @@ Copper Industry: {% cite "Mascré, Thomas, and Hénon 1952" %}; {% cite "Cuénin
 
     Term for a specific casting defect used for general reference to that defect
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbollitura](http://www.treccani.it/vocabolario/sbollitura/); {% cite "Battaglia 1961" %}, under [*sbollitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbollitura*](http://www.treccani.it/vocabolario/sbollitura/); {% cite "Battaglia 1961" %}, under [*sbollitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_695.pdf&parola=sbollitura)
 
 - *soffiatura* 
 
     Term for a specific casting defect used for general reference to that defect
 
-    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](link: http://www.treccani.it/vocabolario/soffiatura0 [definition 2a]
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*soffiatura*](http://www.treccani.it/vocabolario/soffiatura/) [definition 2a]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/1009176/?index=1)
+TNATD
 
 #### Alternate Translations
 
-- 铸疵
+- <span lang="zh">铸疵</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/628170/?index=2)
+    Source: TNATD
 
-- 铸造缺陷
+- <span lang="zh">铸造缺陷</span>
 
     Source: {% cite "Ming 2010" %}, 1832
+
+{% endaccordion %}
 
 </div>

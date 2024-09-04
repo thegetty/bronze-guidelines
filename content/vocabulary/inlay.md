@@ -24,7 +24,7 @@ Note: The terms “inlay” and “{% def "overlay" %}” are often used indiscr
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
+{% objgroup "3", "fig-309, fig-340, fig-342, fig-343, fig-345, fig-346, fig-349, fig-351, fig-365" %}
 
 ## Sources
 
@@ -37,8 +37,11 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 ## To Be Distinguished From
 
 - *encrustation*
+
 - *foil*
+
 - *incrustation*
+
 - *overlay*
 
 ## Synonyms
@@ -54,8 +57,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Élément décoratif inséré dans la surface d’un bronze ou formant relief, fait d’un matériau différent du substrat en bronze pour un effet polychromatique. Une grande variété de matériaux et de techniques peut être mise en œuvre.
 
@@ -79,7 +83,8 @@ Note: il n’existe aucun terme français pour distinguer précisément un élé
 
     Sources: Cultural Heritage: {% cite "Arminjon and Bilimoff 1998" %}, 162–63; Historical: {% cite "Félibien 1690" %}, 460
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 In principle more general (actually a direct translation of “inlay”).
 
@@ -95,7 +100,8 @@ In principle more general (actually a direct translation of “inlay”).
 
     Source: {% cite "Lein 2004" %}, 63
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 A decorative process usually performed on steel and copper alloys, with thin silver wires in an undercut groove on the surface.
 
@@ -123,10 +129,13 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
     Source: {% cite "Biringuccio [1540] 1977" %}, fol. 138
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1554; [TNATD](https://terms.naer.edu.tw/detail/11566239/?index=5)
+{% cite "Ming 2010" %}, 1554; TNATD
+
+{% endaccordion %}
 
 </div>

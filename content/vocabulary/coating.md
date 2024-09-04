@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Purposefully applied surface deposits or films on {% def "bronze" %} sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”'
+definition_has_shortcodes: true
 lang:
   de: Überzug
   fr: revêtement
@@ -16,7 +17,7 @@ lang:
 
 See figs. 322, 323, 324, 326, 330.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Purposefully applied surface deposits or films on {% def "bronze" %} sculpture that consist of materials chemically different from the metal substrate. Their composition can vary widely, ranging from natural substances such as lacquer, resin, oil, and wax to synthetic resins. Coatings may be decorative and/or protective. In the study of Renaissance bronzes, for example, applied lacquer-like coatings are often referred to as “organic patinas.”
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: Not to be confused with {% def "corrosion" %} products or mineral compound
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
+{% objgroup "3", "fig-322, fig-323, fig-324, fig-326, fig-330" %}
 
 ## Sources
 
@@ -35,8 +36,9 @@ Other: {% cite "Weil 1977" %}; {% cite "Considine et al. 2010" %}, 94–95
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Couche volontairement appliquée en surface d’un bronze pour le protéger ou le décorer, constituée d’un matériau différent du substrat en bronze. Une grande variété de matériaux peut être utilisée, depuis des substances naturelles (laques, résines, huiles, cires) jusqu’à des produits synthétiques (résines, peintures).
 
@@ -52,28 +54,33 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 656; {% cite "Aucouturier 
 
 Copper Industry: {% cite "Levy and Saurat 2005" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Koller and Baumer 2000" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*rivestimento*](https://www.treccani.it/vocabolario/rivestimento) [definition 2]; {% cite "Battaglia 1961" %}, under [*rivestimento*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento); {% cite "Giuffredi 2006" %}, 221
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1448; [TNATD](https://terms.naer.edu.tw/detail/207700/?index=8)
+{% cite "Ming 2010" %}, 1448; TNATD
 
 #### Alternate Translation
 
-- 涂料
+- <span lang="zh">涂料</span>
 
-    Sources: {% cite "Ming 2010" %}, 1449; [TNATD](https://terms.naer.edu.tw/detail/627946/?index=6)
+    Sources: {% cite "Ming 2010" %}, 1449; TNATD
+
+{% endaccordion %}
 
 </div>

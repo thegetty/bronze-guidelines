@@ -6,7 +6,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#S2.1.1)).'
+definition: 'The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#s2-1-1)).'
+definition_has_shortcodes: true
 lang:
   de: Kern
   fr: noyau
@@ -16,9 +17,9 @@ lang:
 
 See figs. 8, 10, 57, 61, 69, 112, 428, 431, 473, 475.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The portion of the {% def "refractory mold" %} that defines the internal space in a hollow {% def "bronze" %} sculpture. It may be formed in a variety of ways and is usually (but not always) made of similar material as that used for the outer portion of the mold. The term is also used as shorthand to refer to the material it is made of. A core is generally solid but may be hollow (see [GI§2.1.1](/intro/#s2-1-1)).
 
-{% figuregroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" %}
+{% objgroup "3", "fig-008, fig-010, fig-057, fig-061, fig-069, fig-112, fig-428, fig-431, fig-473, fig-475" %}
 
 ## Sources
 
@@ -35,8 +36,9 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/core> [definitio
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Partie interne du {% def "moule réfractaire" %} déterminant le volume interne d’une fonte creuse. Le noyau est souvent (mais pas systématiquement) réalisé dans le même matériau que la partie externe du moule réfractaire (la chape). Le noyau peut-être plein ou creux.
 
@@ -56,13 +58,15 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
     Sources: Historical: {% cite "Félibien 1690" %}, 325; {% cite "Boffrand 1743" %}, 27 et sq; {% cite "Diderot et al. 1751" %}, 11:268, entries « noyau terme de fonderie » et « noyau terme d’artillerie »
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
-## Source
+#### Source
 
 {% cite "Brunhuber 1988" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -86,7 +90,8 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
     Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 48, 49
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -94,8 +99,10 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 272; {% cite "Rama 1988" %},
 
 #### Alternate Translation
 
-- 芯范
+- <span lang="zh">芯范</span>
 
     Source: {% cite "Zhang 2010" %}, 82
+
+{% endaccordion %}
 
 </div>

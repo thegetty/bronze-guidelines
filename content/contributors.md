@@ -1,8 +1,9 @@
 ---
 title: About the Contributors
-order: 1010
+order: 2040
 layout: page
-class: pdf-backmatter
+classes: 
+  - pdf-backmatter
 ---
 
 {% contributors context=publicationContributors type='primary' format='bio' %}

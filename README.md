@@ -61,24 +61,51 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 4. Output the PDF: `npm run build:prince`
 
+## Editorial Production Notes
+
+While it is a core principle of Quire for all content to only exist in one place in the Markdown and YAML files (chapter titles in the chapter Markdown file, references in `references.yaml`, etc.), a number of technical hurdles with this publication necessitated some duplication of content in a number of areas. They are documented here. Care should be taken that any changes should be made in **all** content locations.
+
+- **Figure Captions**: Figure captions now exist both in the `figures.yaml` file as usual, and on the individual figure Markdown pages in the Visual Atlas (`/visual-atlas/`) section. Those in `figures.yaml` are used in the PDF and EPUB outputs and do not include any shortcode markup (instead of `{% cite 'Bourgarit 2019' %}` it is just "Bourgarit 2019"); those in the Visual Atlas are used online exclusively and include both `cite` and `ref` shortcodes.
+
+- Definitions: Definitions for the Vocabulary section are stored as YAML on on each page so that they can be accessed with the `def` shortcode. However, they also need to appear on the pages themselves. They include shortcodes though and we were unable to process those from where the definitions were stored in YAML. For these pages, the definition exists in the YAML of the page, and in the Markdown section just below. Pages with this duplication have been marked `definition_has_shortcodes: true` for ready identification, though they are a majority of the Vocabulary pages.
 
 ## Customizations Made to 11ty Templates/Files
 
 **_includes/components/figure/caption.js**
-**_includes/components/figure/media-embed-url.js**
-Fixed/adjusted output of Vimeo URL for PDF output
+Remove hard-coded `<em>` tags
+
+**_includes/components/figure/modal-link.js**
+**_includes/components/figure/label.js**
+**_includes/components/figure/video/element.js**
+Linked figures to iframe viewer rather than modal
 
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
+**_includes/components/figure/image/element.js**
+**_includes/components/figure/image/html.js**
+Allow annotated images to display in line on page, not just modal
+
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
+
+**_includes/components/figure/table/index.js**
+Added removeHTML to strip tags that were breaking the markup
+
+**_includes/components/icons.js**
+Add some icons and made sure they are consistent weight and size
+
+**_includes/components/lightbox/slides.js**
+Add `<details>` element around lightbox captions
 
 **_includes/components/modal/index.js**
 Added class to enable styling in modal vs. inline
 
 **_includes/components/navigation.js**
-removed title truncation in navbar
+Removed title truncation in navbar, and show section titles/links in center instead of home page link
+
+**_includes/components/object-filters/object-card/object-image.webc**
+Fixed source of thumbnails for videos and embeds/tables
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
@@ -97,21 +124,34 @@ Custom include to create definition pop-ups.
 **_includes/web-components/modal/index.js**
 Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
+**_includes/translation-headings.liquid**
+Assigns title with liquid variable to be used in vocab page accordions and includes accordionGlobalControls
+
+**_layouts/entry-embed.liquid**
+Variant of `layout: entry` but uses renderFile in place of canvas panel for special embeds (3d-models, svg, etc.)
+
 **_layouts/page.case-study**
 Copy of entry layout but with default `pageHeader` and no abstract or tombstone.
 
 **_layouts/visual-atlas.liquid**
 New layout specifically to create grid of all figure images.
 
-**_plugins/figures/iiif/config.js**
-increased print-image.jpg size
-
-**_plugins/filters/index.js**
-**_plugins/filters/hasShortcodes.js**
-Custom filter to process text with shortcodes in it.
+**_plugins/filters/fullname.js**
+Join names with a non-breaking space.
 
 **_plugins/filters/getContributor.js**
 Include local sort_as value if one is given, so page-level contributors are sorted whether defined on page or in publication.yaml
+
+**_plugins/markdown/index.js**
+**content/_assets/javascript/application/index.js**
+Create better line breaks for URLs by inserting zero-width spaces, but remove space when copied to clipboard
+
+**_plugins/shortcodes/accordion.js**
+**content/_assets/styles/components/accordion.scss**
+Adjusted appearance of accordions copy icon and tooltip
+
+**_plugins/shortcodes/cite.js**
+Return the `id`, highlighted in yellow, if citation is missing in references.yaml
 
 **_plugins/shortcodes/contributors.js**
 Refactor logic to handle oxford commas correctly
@@ -122,20 +162,30 @@ Custom shortcode to display vocabulary pop-ups with definitions and links.
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
-**_plugins/shortcodes/figureRef.js**
-Change to use `{% ref 'fig-4, fig-5, fig-6' %}` instead of `{% ref 'fig-4', 'fig-5', 'fig-6' %}`, add class .q-figure__modal-link to links so they'll open in the modal, remove "and" from list, and trim extra zeros if figure ids.
+**_plugins/shortcodes/objectGroup.js**
+A variant of the figure group shortcode, but creates groups of simple figure thumbnails that are linked to open in the custom iframe viewer.
+
+**_plugins/shortcodes/objectLink.js**
+Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
 
 **_plugins/shortcodes/index.js**
 
-**_plugins/shortcodes/warn.js**
-Custom shortcode to wrap content in a `<div>` with a "warn" class.
+**_layouts/page.liquid**
+**content/_assets/javascript/application/iframe-viewer.js**
+**content/_assets/styles/iframe-viewer.css**
+Add iframe-based image viewer
 
-**_plugins/transforms/outputs/pdf/layout.html**
-**_plugins/transforms/outputs/pdf/write.js**
-Add needed divs and classes for styling pdf.
+**content/_assets/javascript/application/canvas-panel.js**
+Changed historyBehavior to replace instead of push; and rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
+
+**content/_assets/javascript/application/intersection-observer-factory.js**
+Changed rootMargin to 0 for better slide triggering
+
+**content/_assets/javascript/application/index.js**
+Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas; manage loading indicator on case study pages
 
 **content/_computed/eleventyComputed.js**
-Add page tags and presentation values as classes, and contributor_as_it_appears as data item
+Add page tags value as classes, and contributor_as_it_appears as data item
 
 **content/_assets/javascript/custom.js**
 **content/_assets/styles/custom.css**

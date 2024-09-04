@@ -7,6 +7,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the {% def "model" %} to be reproduced and forms the void into which the molten metal will be {% def "cast (v.)" "cast" %}. Investment, green sand, and ceramic shell are examples of refractory molds.'
+definition_has_shortcodes: true
 lang:
   de: Form
   fr: moule réfractaire
@@ -16,7 +17,7 @@ lang:
 
 See figs. 7, 27, 542, 549, 557.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+A temporary, heat-resistant, cohesive, porous mass that captures the fine impression of the {% def "model" %} to be reproduced and forms the void into which the molten metal will be {% def "cast (v.)" "cast" %}. Investment, green sand, and ceramic shell are examples of refractory molds.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: When present, the {% def "core" %} is considered part of the refractory mo
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
+{% objgroup "3", "fig-007, fig-027, fig-542, fig-549, fig-557" %}
 
 ## Sources
 
@@ -35,13 +36,15 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de 
 ## Synonyms
 
 - *fire-resistant mold*
+
 - *heat-resistant mold*
 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Moule en matériau réfractaire pour la {% def "coulée" %}.
 
@@ -75,7 +78,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Sources: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Meyer, Thomas, and Wyss 2014" %}; Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; Historical: {% cite "Félibien 1690" %}, 321; Art and Craft Textbook: {% cite "Rama 1988" %}, 372
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
@@ -87,7 +91,8 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
     Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Also refers to investment
 
@@ -129,10 +134,13 @@ Also refers to investment
 
 - *stampo refrattario*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Ming 2010" %}, 1037
+
+{% endaccordion %}
 
 </div>

@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
+definition_has_shortcodes: true
 lang:
   de: Hämmern
   fr: matage au marteau
@@ -15,7 +16,7 @@ lang:
 
 See fig. 246.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-246" %}
+{% objgroup "3", "fig-246" %}
 
 ## Sources
 
@@ -36,8 +37,9 @@ Copper Industry: {% cite "Palmer 1929" %}, 294
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la {% def "porosité" %} ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
 
@@ -47,28 +49,33 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 {% endbackmatter %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Bol 1985" %}, 142
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
 {% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+TNATD
 
 #### Alternate Translation
 
-- 锤平
+- <span lang="zh">锤平</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+    Source: TNATD
+
+{% endaccordion %}
 
 </div>

@@ -1,6 +1,8 @@
 ---
 layout: page
-class: backmatter about-copyright-page
+classes: 
+  - backmatter 
+  - about-copyright-page
 order: 4
 outputs: [pdf, epub]
 toc: false

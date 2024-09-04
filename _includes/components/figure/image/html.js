@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Allow annotated image ui to display in line on page, not just modal
+//
 const { html } = require('~lib/common-tags')
 const path = require('path')
 
@@ -6,7 +10,7 @@ const path = require('path')
  *
  * @param      {Object} eleventyConfig  eleventy configuration
  * @param      {Object} figure          The figure object
- * 
+ *
  * @return     {String}  HTML containing  a `figureImageElement`, a caption and annotations UI
  */
 module.exports = function(eleventyConfig) {
@@ -19,21 +23,23 @@ module.exports = function(eleventyConfig) {
 
   const { imageDir } = eleventyConfig.globalData.config.figures
 
-  return function(figure) {
-    const { 
+  return async function(figure) {
+    const {
       caption,
       credit,
       id,
+      isSequence,
       label
     } = figure
 
     const annotationsElement = annotationsUI({ figure })
-    const labelElement = figureLabel({ id, label })
+    const labelElement = figureLabel({ id, label, isSequence })
 
     /**
      * Wrap image in modal link
      */
-    const imageElement = figureModalLink({ content: figureImageElement(figure), id })
+    let imageElement = await figureImageElement(figure, { interactive: false })
+    imageElement = figureModalLink({ content: imageElement, id })
 
     const captionElement = figureCaption({ caption, content: labelElement, credit })
 

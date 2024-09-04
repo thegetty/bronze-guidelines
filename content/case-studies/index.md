@@ -3,7 +3,9 @@ title: Case Studies
 order: 300
 layout: table-of-contents
 presentation: grid
-class: section-landing-page
+classes: 
+  - section-landing-page
+  - case-studies-grid
 slug: .
 pdf: false
 epub: false

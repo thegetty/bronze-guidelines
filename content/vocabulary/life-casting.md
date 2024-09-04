@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a {% def "cast (n.)" "cast" %} characterized by its high realism and fine detail. Life-casts are made by encasing the form in a {% def "refractory mold" %} and burning out the form, and are therefore generally solid, though there are some exceptions.'
+definition_has_shortcodes: true
 lang:
   de: Naturabguss
   fr: fonte sur le vif
@@ -15,7 +16,7 @@ lang:
 
 See figs. 11, 27.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Refers specifically to the reproduction of a once-living form (either plant or animal) that results in a {% def "cast (n.)" "cast" %} characterized by its high realism and fine detail. Life-casts are made by encasing the form in a {% def "refractory mold" %} and burning out the form, and are therefore generally solid, though there are some exceptions.
 
 {% backmatter %}
 
@@ -23,7 +24,7 @@ Note: The related term “burn-out method” is used for the replication of nonl
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-011, fig-027" %}
+{% objgroup "3", "fig-011, fig-027" %}
 
 ## Source
 
@@ -42,8 +43,9 @@ Cultural Heritage: {% cite "Smith and Beentjes 2010" %}
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Procédé de fonte consistant à enrober un élément végétal ou animal dans un {% def "moule réfractaire" %}, faire disparaître le modèle par combustion, et remplir de métal liquide le creux ainsi ménagé.
 
@@ -57,7 +59,8 @@ Note: La seule occurrence trouvée dans la littérature ancienne de ce procédé
 
 Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -69,8 +72,10 @@ Cultural Heritage: {% cite "Making and Knowing Project et al. 2020" %}
 
     Source: {% cite "Uhlenhuth 1920" %}, 51–53
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
 
-### **Chinese**: {{ lang.zh }}
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

@@ -6,7 +6,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% ref "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
+definition: 'Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% objlink "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.'
+definition_has_shortcodes: true
 lang:
   de: Wachsmodell
   fr: modèle intermédiaire
@@ -16,7 +17,7 @@ lang:
 
 See figs. 1, 16, 23, 25, 41, 55, 72, 556.{.pdf-figure-list}
 
-{{ definition | hasShortcodes }}
+Replica in wax obtained from the reusable {% def "mold" %} of an original {% def "model" %}. Inter-models are used in indirect {% def "lost-wax casting" %}. Inter-models are often slush molded ({% objlink "fig-016" %}, [Case Study 7](/case-studies/7/).) One inter-model may vary from another through additions or changes made in the wax before the {% def "investment" %} is applied.
 
 {% backmatter %}
 
@@ -24,7 +25,7 @@ Note: The term is subject to dispute among CAST:ING members. Depending on discip
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-001, fig-016, fig-023, fig-025, fig-041, fig-055, fig-072, fig-556" %}
+{% objgroup "3", "fig-001, fig-016, fig-023, fig-025, fig-041, fig-055, fig-072, fig-556" %}
 
 ## Sources
 
@@ -37,8 +38,9 @@ Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite 
 ## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Modèle en cire utilisé dans le procédé indirect de {% def "fonte à la cire perdue" %}, obtenu dans le moule à bon creux.
 
@@ -80,14 +82,17 @@ Cultural Heritage: {% cite "Lamouche 2021" %}
 
     Sources: Cultural Heritage: {% cite "Rolley 1994" %}; {% cite "Bresc-Bautier 1989" %}
 
-### **German**: *{{ lang.de }}*
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
 {% cite "Alscher 1987" %}, 554; {% cite "Mietzsch 2009" %}, 6
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
 
-### **Chinese**: {{ lang.zh }}
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+### **Chinese**: <span lang="zh">{{ lang.zh }}</span>
 
 </div>

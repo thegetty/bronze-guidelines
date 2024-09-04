@@ -9,7 +9,7 @@
 
 # ------------------------------------------------------------------------------
 # The publication's base URL, i.e. 'https://www.my-publication.org'
-url: 'https://second-pages--bronze-guidelines.netlify.app'
+url: 'https://third-pages--bronze-guidelines.netlify.app'
 
 # ------------------------------------------------------------------------------
 # Title & Description
@@ -60,7 +60,7 @@ project_team:
   - Kurt Hauser, *Cover Design*
   - Molly McGeehan, *Production*
   - Kelly Peyton, Nancy Rivera, and Leslie Rollins, *Image and Rights Acquisition*
-  - Dina Murokh, *Digital Assistant*
+  - Erin Cecele Dunicagn and Dina Murokh, *Digital Assistants*
 
 # ------------------------------------------------------------------------------
 # Contributors
@@ -89,7 +89,7 @@ contributor:
     first_name: Francesca G.
     last_name: Bewer
     bio: |
-      Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs and Director, Summer Institute for Technical Studie in Art, Harvard Art Museums, Cambridge, Massachusetts) undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019).
+      Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs and Director, Summer Institute for Technical Studies in Art, Harvard Art Museums, Cambridge, Massachusetts) undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019).
 
   - id: aheginbotham
     type: primary
@@ -217,27 +217,12 @@ subject:
 
 library_of_congress_cip: |
   Library of Congress Cataloging-in-Publication Data
-  - Names: "Bourgarit, David, editor. | Bassett, Jane (Jane L.), editor. | 
-   Bewer, Francesca G. (Francesca Gabrielle), 1960– editor. | Heginbotham, 
-   Arlen, editor. | Lacey, Andrew, 1969– editor. | Motture, Peta, editor. | 
-   J. Paul Getty Museum, issuing body."  
-  - Title: "Guidelines for the technical examination of bronze sculpture / 
-   edited by David Bourgarit, Jane Bassett, Francesca G. Bewer, Arlen 
-   Heginbotham, Andrew Lacey, and Peta Motture."  
-  - Description: "First edition. | Los Angeles : J. Paul Getty Museum, 2023. | 
-   Includes bibliographical references and index. | Summary: “This 
-   illustrated volume offers a new framework for advancing the 
-   understanding of bronze sculpture, explaining how to identify the 
-   evidence of process steps, metals used, casting defects, and surface 
-   work and alterations before moving on to address analytical techniques 
-   ranging from visual exams to imaging, material analyses, and dating”— 
-   Provided by publisher."  
+  - Names: "Bourgarit, David, editor. | Bassett, Jane (Jane L.), editor. | Bewer, Francesca G. (Francesca Gabrielle), 1960– editor. | Heginbotham, Arlen, editor. | Lacey, Andrew, 1969– editor. | Motture, Peta, editor. | J. Paul Getty Museum, issuing body."  
+  - Title: "Guidelines for the technical examination of bronze sculpture / edited by David Bourgarit, Jane Bassett, Francesca G. Bewer, Arlen Heginbotham, Andrew Lacey, and Peta Motture."  
+  - Description: "First edition. | Los Angeles : J. Paul Getty Museum, 2023. | Includes bibliographical references and index. | Summary: “This illustrated volume offers a new framework for advancing the understanding of bronze sculpture, explaining how to identify the evidence of process steps, metals used, casting defects, and surface work and alterations before moving on to address analytical techniques ranging from visual exams to imaging, material analyses, and dating”— Provided by publisher."  
   - Identifiers: LCCN 2022055307 (print) | LCCN 2022055308 (ebook) | ISBN 9781606066904 (paperback) | ISBN 9781606066928 | ISBN 9781606067611 (adobe pdf) | ISBN 9781606066911 (epub)
-  - Subjects: LCSH: Bronze sculpture—Technique. | Bronze 
-   Sculpture—Expertising. | Bronze founding. | Bronze—Analysis. | 
-   Sculpture materials—Analysis. 
-  - Classification: LCC NB1230 .G85 2023  (print) | LCC NB1230  (ebook) | DDC 
-   731.4/56—dc23/eng/20230315 
+  - Subjects: LCSH: Bronze sculpture—Technique. | Bronze Sculpture—Expertising. | Bronze founding. | Bronze—Analysis. | Sculpture materials—Analysis. 
+  - Classification: LCC NB1230 .G85 2023  (print) | LCC NB1230  (ebook) | DDC 731.4/56—dc23/eng/20230315 
   - LC record available at https://lccn.loc.gov/2022055307
   - LC ebook record available at https://lccn.loc.gov/2022055308
 

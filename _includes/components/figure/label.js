@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Removed modal link, line 25
+//
 const { oneLine } = require('~lib/common-tags')
 
 /**
@@ -10,12 +14,15 @@ module.exports = function(eleventyConfig) {
   const markdownify = eleventyConfig.getFilter('markdownify')
   const modalLink = eleventyConfig.getFilter('figureModalLink')
 
-  return function({ id, label }) {
+  return function({ id, label, isSequence }) {
     if (!label) return ''
 
     let content = `<span class="q-figure__label-icon">${icon({ type: 'fullscreen', description: 'Expand' })}</span>`
+    if (isSequence) {
+      content += `<span class="q-figure__label-icon">${icon({ type: 'rotation', description: 'Click and drag to rotate' })}</span>`
+    }
     content += `<span class="q-figure__label-text">${markdownify(label || '')}</span>`
-    content = modalLink({ content, id })
+    // content = modalLink({ content, id })
 
     const labelElement = `<span class="q-figure__label q-figure__label--below">
       ${content}
