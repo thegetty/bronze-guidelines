@@ -99,7 +99,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 - <span lang="zh">浇铸</span>
 
-    Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
+    Sources: {% cite "Ming 2010" %}, 741; TNATD
 
 {% endaccordion %}
 

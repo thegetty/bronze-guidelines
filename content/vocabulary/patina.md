@@ -15,7 +15,7 @@ lang:
   zh: 古色
 ---
 
-See figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 503.{.pdf-figure-list}
+See figs. 293, 306, 307, 308, 309, 313, 314, 323, 326, 328, 332, 338, 500.{.pdf-figure-list}
 
 The term has at least three different meanings: 1) a pleasing surface alteration acquired over time—whether on a {% def "bronze" %} or marble sculpture, furniture, or a painting—that may add aesthetic value; 2) the chemical transformation of a metal surface; to a mineral layer (sometimes referred to as chemical patina, see {% def "corrosion" %}) that usually has a different color from and reduces the bright metallic reflectance of the polished original {% def "cast (v.)" "cast" %} surface; or 3) (as opposed to chemically induced patinas) organic {% def "coatings" %} such as resin, lacquer, oil, wax, or synthetic resins applied to the surface of metals that can change the color, texture, saturation, and/or reflectance.
 
@@ -25,7 +25,7 @@ Note: Some researchers do not consider applied organic coatings part of the pati
 
 {% endbackmatter %}
 
-{% objgroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-503" %}
+{% objgroup "3", "fig-293, fig-306, fig-307, fig-308, fig-309, fig-313, fig-314, fig-323, fig-326, fig-328, fig-332, fig-338, fig-500" %}
 
 ## Sources
 
@@ -93,19 +93,19 @@ This term is more commonly used in art historical references and means “an age
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “green corrosion on copper” and is used specifically for ancient works.
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
+    Source: TNATD
 
 - <span lang="zh">铜锈</span>
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/643113/%3findex=3)
+    Source: TNATD
 
 - <span lang="zh">陈年色泽</span>
 
     More commonly used in art historical references, meaning “an aged surface accumulated over time”
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3610266/?index=6)
+    Source: TNATD
 
 {% endaccordion %}
 

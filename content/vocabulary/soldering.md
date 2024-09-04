@@ -108,7 +108,7 @@ A subset of *saldatura*
 
 #### Sources
 
-{% cite "Ming 2010" %}, 596; [TNATD](https://terms.naer.edu.tw/detail/993229/?index=4)
+{% cite "Ming 2010" %}, 596; TNATD
 
 {% endaccordion %}
 

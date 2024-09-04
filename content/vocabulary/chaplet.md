@@ -141,7 +141,7 @@ Note: This term has several translations, including “chaplet,” “shim,” �
 
 - <span lang="zh">芯撐</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/1262400/?index=4)
+    Source: TNATD
 
 - <span lang="zh">金属撑子</span>
 

@@ -127,7 +127,7 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
 - <span lang="zh">销钉</span>
 
-    Sources: {% cite "Ming 2010" %}, 1559; [TNATD](https://terms.naer.edu.tw/detail/625481/?index=3)
+    Sources: {% cite "Ming 2010" %}, 1559; TNATD
 
 {% endaccordion %}
 

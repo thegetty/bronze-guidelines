@@ -69,7 +69,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Sources
 
-{% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
+{% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
 #### Alternate Translations
 

@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Allow annotated images to display in line on page, not just modal
+//
 /**
  * Renders an image
  *
@@ -28,11 +32,7 @@ module.exports = function (eleventyConfig) {
           return await imageSequence(figure, options)
         }
       case isCanvas:
-        if (!interactive && staticInlineFigureImage) {
-          return imageTag({ alt, src: staticInlineFigureImage, isStatic: !interactive })
-        } else {
-          return canvasPanel(figure)
-        }
+        return canvasPanel(figure)
       case isImageService:
         if (!interactive && staticInlineFigureImage) {
           return imageTag({ alt, src: staticInlineFigureImage, isStatic: !interactive })

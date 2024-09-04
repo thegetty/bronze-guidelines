@@ -78,7 +78,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 275; {% cite "Rama 1988" %},
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1313; [TNATD](https://terms.naer.edu.tw/detail/941509/?index=5)
+{% cite "Ming 2010" %}, 1313; TNATD
 
 {% endaccordion %}
 

@@ -68,13 +68,13 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+TNATD
 
 #### Alternate Translation
 
 - <span lang="zh">锤平</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+    Source: TNATD
 
 {% endaccordion %}
 

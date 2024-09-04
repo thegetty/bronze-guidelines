@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Added removeHTML to strip tags that were breaking the markup
+//
 const { html } = require('~lib/common-tags')
 
 /**
@@ -13,6 +17,7 @@ module.exports = function(eleventyConfig) {
   const figureLabel = eleventyConfig.getFilter('figureLabel')
   const tableElement = eleventyConfig.getFilter('figureTableElement')
   const markdownify = eleventyConfig.getFilter('markdownify')
+  const removeHTML = eleventyConfig.getFilter('removeHTML')
 
   return async function({ caption, credit, id, label, src }) {
     const table = await tableElement({ src })
@@ -25,7 +30,7 @@ module.exports = function(eleventyConfig) {
       <a
         class="q-figure__modal-link"
         href="#${id}"
-        title="${title}"
+        title="${removeHTML(title)}" 
       >
         ${table}
       </a>

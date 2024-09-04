@@ -95,6 +95,8 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
+- *fusione a terra*
+
 - *fusione alla sabbia*
 
     A little more common than *a staffa*

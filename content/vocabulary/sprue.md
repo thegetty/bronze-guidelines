@@ -6,7 +6,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.<span class="is-print-only">(figs. 44, 46, 71, 86, 124, 539)</span>'
+definition: 'Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.'
 definition_has_shortcodes: true
 lang:
   de: Gusskanal
@@ -48,7 +48,7 @@ Conduit dans le {% def "moule réfractaire" %} pour le remplissage du moule par 
 
 {% backmatter %}
 
-Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la {% def "coulée" %}, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent un nom spécifique, évents ({% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Launay 1827" %}, 2:264;{% cite "Gonon 1876" %}, 5;  {% cite "Baudry and Bozo 1978" %}, 627; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Rama 1988" %}, 254, 373; {% cite "Rolley 1994" %}, 66; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry and Bozo 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
+Note: Dans la zone d’arrivée du métal dans le moule réfractaire est aménagé un « cône de coulée » pour faciliter la {% def "coulée" %}, et qui sert également de « masselote ». Les conduits servant pour l’évacuation des gaz portent un nom spécifique, évents ({% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}, 39–42; {% cite "Mariette 1768" %}, 70–75; {% cite "Launay 1827" %}, 2:264; {% cite "Gonon 1876" %}, 5;  {% cite "Baudry and Bozo 1978" %}, 627; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Rama 1988" %}, 254, 373; {% cite "Rolley 1994" %}, 66; {% cite "Lambert 2002" %}, 269; {% cite "Dubos 2003" %}; {% cite "Lebon 2012" %}). Pour l’évacuation de la cire on parle de tire–cire ({% cite "Baudry and Bozo 1978" %}, 763). Certains auteurs emploient le terme d’artifices de fonderie ({% cite "Saussus and Thomas 2019" %}, 59; {% cite "Lambert 2002" %}, 27). Pour certains d’entre eux ({% cite "Saussus and Thomas 2019" %}), les artifices de fonderie désignent également, dans le cas de moules à pièces, les éléments servant au positionnement des moules (artifices de centrage).
 
 {% endbackmatter %}
 
@@ -104,7 +104,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Bruni 1994" %}, 72–73
+{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Bruni 1994" %}, 72–73
 
 #### Alternate Translations
 
@@ -172,9 +172,9 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 - *sfiatatoio*
 
-    Refers to vent; alternative modern term: *sfiato*; alternative early Italian: *sfiatatoro
+    Refers to vent; alternative modern term: *sfiato*; alternative early Italian: *sfiatatoro*
 
-    Sources: {% cite "Battaglia 1961" %}, under [*sfiatatoio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoi) [definition 1]; {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81,89-89v
+    Sources: {% cite "Battaglia 1961" %}, under [*sfiatatoio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoi) [definition 1]; {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81, 89-89v
 
 - *spiraculo*
 
@@ -187,25 +187,25 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+TNATD
 
 #### Alternate Translations
 
 - <span lang="zh">浇口</span>
 
-    Sources: {% cite "Ming 2010" %}, 740; [TNATD](https://terms.naer.edu.tw/detail/11560594/?index=8)
+    Sources: {% cite "Ming 2010" %}, 740; TNATD
 
 - <span lang="zh">竖浇道</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/941804/?index=1)
+    Source: TNATD
 
 - <span lang="zh">铸口</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+    Source: TNATD
 
 - <span lang="zh">铸道</span>
 
-    Source: [TNATD](https://terms.naer.edu.tw/detail/3505809/?index=5)
+    Source: TNATD
 
 {% endaccordion %}
 

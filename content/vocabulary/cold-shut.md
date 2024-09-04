@@ -101,7 +101,7 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 #### Source
 
-[TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
+TNATD
 
 #### Alternate Translations
 
@@ -115,7 +115,7 @@ Historical: {% cite "Guettier 1858" %}, notice 616, pp. 322–23
 
 - <span lang="zh">流界</span>
 
-    Source: [TNATD](http://terms.naer.edu.tw/detail/627912/?index=1)
+    Source: TNATD
 
 {% endaccordion %}
 

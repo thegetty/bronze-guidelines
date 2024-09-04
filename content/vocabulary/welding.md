@@ -88,7 +88,7 @@ Often specified by *a fusione* or *per fusione*
 
 #### Sources
 
-{% cite "Ming 2010" %}, 1211; [TNATD](https://terms.naer.edu.tw/detail/633942/?index=4)
+{% cite "Ming 2010" %}, 1211; TNATD
 
 {% endaccordion %}
 

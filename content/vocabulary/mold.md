@@ -99,7 +99,9 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 - *forma*
 
-    General and also {% def "investment" %} mold | Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General and also {% def "investment" %} mold
+    
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
 - *stampo*
 

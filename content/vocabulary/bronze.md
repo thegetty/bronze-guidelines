@@ -63,7 +63,7 @@ Historical: {% cite "Diderot et al. 1751" %}, 2:436–43, entry « bronze »; 
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 372; {% cite "Lambert 2002" %}, 266
 
-General Dictionary: {% cite "Office québécois de la langue française. n.d." %}
+General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 #### Alternate Translations
 

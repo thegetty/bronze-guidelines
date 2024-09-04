@@ -74,11 +74,23 @@ While it is a core principle of Quire for all content to only exist in one place
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
 
+**_includes/components/figure/modal-link.js**
+**_includes/components/figure/label.js**
+**_includes/components/figure/video/element.js**
+Linked figures to iframe viewer rather than modal
+
 **_includes/components/figure/video/element.js**
 Added Poster image to Vimeo output so that could show poster on page, and iframe embed in modal.
 
+**_includes/components/figure/image/element.js**
+**_includes/components/figure/image/html.js**
+Allow annotated images to display in line on page, not just modal
+
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
+
+**_includes/components/figure/table/index.js**
+Added removeHTML to strip tags that were breaking the markup
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
@@ -93,7 +105,7 @@ Added class to enable styling in modal vs. inline
 Removed title truncation in navbar, and show section titles/links in center instead of home page link
 
 **_includes/components/object-filters/object-card/object-image.webc**
-Fixed source of thumbnails for videos
+Fixed source of thumbnails for videos and embeds/tables
 
 **_includes/components/page-header.js**
 **_includes/components/table-of-contents/item/list.js**
@@ -156,9 +168,6 @@ A variant of the figure group shortcode, but creates groups of simple figure thu
 **_plugins/shortcodes/objectLink.js**
 Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
 
-**_plugins/shortcodes/open.js**
-Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' %}` instead of `{% open 'fig-4', 'fig-5', 'fig-6' %}`; add class ``.q-figure__modal-link`` to links so they'll open in the modal; remove "and" from list; and trim extra zeros if figure ids.
-
 **_plugins/shortcodes/index.js**
 
 **_layouts/page.liquid**
@@ -166,8 +175,14 @@ Based on old `ref` shortcode, but changed to use `{% open 'fig-4, fig-5, fig-6' 
 **content/_assets/styles/iframe-viewer.css**
 Add iframe-based image viewer
 
+**content/_assets/javascript/application/canvas-panel.js**
+Changed historyBehavior to replace instead of push; and rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
+
+**content/_assets/javascript/application/intersection-observer-factory.js**
+Changed rootMargin to 0 for better slide triggering
+
 **content/_assets/javascript/application/index.js**
-Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas
+Add script for iframe-based image viewer; allow only one pop-up to be open at a time; fix max-width of pop-ups, especially for narrower Visual Atlas text areas; manage loading indicator on case study pages
 
 **content/_computed/eleventyComputed.js**
 Add page tags value as classes, and contributor_as_it_appears as data item

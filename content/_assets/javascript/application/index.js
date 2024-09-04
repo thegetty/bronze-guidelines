@@ -4,6 +4,7 @@
 // Allow only one pop-up to be open at a time
 // Fix max-width of pop-ups, especially for narrower Visual Atlas text areas
 // Added copyURL() function to strip zero-width spaces from URLs on copy
+// Manage loading indicator for case study pages
 //
 /**
  * @fileOverview
@@ -397,6 +398,18 @@ globalSetup()
 window.addEventListener('load', () => {
   pageSetup()
   scrollToHash(window.location.hash, 75, 'swing')
+
+  // hide loading indicator a given time
+  const loadingIndicator = document.getElementById('case-study-loading-indicator')
+  if (loadingIndicator) {
+    setTimeout(() => {
+      loadingIndicator.style.opacity = "0"
+    }, 9000);
+    setTimeout(() => {
+      loadingIndicator.style.display = "none"
+    }, 10000);
+  }
+  
   const params = parseQueryParams()
   /**
    * Accordion Setup

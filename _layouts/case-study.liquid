@@ -1,6 +1,6 @@
 ---
 ## CUSTOMIZED FILE -- Bronze Guidelines
-## copy of entry.liquid but used standard pageHeader,
+## copy of entry.liquid but used standard pageHeader, and adds iframe viewer
 ## and removes page bibliography, abstract & tombstone
 ## also adds an onscroll annoref link to the header to reset the view
 ## when scrolling back up
@@ -83,4 +83,18 @@ Entry content, including entry image and tombstone data
       </div>
     </section>
   </div>
+</div>
+<div class="iframe_viewer" id="iframe-viewer" style="display:none;">
+  <div class="iframe_viewer__nav-buttons" id="iframe-nav"></div>
+  <div class="iframe_viewer__controls">
+    <a class="iframe-control--close" aria-label="Close" onclick="toggleViewer()">{% icon type='close', description='Close image viewer' %}</a>
+    <a class="iframe-control--share" id="iframe-share" aria-label="Copy link" onclick="copyLink()" data-baseurl="{{ publication.url }}">{% icon type='link', description='Copy link' %}</a>
+    <a class="iframe-control--toggle-size" id="iframe-toggle-size" style="display:none;" aria-label="Change text size" onclick="toggleTextSize('iframe')">{% icon type='text-size', description='Toggle text size' %}</a>
+    <span id="iframe-control-tooltip" style="display:none;"></span>
+  </div>
+  <iframe class="iframe_viewer__iframe" id="object-iframe" name="object-iframe" style="display:none;"></iframe>
+  <span id="iframe-loading-indicator" style="display:block;">Loading ...</span>
+</div>
+<div id="case-study-loading-indicator" style="display:flex; opacity: 0.8;" data-outputs-exclude="epub,pdf">
+  <span>Loading ...</span>
 </div>

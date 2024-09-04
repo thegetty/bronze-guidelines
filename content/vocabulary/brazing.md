@@ -98,7 +98,7 @@ A subset of *saldatura*
 {% accordion chinese "zh" %}
 
 #### Sources
-{% cite "Ming 2010" %}, 1684; [TNATD](https://terms.naer.edu.tw/detail/637816?index=1)
+{% cite "Ming 2010" %}, 1684; TNATD
 
 #### Alternate Translations
 
@@ -108,7 +108,7 @@ A subset of *saldatura*
 
 - <span lang="zh">铜焊</span>
 
-    Sources: [TNATD](https://terms.naer.edu.tw/detail/637816/?index=1); {% cite "Ming 2010" %}, 1436
+    Sources: TNATD; {% cite "Ming 2010" %}, 1436
 
 {% endaccordion %}
 
