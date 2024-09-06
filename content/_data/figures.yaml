@@ -76,7 +76,7 @@ figure_list:
     visual_atlas: false
     # zoom: true
     label: "Figures 34, 97, and 524"
-    caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. From left to right: Barthélemy Prieur (French, ca. 1536–1611), *Abundance* (Figure 34), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681);  Martin Lefort (French, dates unknown), *Justice* (Figure 97), 1571, H. 128 cm (Musée du Louvre, inv. MR1682); Barthélemy Prieur (French, ca. 1536–1611), *Peace* (Figure 524), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683)."
+    caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. From left to right: Barthélemy Prieur (French, 1536–1611), *Abundance* (Figure 34), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681);  Martin Lefort (French, dates unknown), *Justice* (Figure 97), 1571, H. 128 cm (Musée du Louvre, inv. MR1682); Barthélemy Prieur (French, 1536–1611), *Peace* (Figure 524), cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683)."
     annotations:
       - input: radio
         items:
@@ -147,14 +147,14 @@ figure_list:
     src: "figures/002.jpg"
     zoom: true
     label: "Figure 2"
-    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the experimental reconstruction of *Mars* by Andrew Lacey (British, b. 1969), 1997, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
+    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the reconstruction of *Mars* by Andrew Lacey (British, b. 1969), 1997, based on a bronze after a model by Giambologna (Flemish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
 
   - id: "fig-003"
     # src: "figures/003.png"
     src: "figures/003.jpg"
     zoom: true
     label: "Figure 3"
-    caption: "Graph showing the impact of a lost-wax sculpture’s size on the time needed for the different steps in the fabrication process. The data are based on records gathered between 1973 and 2006 kindly provided by Jean Dubos, director of Fonderie de Coubertin, and are based on the casting of a standing nude man, whatever the model. The duration is given in person-hours and only factors in working hours; the time needed for drying and baking of the investment, for instance, is not taken into account here, although those steps can take a long time (as shown in [table 1](/tables/01/)). Also, the more people working simultaneously on a bronze, the quicker the completion (again see [table 1](/tables/01/))."
+    caption: "Graph showing the impact of a lost-wax sculpture’s size on the time needed for the different steps in the fabrication process. The data are based on records gathered between 1973 and 2006 kindly provided by Jean Dubos, director of Fonderie de Coubertin, related to the casting of a standing nude man, whatever the model. The duration is given in person-hours and only factors in working hours; the time needed for drying and baking of the investment, for instance, is not taken into account here, although those steps can take a long time (as shown in [table 1](/tables/01/)). Also, the more people working simultaneously on a bronze, the quicker the completion (again see [table 1](/tables/01/))."
 
   - id: "fig-004"
     src: "figures/004.jpg"
@@ -207,7 +207,7 @@ figure_list:
     src: "figures/007.jpg"
     zoom: true
     label: "Figure 7"
-    caption: "Pouring layers of ceramic shell slurry onto the sprued wax of the horse’s head. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
+    caption: "Building up the ceramic shell mold by repeatedly dipping the wax inter-model into colloidal silica slurry then coating that wet layer with one of larger refractory particles to build up a thick composite layer that will form a “ceramic shell” through sintering of the colloidal particles. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-008"
     src: "figures/008/base.jpg"
@@ -216,12 +216,12 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 8"
-    caption: "View of the inside cavity showing remnants of the casting core composed by pre-baked bricks (see overlay) and clayey refractory material. See also the iron armature rods and wires (image width ~50 cm). Barthélemy Prieur (French, ca. 1536–1611), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle et al. 2021."
+    caption: "View of the inside of the hollow sculpture that has been partially cleaned out of its core. The cavity preserves some of the iron armature rods and wires as well as remnants of baked bricks that would have been embedded in the clay-based, refractory core mixture (image width ~50 cm). Barthélemy Prieur (French, 1536–1611), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle et al. 2021."
     annotations:
       - input: checkbox
         items:
           - src: "figures/008/armature.png"
-            label: "Armature"
+            label: "Iron Armature"
             selected: true
           - src: "figures/008/brick-a.png"
             label: "Brick A"
@@ -230,7 +230,7 @@ figure_list:
             label: "Brick B"
             selected: true
           - src: "figures/008/clay.png"
-            label: "Clay"
+            label: "Clay Core Remains"
             selected: true
 
   - id: "fig-009"
@@ -239,7 +239,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 9"
-    caption: "Diagram depicting a version of the main steps in sand casting: 1) a chef-modèle or pattern is a specially designed model for sand casting made of a hard material—often metal—to withstand the repeated handling and ramming of sand within a multipart, stacked metal or wooden frame called a casting flask; 2) the pattern is buried about halfway in backing sand in a first section of the flask called the cope; piece mold sections are built up over the model with carefully rammed special casting sand whose naturally occurring binder, clay, helps the compacted sand to hold the desired shape; 3) once the exposed part of the pattern is covered with mold pieces, the second section of the flask, or “drag,” is affixed to the cope and the piece molded side is back filled with carefully rammed sand; 4) the tightly packed flask is flipped; the cope and backing sand, now on top, are removed to provide access for a similar piece molding process to be performed on the other side of the chef-modèle; 5) the two-part casting flask is parted and the mold pieces carefully disassembled to remove the pattern; 6) to make a hollow cast, a core must be created to define the thickness of the bronze walls; this is made by ramming the same special casting sand into the hollow impression left by the chef-modèle; metal core supports are incorporated into the new sand; the cope and drag are joined, thereby creating a sand replica; 7) the flask is opened again and the sand replica is removed and shaved down evenly overall to form the core; white areas indicate hollow spaces for metal to fill; the thin legs in this case will be solid, and so will not need a core; 8) the sand mold and core are baked, then carefully reassembled in the cope and drag; the core supports projecting from the core serve to suspend the core in place; channels are cut strategically into the mold to ensure the efficient distribution and flow of the metal and venting of air; 9) the cope and drag are reassembled and locked together, and the metal alloy, which has in the meantime been liquefied, is poured into the mold; 10) once the metal has solidified and cooled, the sand mold is broken open and the bronze cast removed; the metal sprues that have formed in the channels are cut off; and the surface is cleaned and repaired as needed; 11) the bronze surface may be reﬁnished with details before joining the separately cast arms and base. As a final step, a patina may be applied. Diagram based on Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14). See [Case Study 6](/case-studies/6/)."
+    caption: "Diagram depicting a version of the main steps in sand casting: 1) a chef-modèle or pattern is a specially designed model for sand casting made of a hard material—often metal—to withstand the repeated handling and ramming of sand within a multipart, stacked metal or wooden frame called a casting flask; 2) the pattern is buried about halfway in backing sand in a first section of the flask called the cope; piece mold sections are built up over the model with carefully rammed special casting sand whose naturally occurring binder, clay, helps the compacted sand to hold the desired shape; 3) once the exposed part of the pattern is covered with mold pieces, the second section of the flask, or “drag,” is affixed to the cope and the piece molded side is back filled with carefully rammed sand; 4) the tightly packed flask is flipped; the cope and backing sand, now on top, are removed to provide access for a similar piece molding process to be performed on the other side of the chef-modèle; 5) the two-part casting flask is parted and the mold pieces carefully disassembled to remove the pattern; 6) to make a hollow cast, a core must be created to define the thickness of the bronze walls; this is made by ramming the same special casting sand into the hollow impression left by the chef-modèle; metal core supports are incorporated into the new sand; the cope and drag are joined, thereby creating a sand replica; 7) the flask is opened again and the sand replica is removed and shaved down evenly overall to form the core; white areas indicate hollow spaces for metal to fill; the thin legs in this case will be solid, and so will not need a core; 8) the sand mold and core are baked, then carefully reassembled in the cope and drag; the core supports projecting from the core serve to suspend the core in place; channels are cut strategically into the mold to ensure the efficient distribution and flow of the metal and venting of air; 9) the cope and drag are reassembled and locked together, and the metal alloy, which has in the meantime been liquefied, is poured into the mold; 10) once the metal has solidified and cooled, the sand mold is broken open and the bronze cast removed; the metal sprues that have formed in the channels are cut off; and the surface is cleaned and repaired as needed; 11) if a bronze is cast in numerous sections, or separately from a base, it will be joined at this stage. The final steps may consist in refinishing of the metal surface and coloration through the application of a chemical patina or some form of coating. Diagram based on Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14). See [Case Study 6](/case-studies/6/)."
     # annotations: true
 
   - id: "fig-010"
@@ -283,7 +283,7 @@ figure_list:
     src: "figures/015.jpg"
     zoom: true
     label: "Figure 15"
-    caption: "Plaster molding of the 3D resin print of the head of *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the separate sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/017/), [19](/visual-atlas/019/), [24](/visual-atlas/024/)). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Plaster molding of the 3D resin print of the head of *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. Top left: plasticine (black) is used to mark the sections of the piece mold on the resin head (yellow). Top middle and right: plaster is applied to the model in sections. Bottom left: the completed piece mold. Bottom middle: the sections of the mold are separated. Wax or clay will be applied on the internal surface by different methods (slabs, painting, balls, see [figs. 17](/visual-atlas/017/), [19](/visual-atlas/019/), [24](/visual-atlas/024/)). Bottom right: the reassembled piece mold is used for slush molding. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
   - id: "fig-016"
     # src: "figures/016.png"
@@ -320,7 +320,7 @@ figure_list:
     src: "figures/020.jpg"
     zoom: true
     label: "Figure 20"
-    caption: "Example of a very regular and thin metallic wall (~2 mm) on a large bronze. See also the hair made on the wax model via the addition of rolled wax threads and rods. Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See Mille et al. 2010; Mille et al. 2012."
+    caption: "Example of a very regular and thin metallic wall (~2 mm) on a large bronze. See also the hair made on the wax model via the addition of rolled wax threads and rods. Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See Mille et al. 2010."
 
   - id: "fig-021"
     src: "figures/021.jpg"
@@ -341,7 +341,7 @@ figure_list:
     zoom: true
     class: pdf-65-percent-float
     label: "Figure 23"
-    caption: "Diagram of a version of the lasagna technique. 1) a plaster piece mold is built up in sections around the clay model; 2) the reusable mold is disassembled; 3) sections of the mold are lined with sheets of clay that Cellini referred to as “lasagna” and that create the space to be filled eventually by bronze; 4) a fire-resistant clay core is built up around an iron armature to fit snugly into the lasagna-lined mold and dried; 5) the piece mold is disassembled in order to remove the lasagna; 6) the core is baked and reinforced by binding with wires; the fired core and plaster piece mold are assembled; the armature and mold extension at the base help to preserve the space created by the lasagna; 7) molten wax poured into the space between the core and the piece mold creates the inter-model; when freed from the mold it is reworked to the artist’s liking; 8) the sprue system is joined to the inter-model and invested with refractory mold material; 9) the mold is then heated until dry and all traces of wax are burned out; 10) molten bronze is poured into the baked mold until it is full; 11) when the metal has cooled, the refractory mold is broken away, the armature and core removed, and the sprue system cut off; 12) separately cast parts, such as a base, may be added at this stage, and the surface color may be enhanced by various means, including patination or gilding. Sketch based on Benvenuto Cellini (Italian 1500–1571), *Bust of Bindo Altoviti*, 1549, H. 85.2 cm (Isabella Stewart Gardner Museum inv. S26e21). See Bewer and MacNamara 2012."
+    caption: "Diagram of a version of the lasagna technique. 1) a plaster piece mold is built up in sections around the clay model; 2) the reusable mold is disassembled; 3) sections of the mold are lined with sheets of clay that Cellini referred to as “lasagna” and that create the space to be filled eventually by bronze; 4) a fire-resistant clay core is built up around an iron armature to fit snugly into the lasagna-lined mold and then dried; 5) the piece mold is disassembled in order to remove the lasagna; 6) the core is baked and reinforced by binding with wires; the fired core and plaster piece mold are assembled; the armature and mold extension at the base help to preserve the space created by the lasagna; 7) molten wax poured into the space between the core and the piece mold creates the inter-model; when freed from the mold it is reworked to the artist’s liking; 8) the sprue system is joined to the inter-model and invested with refractory mold material; 9) the mold is then heated until dry and all traces of wax are burned out; 10) molten bronze is poured into the baked mold until it is full; 11) when the metal has cooled, the refractory mold is broken away, the armature and core removed, and the sprue system cut off; 12) separately cast parts, such as a base, may be added at this stage, and the surface color may be enhanced by various means, including patination or gilding. Sketch based on Benvenuto Cellini (Italian 1500–1571), *Bust of Bindo Altoviti*, 1549, H. 85.2 cm (Isabella Stewart Gardner Museum inv. S26e21). See Bewer and MacNamara 2012."
     # annotations: true
 
   - id: "fig-024"
@@ -349,7 +349,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 24"
-    caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
+    caption: "Application of clay sheets (lasagna) on the internal surface of one half of a plaster mold for the bronze reproduction of the head of the *Apollo of Lillebonne* during the 2016 CAST:ING meeting, Coubertin foundry, France. The height is 18 cm (two-thirds of the original size). Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [figs. 23](/visual-atlas/023/) and [288](/visual-atlas/288/)."
 
   - id: "fig-025"
     # src: "figures/025.png"
@@ -366,7 +366,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 26"
-    caption: "Diagram depicting a speculative version of the ancient Chinese piece mold casting process: 1) a model of the You vessel with lid is prepared out of loess (a fine-grained refractory soil found throughout northern China) and baked dry; 2) the piece mold segments need to account for undercuts in the model; half of the upper part is covered in loess to form the first section of the mold; it is smoothed and keyed to ensure alignment of the next section; 3) the second section of the mold is built up alongside the first and allowed to dry and harden; the mold segments are carefully removed from the model; 4) in order to make the core, the top two pieces of the mold are reassembled and packed tightly with loess to form a replica of the original model and to add a base; 5) the mold is opened and the outer surface of the loess replica is cut back (pared down) to create a core that, once repositioned in the outer mold, will help define the space to be filled with molten metal; 6) at this stage additional details can be carved into the face of the mold; 7) the mold sections are reassembled around the core and a funnel/gate is cut into the mold; the assembled mold is baked until dry and filled with molten bronze; 8) the mold is removed and the gate cut off; except for some basic removal of flashing and sprues, the surface would be merely polished; 9) the bronze lid and body of the vessel (produced by the same process) are fine-tuned to fit perfectly."
+    caption: "Diagram depicting a speculative version of the ancient Chinese piece mold casting process: 1) a model of the You vessel with lid is prepared out of loess (a fine-grained refractory soil found throughout northern China) and baked dry; 2) the piece mold segments need to account for undercuts in the model; half of the upper part is covered in loess to form the first section of the mold; it is smoothed and keyed to ensure alignment of the next section; 3) the second section of the mold is built up alongside the first and allowed to dry and harden; the mold segments are carefully removed from the model; 4) in order to make the core, the top two pieces of the mold are reassembled and packed tightly with loess to form a replica of the original model and to add a base; 5) the mold is opened and the outer surface of the loess replica is cut back (pared down) to create a core that, once repositioned in the outer mold, will help define the space to be filled with molten metal; 6) at this stage additional details can be carved into the face of the mold; 7) the mold sections are reassembled around the core and a funnel/gate is cut into the mold; the assembled mold is baked until dry and filled with molten bronze; 8) the mold is removed and the gate cut off; except for some basic removal of flashing and sprues, the surface would merely be polished; 9) the bronze lid and body of the vessel (produced by the same process) are fine-tuned to fit perfectly."
     # annotations: true
 
   - id: "fig-027"
@@ -374,7 +374,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 27"
-    caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster refractory mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have gotten lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](/vol-1/3/). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
+    caption: "Andrew Lacey’s life-cast of a lizard. Top left: the lizard is sprued in the bottom of the mold. Top right: top part of the plaster refractory mold with the lizard still in. Bottom left: detail of the plaster mold once the lizard was partially removed by burning. Bottom right: detail of the cast bronze. The cast of the lizard was made in a mold designed in parts to remove any remaining bones or ash. Had it not been, some of these remains might have become lodged in the metal and formed an inclusion that could result in a lacuna in the cast. See [I.3](/vol-1/3/). Andrew Lacey (British, b. 1969), *Life Cast of a Lizard*, cast by the artist in 2015, Devon, UK, L. 15 cm (Victoria and Albert Museum, inv. NCOL.517-2015)."
 
   - id: "fig-028"
     # src: "figures/028.png"
@@ -382,7 +382,7 @@ figure_list:
     zoom: true
     class: pdf-full-width
     label: "Figure 28"
-    caption: "Diagram depicting a version of the direct wax-slab process: 1) the main shape of the griffin head casting model is formed of wax slabs that are cut into their proper shapes; the raised shapes of the upper and lower eyelids are formed by pressing the slabs out, producing recesses on the reverse; 2) the wax elements are joined with a heated tool to form a hollow head; 3) the hollow wax griffin head is filled with a refractory clay core material; the eye cavities are cut out and ledges formed on the interior to support inlays that will later fill the voids; 4) details are added to the wax; these include incised lines around the eyes and a scaly pattern formed with punches; the solid wax tongue, ears, and top knob are joined to the head; 5) the sprue system is joined to the model; 6) the wax model is invested in a refractory mold that is heated until dry and all traces of wax are burned out; the openings in the eyes and the neck act as core extensions, preserving the space between the core and the outer mold; 7) the mold is filled with molten bronze; 8) when cool, the cast is broken out of the mold, and the sprue system is removed; 9) the bronze is then chased and in this example the eyes inlaid. Diagram based on Mattusch 1990."
+    caption: "Diagram depicting a version of the direct wax-slab process: 1) the main shape of the griffin head casting model is formed of wax slabs that are cut into their proper shapes; the raised shapes of the upper and lower eyelids are formed by pressing the slabs out, producing recesses on the reverse; 2) the wax elements are joined with a heated tool to form a hollow head; 3) the hollow wax griffin head is filled with a refractory clay core material; the eye cavities are cut out and ledges formed on the interior to support inlays that will later fill the voids; 4) details are added to the wax; these include incised lines around the eyes and a scaly pattern formed with punches; the solid wax tongue, ears, and top knob are joined to the head; 5) the sprue system is joined to the model; 6) the wax model is invested in a refractory mold that is heated until dry and all traces of wax are burned out; the openings in the eyes and the neck act as core extensions (see [I.1§3.2](/vol-1/1/#s3-2)), preserving the space between the core and the outer mold; 7) the mold is filled with molten bronze; 8) when cool, the cast is broken out of the mold, and the sprue system is removed; 9) the bronze is then chased and in this example the eyes inlaid. Diagram based on Mattusch 1990."
     # annotations: true
 
   - id: "fig-029"
@@ -396,7 +396,7 @@ figure_list:
     src: "figures/030.jpg"
     zoom: true
     label: "Figure 30"
-    caption: "Various images from a Harvard University January-term bronze casting course (2012) led by Francesca G. Bewer showing the process of carving into a resin-bonded sand mold, and the textures and details on the resulting bronzes."
+    caption: "Images from a 2012 Harvard University January-term bronze-casting course led by Francesca G. Bewer showing the participants' carved, open-faced, resin-bonded sand molds that were painted with graphite powder before casting and the resulting bronze reliefs."
 
   - id: "fig-031"
     src: "figures/031/base.jpg"
@@ -454,7 +454,7 @@ figure_list:
     zoom: true
     class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 34"
-    caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography showing the wire wrapping the core. Note how complex the image is due to the numerous overlaps, for instance of the drapery. Barthélemy Prieur (French, ca. 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](/case-studies/5/)."
+    caption: "Overlaying the daylight photograph and the X-radiograph of a sculpture helps to separate out forms that are part of the visible composition (e.g., folds of the drapery or overlapping body parts) from information about the internal structure (such as the joint in the neck, the armature, and the wire wrapping the core of the right arm) shown in the layer with the interpretive diagram. Barthélemy Prieur (French, 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681). See [Case Study 5](/case-studies/5/)."
     annotations:
       - input: radio
         items:
@@ -525,7 +525,7 @@ figure_list:
     static_inline: "figures/static-inline/038.jpg"
     zoom: true
     label: "Figure 38"
-    caption: "Endoscope image of the inside cavity revealing a particular type of chaplet (approx. H. 1 cm). Martin Lefort (French, dates unknown), *Justice*, 1571, H. of chaplet 128 cm (Musée du Louvre, inv. MR1682). See Castelle et al. 2021."
+    caption: "Endoscope image of a detail from the inner surface of the figure showing a distinctive kind of chaplet that sports a tip that helped to anchor it in the core during casting (approx. H. 1 cm). Martin Lefort (French, dates unknown), *Justice*, 1571, H. of chaplet 128 cm (Musée du Louvre, inv. MR1682). See Castelle et al. 2021."
     annotations:
       - input: checkbox
         items:
@@ -538,14 +538,14 @@ figure_list:
     zoom: true
     class: pdf-65-percent-float
     label: "Figure 39"
-    caption: "The different types of chaplets for twentieth-century industrial iron sand casting. Each type has a special use: A–F are perforated sheet tin for heavy loads; I–M are for the heavier castings (tons); G–I are the most common types. From Palmer 1929, 157, fig. 119."
+    caption: "Different types of chaplets for twentieth-century industrial iron sand casting. Each type has a special use: A–F are perforated sheet tin for heavy loads; I–M are for the heavier castings (tons); G–I are the most common types. From Palmer 1929, 157, fig. 119."
 
   - id: "fig-040"
     src: "figures/040.jpg"
     zoom: true
     class: pdf-full-width
     label: "Figure 40"
-    caption: "Sketch of a chaplet firmly wedged between the core and the outer mold, with a protruding point securing it in place in the clay on one side. This is one of many notes that Leonardo made in connection with the casting of the *Sforza Horse*. Leonardo da Vinci, Madrid Codex II, 1503–5, fol. 156r (Biblioteca Nacional de España, Ms. 8936)."
+    caption: "Sketch of a chaplet firmly wedged between the core and the outer mold, with a protruding point securing it in place in the clay on one side. This is one of many notes that Leonardo made in connection with the casting of the *Sforza Horse*. Leonardo da Vinci (Italian, 1452–1519), Madrid Codex II, 1503–5, fol. 156r (Biblioteca Nacional de España, Ms. 8936)."
 
   - id: "fig-041"
     src: "figures/041.jpg"
@@ -576,7 +576,7 @@ figure_list:
     static_inline: "figures/static-inline/043.jpg"
     zoom: true
     label: "Figure 43"
-    caption: "Annotated X-radiograph of a sand cast. Both Dejanira’s and Hercules’s heads were cast separately and secured at the neck with Roman joints (yellow overlay). Roman joints also secure Dejanira’s proper right arm as well as Hercules’s proper left arm. There is an internal seam line in Dejanira’s left shoulder where the separately formed core in the arm abuts the core used in the torso (blue line). Lanterns can be seen in the torso and the proper left arm (red overlays). Charles Crozatier (French, 1795–155), *Hercules Freeing Dejanira from the Centaur Nessus*, Paris 19th century, after Adriaen de Vries (Netherlandish, 1556–1626), H. 78.5 cm (Rijksmuseum, Amsterdam, inv. BK-1957-2)."
+    caption: "Annotated X-radiograph of a sand cast. Both Dejanira’s and Hercules’s heads were cast separately and secured at the neck with Roman joints (yellow overlay). Roman joints also secure Dejanira’s proper right arm as well as Hercules’s proper left arm. There is an internal seam line in Dejanira’s left shoulder where the separately formed core in the arm abuts the core used in the torso (blue line). Lanterns (or metal core vents) can be seen in the torso and the proper left arm (red overlays). Charles Crozatier (French, 1795–1855), *Hercules Freeing Dejanira from the Centaur Nessus*, Paris, 19th century, after Adriaen de Vries (Netherlandish, 1556–1626), H. 78.5 cm (Rijksmuseum, Amsterdam, inv. BK-1957-2)."
     annotations:
       - input: checkbox
         items:
@@ -601,13 +601,13 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 45"
-    caption: "Alignment of gates and vents for the circulation of molten bronze and gases during the casting. Mariette 1768, 78, plate II detail, showing Edme Bouchardon (French, 1698–1762), *Louis XV*, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After Desmas 2014."
+    caption: "Representation of the complex sprue system planned for casting the equestrian monument in one piece. The overlay shows the initial downward direction of the molten metal through the gates (red) and upward movement of displaced air along the vents as the bronze fills the mold (blue). Mariette 1768, 78, plate II detail, showing Edme Bouchardon (French, 1698–1762), *Louis XV*, cast in 1758 by Pierre Gor (French, 1720–1773), H. 520 cm. After Desmas 2014."
 
   - id: "fig-046"
     src: "figures/046.jpg"
     zoom: true
     label: "Figure 46"
-    caption: "Bronze suspended from the pouring cup within a modern mount. After Martin Van Den Bogaert (Desjardins) (Dutch, 1637–1694), *Louis XIV on Horseback*, cast by Roger Schabol (Dutch, d. 1727), early 1700s, H. 52.4 cm (Statens Museum for Kunst, Copenhagen, inv. KMS 5403)."
+    caption: "Bronze model suspended from the pouring cup within a modern mount. The sculpture depicts the complex sprue system designed for casting the figure in one piece. After Martin Van Den Bogaert (Desjardins) (Dutch, 1637–1694), *Louis XIV on Horseback*, cast by Roger Schabol (Dutch, d. 1727), early 1700s, H. 52.4 cm (Statens Museum for Kunst, Copenhagen, inv. KMS 5403)."
 
   - id: "fig-047"
     src: "figures/047.jpg"
@@ -620,13 +620,13 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 48"
-    caption: "Detail of head showing how the vivacious modeling of the curls in the wax model has been captured in the bronze. Barthélemy Prieur (French, ca. 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Bewer, Bourgarit, and Bassett 2009; Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 526](/visual-atlas/526/) for an overall view."
+    caption: "Detail of head showing how the vivacious modeling of the curls in the wax model has been captured in the bronze. Barthélemy Prieur (French, 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Bewer, Bourgarit, and Bassett 2009; Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 526](/visual-atlas/526/) for an overall view."
 
   - id: "fig-049"
     src: "figures/049.jpg"
     zoom: true
     label: "Figure 49"
-    caption: "Detail of chest showing the discrete additions of wax in the modeling of the ribs. Barthélemy Prieur (French, ca. 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle 2016. See [fig. 526](/visual-atlas/526/) for an overall view."
+    caption: "Detail of chest showing the discrete additions of wax in the modeling of the ribs. Barthélemy Prieur (French, 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle 2016. See [fig. 526](/visual-atlas/526/) for an overall view."
 
   - id: "fig-050"
     src: "figures/050/base.jpg"
@@ -634,7 +634,7 @@ figure_list:
     static_inline: "figures/static-inline/050.jpg"
     zoom: true
     label: "Figure 50"
-    caption: "Reverse of panel showing evidence of sprues and working from the back of the wax model. The detail shows reinforcement of the edges of a hollow portion with small masses of soft wax. They correspond to the area where the hollow protruding figure of David meets the background of the relief. The malleable material also captured partial fingerprints. Lorenzo Ghiberti (Italy, ca. 1381–1455), David and Saul panel in the *Gates of Paradise*, left door, H. 518 cm (design begun after 1425; installed 1452 (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
+    caption: "Reverse of panel showing evidence of sprues and working from the back of the wax model. The detail shows reinforcement of the edges of a hollow portion with small masses of soft wax. They correspond to the area where the hollow protruding figure of David meets the background of the relief. The malleable material also captured partial fingerprints. Lorenzo Ghiberti (Italy, 1378–1455), David and Saul panel in the *Gates of Paradise*, left door, H. 518 cm (design begun after 1425; installed 1452 (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
     annotations:
       - input: checkbox
         items:
@@ -648,7 +648,7 @@ figure_list:
     static_inline: "figures/static-inline/051.jpg"
     zoom: true
     label: "Figure 51"
-    caption: "Detail of cornucopia showing tool marks in the wax (green overlay). Marks of metal hammering are also visible (orange arrows). Barthélemy Prieur (French, ca. 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR 1681). See Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 34](/visual-atlas/034/) for an overall view."
+    caption: "Detail of cornucopia showing tool marks in the wax (green overlay). Marks of metal hammering are also visible (orange arrows). Barthélemy Prieur (French, 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR 1681). See Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 34](/visual-atlas/034/) for an overall view."
     annotations:
       - input: checkbox
         items:
@@ -665,7 +665,7 @@ figure_list:
     static_inline: "figures/static-inline/052.jpg"
     zoom: true
     label: "Figure 52"
-    caption: "Detail of neck that preserves the raw tool marks made on the wax model (arrows indicate the direction of the stroke). The finer striated marks in the bottom right corner may have been made in the metal with a file. Barthélemy Prieur (French, ca. 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 526](/visual-atlas/526/) for an overall view."
+    caption: "Detail of neck that preserves the raw tool marks made on the wax model (arrows indicate the direction of the stroke). The finer striated marks in the bottom right corner may have been made in the metal with a file. Barthélemy Prieur (French, 1536–1611), *Funerary Genius*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014. See [fig. 526](/visual-atlas/526/) for an overall view."
     annotations:
       - input: checkbox
         items:
@@ -733,7 +733,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 58"
-    caption: "View of internal cavity showing details of the translation into bronze of porosities created by organic materials incorporated in the core that were close to the surface and replaced by the metal. Barthélemy Prieur (French, ca. 1536–1611), *Funerary Genius*, Christophe de Thou Monument, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See [fig. 526](/visual-atlas/526/) for an overall view."
+    caption: "View of internal cavity showing details of the translation into bronze of porosities created by organic materials incorporated in the core that were close to the surface and replaced by the metal. Barthélemy Prieur (French, 1536–1611), *Funerary Genius*, Christophe de Thou Monument, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See [fig. 526](/visual-atlas/526/) for an overall view."
 
   - id: "fig-059"
     src: "figures/059/base.jpg"
@@ -781,7 +781,7 @@ figure_list:
     static_inline: "figures/static-inline/061.jpg"
     zoom: true
     label: "Figure 61"
-    caption: "The underside of the base reveals numerous features indicative of sand casting: the overall angular and geometric contours of the base (red arrows); seam lines likely formed between sections of the core (yellow lines); the larger seam lines (flashing) appear to have been chiseled down); nuts on threaded rods used to secure the separately cast figures (white overlay); hammering to better align the joined sections (green overlay). Traces of the sand mold are present (examples overlaid in blue). Francois-Auguste-Hippolyte Peyrol (French, 1856–1929), *Indian Fighting Cougar* (French title according to the inscription plaque is *La Lutte pour la vie*), cast in France, marked Peyrol foundry, inscription date 1933 (probably cast prior to 1927, when the foundry closed), H. 75 cm (collection of George Syrmos)."
+    caption: "The underside of the base reveals numerous features indicative of sand casting: the overall angular and geometric contours of the base (red arrows); seam lines likely formed between sections of the core (yellow lines); the larger seam lines (flashing) appear to have been chiseled down); nuts on threaded rods used to secure the separately cast figures (white overlay); hammering to better align the joined sections (green overlay). Traces of the sand mold are present (examples overlaid in blue). François-Auguste-Hippolyte Peyrol (French, 1856–1929), *Indian Fighting Cougar* (French title according to the inscription plaque is *La Lutte pour la vie*), cast in France, marked Peyrol foundry, inscription date 1933 (probably cast prior to 1927, when the foundry closed), H. 75 cm (collection of George Syrmos)."
     annotations:
       - input: checkbox
         items:
@@ -813,7 +813,7 @@ figure_list:
     static_inline: "figures/static-inline/063.jpg"
     zoom: true
     label: "Figure 63"
-    caption: "X-radiograph showing a wax-to-wax joint on the right arm (red dotted line), as revealed by the discontinuity in the metal wall thickness (blue overlay). Note that making precise measurements of wall thickness from radiographs may be difficult, as the external edge may not be visible if overexposed (yellow line). As a consequence, the metal wall thickness may be up to 30% greater than that inferred from the radiograph (blue overlay). After Giambologna (Netherlandish, 1524–1608), *Hercules*, ca. 1580, cast in Italy, Germany, or the Netherlands, 17th century or later, H. 43 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003-1-180). See C2RMF Internal Report 2018b."
+    caption: "X-radiograph showing a wax-to-wax joint on the right arm (red dotted line), as revealed by the discontinuity in the metal wall thickness (blue overlay). Note that making precise measurements of wall thickness from radiographs may be difficult, as the external edge may not be visible if overexposed (yellow line). As a consequence, the metal wall thickness may be up to 30% greater than that inferred from the radiograph (blue overlay). After Giambologna (Flemish, 1524–1608), *Hercules*, ca. 1580, cast in Italy, Germany, or the Netherlands, 17th century or later, H. 43 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003-1-180). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -878,7 +878,7 @@ figure_list:
     src: "figures/070.jpg"
     zoom: true
     label: "Figure 70"
-    caption: "Detail of vine leaf and grapes in the figure’s right hand that have clearly been modeled in wax. Barthélemy Prieur (French, ca. 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR 1681). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle et al. 2021. See [fig. 34](/visual-atlas/034/) for an overall view."
+    caption: "Detail of vine leaf and grapes in the figure’s right hand that bear signs of having been modeled in wax. Barthélemy Prieur (French, 1536–1611), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR 1681). See Seelig-Teuwen, Bourgarit, and Bewer 2014; Castelle et al. 2021. See [fig. 34](/visual-atlas/034/) for an overall view."
 
   - id: "fig-071"
     src: "figures/071.jpg"
@@ -1063,7 +1063,7 @@ figure_list:
     src: "figures/088.jpg"
     zoom: true
     label: "Figure 88"
-    caption: "Inside view of the horse head showing tide lines from the flow of liquid wax captured on the inner surface of the bronze. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
+    caption: "Inside view of the horse head showing tide lines from the flow of liquid wax captured on the inner surface of the bronze. A fully preserved internal sprue is seen here cutting across the inside at the base of the neck. And several circular areas along the rim of the cast are where sprues connecting to the casting cup were cut off during fettling. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
   - id: "fig-089"
     src: "figures/089.jpg"
@@ -1238,7 +1238,7 @@ figure_list:
     src: "figures/105.jpg"
     zoom: true
     label: "Figure 105"
-    caption: "Chasing by punching over casting imperfections. Note the surface that has bonded with the white investment. In-process detail of a reconstruction by Andrew Lacey (British, b. 1969) of one of the so-called Rothschild Bronzes, attributed to Michelangelo Buonarroti (Italian, 1475–1564), H. 91.2 cm (private collection). See Lacey 2018."
+    caption: "Chasing by punching over casting imperfections. Note the surface that has bonded with the white investment. In-process detail of a reconstruction by Andrew Lacey (British, b. 1969) of one of the so-called Rothschild Bronzes, attributed to Michelangelo (Italian, 1475–1564), H. 91.2 cm (private collection). See Lacey 2018."
 
   - id: "fig-106"
     src: "figures/106.jpg"
@@ -1380,7 +1380,7 @@ figure_list:
       - input: checkbox
         items:
           - src: "figures/115/h.png"
-            label: "Seam Lines: H"
+            label: "Seam Line"
             selected: true
 
   - id: "fig-116"
@@ -1429,7 +1429,7 @@ figure_list:
     src: "figures/118.jpg"
     zoom: true
     label: "Figure 118"
-    caption: "Overall view and details of the work’s inside showing tool marks that indicate the core has been shaved down. This was done using a coarse-toothed tool, hence the parallel lines (top right). Other singular lines were used either to define the depth that was needed to cut back or to sketch directly onto the core the design or form of the head/features (bottom right). A flat spatula was also used to scrape the surface of the core back (bottom left). Andrew Lacey (British, b. 1969), untitled head, cast by the artist in 2017, H. 31 cm (artist’s collection)."
+    caption: "Overall view and details of the inside of the sculpture showing tool marks that indicate the core has been shaved down. This was done using a coarse-toothed tool, hence the parallel lines (top right). Other singular lines were used either to define the depth that was needed to cut back or to sketch the design or form of the head/features directly onto the core (bottom right). A flat spatula was also used to scrape back the surface of the core (bottom left). Andrew Lacey (British, b. 1969), untitled head, cast by the artist in 2017, H. 31 cm (artist’s collection)."
 
   - id: "fig-119"
     src: "figures/119/base.jpg"
@@ -1451,7 +1451,7 @@ figure_list:
     static_inline: "figures/static-inline/120.jpg"
     zoom: true
     label: "Figure 120"
-    caption: "Annotated X-radiograph shows the core pins under the shoulders (teal overlays). *Spinario*, northern Italy (Padova?), first quarter of the 16th century, H. 15.5 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.188). See C2RMF Internal Report 2018b."
+    caption: "Annotated X-radiograph shows the core pins under the shoulders (turquoise overlays). *Spinario*, northern Italy (Padova?), first quarter of the 16th century, H. 15.5 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.188). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -1486,7 +1486,7 @@ figure_list:
     static_inline: "figures/static-inline/123.jpg"
     zoom: true
     label: "Figure 123"
-    caption: "Detail of proper left side of torso. The square cast-on patch (yellow overlay) is an original repair of a hole left during casting by the presence of a mold extension. After Leone Leoni (Milanese, 1509–1590), *Emperor Charles V, Innsbruck*, second half of the 16th century, H. 109 cm (National Gallery of Art, Washington, DC, Samuel H. Kress Collection, inv. 1952.5.104). See Smith and Sepponen 2019."
+    caption: "Detail of proper left side of torso. The square cast-on patch (yellow overlay) is an original repair of a hole left during casting by the presence of a mold extension. After Leone Leoni (Italian, 1509–1590), *Emperor Charles V, Innsbruck*, second half of the 16th century, H. 109 cm (National Gallery of Art, Washington, DC, Samuel H. Kress Collection, inv. 1952.5.104). See Smith and Sepponen 2019."
     annotations:
       - input: checkbox
         items:
@@ -1705,7 +1705,7 @@ figure_list:
     static_inline: "figures/static-inline/152.jpg"
     zoom: true
     label: "Figure 152"
-    caption: "Annotated X-radiograph revealing extensive porosity. A large casting defect that extends partway through the surface of the figure’s proper left leg has been repaired with a set-in patch (yellow overlay). In many areas, porosity is contained within the wall (some are indicated in green). Detail of fig. 170, Jean-Antoine Houdon (French, 1741–1828), *Diana*, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See Bassett and Scherf 2014; Bennett and Sargentson 2008, 492–93. See [fig.170](/visual-atlas/170/) for an overall view."
+    caption: "Annotated X-radiograph revealing extensive porosity. A large casting defect that extends partway through the surface of the figure’s proper left leg has been repaired with a set-in patch (yellow overlay). In many areas, porosity is contained within the wall (some are indicated in green). Detail of X-radiograph of fig. 171, Jean-Antoine Houdon (French, 1741–1828), *Diana*, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See Bassett and Scherf 2014; Bennett and Sargentson 2008, 492–93. See [fig.171](/visual-atlas/171/) for an overall view."
     annotations:
       - input: checkbox
         items:
@@ -1721,7 +1721,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 153"
-    caption: "Porosity on the surface of the bronze has been left unrepaired. Detail of fig. 170, Jean-Antoine Houdon (French, 1741–1828), *Diana*, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See Bassett and Scherf 2014; Bennett and Sargentson 2008, 492–93."
+    caption: "Porosity on the surface of the bronze has been left unrepaired. Detail of [fig. 171](/visual-atlas/171/), Jean-Antoine Houdon (French, 1741–1828), *Diana*, 1782, H. 208.3 cm (Huntington Art Museum, San Marino, California, inv. 27.186). See Bassett and Scherf 2014; Bennett and Sargentson 2008, 492–93."
 
   - id: "fig-154"
     src: "figures/154.jpg"
@@ -1983,7 +1983,7 @@ figure_list:
     static_inline: "figures/static-inline/179.jpg"
     zoom: true
     label: "Figure 179"
-    caption: "Detail of a cast-on repair in the center of a relief panel that has been set into the side of a Renaissance pedestal on which a Hellenistic bronze is mounted (yellow overlay). Also in yellow, the lower image shows the back side of the cast-on repair. The sprues, including a vent and a gate, were left in place and not removed (blue arrows). The repair was made with the relief face-down before being mounted to the pedestal. *Idolino* (Ephebe from Pesaro), ca. 30 BCE, base by the workshop of Girolamo (Italian, ca. 1510–1584/89), Aurelio, and Ludovico (Italian, 1507/8–1575) Lombardo, perhaps after a drawing by Sebastiano Serlio (Italian, 1475–1544), 1530–38/40, H. 148 cm (300 cm with base) (Museo Archeologico Nazionale, Florence, inv. 1637)."
+    caption: "Detail of a cast-on repair in the center of a relief panel that has been set into the side of a Renaissance pedestal on which a Hellenistic bronze is mounted (yellow overlay). Also in yellow, the lower image shows the back side of the cast-on repair. The sprues, including a vent and a gate, were left in place and not removed (blue arrows). The repair was made with the relief face-down before being mounted to the pedestal. *Idolino* (Ephebe from Pesaro), ca. 30 BCE, base by the workshop of Girolamo (Italian, ca. 1510–1584/89), Aurelio (Italian, ca. 1501–1563), and Ludovico (Italian, 1507/8–1575) Lombardo, perhaps after a drawing by Sebastiano Serlio (Italian, 1475–1544), 1530–38/40, H. 148 cm (300 cm with base) (Museo Archeologico Nazionale, Florence, inv. 1637)."
     annotations:
       - input: checkbox
         items:
@@ -2024,7 +2024,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 182"
-    caption: "Digital diagram illustrating a cast-on repair. A) wax is applied to the loss and modeled in situ with a pouring gate; B) investment is applied to cover the wax completely (for clarity, the investment in the sketch has been cut through to show the applied wax). Bonanno Pisano (Italian, active late 12th century), Porta di San Ranieri, Pisa Cathedral, Italy, ca. 1180, H. 470 cm. See Morigi 1999."
+    caption: "Diagram illustrating a cast-on repair. A) wax is applied to the loss and modeled in situ with a pouring gate; B) investment is applied to cover the wax completely (for clarity, the investment in the sketch has been cut through to show the applied wax). Based on Bonanno Pisano (Italian, active late 12th century), Porta di San Ranieri, Pisa Cathedral, Italy, ca. 1180, H. 470 cm. See Morigi 1999."
 
   - id: "fig-183"
     src: "figures/183/base.jpg"
@@ -2046,7 +2046,7 @@ figure_list:
     static_inline: "figures/static-inline/184.jpg"
     zoom: true
     label: "Figure 184"
-    caption: "Detail of a cast-on repair on the back of the doe with dovetails that lock the repair in place (red overlay). The color variation between the repair and the primary casting (left) is due to the diverse microstructures and resulting corrosion of these sections. The corresponding gamma radiograph (right) helps to clarify the location of the different repairs (blue overlay) as well as the heavy porosity in the cast-on metal (dark spots). Barthélemy Prieur (French, ca. 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée national du château de Fontainebleau, France, inv. RF 261). See Castelle 2016."
+    caption: "Detail of a cast-on repair on the back of the doe with dovetails that lock the repair in place (red overlay). The color variation between the repair and the primary casting (left) is due to the diverse microstructures and resulting corrosion of these sections. The corresponding gamma radiograph (right) helps to clarify the location of the different repairs (blue overlay) as well as the heavy porosity in the cast-on metal (dark spots). Barthélemy Prieur (French, 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée national du château de Fontainebleau, France, inv. RF 261). See Castelle 2016."
     annotations:
       - input: checkbox
         items:
@@ -2063,7 +2063,7 @@ figure_list:
     static_inline: "figures/static-inline/185.jpg"
     zoom: true
     label: "Figure 185"
-    caption: "Flow fusion welding repair. Each darkly outlined ovoid shape represents a fusion welding pour. The dark line is created at the melted zone between the fresh metal and the original bronze wall. It would not have been visible originally, but differences in the microstructure have led to corrosion variations. Statue of a Youth, ancient Rome, probably Asia Minor, ca. 140 CE, H. 142.6 cm (Toledo Museum of Art, purchased with funds from the Libbey Endowment, gift of Edward Rummond Libbey, inv. 1966.126). See Mattusch 1996."
+    caption: "Detail showing flow fusion welding repair. Each darkly outlined ovoid shape represents a fusion welding pour. The dark line is created at the melted zone between the fresh metal and the original bronze wall. It would not have been visible originally, but differences in the microstructure have led to corrosion variations. Statue of a Youth, ancient Rome, probably Asia Minor, ca. 140 CE, H. 142.6 cm (Toledo Museum of Art, purchased with funds from the Libbey Endowment, gift of Edward Rummond Libbey, inv. 1966.126). See Mattusch 1996."
     annotations:
       - input: checkbox
         items:
@@ -2076,7 +2076,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 186"
-    caption: "Illustration of a specially designed furnace used to repair a cracked bell by welding. From Vannoccio Biringuccio (Italian, 1480–1539), *The Pirotechnia*, 1540. See Biringuccio [1540] 1942, 276."
+    caption: "Illustration of a specially designed furnace used to repair a cracked bell by welding. From Vannoccio Biringuccio (Italian, 1480–before 1539), *The Pirotechnia*, 1540. See Biringuccio [1540] 1942, 276."
 
   - id: "fig-187"
     src: "figures/187/base.jpg"
@@ -2128,7 +2128,7 @@ figure_list:
     static_inline: "figures/static-inline/190.jpg"
     zoom: true
     label: "Figure 190"
-    caption: "X-radiograph showing lead repairs filling surface flaws (overlay). A vertical bar behind the right shoulder was soldered in place as part of the support for Atlas to carry his burden (now missing). Workshop of Severo da Ravenna (Paduan, active 1496-before 1538), *Atlas*, Italy, second quarter of the 16th century or later, H. 14 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.198). See C2RMF Internal Report 2018b."
+    caption: "X-radiograph showing lead repairs filling surface flaws (overlay). A vertical bar behind the right shoulder was soldered in place as part of the support for Atlas to carry his burden (now missing). Workshop of Severo da Ravenna (Italian, active 1496-before 1538), *Atlas*, Italy, second quarter of the 16th century or later, H. 14 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.198). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -2238,7 +2238,7 @@ figure_list:
     static_inline: "figures/static-inline/198.jpg"
     zoom: true
     label: "Figure 198"
-    caption: "Annotated digital X-radiograph of a single-walled shield showing extensive small surface patches (one example indicated with a yellow arrow) and a small number of threaded plugs (one indicated with a red arrow). Ferdinando Tacca (Italian, 1619–1686), *Putto Holding a Shield*, Florence, ca. 1650–55, H. 64.5 cm (J. Paul Getty Museum, inv. 85.SB.70). See Fogelman and Fusco 2002, 217."
+    caption: "Annotated digital X-radiograph of a single-walled shield showing extensive small surface patches (one example indicated with a yellow arrow) and a small number of threaded plugs (one indicated with a red arrow). Ferdinando Tacca (Italian, 1619–1686), *Putto Holding a Shield*, Florence, ca. 1650–55, H. 64.5 cm (J. Paul Getty Museum, inv. 85.SB.70). See Fogelman and Fusco 2002, 217–23."
     annotations:
       - input: checkbox
         items:
@@ -2269,7 +2269,7 @@ figure_list:
     static_inline: "figures/static-inline/200.jpg"
     zoom: true
     label: "Figure 200"
-    caption: "A casting flaw in a relatively hidden and difficult-to-reach location under the satyr’s sand-cast-bronze right leg (left image) has been repaired from below with sheet metal pinned under the base (right image). Formally attributed to Clodion (French 1738–1814), *Nymph and Satyr*, ca. 1850–75, H. 35.6 cm (Huntington Art Museum, San Marino, California, inv. 78.20.54). See Bennett and Sargentson 2008, 474–75."
+    caption: "A casting flaw in a relatively hidden and difficult-to-reach location under the satyr’s sand-cast-bronze right leg (left image) has been repaired from below with sheet metal pinned under the base (right image). In the style of Claude Michel, called Clodion (French 1738–1814), *Nymph and Satyr*, ca. 1850–75, H. 35.6 cm (Huntington Art Museum, San Marino, California, inv. 78.20.54). See Bennett and Sargentson 2008, 474–75."
     annotations:
       - input: checkbox
         items:
@@ -2362,7 +2362,7 @@ figure_list:
     src: "figures/208.jpg"
     zoom: true
     label: "Figure 208"
-    caption: "Ritual vessel, China, Zhou dynasty, ca. 830 BCE, H. 36.5 cm (Freer Study Collection, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
+    caption: "An example of casting-on in which the body has been cast onto the legs. See [fig. 209](/visual-atlas/209/) for a detailed view. Ritual vessel, China, Zhou dynasty, ca. 830 BCE, H. 36.5 cm (Freer Study Collection, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
 
   - id: "fig-209"
     src: "figures/209/base.jpg"
@@ -2370,7 +2370,7 @@ figure_list:
     static_inline: "figures/static-inline/209.jpg"
     zoom: true
     label: "Figure 209"
-    caption: "Cross section of a vessel fragment. The leg (green overlay) was cast first, then put into the mold. The body of the vessel (lilac overlay) was then cast onto the leg, mechanically locking them together. The reddish material in the center is the core preserved in the leg; the widest dimension of the current section is 5.5 cm. Fragment of ritual vessel, China, Zhou dynasty, ca. 830 BC, H. 36.5 cm (Freer Study Collection, Department of Conservation and Scientific Research, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56)."
+    caption: "Cross section of a vessel fragment. The leg (green overlay) was cast first, then put into the mold. The body of the vessel (lilac overlay) was then cast onto the leg, mechanically locking them together. The reddish material in the center is the core preserved in the leg; the widest dimension of the current section is 5.5 cm. Fragment of ritual vessel, China, Zhou dynasty, ca. 830 BC, H. 36.5 cm (Freer Study Collection, Department of Conservation and Scientific Research, Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. FSC-B-56). See [fig. 208](/visual-atlas/208/) for an overall view."
     annotations:
       - input: checkbox
         items:
@@ -2405,7 +2405,7 @@ figure_list:
     src: "figures/212.jpg"
     zoom: true
     label: "Figure 212"
-    caption: "Gamma radiograph showing Roman joints in the arms of a figure. The type of joint used to attach the separately cast head cannot be determined in this radiograph. Gamma radiography was used due to the lack of available high-kV X-radiography. Thomas Ball (American, 1819–1911), *Daniel Webster*, 1853, sand cast probably after 1858, probably by the Ames Manufacturing Company, Chicopee, Massachusetts, H. 75.6 cm (Gilcrease Museum, Tulsa, inv. 0826.93)."
+    caption: "Gamma radiograph showing Roman joints in the arms of a figure. The type of joint used to attach the separately cast head cannot be determined in this radiograph. Gamma radiography was used due to the lack of available high-kV X-radiography. Thomas Ball (American, 1819–1911), *Daniel Webster*, 1853, sand cast probably after 1858, probably by the Ames Manufacturing Company, Chicopee, Massachusetts, H. 75.6 cm (Gilcrease Museum, Tulsa, inv. 0826.93). See [fig. 213](/visual-atlas/213/) for an overall view."
 
   - id: "fig-213"
     src: "figures/213/base.jpg"
@@ -2533,7 +2533,7 @@ figure_list:
     src: "figures/226.jpg"
     zoom: true
     label: "Figure 226"
-    caption: "Bottom view of a statuette showing the cover being held on the bottom of the base by chiseling burrs from the base of the sculpture over the copper cover. The remains of resins to aid in sealing the joint can also be seen around the outer edges of the cover. Six-Armed Hayagriva, China, Qing Dynasty, second half of the 18th century, H. 16.5 cm (Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, The Alice S. Kandell Collection, inv. S2018.32)."
+    caption: "Bottom view of a statuette showing the cover being held on the bottom of the base by chiseling burrs from the base of the sculpture over the copper cover. The remains of resins to aid in sealing the joint can also be seen around the outer edges of the cover. Six-Armed Hayagriva, China, Qing Dynasty, second half of the 18th century, H. 16.5 cm (Freer Gallery of Art and Arthur M. Sackler Gallery, Smithsonian Institution, Washington, DC, The Alice S. Kandell Collection, inv. S2018.32). See [fig. 225](/visual-atlas/225/) for an overall view."
 
   - id: "fig-227"
     src: "figures/227/base.jpg"
@@ -2542,7 +2542,7 @@ figure_list:
     zoom: true
     class: pdf-65-percent-float
     label: "Figure 227"
-    caption: "The drapery of the bronze arm was cast in sections and assembled using a flow fusion weld (pink overlay) that is only visible from the interior. The welding appears as a chain of oval shapes. The arm was then joined to the drapery by welding (green overlay) with securing pins (blue overlay). Arm of a statue found in the Villa of Arconciel, Switzerland, end of the 1st–3rd century CE, greater than life size (Service Archéologique de l’Etat de Fribourg, Switzerland, inv. Arconciel/Es-Nés FR 85). See Mille and Serneels 2012."
+    caption: "The drapery of the bronze arm was cast in sections and assembled using a flow fusion weld (pink overlay) that is only visible from the interior. The welding appears as a chain of oval shapes. The arm was then joined to the drapery by welding (green overlay) with securing pins (blue overlay). Arm of a statue found in the Villa of Arconciel, Switzerland, end of the 1st–3rd century CE, over life size (Service Archéologique de l’Etat de Fribourg, Switzerland, inv. Arconciel/Es-Nés FR 85). See Mille and Serneels 2012."
     annotations:
       - input: checkbox
         items:
@@ -2581,7 +2581,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 230"
-    caption: "Ultrasonic phased array applied to the study of the flow fusion welding of an antique large bronze. The C-scan represents the variations in thickness of the wall of bronze at the right leg-body junction (left). The profilometry of a welding basin (longitudinal and cross profiles) is shown (right). *Captive Gaul*, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962). See Azéma et al. 2013."
+    caption: "Ultrasonic phased array applied to the study of the flow fusion welding of an antique large bronze. The C-scan represents the variations in thickness of the wall of bronze at the right thigh to upper leg junction (left). The profilometry of a welding basin (longitudinal and cross profiles) is shown (right). *Captive Gaul*, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962). See Azéma et al. 2013."
 
   - id: "fig-231"
     src: "figures/231.jpg"
@@ -2622,7 +2622,7 @@ figure_list:
     static_inline: "figures/static-inline/235.jpg"
     zoom: true
     label: "Figure 235"
-    caption: "Detail of the figure’s back showing scattered clusters of rectangular-shaped matting marks disguising the repairs of casting defects (see overlay). Pierre Biard I (French, 1559–1609), *Fame*, ca. 1607, H. 134 cm (Musée du Louvre, inv. LP361). See C2RMF Internal Report 2017, 33054. See [fig. 135](/visual-atlas/135/) for an overall view."
+    caption: "Detail of the figure’s back showing scattered clusters of rectangular-shaped matting marks disguising the repairs of casting defects (see overlay). Pierre Biard I (French, 1559–1609), *Fame*, ca. 1607, H. 134 cm (Musée du Louvre, inv. LP361). See [fig. 135](/visual-atlas/135/) for an overall view."
     annotations:
       - input: checkbox
         items:
@@ -2727,7 +2727,7 @@ figure_list:
     # zoom: true
     media_type:
     label: "Figure 249"
-    caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Netherlandish, 1524–1608), ca. 1587, H. 40.5 cm. See Bewer 1996b."
+    caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Flemish, 1524–1608), ca. 1587, H. 40.5 cm. See Bewer 1996b."
 
   - id: "fig-250"
     src: "figures/250.jpg"
@@ -2740,7 +2740,7 @@ figure_list:
     src: "figures/251.jpg"
     zoom: true
     label: "Figure 251"
-    caption: "During the initial fettling stages the removal of the main feed on the side of the horse was carried out using a course file and large scraper to reduce or rectify the surface. The scraper produced chatter lines—here the short, parallel, vertical cuts—and the file the longer, undulating horizontal marks that reflect brightly against the surrounding darker, as-cast oxidized surface. Finer files and scrapers are used subsequently to smooth out these marks. Andrew Lacey (British, b. 1969), *Pacing Horse*, 2016, H. 23 cm, after-cast of bronze attributed to Gianfrancesco Susini (Italian, ca. 1585–1653) after a model by Giambologna (Italian, 1529–1608) (private collection)."
+    caption: "During the initial fettling stages the removal of the main feed on the side of the horse was carried out using a course file and large scraper to reduce or rectify the surface. The scraper produced chatter lines—here the short, parallel, vertical cuts—and the file the longer, undulating horizontal marks that reflect brightly against the surrounding darker, as-cast oxidized surface. Finer files and scrapers are used subsequently to smooth out these marks. Andrew Lacey (British, b. 1969), *Pacing Horse*, 2016, H. 23 cm, after-cast of bronze attributed to Gianfrancesco Susini (Italian, 1585–1653) after a model by Giambologna (Flemish, 1529–1608) (private collection)."
 
   - id: "fig-252"
     src: "figures/252.jpg"
@@ -2772,13 +2772,13 @@ figure_list:
     src: "figures/256.jpg"
     zoom: true
     label: "Figure 256"
-    caption: "Circular punch marks. Eagle Lectern, Hildesheim, Germany, ca. 1220, H. 57.5 cm (Dom Museum Hildesheim, Germany, inv. D 1984-2)."
+    caption: "Dense pattern of hollow circular punch marks created in the metal. Eagle Lectern, Hildesheim, Germany, ca. 1220, H. 57.5 cm (Dom Museum Hildesheim, Germany, inv. D 1984-2)."
 
   - id: "fig-257"
     src: "figures/257.jpg"
     zoom: true
     label: "Figure 257"
-    caption: "Detail of breast showing a lengthy inscription in the area across the diaphragm/solar plexus. The letters are quite irregular in shape and not deeply chased, which might testify to their cold working in the metal rather than in the wax. Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See Mille et al. 2010; Mille et al. 2012. See [fig. 20](/visual-atlas/020/) for an overall view."
+    caption: "Detail of breast showing a lengthy inscription in the area across the diaphragm/solar plexus. The letters are quite irregular in shape and not deeply chased, which might testify to their cold working in the metal rather than in the wax. Bronze Statue of Hawtar’athat, Yemen, 1st millennium BCE, H. 140 cm (National Museum of Sana’a, Yemen, inv. YM 23206). See Mille et al. 2010. See [fig. 20](/visual-atlas/020/) for an overall view."
 
   - id: "fig-258"
     src: "figures/258.jpg"
@@ -2798,7 +2798,7 @@ figure_list:
     src: "figures/260.jpg"
     zoom: true
     label: "Figure 260"
-    caption: "Inscription showing the initials of the sculptor (BP). Barthélemy Prieur (French, ca. 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée national du château de Fontainebleau, France, inv. RF 261). See Castelle 2016."
+    caption: "Inscription showing the initials of the sculptor (BP). Barthélemy Prieur (French, 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée national du château de Fontainebleau, France, inv. RF 261). See Castelle 2016."
 
   - id: "fig-261"
     src: "figures/261.jpg"
@@ -2861,13 +2861,13 @@ figure_list:
     src: "figures/270.jpg"
     zoom: true
     label: "Figure 270"
-    caption: "Effect of air abrasive (glass beads) on a copper-alloy surface bearing different cold-work marks: punches, chisels, stamps for marking editions and dates. The abraded surface (top half of image) is softened, and tool marks appear as if they were done in the wax rather than the metal. Didactic sheet by Andrew Lacey, May 2019."
+    caption: "Comparison of select punch marks created on a copper alloy surface in which the upper half has been abraded (blasted with glass beads), to demonstrate how this dulls their crisp contours and makes them appear as if they were done in the wax rather than the metal. Didactic sheet by Andrew Lacey, May 2019."
 
   - id: "fig-271"
     src: "figures/271.jpg"
     zoom: true
     label: "Figure 271"
-    caption: "Experimental simulation of engraving on wax (right) to demonstrate that the tool marks observed on the surface of the bronze bust of Antoninus Pius (left) were made in the wax model rather than in the cast bronze. The size of the area in the picture is about 2 × 2 cm. Giovanni Bandini (called Giovanni dell’Opera, Italian, 1540–1599), Bust of Roman Emperor Antoninus Pius, Urbino, TKdate, H. 68 cm (Museo Nazionale del Bargello, Florence, inv. 441B). See Morigi 2018."
+    caption: "Experimental simulation of engraving on wax (right) to demonstrate that the tool marks observed on the surface of the bronze bust of Antoninus Pius (left) were made in the wax model rather than in the cast bronze. The size of the area in the picture is about 2 × 2 cm. Attributed to Giovanni Bandini (called Giovanni dell’Opera, Italian, 1540–1599), Bust of Roman Emperor Antoninus Pius, Urbino, before 1582, H. 68 cm (Museo Nazionale del Bargello, Florence, inv. 441B). See Morigi 2018."
 
   - id: "fig-272"
     src: "figures/272.jpg"
@@ -2883,7 +2883,7 @@ figure_list:
     # media_type: dynamic
     media_type: table
     label: "Figure 273"
-    caption: "3D model of a chiseled line generated by a digital microscope using automated focus stacking. The line, on a lost-wax cast statuette, is approximately 1 mm across. The altered V shape of the imprint demonstrates that the engraving in the metal was made by following a line already in the wax model. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "3D model of an engraved line (approximately 1 mm across) in a lost-wax cast statuette. The blurred V shape of the imprint results from the chasing tool following along a line already present in the wax model. The image was generated by a digital microscope using automated focus stacking.  *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-274"
     src: "figures/274.jpg"
@@ -2901,7 +2901,7 @@ figure_list:
     src: "figures/276.jpg"
     zoom: true
     label: "Figure 276"
-    caption: "Detail of the surface of a lost-wax cast statuette. Only digital microscopy (see fig. 279) proved efficient in overcoming the wear and corroded surface, thus revealing that the linear details were V-shaped and sharply defined, and thus indicative of having been made or reinforced by a graver. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "Detail of the surface of a lost-wax cast statuette. Only digital microscopy (see [fig. 279](/visual-index/279)) proved efficient in overcoming the wear and corroded surface, thus revealing that the linear details were V-shaped and sharply defined, and thus indicative of having been made or reinforced by a graver. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-277"
     src: "figures/277.jpg"
@@ -2924,7 +2924,7 @@ figure_list:
     # media_type: dynamic
     media_type: table
     label: "Figure 279"
-    caption: "3D reconstructed image of a chiseled line made in the metal (detail of left knee). The V shape of the imprint demonstrates the use of engraving. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "3D reconstructed image of a chased line made in the metal (detail of left knee). The V shape of the imprint demonstrates the use of engraving. The image was generated with a digital microscope using automated focus stacking. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-280"
     src: "figures/280.jpg"
@@ -2978,7 +2978,7 @@ figure_list:
     # media_type: dynamic
     media_type: table
     label: "Figure 286"
-    caption: "3D model of a punch mark (0.8 mm in diameter) from the lotus of a Buddha Vairocana (see fig. 285). The model was generated by a digital microscope using automated focus stacking. Note the imperfection in the sphere resulting from a defect on the face of the punching tool. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
+    caption: "3D model of a punch mark (0.8 mm in diameter) from the lotus of a Buddha Vairocana (see fig. 285). The model was generated by a digital microscope using automated focus stacking. Note the asymmetry in the punch mark resulting from a defect in the face of the punching tool. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 
   - id: "fig-287"
     src: "figures/287/base.jpg"
@@ -3040,7 +3040,7 @@ figure_list:
     src: "figures/294.jpg"
     zoom: true
     label: "Figure 294"
-    caption: "Detail showing brushstrokes from amalgam gilding application (detail size 4.4 × 2.9 cm). Lorenzo Ghiberti (Italian, ca. 1381–1455), Joseph panel in the *Gates of Paradise*, right door, H. 518 cm (design begun after 1425; installed 1452) (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
+    caption: "Detail showing horizontal brushstrokes from amalgam gilding application (detail size 4.4 × 2.9 cm). Lorenzo Ghiberti (Italian, ca. 1381–1455), Joseph panel in the *Gates of Paradise*, right door, H. 518 cm (design begun after 1425; installed 1452) (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
 
   - id: "fig-295"
     src: "figures/295.jpg"
@@ -3093,7 +3093,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 301"
-    caption: "Digital micrograph of a cross section showing several layers of gold due to regilding at the surface. *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See Robcis et al. 2017."
+    caption: "Digital micrograph of a cross section showing several layers of gold due to regilding at the surface (H. of image approx. 100µm). *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See Robcis et al. 2017."
 
   - id: "fig-302"
     src: "figures/302.jpg"
@@ -3123,7 +3123,7 @@ figure_list:
     zoom: true
     class: pdf-45-percent-float
     label: "Figure 305"
-    caption: "Decision chart for assessing the condition and characterizing an archaeological patina layer (in a museum laboratory setting). The protocol can be useful for the study of other surface layers as well, including metal plating and inlays. Three scenarios are covered: A) sampling is not possible; B) powder or flake samples are available; and C) cross section sampling is possible. The expected outcome of each approach is indicated at the bottom of the chart."
+    caption: "Decision chart for assessing the condition and characterizing an archaeological patina layer (in a museum laboratory setting). The protocol can be useful for the study of other surface layers as well, including metal plating and inlays. Three scenarios are covered: Top of chart: sampling is not possible; Middle of chart: cross section sampling is possible; Bottom of chart: powder or flake samples are available. The expected outcome of each approach is indicated at the bottom of the chart."
 
   - id: "fig-306"
     src: "figures/306.jpg"
@@ -3160,7 +3160,7 @@ figure_list:
     src: "figures/311.jpg"
     zoom: true
     label: "Figure 311"
-    caption: "Detail of face before restoration, showing the heavy corrosion due to long-term immersion in seawater (left) and after restoration (right). Electrolytic dechlorination was achieved via the total immersion of the figure in a basic solution over ninety days. Note the silver eye inlays revealed at right. *Eros*, Roman, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
+    caption: "Detail of face before restoration, showing the heavy corrosion due to long-term immersion in seawater (left) and after restoration (right). Electrolytic dechlorination was achieved via the total immersion of the figure in a basic solution over ninety days. Note the silver eye inlays revealed at right. *Eros*, Roman, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille et al. 2012."
 
   - id: "fig-312"
     src: "figures/312.jpg"
@@ -3343,7 +3343,7 @@ figure_list:
     src: "figures/340.jpg"
     zoom: true
     label: "Figure 340"
-    caption: "Schematic representation of general types of inlay (A–I) and overlay (J–L). A) cavity with undercuts and chased line with undercut; B) cast cavity with secondary receiver holes to reinforce the primary element with pins; C) cast depressions left in the surface to receive inlays; D) complex preformed inlay inserted into mold and cast in place; E) formed metal inlay in chased recesses with undercuts; F) pre-shaped abutting inlay elements in single chamber; G) translucent inlay backed by metallic foil; H) hammered metal foil on roughened surface; I) through-hole cavity with insertion from reverse; J) cloisonné-type chamber surface mount for gemstones; K) cloisonné-type chamber on surface; L) cloissoné-type chambers on surface with multicolored design."
+    caption: "Schematic representation of general types of inlay (A–I) and overlay (J–L). A) cavity with undercuts and chased line with undercut; B) cast cavity with secondary receiver holes to reinforce the primary element with pins; C) cast depressions left in the surface to receive inlays; D) complex preformed inlay inserted into mold and cast in place; E) formed metal inlay in chased recesses with undercuts; F) pre-shaped abutting inlay elements in single chamber; G) translucent inlay backed by metallic foil; H) hammered metal foil on roughened surface; I) through-hole cavity with insertion from reverse; J) cloisonné-type chamber surface mount for gemstones; K) cloisonné-type chamber on surface; L) cloisonné-type chambers on surface with multicolored design."
 
   - id: "fig-341"
     src: "figures/341.jpg"
@@ -3406,7 +3406,7 @@ figure_list:
     static_inline: "figures/static-inline/347.jpg"
     zoom: true
     label: "Figure 347"
-    caption: "Lost-wax cast of a head of a Bodhisattva showing the brass and copper bead decoration in the tiara. The brass beads belong to the primary cast (both contain 21 wt% Zn), whereas one strand of copper beads was shaped from a wire and overlaid on the cast (red arrows). *Bodhisattva*, Tibet, 11th–13th century, H. 34.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 6273). See C2RMF Internal Report 1998."
+    caption: "Lost-wax cast of a head of a Bodhisattva showing the brass and copper bead decoration in the tiara. The brass beads belong to the primary cast (both contain 21 wt% Zn), whereas one strand of copper beads was shaped from a wire and overlaid on the cast (red arrow). *Bodhisattva*, Tibet, 11th–13th century, H. 34.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 6273). See C2RMF Internal Report 1998."
     annotations:
       - input: checkbox
         items:
@@ -3418,7 +3418,7 @@ figure_list:
     src: "figures/348.jpg"
     zoom: true
     label: "Figure 348"
-    caption: "Detail of the face of the Reclining Vishnu. Because of heavy corrosion, the inlays are no longer visible, but only known through surface analysis: copper has been detected in the lips, and lead in the moustache and beard. Composition of the eye inlays is unknown. Note texture in the eyebrows of material probably used to attach the inlay. *Reclining Vishnu*, West Mebon (Khmer), 12th century, L. 220 cm (National Museum of Cambodia, inv. Ga 5387). See CAST:ING 2018."
+    caption: "Detail of the face of the Reclining Vishnu. Because of heavy corrosion, the inlays are no longer visible, but only known through surface analysis: lead has been detected in the eyebrows, moustache, and beard. Composition of the eye inlays is unknown. Note texture in the eyebrows of material probably used to attach the inlay. *Reclining Vishnu*, West Mebon (Khmer), 12th century, L. 220 cm (National Museum of Cambodia, inv. Ga 5387). See CAST:ING 2018."
 
   - id: "fig-349"
     src: "figures/349.jpg"
@@ -3628,7 +3628,7 @@ figure_list:
     src: "figures/375.jpg"
     zoom: true
     label: "Figure 375"
-    caption: "3D model of the new stainless steel mount for the bust (left), and back view of the bust once mounted (right). The mount was created using a 3D model designed using photogrammetry. Giovanni Bandini (called Giovanni dell’Opera, Italian, 1540–1599), *Bust of Roman Emperor Antoninus Pius*, Urbino, TKdate, H. 68 cm (Museo Nazionale del Bargello, Florence, inv. 441B). See Morigi 2018."
+    caption: "3D model of the new stainless steel mount for the bust (left), and back view of the bust once mounted (right). The mount was created using a 3D model designed using photogrammetry. Attributed to Giovanni Bandini (called Giovanni dell’Opera, Italian, 1540–1599), *Bust of Roman Emperor Antoninus Pius*, Urbino, before 1582, H. 68 cm (Museo Nazionale del Bargello, Florence, inv. 441B). See Morigi 2018."
 
   - id: "fig-376"
     src: embeds/fig-376.html
@@ -4068,7 +4068,7 @@ figure_list:
     # zoom: true
     media_type:
     label: "Figure 432"
-    caption: "Sampling of casting core in process. Barthélémy Prieur (French, ca. 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée du Louvre - Fontainebleau Castle, inv. RF261). See Castelle, Coquinot, and Bourgarit 2016."
+    caption: "Sampling of casting core in process. Barthélemy Prieur (French, 1536–1611), *Diana the Huntress*, 1603, H. 200 cm (Musée du Louvre - Fontainebleau Castle, inv. RF261). See Castelle, Coquinot, and Bourgarit 2016."
 
   - id: "fig-433"
     src: "figures/433.jpg"
@@ -4426,7 +4426,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 474"
-    caption: "Completed core for an experimental casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
+    caption: "Completed core for an experimental casting. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See Dandridge 2006."
 
   - id: "fig-475"
     src: "figures/475.jpg"
@@ -4497,7 +4497,7 @@ figure_list:
     src: "figures/484.jpg"
     zoom: true
     label: "Figure 484"
-    caption: "Detail from an aquamanile illustrating the rod-shaped strut extending out of the chest and supporting the falconer’s right arm, as well as the exaggerated length of the glove flap on his opposite arm, allowing for the circular flow of metal during the pour. *Aquamanile in the Form of a Falconer on Horseback*, northern Germany, 13th century, H. 34.7 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.55). See Dandridge 2006."
+    caption: "Detail from an aquamanile illustrating the rod-shaped strut extending out of the chest and supporting the falconer’s right arm, as well as the exaggerated length of the glove flap on his opposite arm, enabling the circular flow of metal during the pour. *Aquamanile in the Form of a Falconer on Horseback*, northern Germany, 13th century, H. 34.7 cm (Metropolitan Museum of Art, The Cloisters Collection, 1947, inv. 47.101.55). See Dandridge 2006."
 
   - id: "fig-485"
     src: "figures/485.jpg"
@@ -4603,7 +4603,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 494"
-    caption: "Detail of head illustrating where a V-shaped graver defined the lion’s mane, a flat chisel refined the ear, and punch marks made whisker holes in the cheek. *Aquamanile in the Form of a Lion*, Germany (Lower Saxony), late 13th–early 14th century, H. 26.1 cm (Metropolitan Museum of Art, The Friedsam Collection, bequest of Michaelk Friedsam, 1931, inv. 32.100.198). See Barnet and Dandridge 2006."
+    caption: "Detail of head illustrating where a V-shaped graver defined the lion’s mane, a flat chisel refined the ear, and punch marks made whisker holes in the cheek. *Aquamanile in the Form of a Lion*, Germany (Lower Saxony), late 13th–early 14th century, H. 26.1 cm (Metropolitan Museum of Art, The Friedsam Collection, bequest of Michael Friedsam, 1931, inv. 32.100.198). See Barnet and Dandridge 2006."
 
   - id: "fig-495"
     src: "figures/495.jpg"
@@ -4822,7 +4822,7 @@ figure_list:
     zoom: true
     class: pdf-full-width pdf-side-by-side-layers
     label: "Figure 524"
-    caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Barthélemy Prieur (French, ca. 1536–1611), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See [Case Study 5](/case-studies/5/)."
+    caption: "Overlay of interpretive technical diagram and both X-radiograph and daylight photography. Barthélemy Prieur (French, 1536–1611), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683). See [Case Study 5](/case-studies/5/)."
     annotations:
       - input: radio
         items:
@@ -4847,7 +4847,7 @@ figure_list:
     src: "figures/526.jpg"
     zoom: true
     label: "Figure 526"
-    caption: "Barthélemy Prieur (French, ca. 1536–1611), *Funerary Genius, Christophe de Thou Monument*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014."
+    caption: "Barthélemy Prieur (French, 1536–1611), *Funerary Genius, Christophe de Thou Monument*, 1583–85, L. 109 cm (Musée du Louvre, inv. MR 1685). See Seelig-Teuwen, Bourgarit, and Bewer 2014."
 
   - id: "fig-527"
     src: "figures/527.jpg"
@@ -5052,7 +5052,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 550"
-    caption: "One aspect of chasing can involve enhancing detailed surface decoration. Here a V-shaped graver is used to reinforce the lines of the lion’s mane cast through from the model, where they had been incised into the wax. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See Dandridge 2006."
+    caption: "One aspect of chasing can involve enhancing detailed surface decoration. Here a V-shaped graver is used to remove metal in order to reinforce the lines of the lion’s mane cast through from the model, where they had been incised into the wax. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See Dandridge 2006."
 
   - id: "fig-551"
     src: "figures/551.jpg"
@@ -5083,7 +5083,7 @@ figure_list:
     zoom: true
     media_type:
     label: "Figure 555"
-    caption: "*Gilded Standing Divinity*, Cambodia, Angkor, Siem Reap province, 11th century, H. 130.8 cm (Metropolitan Museum of Art, from the Collection of Walter H. and Leonor Annenberg, inv. 1988.355)."
+    caption: "*Gilded Standing Divinity*, Cambodia, Angkor, Siem Reap province, 11th century, H. 130.8 cm (National Museum Bangkok)."
 
   - id: "fig-556"
     src: "figures/556.jpg"
@@ -5170,7 +5170,7 @@ figure_list:
     media_type: vimeo
     media_id: 672850991/6c63d94252
     label: "Video 1"
-    caption: "Application of the first layer of investment material on a wax model by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Application of the first layer of investment material on a wax model by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2015, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-02"
     poster: "figures/video-02.jpg"
@@ -5179,7 +5179,7 @@ figure_list:
     media_type: vimeo
     media_id: 672851118/418aee344b
     label: "Video 2"
-    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the wax model and the investment, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the wax model and the investment, 2019, Devon, UK. 2021 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-03"
     poster: "figures/video-03.jpg"
@@ -5188,7 +5188,7 @@ figure_list:
     media_type: vimeo
     media_id: 672851307/f50cb47466
     label: "Video 3"
-    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the original model and the associated mold using 3D laser scanning, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the making of the original model and the associated mold using 3D laser scanning, 2019, Devon, UK. 2021 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-04"
     poster: "figures/video-04.jpg"
@@ -5251,7 +5251,7 @@ figure_list:
     media_type: vimeo
     media_id: 672853119/c50b735e70
     label: "Video 10"
-    caption: "Short demonstration of chasing using a punch to compress the flawed surface of a cast by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Short demonstration of chasing using a punch to compress the flawed surface of a cast by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2015, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-11"
     poster: "figures/video-11.jpg"
@@ -5260,7 +5260,7 @@ figure_list:
     media_type: vimeo
     media_id: 672853278/b3f8d29d53
     label: "Video 11"
-    caption: "Contemporary artist-founder Andrew Lacey’ (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the metal pouring, fettling, and assembly steps, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices and process for the metal pouring, fettling, and assembly steps, 2019, Devon, UK. 2021 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-12"
     poster: "figures/video-12.jpg"
@@ -5269,7 +5269,7 @@ figure_list:
     media_type: vimeo
     media_id: 800608712/1cd80c51ad
     label: "Video 12"
-    caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the *Captive Gaul*, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See Azéma et al. 2013."
+    caption: "Flow-fusion-welding laboratory experiment carried out at the C2RMF, Paris, showing the fabrication process for the *Captive Gaul*, Gaul, last quarter of the 1st century BCE, H. 63 cm (Musée départemental Arles Antique [MDAA], France, inv. Rho.2007.06.1962), excerpted from a didactic video presented at the exhibitions *Arles, les fouilles du Rhône*, Musée du Louvre (March 9–June 25, 2012), and *César, le Rhône pour mémoire, 20 ans de fouilles archéologiques*, Musée de l’Arles antique, France (November 2009–January 2011). See Azéma et al. 2013. For the complete original video visit https://youtu.be/vXPmorUKJuc."
 
   - id: "vid-13"
     poster: "figures/video-13.jpg"
@@ -5278,7 +5278,7 @@ figure_list:
     media_type: vimeo
     media_id: 672853423/0214a29d8c
     label: "Video 13"
-    caption: "Short demonstration of fettling with a chisel to remove a mold flashing by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2016, Devon, UK. For the complete original video visit <https://youtu.be/vXPmorUKJuc>. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Short demonstration of fettling with a chisel to remove a mold flashing by Andrew Lacey (British, b. 1969), filmed as part of “Experimental Reconstruction of the Rothschild Bronzes,” 2015, Devon, UK. For the complete original video visit https://vimeo.com/133884185. 2020 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-14"
     poster: "figures/video-14.jpg"
@@ -5305,7 +5305,7 @@ figure_list:
     media_type: vimeo
     media_id: 672853935/66a501d3f2
     label: "Video 16"
-    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices of and process patination, 2016, Devon, UK. 2020 Sîan Lewis and Andrew Lacey"
+    caption: "Contemporary artist-founder Andrew Lacey (British, b. 1969) offers insights on creating a bronze horse: material choices of and process patination, 2019, Devon, UK. 2021 Sîan Lewis and Andrew Lacey"
 
   - id: "vid-17"
     poster: "figures/video-17.jpg"
@@ -5314,7 +5314,7 @@ figure_list:
     media_type: vimeo
     media_id: "801440105/7e9e74d298"
     label: "Video 17"
-    caption: "TV documentary (dir. Laurène L’Allinec for French National Television FR3, 1992, 20 min.) showing how the sixth edition of Auguste Rodin’s (French, 1840–1917) *Doors of Hell* was cast at Fonderie de Coubertin in 1989–92, as requested by Musée Rodin for the Shizuoka Prefectural Museum of Art, Japan."
+    caption: "TV documentary (dir. Laurène L’Allinec for French National Television FR3, 1992, 20 min.) showing how the sixth edition of Auguste Rodin’s (French, 1840–1917) *Doors of Hell* was cast at Fonderie de Coubertin in 1992, as requested by Musée Rodin for the Shizuoka Prefectural Museum of Art, Japan."
 
   - id: "vid-18"
     poster: "figures/video-18.jpg"
