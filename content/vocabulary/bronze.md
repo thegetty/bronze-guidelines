@@ -75,7 +75,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 - *bronze d’art*
 
-   Tous les alliages cuivreux avec une teneur en cuivre supérieure ou égale à 65%, cf loi Lebrun 1935 dans {% cite "Rama 1988" %}, 372). Il existe de nombreuses définitions plus ou moins divergentes. Voir par exemple ({% cite "Hamm 1924" %}, 83; {% cite "Launay 1827" %}, 2:251–52).
+   Tous les alliages cuivreux avec une teneur en cuivre supérieure ou égale à 65%, cf loi Lebrun 1935 dans {% cite "Rama 1988" %}, 372. Il existe de nombreuses définitions plus ou moins divergentes. Voir par exemple ({% cite "Hamm 1924" %}, 83; {% cite "Launay 1827" %}, 2:251–52).
 
     Sources: Historical: {% cite "Launay 1827" %}, 2:251–52; Art and Craft Textbooks: {% cite "Rama 1988" %}, 372; {% cite "Hamm 1924" %}, 83
 
@@ -90,7 +90,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 {% accordion italian "it" %}
 
 #### Sources
-{% cite "Treccani n.d." "" "Treccani" %}, under [*bronzo*](http://www.treccani.it/vocabolario/bronzo/); {% cite "Treccani n.d." "" "Treccani" %} under [*bronzi e ottoni* and *bronzi artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*bronzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola) [definition 1]; {% cite "Biringuccio [1540] 1990" %}, fols. 80vff; {% cite "Brunhuber 1988" %}
+{% cite "Treccani n.d." "" "Treccani" %}, under [*bronzo*](http://www.treccani.it/vocabolario/bronzo/); {% cite "Treccani n.d." "" "Treccani" %} under [*bronzi e ottoni* and *bronzi artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*bronzo*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_400.pdf&parola) [definition 1, vol. 2, 395]; {% cite "Biringuccio [1540] 1990" %}, fols. 80vff; {% cite "Brunhuber 1988" %}
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

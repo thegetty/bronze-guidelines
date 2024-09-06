@@ -80,7 +80,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 273; {% cite "Rama 1988" %}, 
 
 #### Sources
 
-{% cite "Giuffredi 2006" %}, 144, 220; {% cite "Treccani n.d." "" "Treccani" %}, under [*patina*](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, under [*patina*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina); {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
+{% cite "Giuffredi 2006" %}, 144, 220; {% cite "Treccani n.d." "" "Treccani" %}, under [*patina*](http://www.treccani.it/vocabolario/patina/); {% cite "Battaglia 1961" %}, under [*patina*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_829.pdf&parola=patina) [vol. 12, 822]; {% cite "Bruni 1994" %}, 126–28; {% cite "Brunhuber 1988" %}
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

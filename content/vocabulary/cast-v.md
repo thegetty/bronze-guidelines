@@ -79,7 +79,7 @@ Foundry-specific term that relates to the pouring of metal
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*gettare*](http://www.treccani.it/vocabolario/gettare/); {% cite "Battaglia 1961" %}, under [*gettare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_726.pdf&parola=gettare)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*gettare*](http://www.treccani.it/vocabolario/gettare/); {% cite "Battaglia 1961" %}, under [*gettare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_726.pdf&parola=gettare) [definition 28, vol. 6, 719]
 
 #### Alternate Translations
 

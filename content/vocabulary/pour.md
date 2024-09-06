@@ -80,7 +80,7 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
     Also refers to the {% def "cast (n.)" "cast" %}
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3b]; {% cite "Battaglia 1961" %}, under [*getto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto) [definition 15]; {% cite "Bruni 1994" %}, 106
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3a]; {% cite "Battaglia 1961" %}, under [*getto*](https://www.gdli.it/sala-lettura/vol/6?seq=731) [definition 15, vol. 6, 723]; {% cite "Bruni 1994" %}, 106
 
 - *gitto*
 

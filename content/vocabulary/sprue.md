@@ -21,7 +21,7 @@ Any channel that feeds metal to the mold, in contrast to a vent, which lets air 
 
 {% backmatter %}
 
-Note: The terms “sprue,” “sprueing,” or “sprue system” are most commonly associated with lost-wax casting. For {% def "sand casting" %} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {% def "piece mold" %} casting the channels are cut directly into the refractory mold. See [GI§2.7](/intro/#s2-7). Depending on the complexity of the {% def "cast (n.)" "cast" %}, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
+Note: The terms “sprue,” “sprueing,” “sprueing system,” or “sprue system” are most commonly associated with lost-wax casting. For {% def "sand casting" %} the equivalent would be “gating” or “gating system,” which is where all the other terms (“runners,” “risers,” “gates,” etc.) come into play. In sand and {% def "piece mold" %} casting the channels are cut directly into the refractory mold. See [GI§2.7](/intro/#s2-7). Depending on the complexity of the {% def "cast (n.)" "cast" %}, the sprue or gating systems may also contain other elements with special functions (e.g., reservoirs, chills, drains, traps, jets, etc.).
 
 {% endbackmatter %}
 
@@ -124,7 +124,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to a sprue that feeds the metal into the mold vs. a vent that helps channel the air out
 
-    Sources: {% cite "Giuffredi 2006" %}, 220; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata) [definition 8]
+    Sources: {% cite "Giuffredi 2006" %}, 220; {% cite "Battaglia 1961" %}, under [*mandata*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_632.pdf&parola=mandata) [definition 8, vol. 9, 625]
 
 - *mozzicone*
 
@@ -174,7 +174,7 @@ Term also found as part of expression *getto di colata*, referring to a gate or 
 
     Refers to vent; alternative modern term: *sfiato*; alternative early Italian: *sfiatatoro*
 
-    Sources: {% cite "Battaglia 1961" %}, under [*sfiatatoio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoi) [definition 1]; {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81, 89-89v
+    Sources: {% cite "Battaglia 1961" %}, under [*sfiatatoio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI18/GDLI_18_ocr_882.pdf&parola=sfiatatoi) [definition 1, vol. 18, 875]; {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a cera persa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Leonardo 1490" %}, fol. 149r; {% cite "Biringuccio [1540] 1977" %}, fols. 81, 89-89v
 
 - *spiraculo*
 

@@ -63,7 +63,7 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 #### Sources
 
-{% cite "Battaglia 1961" %}, under [*bolino*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino); {% cite "Battaglia 1961" %}, under [*incisione*](https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 9]
+{% cite "Battaglia 1961" %}, under [*bolino*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino); {% cite "Battaglia 1961" %}, under [*incisione*](https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 9, vol. 7, 686]
 
 #### Alternate Translation
 

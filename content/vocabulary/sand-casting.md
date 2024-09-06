@@ -91,7 +91,7 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Source
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+{% cite "Treccani n.d." "" "Treccani" %}, at the end of [*fusione a staffa*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
 
 #### Alternate Translation
 

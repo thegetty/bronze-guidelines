@@ -76,7 +76,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 372
 
 - *modèle*
 
-    Sources: Cultural Heritage: {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {% cite "Koch and Newell 1963" %}; {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 43, 85; {% cite "Dubos 2003" %}
+    Sources: Cultural Heritage: {% cite "Lebon 2012" %}, Glossaire: <http://journals.openedition.org/inha/3448>; Copper Industry: {% cite "Koch and Newell 1963" %}; {% cite "Bader and Théret 1961" %}, 614; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 43, 85; {% cit*e "Dubos 2003" %}
 
 - *modèle mère*
 
@@ -96,7 +96,11 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 216
 {% endaccordion %}
 {% accordion italian "it" %}
 
-Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
+#### Alternate Translation
+
+- *modello* 
+
+    Perhaps due to the lack of consistent industrial art foundry terminology before the nineteenth century, the term is shared in all sculptural fields: marble, plaster, clay, metal.
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

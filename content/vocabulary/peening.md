@@ -28,7 +28,7 @@ Note: The surface markings can be similar to those made by a {% def "punch" %} a
 
 ## Sources
 
-Cultural Heritage: {% cite "Smith 2015" %}; {% cite "Allen et al. 2022" %}, 254
+Cultural Heritage: {% cite "Smith 2015" %}; {% cite "Avery 2018" %}, 162; {% cite "Allen et al. 2022" %}, 254
 
 Historical: {% cite "Bolland 1894" %}, 298
 
@@ -61,7 +61,7 @@ Note: Il n’existe pas à notre connaissance de terme particulier en français 
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1]
+{% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1, vol. 9, 840]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

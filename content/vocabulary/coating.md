@@ -66,7 +66,7 @@ Copper Industry: {% cite "Levy and Saurat 2005" %}
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*rivestimento*](https://www.treccani.it/vocabolario/rivestimento) [definition 2]; {% cite "Battaglia 1961" %}, under [*rivestimento*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento); {% cite "Giuffredi 2006" %}, 221
+{% cite "Treccani n.d." "" "Treccani" %}, under [*rivestimento*](https://www.treccani.it/vocabolario/rivestimento) [definition 2]; {% cite "Battaglia 1961" %}, under [*rivestimento*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_1065.pdf&parola=rivestimento) [vol. 16, 1058]; {% cite "Giuffredi 2006" %}, 221
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

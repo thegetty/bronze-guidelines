@@ -59,7 +59,7 @@ In German, *Plattierung* (the result) and *Plattieren* (the action) are specific
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*placcatura*](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, under [*placcatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*placcatura*](http://www.treccani.it/vocabolario/placcatura); {% cite "Battaglia 1961" %}, under [*placcatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_634.pdf&parola=placcatura) [vol. 13, 626]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

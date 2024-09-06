@@ -67,7 +67,7 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 23; {% cite "Asso
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*tecnica*](https://www.treccani.it/enciclopedia/porosita/); {% cite "Battaglia 1961" %}, under [*porosità*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_924.pdf&parola=porosità)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*tecnica*](https://www.treccani.it/enciclopedia/porosita/); {% cite "Battaglia 1961" %}, under [*porosità*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI13/GDLI_13_ocr_924.pdf&parola=porosità) [vol. 13, 916]
 
 #### Alternate Translation
 

@@ -91,7 +91,7 @@ Foundry-specific term
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3]; {% cite "Battaglia 1961" %}, under [*getto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_730.pdf&parola=Getto) [definition 15]; {% cite "Baglione 1642" %}, 324–25
+{% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3]; {% cite "Battaglia 1961" %}, under [*getto*](https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI06/GDLI_06_ocr_731.pdf&parola=getto) [definition 15, vol. 6, 724]; {% cite "Baglione 1642" %}, 324–25
 
 #### Alternate Translations
  

@@ -87,7 +87,7 @@ Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
+{% cite "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1, vol. 2, 529]
 
 #### Alternate Translations
 

@@ -25,8 +25,6 @@ A type of repair most often mechanically set into the {% def "bronze" %} surface
 
 Cultural Heritage: {% cite "Bassett 2008" %}, 280, 283; {% cite "Dillon 2002" %}, 301–2; {% cite "Mattusch 1996" %}, 169–70
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/patch>
-
 ## To Be Distinguished From
 
 - {% def "plug" "*plug*" %}
@@ -78,7 +76,7 @@ Cultural Heritage: {% cite "Azéma and Mille 2013b" %}; {% cite "Bourgarit, Bewe
 
 - *tassello*
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 1a]; {% cite "Battaglia 1961" %}, under [*tassello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello) [definition 1]
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*tassello*](https://www.treccani.it/vocabolario/tassello1/) [definition 1a]; {% cite "Battaglia 1961" %}, under [*tassello*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI20/GDLI_20_ocr_765.pdf&parola=tassello) [definition 1, vol. 20, 758]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

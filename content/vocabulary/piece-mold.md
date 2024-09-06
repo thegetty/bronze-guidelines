@@ -84,7 +84,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 563
 
     This process and phrase are mentioned in the Treccani entry for *fusione* under *fusione a cera persa*.
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*calco a tasselli*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*calco a tasselli*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1]
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*calco a tasselli*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*calco a tasselli*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1, vol. 2, 529]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

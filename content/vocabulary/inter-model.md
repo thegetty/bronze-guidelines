@@ -29,7 +29,7 @@ Note: The term is subject to dispute among CAST:ING members. Depending on discip
 
 ## Sources
 
-Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite "Beentjes 2019" %}
+Cultural Heritage: {% cite "Motture 2019" %}; {% cite "Dillon 2002" %}; {% cite "Avery 2018" %}, 163
 
 ## Synonym
 

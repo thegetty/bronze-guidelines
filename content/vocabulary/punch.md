@@ -75,7 +75,7 @@ Art and Craft Textbook: {% cite "De Bois 1999" %}, 54–55
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*cesello*](https://www.treccani.it/vocabolario/cesello/); {% cite "Battaglia 1961" %}, under [*cesello*](http://www.gdli.it/JPG/GDLI03/00000019.jpg); {% cite "Cellini [1568] 1983" %}, 11, fols. 21v, 33v
+{% cite "Treccani n.d." "" "Treccani" %}, under [*cesello*](https://www.treccani.it/vocabolario/cesello/); {% cite "Battaglia 1961" %}, under [*cesello*](http://www.gdli.it/JPG/GDLI03/00000019.jpg) [vol. 6, 13]; {% cite "Cellini [1568] 1983" %}, 11, fols. 21v, 33v
 
 #### Alternate Translation
 

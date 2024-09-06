@@ -31,7 +31,7 @@ Note: Slight differences are inevitable between replicas due to deterioration of
 
 Cultural Heritage: {% cite "Dillon 2002" %}, 300
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [definition 1a]
+General Dictionary: <https://www.merriam-webster.com/dictionary/replica> [definition 1]
 
 ## To Be Distinguished From
 
@@ -68,7 +68,7 @@ Note: Non spécifique au bronze. On parle de « multiples » pour désigner pl
 
 - *reproduction*
 
-    Une reproduction est techniquement identique à une épreuve d'édition, mais différent : juridiquementé : une “épreuve d'édition” est considérée comme un original, une reproduction non.
+    Une reproduction est techniquement identique à une épreuve d'édition, mais différente : juridiquementé : une “épreuve d'édition” est considérée comme un original, une reproduction non.
 
 - *variante*
 
@@ -104,7 +104,7 @@ Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 545
 
 - *riproduzione* (general term)
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riproduzione*](http://www.treccani.it/vocabolario/riproduzione) [definition 2]; {% cite "Battaglia 1961" %}, under [*riproduzione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione) [definition 2]
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riproduzione*](http://www.treccani.it/vocabolario/riproduzione) [definition 2]; {% cite "Battaglia 1961" %}, under [*riproduzione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_726.pdf&parola=riproduzione) [definition 2, vol. 16, 719]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

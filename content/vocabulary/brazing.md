@@ -92,7 +92,7 @@ A subset of *saldatura*
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*brasatura*](http://www.treccani.it/vocabolario/brasatura/); {% cite "Battaglia 1961" %}, under [*brasatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_364.pdf&parola=brasatura) [vol. 2, 359]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

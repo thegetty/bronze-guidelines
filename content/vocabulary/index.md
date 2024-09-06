@@ -43,13 +43,13 @@ contributor:
   - id: jmwelter
 contributor_as_it_appears: Edited by Jane Bassett and David Bourgarit
 additional_contributors: |
-  Additional Contributors Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze, Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
-
   English: Francesca G. Bewer
   French: Anne-Lise Desmas, Elisabeth Lebon
   German: Joachim Kreutner, Jean-Marie Welter
   Italian: Francesca G. Bewer, Lorenzo Morigi
-  Chinese: Linda Ying-Chun Lin
+  Chinese: Yi Chen, Linda Ying-Chun Lin
+
+  Additional Contributors Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze, Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
 ---
 
 <div class="section-landing-page__text">

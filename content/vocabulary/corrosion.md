@@ -61,7 +61,7 @@ Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 128
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*corrosione*](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, under [*corrosione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione) [definition 2]
+{% cite "Treccani n.d." "" "Treccani" %}, under [*corrosione*](http://www.treccani.it/vocabolario/corrosione); {% cite "Battaglia 1961" %}, under [*corrosione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_845.pdf&parola=corrosione) [definition 2, vol. 3, 845]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

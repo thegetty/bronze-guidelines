@@ -65,7 +65,7 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/inlay>
 
 {% backmatter %}
 
-Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« inlay » en anglais) d’un élément formant relief (« overlay »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
+Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« inlay » en anglais) d’un élément formant relief (« {% def "overlay" %} »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
 
 {% endbackmatter %}
 
@@ -121,7 +121,7 @@ A decorative process usually performed on steel and copper alloys, with thin sil
 
     General term referring to the insertion of different materials on a decorated surface
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*intarsio*](http://www.treccani.it/vocabolario/intarsio); {% cite "Battaglia 1961" %}, under [*intarsio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio)
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*intarsio*](http://www.treccani.it/vocabolario/intarsio); {% cite "Battaglia 1961" %}, under [*intarsio*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI08/GDLI_08_ocr_176.pdf&parola=intarsio) [vol. 8, 169]
 
 - *lavori di tanccia*
 

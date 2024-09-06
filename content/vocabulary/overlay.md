@@ -63,7 +63,7 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 315
 
 {% backmatter %}
 
-Note: il n’existe aucun terme français pour distinguer précisément un élément inséré dans la surface du bronze (« {% def "inlay" %} » en anglais) d’un élément formant relief (« overlay »). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique.
+Note: le seul terme français connu par les auteurs pour distinguer précisément un élément inséré dans la surface du bronze (« {% def "inlay" %} » en anglais) d’un élément formant relief (« overlay ») est le terme « incrustation en relief » (E. Plé, Personnal communication, June 2024). Le japonais, au contraire, offre un vocabulaire très riche et très spécifique
 
 {% endbackmatter %}
 
@@ -107,7 +107,7 @@ A general term closer to “coating”
 
     Rare and not very specific
 
-    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riporto*](http://www.treccani.it/vocabolario/riporto/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*riporto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto) [definition 2, vol. 6, 68a]
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*riporto*](http://www.treccani.it/vocabolario/riporto/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*riporto*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_696.pdf&parola=riporto) [definition 2, vol. 16, 689]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

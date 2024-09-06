@@ -82,7 +82,7 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Sources
 
-{% cite "Treccani n.d." "" "Treccani" %}, under [*ottone*](http://www.treccani.it/vocabolario/ottone/); {% cite "Treccani n.d." "" "Treccani" %}, under [*Bronzi e ottoni*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*ottone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone) [definition 1]
+{% cite "Treccani n.d." "" "Treccani" %}, under [*ottone*](http://www.treccani.it/vocabolario/ottone/); {% cite "Treccani n.d." "" "Treccani" %}, under [*Bronzi e ottoni*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*ottone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone) [definition 1, vol. 12, 288]
 
 {% endaccordion %}
 {% accordion chinese "zh" %}

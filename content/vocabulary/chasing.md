@@ -113,7 +113,7 @@ Not reserved specifically for metals
 
 - *cesellare*
 
-    Source: {% cite "Battaglia 1961" %}, under [*cesellare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare)
+    Source: {% cite "Battaglia 1961" %}, under [*cesellare*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_19.pdf&parola=cesellare) [vol. 3, 13]
 
 - *ritocco a freddo* (ritocco a freddo di dettagli)
 

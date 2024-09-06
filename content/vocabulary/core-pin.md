@@ -12,7 +12,7 @@ lang:
   de: Kernstift
   fr: fer à noyau
   it: distanziatore
-  zh: 支釘
+  zh: 销钉
 ---
 
 See figs. 35, 36, 37, 64, 122, 547.{.pdf-figure-list}
@@ -123,11 +123,9 @@ Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 {% endaccordion %}
 {% accordion chinese "zh" %}
 
-#### Alternate Translation
+#### Source 
 
-- <span lang="zh">销钉</span>
-
-    Sources: {% cite "Ming 2010" %}, 1559; TNATD
+{% cite "Ming 2010" %}, 1559; TNATD
 
 {% endaccordion %}
 

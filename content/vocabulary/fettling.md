@@ -115,7 +115,7 @@ Removal of flashing or traces of {% def "sprues" %}
 
 #### Sources
 
-Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://www.treccani.it/vocabolario/sbavatura1/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*sbavatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura) [second entry]
+Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://www.treccani.it/vocabolario/sbavatura1/) [definition 2c]; {% cite "Battaglia 1961" %}, under [*sbavatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_671.pdf&parola=sbavatura) [second entry, vol. 17, 663]
 
 #### Alternate Translations
 
@@ -123,7 +123,7 @@ Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*sbavatura*](http://ww
 
     Same word used for chasing
 
-    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*rifinitura*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*rifinitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura) [definition 2]
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*rifinitura*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*rifinitura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI16/GDLI_16_ocr_264.pdf&parola=rifinitura) [definition 2, vol. 16, 257]
 
 - *sgrossatura*
 

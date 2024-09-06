@@ -23,7 +23,7 @@ A type of repair consisting of a localized {% def "cast (n.)" "cast" %} of molte
 
 ## Sources
 
-Cultural Heritage: {% cite "Dillon 2002" %}; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture 2001" %}, 222
+Cultural Heritage: {% cite "Avery 2018" %}, 166; {% cite "Salter and Gilmour n.d." %}; {% cite "Motture 2001" %}, 222
 
 ## To Be Distinguished From
 
