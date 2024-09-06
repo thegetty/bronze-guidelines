@@ -76,7 +76,7 @@ entries:
     full: "Artioli, G., M. Dugnani, T. Hansen, L. Lutterotti, A. Pedrotti, and G. Sperl. 2003. “Crystallographic Texture Analysis of the Iceman and Coeval Copper Axes by Non-Invasive Neutron Powder Diffraction.” In *La mummia dell’età del rame. 2. Nuove ricerche sull’uomo venuto dal ghiaccio*, edited by A. Fleckinger, 9–22. Bolzano, Italy: Folio Verlag."
 
   - id: "Ashley-Smith 1977"
-    full: "Ashley Smith, Jonathan. 1977. “The Scientific Examination of Small Bronzes.” *The Conservator* 1:57."
+    full: "Ashley-Smith, Jonathan. 1977. “The Scientific Examination of Small Bronzes.” *The Conservator* 1:57."
 
   - id: "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979"
     full: "Association Technique de Fonderie, Commission Ingénieurs et Techniciens. 1979. *Dictionnaire idéologique de fonderie / Indexed Foundry Dictionary / Systematisches Giessereiwörterbuch*. Meudon: Techniques des industries de la Fonderie."
@@ -178,7 +178,7 @@ entries:
     full: "Baxandall, Michael. 1965. “A Masterpiece by Hubert Gerhard.” *Victoria and Albert Museum Bulletin* 1 (2): 1–17."
 
   - id: "Baxandall 1966"
-    full: "Baxandall, Michael. 1966. “Hubert Gerhard and the Altar of Christoph Fugger: The Sculpture and Its Making.” *Münchener Jahrbuch der bildenden Kunst* 3 (17): 127–44."
+    full: "Baxandall, Michael. 1966. “Hubert Gerhard and the Altar of Christoph Fugger: The Sculpture and its Making.” *Münchner Jahrbuch der bildenden Kunst* 3 (17): 127–44."
 
   - id: "Baxter 2001"
     full: "Baxter, Michael J. 2001. “Statistical Modelling of Artefact Compositional Data.” *Archaeometry* 43 (1): 131–47."
@@ -193,7 +193,7 @@ entries:
     full: "Bayley, Justine. 1991. “Alloy Nomenclature.” In *Medieval Finds from Excavations in London*. Vol. 3, *Dress Accessories c. 1150–c. 1450*, edited by Geoff Egan and Frances Pritchard, 13–17. London: HMSO."
 
   - id: "Beale 1975"
-    full: "Beale, Arthur. 1975. “A Technical View of Nineteenth-Century Sculpture.” In *Metamorphoses in Nineteenth-Century Sculpture : [Exhibition, November 19, 1975–January 7, 1976, Fogg Art Museum, Harvard University : Catalogue]*, 28–55. Cambridge, MA: Harvard University Press."
+    full: "Beale, Arthur. 1975. “A Technical View of Nineteenth-Century Sculpture.” In *Metamorphoses in Nineteenth-Century Sculpture*, 28–55. Cambridge, MA: Harvard University Press."
 
   - id: "Beale 1996"
     full: "Beale, Arthur. 1996. “Understanding, Restoring, and Conserving Ancient Bronzes with the Aid of Science.” In *The Fire of Hephaistos: Large Classical Bronzes from North American Collections*, edited by Carol C. Mattusch, 65–80. Cambridge, MA: Harvard University Art Museums."
@@ -259,13 +259,13 @@ entries:
     full: "Bewer, Francesca G. 1999. “Bronze Casts after Bozzetti and Modelli by Bernini.” *Harvard University Art Museums Bulletin* 6 (3): 162–67."
 
   - id: "Bewer 2001"
-    full: "Bewer, Francesca G. 2001. “The Sculptur 2008e of Adriaen de Vries: A Technical Study.” In *Small Bronzes in the Renaissance*, edited by Debra Pincus, 158–93. Studies in the History of Art 62. Washington, DC: National Gallery of Art; New Haven, CT: Yale University Press."
+    full: "Bewer, Francesca G. 2001. “The Sculpture of Adriaen de Vries: A Technical Study.” In *Small Bronzes in the Renaissance*, edited by Debra Pincus, 158–93. Studies in the History of Art 62. Washington, DC: National Gallery of Art; New Haven, CT: Yale University Press."
 
   - id: "Bewer 2010"
     full: "Bewer, Francesca G. 2010. *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America, 1900–1950*. Cambridge, MA, and New Haven, CT: Harvard Art Museums."
 
   - id: "Bewer 2012"
-    full: "Bewer, Francesca G. 2012. “A Chemist under a Spell: Rutherford John Gettens’s Early Encounters with Chinese Bronzes.” In *Scientific Research on Ancient Asian Metallurgy (Proceedings of Studies of Ancient Asian Metallurgy Using Scientific Methods, Fifth Forbes Symposium of the Freer Gallery of Art, October 2010, Washington, D.C.*), edited by Paul Jett, Blythe McCarthy, and Janet G. Douglas, 3–11. London: Archetype."
+    full: "Bewer, Francesca G. 2012. “A Chemist under a Spell: Rutherford John Gettens’s Early Encounters with Chinese Bronzes.” In *Scientific Research on Ancient Asian Metallurgy (Proceedings of Studies of Ancient Asian Metallurgy, Fifth Forbes Symposium of the Freer Gallery of Art, October 2010, Washington, D.C.*), edited by Paul Jett, Blythe McCarthy, and Janet G. Douglas, 3–11. London: Archetype."
 
   - id: "Bewer, Bourgarit, and Bassett 2008"
     full: "Bewer, Francesca G., David Bourgarit, and Jane Bassett. 2008. “Les bronzes français (XVIe–XVIIIe siècle): Notes techniques.” In *Bronzes français de la Renaissance au Siècle des lumières*, edited by Geneviève Bresc-Bautier and Guilhem Scherf, 28–41. Paris: Musée du Louvre, Somogy."
@@ -741,6 +741,9 @@ entries:
   - id: "Descamps-Lequime and Mille 2017"
     full: "Descamps-Lequime, Sophie, and Benoît Mille. 2017. “Progrès de la recherche sur la statuaire antique en bronze.” *Technè* 45:4–13."
 
+  - id: "Descamps-Lequime, Mille, and Psalti 2019 "
+    full: "Descamps-Lequime, Sophie, Benoît Mille, et Nancy Psalti. “Projet d’une nouvelle étude technologique de l’Aurige de Delphes: les premiers résultats.” In Proceedings of the XXth International Congress on Ancient Bronzes: Resource, reconstruction, representation, role, édité par Philipp Baas, 45–55. BAR International series 2958. Oxford: BAR Publishing, 2019."
+
   - id: "Descamps-Lequime, Mille, and Robcis 2008"
     full: "Descamps-Lequime, Sophie, Benoît Mille, and Dominique Robcis. 2008. “L’enfant à la bulle: Histoire moderne d’un bronze antique.” *Techné*, nos. 27/28: 11–20."
 
@@ -760,7 +763,7 @@ entries:
     full: "Diehl, Gustav Eugen. 1927. *Die Bildgiesserei Noack*. Berlin: G. E. Diehl."
 
   - id: "Diemer 1996"
-    full: "Diemer, Dorothea. 1996. “Handwerkgeheimnisse der Vischer-Werkstatt.” *Münchener Jahrbuch der bildenden Kunst* 3 (47): 24–54."
+    full: "Diemer, Dorothea. 1996. “Handwerkgeheimnisse der Vischer-Werkstatt.” *Münchner Jahrbuch der bildenden Kunst* 3 (47): 24–54."
 
   - id: "Dillmann and L’Héritier 2007"
     full: "Dillmann, Philippe, and Maxime L’Héritier. 2007. “Slag Inclusion Analyses for Studying Ferrous Alloys Employed in French Medieval Buildings: Supply of Materials and Diffusion of Smelting Processes.” *Journal of Archaeological Science* 34 (11): 1810–23."
@@ -769,7 +772,7 @@ entries:
     full: "Doeringer, Suzannah F., David Gordon Mitten, and Arthur Richard Steinberg, eds. 1970. *Art and Technology: A Symposium on Classical Bronzes*, Cambridge, MA: MIT Press."
 
   - id: "Dillon 2002"
-    full: "Dillon, Jo. 2002. “Technical Reports” and “Glossary of Technical Terms.” In *Renaissance and Baroque Bronzes from the Fitzwilliam Museum, Cambridge*, edited by Victoria Avery, 276–88, 299–303. London: Daniel Katz Ltd.; Gli Ori."
+    full: "Dillon, Jo. 2002. “Technical Reports” and “Glossary of Technical Terms.” In Avery, Victoria, *Renaissance and Baroque Bronzes from the Fitzwilliam Museum, Cambridge*, 276–88, 299–303. London: Daniel Katz Ltd.; Gli Ori."
 
   - id: "Dolfini and Crellin 2016"
     full: "Dolfini, Andrea, and Rachel J. Crellin. 2016. “Metalwork Wear Analysis: The Loss of Innocence.” *Journal of Archaeological Science* 66 (February): 78–87."
@@ -865,7 +868,7 @@ entries:
     full: "Fontein, Jan, R. Soekmono, and Edi Sedyawati. 1990. *The Sculpture of Indonesia.* Washington, DC: National Gallery of Art."
 
   - id: "Formigli 1984"
-    full: "Formigli, Edilberto. 1984. “Dua bronzi da Riace.” *Bolletino d’Arte* 2, special series 3. Rome: Libreria dello Stato. <http://www.bollettinodarte.beniculturali.it/opencms/multimedia/BollettinoArteIt/documents/1475238151057_Due_Bronzi_di_Riace_I_(Serie_speciale_1984).pdf>."
+    full: "Formigli, Edilberto. 1984. “Due bronzi da Riace.” *Bolletino d’Arte* 2, special series 3. Rome: Libreria dello Stato. <http://www.bollettinodarte.beniculturali.it/opencms/multimedia/BollettinoArteIt/documents/1475238151057_Due_Bronzi_di_Riace_I_(Serie_speciale_1984).pdf>."
 
   - id: "Formigli 1993"
     full: "Formigli, Edilberto. 1993. “Antiche terre di fusione.” In *Antiche officine del bronzo: materiali, strumenti, tecniche: atti del Seminario di studi ed esperimenti, Murlo, 26–31 luglio 1991*, edited by Edilberto Formigli, 69–98. Siena, Italy: Nuova Immagine."
@@ -1096,7 +1099,7 @@ entries:
     full: "Heginbotham, Arlen, David Bourgarit, Julia Day, Jan Dorscheid, Joe Godla, Lynn Lee, Arie Pappot, and Dominique Robcis. 2019. “CHARMed PyMca, Part II: An Evaluation of Interlaboratory Reproducibility for ED‐XRF Analysis of Copper Alloys.” *Archaeometry* 61 (6): 1333–52. <https://doi.org/10.1111/arcm.12488>."
 
   - id: "Heikamp and Paolozzi Strozzi 2014"
-    full: "Heikamp, Detlef, and Beatrice Paolozzi Strozzi, eds. *Baccio Bandinelli. Scultore e Maestro (1493–1560)*. Florence: Museo Nazionale del Bargello."
+    full: "Heikamp, Detlef, and Beatrice Paolozzi Strozzi, eds. 2014. *Baccio Bandinelli. Scultore e Maestro (1493–1560)*. Florence: Museo Nazionale del Bargello."
 
   - id: "Heilmeyer 1994"
     full: "Heilmeyer, W. D. 1994. “Zur Oberfläche antiker Großbronzen.” In *Das Wrack. Der antike Schiffsfund von Mahdia*, edited by Gisela Hellenkemper Salies with Hans-Hoyer von Prittwitz und Gaffron and Gerhard Bauchhenß, 2:801–7. Kataloge des Rheinischen Landesmuseums Bonn. Cologne: Rheinland Verlag."
@@ -1315,10 +1318,10 @@ entries:
     full: "Lebon, Elisabeth. 2016. “Le mystère de la Porte des Lions… (Paris, porte des Lions, grande galerie du Louvre – 1847/1867).” Fontesdart.org, May 31, 2016, <http://www.fontesdart.org/fontes-n100-elisabeth-lebon/>."
 
   - id: "Lebon 2019"
-    full: "Lebon, Elisabeth. 2019. “Delhommeau.” In *Sculpture of “Les Animaliers” 1900–1950*, edited by Edward Horswel, 110–13. London: Sladmore Gallery."
+    full: "Lebon, Elisabeth. 2019. “Delhommeau.” In *Sculpture of “Les Animaliers” 1900–1950*, edited by Edward Horswell, 110–13. London: Sladmore Gallery."
 
   - id: "Lebon 2020"
-    full: "Lebon, Elisabeth. 2020. “Sculptors-Founders in Late Nineteenth-Century France: The Role of Lost Wax Casting.” In *Finding Lost Wax: The Disappearance and Recovery of an Ancient Casting Technique and the Experiments of Medardo Rosso*, edited by Sharon Hecker, 18–65. Studies in Art and Materiality 3. Leiden, the Netherlands: Brill."
+    full: "Lebon, Elisabeth. 2020. “Sculptor-Founders in Late Nineteenth-Century France: The Role of Lost Wax Casting.” In *Finding Lost Wax: The Disappearance and Recovery of an Ancient Casting Technique and the Experiments of Medardo Rosso*, edited by Sharon Hecker, 18–65. Studies in Art and Materiality 3. Leiden, the Netherlands: Brill."
 
   - id: "Lebon et al. 2016"
     full: "Lebon, Elisabeth, Cecile Godefroy, Virginie Perdrisiot, and Diana Widmaier Picasso. 2016. “Glossaire.” In *Picasso: Sculptures*. Paris: Musée national Picasso, Somogy; Brussels: Palais des beaux-arts Bruxelles."
@@ -1475,6 +1478,9 @@ entries:
 
   - id: "Mariette 1768"
     full: "Mariette, Pierre-Jean. 1768. *Description des travaux qui ont précédé, accompagné et suivi la fonte en bronze d’un seul jet de la statue équestre de Louis XV, le Bien-Aimé, dressée sur les mémoires de M. Lempereur*. Paris: Imprimerie de P. G. Le Mercier. <https://archive.org/details/gri_33125010908289/mode/2up>."
+
+  - id: "Martin 2001"
+    full: "Martin, Graham. 2001. “Alloy Analysis” and “Appendix II.” In Motture, Peta, *Bells and Mortars and Related Utensils: Catalogue of Italian Bronzes in the Victoria and Albert Museum*, 51–52 and 208–13. London: V&A Publications."
 
   - id: "Martin, Incerti, and Mercier 2015"
     full: "Martin, Loic, Sebastien Incerti, and Norbert Mercier. 2015. “DosiVox: Implementing Geant 4-Based Software for Dosimetry Simulations Relevant to Luminescence and ESR Dating Techniques.” *Ancient TL* 33 (1): 10."
@@ -1641,6 +1647,9 @@ entries:
   - id: "Mödlinger et al. 2017"
     full: "Mödlinger, Marinne, Maikel H. G. Kuijpers, Dennis Braekmans, and Daniel Berger. 2017. “Quantitative Comparisons of the Color of CuAs, CuSn, CuNi, and CuSb Alloys.” *Journal of Archaeological Science* 88:14–23."
 
+  - id: "Mödlinger, Asmus, and  Ghiara 2024"
+    full: "Mödlinger, Marianne, Bastian Asmus, et Giorgia Ghiara. “‘The “Schwarze Mander’” of the Court Church in Innsbruck, Austria: Manufacture and Production of Monumental Brass Statues in the Renaissance.” International Journal of Metalcasting, 22 mars 2024. https://doi.org/10.1007/s40962-024-01299-4."
+
   - id: "Morigi 1990"
     full: "Morigi, Giovanni. 1990. *Fusione a cera persa con tecnica parzialmente indiretta. Tecnica impiegata nei bronzi a tutto tondo della Fontana del Nettuno di Giambologna, 1566.* Bologna, Italy: Commune di Bologna, Assessorato alla cultura."
 
@@ -1801,7 +1810,7 @@ entries:
     full: "Paolozzi Strozzi, Beatrice, ed. 2008. *Donatello: il David restaurato*. Florence: Giunti."
 
   - id: "Papet 2001"
-    full: "Papet, Edouard, ed. 2001. *A fleur de peau: le moulage sur nature au xixe siècle*. Paris: Réunion des Musées Nationaux."
+    full: "Papet, Edouard, ed. 2001. *A fleur de peau: le moulage sur nature au XIXe siècle*. Paris: Réunion des Musées Nationaux."
 
   - id: "Papet 2018"
     full: "Papet, Édouard. 2018. *En couleurs: La sculpture polychrome en France, 1850–1910*. Vanves; Paris: Hazan; Musée d’Orsay."
@@ -1834,7 +1843,7 @@ entries:
     full: "Pernicka, Ernst, and Silke von Berswordt-Wallrabe, eds. 2008. *Original – Copy – Fake? Examining the Authenticity of Ancient Works of Art, Focusing on African and Asian Bronzes and Terracottas; International Symposium Stiftung Situation Kunst/Ruhr-University Bochum, February 17th and 18th, 2007*. Mainz, Germany: Von Zabern."
 
   - id: "Pernot 2000"
-    full: "Pernot, M. 2000. “Forming Bronze by Plastic Deformation around the 1st Millennium BC in Western Europe.” In *JJ Jonas Symposium on Thermomechanical Processing of Steel*, edited by S. Yue and E. Essadiqi, 615–26. Montreal, Quebec: Metallurgical Society of the Canadian Institute of Mining, Metallurgy and Petroleum."
+    full: "Pernot, M. 2000. “Forming Bronze by Plastic Deformation around the 1st Millennium BC in Western Europe.” In *J. J. Jonas Symposium on Thermomechanical Processing of Steel*, edited by S. Yue and E. Essadiqi, 615–26. Montreal, Quebec: Metallurgical Society of the Canadian Institute of Mining, Metallurgy and Petroleum."
 
   - id: "Perrault 2006"
     full: "Perrault, Gilles. 2006. “Les contrefaçons de l’œuvre de Diego Giacometti.” *Revue Experts* 71 (May): <https://www.gillesperrault.com/les-contrefacons-de-lœuvre-de-diego-giacometti/>."
@@ -1930,7 +1939,7 @@ entries:
     full: "Reindell, Ingrid, and Gabriele Tommasi. 1999. “Brevi cenni sulla fusione della porta della cattedrale di Trani.” In *I grandi bronzi antichi: le fonderie e le tecniche di lavorazione dall’età arcaica al rinascimento: atti dei Seminari di Studi ed Esperimenti, Murlo 24–30 luglio 1993 e 1–7 luglio 1995*, edited by Edilberto Formigli, 351–64. Siena, Italy: Nuova Immagine."
 
   - id: "Riederer 1982"
-    full: "Riederer, Josef. 1982. “Die saturwissenschaftliche Untersuchung der Bronzen der Staatlichen Sammlung Aegyptischer Kunst in Muenchen.” *Berliner Beiträge zur Archäometrie* 7:2–23."
+    full: "Riederer, Josef. 1982. “Die naturwissenschaftiche Untersuchung der Bronzen der Staatlichen Sammlung Ägyptischer Kunst in München.” *Berliner Beiträge zur Archäometrie* 7:2–23."
 
   - id: "Riederer 2002"
     full: "Riederer, Josef. 2002. “Die Datenbank zu Metallanalysen des Rathgen-Forschungslabors. Ein Beitrag zur Erschließung kulturgeschichtlicher Objekte.” *Jahrbuch Preussischer Kulturbesitz* 39:329–44."
@@ -1969,7 +1978,7 @@ entries:
     full: "Robbiola, Luc. 2015. “Les patines naturelles des bronzes – quelques développements majeurs.” In *La conservation-restauration des métaux archéologiques: Des premiers soins à la conservation durable*, edited by S. Clerbois, C. Cappucci, J. Moulin, L. Nonne, S. Piermarini, and M.-H. Schumacher, 45–50. Les Dossiers de l’Institut Du Patrimoine Wallon (IPW) 15. Namur, Belgium: IPW Institut du Patrimoine wallon."
 
   - id: "Robbiola and Hurtel 1997"
-    full: "Robbiola, Luc, and L. P. Hurtel. 1997. “Standard Nature of the Passive Layers of Buried Archaeological Bronze: The Example of Two Roman Half-Length Portraits.” In *METAL 95: International Conference on Metals Conservation*, edited by Ian D. Mac Leod, Stéphane L. Pennec, and Luc Robbiola, 109–17. London: Ames & James Science."
+    full: "Robbiola, Luc, and L. P. Hurtel. 1997. “Standard Nature of the Passive Layers of Buried Archaeological Bronze: The Example of Two Roman Half-Length Portraits.” In *METAL 95: International Conference on Metals Conservation*, edited by Ian D. MacLeod, Stéphane L. Pennec, and Luc Robbiola, 109–17. London: Ames & James Science."
 
   - id: "Robbiola and Portier 2006"
     full: "Robbiola, Luc, and Richard Portier. 2006. “A Global Approach to the Authentication of Ancient Bronzes Based on the Characterization of the Alloy-Patina-Environment System.” *Journal of Cultural Heritage* 7 (1): 1–12."
@@ -2119,7 +2128,7 @@ entries:
     full: "Smith, Dylan. 2012. “Handheld X-Ray Fluorescence Analysis of Renaissance Bronzes: Practical Approaches to Quantification and Acquisition.” In *Handheld XRF for Art and Archaeology*, edited by Aaron N. Shugar and Jennifer L. Mass, 37–74. Leuven, Belgium: Leuven University Press."
 
   - id: "Smith 2013"
-    full: "Smith, Dylan. 2013. “Reconstructing the Casting Technique of Severo Da Ravenna’s *Neptune*.” *Facture* 1:167–81."
+    full: "Smith, Dylan. 2013. “Reconstructing the Casting Technique of Severo da Ravenna’s *Neptune*.” *Facture* 1:167–81."
 
   - id: "Smith 2015"
     full: "Smith, Dylan. 2015. “Riccio in Relief: Documented Sculpture as a Technical Context for *The Entombment*.” *Facture: Conservation, Science, Art History* 2: pages unknown."
@@ -2179,13 +2188,13 @@ entries:
     full: "Stone, Richard E. 2006. “Severo Calzetta da Ravenna and the Indirectly Cast Bronze.” *Burlington Magazine* 148:810–19."
 
   - id: "Stone 2008"
-    full: "Stone, Richard E. 2008. “Riccio: Technology and Connoisseurship.” In *Andrea Riccio: Renaissance Master of Bronze*, edited by Denise Allen and Peta Motture, 81–96. London: Philip Wilson."
+    full: "Stone, Richard E. 2008. “Riccio: Technology and Connoisseurship.” In *Andrea Riccio: Renaissance Master of Bronze*, edited by Denise Allen, 81–96. London: Philip Wilson."
 
   - id: "Stone 2010"
     full: "Stone, Richard E. 2010. “Organic Patinas on Small Bronzes of the Italian Renaissance.” *Metropolitan Museum Journal* 45 (January): 107–24."
 
   - id: "Stone 2011"
-    full: "Stone, Richard E. 2011. “Understanding Antico’s Patina.” In *Antico: The Golden Age of Renaissance Bronzes*, edited by Eleonora Luciano, 178–82. Washington, DC: National Gallery of Art; London: Paul Holberton."
+    full: "Stone, Richard E. 2011. “Understanding Antico’s Patinas.” In *Antico: The Golden Age of Renaissance Bronzes*, edited by Eleonora Luciano, 178–82. Washington, DC: National Gallery of Art; London: Paul Holberton."
 
   - id: "Strahan 1997"
     full: "Strahan, Donna K. 1997. “Bronze Casting in Thailand.” In *The Sacred Sculpture of Thailand: The Alexander B. Griswold Collection*. Baltimore: Walters Art Gallery, 27–41."
@@ -2224,7 +2233,7 @@ entries:
     full: "Taylor, R. E. 1987. “Radiocarbon Dating in Historical Perspective.” In *Radiocarbon Dating: An Archaeological Perspective*, edited by R. E. Taylor, 147–70. Orlando: Academic Press."
 
   - id: "Texier et al. 2016"
-    full: "Texier, A., A. Azema, J. Legendre Bouichoi, and C. Bottinaeu. 2016. “The Vendôme Column: Restoration of a Monumental Bronze in Paris.” In *Proceeedings of the Interim Meeting of the ICOM-CC Metals Working Group, Sept. 26–30, 2016*, edited by R. Menon, C. Chemello and A. Pandya, 298–305. New Delhi: ICOM-CC and Indira Gandhi National Centre of the Arts."
+    full: " Texier, A., A. Azema, M. Bouichoi, J. Legendre, and C. Bottineau. 2016. “The Vendôme Column: Restoration of a Monumental Bronze in Paris.” In *Proceeedings of the Interim Meeting of the ICOM-CC Metals Working Group, Sept. 26–30, 2016*, edited by R. Menon, C. Chemello and A. Pandya, 298–305. New Delhi: ICOM-CC and Indira Gandhi National Centre of the Arts."
 
   - id: "Theophilus [ca. 1122] 1979"
     full: "Theophilus. (ca. 1122) 1979. *On Divers Arts: The Foremost Medieval Treatise on Painting, Glassmaking, and Metalwork*. Translated by John G. Hawthorne and Cyril Stanley Smith. New York: Dover."
@@ -2305,7 +2314,7 @@ entries:
     full: "von Schroeder, U. 1981. *Indo-Tibetan Bronzes*. Hong Kong: Visual Dharma."
 
   - id: "Wallack 1840"
-    full: "Wallack, August. 1840. *Vollständiges Handbuch des Gürtlers und Bronzearbeiters*. Vol. 108. Neuer Schauplatz der Kuenste und Handwerke. Weimar, Germany: Bernh. Fr. Voigt."
+    full: "Wallack, August. 1840. *Vollständiges Handbuch des Gürtlers und Bronzearbeiters*. Vol. 108. Neuer Schauplatz der Künste und Handwerke. Weimar, Germany: Bernh. Fr. Voigt."
 
   - id: "Waksman 2014"
     full: "Waksman, Yona. 2014. “Etudes de Provenance de Céramiques.” In *Circulation et provenance es matériaux dans les sociétés anciennes*, edited by Philippe Dillmann and Ludovic Bellot-Gurlet, 195–216. Sciences Archéologiques. Paris: Editions des archives contemporaines."
@@ -2316,8 +2325,11 @@ entries:
   - id: "Warda 2011"
     full: "Warda, Jeffrey, ed. 2011. *The AIC Guide to Digital Photography and Conservation Documentation*. 2nd ed. Washington, DC: American Institute for Conservation of Historic and Artistic Works."
 
+  - id: "Warren 2014"
+    full: "Warren, Jeremy, 2014. *Medieval and Renaissance Sculpture: A Catalogue of the Collection in the Ashmolean Museum*, Oxford, Vol. I. Sculptures in Metal. Oxford: Ashmolean Museum, University of Oxford."
+
   - id: "Warren 2016"
-    full: "Warren, Jeffrey. 2016. *The Wallace Collection: Catalogue of Italian Sculpture*. 2 vols. London: Holberton."
+    full: "Warren, Jeremy. 2016. *The Wallace Collection: Catalogue of Italian Sculpture*. 2 vols. London: Holberton."
 
   - id: "Washizuka, Tomii, and Friello 1997"
     full: "Washizuka, Hiromitsu, Reiko Tomii, and Kathleen M. Friello. 1997. *Enlightenment Embodied: The Art of the Japanese Buddhist Sculptor (7th–14th Centuries)*. New York: Japan Society."
