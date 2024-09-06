@@ -42,8 +42,8 @@
   </td>
   <td>limited to
   visually accessible areas</td>
-  <td><a target="_blank" href="/vol-2/1/#s2/">II.1§2</a><br /> <a target="_blank" href="/vol-2/1/#s3/">II.1§3</a><br />
-  <a target="_blank" href="/vol-2/2/#s1/">II.2§1</a><br /> <a target="_blank" href="/vol-2/4/">II.4</a></td>
+  <td><a target="_blank" href="/vol-2/1/#s2">II.1§2</a><br /> <a target="_blank" href="/vol-2/1/#s3">II.1§3</a><br />
+  <a target="_blank" href="/vol-2/2/#s1">II.2§1</a><br /> <a target="_blank" href="/vol-2/4/">II.4</a></td>
  </tr>
  <tr>
   <th>Stereo microscopy and digital microscopy</th>
@@ -78,7 +78,7 @@
         allow free movement of the head can be very expensive</li>
     </ul>
   </td>
-  <td><a target="_blank" href="/vol-2/2/#s2-1/">II.2§2.1</a></td>
+  <td><a target="_blank" href="/vol-2/2/#s2-1">II.2§2.1</a></td>
  </tr>
  <tr>
   <th>Reflectance transformation imaging (RTI)</th>
@@ -98,7 +98,7 @@
   be done with a minimum investment in apparatus and software beyond standard
   photography equipment</td>
   <td>investment required in time and training</td>
-  <td><a target="_blank" href="/vol-2/2/#s2-3/">II.2§2.3</a></td>
+  <td><a target="_blank" href="/vol-2/2/#s2-3">II.2§2.3</a></td>
  </tr>
  <tr>
   <th>Photogrammetry and 3D laser or structured light scans</th>
@@ -152,7 +152,7 @@
   <td>low-cost and accessible method that allows rapid examination of objects with minimal equipment and training</td>
   <td>requires a darkened examination space and eye protection; documentation with UV photography requires greater investment in equipment and training; does not
 allow identification of exact composition of materials</td>
-  <td><a target="_blank" href="/vol-2/2/#s3-1/">II.2§3.1</a></td>
+  <td><a target="_blank" href="/vol-2/2/#s3-1">II.2§3.1</a></td>
  </tr>
  <tr>
   <th>Endoscopy</th>
@@ -171,7 +171,7 @@ allow identification of exact composition of materials</td>
   <td>may be hard to
   maneuver, and to gauge the exact location and proportions of features
   observed; access may be limited</td>
-  <td><a target="_blank" href="/vol-2/2/#s2-2/">II.2§2.2</a></td>
+  <td><a target="_blank" href="/vol-2/2/#s2-2">II.2§2.2</a></td>
  </tr>
  <tr>
   <th>X- and gamma radiography</th>
@@ -187,7 +187,7 @@ allow identification of exact composition of materials</td>
     </ul>
   </td>
   <td>records
-  differences in physical and chemical density; as a result it may
+  differences in physical and chemical density; as a result it may:
     <ul>
       <li>discriminate between different inlays</li>
       <li>reveal metal plating such as gilding</li>
@@ -198,7 +198,7 @@ allow identification of exact composition of materials</td>
   is a key tool in technical studies of bronzes:
     <ul>
       <li>can provide a great deal of detailed information related to fabrication
-        method (especially of hollow-walled casts) that other methods cannot provide,
+        method (especially of hollow casts) that other methods cannot provide,
         particularly if no access to inside of hollow cast and endoscopy is not
         possible</li>
       <li>radiographs are often very aesthetic and didactic</li>
@@ -222,7 +222,7 @@ allow identification of exact composition of materials</td>
       <li>will render future luminescence dating of the core material difficult</li>
     </ul>
   </td>
-  <td><a target="_blank" href="/vol-2/3/#s1/">II.3§1</a></td>
+  <td><a target="_blank" href="/vol-2/3/#s1">II.3§1</a></td>
  </tr>
  <tr>
   <th>Neutron radiography</th>
@@ -250,17 +250,10 @@ allow identification of exact composition of materials</td>
       <li>spatial resolution and contrast usually inferior to X-radiography</li>
       <li>interpretation of radiographs requires specialized training</li>
       <li>will make future luminescence dating of the core material difficult</li>
-      <li>. some objects may need to be quarantined for decontamination
-        (de-activation), that is, kept at the neutron facility for anywhere between
-        several minutes to several days before returning to their owner. The
-        quarantine depends on a number of parameters, including neutron flux and
-        energy, alloy composition, etc., which can create temporary radioactivity of
-        the material. Copper alloys are actually less impacted (unless they contain
-        large amounts of gold or arsenic). For example, no quarantine was needed for
-        the Javanese statuettes in <a target="_blank" href="/case-studies/4/">Case Study 4</a>.</li>
+      <li>some objects may need to be quarantined for decontamination (de-activation), that is, kept at the neutron facility for anywhere between several minutes to several days before returning to their owner. The quarantine depends on a number of parameters, including neutron flux and energy, alloy composition, etc., which can create temporary radioactivity of the material. Copper alloys are actually less impacted (unless they contain large amounts of gold or arsenic). For example, no quarantine was needed for the Javanese statuettes in <a target="_blank" href="/case-studies/4/">Case Study 4</a>.</li>
     </ul>
    </td>
-   <td><a target="_blank" href="/vol-2/3/#s3/">II.3§3</a></td>
+   <td><a target="_blank" href="/vol-2/3/#s3">II.3§3</a></td>
  </tr>
  <tr>
   <th>Computed
@@ -292,7 +285,7 @@ allow identification of exact composition of materials</td>
       <li>will make future luminescence dating of the core material difficult</li>
     </ul>
   </td>
-  <td><a target="_blank" href="/vol-2/3/#s2/">II.3§2</a></td>
+  <td><a target="_blank" href="/vol-2/3/#s2">II.3§2</a></td>
  </tr>
  <tr>
   <th>Other nondestructive testing techniques (ultrasonic [US] testing, thermography, eddy

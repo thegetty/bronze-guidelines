@@ -92,7 +92,7 @@
     <td colspan=2 >{% cite 'Armbruster 1993' %}</td>
     <td>Nolene Gerber, pers. comm. w/ Bewer 2021</td>
     <td>{% cite 'Levy et al. 2008' %}</td>
-    <td>{% cite 'Craddock 2015' %}</td>
+    <td>{% cite 'Craddock 2015' %}; {% cite 'Furger 2017' %}</td>
     <td colspan=5 >{% cite 'Strahan 1997' %}</td>
     <td>It Sopheap, pers. comm.</td>
     <td>Strahan, pers. comm. w/ Bewer 2021</td>

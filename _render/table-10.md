@@ -145,7 +145,7 @@
     </ul>
     Note: for NRA there is no issue of decontamination, as there is with neutron analysis
   </td>
-  <td><a target="_blank" href="/vol-2/6/#2.3">II.6§2.3</a></td>
+  <td><a target="_blank" href="/vol-2/6/#s2-3">II.6§2.3</a></td>
  </tr>
  <tr>
   <td>Laser-induced breakdown spectroscopy (LIBS)</td>
@@ -178,7 +178,7 @@
  </tr>
  <tr>
   <td>Laser ablation inductively coupled plasma –
-  mass spectrometry (LA ICP-MS)</td>
+  mass spectrometry (LA-ICP-MS)</td>
   <td>
     <ul>
       <li>Core</li>
@@ -267,7 +267,7 @@
   <td>
     <ul>
       <li>50–100mg of drillings (or pieces) for cores</li>
-      <li>~20 mg of clean metal drillings (or pieces) for alloys</li>
+      <li>approx. 20 mg of clean metal drillings (or pieces) for alloys</li>
     </ul>
   </td>
   <td>
@@ -290,10 +290,10 @@
   <td>
     <ul>
       <li>50–100mg of drillings (or pieces) for cores</li>
-      <li>~20 mg of clean metal drillings (or pieces) for alloys</li>
+      <li>approx. 20 mg of clean metal drillings (or pieces) for alloys</li>
     </ul>
   </td>
-  <td>The most sensitive technique for elemental analysis (~100 times more sensitive than ICP-AES)</td>
+  <td>The most sensitive technique for elemental analysis (approx. 100 times more sensitive than ICP-AES)</td>
   <td>
     <ul>
       <li>The most laborious of the invasive spectroscopic techniques</li>
@@ -331,7 +331,7 @@
       <li>Metallic inlays and overlays</li>
     </ul>
   </td>
-  <td>Small sample of material (~20 mg for alloys)</td>
+  <td>Small sample of material (approx. 20 mg for alloys)</td>
   <td>Useful for provenancing of metals</td>
   <td>
     <ul>
@@ -529,7 +529,7 @@
 
 <div class="table-key">
 <dl>
- <dt>*</dt><dd>See <a target="_blank" href="/vol-2/6/#s2-1/">II.6§2.1</a> for a definition of “structural analysis.”</dd>
+ <dt>*</dt><dd>See <a target="_blank" href="/vol-2/6/#s2-1">II.6§2.1</a> for a definition of “structural analysis.”</dd>
  <dt>**</dt><dd>Although petrography enables structural analysis, it is presented separately, since for bronze sculpture it is exclusively devoted to core analysis.</dd>
 </dl>
 </div>

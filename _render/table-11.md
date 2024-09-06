@@ -1,7 +1,7 @@
 <table id="table-11">
   <caption><strong>Table 11</strong><br />
   <strong>The four main types of defects on a bronze sculpture</strong><br />
-  <span class="details">Each defect type may in turn be divided into several subcategories (see fig. 150).</span>
+  <span class="details">Each defect type may in turn be divided into several subcategories (see [fig. 150](/visual-atlas/150/)).</span>
   </caption>
 <thead>
  <tr>

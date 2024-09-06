@@ -52,7 +52,7 @@
   <td>Direktes Wachsplattenverfahren</td>
   <td>{% cite 'Janietz 2001' %}, 9</td>
   <td>fusione (o processo) diretta con lastre di cera (suggestion by F. Bewer)</td>
-  <td>-</td>
+  <td>no reference</td>
  </tr>
  <tr>
   <td>indirect wax slabs (casting or casting process)</td>
@@ -68,9 +68,9 @@
   <td>procédé (ou fonte) indirect(e) au pinceau (dit à la brosse)</td>
   <td>J. Dubos, pers. comm.</td>
   <td>Wachsauftragsverfahren</td>
-  <td>invented,no reference. In Eduard Uhenhuth’s book on Vollständige Einleitung (1920), it is written: “Man streicht Wachs auf die innere Fläche”</td>
+  <td>invented, no reference. In Eduard Uhenhuth’s book on Vollständige Einleitung (1920), it is written: “Man streicht Wachs auf die innere Fläche”</td>
   <td> fusione (o processo) indiretta a spennellatura (suggestion by F. Bewer)</td>
-  <td>-</td>
+  <td>no reference</td>
  </tr>
  <tr>
   <td>slush molding (process)</td>
@@ -88,7 +88,7 @@
   <td>Lasagne-Technik</td>
   <td>{% cite 'Brepohl 2005' %}, 182</td>
   <td>(fusione o processo) alla “lasagna” (suggestion by F. Bewer)</td>
-  <td>-</td>
+  <td>no reference</td>
  </tr>
  <tr>
   <td>cut-back core (process)</td>
@@ -97,7 +97,7 @@
   <td>Kernschälung</td>
   <td>invented, no reference</td>
   <td>(fusione o processo) con riduzione dello spessore dell'anima di fusione</td>
-  <td>-</td>
+  <td>no reference</td>
  </tr>
  <tr>
   <td>{% def 'sand casting' %}</td>
@@ -124,7 +124,7 @@
   <td>Teilformverfahren</td>
   <td>{% cite 'Maaz 2010' %}, 731</td>
   <td>(fusione i processo) con stampi a tasselli  (OR/ ALSO stampi composti) (suggestion by F. Bewer)</td>
-  <td>-</td>
+  <td>no reference</td>
  </tr>
 </tbody>
 </table>

@@ -15,7 +15,7 @@
   <th style="width:16%">Usual techniques and tools</th>
   <th style="width:16%">Rarer techniques<sup>(3)</sup></th>
   <th style="width:16%">Usual techniques and tools</th>
-  <th style="width:16%">Rarer techniques</th>
+  <th style="width:16%">Rarer techniques<sup>(4)</sup></th>
  </tr>
  </thead>
  <tbody>
@@ -30,11 +30,7 @@
   neutron radiography, computerized tomography (CT), ultrasonic testing,
   thermography</td>
   <td>-</td>
-  <td>
-    <ul>
-      <li>Carbon-14 dating (of iron armatures)</li>
-    </ul>
-  </td>
+  <td>Carbon-14 dating (of iron armatures)</td>
   <td>Method
   of fabrication of the models, degree of modeling, type of cast (hollow,
   solid, direct, indirect, other), casting method, possible absolute and
@@ -43,7 +39,7 @@
   <a target="_blank" href="/vol-2/8/">II.8</a></td>
  </tr>
  <tr>
-  <th>Core<sup>(4)</sup></th>
+  <th>Core</th>
   <td>Naked-eye
   examination, borescope or endoscope, stereo microscope, X-radiography</td>
   <td>High-energy
@@ -58,7 +54,7 @@
   <td>
     <ul>
       <li>Cathodoluminescence microscopy</li>
-      <li>Elemental analysis: LIBS, PIXE, PIGE, EPMA, AAS, ICP-AES, (LA-)ICP MS, NAA</li>
+      <li>Elemental analysis: LIBS, PIXE, PIGE, EPMA, AAS, ICP-AES, (LA-)ICP-MS, NAA</li>
       <li>Luminescence and carbon-14 dating</li>
     </ul>
   </td>
@@ -81,7 +77,7 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, NAA, AAS, ICP-AES, ICP-MS)</li>
       <li>Metallography</li>
       <li>Testing of physical and chemical properties</li>
@@ -128,7 +124,7 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, AAS, ICP-AES, ICP-MS)</li>
       <li>Structural analysis without sampling (for nonmetallic fills) (XRD, FTIR)</li>
       <li>Structural analysis with sampling (for nonmetallic fills) (GC-MS, FTIR, Raman)</li>
@@ -159,13 +155,12 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, AAS, ICP-AES, ICP-MS)</li>
       <li>Metallography</li>
     </ul>
   </td>
-  <td>Casting
-  plan, assembly techniques and materials, possible relative dating</td>
+  <td>{% def 'Casting plan' %}, assembly techniques and materials, possible relative dating</td>
   <td><a target="_blank" href="/vol-1/5/">I.5</a><br /><a target="_blank" href="/visual-atlas/201/">fig. 201</a> (assemblies
   diagram)</td>
  </tr>
@@ -206,9 +201,9 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, AAS, ICP-AES, ICP-MS)</li>
-      <li>Depth chemical profiling (LA-ICP MS, RBS)<sup>(6)</sup></li>
+      <li>Depth chemical profiling (LA-ICP-MS, RBS)<sup>(6)</sup></li>
       <li>Metallography</li>
     </ul>
   </td>
@@ -235,9 +230,9 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, AAS, ICP-AES, ICP-MS)</li>
-      <li>Depth chemical profiling (LA-ICP MS, RBS, NRA, SIMS, Auger spectroscopy, GDL)</li>
+      <li>Depth chemical profiling (LA-ICP-MS, RBS, NRA, SIMS, Auger spectroscopy, GDL)</li>
       <li>Structural analysis without sampling (XRD, FTIR)</li>
       <li>Structural analysis with sampling (GC-MS, FTIR, Raman)</li>
       <li>Metallography</li>
@@ -271,7 +266,7 @@
   </td>
   <td>
     <ul>
-      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP MS)</li>
+      <li>Elemental analysis without sampling (LIBS, PIXE, PIGE, RBS, LA-ICP-MS)</li>
       <li>Elemental analysis with sampling (EPMA, AAS, ICP-AES, ICP-MS)</li>
       <li>Structural analysis without sampling (XRD, FTIR)</li>
       <li>Structural analysis with sampling (GC-MS, FTIR, Raman)</li>

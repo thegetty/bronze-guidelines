@@ -44,7 +44,7 @@
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   <i>Satyr and Satyress</i> by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>3
   days</td>
   <td>A
@@ -89,7 +89,7 @@
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   <i>Satyr and Satyress</i> by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>4
   hours</td>
   <td>Sprueing
@@ -178,7 +178,7 @@
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   <i>Satyr and Satyress</i> by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>30
   minutes</td>
   <td>30
@@ -249,7 +249,7 @@
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   <i>Satyr and Satyress</i> by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>6
   seconds</td>
   <td>This
@@ -316,7 +316,7 @@
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   Satyr and Satyress by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>2
   hours</td>
   <td>Fettling
@@ -386,12 +386,12 @@
   hour</td>
   <td>Chemical
   patination took 1 hour.</td>
-  <td><a target="_blank" href="/visual-atlas/v15/">video 16</a></td>
+  <td><a target="_blank" href="/visual-atlas/v16/">video 16</a></td>
  </tr>
  <tr>
   <td>Andrew Lacey’s experimental replica of the
   Satyr and Satyress by Andrea Riccio (H. 18.5 cm) (after original in the
-  V&amp;A: A.8-1949, presented by the Art Fund)</td>
+  V&amp;A: A.8-1949, presented by Art Fund)</td>
   <td>1
   hour</td>
   <td>Chemical
