@@ -1659,6 +1659,11 @@ figure .q-figure__modal-link {
   transform: initial;
 }
 
+/* Ensure smaller images aren't stretched out od resolution to fit box */
+.q-lightbox-slides__element img {
+  object-fit: none;
+}
+
 /* Lightbox in modal specifically */
 /* Ensure proper stacking order so item aren't hidden behind invisibles */
 .q-lightbox-slides__slide[data-lightbox-current] {
@@ -1985,6 +1990,15 @@ table .poor { background-color: #F2F9F1; }
 .quire-page__content .container .content .image-description ul li::before {
   content: '';
 }
+/* Wrap auto looping video animations (figs. 460 and 463) */
+.overflow-container__video-wrapper {
+  height: 100%;
+  background-color: var(--deep-black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 
 /*  CHOICES UI
 ============================================================================= */
