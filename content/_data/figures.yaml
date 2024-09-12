@@ -112,20 +112,12 @@ figure_list:
             selected: true
   
   - id: "fig-427-428-525-group"
-    src: "figures/427-428-525-group/base.jpg"
+    src: "figures/427-428-525-group.jpg"
     visual_atlas: false
-    # zoom: true
+    zoom: true
     label: "Figures 427, 428, and 525"
-    caption: ""
-    annotations:
-      - input: checkbox
-        items:
-          - id: "f-525"
-            src: "figures/427-428-525-group/525.jpg"
-          - id: "f-427"
-            src: "figures/427-428-525-group/427.png"
-          - id: "f-428"
-            src: "figures/427-428-525-group/428.png"
+    caption: "The two plots at top ([fig. 525](/visual-atlas/525/)) illustrate the different size distribution of quartz inclusions in the clay samples of two large early modern French bronzes ([fig. 427](/visual-atlas/427/) from *Justice* at lower left, and [fig. 428]((/visual-atlas/428/)) from *Temperance* at lower right). They represent the two distinct “recipes” for clay-based cores identified among a larger group of such bronzes. The size is represented on the horizontal axis by the maximum dimension of the grains (Feret). The number of quartz grains for each size is represented on the vertical axis by the surface ratio (the total surface of all the grains having the same size divided by the total surface of all grains). Recipe 1 contains only one size (red arrow on the left graph), while recipe 2 includes two sizes of quartz inclusions (see the two red arrows on the right graph). See Castelle, Coquinot, and Bourgarit 2016."
+    
 
   - id: "fig-518-dupe"
     src: "figures/518.jpg"

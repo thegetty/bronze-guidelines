@@ -1661,7 +1661,7 @@ figure .q-figure__modal-link {
 
 /* Ensure smaller images aren't stretched out od resolution to fit box */
 .q-lightbox-slides__element img {
-  object-fit: none;
+  object-fit: scale-down;
 }
 
 /* Lightbox in modal specifically */

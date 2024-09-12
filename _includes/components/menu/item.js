@@ -13,9 +13,9 @@ module.exports = function(eleventyConfig) {
   return function(params) {
     const { currentURL, page } = params
     const { data, url } = page
-    const { label, layout, title } = data
+    const { label, layout, subtitle, title } = data
 
-    const titleText = pageTitle({ label, title })
+    const titleText = pageTitle({ label, title, subtitle })
     /**
      * Check if item is a reference to a built page or just a heading
      * @type {Boolean}
