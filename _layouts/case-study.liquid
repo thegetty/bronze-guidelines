@@ -47,6 +47,7 @@ Entry content, including entry image and tombstone data
       {% for object in pageObjects %}
         {% for figure in object.figures %}
           {% figure figure.id %}
+          {% if forloop.first %}{% assign first_figure_id = figure.id %}{% endif %}
         {% endfor %}
       {% endfor %}
     {% endif %}
@@ -54,12 +55,9 @@ Entry content, including entry image and tombstone data
 
   <div class="quire-entry__content">
 
-    {% if cover_image_id %}
-      <span class="annoref" data-annotation-ids="" data-figure-id="{{ cover_image_id }}" data-on-scroll="true" data-region=""></span>
-    {% endif %}
-
     {% pageHeader
       contributor_byline=contributor_byline,
+      firstFigureId=first_figure_id,
       image=image,
       label=label,
       pageContributors=pageContributors,

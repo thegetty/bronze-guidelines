@@ -2,6 +2,7 @@
 // CUSTOMIZED FILE -- Bronze Guidelines
 // called label through pageTitle() rather than constucting it separately
 // also added handling for contributor_as_it_appears, lines 26 and 51–61
+// and added a scroll trigger for the cover images on Case Studies
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -24,6 +25,7 @@ module.exports = function(eleventyConfig) {
     const {
       byline_format: bylineFormat,
       contributor_as_it_appears: contributorAsItAppears,
+      firstFigureId,
       image,
       label,
       pageContributors,
@@ -65,6 +67,10 @@ module.exports = function(eleventyConfig) {
 
     const runningFeetTitle = shortTitle ? shortTitle : title
 
+    const refTriggerElement = firstFigureId 
+      ? `<span class="ref" data-annotation-ids="" data-figure-id="${firstFigureId}" data-on-scroll="true" data-region=""></span>` 
+      : ''
+
     return html`
       <section class="${classes}">
         <div class="hero-body">
@@ -76,6 +82,7 @@ module.exports = function(eleventyConfig) {
             <span class="pdf-footers__title">${markdownify(runningFeetTitle)}</span>
           </div>
           ${contributorsElement}
+          ${refTriggerElement}
         </div>
       </section>
       ${imageElement}
