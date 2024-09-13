@@ -30,12 +30,15 @@ module.exports = function (eleventyConfig, { page }) {
      */
     ids = Array.isArray(ids) ? ids : ids.split(',').map((id) => id.trim())
 
-    if (!ids.length) {
+    // Remove any duplicates
+    const uniqIds = [...new Set(ids)];
+
+    if (!uniqIds.length) {
       logger.warn(`NoId: the q-figures shortcode must include one or more 'id' values that correspond to an 'id' in the 'figures.yaml' file. @example {% qfiguregroup columns=2, ids='3.1, 3.2, 3.3' %}`)
     }
 
     let objectTags = []
-    for (let id of ids) {
+    for (let id of uniqIds) {
       const objNumber = id.replace('fig-', '').replace('vid-', 'v')
       let objIcon = ''
       let objImagePath = ''
