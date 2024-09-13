@@ -1751,6 +1751,7 @@ figure_list:
 
   - id: "fig-157"
     src: "figures/157.jpg"
+    thumb: "figures/thumbs/157.jpg"
     # zoom: true
     media_type:
     label: "Figure 157"
@@ -2669,6 +2670,7 @@ figure_list:
 
   - id: "fig-242"
     src: "figures/242.jpg"
+    thumb: "figures/thumbs/242.jpg"
     # zoom: true
     media_type:
     label: "Figure 242"
@@ -2716,6 +2718,7 @@ figure_list:
 
   - id: "fig-249"
     src: "figures/249.jpg"
+    thumb: "figures/thumbs/249.jpg"
     # zoom: true
     media_type:
     label: "Figure 249"
@@ -2723,6 +2726,7 @@ figure_list:
 
   - id: "fig-250"
     src: "figures/250.jpg"
+    thumb: "figures/thumbs/250.jpg"
     # zoom: true
     media_type:
     label: "Figure 250"
@@ -2736,6 +2740,7 @@ figure_list:
 
   - id: "fig-252"
     src: "figures/252.jpg"
+    thumb: "figures/thumbs/252.jpg"
     # zoom: true
     media_type:
     label: "Figure 252"
@@ -2743,6 +2748,7 @@ figure_list:
 
   - id: "fig-253"
     src: "figures/253.jpg"
+    thumb: "figures/thumbs/253.jpg"
     # zoom: true
     media_type:
     label: "Figure 253"
@@ -2863,6 +2869,7 @@ figure_list:
 
   - id: "fig-272"
     src: "figures/272.jpg"
+    thumb: "figures/thumbs/272.jpg"
     # zoom: true
     media_type:
     label: "Figure 272"
@@ -3050,6 +3057,7 @@ figure_list:
 
   - id: "fig-297"
     src: "figures/297.jpg"
+    thumb: "figures/thumbs/297.jpg"
     # zoom: true
     label: "Figure 297"
     caption: "Detail showing foil gilding of face and hands using 0.1–0.2 mm gold foil (30–40% Ag) on an unalloyed copper cast. See also the aragonite in the left eye. *The Worshipper of Larsa*, Mesopotamia, 18th century BCE, H. 19.6 cm (Musée du Louvre, inv. AO15704). See C2RMF Internal Report 2008b."
@@ -3250,6 +3258,7 @@ figure_list:
 
   - id: "fig-327"
     src: "figures/327.jpg"
+    thumb: "figures/thumbs/327.jpg"
     # zoom: true
     media_type:
     label: "Figure 327"
@@ -3269,6 +3278,7 @@ figure_list:
 
   - id: "fig-330"
     src: "figures/330.jpg"
+    thumb: "figures/thumbs/330.jpg"
     # zoom: true
     media_type:
     label: "Figure 330"
@@ -3604,6 +3614,7 @@ figure_list:
 
   - id: "fig-373"
     src: "figures/373.jpg"
+    thumb: "figures/thumbs/373.jpg"
     # zoom: true
     media_type:
     label: "Figure 373"
@@ -3936,6 +3947,7 @@ figure_list:
 
   - id: "fig-414"
     src: "figures/414.jpg"
+    thumb: "figures/thumbs/414.jpg"
     # zoom: true
     media_type:
     label: "Figure 414"
@@ -4057,6 +4069,7 @@ figure_list:
 
   - id: "fig-432"
     src: "figures/432.jpg"
+    thumb: "figures/thumbs/432.jpg"
     # zoom: true
     media_type:
     label: "Figure 432"
@@ -4153,6 +4166,7 @@ figure_list:
 
   - id: "fig-447"
     src: "figures/447.jpg"
+    thumb: "figures/thumbs/447.jpg"
     # zoom: true
     label: "Figure 447"
     caption: "The Museum of Vienne’s former presentation of the *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43). From Boucher 1964."
@@ -4535,6 +4549,7 @@ figure_list:
 
   - id: "fig-488"
     src: "figures/488.jpg"
+    thumb: "figures/thumbs/488.jpg"
     # zoom: true
     media_type:
     label: "Figure 488"
@@ -4717,6 +4732,7 @@ figure_list:
 
   - id: "fig-512"
     src: "figures/512.jpg"
+    thumb: "figures/thumbs/512.jpg"
     # zoom: true
     media_type:
     label: "Figure 512"
