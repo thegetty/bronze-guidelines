@@ -4120,7 +4120,7 @@ figure_list:
     src: "figures/439.jpg"
     zoom: true
     label: "Figure 439"
-    caption: "Brass-making experimental simulation. View of the furnace used for the laboratory experiments at C2RMF (left) and the large furnace used during field experiments at Barsy, Belgium (right). See Bourgarit 2015; Thomas and Bourgarit 2018."
+    caption: "Brass-making experimental simulation. View of the furnace used for the laboratory experiments at C2RMF (left) and the large furnace used during field experiments at Barsy, Belgium (right). See Bourgarit and Thomas 2015; Thomas and Bourgarit 2018."
 
   - id: "fig-440"
     src: "figures/440.jpg"

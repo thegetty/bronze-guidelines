@@ -79,7 +79,7 @@ Art and Craft Textbooks: {% cite "Rama 1988" %}, 260; {% cite "Lambert 2002" %},
 {% endaccordion %}
 {% accordion italian "it" %}
 
-The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the {% def "pour" %}. See {% def "refactory mold" %}.
+The variety of terms is due to regional differences in foundry terminology. *Forma* is the total of all layers of investments ready to cast. *Camicia* or *tunica* are the first fine refractory clay layer applied directly on the wax. *Mantello* or *cappa* are the second, coarser layer, often made of refractory clay, thick cloths, or iron belts to help contain the pressure developing during the {% def "pour" %}. See {% def "refractory mold" %}.
 
 #### Sources
 
