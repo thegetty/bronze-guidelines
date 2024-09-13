@@ -73,7 +73,7 @@ Often specified by *a fusione* or *per fusione*
 
 #### Sources
 
-[Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura); {% cite "Bruni 1994" %}, 122–23; {% cite "Brunhuber 1988" %}
+[Treccani](https://www.treccani.it/vocabolario/saldatura/); {% cite "Battaglia 1961" %}, under [*saldatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI17/GDLI_17_ocr_395.pdf&parola=saldatura) [vol. 16, 387]; {% cite "Bruni 1994" %}, 122–23; {% cite "Brunhuber 1988" %}
 
 #### Alternate Translation
 

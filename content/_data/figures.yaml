@@ -41,7 +41,7 @@ figure_list:
     visual_atlas: false
     zoom: true
     label: "Figures 504–8, 519"
-    caption: "Underlay: [Fig. 519](/visual-atlas/519/), tin content in the metal of Javanese statuettes from the Musée national des arts asiatiques – Guimet, Paris. One bar represents one statuette, sorted by chronological group (wt%, ICP-AES analysis on drillings). Overlay, from left to right: [Fig. 504](/visual-atlas/504/), *Statuette of Bodhisattva*, style associated with Bangladesh but found in Java, 8th–early 9th century, H. 8.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 507); [Fig. 505](/visual-atlas/505/), *Ten-Armed Avalokiteśvara*, Java, first half of the 9th century, H. 34 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3816); [Fig. 506](/visual-atlas/506/), *Statuette of Vasudhārā*, style associated with Bangladesh but found in Java, second half of the 9th century, H. 13 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 2255); [Fig. 507](/visual-atlas/507/), *Kubera/Jambhala*, Java, ca. late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3619); [Fig. 508](/visual-atlas/508/), *Kubera/Jambhala*, Java, first half of the 10th century, H. 18 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3625)."
+    caption: "Representative figures from different periods of Indonesian bronze statuary included in the study ([figs. 504](/visual-atlas/504/), [505](/visual-atlas/505/), [506](/visual-atlas/506/), [507](/visual-atlas/507/), [508]/visual-atlas/508/)) overlaying a graph of varying tin contents in alloys used for sculptures in those chronological groups ([fig. 519](/visual-atlas/519/))."
   
   - id: "fig-034-097-524-cover"
     src: "figures/case-studies/034-097-524-cover.jpg"
@@ -139,7 +139,7 @@ figure_list:
     src: "figures/002.jpg"
     zoom: true
     label: "Figure 2"
-    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the reconstruction of *Mars* by Andrew Lacey (British, b. 1969), 1997, based on a bronze after a model by Giambologna (Flemish, 1524–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
+    caption: "An internal core support is pushed into the plaster-based core of the wax leg as part of the reconstruction of *Mars* by Andrew Lacey (British, b. 1969), 1997, based on a bronze after a model by Giambologna (Flemish, active Florence, 1529–1608), ca. 1587, probably cast later, H. 40.7 cm (Victoria and Albert Museum, bequeathed by Dr W. L. Hildburgh FSA, inv. A.99-1956). See Bewer 1996a."
 
   - id: "fig-003"
     # src: "figures/003.png"
@@ -626,7 +626,7 @@ figure_list:
     static_inline: "figures/static-inline/050.jpg"
     zoom: true
     label: "Figure 50"
-    caption: "Reverse of panel showing evidence of sprues and working from the back of the wax model. The detail shows reinforcement of the edges of a hollow portion with small masses of soft wax. They correspond to the area where the hollow protruding figure of David meets the background of the relief. The malleable material also captured partial fingerprints. Lorenzo Ghiberti (Italy, 1378–1455), David and Saul panel in the *Gates of Paradise*, left door, H. 518 cm (design begun after 1425; installed 1452 (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
+    caption: "Reverse of panel showing evidence of sprues and working from the back of the wax model. The detail shows reinforcement of the edges of a hollow portion with small masses of soft wax. They correspond to the area where the hollow protruding figure of David meets the background of the relief. The malleable material also captured partial fingerprints. Lorenzo Ghiberti (Italy, 1378–1455), David and Saul panel in the *Gates of Paradise*, left door, design begun after 1425, installed 1452, H. 518 cm (Museo dell’Opera del Duomo, Florence, inv. 2005/905). See Bewer, Stone, and Sturman 2007."
     annotations:
       - input: checkbox
         items:
@@ -805,7 +805,7 @@ figure_list:
     static_inline: "figures/static-inline/063.jpg"
     zoom: true
     label: "Figure 63"
-    caption: "X-radiograph showing a wax-to-wax joint on the right arm (red dotted line), as revealed by the discontinuity in the metal wall thickness (blue overlay). Note that making precise measurements of wall thickness from radiographs may be difficult, as the external edge may not be visible if overexposed (yellow line). As a consequence, the metal wall thickness may be up to 30% greater than that inferred from the radiograph (blue overlay). After Giambologna (Flemish, 1524–1608), *Hercules*, ca. 1580, cast in Italy, Germany, or the Netherlands, 17th century or later, H. 43 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003-1-180). See C2RMF Internal Report 2018b."
+    caption: "X-radiograph showing a wax-to-wax joint on the right arm (red dotted line), as revealed by the discontinuity in the metal wall thickness (blue overlay). Note that making precise measurements of wall thickness from radiographs may be difficult, as the external edge may not be visible if overexposed (yellow line). As a consequence, the metal wall thickness may be up to 30% greater than that inferred from the radiograph (blue overlay). After Giambologna (Flemish, active Florence, 1529–1608), *Hercules*, ca. 1580, cast in Italy, Germany, or the Netherlands, 17th century or later, H. 43 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003-1-180). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -1443,7 +1443,7 @@ figure_list:
     static_inline: "figures/static-inline/120.jpg"
     zoom: true
     label: "Figure 120"
-    caption: "Annotated X-radiograph shows the core pins under the shoulders (turquoise overlays). *Spinario*, northern Italy (Padova?), first quarter of the 16th century, H. 15.5 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.188). See C2RMF Internal Report 2018b."
+    caption: "Annotated X-radiograph shows the core pins under the shoulders (turquoise overlays). *Spinario*, northern Italy, first quarter of the 16th century, H. 15.5 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.188). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -1821,7 +1821,7 @@ figure_list:
     media_type: dynamic
     class: pdf-65-percent-float
     label: "Figure 166"
-    caption: "360-degree overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
+    caption: "Overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
     # sequences:
     #   - id: "figures/166/"
     #     behavior:
@@ -2120,7 +2120,7 @@ figure_list:
     static_inline: "figures/static-inline/190.jpg"
     zoom: true
     label: "Figure 190"
-    caption: "X-radiograph showing lead repairs filling surface flaws (overlay). A vertical bar behind the right shoulder was soldered in place as part of the support for Atlas to carry his burden (now missing). Workshop of Severo da Ravenna (Italian, active 1496-before 1538), *Atlas*, Italy, second quarter of the 16th century or later, H. 14 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.198). See C2RMF Internal Report 2018b."
+    caption: "X-radiograph showing lead repairs filling surface flaws (overlay). A vertical bar behind the right shoulder was soldered in place as part of the support for Atlas to carry his burden (now missing). Workshop of Severo da Ravenna (Italian, active 1496–before 1538), *Atlas*, Italy, second quarter of the 16th century or later, H. 14 cm (Musée des Beaux-Arts d’Angers, France, inv. 2003.1.198). See C2RMF Internal Report 2018b."
     annotations:
       - input: checkbox
         items:
@@ -2719,7 +2719,7 @@ figure_list:
     # zoom: true
     media_type:
     label: "Figure 249"
-    caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Flemish, 1524–1608), ca. 1587, H. 40.5 cm. See Bewer 1996b."
+    caption: "Francesca G. Bewer chisels a metal flash off the leg of her experimental reproduction cast of Mars, 1989, after a model by Giambologna (Flemish, active Florence, 1529–1608), ca. 1587, H. 40.5 cm. See Bewer 1996b."
 
   - id: "fig-250"
     src: "figures/250.jpg"
@@ -2732,7 +2732,7 @@ figure_list:
     src: "figures/251.jpg"
     zoom: true
     label: "Figure 251"
-    caption: "During the initial fettling stages the removal of the main feed on the side of the horse was carried out using a course file and large scraper to reduce or rectify the surface. The scraper produced chatter lines—here the short, parallel, vertical cuts—and the file the longer, undulating horizontal marks that reflect brightly against the surrounding darker, as-cast oxidized surface. Finer files and scrapers are used subsequently to smooth out these marks. Andrew Lacey (British, b. 1969), *Pacing Horse*, 2016, H. 23 cm, after-cast of bronze attributed to Gianfrancesco Susini (Italian, 1585–1653) after a model by Giambologna (Flemish, 1529–1608) (private collection)."
+    caption: "During the initial fettling stages the removal of the main feed on the side of the horse was carried out using a course file and large scraper to reduce or rectify the surface. The scraper produced chatter lines—here the short, parallel, vertical cuts—and the file the longer, undulating horizontal marks that reflect brightly against the surrounding darker, as-cast oxidized surface. Finer files and scrapers are used subsequently to smooth out these marks. Andrew Lacey (British, b. 1969), *Pacing Horse*, 2016, H. 23 cm, after-cast of bronze attributed to Gianfrancesco Susini (Italian, 1585–1653) after a model by Giambologna (Flemish, active Florence, 1529–1608) (private collection)."
 
   - id: "fig-252"
     src: "figures/252.jpg"
@@ -3309,7 +3309,7 @@ figure_list:
     src: "figures/336.jpg"
     zoom: true
     label: "Figure 336"
-    caption: "Bronze fountain sculpture that developed a natural patina over time from water runoff in an outdoor environment. Follower of Giovanni Bologna (called Giambologna, Flemish, based in Florence, 1529–1608), *Venus and Cupid*, Italian, 16th century, H. 124.5 cm (National Gallery of Art, Washington, DC, gift of John and Henrietta Goelet, in memory of Thomas Goelet, and Patrons’ Permanent Fund, inv. 1991.242.1)."
+    caption: "Bronze fountain sculpture that developed a natural patina over time from water runoff in an outdoor environment. Follower of Giovanni Bologna (called Giambologna, Flemish, active Florence, 1529–1608), *Venus and Cupid*, Italian, 16th century, H. 124.5 cm (National Gallery of Art, Washington, DC, gift of John and Henrietta Goelet, in memory of Thomas Goelet, and Patrons’ Permanent Fund, inv. 1991.242.1)."
 
   - id: "fig-337"
     src: "figures/337.jpg"
@@ -5343,7 +5343,7 @@ figure_list:
     # media_type: dynamic
     class: pdf-65-percent-float
     label: "Figure 166"
-    caption: "360-degree overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
+    caption: "Overall view before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
     sequences:
       - id: "figures/166/"
         behavior:

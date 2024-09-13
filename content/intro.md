@@ -571,7 +571,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 {% accordion "## Notes" %}
 
 
-[^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology ({% cite "Lemonnier 1992" %}). Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](/intro/#s1-2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze.
+[^1]: The term “technological” is used here rather than “technical” to characterize the type of studies carried out on bronzes, as a reference to the so-called technological approach in anthropology ({% cite "Lemonnier 1992" %}). Although the term is rarely used by scholars studying the techniques of bronze fabrication, the objectives they pursue—or at least the questions and conclusions that the results might lead them to—generally pertain to this technological approach (see [GI§1.2](/intro/#s1-2)). This includes the reconstruction of the *chaîne opératoire* (operational sequence of different steps involved in the production of an artifact) and a better understanding of the social, cultural, and economic environment surrounding the fabrication and subsequent life of the bronze. For a recent essay on the historiography of the use of the term "technique" in art historical contexts see {% cite "Dupré and Hendrikson 2023" %}.
 
 [^2]: {% cite "Bourgarit et al. 2014" %}.
 
@@ -661,7 +661,7 @@ Making meaningful sense of the physical evidence preserved in an object requires
 
 [^45]: {% cite "Mille 2017" %}; see also [Case Study 1](/case-studies/1/).
 
-[^46]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish based in Florence, 1529–1608, fountain completed in 1565) were made this way ({% cite "Morigi 1990" %}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {% cite "Castelle 2016" %}).
+[^46]: It has been suggested that the *putti* from the Neptune fountain in Piazza della Signoria, Florence, by Giovanni Bologna (called Giambologna, Flemish, active Florence, 1529–1608, fountain completed in 1565) were made this way ({% cite "Morigi 1990" %}). A similar hypothesis has been made for a Venus, possibly by Hubert Le Sueur (French, ca. 1580–1658), Louvre (inv. MR3278, see {% cite "Castelle 2016" %}).
 
 [^47]: Verbal communication, Christophe Bery, director, Coubertin Foundry, July 2016.
 

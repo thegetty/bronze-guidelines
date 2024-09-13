@@ -64,7 +64,7 @@
   </td>
   <td>The
   minimum amount of tin for an alloy to be called bronze is difficult to state
-  (see “bronze” entry). In the literature devoted to bronzes
+  (see “{% def "bronze" %}”). In the literature devoted to bronzes
   (sculpture and other implements), it is rare to encounter a bronze with
   &lt;5% Sn.</td>
   <td>76</td>
