@@ -83,6 +83,10 @@ CHOICES LABEL COLORS
 
 /* GENERAL
 ============================================================================= */
+html {
+  background-color: initial;
+}
+
 /* Adjust default heading styles and spacing */
 .quire-page h2 {
   font-size: 1.625rem;
@@ -2498,9 +2502,9 @@ table .poor { background-color: #F2F9F1; }
   /* Case studies */
   .quire-entry__image-wrap {
     background-color: var(--deep-black);
-    max-height: 8.5in;
+    max-height: 9.375in;
     width: auto;
-    height: auto;
+    height: 9.375in;
   }
   .quire-entry__image-wrap figure:first-of-type {
     border-width: 0;
@@ -2508,6 +2512,9 @@ table .poor { background-color: #F2F9F1; }
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .quire-entry__image-wrap figure:first-of-type figcaption a {
+    color: var(--white);
   }
   @page entry-image {
     background-color: var(--deep-black);
@@ -3444,6 +3451,15 @@ table .poor { background-color: #F2F9F1; }
 #lightbox-fig-478-0-plugs label::before,
 #fig-478-0-plugs label::before {
   background-color: #98e5e3; /* aqua */
+}
+/* FIG 486 */
+#lightbox-fig-486-0-copper-pin label::before,
+#fig-486-0-copper-pin label::before {
+  background-color: #9bf3f9; /* aqua */
+}
+#lightbox-fig-486-0-iron-pin label::before,
+#fig-486-0-iron-pin label::before {
+  background-color: #e2694d; /* orange red */
 }
 /* FIG 487 */
 #lightbox-fig-487-0-core-pin label::before,
