@@ -58,7 +58,7 @@ figure_list:
   - id: "vid-03-cover"
     src: "figures/case-studies/vid-03-cover.jpg"
     visual_atlas: false
-    label: "Video 3 (still)"
+    label: "Video 3"
     caption: "Still from [video 3](/visual-atlas/v03/) featuring contemporary artist-founder Andrew Lacey (British, b. 1969) offering insights on creating a bronze horse, 2019, Devon, UK. 2021 Sîan Lewis and Andrew Lacey"
 
   # OTHER CASE STUDY IMAGES
@@ -2667,9 +2667,11 @@ figure_list:
             selected: true
 
   - id: "fig-241"
-    src: "figures/241.jpg"
-    zoom: true
-    media_type: dynamic
+    src: embeds/fig-241.html
+    thumb: "figures/thumbs/241.jpg"
+    static_inline: "figures/static-inline/241.jpg"
+    # media_type: dynamic
+    media_type: table
     label: "Figure 241"
     caption: "Reflectance transformation image (RTI) of the upper surface of the lotus of a lost-wax-cast statuette. This imaging technique allows examination of engraving marks made in the metal under variable lighting conditions. *Statuette of Bodhisattva*, Java, late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3822). See Mechling et al. 2018."
 
