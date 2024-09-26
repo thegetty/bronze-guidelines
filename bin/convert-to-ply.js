@@ -192,6 +192,9 @@ fs.readFile(csv, 'utf8', (err, coordinateData) => {
 // for use in <model-viewer>. They look very washed out in <model-viewer> though, so I've bumped the
 // saturation in the source images by +30 prior to creating the PLY files.
 // =========================================
+// For smaller files, the glTF files can be converted to GLB format with `gltfpack`:
+// https://github.com/zeux/meshoptimizer/blob/master/gltf/README.md
+// =========================================
 // This version of the script assigns color to both the vertices and faces
 // The vertices needs color on the vertices, also having on the faces seems 
 // to give some exposure control once it's converted to glTF for <mode-viewer>
