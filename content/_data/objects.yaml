@@ -2565,13 +2565,13 @@ object_list:
   -
       id: '403'
       label: '403'
-      type: [ X-radiography ]
+      type: [ X-radiography, 360-Degree ]
       chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, Case Study 4 ]
       figure: [ id: fig-403 ]
   -
       id: '404'
       label: '404'
-      type: [ X-radiography, 360-Degree ]
+      type: [ X-radiography ]
       chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, Case Study 4 ]
       figure: [ id: fig-404 ]
   -
