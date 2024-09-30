@@ -17,7 +17,7 @@ lang:
 
 See figs. 44, 46, 71, 86, 124, 539.{.pdf-figure-list}
 
-Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}. <span class="is-print-only">(figs. 44, 46, 71, 86, 124, 539)</span>
+Any channel that feeds metal to the mold, in contrast to a vent, which lets air escape. Both sprues and vents make up the “sprue system,” which circulates {% def "bronze" %} from the pouring cup through the {% def "refractory mold" %} and allows air and casting vapors such as steam to be released. In {% def "lost-wax casting" %}, “sprue” is the term used for the solid wax rods (rarely reeds or terra-cotta pipes) used to create the channels in the mold. Sprues are also the solid metal that has filled the channels upon cooling, which is generally removed during {% def "fettling" %}.
 
 {% backmatter %}
 

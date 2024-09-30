@@ -1372,7 +1372,7 @@ figure_list:
     static_inline: "figures/static-inline/115.jpg"
     zoom: true
     label: "Figure 115"
-    caption: "Annotated view from above of the lid indicating the location of the central seam line. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
+    caption: "Annotated view from above of the lid indicating the location of the central seam line. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
     annotations:
       - input: checkbox
         items:
