@@ -2335,7 +2335,7 @@ table .poor { background-color: #F2F9F1; }
   }
   .quire-contents-list .page-item.frontmatter-page a::after,
   .quire-contents-list .page-item a[href='#page-foreword']::after,
-  .quire-contents-list .page-item a[herf='#page-acknowledgments']::after {
+  .quire-contents-list .page-item a[href='#page-acknowledgments']::after {
     content: leader(dotted) ' 'target-counter(attr(href, url), page, lower-roman); 
   }
   /* Style half title and title pages */
@@ -2543,6 +2543,18 @@ table .poor { background-color: #F2F9F1; }
   /* https://stackoverflow.com/questions/36230944/prevent-flex-items-from-overflowing-a-container */
   .q-figure.pdf-side-by-side-layers .q-figure__layers-group--radio .q-figure__image {
     min-width: 0;
+  }
+
+  .pdf-column-break-before {
+    column-break-before: always;
+  }
+
+  .quire-contents.tables-index {
+    page: inherit;
+  }
+
+  .pdf-auto-column .quire-page__content {
+    column-fill: auto !important;
   }
 }
 

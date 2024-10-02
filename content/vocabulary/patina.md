@@ -3,6 +3,8 @@ title: patina
 aliases: [patinas, patination]
 order: 610
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false
@@ -52,7 +54,7 @@ Note: La signification de ce terme est très débattue.
 
 {% endbackmatter %}
 
-#### Sources
+#### Sources {.pdf-column-break-before}
 
 Cultural Heritage: {% cite "Aucouturier 2007" %}; {% cite "Baudry and Bozo 1978" %}, 634; {% cite "Robbiola 2015" %}; {% cite "Aucouturier et al. 2003" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Lebon et al. 2016" %}, 331; {% cite "Azéma and Mille 2013b" %}
 
@@ -95,7 +97,7 @@ This term is more commonly used in art historical references and means “an age
 
     Source: TNATD
 
-- <span lang="zh">铜锈</span>
+- <span lang="zh">铜锈</span> {.pdf-column-break-before}
 
     There is no general term in Chinese for patina as defined here; this term can be translated as “corrosion on copper” and is used specifically for ancient works.
 

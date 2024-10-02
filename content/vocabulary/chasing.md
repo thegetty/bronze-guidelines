@@ -2,6 +2,8 @@
 title: chasing
 order: 470
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false

@@ -2,6 +2,8 @@
 title: cast (n.)
 order: 435
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false

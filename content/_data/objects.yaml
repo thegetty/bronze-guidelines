@@ -3665,7 +3665,7 @@ object_list:
   - 
       id: '403-temp'
       label: '403'
-      figure: [ id: fig-403-side-temp, id: fig-403-top-temp ]
+      figure: [ id: fig-403-temp ]
   - 
       id: '404-temp'
       label: '404'

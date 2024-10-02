@@ -3,6 +3,8 @@ title: replica
 aliases: [replicas, replication]
 order: 650
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false
