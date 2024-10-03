@@ -3,6 +3,8 @@ title: armature
 aliases: [armatures]
 order: 410
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false

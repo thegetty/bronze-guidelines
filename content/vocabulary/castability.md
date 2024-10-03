@@ -2,6 +2,8 @@
 title: castability
 order: 450
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false
@@ -118,7 +120,7 @@ General Dictionary: {% cite "Office québécois de la langue française n.d." %}
 
 {% cite "Ming 2010" %}, 838; TNATD
 
-#### Alternate Translations
+#### Alternate Translations {.pdf-column-break-before}
 
 - <span lang="zh">铸造性</span>
 

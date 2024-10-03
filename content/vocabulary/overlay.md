@@ -3,6 +3,8 @@ title: overlay
 aliases: [overlays]
 order: 600
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false

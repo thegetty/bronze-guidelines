@@ -275,7 +275,7 @@ A cast may be solid or formed as a metal shell in which the internal hollow shap
 {% endaccordion %}
 {% accordion "#### 2.1.5 Creating an impression of the desired shape in the refractory mold" "s2-1-5" %}
 
-There are three basic ways to create
+There are three basic ways to create an impression of the desired shape in the refractory mold.
 
 The first consists of encasing a model designed to be burned or melted out in a malleable, heat-resistant mold, as in:
 
@@ -315,7 +315,7 @@ Although it was not a sculpture, the first known direct lost-wax (or indeed any 
 
 The process basically consists of translating a unique model that is shaped in wax or another modeling medium that can be burned out of the mold into metal by direct replacement. A {% def "sprueing" %} system is attached, and the sprued model is embedded in or coated with a refractory mold material, which is heated to melt out the wax, thereby creating the hollow cavity to be filled with bronze ({% objlink 'fig-013' %}). The direct process allows the artist the freedom to create forms of great intricacy without having to worry unduly about undercuts ({% objlink 'vid-05, vid-06' %}).
 
-Other combustible materials, such as plant and animal materials, including latex, can also be used. Small objects can be made from solid wax models; larger ones are generally formed hollow by building up the wax model over a refractory clay core. Sometimes the core may be added after the wax is formed in what is referred to as the “direct wax-slab process”, see [GI§2.5.2](#s2-5-2) below. This layer of wax is built up in any number of ways: by laying sheets of wax over it, by modeling, or by dipping the core into molten wax.
+Other combustible materials, such as plant and animal materials, including latex, can also be used. Small objects can be made from solid wax models; larger ones are generally formed hollow by building up the wax model over a refractory clay core. Sometimes the core may be added after the wax is formed in what is referred to as the “direct wax-slab process,” see [GI§2.5.2](#s2-5-2) below. This layer of wax is built up in any number of ways: by laying sheets of wax over it, by modeling, or by dipping the core into molten wax.
 
 The main advantage of the direct process is the creative flexibility it allows the artist or artisan. It does entail the loss of the original model, which may not be an issue in mass productions of devotional figurines, but becomes more of an issue with for instance a large, one-off sculptural commission. A disadvantage is, as already noted, the loss of the original model in the process.
 

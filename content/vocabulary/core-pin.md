@@ -3,6 +3,8 @@ title: core pin
 aliases: [core pins]
 order: 500
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false
