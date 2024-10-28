@@ -125,22 +125,25 @@ object_list:
   - id: case-study-7
     figure:
       - id: "vid-03-cover"
+      - id: "vid-03"
       - id: "fig-376"
       - id: "fig-544"
       - id: "fig-545"
       - id: "fig-021"
-      - id: "fig-546"
       - id: "fig-088"
+      - id: "fig-546"
+      - id: "vid-02"
       - id: "fig-547"
       - id: "fig-085"
       - id: "fig-002"
       - id: "fig-118"
       - id: "fig-007"
-      - id: "fig-548"
-      - id: "vid-02"
-      - id: "vid-03"
       - id: "vid-11"
       - id: "vid-16"
+      - id: "fig-548"
+      - id: "vid-10"
+      - id: "vid-13"
+      - id: "fig-033"
 
 # I.1 Casting Processes
 # I.2 Metals
@@ -3611,43 +3614,43 @@ object_list:
   -
       id: 'vid-12'
       label: 'Video 12'
-      type: 
+      type: [ Video ]
       chapter: [ I.5. Assembly, II.9. Experimental Simulation, Case Study 1 ]
       figure: [ id: vid-12 ]
   -
       id: 'vid-13'
       label: 'Video 13'
-      type: 
+      type: [ Video ]
       chapter: [ I.6. Tool Marks ]
       figure: [ id: vid-13 ]
   -
       id: 'vid-14'
       label: 'Video 14'
-      type: 
+      type: [ Video ]
       chapter: [ I.8. Patina ]
       figure: [ id: vid-14 ]
   -
       id: 'vid-15'
       label: 'Video 15'
-      type: 
+      type: [ Video ]
       chapter: [ II.8. Dating Methods ]
       figure: [ id: vid-15 ]
   -
       id: 'vid-16'
       label: 'Video 16'
-      type: 
+      type: [ Video ]
       chapter: [ Case Study 7 ]
       figure: [ id: vid-16 ]
   -
       id: 'vid-17'
       label: 'Video 17'
-      type: 
+      type: [ Video ]
       chapter: 
       figure: [ id: vid-17 ]
   -
       id: 'vid-18'
       label: 'Video 18'
-      type: 
+      type: [ Video ]
       chapter: 
       figure: [ id: vid-18 ]
   - 
