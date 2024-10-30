@@ -366,6 +366,36 @@ function copyURL() {
   }
 }
 
+// Make vocab table sortable
+// code provided by Microsoft Copilot 
+document.addEventListener('DOMContentLoaded', () => {
+  const table = document.getElementById('vocabtable');
+  let asc = true;
+
+  const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+  const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+  )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+  const clearSortClasses = () => {
+    table.querySelectorAll('th').forEach(th => {
+      th.classList.remove('sorted-asc', 'sorted-desc');
+    });
+  };
+
+  table.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+    const columnIndex = Array.from(th.parentNode.children).indexOf(th);
+    Array.from(table.querySelectorAll('tbody > tr'))
+      .sort(comparer(columnIndex, asc))
+      .forEach(tr => table.querySelector('tbody').appendChild(tr));
+    
+    clearSortClasses();
+    th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+    asc = !asc;
+  }));
+});
+
 /**
  * pageSetup
  * @description This function is called after each smoothState reload.

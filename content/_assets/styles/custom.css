@@ -385,6 +385,17 @@ a.quire-definition__content__more-link {
 .quire-contents-list .menu-list .section-item ol {
   margin-left: 1.5rem;
 }
+@media print {
+  .quire-contents-list .page-item, .quire-contents-list .section-item {
+    margin-bottom: .75em;
+  }
+  .quire-contents-list .menu-list .section-item ol {
+    margin-top: .75em;
+  }
+  .quire-contents-list .menu-list .section-item ol .page-item:last-child {
+    margin-bottom: .75em;
+  }
+}
 /* Make abstracts more legible */
 .quire-contents-list.abstract .abstract-text {
   font-family: 'Noto Sans';
@@ -726,6 +737,20 @@ figure .q-figure__modal-link {
 .vocab-table th,
 .vocab-table td {
   width: 20%;
+}
+@media screen {
+  .vocab-table th {
+    cursor: pointer;
+  }
+  .vocab-table th:hover {
+    color: var(--light) !important;
+  }
+  .vocab-table th.sorted-asc::after {
+    content: " ▼";
+  }
+  .vocab-table th.sorted-desc::after {
+    content: " ▲";
+  }
 }
 /* Make the vocab rows act as single clickable unit */
 .quire-page__content .content .vocab-table thead th {
@@ -2192,6 +2217,9 @@ table .poor { background-color: #F2F9F1; }
   .quire-page.section-landing-page .quire-contents-list {
     display: none;
   }
+  .quire-page.vocabulary h1 {
+    prince-bookmark-level: none;
+  }
   /* Fix/set running feet */
   .quire-page .pdf-footers {
     font-family: 'Akrobat', 'IBM Plex Sans Condensed', sans-serif;
@@ -2276,6 +2304,7 @@ table .poor { background-color: #F2F9F1; }
   .quire-page__content .container .content .footnotes-list li p {
     margin-bottom: .5rem;
   }
+  #page-illustration-credits .quire-page__content .container .content p,
   .quire-page__content .content .quire-page__content__references dl {
     margin-bottom: .375rem;
     font-size: .75rem;
