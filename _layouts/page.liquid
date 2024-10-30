@@ -25,7 +25,7 @@ description: Single page default template
       {% endif %}
       {{ content }}
       {% bibliography citations %}
-      <div class="iframe_viewer" id="iframe-viewer" style="display:none;">
+      <div class="iframe_viewer" id="iframe-viewer" style="display:none;" data-outputs-exclude="epub,pdf">
         <div class="iframe_viewer__nav-buttons" id="iframe-nav"></div>
         <div class="iframe_viewer__controls">
           <a class="iframe-control--close" aria-label="Close" onclick="toggleViewer()">{% icon type='close', description='Close image viewer' %}</a>
