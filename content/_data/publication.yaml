@@ -34,7 +34,7 @@ description:
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2025-01-15 # YYYY-MM-DD
+pub_date: 2025-01-21 # YYYY-MM-DD
 language: en
 pub_type: book # book | journal-periodical | other
 
@@ -231,7 +231,7 @@ library_of_congress_cip: |
 # ------------------------------------------------------------------------------
 
 revision_history:
-  - date: January 15, 2025
+  - date: January 21, 2025
     summary:
       - First edition
 
