@@ -727,6 +727,20 @@ figure .q-figure__modal-link {
 .vocab-table td {
   width: 20%;
 }
+@media screen {
+  .vocab-table th {
+    cursor: pointer;
+  }
+  .vocab-table th:hover {
+    color: var(--light) !important;
+  }
+  .vocab-table th.sorted-asc::after {
+    content: " ▼";
+  }
+  .vocab-table th.sorted-desc::after {
+    content: " ▲";
+  }
+}
 /* Make the vocab rows act as single clickable unit */
 .quire-page__content .content .vocab-table thead th {
   background-color: var(--black);

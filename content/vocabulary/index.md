@@ -58,10 +58,10 @@ additional_contributors: |
 
 </div>
 
-<table class="vocab-table pdf-full-width">
+<table class="vocab-table pdf-full-width" id="vocabtable">
   <thead>
     <tr>
-      <th>English</th>
+      <th class="sorted-asc">English</th>
       <th>French</th>
       <th>German</th>
       <th>Italian</th>
