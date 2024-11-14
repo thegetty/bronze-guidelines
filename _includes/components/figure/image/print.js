@@ -21,7 +21,7 @@ module.exports = function(eleventyConfig) {
   const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function(figure) {
-    const { alt, annotations=[], caption, credit, id, label, src, staticInlineFigureImage } = figure
+    const { alt, annotations=[], caption, credit, id, embed_link: embedLink, label, src, staticInlineFigureImage } = figure
 
     const labelElement = figureLabel({ caption, id, label })
 
@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
 
     return html`
       <img alt="${alt}" class="q-figure__image" src="${imageSrc}"/>
-      ${figureCaption({ caption, content: labelElement, credit })}
+      ${figureCaption({ caption, content: labelElement, credit, embedLink, id })}
     `
   }
 }

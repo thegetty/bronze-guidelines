@@ -1946,6 +1946,9 @@ table .poor { background-color: #F2F9F1; }
   .tables-index .quire-page__content .container .content table#table-13 {
     margin-bottom: 1rem;
   }
+  .tables-index .quire-page__content .container .content table#table-15 {
+    margin-bottom: 0;
+  }
   .tables-index .quire-page__content .container .content table#table-11 {
     page-break-before: always;
   }
@@ -2185,6 +2188,59 @@ table .poor { background-color: #F2F9F1; }
 /*  PRINT/PDF
 ============================================================================= */
 @media print {
+  /* Ensure K-only black text */
+  body p,
+  body .quire-page h1,
+  body .quire-page h2,
+  body .quire-page h3,
+  body .quire-page h4,
+  body .quire-page h5,
+  body .quire-page h6,
+  body ul li,
+  body ol li,
+  body dl dt,
+  body dl dd,
+  body .quire-page__content,
+  body .quire-page__header,
+  body .quire-page__header__title .quire-page-label,
+  body .quire-contents-list .menu-list a,
+  body .quire-page__content .content a:not(.q-figure__modal-link):not(.q-figure__reset-link):not(.quire-contributor__url):not(.accordion-section__heading-link),
+  body .quire-page .pdf-footers,
+  body .quire-contents-list .page-item a::after,
+  body .quire-contents-list .page-item.frontmatter-page a::after,
+  body .quire-contents-list .page-item a[href="#page-foreword"]::after,
+  body .quire-contents-list .page-item a[href="#page-acknowledgments"]::after,
+  body .quire-copyright__icon__link svg,
+  body .quire-contributors-list .title, .content ul.quire-contributors-list .title,
+  body .content figure .q-figure__caption,
+  body .quire-page__content .container .content table td, 
+  body .quire-page__content .container .content table th {
+    color: cmyk(0%, 0%, 0%, 100%) !important;
+  }
+  body .quire-copyright__icon__link svg {
+    fill: cmyk(0%, 0%, 0%, 100%) !important;
+  }
+  body .warn > p:first-child {
+    color: var(--orange-clay) !important;
+  }
+  
+  @page :blank {
+    @bottom-left {
+      content: none !important;
+    }
+    @bottom-right {
+      content: none !important;
+    }
+  }
+  /* Remove running foot on second page of entries, which is the first page of taext, following the plates */
+  @page quire-entry:nth(2) {
+    @bottom-left {
+      content: none;
+    }
+  }
+  .quire-entry {
+    page: quire-entry;
+  }
   /* Deactivate all links in PDF except for TOC and external links
   https://www.princexml.com/doc/css-props/#prop-prince-link */
   a {
@@ -2277,8 +2333,7 @@ table .poor { background-color: #F2F9F1; }
   /* Narrow image in a single column */
   .content figure.q-figure.pdf-85-percent-width img {
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
   }
   /* Keep figure labels aligned with text */
   .quire-page.visual-atlas .q-figure__label {
@@ -2530,7 +2585,7 @@ table .poor { background-color: #F2F9F1; }
   }
   /* Case studies */
   .quire-entry__image-wrap {
-    background-color: var(--deep-black);
+    background-color: cmyk(75%, 68%, 67%, 90%);
     max-height: 9.375in;
     width: auto;
     height: 9.375in;
@@ -2546,7 +2601,7 @@ table .poor { background-color: #F2F9F1; }
     color: var(--white);
   }
   @page entry-image {
-    background-color: var(--deep-black);
+    background-color: cmyk(75%, 68%, 67%, 90%);
     @bottom-right {
       content: none;
     }
@@ -2576,6 +2631,11 @@ table .poor { background-color: #F2F9F1; }
 
   .pdf-column-break-before {
     column-break-before: always;
+  }
+
+  .pdf-page-break-before {
+    break-before: always;
+    page-break-before: always;
   }
 
   .quire-contents.tables-index {

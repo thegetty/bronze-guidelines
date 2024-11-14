@@ -52,7 +52,7 @@ additional_contributors: |
   Additional Contributors Ann Boulton, Jean Dubos, Irene Gunston, Patricia Harpring, Sharon Hecker, Andrew Lacey, Marjee Levine, Jeffrey Maish, Benoît Mille, Peta Motture, Uve Peltz, David Reid, Dominique Robcis, Lise Saussus, Harold Schulze, Jeffrey Springer, Nicolas Thomas, Quanyu Wang, Jeremy Warren, Frank Willer, Dimitrios Zikos
 ---
 
-<div class="section-landing-page__text">
+<div class="section-landing-page__text pdf-add-bottom-margin">
 
 {{ introductions.vocabulary | markdownify }}
 

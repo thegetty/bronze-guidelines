@@ -74,6 +74,9 @@ While it is a core principle of Quire for all content to only exist in one place
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
 
+**_includes/components/copyright/licensing.js**
+Customized licensing language
+
 **_includes/components/figure/modal-link.js**
 **_includes/components/figure/label.js**
 **_includes/components/figure/video/element.js**

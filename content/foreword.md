@@ -6,7 +6,7 @@ contributor:
   - first_name: Timothy
     last_name: Potts
     title: Maria Hummer-Tuttle and Robert Tuttle Director
-    affiliation: The J. Paul Getty Museum
+    affiliation: J. Paul Getty Museum
 byline_format: false
     
 ---
