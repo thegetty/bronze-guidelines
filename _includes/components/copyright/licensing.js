@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Customized license text
+//
 const { oneLine } = require('~lib/common-tags')
 
 module.exports = function(eleventyConfig) {
@@ -18,7 +22,7 @@ module.exports = function(eleventyConfig) {
       `
     } else if (license.scope === 'text-only') {
       licenseText += `
-        The text of this work is licensed under a ${licenseName}. Unless otherwise indicated, all illustrations are excluded from the ${licenseAbbreviation} license.
+        The text of this work is licensed under a ${licenseName}. <span data-outputs-exclude="html,epub">To view a copy of this license, visit ${license.url.replace(/http:\/\//g, '')}. </span>All images are reproduced with the permission of the rights holders acknowledged in the captions or illustration credits and are expressly excluded from the ${licenseAbbreviation} license covering the rest of the publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights.
       `
     } else {
       licenseText += `
@@ -28,9 +32,6 @@ module.exports = function(eleventyConfig) {
 
     return oneLine`
       ${licenseText}
-      <span class="is-print-only">
-        To view a copy of this license visit ${license.url}.
-      </span>
     `
   }
 }

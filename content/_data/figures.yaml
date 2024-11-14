@@ -3142,6 +3142,7 @@ figure_list:
   - id: "fig-305"
     # src: "figures/305.png"
     src: "figures/305.jpg"
+    embed_link: true
     zoom: true
     class: pdf-45-percent-float
     label: "Figure 305"
@@ -3603,6 +3604,7 @@ figure_list:
     # src: "figures/368.png"
     src: "figures/368.jpg"
     zoom: true
+    embed_link: true
     class: pdf-full-width pdf-85-percent-width
     label: "Figure 368"
     caption: "Poster titled “The Hephaistos database. A tool for the technological study of large bronze statues from Classical Antiquity,” presented at the XVIIIth congress on ancient bronzes in Zurich, 2013. See Descamps-Lequime and Mille 2017."
