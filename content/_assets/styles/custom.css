@@ -2223,6 +2223,14 @@ table .poor { background-color: #F2F9F1; }
   body .warn > p:first-child {
     color: var(--orange-clay) !important;
   }
+
+  /* Make sure vocab table heading text is white, and reduce page size so there is more than one table row on the third page */
+  .quire-page__content .container .content table#vocabtable th {
+    color: white !important;
+  }
+  #page-vocabulary .quire-page__content {
+    padding-bottom: 1rem;
+  }
   
   @page :blank {
     @bottom-left {
