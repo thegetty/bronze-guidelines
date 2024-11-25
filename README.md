@@ -71,6 +71,10 @@ While it is a core principle of Quire for all content to only exist in one place
 
 ## Customizations Made to 11ty Templates/Files
 
+**_includes/components/analytics.js**
+**_layouts/base.11ty.js**
+Added Google Analytics 4
+
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
 
