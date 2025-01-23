@@ -102,7 +102,7 @@ Added removeHTML to strip tags that were breaking the markup
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
 
-**_includes/components/lightbox/slides.js**
+**_includes/web-components/lightbox/index.js**
 Add `<details>` element around lightbox captions
 
 **_includes/components/modal/index.js**
@@ -181,9 +181,6 @@ Based on `open` and previously `ref`, creates figure object links that open in i
 **content/_assets/javascript/application/iframe-viewer.js**
 **content/_assets/styles/iframe-viewer.css**
 Add iframe-based image viewer
-
-**content/_assets/javascript/application/canvas-panel.js**
-Changed historyBehavior to replace instead of push; and rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
 
 **content/_assets/javascript/application/intersection-observer-factory.js**
 Changed rootMargin to 0 for better slide triggering

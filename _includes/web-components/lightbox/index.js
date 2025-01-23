@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Add <details> element around lightbox captions
+//
 import { LitElement, html, render, unsafeCSS } from 'lit'
 import { unsafeHTML } from 'lit-html/directives/unsafe-html.js'
 
@@ -199,10 +203,13 @@ class Lightbox extends LitElement {
         ${unsafeHTML(figureElementContent)}
       </div>
       <div class="q-figure-slides__slide-ui">
+        <details>
+        <summary>Caption</summary>
         <div class="q-lightbox-slides__caption ${ label || caption || credit ? '' : 'is-hidden' }">
           <span class="q-lightbox-slides__caption-label ${ label ? '' : 'is-hidden' }">${unsafeHTML(labelHtml)}</span>
           <span class="q-lightbox-slides__caption-content ${ caption || credit ? '' : 'is-hidden' }">${captionHtml ? unsafeHTML(captionHtml) : ''} ${creditHtml ? unsafeHTML(creditHtml) : ''}</span>
         </div>
+        </details>
         ${unsafeHTML(annotationsElementContent ?? '')}
       </div>
     </div>`

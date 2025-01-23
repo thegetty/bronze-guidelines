@@ -30,7 +30,6 @@ module.exports = function(eleventyConfig) {
       ? `<span class="q-figure__caption-embed-link"><a href="${sourceUrl}">${sourceUrl}</a></span>`
       : ''
     }
-    console.log("mediaSourceLink :: " + mediaSourceLink)
 
     return oneLine`
       <figcaption class="q-figure__caption">

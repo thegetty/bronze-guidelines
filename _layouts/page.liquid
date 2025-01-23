@@ -14,7 +14,10 @@ description: Single page default template
   label=label,
   pageContributors=pageContributors,
   subtitle=subtitle,
-  title=title
+  title=title,
+  page_pdf_output=page_pdf_output,
+  key=key,
+  outputs=outputs
 %}
 {% if content %}
 <section class="section quire-page__content">
@@ -36,6 +39,7 @@ description: Single page default template
         <iframe class="iframe_viewer__iframe" id="object-iframe" name="object-iframe" style="display:none;"></iframe>
         <span id="iframe-loading-indicator" style="display:block;">Loading ...</span>
       </div>
+      {% bibliography citations outputs page_pdf_output %}
     </div>
   </div>
 </section>
