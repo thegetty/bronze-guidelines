@@ -1,4 +1,4 @@
-const { oneLine } = require('~lib/common-tags')
+const { html } = require('~lib/common-tags')
 const path = require('path')
 
 /**
@@ -18,14 +18,16 @@ module.exports = function(eleventyConfig) {
   return function (params) {
     const { description, type } = params
     const descriptionElement = description
-      ? oneLine`<span class="visually-hidden" data-outputs-exclude="epub,pdf">${description}</span>`
+      ? `<span class="visually-hidden" data-outputs-exclude="epub,pdf">${description}</span>`
       : ''
 
-    return oneLine`
+    return html`
       <svg data-outputs-exclude="epub,pdf">
         <switch>
           <use xlink:href="#${type}-icon"></use>
         </switch>
-      </svg>${descriptionElement}`
+      </svg>
+      ${descriptionElement}
+    `
   }
 }
