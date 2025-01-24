@@ -1652,6 +1652,7 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-250 ]
+      thumbnail: "figures/250.jpg"
   -
       id: '251'
       label: '251'
@@ -1664,12 +1665,14 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-252 ]
+      thumbnail: "figures/252.jpg"
   -
       id: '253'
       label: '253'
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-253 ]
+      thumbnail: "figures/253.jpg"
   -
       id: '254'
       label: '254'
@@ -1784,6 +1787,7 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-272 ]
+      thumbnail: "figures/272.jpg"
   -
       id: '273'
       label: '273'
