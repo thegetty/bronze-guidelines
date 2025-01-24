@@ -176,6 +176,13 @@ a.quire-definition__content__more-link {
     display: none;
   }
 }
+@media screen and (max-width:639px) {
+  .quire-navbar .quire-page-label,
+  .quire-navbar .quire-page-label-divider,
+  .quire-navbar .quire-page-title {
+    display: none;
+  }
+}
  /* Hide all Next/Prev buttons */
  .quire-contents-buttons {
   display: none;
@@ -282,6 +289,20 @@ a.quire-definition__content__more-link {
 }
 .quire-page.vocabulary .accordion-section__heading .accordion-section__copy-link-button {
   display: none;
+}
+
+.quire-page__header .hero-body {
+  margin: 0 5rem;
+}
+@media screen and (max-width: 512px) {
+  .quire-page__header .hero-body {
+    margin: 0 2rem;
+  }
+}
+@media screen and (max-width: 383px) {
+  .quire-page__content .container .content {
+    padding: 1.5rem 1.25rem !important;
+  }
 }
 
 /* COVER
@@ -518,25 +539,11 @@ a.quire-definition__content__more-link {
   .accordion-section[open] > .accordion-section__controls--plus-minus::after {
     content: '– ';
   }
-  @media screen and (max-width:810px) {
+  /* @media screen and (max-width:500px) {
     .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
       column-count: 2;
     }
-  }
-  @media screen and (max-width:640px) {
-    .quire-page.full-width .quire-page__content .accordion-section__body,
-    .quire-page .quire-page__content .non-accordion-section__body {
-      display: block;
-    }
-    .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
-      column-count: 3;
-    }
-  }
-  @media screen and (max-width:500px) {
-    .quire-page.full-width .q-figure.q-figure--group.quire-grid-3 {
-      column-count: 2;
-    }
-  }
+  } */
 }
 @media screen and (min-width:1592px) {
   .quire-page.full-width .quire-page__content .container,
@@ -544,6 +551,44 @@ a.quire-definition__content__more-link {
   .quire-page.full-width.vocabulary-index .quire-page__content .container {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (max-width:1023px) {
+  .quire-page.full-width .quire-page__content .container,
+  .quire-page.full-width.tables-page .quire-page__content .container,
+  .quire-page.full-width.vocabulary-index .quire-page__content .container {
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+  }
+}
+@media screen and (max-width:895px) {
+  .quire-page.full-width .object-group.group-grid-3 {
+    column-count: 2;
+  }
+}
+@media screen and (max-width:639px) {
+  .quire-page.full-width .quire-page__content .accordion-section__body,
+  .quire-page.full-width .quire-page__content .non-accordion-section__body {
+    display: block;
+  }
+  .quire-page.full-width.vocabulary-index .quire-page__content .container {
+    margin-left: 1rem !important;
+  }
+  .quire-page.full-width .object-group.group-grid-3 {
+    column-count: 3;
+  }
+}
+@media screen and (max-width:383px) {
+  .quire-page.full-width .quire-page__content .container,
+  .quire-page.full-width.tables-page .quire-page__content .container,
+  .quire-page.full-width.vocabulary-index .quire-page__content .container {
+    margin-right: 1rem;
+  }
+  .quire-page__content .container .content {
+    padding: 1.5rem 0;
+  }
+  .quire-page.full-width .object-group.group-grid-3 {
+    column-count: 2;
   }
 }
 
@@ -586,6 +631,18 @@ a.quire-definition__content__more-link {
   }
   .quire-page.full-width .quire-page__content .container .content li ul li::before {
     content: '◇';
+  }
+}
+@media screen and (max-width:383px) {
+  .quire-page.full-width .content summary.indented-heading {
+    text-indent: -6.75rem;
+  }
+  .quire-page.full-width .content .indented-heading .section-number {
+    width: 6rem;
+    padding-right: 0.75rem;
+  }
+  .quire-page.full-width .quire-page__content .container .content ul li::before {
+    margin-left: -1.7rem;
   }
 }
 
@@ -750,6 +807,18 @@ figure .q-figure__modal-link {
   }
   .vocab-table th.sorted-desc::after {
     content: " ▲";
+  }
+}
+@media screen and (max-width:700px) {
+  .vocab-table-wrapper {
+    width: calc(100vw - 8rem); 
+    overflow: scroll;
+  }
+}
+@media screen and (max-width:600px) {
+  .vocab-table-wrapper {
+    width: calc(100vw - 4rem); 
+    overflow: scroll;
   }
 }
 /* Make the vocab rows act as single clickable unit */
@@ -1411,6 +1480,15 @@ figure .q-figure__modal-link {
   }
 }
 
+@media screen and (max-width:699px) {
+  .quire-entry div.side-by-side div.quire-entry__image-wrap {
+    height: calc((100vh - 3rem - 0px) * 0.55 + 16px);
+  }
+  .quire-entry div.side-by-side div.quire-entry__content {
+    height: calc((100vh - 3rem - 0px) * 0.45 - 16px);
+  }
+}
+
 /*  LIGHTBOX & MODAL
 ============================================================================= */
 #iframe-viewer {
@@ -1631,7 +1709,7 @@ figure .q-figure__modal-link {
   border-bottom-style: solid;
 }
 .q-figure-slides__slide-ui {
-  display: flex;
+  display: flex !important;
   flex-direction: column-reverse;
   align-items: flex-start;
 }
