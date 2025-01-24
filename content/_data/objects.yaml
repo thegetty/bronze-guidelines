@@ -3653,31 +3653,3 @@ object_list:
       type: [ Video ]
       chapter: 
       figure: [ id: vid-18 ]
-  - 
-      id: '121-temp'
-      label: '121'
-      figure: [ id: fig-121-temp ]
-  - 
-      id: '166-temp'
-      label: '166'
-      figure: [ id: fig-166-temp ]
-  - 
-      id: '390-temp'
-      label: '390'
-      figure: [ id: fig-390-temp ]
-  - 
-      id: '403-temp'
-      label: '403'
-      figure: [ id: fig-403-temp ]
-  - 
-      id: '404-temp'
-      label: '404'
-      figure: [ id: fig-404-temp ]
-  - 
-      id: '498-temp'
-      label: '498'
-      figure: [ id: fig-498-temp ]
-  - 
-      id: '564-temp'
-      label: '564'
-      figure: [ id: fig-564-temp ]
