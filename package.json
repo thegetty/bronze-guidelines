@@ -45,11 +45,13 @@
     "#plugins/*": "./_plugins/*"
   },
   "dependencies": {
+    "@google/model-viewer": "^4.0.0",
     "bulma": "^0.9.3",
     "core-js": "2.5.0",
     "lit": "^2.6.1",
     "lunr": "^2.3.9",
-    "template-polyfill": "^2.0.0"
+    "template-polyfill": "^2.0.0",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
