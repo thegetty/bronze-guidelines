@@ -4303,7 +4303,7 @@ figure_list:
   - id: "fig-464"
     src: "figures/464.jpg"
     thumb: "figures/thumbs/464.jpg"
-    # zoom: true
+    zoom: true
     media_type:
     label: "Figure 464"
     caption: "Detail of an X-radiograph of the first dolphin head, in which the extensive porosity appears as dark spots of various sizes and densities. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
@@ -4864,7 +4864,7 @@ figure_list:
   - id: "fig-528"
     src: "figures/528.jpg"
     thumb: "figures/thumbs/528.jpg"
-    # zoom: true
+    zoom: true
     media_type:
     label: "Figure 528"
     caption: "Histograms showing the alloy composition (ICP-AES analysis) of the three Virtues adorning the Anne de Montmorency Funerary Heart Monument, 1571, H. 128 cm (Musée du Louvre, inv. MR1681-1683). See [Case Study 5](/case-studies/5/), Castelle et al. 2021."
