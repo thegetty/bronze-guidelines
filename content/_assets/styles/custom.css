@@ -2080,12 +2080,18 @@ table .poor { background-color: #F2F9F1; }
   margin: 1.5rem;
 }
 @media print {
-  model-viewer {
+  iframe,
+  model-viewer,
+  video,
+  .relight__wrapper {
     display: none;
   }
 }
 @media screen {
-  model-viewer + img {
+  iframe + img,
+  model-viewer + img,
+  video + img,
+  .relight__wrapper + img {
     display: none;
   }
 }
