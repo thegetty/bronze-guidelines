@@ -749,6 +749,7 @@ object_list:
       type: 
       chapter: [ I.1. Casting Processes, I.5. Assembly ]
       figure: [ id: fig-100 ]
+      thumbnail: "figures/static-inline/100.jpg"
   -
       id: '101'
       label: '101'
@@ -1007,6 +1008,7 @@ object_list:
       type: [ Microscopy ]
       chapter: [ I.2. Metals ]
       figure: [ id: fig-143 ]
+      thumbnail: "figures/static-inline/143.jpg"
   -
       id: '144'
       label: '144'
@@ -1116,6 +1118,7 @@ object_list:
       type: 
       chapter: [ I.3. Casting Defects ]
       figure: [ id: fig-161 ]
+      thumbnail: "figures/static-inline/161.jpg"
   -
       id: '162'
       label: '162'
@@ -1128,6 +1131,7 @@ object_list:
       type: 
       chapter: [ I.3. Casting Defects, I.7. Gilding and Plating ]
       figure: [ id: fig-163 ]
+      thumbnail: "figures/static-inline/163.jpg"
   -
       id: '164'
       label: '164'
@@ -1818,6 +1822,7 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks, Case Study 2 ]
       figure: [ id: fig-277 ]
+      thumbnail: "figures/static-inline/277.jpg"
   -
       id: '278'
       label: '278'
@@ -1932,6 +1937,7 @@ object_list:
       type: 
       chapter: [ I.7. Gilding and Plating ]
       figure: [ id: fig-296 ]
+      thumbnail: "figures/static-inline/296.jpg"
   -
       id: '297'
       label: '297'
@@ -2391,6 +2397,7 @@ object_list:
       type: [ Diagram ]
       chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
       figure: [ id: fig-372 ]
+      thumbnail: "figures/static-inline/372.jpg"
   -
       id: '373'
       label: '373'
@@ -2687,18 +2694,21 @@ object_list:
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-421 ]
+      thumbnail: "figures/static-inline/421.jpg"
   -
       id: '422'
       label: '422'
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-422 ]
+      thumbnail: "figures/static-inline/422.jpg"
   -
       id: '423'
       label: '423'
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-423 ]
+      thumbnail: "figures/static-inline/423.jpg"
   -
       id: '424'
       label: '424'
@@ -2741,6 +2751,7 @@ object_list:
       type: [ Microscopy ]
       chapter: [ II.7. Core Analysis ]
       figure: [ id: fig-430 ]
+      thumbnail: "figures/static-inline/430.jpg"
   -
       id: '431'
       label: '431'
@@ -2947,6 +2958,7 @@ object_list:
       type: [ X-radiography ]
       chapter: [ Case Study 1 ]
       figure: [ id: fig-464 ]
+      thumbnail: "figures/static-inline/464.jpg"
   -
       id: '465'
       label: '465'
@@ -3019,6 +3031,7 @@ object_list:
       type: 
       chapter: [ Case Study 2 ]
       figure: [ id: fig-476 ]
+      thumbnail: "figures/static-inline/476.jpg"
   -
       id: '477'
       label: '477'
@@ -3285,6 +3298,7 @@ object_list:
       type: 
       chapter: 
       figure: [ id: fig-520 ]
+      thumbnail: "figures/static-inline/520.jpg"
   -
       id: '521'
       label: '521'
@@ -3333,6 +3347,7 @@ object_list:
       type: [ Graph ]
       chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 5 ]
       figure: [ id: fig-528 ]
+      thumbnail: "figures/static-inline/528.jpg"
   -
       id: '529'
       label: '529'
@@ -3465,6 +3480,7 @@ object_list:
       type: 
       chapter: 
       figure: [ id: fig-550 ]
+      thumbnail: "figures/static-inline/550.jpg"
   -
       id: '551'
       label: '551'
