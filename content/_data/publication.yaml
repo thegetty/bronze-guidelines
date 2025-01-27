@@ -9,7 +9,7 @@
 
 # ------------------------------------------------------------------------------
 # The publication's base URL, i.e. 'https://www.my-publication.org'
-url: 'https://final-pages--bronze-guidelines.netlify.app'
+url: 'https://www.getty.edu/publications/bronze-guidelines/'
 
 # ------------------------------------------------------------------------------
 # Title & Description
@@ -179,20 +179,20 @@ license:
 
 resource_link:
   - type: other-format
-    name: PDF
+    name: PDF (44 MB)
     media_type: application/pdf
     link_relation: alternate
-    url:
-  - type: other-format
-    name: EPUB
-    media_type: application/epub+zip
-    link_relation: alternate
-    url:
+    url: /_assets/downloads/BronzeGuidelines.pdf
+  # - type: other-format
+  #   name: EPUB
+  #   media_type: application/epub+zip
+  #   link_relation: alternate
+  #   url:
   - type: other-format
     name: Paperback
     media_type: print
     link_relation: alternate
-    url:
+    url: https://shop.getty.edu/products/guidelines-for-the-technical-examination-of-bronze-sculpture-978-1606066904
   - type: footer-link
     name: About
     link_relation: about
@@ -211,9 +211,17 @@ resource_link:
 # ------------------------------------------------------------------------------
 
 subject:
-  - type:
-    name:
-    identifer:
+  - type: bisac
+    name: ART / Conservation & Preservation
+    identifer: ART056000
+  - type: bisac
+    name: ART / Reference
+    identifer: ART025000
+  - type: bisac
+    name: TECHNOLOGY & ENGINEERING / Materials Science / Metals & Alloys
+    identifer: TEC021030
+  - type: keyword
+    name: "copper, alloy, sculpture, technique, history, conservator, scientist, art, archaeologist, metallurgist, craftspeople, Ancient world, Asia, Africa, early, modern Europe, United States, fabrication, museum collections, cultural heritage, physical characteristics, case studies, FAQs, multilingual glossary, interdisciplinary, standardize, acquisition, cataloging, research, restoration, foundry, corrosion, excavation, technology, comprehensive resource, process, analysis, casting, defects, detailed illustrations, videos, charts, animations, vocabulary, imaging, best practices, specialist, markings, wear, coatings, cleaning, mount, base, finish"
 
 library_of_congress_cip: |
   Library of Congress Cataloging-in-Publication Data
@@ -231,7 +239,7 @@ library_of_congress_cip: |
 # ------------------------------------------------------------------------------
 
 revision_history:
-  - date: January 21, 2025
+  - date: February 11, 2025
     summary:
       - First edition
 
@@ -241,4 +249,4 @@ revision_statement: "Any revisions or corrections made to this publication after
 # Promo Image
 # ------------------------------------------------------------------------------
 
-promo_image: cover.jpg
+promo_image: cover-promo.jpg

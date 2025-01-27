@@ -16,13 +16,13 @@
     padding-top: 1rem;
   }
   .quire-page::before {
-    content: "UNCORRECTED";
+    content: "PRESS";
     background-color: cyan;
     bottom: -115px;
     left: -115px;
   }
   .quire-page::after {
-    content: "PROOF";
+    content: "PREVIEW";
     bottom: -130px;
     left: -130px;
   }
