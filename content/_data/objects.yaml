@@ -873,7 +873,7 @@ object_list:
   -
       id: '121'
       label: '121'
-      type: [ X-radiography ]
+      type: [ 360-Degree, X-radiography ]
       chapter: [ I.1. Casting Processes, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
       figure: [ id: fig-121 ]
   -

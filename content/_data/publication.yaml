@@ -9,7 +9,8 @@
 
 # ------------------------------------------------------------------------------
 # The publication's base URL, i.e. 'https://www.my-publication.org'
-url: 'https://www.getty.edu/publications/bronze-guidelines/'
+# url: 'https://www.getty.edu/publications/bronze-guidelines/'
+url: 'http://localhost:8080/'
 
 # ------------------------------------------------------------------------------
 # Title & Description
@@ -183,11 +184,11 @@ resource_link:
     media_type: application/pdf
     link_relation: alternate
     url: /_assets/downloads/BronzeGuidelines.pdf
-  # - type: other-format
-  #   name: EPUB
-  #   media_type: application/epub+zip
-  #   link_relation: alternate
-  #   url:
+  - type: other-format
+    name: EPUB (<em>Coming soon</em>)
+    media_type: application/epub+zip
+    link_relation: alternate
+    url: 
   - type: other-format
     name: Paperback
     media_type: print
