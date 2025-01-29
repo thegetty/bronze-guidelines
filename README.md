@@ -96,8 +96,8 @@ Allow annotated images to display in line on page, not just modal
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
-**_includes/components/figure/table/index.js**
-Added removeHTML to strip tags that were breaking the markup
+**_includes/components/figure/table/html.js**
+Updated link to open iframe viewer instead of modal
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
