@@ -134,6 +134,9 @@ Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 **_includes/translation-headings.liquid**
 Assigns title with liquid variable to be used in vocab page accordions and includes accordionGlobalControls
 
+**_layouts/base.11ty.js**
+Add page layout as data attribute on `<body>` to facilitate styling
+
 **_layouts/entry-embed.liquid**
 Variant of `layout: entry` but uses renderFile in place of canvas panel for special embeds (3d-models, svg, etc.)
 
