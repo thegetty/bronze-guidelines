@@ -429,17 +429,6 @@ globalSetup()
 window.addEventListener('load', () => {
   pageSetup()
   scrollToHash(window.location.hash, 75, 'swing')
-
-  // hide loading indicator a given time
-  const loadingIndicator = document.getElementById('case-study-loading-indicator')
-  if (loadingIndicator) {
-    setTimeout(() => {
-      loadingIndicator.style.opacity = "0"
-    }, 9000);
-    setTimeout(() => {
-      loadingIndicator.style.display = "none"
-    }, 10000);
-  }
   
   const params = parseQueryParams()
   /**

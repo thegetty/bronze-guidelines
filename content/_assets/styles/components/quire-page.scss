@@ -151,7 +151,7 @@ html {
     padding-top: 0;
     padding-bottom: 0;
     position: relative;
-    @include animation(0.5s ease 0s 1 slideFromRight);
+    @include animation(none);
     color: background-color-text-classic($content-background-color);
     @media print {
       color: $print-text-color;
@@ -532,7 +532,7 @@ html {
   background-repeat: no-repeat;
   background-position: cover;
   text-align: center;
-  @include animation(fadeIn 2s);
+  @include animation(none);
 
   @media print {
     background-color: transparent;

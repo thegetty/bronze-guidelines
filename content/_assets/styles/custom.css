@@ -1254,25 +1254,6 @@ figure .q-figure__modal-link {
     line-height: 1.2;
   }
   /* Case study pages */
-  #case-study-loading-indicator {
-    position: fixed;
-    left: 0;
-    top: 3rem;
-    width: 100vw;
-    height: calc(100vh - 3rem);
-    background-color: var(--deep-black);
-    z-index: 10;
-    color: var(--light);
-    font-family: 'Akrobat', sans-serif;
-    font-size: 1.25rem;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 2s;
-  }
-  #case-study-loading-indicator span {
-    animation: fadeInOut 4s linear;
-    animation-iteration-count: infinite;
-  }
   @keyframes fadeInOut {
     0%,100% { opacity: 1 }
     50% { opacity: .4 }
