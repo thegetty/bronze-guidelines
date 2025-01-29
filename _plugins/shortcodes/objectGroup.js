@@ -48,8 +48,17 @@ module.exports = function (eleventyConfig, { page }) {
           // objIcon
           if (fig.media_type == 'vimeo' ) {
             objIcon = `${icon({ type: 'video', description: 'Open viewer' })}`
-          } else if (fig.media_type == 'table' ) {
-            objIcon = `${icon({ type: 'table', description: 'Open viewer' })}`
+          } else if (fig.media_type == 'table' ) { 
+            objIcon = ''
+            if (fig.media_icon == 'layers') {
+              objIcon = `${icon({ type: 'layers', description: 'Open viewer' })}`
+            } else if (fig.media_icon == '3d') {
+              objIcon = `${icon({ type: 'rotation', description: 'Open viewer' })}`
+            } else if (fig.media_icon == 'video') {
+              objIcon = `${icon({ type: 'video', description: 'Open viewer' })}`
+            } else {
+              objIcon = `${icon({ type: 'table', description: 'Open viewer' })}`
+            }
           } else if (fig.sequences || fig.media_type == '3D' ) {
             objIcon = `${icon({ type: 'rotation', description: 'Open viewer' })}`
           } else if (fig.annotations ) {
@@ -63,7 +72,13 @@ module.exports = function (eleventyConfig, { page }) {
           } else if (fig.annotations) {
             objImagePath = `/iiif/${id}/base/thumbnail.jpg`
           } else if (fig.zoom) {
-            objImagePath = `/iiif/${id}/${objNumber}/thumbnail.jpg`
+            objImagePath = ''
+            if (fig.sequences) {
+              dataThumbnail = fig.thumbnail
+              objImagePath = `${dataThumbnail.replace('static-inline-figure-image', 'thumbnail')}`
+            } else {
+              objImagePath = `/iiif/${id}/${objNumber}/thumbnail.jpg`
+            }
           } else if (fig.media_type == 'vimeo' || 'youtube') {
             objImagePath = `/_assets/images/${fig.poster}`
           } 

@@ -1,6 +1,6 @@
 //
 // CUSTOMIZED FILE
-// Added removeHTML to strip tags that were breaking the markup
+// Updated link to open iframe viewer instead of modal
 //
 const { html } = require('~lib/common-tags')
 
@@ -17,20 +17,18 @@ module.exports = function(eleventyConfig) {
   const figureLabel = eleventyConfig.getFilter('figureLabel')
   const tableElement = eleventyConfig.getFilter('figureTableElement')
   const markdownify = eleventyConfig.getFilter('markdownify')
-  const removeHTML = eleventyConfig.getFilter('removeHTML')
 
   return async function({ caption, credit, id, label, src }) {
     const table = await tableElement({ src })
-    const title = markdownify(caption)
 
     const labelElement = figureLabel({ caption, id, label })
     const captionElement = figureCaption({ caption, content: labelElement, credit })
 
     return html`
-      <a
-        class="q-figure__modal-link"
-        href="#${id}"
-        title="${removeHTML(title)}" 
+      <a 
+        class="object-link" 
+        target="object-iframe" 
+        href="/visual-atlas/${id.replace('fig-','')}/"
       >
         ${table}
       </a>

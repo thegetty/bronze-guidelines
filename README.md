@@ -51,6 +51,16 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 5. To choose/change a Node version to run use `nvm use 14` or `nvm use 16`. This will be the version used for as long as that Terminal window is open, or until you change it again.
 
+## Build and Deploy the HTML Version
+
+1. Set publication.url to https://www.getty.edu/publications/bronze-guidelines/
+
+2. Run `quire build`
+
+3. In `_site` find all instances of `src=\"/_assets/images/` and replace with `src=\"/publications/bronze-guidelines/_assets/images/`
+
+4. Run `netlify deploy`
+
 ## Creating a PDF Version
 
 1. Build the current site: `npm run build`
@@ -96,13 +106,13 @@ Allow annotated images to display in line on page, not just modal
 **includes/components/figure/image/print.js**
 Output ALL image layers for checkbox and radio button annotations
 
-**_includes/components/figure/table/index.js**
-Added removeHTML to strip tags that were breaking the markup
+**_includes/components/figure/table/html.js**
+Updated link to open iframe viewer instead of modal
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
 
-**_includes/components/lightbox/slides.js**
+**_includes/web-components/lightbox/index.js**
 Add `<details>` element around lightbox captions
 
 **_includes/components/modal/index.js**
@@ -133,6 +143,9 @@ Allow links with .q-figure__modal-link classes anywhere, open figure in modal.
 
 **_includes/translation-headings.liquid**
 Assigns title with liquid variable to be used in vocab page accordions and includes accordionGlobalControls
+
+**_layouts/base.11ty.js**
+Add page layout as data attribute on `<body>` to facilitate styling
 
 **_layouts/entry-embed.liquid**
 Variant of `layout: entry` but uses renderFile in place of canvas panel for special embeds (3d-models, svg, etc.)
@@ -181,9 +194,6 @@ Based on `open` and previously `ref`, creates figure object links that open in i
 **content/_assets/javascript/application/iframe-viewer.js**
 **content/_assets/styles/iframe-viewer.css**
 Add iframe-based image viewer
-
-**content/_assets/javascript/application/canvas-panel.js**
-Changed historyBehavior to replace instead of push; and rolled back a change to `if (!figure && !figureSlide) return` that kept videos and embeds from working with the ref shortcodes
 
 **content/_assets/javascript/application/intersection-observer-factory.js**
 Changed rootMargin to 0 for better slide triggering

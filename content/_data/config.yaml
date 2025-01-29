@@ -27,7 +27,7 @@ entryPage:
   objectLinkText: View in Collection
 
 epub:
-  defaultCoverImage: 'epub-cover.png'
+  defaultCoverImage: 'cover-full.jpg'
   outputDir: '_epub'
 
 footnotes:
@@ -51,6 +51,20 @@ navigation:
 
 pageTitle:
   labelDivider: '. '
+
+pdf:
+  filename: 'publication'
+  outputDir: '/_assets/downloads' 
+  pagePDF:
+    accessLinks:
+      - header: true 
+        label: 'PDF'
+      - footer: true
+        label: 'Download this page'
+    coverPage: true
+    output: false
+  publicationPDF:
+    output: true
 
 ref:
   sequenceTransition: 30

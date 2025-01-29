@@ -58,6 +58,7 @@ additional_contributors: |
 
 </div>
 
+<div class="vocab-table-wrapper">
 <table class="vocab-table pdf-full-width" id="vocabtable">
   <thead>
     <tr>
@@ -81,4 +82,4 @@ additional_contributors: |
 {% endfor %}
   </tbody>
 </table>
-
+</div>

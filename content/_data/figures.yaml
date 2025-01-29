@@ -12,6 +12,7 @@ figure_list:
   - id: "fig-440-cover"
     src: "figures/case-studies/440-cover.jpg"
     visual_atlas: false
+    zoom: true
     label: "Figure 440"
     caption: "Front view of the first head. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
   
@@ -46,18 +47,21 @@ figure_list:
   - id: "fig-034-097-524-cover"
     src: "figures/case-studies/034-097-524-cover.jpg"
     visual_atlas: false
+    zoom: true
     label: "Figures 524, 34, and 97"
     caption: "From left to right: [Fig. 524](/visual-atlas/524/), *Peace*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1683); [Fig. 34](/visual-atlas/034/), *Abundance*, cast in 1571 by Nicolas Péron, H. 128 cm (Musée du Louvre, inv. MR1681); [Fig. 97](/visual-atlas/097/), *Justice*, 1571, H. 128 cm (Musée du Louvre, inv. MR1682)."
     
   - id: "fig-529-cover"
     src: "figures/case-studies/529-cover.jpg"
     visual_atlas: false
+    zoom: true
     label: "Figure 529"
     caption: "Charles Marion Russell (American, 1864–1926), *Medicine Whip*, modeled 1911, sand cast 1912–16, H. 14.8 cm (Gilcrease Museum, Tulsa, 0837.14)."
 
   - id: "vid-03-cover"
     src: "figures/case-studies/vid-03-cover.jpg"
     visual_atlas: false
+    zoom: true
     label: "Figure 33 (detail)"
     caption: "Detail of [fig. 33](/visual-atlas/033/), Andrew Lacey (British, b. 1969) beginning the modeling process on a metal armature for *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
@@ -1191,7 +1195,8 @@ figure_list:
 
   - id: "fig-100"
     src: "figures/100.jpg"
-    zoom: true
+    thumb: "figures/thumbs/100.jpg"
+    # zoom: true
     media_type:
     label: "Figure 100"
     caption: "Andrea del Verrocchio (Italian, ca. 1435–1488) (model of horse) and Alessandro Leopardi (Italian, ca. 1465–1512 (finished model and cast), *Equestrian Monument of Bartolomeo Colleoni*, 1479–96, over life size (Piazza SS Giovanni e Paolo, Venice), after 2006 conservation by Giovanni and Lorenzo Morigi."
@@ -1457,33 +1462,23 @@ figure_list:
             selected: true
 
   - id: "fig-121"
-    src: "figures/121.jpg"
     zoom: true
-    media_type: dynamic
-    visuaal_atlas: false
+    visual_atlas: false
     label: "Figure 121"
     caption: "X-radiographic sequence (viewable in online edition) of a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
-    # sequences:
-    #   - id: "figures/121/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
-    #     start: 085.jpg
+    sequences:
+      - id: "figures/121/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 085.jpg
 
   - id: "fig-121-print"
     src: "figures/121.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 121"
     caption: "X-radiographic sequence (viewable in online edition) of a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* showing the core-pin holes that have been left unplugged (red arrows) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (yellow overlay). Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
-    # sequences:
-    #   - id: "figures/121/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
-    #     start: 085.jpg
 
   - id: "fig-122"
     # src: "figures/122.png"
@@ -1655,7 +1650,8 @@ figure_list:
 
   - id: "fig-143"
     src: "figures/143.jpg"
-    zoom: true
+    thumb: "figures/thumbs/143.jpg"
+    # zoom: true
     media_type:
     label: "Figure 143"
     caption: "Backscattered electron micrograph of a polished cross section showing the dendritic microstructure of the primary casting. The outlines of dendrites appear dark gray; the interdendritic space is filled with phase alpha + delta (eutectoïd composition) and various inclusions (light gray) as well as nodules of lead (white oval shape). *The Youth of Agde*, France, 1st century CE, H. 140 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 839). See [fig. 561](/visual-atlas/561/) for a general view. See Mille 2012."
@@ -1805,7 +1801,8 @@ figure_list:
 
   - id: "fig-161"
     src: "figures/161.jpg"
-    zoom: true
+    thumb: "figures/thumbs/161.jpg"
+    # zoom: true
     media_type:
     label: "Figure 161"
     caption: "“Orange-peel” effect on the bronze surface of the base. The size of the detail is ~50 mm in the vertical direction. Siân Lewis (Welsh, b. 1964), *Tree Tableaux II*, cast by Andrew Lacey (British, b. 1969), 2017, H. 180 cm (artist’s collection)."
@@ -1818,7 +1815,8 @@ figure_list:
 
   - id: "fig-163"
     src: "figures/163.jpg"
-    zoom: true
+    thumb: "figures/thumbs/163.jpg"
+    # zoom: true
     media_type:
     label: "Figure 163"
     caption: "Detail of inverse segregation (tin sweat) on the figure’s cheek (one of the sons), appearing as a silvery color due to elevated surface tin content. Adriaen de Vries (Netherlandish, 1556–1626), *Laocoön and His Sons*, 1623, H. 169 cm (Nationalmuseum, Stockholm, inv. Drh Sk 68). See Bassett 2008."
@@ -1837,19 +1835,16 @@ figure_list:
     caption: "Artist Andrew Lacey states: “The area between the breast or middle of the chest near the heart was moistened just prior to casting. This subjected the bronze to violent steam gassing, porosity, and a small vertical hole in the casting. It is highly organic in form and texture but leaves a mark that suggests weakness or wounding, or at least as a question in itself.” Personal communication to the authors, 2019. Andrew Lacey (British, b. 1969), *Mud Ash Ochre*, 2009, life-size torso (artist’s collection)."
 
   - id: "fig-166"
-    src: "figures/166.jpg"
     zoom: true
-    media_type: dynamic
     class: pdf-65-percent-float
     label: "Figure 166"
     caption: "360-degree overall view (viewable in online edition) before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
-    # sequences:
-    #   - id: "figures/166/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
-    #     start: 085.jpg
+    sequences:
+      - id: "figures/166/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
 
   - id: "fig-167"
     # src: "figures/167.png"
@@ -2687,6 +2682,7 @@ figure_list:
     static_inline: "figures/static-inline/241.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: layers
     label: "Figure 241"
     caption: "Reflectance transformation image (RTI) of the upper surface of the lotus of a lost-wax-cast statuette. This imaging technique allows examination of engraving marks made in the metal under variable lighting conditions. *Statuette of Bodhisattva*, Java, late 9th–early 10th century, H. 17 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3822). See Mechling et al. 2018."
 
@@ -2903,6 +2899,7 @@ figure_list:
     static_inline: "figures/static-inline/273.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 273"
     caption: "3D model of an engraved line (approximately 1 mm across) in a lost-wax cast statuette. The blurred V shape of the imprint results from the chasing tool following along a line already present in the wax model. The image was generated by a digital microscope using automated focus stacking.  *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
@@ -2926,7 +2923,8 @@ figure_list:
 
   - id: "fig-277"
     src: "figures/277.jpg"
-    zoom: true
+    thumb: "figures/thumbs/277.jpg"
+    # zoom: true
     media_type:
     label: "Figure 277"
     caption: "Detail showing the transition between the retained as-cast surface beneath the horse’s neck and the adjacent chased surface of the metal. *Aquamanile in the Form of a Knight on Horseback*, Germany (Lower Saxony?), ca. 1350, H. 45.2 cm (Metropolitan Museum of Art, Robert Lehman Collection, 1975, inv. 1975.1.1409). See Dandridge 2006."
@@ -2944,6 +2942,7 @@ figure_list:
     static_inline: "figures/static-inline/279.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 279"
     caption: "3D reconstructed image of a chased line made in the metal (detail of left knee). The V shape of the imprint demonstrates the use of engraving. The image was generated with a digital microscope using automated focus stacking. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
@@ -2965,6 +2964,7 @@ figure_list:
     static_inline: "figures/static-inline/282.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 282"
     caption: "3D model of a chisel mark in an as-cast tin-bronze. Model created with a digital microscope using automated focus stacking during the CAST:ING chasing workshop, C2RMF, Paris, May 2017."
 
@@ -2974,6 +2974,7 @@ figure_list:
     static_inline: "figures/static-inline/283.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 283"
     caption: "3D model of a chisel mark in an unalloyed electrolytic copper. Model created with a digital microscope using automated focus stacking during the CAST:ING chasing workshop, C2RMF, Paris, May 2017."
 
@@ -2989,6 +2990,7 @@ figure_list:
     static_inline: "figures/static-inline/285.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 285"
     caption: "Digital microscopy detail of a punch mark (0.8 mm in diameter) on the lotus of a Buddha Vairocana. Note the smooth, compressed surface produced by the punch and the ridge of displaced metal around the edge. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 
@@ -2998,6 +3000,7 @@ figure_list:
     static_inline: "figures/static-inline/286.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 286"
     caption: "3D model of a punch mark (0.8 mm in diameter) from the lotus of a Buddha Vairocana (see fig. 285). The model was generated by a digital microscope using automated focus stacking. Note the asymmetry in the punch mark resulting from a defect in the face of the punching tool. *Buddha Vairocana*, Indonesia, first half of the 10th century, H. 12 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MA 3475). See Mechling et al. 2018."
 
@@ -3072,7 +3075,8 @@ figure_list:
 
   - id: "fig-296"
     src: "figures/296.jpg"
-    zoom: true
+    thumb: "figures/thumbs/296.jpg"
+    # zoom: true
     media_type:
     label: "Figure 296"
     caption: "Detail of the surface of a fake Han dynasty bronze showing the blistering electro-gilding. The width of the field of view is 1.5 cm. The blisters are tiny raised gold spots in the gilding that indicate the bronze was poorly cleaned to prepare for the gilding process. The visible red waxy deposits were applied by the forger to “age” the finish. Modern forgery of a Chinese Han period (202 BCE–220 CE) cast bronze in the form of a bear, H. 17.2 cm (British Museum, reg. no. 1947,0712.382). See Jones 1990, 257."
@@ -3631,7 +3635,8 @@ figure_list:
 
   - id: "fig-372"
     src: "figures/372.jpg"
-    zoom: true
+    thumb: "figures/thumbs/372.jpg"
+    # zoom: true
     media_type:
     label: "Figure 372"
     caption: "Color measurements on bronze sculpture typically utilize the CIELAB color space, where colors are defined by the three variables (L*, a*, and b*) representing light-dark, red-green, and yellow-blue, respectively."
@@ -3663,6 +3668,7 @@ figure_list:
     static_inline: "figures/static-inline/376.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 376"
     caption: "Digital 3D structured light scan. Andrew Lacey (British, b. 1969), *The Anatomy of Bronze*, cast by the artist in 2019, Devon, UK, H. 45 cm (artist’s collection)."
 
@@ -3675,6 +3681,7 @@ figure_list:
     static_inline: "figures/static-inline/377.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: 3d
     label: "Figure 377"
     caption: "3D structured light scan. *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br 37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
 
@@ -3689,6 +3696,7 @@ figure_list:
     thumb: "figures/thumbs/379.jpg"
     static_inline: "figures/static-inline/379.jpg"
     media_type: table
+    media_icon: 3d
     label: "Figure 379"
     caption: "3D laser scan of the reassembled surviving sections of the dolphin relief produced by P. Mora and L. Espinasse and presented on the Archéovision website. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
@@ -3759,18 +3767,16 @@ figure_list:
     caption: "Comparison of electron emission radiography (right) versus X-ray radiography (middle) as seen on the Plaque à l’aurige, 4th century CE, H. 17 cm (Musée du Louvre, inv. Br3447). Daylight photography on the left. The electron emission image nicely reveals the inlays of gold and silver in the copper substrate. See Robcis et al. 2014."
 
   - id: "fig-390"
-    src: "figures/390.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 390"
     caption: "X-radiographic sequence (viewable in online edition). Jupiter (or Neptune?), Bavay (Nord, France), 1st century CE, H. 26.4 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 15 / Biévelet 10). See Mille 2019a."
-    # sequences:
-    #   - id: "figures/390/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
-    #     start: 125.jpg
+    sequences:
+      - id: "figures/390/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 125.jpg
 
   - id: "fig-391"
     src: "figures/391.jpg"
@@ -3863,31 +3869,27 @@ figure_list:
     caption: "Mass attenuation coefficients for thermal neutrons as a function of atomic number of elements. A higher coefficient means the element is more opaque to neutrons."
 
   - id: "fig-403"
-    src: "figures/403.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 403"
     caption: "Neutron radiography. This series of thirty-seven neutron radiographs was made as the sculpture was rotated through 180° on a turntable.  Most consecration offerings (coins, beads, folded metal sheet) can be observed (white shapes under the seat). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
-    # sequences:
-    #   - id: "figures/403/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
-    #     start: 080.jpg
+    sequences:
+      - id: "figures/403/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
 
   - id: "fig-404"
-    src: "figures/404.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 404"
     caption: "Neutron tomography (vertical slice) (viewable in online edition). The consecration offerings are revealed in the interior of the sculpture (in yellow). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
-    # sequences:
-    #   - id: "figures/404/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
+    sequences:
+      - id: "figures/404/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
+        start: 226.jpg
 
   - id: "fig-405"
     src: "figures/405.jpg"
@@ -3994,21 +3996,24 @@ figure_list:
 
   - id: "fig-421"
     src: "figures/421.jpg"
-    zoom: true
+    thumb: "figures/thumbs/421.jpg"
+    # zoom: true
     media_type:
     label: "Figure 421"
     caption: "Backscattered electron micrograph of a polished cross section showing the dendritic microstructure of the primary cast. The outlines of dendrites appear dark gray; the interdendritic space is filled with phase alfa + delta (eutectoïd composition) and various inclusions (light gray) as well as nodules of lead (white oval shapes). Large bronze fragment from the hoard of Evreux, France, 1st century CE, L. 14 cm (Musée d’Evreux, France, inv. 4864). See Azéma et al. 2012; Azéma and Mille 2013a."
 
   - id: "fig-422"
     src: "figures/422.jpg"
-    zoom: true
+    thumb: "figures/thumbs/422.jpg"
+    # zoom: true
     media_type:
     label: "Figure 422"
     caption: "Backscattered electron micrograph of a polished cross section showing the dendritic microstructure of the primary cast of an experimental sample aimed to investigate fusion welding (E26, binary bronze CuSn10). The outlines of dendrites appear dark gray; the interdendritic space is filled with phase alfa + delta (eutectoïd composition) (light gray). See Azéma et al. 2017."
 
   - id: "fig-423"
     src: "figures/423.jpg"
-    zoom: true
+    thumb: "figures/thumbs/423.jpg"
+    # zoom: true
     media_type:
     label: "Figure 423"
     caption: "Backscattered electron micrograph of a polished cross section showing the dendritic microstructure and grains of the primary cast of an experimental sample aimed to investigate fusion welding (E54, binary bronze CuSn10). The outlines of dendrites appear dark gray; the interdendritic space is filled with phase alfa + delta (eutectoïd composition) (light gray). See Azéma et al. 2012; Azéma and Mille 2013a."
@@ -4056,7 +4061,8 @@ figure_list:
 
   - id: "fig-430"
     src: "figures/430.jpg"
-    zoom: true
+    thumb: "figures/thumbs/430.jpg"
+    # zoom: true
     media_type:
     label: "Figure 430"
     caption: "Photomicrograph under cross-polarized transmitted light of a thin section of a casting core. The different inclusions are sorted according to their gray level (green outlines) and characterized (shape, dimensions) using image analysis software. Francesco Primaticcio (Italian, 1504–1570), *Laocoön and His Sons*, 1542, H. 191 cm (Musée national du château de Fontainebleau, France, inv. MR 3290). See Castelle, Coquinot, and Bourgarit 2016."
@@ -4284,6 +4290,7 @@ figure_list:
     static_inline: "figures/static-inline/460.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: video
     label: "Figure 460"
     caption: "3D model of the rear surface of the surviving fragments showing the assembly of the different parts. The red bands represent flow-fusion welding zones. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
@@ -4305,11 +4312,13 @@ figure_list:
     static_inline: "figures/static-inline/463.jpg"
     # media_type: dynamic
     media_type: table
+    media_icon: video
     label: "Figure 463"
     caption: "3D model of the rear surface of the surviving fragments showing the welding zones in red, and in the foreground, the metal reservoir in the form of a basin where the welding metal was poured in. *Great Dolphins of Vienne*, Roman period, Vienne, France, 2nd century CE, max L. 260 cm (Musée des Beaux-Arts et d’Archéologie de Vienne, France, inv. R.1998.2.43)."
 
   - id: "fig-464"
     src: "figures/464.jpg"
+    thumb: "figures/thumbs/464.jpg"
     zoom: true
     media_type:
     label: "Figure 464"
@@ -4447,7 +4456,8 @@ figure_list:
 
   - id: "fig-476"
     src: "figures/476.jpg"
-    zoom: true
+    thumb: "figures/thumbs/476.jpg"
+    # zoom: true
     media_type:
     label: "Figure 476"
     caption: "A wax sheet is cut and applied over the core with seams secured with a hot spatula. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
@@ -4638,17 +4648,15 @@ figure_list:
     caption: "Detail showing inlaid eye made of colored glass. *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See Barnet and Dandridge 2006."
 
   - id: "fig-498"
-    src: "figures/498.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 498"
     caption: "A digital (DR) 360° radiograph (viewable in online edition). Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
-    # sequences:
-    #   - id: "figures/498/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
+    sequences:
+      - id: "figures/498/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
 
   - id: "fig-499"
     src: "figures/499.jpg"
@@ -4679,6 +4687,7 @@ figure_list:
     thumb: "figures/thumbs/503.jpg"
     static_inline: "figures/static-inline/503.jpg"
     media_type: table
+    media_icon: 3d
     label: "Figure 503"
     caption: "3D scan. *Huo Ritual Vessel*, 11th century BCE, Middle Yangtze Valley, China, H. 17.2 cm (Freer Gallery of Art, Smithsonian Institution, Washington, DC, purchase—Charles Lang Freer Endowment, inv. F1936.6a–b / Department of Conservation and Scientific Research)."
 
@@ -4801,7 +4810,8 @@ figure_list:
 
   - id: "fig-520"
     src: "figures/520.jpg"
-    zoom: true
+    thumb: "figures/thumbs/520.jpg"
+    # zoom: true
     class: pdf-65-percent-float
     media_type:
     label: "Figure 520"
@@ -4870,6 +4880,7 @@ figure_list:
 
   - id: "fig-528"
     src: "figures/528.jpg"
+    thumb: "figures/thumbs/528.jpg"
     zoom: true
     media_type:
     label: "Figure 528"
@@ -5062,7 +5073,8 @@ figure_list:
 
   - id: "fig-550"
     src: "figures/550.jpg"
-    zoom: true
+    thumb: "figures/thumbs/550.jpg"
+    # zoom: true
     media_type:
     label: "Figure 550"
     caption: "One aspect of chasing can involve enhancing detailed surface decoration. Here a V-shaped graver is used to remove metal in order to reinforce the lines of the lion’s mane cast through from the model, where they had been incised into the wax. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491). See Dandridge 2006."
@@ -5162,17 +5174,15 @@ figure_list:
     caption: "A digital turntable used in conjunction with a simple easel allows multiple 360° rotation series to be acquired in identical positions and composited in batches. The detector panel slides to a new position for each rotation.  Because the detector stays in one plane, the image sets can be assembled by simple tiling, without the need for sophisticated alignment algorithms."
 
   - id: "fig-564"
-    src: "figures/564.jpg"
     zoom: true
-    media_type: dynamic
     label: "Figure 564"
     caption: "A digital (DR) 360° X-ray package (viewable in online edition) made using the set up shown in [fig. 563](/visual-atlas/563/). Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
-    # sequences:
-    #   - id: "figures/564/"
-    #     behavior:
-    #       - continuous
-    #       - sequence
-    #     viewing_direction: "right-to-left"
+    sequences:
+      - id: "figures/564/"
+        behavior:
+          - continuous
+          - sequence
+        viewing_direction: "right-to-left"
 
   # VIDEOS
 
@@ -5337,108 +5347,3 @@ figure_list:
     media_id: 672854085/be5c239063
     label: "Video 18"
     caption: "Arrangement and sequence of a bronze pour for small items in a modern foundry (dir. Christophe Béry), filmed during the July 2016 CAST:ING workshop at Fonderie de Coubertin, Saint-Rémy-lès-Chevreuse, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
-
-  ## TEMP FOR IMAGE SEQUENCES
-
-  - id: "fig-121-temp"
-    # src: "figures/121.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 121"
-    caption: "X-radiographic sequence (viewable in online edition) of a two-thirds-scale bronze reproduction of the head of the *Apollo of Lillebonne* showing the core-pin holes that have been left unplugged (black spots) and an attempt to repair one of these holes: a rectangular shape has been carved around the hole in the metal but has been left unpatched (dark-gray rectangular shape on the left side of the neck). Two-thirds-scale reproduction using the indirect wax-slab process during the 2016 CAST:ING meeting, Coubertin foundry, France. Original: *Apollo of Lillebonne*, France, 1st century BCE–1st century CE, H. 193 cm (Musée du Louvre, inv. Br37 [NIII65]). See [fig. 288](/visual-atlas/288/)."
-    sequences:
-      - id: "figures/121/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-        start: 085.jpg
-
-  - id: "fig-166-temp"
-    # src: "figures/166.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    class: pdf-65-percent-float
-    label: "Figure 166"
-    caption: "360-degree overall view (viewable in online edition) before restoration. Despite the high quality of the cast, several hundred repair patches have been observed. *Eros of Agde*, France, 1st century BCE, H. 63.5 cm (Musée de l’Ephèbe et d’Archéologie Sous-Marine de la Ville d’Agde, France, inv. 2888). See Mille 2012."
-    sequences:
-      - id: "figures/166/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-        # start: 085.jpg
-  
-  - id: "fig-390-temp"
-    # src: "figures/390.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 390"
-    caption: "X-radiographic sequence (viewable in online edition). Jupiter (or Neptune?), Bavay (Nord, France), 1st century CE, H. 26.4 cm (Musée Archéologique de Bavay, France, inv. 1969 Br 15 / Biévelet 10). See Mille 2019a."
-    sequences:
-      - id: "figures/390/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-        start: 125.jpg
-
-  - id: "fig-403-temp"
-    # src: "figures/403.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 403"
-    caption: "Neutron radiography (viewable in online edition). This series of thirty-seven neutron radiographs was made as the sculpture was rotated through 180° on a turntable.  Most consecration offerings (coins, beads, folded metal sheet) can be observed (white shapes under the seat). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
-    sequences:
-      - id: "figures/403/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-        start: 080.jpg
-  
-  - id: "fig-404-temp"
-    # src: "figures/404.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 404"
-    caption: "Neutron tomography (vertical slice) (viewable in online edition). The consecration offerings are revealed in the interior of the sculpture (in yellow). *Vairocana*, Java, first half of the 10th century, H. 15.5 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 18290). See Mechling et al. 2018."
-    sequences:
-      - id: "figures/404/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-    
-  - id: "fig-498-temp"
-    # src: "figures/498.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 498"
-    caption: "A digital (DR) 360° radiograph (viewable in online edition). Camille Claudel (French, 1864–1943), *Torso of a Crouching Woman*, model about 1884–85, cast by 1913, H. 35 cm (J. Paul Getty Museum, inv. 2018.32)."
-    sequences:
-      - id: "figures/498/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"
-
-  - id: "fig-564-temp"
-    # src: "figures/564.jpg"
-    # zoom: true
-    # media_type: dynamic
-    visual_atlas: false
-    label: "Figure 564"
-    caption: "A digital (DR) 360° X-ray package (viewable in online edition) made using the set up shown in [fig. 563](/visual-atlas/563/). Each X-ray frame is made from 8 individual radiographs composited using Adobe After Effects software. After a model by Gaspard Marsy (French, 1624-1681), *Boreas Abducting Orithyia*, 1693–1710, H. 104.5 cm (J. Paul Getty Museum, inv. 88.SB.74)."
-    sequences:
-      - id: "figures/564/"
-        behavior:
-          - continuous
-          - sequence
-        viewing_direction: "right-to-left"

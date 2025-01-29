@@ -12,7 +12,7 @@ const { html } = require('~lib/common-tags')
  * @return     {Function}  Template render function
  */
 module.exports = async function(data) {
-  const { classes, collections, content, pageData, publication } = data
+  const { classes, collections, config, content, layout, pageData, publication } = data
   const { inputPath, outputPath, url } = pageData || {}
   const id = this.slugify(url) || path.parse(inputPath).name
   const pageId = `page-${id}`
@@ -29,7 +29,7 @@ module.exports = async function(data) {
         ${analyticsSnippet}
         ${this.icons(data)}
         ${this.iconscc(data)}
-        <div class="quire no-js" id="container">
+        <div class="quire no-js" data-layout="${layout}" id="container">
           <div
             aria-expanded="false"
             class="quire__secondary"

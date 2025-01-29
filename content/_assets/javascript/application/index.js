@@ -27,6 +27,7 @@ import Accordion from './accordion'
 import Search from '../../../../_plugins/search/search.js'
 import scrollToHash from './scroll-to-hash'
 import './iframe-viewer'
+import '@google/model-viewer'
 
 // array of leaflet instances
 const mapArr = []
@@ -428,17 +429,6 @@ globalSetup()
 window.addEventListener('load', () => {
   pageSetup()
   scrollToHash(window.location.hash, 75, 'swing')
-
-  // hide loading indicator a given time
-  const loadingIndicator = document.getElementById('case-study-loading-indicator')
-  if (loadingIndicator) {
-    setTimeout(() => {
-      loadingIndicator.style.opacity = "0"
-    }, 9000);
-    setTimeout(() => {
-      loadingIndicator.style.display = "none"
-    }, 10000);
-  }
   
   const params = parseQueryParams()
   /**

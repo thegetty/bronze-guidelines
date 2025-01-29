@@ -749,6 +749,7 @@ object_list:
       type: 
       chapter: [ I.1. Casting Processes, I.5. Assembly ]
       figure: [ id: fig-100 ]
+      thumbnail: "figures/static-inline/100.jpg"
   -
       id: '101'
       label: '101'
@@ -872,7 +873,7 @@ object_list:
   -
       id: '121'
       label: '121'
-      type: [ X-radiography ]
+      type: [ 360-Degree, X-radiography ]
       chapter: [ I.1. Casting Processes, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
       figure: [ id: fig-121 ]
   -
@@ -1007,6 +1008,7 @@ object_list:
       type: [ Microscopy ]
       chapter: [ I.2. Metals ]
       figure: [ id: fig-143 ]
+      thumbnail: "figures/static-inline/143.jpg"
   -
       id: '144'
       label: '144'
@@ -1090,8 +1092,8 @@ object_list:
       label: '157'
       type: 
       chapter: [ General Introduction, I.3. Casting Defects ]
-      thumbnail: "figures/157.jpg"
       figure: [ id: fig-157 ]
+      thumbnail: "figures/static-inline/157.jpg"
   -
       id: '158'
       label: '158'
@@ -1116,6 +1118,7 @@ object_list:
       type: 
       chapter: [ I.3. Casting Defects ]
       figure: [ id: fig-161 ]
+      thumbnail: "figures/static-inline/161.jpg"
   -
       id: '162'
       label: '162'
@@ -1128,6 +1131,7 @@ object_list:
       type: 
       chapter: [ I.3. Casting Defects, I.7. Gilding and Plating ]
       figure: [ id: fig-163 ]
+      thumbnail: "figures/static-inline/163.jpg"
   -
       id: '164'
       label: '164'
@@ -1601,8 +1605,8 @@ object_list:
       label: '242'
       type: [ Annotated ]
       chapter: [ I.6. Tool Marks, II.4. Measurements of Dimension ]
-      thumbnail: "figures/242.jpg"
       figure: [ id: fig-242 ]
+      thumbnail: "figures/static-inline/242.jpg"
   -
       id: '243'
       label: '243'
@@ -1644,14 +1648,15 @@ object_list:
       label: '249'
       type: 
       chapter: [ I.6. Tool Marks ]
-      thumbnail: "figures/249.jpg"
       figure: [ id: fig-249 ]
+      thumbnail: "figures/static-inline/249.jpg"
   -
       id: '250'
       label: '250'
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-250 ]
+      thumbnail: "figures/static-inline/250.jpg"
   -
       id: '251'
       label: '251'
@@ -1664,12 +1669,14 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-252 ]
+      thumbnail: "figures/static-inline/252.jpg"
   -
       id: '253'
       label: '253'
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-253 ]
+      thumbnail: "figures/static-inline/253.jpg"
   -
       id: '254'
       label: '254'
@@ -1784,6 +1791,7 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks ]
       figure: [ id: fig-272 ]
+      thumbnail: "figures/static-inline/272.jpg"
   -
       id: '273'
       label: '273'
@@ -1814,6 +1822,7 @@ object_list:
       type: 
       chapter: [ I.6. Tool Marks, Case Study 2 ]
       figure: [ id: fig-277 ]
+      thumbnail: "figures/static-inline/277.jpg"
   -
       id: '278'
       label: '278'
@@ -1928,13 +1937,14 @@ object_list:
       type: 
       chapter: [ I.7. Gilding and Plating ]
       figure: [ id: fig-296 ]
+      thumbnail: "figures/static-inline/296.jpg"
   -
       id: '297'
       label: '297'
       type: 
       chapter: [ I.7. Gilding and Plating, I.9. Inlays and Overlays ]
-      thumbnail: "figures/297.jpg"
       figure: [ id: fig-297 ]
+      thumbnail: "figures/static-inline/297.jpg"
   -
       id: '298'
       label: '298'
@@ -2114,8 +2124,8 @@ object_list:
       label: '327'
       type: 
       chapter: [ I.8. Patina ]
-      thumbnail: "figures/327.jpg"
       figure: [ id: fig-327 ]
+      thumbnail: "figures/static-inline/327.jpg"
   -
       id: '328'
       label: '328'
@@ -2133,8 +2143,8 @@ object_list:
       label: '330'
       type: 
       chapter: [ I.8. Patina ]
-      thumbnail: "figures/330.jpg"
       figure: [ id: fig-330 ]
+      thumbnail: "figures/static-inline/330.jpg"
   -
       id: '331'
       label: '331'
@@ -2387,13 +2397,14 @@ object_list:
       type: [ Diagram ]
       chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
       figure: [ id: fig-372 ]
+      thumbnail: "figures/static-inline/372.jpg"
   -
       id: '373'
       label: '373'
       type: [ Diagram ]
       chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
-      thumbnail: "figures/373.jpg"
       figure: [ id: fig-373 ]
+      thumbnail: "figures/static-inline/373.jpg"
   -
       id: '374'
       label: '374'
@@ -2639,8 +2650,8 @@ object_list:
       label: '414'
       type: 
       chapter: [ II.5. Metal Analysis ]
-      thumbnail: "figures/414.jpg"
       figure: [ id: fig-414 ]
+      thumbnail: "figures/static-inline/414.jpg"
   -
       id: '415'
       label: '415'
@@ -2683,18 +2694,21 @@ object_list:
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-421 ]
+      thumbnail: "figures/static-inline/421.jpg"
   -
       id: '422'
       label: '422'
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-422 ]
+      thumbnail: "figures/static-inline/422.jpg"
   -
       id: '423'
       label: '423'
       type: [ Microscopy ]
       chapter: [ II.5. Metal Analysis ]
       figure: [ id: fig-423 ]
+      thumbnail: "figures/static-inline/423.jpg"
   -
       id: '424'
       label: '424'
@@ -2737,6 +2751,7 @@ object_list:
       type: [ Microscopy ]
       chapter: [ II.7. Core Analysis ]
       figure: [ id: fig-430 ]
+      thumbnail: "figures/static-inline/430.jpg"
   -
       id: '431'
       label: '431'
@@ -2748,8 +2763,8 @@ object_list:
       label: '432'
       type: 
       chapter: [ II.7. Core Analysis ]
-      thumbnail: "figures/432.jpg"
       figure: [ id: fig-432 ]
+      thumbnail: "figures/static-inline/432.jpg"
   -
       id: '433'
       label: '433'
@@ -2839,8 +2854,8 @@ object_list:
       label: '447'
       type: 
       chapter: [ Case Study 1 ]
-      thumbnail: "figures/447.jpg"
       figure: [ id: fig-447 ]
+      thumbnail: "figures/static-inline/447.jpg"
   -
       id: '448'
       label: '448'
@@ -2943,6 +2958,7 @@ object_list:
       type: [ X-radiography ]
       chapter: [ Case Study 1 ]
       figure: [ id: fig-464 ]
+      thumbnail: "figures/static-inline/464.jpg"
   -
       id: '465'
       label: '465'
@@ -3015,6 +3031,7 @@ object_list:
       type: 
       chapter: [ Case Study 2 ]
       figure: [ id: fig-476 ]
+      thumbnail: "figures/static-inline/476.jpg"
   -
       id: '477'
       label: '477'
@@ -3086,8 +3103,8 @@ object_list:
       label: '488'
       type: 
       chapter: [ Case Study 2 ]
-      thumbnail: "figures/488.jpg"
       figure: [ id: fig-488 ]
+      thumbnail: "figures/static-inline/488.jpg"
   -
       id: '489'
       label: '489'
@@ -3231,8 +3248,8 @@ object_list:
       label: '512'
       type: [ Graph ]
       chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 4 ]
-      thumbnail: "figures/512.jpg"
       figure: [ id: fig-512 ]
+      thumbnail: "figures/static-inline/512.jpg"
   -
       id: '513'
       label: '513'
@@ -3281,6 +3298,7 @@ object_list:
       type: 
       chapter: 
       figure: [ id: fig-520 ]
+      thumbnail: "figures/static-inline/520.jpg"
   -
       id: '521'
       label: '521'
@@ -3329,6 +3347,7 @@ object_list:
       type: [ Graph ]
       chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 5 ]
       figure: [ id: fig-528 ]
+      thumbnail: "figures/static-inline/528.jpg"
   -
       id: '529'
       label: '529'
@@ -3461,6 +3480,7 @@ object_list:
       type: 
       chapter: 
       figure: [ id: fig-550 ]
+      thumbnail: "figures/static-inline/550.jpg"
   -
       id: '551'
       label: '551'
@@ -3653,31 +3673,3 @@ object_list:
       type: [ Video ]
       chapter: 
       figure: [ id: vid-18 ]
-  - 
-      id: '121-temp'
-      label: '121'
-      figure: [ id: fig-121-temp ]
-  - 
-      id: '166-temp'
-      label: '166'
-      figure: [ id: fig-166-temp ]
-  - 
-      id: '390-temp'
-      label: '390'
-      figure: [ id: fig-390-temp ]
-  - 
-      id: '403-temp'
-      label: '403'
-      figure: [ id: fig-403-temp ]
-  - 
-      id: '404-temp'
-      label: '404'
-      figure: [ id: fig-404-temp ]
-  - 
-      id: '498-temp'
-      label: '498'
-      figure: [ id: fig-498-temp ]
-  - 
-      id: '564-temp'
-      label: '564'
-      figure: [ id: fig-564-temp ]
