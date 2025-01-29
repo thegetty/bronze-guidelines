@@ -51,6 +51,16 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 5. To choose/change a Node version to run use `nvm use 14` or `nvm use 16`. This will be the version used for as long as that Terminal window is open, or until you change it again.
 
+## Build and Deploy the HTML Version
+
+1. Set publication.url to https://www.getty.edu/publications/bronze-guidelines/
+
+2. Run `quire build`
+
+3. In `_site` find all instances of `src=\"/_assets/images/` and replace with `src=\"/publications/bronze-guidelines/_assets/images/`
+
+4. Run `netlify deploy`
+
 ## Creating a PDF Version
 
 1. Build the current site: `npm run build`

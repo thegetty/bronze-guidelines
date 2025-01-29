@@ -9,8 +9,14 @@
 
 # ------------------------------------------------------------------------------
 # The publication's base URL, i.e. 'https://www.my-publication.org'
-# url: 'https://www.getty.edu/publications/bronze-guidelines/'
-url: 'http://localhost:8080/'
+# url: 'http://localhost:8080/'
+url: 'https://www.getty.edu/publications/bronze-guidelines/'
+
+# NOTE: URL information is hard-coded in a few places for deploying to the book’s final URL
+#       and so may not work properly if running a local preview:
+#
+#       - in `_layouts/case-study.liquid` and `_layouts/page.liquid` for the "Copy link" functionality
+#       - for links in the embedded SVGs in `_render`
 
 # ------------------------------------------------------------------------------
 # Title & Description
