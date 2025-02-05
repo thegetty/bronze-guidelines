@@ -2919,7 +2919,7 @@ figure_list:
     src: "figures/276.jpg"
     zoom: true
     label: "Figure 276"
-    caption: "Detail of the surface of a lost-wax cast statuette. Only digital microscopy (see [fig. 279](/visual-index/279)) proved efficient in overcoming the wear and corroded surface, thus revealing that the linear details were V-shaped and sharply defined, and thus indicative of having been made or reinforced by a graver. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
+    caption: "Detail of the surface of a lost-wax cast statuette. Only digital microscopy (see [fig. 279](/visual-atlas/279/)) proved efficient in overcoming the wear and corroded surface, thus revealing that the linear details were V-shaped and sharply defined, and thus indicative of having been made or reinforced by a graver. *Statuette of Jambhala*, Java, first half of the 9th century, H. 28 cm (Musée national des arts asiatiques – Guimet, Paris, inv. MG 3814). See Mechling et al. 2018."
 
   - id: "fig-277"
     src: "figures/277.jpg"
@@ -4461,7 +4461,7 @@ figure_list:
     media_type:
     label: "Figure 476"
     caption: "A wax sheet is cut and applied over the core with seams secured with a hot spatula. Ubaldo Vitali (American, b. 1944), Reproduction of a Lion Aquamanile, Maplewood, New Jersey, 2006, H. 19 cm, after *Aquamanile in the Form of a Lion*, probably northern Germany, 12th century, H. 19.5 cm (Metropolitan Museum of Art, gift of Irwin Untermyer, 1964, inv. 64.101.1491)."
-
+  
   - id: "fig-477"
     src: "figures/477.jpg"
     zoom: true

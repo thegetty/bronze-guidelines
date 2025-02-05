@@ -202,6 +202,10 @@ Based on `open` and previously `ref`, creates figure object links that open in i
 
 **_plugins/shortcodes/index.js**
 
+**_plugins/transforms/outputs/epub/index.js**
+**_plugins/transforms/outputs/epub/transform.js**
+Copy embed image files to EPUB
+
 **_layouts/page.liquid**
 **content/_assets/javascript/application/iframe-viewer.js**
 **content/_assets/styles/iframe-viewer.css**
