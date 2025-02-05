@@ -88,6 +88,10 @@ Added Google Analytics 4
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
 
+**_includes/components/contributor/bio.js**
+**_plugins/shortcodes/contributors.js**
+Fix contributor `id` values to avoid EPUB validation errors
+
 **_includes/components/copyright/licensing.js**
 Customized licensing language
 
@@ -131,6 +135,7 @@ Added handling for contributor_as_it_appears at the page-level
 
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
+Don't include an empty .quire-page-seperator element to avoid EPUB validation error
 
 **_includes/components/scripts.js**
 Add call for custom.js file
@@ -146,6 +151,9 @@ Assigns title with liquid variable to be used in vocab page accordions and inclu
 
 **_layouts/base.11ty.js**
 Add page layout as data attribute on `<body>` to facilitate styling
+
+**_layouts/entry.liquid**
+Use figureAllOutputs shortcode
 
 **_layouts/entry-embed.liquid**
 Variant of `layout: entry` but uses renderFile in place of canvas panel for special embeds (3d-models, svg, etc.)
@@ -178,6 +186,10 @@ Refactor logic to handle oxford commas correctly
 
 **_plugins/shortcodes/def.js**
 Custom shortcode to display vocabulary pop-ups with definitions and links.
+
+**_plugins/shortcodes/figure.js**
+**_plugins/shortcodes/figureAllOutputs.js**
+Exclude regular figures from EPUB and PDF
 
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.

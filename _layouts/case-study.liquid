@@ -45,8 +45,8 @@ Entry content, including entry image and tombstone data
       {% endcomment %}
     {% elsif pageObjects %}
       {% for object in pageObjects %}
-        {% for figure in object.figures %}
-          {% figure figure.id %}
+        {% for figure in object.figures limit:1 %}
+          {% figureallformats figure.id %}
           {% if forloop.first %}{% assign first_figure_id = figure.id %}{% endif %}
         {% endfor %}
       {% endfor %}
