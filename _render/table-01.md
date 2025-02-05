@@ -64,7 +64,7 @@
  </tr>
  <tr>
   <td rowspan=5 >{% def 'lost-wax casting' %}: applying {% def 'sprues' %} and completing
-  the <a target="_blank" href="/vocabulary/refractory-mold">refractory mold</a></td>
+  the <a target="_blank" href="/vocabulary/refractory-mold/">refractory mold</a></td>
   <td rowspan=5 >Once
   sprueing is carried out (see <a target="_blank" href="/intro/#s2-7">GI§2.7</a>) and the investment and core are set, the refractory mold is
   baked to dry it fully and melt out the wax (see <a target="_blank" href="/intro/#s2-1-1">GI§2.1.1</a>).</td>

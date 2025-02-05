@@ -5,7 +5,7 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1/).'
+definition: 'The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1).'
 definition_has_shortcodes: true
 lang:
   de: Schrumpfung
@@ -16,7 +16,7 @@ lang:
 
 See fig. 41.{.pdf-figure-list}
 
-The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1/).
+The contraction of molten metal as it cools and solidifies after casting, resulting in a reduction of the overall dimensions of the {% def "cast (n.)" "cast" %} as well as possible {% def "casting defects" %}. See [II.4§1.1.1](/vol-2/4/#s1-1-1).
 
 {% backmatter %}
 
