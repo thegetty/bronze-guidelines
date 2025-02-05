@@ -30,7 +30,7 @@ classes:
 {% for contributor in contributors_array %}
   {% assign contributor_vals = contributor | split: '|' %}
   {% if contributor_vals[0] %}
-  <li class="quire-contributor" id="{{ contributor_vals[1] | downcase }}-{{ contributor_vals[0] | downcase }}">
+  <li class="quire-contributor" id="{{ contributor_vals[1] | downcase | replace: ' ', '-' }}-{{ contributor_vals[0] | downcase | replace: ' ', '-' }}">
   <div class="title is-5">
   <span class="quire-contributor__name">{{ contributor_vals[1] }} {{ contributor_vals[0] }}</span>
   </div>
