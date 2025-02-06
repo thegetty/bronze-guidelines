@@ -71,6 +71,44 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 4. Output the PDF: `npm run build:prince`
 
+## Creating an EPUB Version
+
+1. Set publication.url to http://localhost:8080/
+
+2. Run `quire build`
+
+3. Run the following regex find and replace patterns:
+
+    ```
+    href="visual-atlas/([0-9]{3})/
+    href="page-94_print-visual-atlas.xhtml#fig-$1
+
+    href="visual-atlas/v([0-9]{2})/
+    href="page-94_print-visual-atlas.xhtml#vid-$1
+
+    href="tables/([0-9]{2})/
+    href="page-95_tables.xhtml#table-$1
+
+    <video.*?video>
+    [nothing]
+
+    #fig-121"
+    #fig-121-print"
+    ```
+
+4. Run `quire epub`
+
+5. Unzip the resulting EPUB file, and in the package.opf file, run the following regex find and replace pattern:
+
+    ```
+    <item id="([0-9])
+    <item id="pic-$1
+    ```
+
+6. Zip the file back up
+
+7. Run EPUB validation to confirm
+
 ## Editorial Production Notes
 
 While it is a core principle of Quire for all content to only exist in one place in the Markdown and YAML files (chapter titles in the chapter Markdown file, references in `references.yaml`, etc.), a number of technical hurdles with this publication necessitated some duplication of content in a number of areas. They are documented here. Care should be taken that any changes should be made in **all** content locations.
