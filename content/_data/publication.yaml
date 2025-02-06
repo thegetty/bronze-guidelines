@@ -191,10 +191,10 @@ resource_link:
     link_relation: alternate
     url: /_assets/downloads/BronzeGuidelines.pdf
   - type: other-format
-    name: EPUB (<em>Coming soon</em>)
+    name: EPUB (212 MB)
     media_type: application/epub+zip
     link_relation: alternate
-    url: 
+    url: /_assets/downloads/BronzeGuidelines.epub
   - type: other-format
     name: Paperback
     media_type: print
