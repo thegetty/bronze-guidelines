@@ -1,4 +1,5 @@
 ---
+title: Copyright
 layout: page
 classes: 
   - backmatter 
