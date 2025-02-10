@@ -26,8 +26,6 @@ module.exports = function(eleventyConfig) {
     const labelElement = figureLabel({ caption, id, label })
 
     if (annotations.length > 0) { 
-      console.log("id :: " + id)
-      console.log("thumb :: " + thumb)
 
       const epubImageSrc = path.join(imageDir, thumb)
       const epubImageElement = html`<img alt="${alt}" class="q-figure__image" src="${epubImageSrc.replace('thumbs','epub')}" data-outputs-include="epub" />`
