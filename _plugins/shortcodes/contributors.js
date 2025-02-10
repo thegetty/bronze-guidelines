@@ -1,6 +1,7 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // refactor logic to handle oxford commas correctly, lines 118–126
+// remove id from .quire-contributor list element (undefined causes EPUB validation error)
 //
 const chalkFactory = require('~lib/chalk')
 const { html } = require('~lib/common-tags')
@@ -103,7 +104,7 @@ module.exports = function (eleventyConfig) {
             )
             : null
           return `
-            <li class="quire-contributor" id="${slugify(contributor.id)}">${contributorParts.join(separator)}</li>
+            <li class="quire-contributor">${contributorParts.join(separator)}</li>
           `
         })
         contributorsElement = `

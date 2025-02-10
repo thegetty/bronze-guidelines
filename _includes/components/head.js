@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE
+// Add apple icon and configure as mobile app
+// Update and clean-up handling for social sharing
+//
 const path = require('path')
 /**
  * Head Tag
@@ -21,7 +26,7 @@ module.exports = function(eleventyConfig) {
   return function (page) {
     const { abstract, canonicalURL, cover, layout, title } = page
     const pageTitle = removeHTML(
-      title ? `${title} | ${publication.title}` : publication.title
+      title ? `${publication.title} | ${title}` : publication.title
     )
 
     const description = publication.description.full || publication.description.one_line
@@ -68,10 +73,13 @@ module.exports = function(eleventyConfig) {
 
         ${opengraph({ page })}
 
-        ${twitterCard({ abstract, cover, layout })}
+        ${twitterCard({ page })}
 
         <script type="application/ld+json">${jsonld({ canonicalURL, page })}</script>
 
+        <meta name="apple-mobile-web-app-title" content="${publication.title}">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" sizes="180x180" href="/_assets/images/icons/apple-touch-icon-180x180.png">
         <link rel="icon" href="/_assets/images/icons/favicon.ico" />
         <!--
           styles are already imported in _assets/javascript/application/index.js

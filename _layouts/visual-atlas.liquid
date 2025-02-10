@@ -23,18 +23,12 @@ description: Custom page showing all non-table figure images
         {% if content %}
         {{ content }}
         {% endif %}
-        <div class="image-grid-search-box">
-          <div>
-            <input type="text" id="image-grid-search" placeholder="Search images ..."> {% icon type="search", description="Search" %}
-          </div>
-          <span id="image-grid-counter"></span>
-        </div>
 
         <div class="image-grid" id="image-grid">
         {% for figure in figures.figure_list %}
         {% if figure.visual_atlas != false %}
           {% assign classes = "image-grid-figure match " | append: figure.class %}
-          {% figure figure.id, classes %}
+          {% figureallformats figure.id, classes %}
         {% endif %}
         {% endfor %}
         </div>

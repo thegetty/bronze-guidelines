@@ -1,6 +1,6 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// added def, objgroup, and objlink shortcodes
+// added def, objgroup, objlink, and figureallformats shortcodes
 //
 const accordion = require('./accordion.js')
 const addComponentTag = require('../../_plugins/components/addComponentTag')
@@ -10,6 +10,7 @@ const cite = require('./cite')
 const contributors = require('./contributors')
 const def = require('./def')
 const figure = require('./figure')
+const figureAllOutputs = require('./figureAllOutputs')
 const figureGroup = require('./figureGroup')
 const objectGroup = require('./objectGroup')
 const objectLink = require('./objectLink')
@@ -29,6 +30,7 @@ module.exports = function(eleventyConfig, collections, options) {
   addComponentTag(eleventyConfig, 'contributors', contributors)
   addShortcode('def', def)
   addShortcode('figure', figure)
+  addShortcode('figureallformats', figureAllOutputs)
   addShortcode('figuregroup', figureGroup)
   addShortcode('objgroup', objectGroup)
   addShortcode('objlink', objectLink)

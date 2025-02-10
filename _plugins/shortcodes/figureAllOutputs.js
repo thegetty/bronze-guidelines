@@ -1,7 +1,7 @@
 //
 // CUSTOMIZED FILE
-// Exclude figures from EPUB and PDF
-// (see figureallformats shortcode)
+// Duplicate of regular figure shortcode, but this one outputs to all formats
+// and the regular figure shortcode outputs only to HTML
 //
 const chalkFactory = require('~lib/chalk')
 const { oneLine } = require('~lib/common-tags')
@@ -73,7 +73,7 @@ module.exports = function (eleventyConfig) {
     }
 
     return oneLine`
-      <figure id="${slugify(id)}" class="${['q-figure', 'q-figure--' + mediaType, ...classes].join(' ')}" data-outputs-exclude="epub,pdf">
+      <figure id="${slugify(id)}" class="${['q-figure', 'q-figure--' + mediaType, ...classes].join(' ')}">
         ${await component({...figure,lazyLoading})}
       </figure>
     `

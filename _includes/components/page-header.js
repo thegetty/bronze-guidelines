@@ -125,7 +125,7 @@ module.exports = function(eleventyConfig) {
           <h1 class="quire-page__header__title" id="${slugify(title)}">
             ${pageTitle({ label, title, subtitle })}
           </h1>
-          <div class="pdf-footers">
+          <div class="pdf-footers" data-outputs-exclude="epub">
             <span class="pdf-footers__label">${markdownify(label)}</span>
             <span class="pdf-footers__title">${markdownify(runningFeetTitle)}</span>
           </div>

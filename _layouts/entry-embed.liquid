@@ -36,7 +36,7 @@ Entry content, including entry image and tombstone data
     {% elsif pageObjects %}
       {% for object in pageObjects %}
         {% for figure in object.figures %}
-          {% figure figure.id %}
+          {% figureallformats figure.id %}
         {% endfor %}
       {% endfor %}
     {% endif %}

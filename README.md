@@ -59,7 +59,9 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 3. In `_site` find all instances of `src=\"/_assets/images/` and replace with `src=\"/publications/bronze-guidelines/_assets/images/`
 
-4. Run `netlify deploy`
+4. Copy `content/embeds/` into `_site/`
+
+5. Run `netlify deploy`
 
 ## Creating a PDF Version
 
@@ -70,6 +72,44 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 3. Fix the font paths: Open _site/pdf.css, find `/_assets/fonts/` and replace with `_assets/fonts/`
 
 4. Output the PDF: `npm run build:prince`
+
+## Creating an EPUB Version
+
+1. Set publication.url to http://localhost:8080/
+
+2. Run `quire build`
+
+3. Run the following regex find and replace patterns:
+
+    ```
+    href="visual-atlas/([0-9]{3})/
+    href="page-94_print-visual-atlas.xhtml#fig-$1
+
+    href="visual-atlas/v([0-9]{2})/
+    href="page-94_print-visual-atlas.xhtml#vid-$1
+
+    href="tables/([0-9]{2})/
+    href="page-95_tables.xhtml#table-$1
+
+    <video.*?video>
+    [nothing]
+
+    #fig-121"
+    #fig-121-print"
+    ```
+
+4. Run `quire epub`
+
+5. Unzip the resulting EPUB file, and in the package.opf file, run the following regex find and replace pattern:
+
+    ```
+    <item id="([0-9])
+    <item id="pic-$1
+    ```
+
+6. Zip the file back up
+
+7. Run EPUB validation to confirm
 
 ## Editorial Production Notes
 
@@ -87,6 +127,10 @@ Added Google Analytics 4
 
 **_includes/components/figure/caption.js**
 Remove hard-coded `<em>` tags
+
+**_includes/components/contributor/bio.js**
+**_plugins/shortcodes/contributors.js**
+Fix contributor `id` values to avoid EPUB validation errors
 
 **_includes/components/copyright/licensing.js**
 Customized licensing language
@@ -108,6 +152,11 @@ Output ALL image layers for checkbox and radio button annotations
 
 **_includes/components/figure/table/html.js**
 Updated link to open iframe viewer instead of modal
+
+**_includes/components/head.js**
+**_includes/components/head-tags/opengraph.js**
+**_includes/components/head-tags/twitter-card.js**
+Update and clean-up handling for social sharing
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
@@ -131,6 +180,7 @@ Added handling for contributor_as_it_appears at the page-level
 
 **_includes/components/page-title.js**
 Wrap label, label divider, and title elements in their own spans.
+Don't include an empty .quire-page-seperator element to avoid EPUB validation error
 
 **_includes/components/scripts.js**
 Add call for custom.js file
@@ -146,6 +196,9 @@ Assigns title with liquid variable to be used in vocab page accordions and inclu
 
 **_layouts/base.11ty.js**
 Add page layout as data attribute on `<body>` to facilitate styling
+
+**_layouts/entry.liquid**
+Use figureAllOutputs shortcode
 
 **_layouts/entry-embed.liquid**
 Variant of `layout: entry` but uses renderFile in place of canvas panel for special embeds (3d-models, svg, etc.)
@@ -179,6 +232,10 @@ Refactor logic to handle oxford commas correctly
 **_plugins/shortcodes/def.js**
 Custom shortcode to display vocabulary pop-ups with definitions and links.
 
+**_plugins/shortcodes/figure.js**
+**_plugins/shortcodes/figureAllOutputs.js**
+Exclude regular figures from EPUB and PDF
+
 **_plugins/shortcodes/figureGroup.js**
 Rewrote to output a wrapped set of figures, not broken down into rows.
 
@@ -189,6 +246,10 @@ A variant of the figure group shortcode, but creates groups of simple figure thu
 Based on `open` and previously `ref`, creates figure object links that open in iframe viewer
 
 **_plugins/shortcodes/index.js**
+
+**_plugins/transforms/outputs/epub/index.js**
+**_plugins/transforms/outputs/epub/transform.js**
+Copy embed image files to EPUB
 
 **_layouts/page.liquid**
 **content/_assets/javascript/application/iframe-viewer.js**

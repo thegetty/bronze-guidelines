@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Copy images/figures/embeds` files to EPUB
+//
 const fs = require('fs-extra')
 const manifestFactory = require('./manifest.js')
 const path = require('path')
@@ -29,9 +33,9 @@ module.exports = (eleventyConfig, collections) => {
     write('manifest.json', JSON.stringify(manifest))
 
     /**
-     * Copy font and icon directories
+     * Copy embed image directories
      */
-    const assetDirsToCopy = ['fonts']
+    const assetDirsToCopy = ['images/figures/embeds']
 
     assetDirsToCopy.forEach((name) => {
       const source = path.join(eleventyConfig.dir.input, assetsDir, name)

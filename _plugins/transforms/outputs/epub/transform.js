@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Copy files in `_assets/images/figures/embeds/` to EPUB, line 39
+//
 const filterOutputs = require('../filter.js')
 const jsdom = require('jsdom')
 const layout = require('./layout')
@@ -32,7 +36,7 @@ module.exports = function(eleventyConfig, collections, content) {
     images.forEach((img) => {
       const src = img.getAttribute('src')
       if (!src) return
-      const pattern = `^(${imageDir}|/${iiifOutputDir})`
+      const pattern = `^(${imageDir}|/${iiifOutputDir}|_assets/images/figures/embeds/)`
       const regex = new RegExp(pattern, 'g')
       if (src.match(regex)) {
         const relativePath = src.replace(/^\//, '')

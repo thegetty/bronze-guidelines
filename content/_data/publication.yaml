@@ -117,7 +117,7 @@ contributor:
     first_name: Peta
     last_name: Motture
     bio: |
-      Peta Motture (formerly Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and retired in 2022. Since 1990 she has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019).
+      Peta Motture (formerly Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and retired in 2022. Since 1990 she has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (ed., 2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019).
 
   - id: aboulton
     type: secondary
@@ -191,10 +191,10 @@ resource_link:
     link_relation: alternate
     url: /_assets/downloads/BronzeGuidelines.pdf
   - type: other-format
-    name: EPUB (<em>Coming soon</em>)
+    name: EPUB (212 MB)
     media_type: application/epub+zip
     link_relation: alternate
-    url: 
+    url: /_assets/downloads/BronzeGuidelines.epub
   - type: other-format
     name: Paperback
     media_type: print
