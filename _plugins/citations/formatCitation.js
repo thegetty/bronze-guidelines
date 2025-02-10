@@ -1,7 +1,7 @@
 const chalkFactory = require('~lib/chalk')
 const Processor = require('simple-cite')
 
-const { error } = chalkFactory('plugins:citations')
+const logger = chalkFactory('plugins:citations')
 
 const defaultStyles = {
   chicago: require('./styles/chicago-fullnote-bibliography'),
@@ -18,8 +18,8 @@ module.exports = function(options={}) {
     const style = styles[type]
 
     if (!style) {
-      error(`Citation style "${type}" is not supported. You may need to add it to _plugins/citations/styles.`)
-      return;
+      logger.error(`Citation style "${type}" is not supported. You may need to add it to _plugins/citations/styles.`)
+      return
     }
 
     const processor = new Processor({
@@ -30,7 +30,7 @@ module.exports = function(options={}) {
     processor.cite({ citationItems: [{ id: item.id }] })
     const citation = processor.bibliography().value
     return type === 'mla'
-      ? `${citation.replace(/\s+$/, '')} Accessed <span class="cite-current-date">DD Mon. YYYY</span>.`
+      ? `${citation.replace(/\s+$/, '')} <span class="cite-current-date__statement">Accessed <span class="cite-current-date">DD Mon. YYYY</span>.</span>`
       : citation
   }
 }

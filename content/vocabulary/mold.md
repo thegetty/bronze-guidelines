@@ -14,15 +14,17 @@ lang:
   zh: 范
 ---
 
+See figs. 7, 27, 101, 112, 542, 549, 557.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
 
-Note: Molds of varying types may be used at different stages of the bronze casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to cast a bronze). See [I.1](/vol-1/1/).
+Note: Molds of varying types may be used at different stages of the {% def "bronze" %} casting process (e.g., to make a {% def "chef-modèle" %}, a wax {% def "inter-model" %}, or {% def "core" %}, or to {% def "cast (n.)" "cast" %} a bronze). See [I.1](/vol-1/1/).
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
+{% objgroup "3", "fig-007, fig-027, fig-101, fig-112, fig-542, fig-549, fig-557" %}
 
 ## Sources
 
@@ -30,17 +32,45 @@ Cultural Heritage: {% cite "Bassett and Fogelman 1997" %}; {% cite "Beale 1975" 
 
 Art and Craft Textbook: {% cite "Reliance Foundry n.d." %}
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
+General Dictionary: <https://www.merriam-webster.com/dictionary/mold> [definiton 1a(1)]
 
 ## Synonym
 
 - *mould* (UK spelling)
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
+
+Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents {% def "modèle" "modèles" %} voire des {% def "noyau" "noyaux" %} précédant la sculpture en bronze.
+
+{% backmatter %}
+
+Note: Dans l’industrie moderne, le moule désigne généralement le {% def "moule réfractaire" %}.
+
+{% endbackmatter %}
+
+#### Sources
+
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 562
+
+Copper Industry: {% cite "Cuénin 1994" %}, 5
+
+Historical: {% cite "Boffrand 1743" %}, 17–20; {% cite "Mariette 1768" %}, 27–35; {% cite "Diderot et al. 1751" %}, 2:436–39, entry « bronze »
+
+Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
+
+#### Alternate Translation
+
+- *creux*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 759
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -52,48 +82,40 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/mold>
 
 - *Hilfnegative*
 
-### **French**: *{{ lang.fr }}*
-
-Terme générique désignant toute forme en creux destinée à la production d’une forme en positif. Plusieurs types de moules faits de matières différentes (plâtre, argile, sable, silicone, etc.) peuvent intervenir dans la fabrication des différents modèles voire des noyaux précédant la sculpture en bronze.
-
-{% backmatter %}
-
-Note: Dans l’industrie moderne, le moule désigne généralement le moule réfractaire (voir « moule de potée »).
-
-{% endbackmatter %}
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 562
-
-Copper Industry: {% cite "Cuénin 1994" %}, 5
-
-Historical: {% cite "Boffrand 1743" %}; {% cite "Mariette 1768" %}; {% cite "Diderot et al. 1751" %}, 2:436–39, entry « bronze »
-
-Art and Craft Textbook: {% cite "Lambert 2002" %}, 272
+{% cite "Treccani n.d." "" "Treccani" %}, under [*calco*](http://www.treccani.it/vocabolario/calco1/) [definition 1]; {% cite "Battaglia 1961" %}, under [*calco*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco) [definition 1, vol. 2, 529]
 
 #### Alternate Translations
 
-- *creux* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 759
+- *cavo*
 
-### **Italian**: *{{ lang.it }}*
+    General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.
 
-#### Sources
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 45v–46
 
-[Treccani](http://www.treccani.it/vocabolario/calco1/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_534.pdf&parola=calco)
+- *forma*
 
-#### Alternate Translations
+    General and also {% def "investment" %} mold
+    
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*forma*](https://www.treccani.it/vocabolario/forma/) [definition 6]; {% cite "Biringuccio [1540] 1977" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
 
-- *cavo* (General term for a negative impression, or hollow; Cellini uses it as “cavo di gesso,” which is specifically a mold of plaster.) | Source: {% cite "Cellini [1568] 1967" %}, fols. 45v–46
+- *stampo*
 
-- *forma* (General and also investment mold) | Sources: [Treccani](https://www.treccani.it/vocabolario/forma/); {% cite "Biringuccio [1540] 1990" %}, fols. 77v, 80v; {% cite "Bruni 1994" %}, 85–86
+    General term for an impression
 
-- *stampo* (General term for an impression) | Source: [Treccani](http://www.treccani.it/vocabolario/stampo/)
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*stampo*](http://www.treccani.it/vocabolario/stampo/) [definition 2c]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
 {% cite "Zhang 2010" %}
+
+{% endaccordion %}
 
 </div>

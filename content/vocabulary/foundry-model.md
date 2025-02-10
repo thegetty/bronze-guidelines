@@ -5,7 +5,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A general term for any model or replica of the artist’s model that is used to make a mold. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a bronze for the purpose of quality control.'
+definition: 'A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.'
+definition_has_shortcodes: true
 lang:
   de: Ausführungsmodell
   fr: modèle de fonderie
@@ -13,33 +14,30 @@ lang:
   zh: 铸型
 ---
 
-{{ definition }}
+See figs. 210, 531, 544, 553, 554.{.pdf-figure-list}
+
+A general term for any {% def "model" %} or {% def "replica" %} of the artist’s model around which a mold is formed for {% def "bronze" %} casting. It is made by the foundry in order to preserve the artist’s model. A foundry model may also be used as a reference for the finishing of a {% def "bronze" %} for the purpose of quality control.
 
 {% backmatter %}
 
-Note: In sand casting, a foundry model is referred to as a “pattern” or “{% def "chef-modèle" %}.”
+Note: In {% def "sand casting" %}, a foundry model is referred to as a “pattern” or “{% def "chef-modèle" %}.”
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
+{% objgroup "3", "fig-210, fig-531, fig-544, fig-553, fig-554" %}
 
 ## Sources
 
 Cultural Heritage: {% cite "Boulton 2006" %}; {% cite "Beale 1975" %}; {% cite "Beentjes 2019" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
 
-#### Sources
-
-{% cite "Maaz 2010" %}, 671
-
-### **French**: *{{ lang.fr }}*
-
-Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un moule pour une fonte, tant pour la cire perdue que pour la fonte au sable. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., chef-modèle pour la fonte au sable).
+Terme général désignant tout modèle, modèle original de l’artiste ou réplique, servant à réaliser un {% def "moule" %} pour une fonte, tant pour la {% def "fonte à la cire perdue" "cire perdue" %} que pour la {% def "fonte au sable" %}. Englobe les termes plus spécifiques à une technique de fonte donnée (e.g., {% def "chef-modèle" %} pour la fonte au sable).
 
 {% backmatter %}
 
@@ -49,24 +47,49 @@ Note: Le terme de « modèle de fonderie » est rarement utilisé, jugé trop 
 
 #### Alternate Translations
 
-- *modèle* | Sources: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624; Historical: {% cite "Launay 1827" %}, 2:275; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 74–82; {% cite "Rama 1988" %}, 36; {% cite "Lambert 2002" %}, 26
+- *modèle*
 
-- *modèle servant à la fonte* | Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
+    Sources: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624; Historical: {% cite "Launay 1827" %}, 2:275; Art and Craft Textbooks: {% cite "Hamm 1924" %}, 74–82; {% cite "Rama 1988" %}, 36; {% cite "Lambert 2002" %}, 26
 
-- *plâtre de fonderie* (Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).) | Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
+- *modèle servant à la fonte*
 
-- *pré-modèle* | Source: Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 624
+    Source: Cultural Heritage: {% cite "Bewer, Bourgarit, and Bassett 2008" %}
 
-### **Italian**: *{{ lang.it }}*
+- *plâtre de fonderie*
+
+    Comme son nom l’indique, ne concerne que les modèles en plâtre. On parle aussi de plâtre d’atelier (Jean Dubos, pers. comm., July 2021).
+
+    Source: Cultural Heritage: {% cite "Lebon et al. 2016" %}, 331
+
+- *pré-modèle*
+
+    Source: Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 624
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
-{% cite "Biringuccio [1540] 1990" %}, fol. 82v
+{% cite "Maaz 2010" %}, 671
+
+{% endaccordion %}
+{% accordion italian "it" %}
+
+#### Source
+
+{% cite "Biringuccio [1540] 1977" %}, fol. 82v
 
 #### Alternate Translation
 
 - *modello di fonderia*
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
+
+#### Alternate Translation
+
+- <span lang="zh">铸模</span>
+
+{% endaccordion %}
 
 </div>

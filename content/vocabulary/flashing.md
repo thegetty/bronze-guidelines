@@ -5,7 +5,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the refractory mold (both outer and core). Flashing most often rises perpendicularly to the inner or outer wall of bronze, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during fettling. Flashing may also occur along seam lines of an ill-fitted piece mold.'
+definition: 'A ridge of excess metal that can occur when molten metal enters cracks in the {% def "refractory mold" %} (both outer and {% def "core" %}). Flashing most often rises perpendicularly to the inner or outer wall of {% def "bronze" %}, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during {% def "fettling" %}. Flashing may also occur along seam lines of an ill-fitted {% def "piece mold" %}.'
+definition_has_shortcodes: true
 lang:
   de: Grat
   fr: gerce
@@ -13,13 +14,11 @@ lang:
   zh: 毛边
 ---
 
-{{ definition }}
+See figs. 6, 59, 61, 77, 90, 249, 545.{.pdf-figure-list}
 
-{% figuregroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
+A ridge of excess metal that can occur when molten metal enters cracks in the {% def "refractory mold" %} (both outer and {% def "core" %}). Flashing most often rises perpendicularly to the inner or outer wall of {% def "bronze" %}, although a gap in consecutive layers of the mold material may result in thin flanges of excess bronze that spread parallel to the metal wall. This type of feature can appear on the cast’s internal or external surfaces (respectively called “core flashing” and “mold flashing”), and in the latter case is often removed during {% def "fettling" %}. Flashing may also occur along seam lines of an ill-fitted {% def "piece mold" %}.
 
-## To Be Distinguished From
-
-- *seam line* (Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.)
+{% objgroup "3", "fig-006, fig-059, fig-061, fig-077, fig-090, fig-249, fig-545" %}
 
 ## Sources
 
@@ -29,63 +28,95 @@ Copper Industry: {% cite "Ammen 1980" %}; {% cite "Brunhuber 1988" %}; {% cite "
 
 Art and Craft Textbook: {% cite "McCreight 1996" %}
 
+## To Be Distinguished From
+
+- *seam line*
+
+    Note: The term “flashing” is also used to describe a seam line, but to avoid confusion, we recommend that it be used specifically in connection with casting defects.
+
 ## Synonyms
 
-- *finning* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *finning*
+
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *veining*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
 
-#### Alternate Translation
-
-- *Gussgrat*
-
-### **French**: *{{ lang.fr }}*
-
-Défaut de fonderie où le métal liquide pénètre dans des fissures du moule réfractaire. S’agissant de la partie interne du moule (le noyau, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule, un défaut similaire apparaît mais sur la surface externe du bronze (notamment – mais pas seulement - à l’endroit des joints de moule quand celui-ci est constitué de plusieurs parties assemblées).
+{% def "Défaut de fonderie" %} où le métal liquide pénètre dans des fissures du {% def "moule réfractaire" %}. S’agissant de la partie interne du moule réfractaire (le {% def "noyau" %}, on parle alors de gerces de noyau), le défaut apparaît sur la surface interne du bronze comme une excroissance en forme de veine. S’agissant de la partie externe du moule réfractaire, un défaut similaire apparaît mais sur la surface externe du bronze (notamment — mais pas seulement — à l’endroit des joints de moule quand le moule est constitué de plusieurs parties assemblées).
 
 #### To Be Distinguished From
 
 - *balesvre*
+
 - *balevre*
+
 - *barbe*
+
 - *barbure*
+
 - *bavochure*
+
 - *bavure*
+
 - *bavure de joint*
+
 - *couture*
+
 - *suture*
+
 - *toiles*
+
 - *ébarbure*
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 645; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 645; {% cite "Bourgarit, Bewer, and Bresc-Bautier 2014" %}
 
 Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 #### Alternate Translations
 
-- *gerçure* | Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
+- *gerçure*
 
-- *nervure* | Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+    Sources: Historical: {% cite "Boffrand 1743" %}, 62; {% cite "Gonon 1876" %}, 6
 
-### **Italian**: *{{ lang.it }}*
+- *nervure*
+
+    Sources: Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+{% endaccordion %}
+{% accordion german "de" %}
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 219
+
+#### Alternate Translation
+
+- *Gussgrat*
+
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/sbavatura/); {% cite "Biringuccio [1540] 1990" %}, fol. 78
+{% cite "Biringuccio [1540] 1977" %}, fol. 78
 
 #### Alternate Synonym
 
-- *cresta di fusione* | Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
+- *cresta di fusione*
 
-### **Chinese**: {{ lang.zh }}
+    Sources: {% cite "Carruba 2006" %}, 24; {% cite "Pecchioli 1999" %}, 192
+
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -93,10 +124,18 @@ Copper Industry: {% cite "Hénon, Mascré, and Blanc 1971" %}, 17; {% cite "Asso
 
 #### Alternate Translations
 
-- 溢料 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- <span lang="zh">溢料</span>
 
-- 溢边 | Source: [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+    Source: TNATD
 
-- 飞边 | Sources: {% cite "Ming 2010" %}, 409; [TNATD](https://terms.naer.edu.tw/detail/11553389/)
+- <span lang="zh">溢边</span>
+
+    Source: TNATD
+
+- <span lang="zh">飞边</span>
+
+    Sources: {% cite "Ming 2010" %}, 409; TNATD
+
+{% endaccordion %}
 
 </div>

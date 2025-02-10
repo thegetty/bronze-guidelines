@@ -13,19 +13,17 @@ lang:
   zh: 阴刻
 ---
 
+See figs. 241, 243, 254, 276, 279, 280, 495.{.pdf-figure-list}
+
 {{ definition }}
 
 {% backmatter %}
 
-Note: Engraving may be undertaken in the chasing process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#S2.3).
+Note: Engraving may be undertaken in the {% def "chasing" %} process, and/or to form or enhance signatures. See [I.6§2.3](/vol-1/6/#s2-3).
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
-
-## To Be Distinguished From
-
-- *chasing*
+{% objgroup "3", "fig-241, fig-243, fig-254, fig-276, fig-279, fig-280, fig-495" %}
 
 ## Sources
 
@@ -37,11 +35,29 @@ Art and Craft Textbook: {% cite "Untracht 1982" %}, 283
 
 General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
-## Translations
+## To Be Distinguished From
+
+- *chasing*
+
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
+
+Technique de décoration des bronzes par enlèvement de matière à l’aide de burins.
+
+#### Sources
+
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 578
+
+Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
+
+Art and Craft Textbook: {% cite "Hamm 1924" %}
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -49,34 +65,30 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/engraving>
 
 #### Alternate Translation
 
-- *Gravur* | Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
+- *Gravur*
 
-### **French**: *{{ lang.fr }}*
+    Sources: {% cite "Weihrauch 1944" %}; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-Technique de décoration des bronzes par enlèvement de matière à l’aide de burins.
-
-#### Sources
-
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 578
-
-Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
-
-Art and Craft Textbook: {% cite "Hamm 1924" %}
-
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/incisione/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione); {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
+{% cite "Treccani n.d." "" "Treccani" %}, under [*incisione*](http://www.treccani.it/vocabolario/incisione/) [definition 1]; {% cite "Battaglia 1961" %}, under [*incisione*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 8, vol. 7, 686]; {% cite "Brunhuber 1988" %}; {% cite "Maskinaktiebolaget Karlebo 1982" %}
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/3608499/?index=3)
+TNATD
 
 #### Alternate Translation
 
-- 雕刻 | Sources: {% cite "Ming 2010" %}, 310; [TNATD](https://terms.naer.edu.tw/detail/14191105/?index=9)
+- <span lang="zh">雕刻</span>
+
+    Sources: {% cite "Ming 2010" %}, 310; TNATD
+
+{% endaccordion %}
 
 </div>

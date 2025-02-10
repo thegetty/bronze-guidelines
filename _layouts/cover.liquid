@@ -2,7 +2,8 @@
 ## CUSTOMIZED FILE -- Bronze Guidelines
 ## add three images and split up onther texts
 ##
-class: quire-cover
+classes: 
+  - quire-cover
 description: Quire publication cover page
 layout: base.11ty.js
 ---
@@ -15,7 +16,7 @@ layout: base.11ty.js
   </div>
   <div class="quire-cover__image-container">
     {% for image in image_set %}
-    {% assign imagePath = config.params.imageDir | concat: image | join: '/' %}
+    {% assign imagePath = config.figures.imageDir | concat: image | join: '/' %}
     <div class="image-wrapper" >
     <img src="{{ imagePath }}" />
     </div>
@@ -41,7 +42,7 @@ layout: base.11ty.js
     <div class="container is-fluid">
       <div class="content">
         {{ content }}
-        {% bibliography pageReferences %}
+        {% bibliography citations %}
       </div>
     </div>
   </section>

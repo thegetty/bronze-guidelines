@@ -6,6 +6,7 @@ tags: vocabulary
 toc: false
 menu: false
 definition: 'The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.'
+definition_has_shortcodes: true
 lang:
   de: Hämmern
   fr: matage au marteau
@@ -13,58 +14,68 @@ lang:
   zh: 轻敲
 ---
 
-{{ definition }}
+See fig. 246.{.pdf-figure-list}
+
+The act of embellishing/texturing the metal surface by repeatedly using a peen (*pein*) hammer (which has one rounded end and one flat end) to disguise porosity or other surface flaws and create a faceted effect. The term also refers to the type of tightly textured effect created by this process.
 
 {% backmatter %}
 
-Note: The surface markings can be similar to those made by a punch and thus easily misidentified. In sand casting, the term refers to compressing the sand with the peen end of a rammer.
+Note: The surface markings can be similar to those made by a {% def "punch" %} and thus easily misidentified. In {% def "sand casting" %}, the term refers to compressing the sand with the peen end of a rammer.
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-246" %}
+{% objgroup "3", "fig-246" %}
 
 ## Sources
 
-Cultural Heritage: {% cite "Smith 2015" %}
+Cultural Heritage: {% cite "Smith 2015" %}; {% cite "Avery 2018" %}, 162; {% cite "Allen et al. 2022" %}, 254
 
 Historical: {% cite "Bolland 1894" %}, 298
 
 Copper Industry: {% cite "Palmer 1929" %}, 294
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
+
+Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la {% def "porosité" %} ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
+
+{% backmatter %}
+
+Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening », qui renvoie à la fois au matage et au grenaillage.
+
+{% endbackmatter %}
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Bol 1985" %}, 142
 
-### **French**: *{{ lang.fr }}*
-
-Traitement mécanique de surfaçage directement au marteau à panne plane ou légèrement bombée et polie miroir. Utilisé à la fois pour masquer la porosité ou d'autres défauts de surface et pour créer un effet facetté. Ne pas confondre avec le planage.
-
-{% backmatter %}
-
-Note: Il n’existe pas à notre connaissance de terme particulier en français correspondant au terme anglais « peening ». S’apparente à la fois au matage et au grenaillage.
-
-{% endbackmatter %}
-
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/martellatura/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura)
+{% cite "Treccani n.d." "" "Treccani" %}, under [*martellatura*](http://www.treccani.it/vocabolario/martellatura/) [definition b]; {% cite "Battaglia 1961" %}, under [*martellatura*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI09/GDLI_09_ocr_847.pdf&parola=martellatura) [definition 1, vol. 9, 840]
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
-#### Sources
+#### Source
 
-[TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+TNATD
 
 #### Alternate Translation
 
-- 锤平 | Source: [TNATD](https://terms.naer.edu.tw/detail/625557/?index=1)
+- <span lang="zh">锤平</span>
+
+    Source: TNATD
+
+{% endaccordion %}
 
 </div>

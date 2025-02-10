@@ -13,9 +13,11 @@ lang:
   zh: 铜锌合金
 ---
 
+See fig. 133.{.pdf-figure-list}
+
 {{ definition }}
 
-{% figuregroup "3", "fig-133" %}
+{% objgroup "3", "fig-133" %}
 
 ## Sources
 
@@ -25,29 +27,24 @@ Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Campbell 2015" %}, 270; {
 
 Historical: {% cite "Buchanan 1903" %}, 23
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/brass>
+General Dictionary: <https://www.merriam-webster.com/dictionary/brass> [definition 1]
 
 Other: {% cite "Turner 1982" %}
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
-
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Alliage à base de cuivre dans lequel le zinc est l’élément d’addition principal.
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 643; {% cite "Garenne-Marot, Robion, and Mille 2003" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Thomas and Bourgarit 2018" %}; {% cite "Thomas 2009" %}, 510
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 643; {% cite "Garenne-Marot, Robion, and Mille 2003" %}; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Thomas and Bourgarit 2018" %}; {% cite "Thomas 2009" %}, 510
 
-Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Comité international du dictionnaire technique de fonderie 1955" %}, 29; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
+Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "CTIF 2022" %}; {% cite "Comité international du dictionnaire technique de fonderie 1955" %}, 29; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
 Historical: {% cite "Félibien 1690" %}, 335; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224
 
@@ -55,23 +52,40 @@ Art and Craft Textbooks: {% cite "Lambert 2002" %}, 271; {% cite "Rama 1988" %},
 
 #### Alternate Translations
 
-- *archal* | Sources: Cultural Heritage: {% cite "Thomas 2009" %}, 505, 507–8; Historical: {% cite "Lespinasse and Bonnardot 1879" %}, 551
+- *archal*
 
-- *cuivre jaune* | Sources: Historical: {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 4:540–47, entry « cuivre »; {% cite "Mariette 1768" %}; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224; {% cite "Grandpierre and Avale 1867" %}, 7; {% cite "Delon 1877" %}, 180
+    Sources: Cultural Heritage: {% cite "Thomas 2009" %}, 505, 507–8; Historical: {% cite "Lespinasse and Bonnardot 1879" %}, 551
 
-- *orichalque* | Source: Cultural Heritage: {% cite "Halleux 1973" %}
+- *cuivre jaune*
 
-- *latten*
+    Sources: Historical: {% cite "Félibien 1690" %}, 335; {% cite "Boffrand 1743" %}, 54–55; {% cite "Diderot et al. 1751" %}, 4:540–47, entry « cuivre »; {% cite "Mariette 1768" %}, 75, 106; {% cite "*Secrets concernant les arts et métiers* 1810" %}, 224; {% cite "Grandpierre and Avale 1867" %}, 7; {% cite "Delon 1877" %}, 180
 
-- *ottonem*
+- *orichalque*
 
-### **Italian**: *{{ lang.it }}*
+    Source: Cultural Heritage: {% cite "Halleux 1973" %}
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Sources
 
-[Treccani](http://www.treccani.it/vocabolario/ottone/); [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/), under “Bronzi e ottoni”; {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone)
+{% cite "Maaz 2010" %}, 708; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}
 
-### **Chinese**: {{ lang.zh }}
+#### Alternate Translations
+
+- *Messinge*
+
+- *Messinglegierung*
+
+{% endaccordion %}
+{% accordion italian "it" %}
+
+#### Sources
+
+{% cite "Treccani n.d." "" "Treccani" %}, under [*ottone*](http://www.treccani.it/vocabolario/ottone/); {% cite "Treccani n.d." "" "Treccani" %}, under [*Bronzi e ottoni*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/); {% cite "Battaglia 1961" %}, under [*ottone*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI12/GDLI_12_ocr_295.pdf&parola=ottone) [definition 1, vol. 12, 288]
+
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 Literally “copper-zinc alloy”
 
@@ -81,6 +95,10 @@ Literally “copper-zinc alloy”
 
 #### Alternate Translation
 
-- 黃铜 (This is a broad, colloquial term for brass.)
+- <span lang="zh">黃铜</span>
+
+    This is a broad, colloquial term for brass.
+
+{% endaccordion %}
 
 </div>

@@ -1,69 +1,77 @@
-//
-// CUSTOMIZED FILE -- Bronze Guidelines
-// changed element for appendChild(sectionElement), Line 34
-// see _plugins/transforms/outputs/pdf/layout.html
-//
 const chalkFactory = require('~lib/chalk')
 const fs = require('fs-extra')
-const jsdom = require('jsdom')
 const path = require('path')
 const sass = require('sass')
 
-const { error, warn } = chalkFactory('transforms:pdf')
-
 /**
- * Write each page section in the PDF collection to a single HTML file
- * @param  {Object} collection collections.pdf with `sectionElement` property
+ * Nota bene:
+ * Output must be written to a directory using Passthrough File Copy
+ * @see https://www.11ty.dev/docs/copy/#passthrough-file-copy
  */
-module.exports = async function(collection) {
-  const layoutPath = path.join('_plugins', 'transforms', 'outputs', 'pdf', 'layout.html')
+module.exports = (eleventyConfig) => {
+  const { input, output } = eleventyConfig.dir
+
+  const logger = chalkFactory('transforms:pdf:writer')
+
+  const pdfTemplatePath =
+    path.join('_layouts', 'pdf.liquid')
+  const coversTemplatePath =
+    path.join('_layouts', 'pdf-cover-page.liquid')
+
+  const inputDir = input
+  const outputDir = process.env.ELEVENTY_ENV === 'production' ? 'public' : output
+
+  const pdfOutputPath = path.join(outputDir, 'pdf.html')
+  const coversOutputPath = path.join(outputDir, 'pdf-covers.html')
+
+  fs.ensureDirSync(path.parse(pdfOutputPath).dir)
+
   /**
-   * Nota bene:
-   * Output must be written to a directory using Passthrough File Copy
-   * @see https://www.11ty.dev/docs/copy/#passthrough-file-copy
+   * Render the PDF pages in a liquid layout that merges them into one file
+   * Do the same for covers of the PDF pages.
+   *  
+   * NB: layout will only add SVG symbols once
+   * 
+   * @param  {Object} collection collections.pdf with `sectionElement`,`svgElements`, and `coverPageData`
    */
-  const outputDir = process.env.ELEVENTY_ENV === 'production' ? 'public' : '_site'
-  const outputPath = path.join(outputDir, 'pdf.html')
+  return async (collection) => {
 
-  const { JSDOM } = jsdom
-  const dom = await JSDOM.fromFile(layoutPath)
-  const { document } = dom.window
+    const publicationHtml = await eleventyConfig.javascriptFunctions.renderFile(pdfTemplatePath,{pages: collection},'liquid')
 
-  collection.forEach(({ outputPath, sectionElement }) => {
+    const coversMarkups = collection.filter( collex => collex.coverPageData ).map( (collex) => collex.coverPageData )
+    const coversHtml = await eleventyConfig.javascriptFunctions.renderFile(coversTemplatePath,{covers: coversMarkups},'liquid')
+
     try {
-      document.getElementById('quire-primary').appendChild(sectionElement)
-    } catch (errorMessage) {
-      error(`Eleventy transform for PDF error appending content for ${outputPath} to combined output. ${errorMessage}`)
+      fs.writeFileSync(pdfOutputPath, publicationHtml)
+    } catch (error) {
+      logger.error(`Eleventy transform for PDF error writing combined HTML output for PDF. ${error}`)
     }
-  })
 
-  const trimLeadingSlash = (string) => string.startsWith('/') ? string.substr(1) : string
+    if (coversMarkups.length > 0) {
 
-  document.querySelectorAll('[src]').forEach((asset) => {
-    const src = asset.getAttribute('src')
-    asset.setAttribute('src', trimLeadingSlash(src))
-  })
+      try {
+        fs.writeFileSync(coversOutputPath, coversHtml)
+      } catch (error) {
+        logger.error(`Eleventy transform for PDF error writing covers HTML output for PDF. ${error}`)
+      }      
+    }
 
-  try {
-    fs.ensureDirSync(path.parse(outputPath).dir)
-    fs.writeFileSync(outputPath, dom.serialize())
-  } catch (errorMessage) {
-    error(`Eleventy transform for PDF error writing combined HTML output for PDF. ${errorMessage}`)
-  }
+    const sassOptions = {
+      loadPaths: [
+        path.resolve('node_modules')
+      ]
+    }
 
-  const sassOptions = {
-    loadPaths: [
-      path.resolve('node_modules')
-    ]
-  }
-
-  try {
-    const application = sass.compile(path.resolve('content', '_assets', 'styles', 'application.scss'), sassOptions)
-    const print = sass.compile(path.resolve('content', '_assets', 'styles', 'print.scss'), sassOptions)
-    const custom = sass.compile(path.resolve('content', '_assets', 'styles', 'custom.css'), sassOptions)
-    fs.ensureDirSync(path.parse(outputPath).dir)
-    fs.writeFileSync(path.join(outputDir, 'pdf.css'), application.css + print.css + custom.css)
-  } catch (error) {
-    error('Eleventy transform for PDF error compiling SASS. Error message: ', error)
+    try {
+      const fontsDir = path.join(inputDir, '_assets', 'fonts')
+      const fonts = sass.compile(path.resolve(fontsDir, 'index.scss'), sassOptions)
+      fonts.css = fonts.css.replaceAll('/_assets', '_assets')
+      const stylesDir = path.join(inputDir, '_assets', 'styles')
+      const application = sass.compile(path.resolve(stylesDir, 'application.scss'), sassOptions)
+      const custom = sass.compile(path.resolve(stylesDir, 'custom.css'), sassOptions)
+      fs.writeFileSync(path.join(outputDir, 'pdf.css'), fonts.css + application.css + custom.css)
+    } catch (error) {
+      logger.error(`Eleventy transform for PDF error compiling SASS. Error message: ${error}`)
+    }
   }
 }

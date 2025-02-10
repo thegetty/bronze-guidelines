@@ -5,15 +5,18 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either fettling or chasing.'
+definition: 'Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either {% def "fettling" %} or {% def "chasing" %}.'
+definition_has_shortcodes: true
 lang:
   de: meißeln
   fr: travail au ciseau
-  it: scalpellatura
+  it: incisione a bulino
   zh: 凿
 ---
 
-{{ definition }}
+See figs. 226, 249, 254, 278, 281, 550.{.pdf-figure-list}
+
+Act of using a chisel and hammer to remove metal. With each strike of the hammer the tool jumps, often leaving a visible “step.” Chiseling may be part of either {% def "fettling" %} or {% def "chasing" %}.
 
 {% backmatter %}
 
@@ -21,50 +24,55 @@ Note: This term is sometimes incorrectly used to define all steps to remove meta
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
-
-## To Be Distinguished From
-
-- *chasing*
+{% objgroup "3", "fig-226, fig-249, fig-254, fig-278, fig-281, fig-550" %}
 
 ## Sources
 
 Cultural Heritage: {% cite "Frel 1982" %}, 13
 
-General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling>
+General Dictionary: <https://www.merriam-webster.com/dictionary/chiseling> [definition 1]
 
-## Translations
+## To Be Distinguished From
+
+- *chasing*
+
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
+
+Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la {% def "réparure" %} (correspondrait alors principalement à l’ébarbage, voir {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry and Bozo 1978" %}, 633) et la {% def "ciselure" %}. Il n’existe *a priori* pas de traduction directe en français, si ce n’est « travail au ciseau ».
+
+#### To Be Distinguished From
+
+- *ciselure*
+
+- *ciselure-réparure*
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
 {% cite "Bol 1985" %}, 139
 
-### **French**: *{{ lang.fr }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
-Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout travail réalisé avec un ciseau pour couper le métal, à la fois lors de la réparure (correspondrait alors principalement à l’ébarbage, see {% cite "Grandpierre and Dargent 1862" %}, 275; {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 633) et la ciselure. Il n’existe a priori pas de traduction directe en français, si ce n’est « travail au ciseau ».
+#### Sources
 
-#### To Be Distinguished From
+{% cite "Battaglia 1961" %}, under [*bolino*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI02/GDLI_02_ocr_444.pdf&parola=bulino); {% cite "Battaglia 1961" %}, under [*incisione*](https://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI07/GDLI_07_ocr_693.pdf&parola=incisione) [definition 9, vol. 7, 686]
 
-- *ciselure*
-- *ciselure-réparure*
+#### Alternate Translation
 
-### **Italian**: *{{ lang.it }}*
+- *Scalpello battuto a Martello*
 
-#### Source
+    Source: {% cite "Formigli 1999d" %}, 148
 
-[Treccani](https://www.treccani.it/vocabolario/scalpellatura/)
-
-#### Alternate Translations
-
-- *rifinitura a cesello*
-
-- *incisione a bulino* | Source: {% cite "Battaglia 1961" %}
-
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 (v., n.)
 
@@ -74,10 +82,14 @@ Pour la sculpture en bronze, le terme anglais « chiseling » désigne tout tr
 
 #### Alternate Translations
 
-- 錾 (v., n.) | Source: {% cite "Ming 2010" %}, 1735
+- <span lang="zh">錾</span> (v., n.)
 
-- 镌 (v.)
+    Source: {% cite "Ming 2010" %}, 1735
 
-- 雕 (v.)
+- <span lang="zh">镌</span>  (v.)
+
+- <span lang="zh">雕</span>  (v.)
+
+{% endaccordion %}
 
 </div>

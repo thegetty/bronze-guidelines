@@ -6,17 +6,20 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural model into cast metal sculptures. This may entail a variety of specialized operations, from mold making to wax chasing, alloying, casting, fettling, assembling, chasing, and patination. The artist may in some cases also take on one or more of these roles.'
+definition: 'Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.'
+definition_has_shortcodes: true
 lang:
-  de: Giesser
+  de: Gießer
   fr: fondeur
   it: artefice
   zh: 铸工
 ---
 
-{{ definition }}
+See fig. 546.{.pdf-figure-list}
 
-{% figuregroup "3", "fig-546" %}
+Expert head of the foundry or the person who pours the metal. Person(s) responsible for the translation of the artist’s sculptural {% def "model" %} into cast metal sculptures. This may entail a variety of specialized operations, from {% def "mold" %} making to wax chasing, investing, alloying, casting, {% def "fettling" %}, assembling, {% def "chasing" %}, and patination. The artist may in some cases also take on one or more of these roles.
+
+{% objgroup "3", "fig-546" %}
 
 ## Sources
 
@@ -26,41 +29,22 @@ Historical: {% cite "Buchanan 1903" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-Art and Craft Textbook: {% cite "Wikipedia n.d." %}
-
-General Dictionary: <https://www.merriam-webster.com/dictionary/founder>
-
 ## Synonyms
 
-- *foundryman* | Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *foundryman*
+
+    Source: Copper Industry: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
 - *foundrywoman*
 
 - *foundryworker*
 
-## Translations
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
-
-#### Sources
-
-{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
-
-#### Alternate Translations
-
-- *Giessereieinhaber* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-- *Giessereifachman* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgiessereien 1982" %}
-
-- *Giessereileiter* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
-
-- *Giessereiunternehmer*
-
-- *Schmelzmeister* (This designates the operator standing next to the furnace and deciding when to pour the molten metal in the mold.)
-
-### **French**: *{{ lang.fr }}*
+{% accordion french "fr" %}
 
 Personne qui prend en charge la fonte d’une statue. Désigne souvent la personne qui dirige la fonderie.
 
@@ -74,58 +58,115 @@ Note: Pour lever l’ambiguïté, le terme de fondeur-fondant a été proposé (
 
 - *fabricant*
 
-- *mouleur* (Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} (édition originale 1844), 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %})
+- *mouleur*
+
+    Le terme mouleur peut être ambigu. Si certains auteurs insistent sur la différence entre mouleur et fondeur ({% cite "Guettier 1858" %} [édition originale 1844], 284), d’autres confondent les deux métiers ({% cite "Launay 1827" %}, 2:276, l'auteur précise "mouleur en cuivre"). Le fabricant est celui qui sous-traite la fonte ({% cite "Lebon 2003" %}).
 
 #### Sources
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}; {% cite "Bresc-Bautier 1989" %}; {% cite "Rolley 1994" %}, 72; {% cite "Bewer, Bourgarit, and Bassett 2008" %}; {% cite "Azéma and Mille 2013b" %}
 
 Copper Industry: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Koch and Newell 1963" %}
 
-Historical: {% cite "Félibien 1690" %}, 34; {% cite "Boffrand 1743" %}; {% cite "Diderot et al. 1751" %}, 7:79, entry « fondeur »; {% cite "Mariette 1768" %}; {% cite "Guettier 1858" %}, 284
+Historical: {% cite "Félibien 1690" %}, 34; {% cite "Boffrand 1743" %}, 3, 4, 38, 41, and 44; {% cite "Diderot et al. 1751" %}, 7:79, entry « fondeur »; {% cite "Mariette 1768" %}, ii–iv, 72, 83, 108, 110, 128, 132–33; {% cite "Guettier 1858" %}, 284
 
 Art and Craft Textbooks: {% cite "Rama 1988" %}, 22; {% cite "Lambert 2002" %}, 269
 
 #### Alternate Translations
 
-- *bronzeur* | Source: Art and Craft Textbook: {% cite "Lambert 2002" %}, 13
+- *bronzeur*
 
-- *bronzier* (Pour Lambert, le bronzier ou bronzeur désigne l'ouvrier fondeur, celui qui fond et coule le bronze.) | Source: Art and Craft Textbook: {% cite "Lambert 2002" %}, 13
+    Source: Art and Craft Textbook: {% cite "Lambert 2002" %}, 13
 
-- *fondeur en cuivre* | Source: {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038
+- *bronzier*
 
-- *fondeur en terre et sable* (Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20^e^ siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en oeuvre. ({% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038).) | Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+    Pour Lambert, le bronzier ou bronzeur désigne l'ouvrier fondeur, celui qui fond et coule le bronze.
 
-- *mouleur en terre ou en sable* | Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+    Source: Art and Craft Textbook: {% cite "Lambert 2002" %}, 13
 
-### **Italian**: *{{ lang.it }}*
+- *fondeur en cuivre*
+
+    Source: {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038
+
+- *fondeur en terre et sable*
+
+    Ce que recouvre le terme « fondeur en terre » reste confus. Il fait probablement référence aux techniques utilisant la terre, cire perdue et technique de fonte de cloches et de canons, sachant que pour ces derniers des termes spécifiques peuvent être utilisés (fondeur de cloches, fondeur de canons ou fondeur d'artillerie). Le terme « fondeur à cire perdue » existe, mais non comme une catégorie professionnelle spécifique avant le début du 20<sup>e</sup> siècle. Par exemple, les fondeurs utilisant la cire perdue travaillant pour des orfèvres ou des bijoutiers sont dénommés « fondeurs pour orfèvres » ou « fondeurs pour joailliers » plutôt que par le procédé mis en œuvre {% cite "Chesnel de la Charbouclais 1857" %}, notice n° 1038.
+
+    Sources: Cultural Heritage: {% cite "Bresc-Bautier 1989" %}; Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+
+- *mouleur en terre ou en sable*
+
+    Source: Historical: {% cite "Chesnel de la Charbouclais 1857" %}
+
+{% endaccordion %}
+{% accordion german "de" %}
+
+#### Sources
+
+{% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}
+
+#### Alternate Translations
+
+- *Gießereieinhaber*
+
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Gießereifachman*
+
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Gesamtverband Deutscher Metallgießereien 1982" %}
+
+- *Gießereileiter*
+
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+
+- *Gießereiunternehmer*
+
+- *Schmelzmeister*
+
+    This designates the operator standing next to the furnace and deciding when to pour the molten metal into the mold.
+
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Many sources used the general terms *artefice* or *maestro* to refer to founders.
 
 #### Source
 
-{% cite "Biringuccio [1540] 1990" %}, fols. 75–76
+{% cite "Biringuccio [1540] 1977" %}, fols. 75–76
 
 #### Alternate Translations
 
-- *fonditore* | Sources: [Treccani](https://www.treccani.it/vocabolario/ricerca/fonditore/); {% cite "Morigi and Morigi 2008" %}; {% cite "Bruni 1994" %}
+- *fonditore*
+
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*fonditore*](https://www.treccani.it/vocabolario/ricerca/fonditore/) [definition 1]; {% cite "Morigi and Morigi 2008" %}, 12; {% cite "Bruni 1994" %}, 133
 
 - *fusore*
 
-- *gettatore* | Source: {% cite "Cellini [1568] 1967" %}, fols. 51v, 55
+- *gettatore*
 
-- *maestro* | Sources: {% cite "Cellini 1996" %}, 668; {% cite "Biringuccio [1540] 1990" %}, fols. 75–76
+    Source: {% cite "Cellini [1568] 1983" %}, 11, fols. 51v, 55
 
-- *tragettatore* | Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
+- *maestro*
 
-### **Chinese**: {{ lang.zh }}
+    Sources: {% cite "Biringuccio [1540] 1977" %}, fol. 75, 107
 
-#### Sources
+- *tragettatore*
 
-[TNATD](https://terms.naer.edu.tw/detail/626946/?index=3)
+    Sources: {% cite "Baglione 1642" %}, 327; {% cite "Marconi 2004" %}, 71n71
+
+{% endaccordion %}
+{% accordion chinese "zh" %}
+
+#### Source
+
+TNATD
 
 #### Alternate Translation
 
-- 铸造工 | Source: {% cite "Ming 2010" %}, 1831
+- <span lang="zh">铸造工</span>
+
+    Source: {% cite "Ming 2010" %}, 1831
+
+{% endaccordion %}
 
 </div>

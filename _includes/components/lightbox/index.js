@@ -1,5 +1,5 @@
 const { html } = require('~lib/common-tags')
-
+ 
 /**
  * Lightbox Tag
  * @todo add conditional rendering for epub and pdf when lightbox is included in `entry`
@@ -8,21 +8,17 @@ const { html } = require('~lib/common-tags')
  * @param      {Object}  globalData
  */
 module.exports = function (eleventyConfig, { page }) {
-  const lightboxSlides = eleventyConfig.getFilter('lightboxSlides')
+  const lightboxData = eleventyConfig.getFilter('lightboxData')
   const lightboxUI = eleventyConfig.getFilter('lightboxUI')
 
   return async function (figures=page.figures) {
-    if (!figures) return;
-    figures = figures.map((figure) => ({
-      preset: 'zoom',
-      ...figure
-    }))
+    if (!figures) return
 
     return html`
       <q-lightbox>
-        ${await lightboxSlides(figures)}
+        ${await lightboxData(figures)}
         ${lightboxUI(figures)}
       </q-lightbox>
-    `;
+    `
   }
 }

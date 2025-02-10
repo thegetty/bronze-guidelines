@@ -1,6 +1,9 @@
 ---
+title: Copyright
 layout: page
-class: backmatter
+classes: 
+  - backmatter 
+  - about-copyright-page
 order: 4
 outputs: [pdf, epub]
 toc: false
@@ -13,7 +16,7 @@ menu: false
 
 {% copyright %}
 
-First edition, {{ publication.pub_date | date: "%Y" }}
+First edition {{ publication.pub_date | date: "%Y" }}
 
 {{ publication.revision_statement | markdownify }}
 
@@ -46,7 +49,11 @@ Distributed outside the United States and Canada by Yale University Press, Londo
 </div>
 <div class="cover-image-credits">
 
-Front cover:
-Back cover:
+Illustration Credits
+Every effort has been made to contact the owners and photographers of illustrations reproduced here whose names do not appear in the captions or on p. 546. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included in future printings.
+
+Front cover: Bronze pour (still, video 18); X-radiograph of Venus *déhanchée* (fig. 65); *Head of a Ruler* (fig. 310)
+Back cover: Modeling a metal armature for Andrew Lacey, *The Anatomy of Bronze* (detail, fig. 33); Barthélemy Prieur, *Funerary Genius* (detail, fig. 48); *Bodhisattva Avalokitesvara* (detail, fig. 151)
+Inside cover: Bright field photomicrograph of an etched polished cross-section (fig. 419)
 
 </div>

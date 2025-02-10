@@ -1,8 +1,12 @@
+//
+// CUSTOMIZED FILE
+// Exclude CC icons from EPUB to avoid validation errors
+//
 const path = require('path')
 const { html } = require('~lib/common-tags')
 
 module.exports = function(eleventyConfig) {
-  const { imageDir } = eleventyConfig.globalData.config.params
+  const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function(license) {
     const abbreviations = license
@@ -20,7 +24,7 @@ module.exports = function(eleventyConfig) {
     })
 
     return html`
-      <a class="quire-copyright__icon__link" href="${license.url}" rel="license" target="_blank">
+      <a class="quire-copyright__icon__link" href="${license.url}" rel="license" target="_blank" data-outputs-exclude="epub">
         ${icons.join(' ')}
       </a>
     `

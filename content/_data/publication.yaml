@@ -8,6 +8,17 @@
 # publication.
 
 # ------------------------------------------------------------------------------
+# The publication's base URL, i.e. 'https://www.my-publication.org'
+# url: 'http://localhost:8080/'
+url: 'https://www.getty.edu/publications/bronze-guidelines/'
+
+# NOTE: URL information is hard-coded in a few places for deploying to the book’s final URL
+#       and so may not work properly if running a local preview:
+#
+#       - in `_layouts/case-study.liquid` and `_layouts/page.liquid` for the "Copy link" functionality
+#       - for links in the embedded SVGs in `_render`
+
+# ------------------------------------------------------------------------------
 # Title & Description
 title: Guidelines for the Technical Examination of Bronze Sculpture
 subtitle:
@@ -30,7 +41,7 @@ description:
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2023-08-22 # YYYY-MM-DD
+pub_date: 2025-01-21 # YYYY-MM-DD
 language: en
 pub_type: book # book | journal-periodical | other
 
@@ -56,7 +67,7 @@ project_team:
   - Kurt Hauser, *Cover Design*
   - Molly McGeehan, *Production*
   - Kelly Peyton, Nancy Rivera, and Leslie Rollins, *Image and Rights Acquisition*
-  - Dina Murokh, *Digital Assistant*
+  - Erin Cecele Dunigan and Dina Murokh, *Digital Assistants*
 
 # ------------------------------------------------------------------------------
 # Contributors
@@ -70,85 +81,98 @@ contributor:
     type: primary
     first_name: David
     last_name: Bourgarit
-    bio: "David Bourgarit (Archaeometallurgist, Centre de Recherche et de Restauration des Musées de France [C2RMF], Paris, and Laboratory TEMPS-CNRS-Nanterre University) has a background in physics, with a PhD on the physical metallurgy of a specific titanium alloy. Since 1996 he has been a researcher at the C2RMF, where he has been investigating metallic artifacts from almost all periods and regions. His primary research interests are in the technological approach to copper metallurgy, with a focus on the provenance of copper and fabrication techniques. He coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014)."
+    bio: |
+      David Bourgarit (Archaeometallurgist, Centre de Recherche et de Restauration des Musées de France [C2RMF], Paris, and Laboratory TEMPS-CNRS-Nanterre University) has a background in physics, with a PhD on the physical metallurgy of a specific titanium alloy. Since 1996 he has been a researcher at the C2RMF, where he has been investigating metallic artifacts from almost all periods and regions. His primary research interests are in the technological approach to copper metallurgy, with a focus on the provenance of copper and fabrication techniques. He coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014).
 
   - id: jbassett
     type: primary
     first_name: Jane
     last_name: Bassett
-    bio: "Jane Bassett (Head of Decorative Arts and Sculpture Conservation, J. Paul Getty Museum, Los Angeles) completed her graduate studies in conservation at New York State College at Buffalo. A conservator at the Getty Museum since 1991, she has co-curated many exhibitions focused on sculptural processes, including *La Roldana’s St. Ginés: The Making of a Polychrome Sculpture*; *Bernini and Marble* and *Foundry to Finish* on the direct lost-wax casting process. She authored *The Artist Revealed: Adriaen de Vries, Sculptor in Bronze* (2008) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014)."
+    bio: |
+      Jane Bassett (Head of Decorative Arts and Sculpture Conservation, J. Paul Getty Museum, Los Angeles) completed her graduate studies in conservation at New York State College at Buffalo. A conservator at the Getty Museum since 1991, she has co-curated many exhibitions focused on sculptural processes, including *La Roldana’s St. Ginés: The Making of a Polychrome Sculpture*, *Bernini and Marble*, and *Foundry to Finish* on the direct lost-wax casting process. She authored *The Artist Revealed: Adriaen de Vries, Sculptor in Bronze* (2008) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014).
 
   - id: fbewer
     type: primary
-    first_name: Francesca G.
+    first_name: Francesca G.
     last_name: Bewer
-    bio: "Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs, Harvard Art Museums, Cambridge, Massachusetts), undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019)."
+    bio: |
+      Francesca G. Bewer (Research Curator for Conservation and Technical Studies Programs and Director, Summer Institute for Technical Studies in Art, Harvard Art Museums, Cambridge, Massachusetts) undertook her graduate theses at the Warburg Institute, University of London (MPhil 1986) and the Institute of Archaeology, University College London (PhD 1996), focusing on Renaissance bronze technology. She has published widely on art technology and conservation history. She authored *A Laboratory for Art: Harvard’s Fogg Museum and the Emergence of Conservation in America (ca. 1900–1950)* (2010) and coedited *French Bronze Sculpture: Materials and Techniques 16th–18th Century* (2014) and *The Explicit Material: Inquiries on the Intersection of Curatorial and Conservation Cultures* (2019).
 
   - id: aheginbotham
     type: primary
     first_name: Arlen
     last_name: Heginbotham
-    bio: "Arlen Heginbotham (Conservator of Decorative Arts and Sculpture, J. Paul Getty Museum, Los Angeles) received his AB in East Asian studies from Stanford University, his MA in art conservation from Buffalo State College, and his PhD in earth sciences from Vrije Universiteit Amsterdam. His research interests include the use of X-ray fluorescence spectroscopy as a tool for studying copper alloy artifacts, microscopic and chemical wood identification, X-radiographic dendrochronology, and the technical study of Asian export lacquer. He coauthored, with Gillian Wilson, the exhibition catalogue *French Rococo Ébénisterie in the J. Paul Getty Museum* (2021)."
+    bio: |
+      Arlen Heginbotham (Conservator of Decorative Arts and Sculpture, J. Paul Getty Museum, Los Angeles) received his AB in East Asian studies from Stanford University, his MA in art conservation from Buffalo State College, and his PhD in earth sciences from Vrije Universiteit Amsterdam. His research interests include the use of X-ray fluorescence spectroscopy as a tool for studying copper alloy artifacts, microscopic and chemical wood identification, X-radiographic dendrochronology, and the technical study of Asian export lacquer. He coauthored, with Gillian Wilson, the collection catalogue *French Rococo Ébénisterie in the J. Paul Getty Museum* (2021).
 
   - id: alacey
     type: primary
     first_name: Andrew
     last_name: Lacey
-    bio: "Andrew Lacey (Artist, Founder, and Independent Scholar) studied archaeometallurgy at the Institute of Archaeology, University College London (MSc. 1998) focusing on interview techniques for gaining insight into the working practices of London fine art foundries. His work as a contemporary artist is highly experimental; casting all his own work in bronze enables creative interception in all stages of the process, further developing visual and material symbologies that are embodied within the sculpture. His work as an independent scholar is a creative collaboration among conservators, historians, makers, and curators, and explores possibilities of hypothetical facture via processes of experimental reconstruction."
+    bio: |
+      Andrew Lacey (Artist, Founder, and Independent Scholar) studied archaeometallurgy at the Institute of Archaeology, University College London (MSc 1998), focusing on interview techniques for gaining insight into the working practices of London fine art foundries. His work as a contemporary artist is highly experimental; casting all his own work in bronze enables creative interception in all stages of the process, further developing visual and material symbologies that are embodied within the sculpture. His work as an independent scholar is a creative collaboration among conservators, historians, makers, and curators, and explores possibilities of hypothetical facture via processes of experimental reconstruction.
 
   - id: pmotture
     type: primary
     first_name: Peta
     last_name: Motture
-    bio: "Peta Motture (Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and since 1990 has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019)."
+    bio: |
+      Peta Motture (formerly Senior Curator, Sculpture, Victoria and Albert Museum, London) joined the V&A in 1985 and retired in 2022. Since 1990 she has specialized primarily in Renaissance sculpture, with a focus on Italy. She has published widely on medieval and later sculpture, notably bronzes, often collaborating with colleagues in the technical study of sculpture. Her books include the *V&A Catalogue of Italian Bells and Mortars* (2001), *Large Bronzes in the Renaissance* (ed., 2003), and *The Culture of Bronze: Making and Meaning in Italian Renaissance Sculpture* (2019).
 
   - id: aboulton
     type: secondary
     first_name: Ann
     last_name: Boulton
-    bio: "Ann Boulton (Associate Conservator, Gilcrease Museum, Tulsa, Oklahoma) has been a practicing objects conservator for thirty-five years. She received her MA in art conservation from Buffalo State College in 1985. While objects conservator at the Baltimore Museum of Art, she researched nineteenth- and twentieth-century French art bronze technology in her study of the sculpture of Antoine-Louis Barye and Henri Matisse. In 2009 she shifted her research focus to American bronze sculpture at the Gilcrease and curated the exhibition *Frontier to Foundry* (2014). She contributed the essay “A Tale of Two Foundries” to Sharon Hecker’s *Finding Lost Wax: The Disappearance and Recovery of an Ancient Casting Technique and the Experiments of Medardo Rosso* (2021)."
+    bio: |
+      Ann Boulton (Associate Conservator, Gilcrease Museum, Tulsa, Oklahoma) has been a practicing objects conservator for thirty-five years. She received her MA in art conservation from Buffalo State College in 1985. While objects conservator at the Baltimore Museum of Art, she researched nineteenth- and twentieth-century French art bronze technology in her study of the sculpture of Antoine-Louis Barye and Henri Matisse. In 2009 she shifted her research focus to American bronze sculpture at the Gilcrease and curated the exhibition *Frontier to Foundry* (2014). She contributed the essay “A Tale of Two Foundries” to Sharon Hecker’s *Finding Lost Wax: The Disappearance and Recovery of an Ancient Casting Technique and the Experiments of Medardo Rosso* (2021).
 
   - id: mcastelle
     type: secondary
     first_name: Manon
     last_name: Castelle
-    bio: "Manon Castelle is a conservation scientist specializing in copper alloys in ancient and historical metallurgy. She received a PhD from the Université de Versailles Saint-Quentin-en-Yvelines in 2016 for her work on French bronze statuary techniques, 1540 to 1660. She then worked on bronze artifacts excavated from the Celtic prince of Lavau tomb (fifth century BCE, France) and, as part of a postdoctoral project (UVSQ), on copper-based seal matrices from the French Archives Nationales and the Musée des beaux-arts de Lyon. In 2018 she obtained the two-year Migelien Gerritzen Fellowship at the Rijksmuseum and continued her research on European bronze objects from the fifteenth to the eighteenth centuries."
+    bio: |
+      Manon Castelle is a conservation scientist specializing in copper alloys in ancient and historical metallurgy. She received a PhD from the Université de Versailles Saint-Quentin-en-Yvelines in 2016 for her work on French bronze statuary techniques, 1540 to 1660. She then worked on bronze artifacts excavated from the Celtic prince of Lavau tomb (fifth century BCE, France) and, as part of a postdoctoral project (UVSQ), on copper-based seal matrices from the French Archives Nationales and the Musée des beaux-arts de Lyon. In 2018 she obtained the two-year Migelien Gerritzen Fellowship at the Rijksmuseum and continued her research on European bronze objects from the fifteenth to the eighteenth centuries.
 
   - id: pdandridge
     type: secondary
     first_name: Pete
     last_name: Dandridge
-    bio: "Pete Dandridge (Conservator Emeritus, Metropolitan Museum of Art, New York) came to the Metropolitan Museum in 1979 from the Cooperstown Graduate Program. He was principal conservator of the ivories, enamels, and metalwork in the Department of Medieval Art and The Cloisters with a focus on the technical history of those materials and the capabilities of the associated artists. He contributed to *Small Wonders: Late-Gothic Boxwood Micro-Carvings from the Low Countries* (2016) and was an author and coeditor for both *Medieval Copper, Bronze and Brass* (2013) and the exhibition *Lions, Dragons, and Other Beasts: Aquamanilia of the Middle Ages, Vessels for Church and Table* (2006); he also co-curated the latter."
+    bio: |
+      Pete Dandridge (Conservator Emeritus, Metropolitan Museum of Art, New York) came to the Metropolitan Museum in 1979 from the Cooperstown Graduate Program. He was principal conservator of the ivories, enamels, and metalwork in the Department of Medieval Art and The Cloisters with a focus on the technical history of those materials and the capabilities of the associated artists. He contributed to *Small Wonders: Late-Gothic Boxwood Micro-Carvings from the Low Countries* (2016) and was an author and coeditor for both *Medieval Copper, Bronze and Brass* (2013) and the exhibition *Lions, Dragons, and Other Beasts: Aquamanilia of the Middle Ages, Vessels for Church and Table* (2006); he also co-curated the latter.
 
   - id: bmille
     type: secondary
     first_name: Benoît
     last_name: Mille
-    bio: "Benoît Mille (Archaeometallurgist, Centre de Recherche et de Restauration des Musées de France [C2RMF], Paris, and Laboratory TEMPS-CNRS-Nanterre University) received his PhD in 2017 on the earliest history of lost-wax casting from the Universities of Nanterre and Fribourg. Since 1993 he has been a researcher at the C2RMF, mostly investigating the beginnings of metallurgy (south of France, Pakistan, Chile) and the evolution of large bronze casting techniques (Egypt, South Arabia, Greece, Rome). He coedited *“Bronzes grecs et romains, recherches récentes”* – *Hommage à Claude Rolley* (2012), *Bronzes grecs et romains: études récentes sur la statuaire antique* (2017), *Launac et le launacien* (2017), and *Nouveaux regards sur le trésor des bronzes de Bavay* (2019)."
+    bio: |
+      Benoît Mille (Archaeometallurgist, Centre de Recherche et de Restauration des Musées de France [C2RMF], Paris, and Laboratory TEMPS-CNRS-Nanterre University) received his PhD in 2017 on the earliest history of lost-wax casting from the Universities of Nanterre and Fribourg. Since 1993 he has been a researcher at the C2RMF, mostly investigating the beginnings of metallurgy (south of France, Pakistan, Chile) and the evolution of large bronze casting techniques (Egypt, South Arabia, Greece, Rome). He coedited *“Bronzes grecs et romains, recherches récentes”* – *Hommage à Claude Rolley* (2012), *Bronzes grecs et romains: études récentes sur la statuaire antique* (2017), *Launac et le launacien* (2017), and *Nouveaux regards sur le trésor des bronzes de Bavay* (2019).
 
   - id: lmorigi
     type: secondary
     first_name: Lorenzo
     last_name: Morigi
-    bio: "Lorenzo Morigi (Independent Restorer) joined the company owned by his father in 1990, specializing in the restoration of outdoor bronze sculptures and metal objects. He studied chemistry for conservators at ICCROM in Rome. He has been responsible for planning, direct restoration, and technological study of many Italian bronze sculptures from ancient Rome to the modern era, and specializes in the conservation of contemporary sculptures, also with thorough experience in consolidation and restoration of waterlogged wood. He has reproduced medieval bronze doors and sculptures in art foundries. He collaborates with art handling companies in conceiving, designing, and building special art crating with reverse engineering. He works with 3D scanners and digital fabrication systems)."
+    bio: |
+      Lorenzo Morigi (Independent Restorer) joined the company owned by his father in 1990, specializing in the restoration of outdoor bronze sculptures and metal objects. He studied chemistry for conservators at ICCROM in Rome. He has been responsible for planning, direct restoration, and technological study of many Italian bronze sculptures from ancient Rome to the modern era, and specializes in the conservation of contemporary sculptures, also with thorough experience in consolidation and restoration of waterlogged wood. He has reproduced medieval bronze doors and sculptures in art foundries. He collaborates with art handling companies in conceiving, designing, and building special art crating with reverse engineering. He works with 3D scanners and digital fabrication.
 
   - id: dstrahan
     type: secondary
     first_name: Donna
     last_name: Strahan
-    bio: "Donna Strahan (Head of the Department of Conservation and Scientific Research, Freer and Sackler Galleries of Art, Smithsonian Institution, Washington, DC) holds a BA in Chinese language and an MA in conservation of ethnographic and archaeological objects from George Washington University. From 2006 to 2014 she was the conservator of Asian objects at the Metropolitan Museum of Art, New York. Her major interests are the technology and preservation of ancient metals and Asian lacquer. She has lectured and published widely, including *Wisdom Embodied: Chinese Buddhist and Daoist Sculpture in the Metropolitan Museum of Art* coauthored with Denise Patry Leidy (2010)."
+    bio: |
+      Donna Strahan (Head of the Department of Conservation and Scientific Research, Freer and Sackler Galleries of Art, Smithsonian Institution, Washington, DC) holds a BA in Chinese language and an MA in conservation of ethnographic and archaeological objects from George Washington University. From 2006 to 2014 she was the conservator of Asian objects at the Metropolitan Museum of Art, New York. Her major interests are the technology and preservation of ancient metals and Asian lacquer. She has lectured and published widely, including *Wisdom Embodied: Chinese Buddhist and Daoist Sculpture in the Metropolitan Museum of Art*, coauthored with Denise Patry Leidy (2010).
 
   - id: jmwelter
     type: secondary
     first_name: Jean-Marie
     last_name: Welter
-    bio: "Jean-Marie Welter (Independent Scholar, Luxembourg) holds an engineering diploma from Ecole Polytechnique, Paris (1966) and graduated as a Dr. rer. nat. from the Technische Hochschule, Munich (1969). He started his professional career in academia, producing and studying metallic materials. In 1985 he joined the copper industry and became corporate director of research and development of a major European group (KME) fabricating semi-products of copper and copper alloys. In those days he started investigating historical copper artifacts, which he presently continues to do within the context of the history of the copper industry, its products, and their applications."
+    bio: |
+      Jean-Marie Welter (Independent Scholar, Luxembourg) held an engineering diploma from École Polytechnique, Paris (1966), and graduated as a Dr. rer. nat. from the Technische Hochschule, Munich (1969). He started his professional career in academia, producing and studying metallic materials. In 1985 he joined the copper industry and became corporate director of research and development of a major European group (KME) fabricating semi-products of copper and copper alloys. At that time, he started investigating historical copper artifacts, which he continued to do within the context of the history of the copper industry, its products, and their applications including exploring its historic use in sculpture until his death in 2022.
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2023 J. Paul Getty Trust
+copyright: © 2025 J. Paul Getty Trust
 
 license:
   name: Creative Commons Attribution-NonCommercial 4.0 International License
@@ -162,20 +186,20 @@ license:
 
 resource_link:
   - type: other-format
-    name: PDF
+    name: PDF (44 MB)
     media_type: application/pdf
     link_relation: alternate
-    url:
+    url: /_assets/downloads/BronzeGuidelines.pdf
   - type: other-format
-    name: EPUB
+    name: EPUB (212 MB)
     media_type: application/epub+zip
     link_relation: alternate
-    url:
+    url: /_assets/downloads/BronzeGuidelines.epub
   - type: other-format
     name: Paperback
     media_type: print
     link_relation: alternate
-    url:
+    url: https://shop.getty.edu/products/guidelines-for-the-technical-examination-of-bronze-sculpture-978-1606066904
   - type: footer-link
     name: About
     link_relation: about
@@ -194,36 +218,42 @@ resource_link:
 # ------------------------------------------------------------------------------
 
 subject:
-  - type:
-    name:
-    identifer:
+  - type: bisac
+    name: ART / Conservation & Preservation
+    identifer: ART056000
+  - type: bisac
+    name: ART / Reference
+    identifer: ART025000
+  - type: bisac
+    name: TECHNOLOGY & ENGINEERING / Materials Science / Metals & Alloys
+    identifer: TEC021030
+  - type: keyword
+    name: "copper, alloy, sculpture, technique, history, conservator, scientist, art, archaeologist, metallurgist, craftspeople, Ancient world, Asia, Africa, early, modern Europe, United States, fabrication, museum collections, cultural heritage, physical characteristics, case studies, FAQs, multilingual glossary, interdisciplinary, standardize, acquisition, cataloging, research, restoration, foundry, corrosion, excavation, technology, comprehensive resource, process, analysis, casting, defects, detailed illustrations, videos, charts, animations, vocabulary, imaging, best practices, specialist, markings, wear, coatings, cleaning, mount, base, finish"
 
 library_of_congress_cip: |
   Library of Congress Cataloging-in-Publication Data
-  - Names:
-  - Title:
-  - Description:
-  - Identifiers: LCCN  (print) | LCCN (ebook) | ISBN
-     9781606068281 (paperback) | ISBN 9781606068298 (ebook) | ISBN
-     9781606068304
-  - Subjects:
-  - Classification:
-  - LC record available at
-  - LC ebook record available at
+  - Names: "Bourgarit, David, editor. | Bassett, Jane (Jane L.), editor. | Bewer, Francesca G. (Francesca Gabrielle), 1960– editor. | Heginbotham, Arlen, editor. | Lacey, Andrew, 1969– editor. | Motture, Peta, editor. | J. Paul Getty Museum, issuing body."  
+  - Title: "Guidelines for the technical examination of bronze sculpture / edited by David Bourgarit, Jane Bassett, Francesca G. Bewer, Arlen Heginbotham, Andrew Lacey, and Peta Motture."  
+  - Description: "First edition. | Los Angeles : J. Paul Getty Museum, 2025. | Includes bibliographical references and index. | Summary: “This illustrated volume offers a new framework for advancing the understanding of bronze sculpture, explaining how to identify the evidence of process steps, metals used, casting defects, and surface work and alterations before moving on to address analytical techniques ranging from visual exams to imaging, material analyses, and dating”— Provided by publisher."  
+  - Identifiers: LCCN 2022055307 (print) | LCCN 2022055308 (ebook) | ISBN 9781606066904 (paperback) | ISBN 9781606066928 | ISBN 9781606067611 (adobe pdf) | ISBN 9781606066911 (epub)
+  - Subjects: LCSH: Bronze sculpture—Technique. | Bronze Sculpture—Expertising. | Bronze founding. | Bronze—Analysis. | Sculpture materials—Analysis. 
+  - Classification: LCC NB1230 .G85 2023  (print) | LCC NB1230  (ebook) | DDC 731.4/56—dc23/eng/20230315 
+  - LC record available at https://lccn.loc.gov/2022055307
+  - LC ebook record available at https://lccn.loc.gov/2022055308
 
 # ------------------------------------------------------------------------------
 # Revision History
 # ------------------------------------------------------------------------------
 
 revision_history:
-  - date: August 22, 2023
+  - date: February 11, 2025
     summary:
       - First edition
 
-revision_statement: "Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/bronze-guidelines/](https://github.com/thegetty/bronze-guidelines/), where a more detailed version history is available. The revisions branch of the project repository, when present, will show any changes currently under consideration but not yet published here."
+revision_statement: "Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [https://github.com/thegetty/bronze-guidelines](https://github.com/thegetty/bronze-guidelines), where a more detailed version history is available. The revisions branch of the project repository, when present, will show any changes currently under consideration but not yet published here."
 
 # ------------------------------------------------------------------------------
 # Promo Image
 # ------------------------------------------------------------------------------
 
-promo_image: cover.png
+promo_image: cover-promo.jpg

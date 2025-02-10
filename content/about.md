@@ -1,7 +1,9 @@
 ---
 title: About
-order: 1020
+order: 2050
 layout: page
+classes: 
+  - about-copyright-page
 outputs: [html]
 ---
 
@@ -85,8 +87,10 @@ outputs: [html]
 </div>
 <div class="cover-image-credits">
 
-Front cover:
-Back cover:
+Illustration Credits
+Every effort has been made to contact the owners and photographers of illustrations reproduced here whose names do not appear in the captions or on the illustration credits page. Anyone having further information concerning copyright holders is asked to contact Getty Publications so this information can be included.
+
+Cover: Bronze pour (still, [video 18](/visual-atlas/v18/)); X-radiograph of Venus *déhanchée* ([fig. 65](/visual-atlas/065/)); *Head of a Ruler* ([fig. 310](/visual-atlas/310/))
 
 </div>
 

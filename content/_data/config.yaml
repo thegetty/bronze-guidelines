@@ -1,40 +1,75 @@
-baseURL: "https://first-pages--bronze-guidelines.netlify.app"
+accordion:
+  controls: plus-minus # arrow | plus-minus
+  copyButton:
+    ariaLabel: Copy page section link to clipboard
+    successText: Copied page section link to clipboard
+    symbol: §
+  globalControls:
+    collapseText: Collapse Sections
+    expandText: Expand Sections
 
-title: Quire Starter
-languageCode: en-us
-theme: default
-publishDir: site
+analytics:
+  googleId: 'GTM-NRDC63K'
 
-footnoteReturnLinkContents: '↩'
-GoogleAnalytics: ''
+bylineFormat: name-title # name | name-title | false
 
-pluralizeListTitles: true
-disableKinds:
-  - home
-  - section
-  - taxonomy
-  - term
+bibliography:
+  displayOnPage: false
+  displayShort: true
+  heading: Bibliography
 
-quire_credit_line: This publication was created using [Quire](https://quire.getty.edu)™, a multiformat publishing tool from Getty.
+citations:
+  divider: ', '
+  popupStyle: text # text | icon
 
-params:
-  biblioHeading: Bibliography
-  citationPageLocationDivider: ', '
-  citationPopupStyle: text # text | icon
-  contributorByline: name-title # name | name-title | false
-  displayBiblioShort: true
-  entryPageObjectLinkText: View in Collection
-  entryPageSideBySideLayout: false
-  figureLabelLocation: below # below | on-top
-  figureModal: true
-  figureModalIcons: true
-  figureZoom: true
+entryPage:
+  sideBySide: true
+  objectLinkText: View in Collection
+
+epub:
+  defaultCoverImage: 'cover-full.jpg'
+  outputDir: '_epub'
+
+footnotes:
+  backlinkSymbol: '↩'
+
+figures:
+  assetDir: '/_assets/'
+  enableModal: true
   imageDir: '/_assets/images'
-  licenseIcons: true
-  menuType: full
-  nextPageButtonText: Next
-  pageLabelDivider: '. '
-  pageContributorDivider: " — "
-  prevPageButtonText: Back
-  searchEnabled: true
-  tocType: full
+
+licenseIcons: true
+
+localization:
+  defaultLocale: en-us
+
+menuType: full # full | brief
+
+navigation:
+  nextButtonText: Next
+  prevButtonText: Back
+
+pageTitle:
+  labelDivider: '. '
+
+pdf:
+  filename: 'publication'
+  outputDir: '/_assets/downloads' 
+  pagePDF:
+    accessLinks:
+      - header: true 
+        label: 'PDF'
+      - footer: true
+        label: 'Download this page'
+    coverPage: true
+    output: false
+  publicationPDF:
+    output: true
+
+ref:
+  sequenceTransition: 30
+
+searchEnabled: true
+
+tableOfContents:
+  contributorDivider: ' — '

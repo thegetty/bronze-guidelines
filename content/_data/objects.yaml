@@ -1,17 +1,28 @@
+object_filters:
+  - type
+  - chapter
+
+object_card:
+  - thumbnail
+  - label
+
 object_display_order:
   - name
+
 object_list:
   - id: case-study-1
     figure:
       - id: "fig-440-cover"
+      - id: "figs-440-455-group"
       - id: "fig-448"
+      - id: "figs-440-446-group-front"
       - id: "fig-456"
       - id: "fig-457"
       - id: "fig-458"
       - id: "fig-459"
       - id: "fig-084"
       - id: "fig-086"
-      - id: "fig-441"
+      - id: "fig-450"
       - id: "fig-460"
       - id: "vid-12"
       - id: "fig-466" # same as 461 except for fusion weld overlay
@@ -26,10 +37,12 @@ object_list:
 
   - id: case-study-2
     figure:
-      - id: "fig-469-cover"
+      - id: "fig-469-470-471-cover"
       - id: "fig-469"
+      - id: "fig-471"
       - id: "fig-472"
       - id: "fig-470"
+      - id: "fig-473"
       - id: "vid-04"
       - id: "fig-474"
       - id: "fig-475"
@@ -40,33 +53,31 @@ object_list:
       - id: "fig-482"
       - id: "vid-08"
       - id: "fig-484"
-      - id: "fig-483"
       - id: "fig-180"
       - id: "fig-486"
       - id: "fig-489"
       - id: "fig-104"
       - id: "fig-490"
-      #- id: "fig-180"
-      #- id: "fig-478"
       - id: "fig-493"
-      - id: "fig-498"
+      - id: "fig-044"
+      - id: "fig-499"
 
   - id: case-study-3
     figure:
       - id: "fig-500-cover"
       - id: "fig-500"
+      - id: "fig-503"
       - id: "fig-026"
       - id: "fig-501"
       - id: "fig-116"
       - id: "fig-117"
-      - id: "fig-111"
+      - id: "fig-111-dupe"
       - id: "fig-502"
-      - id: "fig-503"
-      #- id: "fig-500"
 
   - id: case-study-4
     figure:
-      - id: "fig-508-cover"
+      - id: "fig-504-508-cover"
+      - id: "fig-504-508-cover-graph"
       - id: "fig-508"
       - id: "fig-505"
       - id: "fig-067"
@@ -77,30 +88,25 @@ object_list:
       - id: "fig-286"
       - id: "fig-273"
       - id: "fig-513"
-      #- id: "fig-054"
       - id: "fig-404"
       - id: "fig-401"
       - id: "fig-517"
-      - id: "fig-518"
-      - id: "fig-510"
-      - id: "fig-521"
-      #- id: "fig-401"
+      - id: "fig-518-dupe"
+      - id: "fig-519"
+      - id: "fig-522"
 
   - id: case-study-5
     figure:
-      - id: "fig-34-97-524-cover"
+      - id: "fig-034-097-524-cover"
       - id: "fig-523"
       - id: "fig-070"
       - id: "fig-008"
       - id: "fig-038"
-      - id: "fig-034"
-      #- id: "fig-034"
+      - id: "fig-034-097-524-group"
       - id: "fig-023"
-      - id: "fig-431"
-      - id: "fig-525"
+      - id: "fig-427-428-525-group"
       - id: "fig-274"
       - id: "fig-528"
-      #- id: "fig-523"
 
   - id: case-study-6
     figure:
@@ -113,6 +119,3557 @@ object_list:
       - id: "fig-534"
       - id: "fig-537"
       - id: "fig-540"
-      - id: "fig-541"
+      - id: "fig-539"
       - id: "fig-195"
-      #- id: "fig-529"
+
+  - id: case-study-7
+    figure:
+      - id: "vid-03-cover"
+      - id: "vid-03"
+      - id: "fig-376"
+      - id: "fig-544"
+      - id: "fig-545"
+      - id: "fig-021"
+      - id: "fig-088"
+      - id: "fig-546"
+      - id: "vid-02"
+      - id: "fig-547"
+      - id: "fig-085"
+      - id: "fig-002"
+      - id: "fig-118"
+      - id: "fig-007"
+      - id: "vid-11"
+      - id: "vid-16"
+      - id: "fig-548"
+      - id: "vid-10"
+      - id: "vid-13"
+      - id: "fig-033"
+
+# I.1 Casting Processes
+# I.2 Metals
+# I.3 Casting Defects
+
+  -
+      id: '001'
+      label: '1'
+      type: [ Diagram ]
+      chapter: [ General Introduction, II.4. Measurements of Dimension ]
+      figure: [ id: fig-001 ]
+  -
+      id: '002'
+      label: '2'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-002 ]
+  -
+      id: '003'
+      label: '3'
+      type: [ Graph ]
+      chapter: [ General Introduction ]
+      figure: [ id: fig-003 ]
+  -
+      id: '004'
+      label: '4'
+      type: 
+      chapter: [ General Introduction, I.3. Casting Defects, II.9. Experimental Simulation ]
+      figure: [ id: fig-004 ]
+  -
+      id: '005'
+      label: '5'
+      type: 
+      chapter: [ General Introduction, I.3. Casting Defects, II.9. Experimental Simulation ]
+      figure: [ id: fig-005 ]
+  -
+      id: '006'
+      label: '6'
+      type: [ Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, II.7. Core Analysis ]
+      figure: [ id: fig-006 ]
+  -
+      id: '007'
+      label: '7'
+      type: 
+      chapter: [ General Introduction, Case Study 7 ]
+      figure: [ id: fig-007 ]
+  -
+      id: '008'
+      label: '8'
+      type: [ Annotated ]
+      chapter: [ General Introduction, II.7. Core Analysis, Case Study 5 ]
+      figure: [ id: fig-008 ]
+  -
+      id: '009'
+      label: '9'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 6 ]
+      figure: [ id: fig-009 ]
+  -
+      id: '010'
+      label: '10'
+      type: 
+      chapter: [ General Introduction, II.7. Core Analysis ]
+      figure: [ id: fig-010 ]
+  -
+      id: '011'
+      label: '11'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-011 ]
+  -
+      id: '012'
+      label: '12'
+      type: [ X-radiography ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-012 ]
+  -
+      id: '013'
+      label: '13'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 2, Case Study 5 ]
+      figure: [ id: fig-013 ]
+  -
+      id: '014'
+      label: '14'
+      type: 
+      chapter: [ General Introduction, I.6. Tool Marks ]
+      figure: [ id: fig-014 ]
+  -
+      id: '015'
+      label: '15'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-015 ]
+  -
+      id: '016'
+      label: '16'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-016 ]
+  -
+      id: '017'
+      label: '17'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-017 ]
+  -
+      id: '018'
+      label: '18'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-018 ]
+  -
+      id: '019'
+      label: '19'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-019 ]
+  -
+      id: '020'
+      label: '20'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-020 ]
+  -
+      id: '021'
+      label: '21'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 7 ]
+      figure: [ id: fig-021 ]
+  -
+      id: '022'
+      label: '22'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-022 ]
+  -
+      id: '023'
+      label: '23'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 5 ]
+      figure: [ id: fig-023 ]
+  -
+      id: '024'
+      label: '24'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-024 ]
+  -
+      id: '025'
+      label: '25'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-025 ]
+  -
+      id: '026'
+      label: '26'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-026 ]
+  -
+      id: '027'
+      label: '27'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-027 ]
+  -
+      id: '028'
+      label: '28'
+      type: [ Diagram ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-028 ]
+  -
+      id: '029'
+      label: '29'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-029 ]
+  -
+      id: '030'
+      label: '30'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-030 ]
+  -
+      id: '031'
+      label: '31'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-031 ]
+  -
+      id: '032'
+      label: '32'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-032 ]
+  -
+      id: '033'
+      label: '33'
+      type: 
+      chapter: 
+      figure: [ id: fig-033 ]
+  -
+      id: '034'
+      label: '34'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, Case Study 5 ]
+      figure: [ id: fig-034 ]
+  -
+      id: '035'
+      label: '35'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, I.4. Repairs ]
+      figure: [ id: fig-035 ]
+  -
+      id: '036'
+      label: '36'
+      type: [ Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-036 ]
+  -
+      id: '037'
+      label: '37'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-037 ]
+  -
+      id: '038'
+      label: '38'
+      type: [ Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 5 ]
+      figure: [ id: fig-038 ]
+  -
+      id: '039'
+      label: '39'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-039 ]
+  -
+      id: '040'
+      label: '40'
+      type: 
+      chapter: [ General Introduction ]
+      figure: [ id: fig-040 ]
+  -
+      id: '041'
+      label: '41'
+      type: 
+      chapter: [ General Introduction, II.4. Measurements of Dimension ]
+      figure: [ id: fig-041 ]
+  -
+      id: '042'
+      label: '42'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction ]
+      figure: [ id: fig-042 ]
+  -
+      id: '043'
+      label: '43'
+      type: [ X-radiography, Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-043 ]
+  -
+      id: '044'
+      label: '44'
+      type: 
+      chapter: [ General Introduction, Case Study 2 ]
+      figure: [ id: fig-044 ]
+  -
+      id: '045'
+      label: '45'
+      type: [ Annotated ]
+      chapter: [ General Introduction ]
+      figure: [ id: fig-045 ]
+  -
+      id: '046'
+      label: '46'
+      type: 
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-046 ]
+  -
+      id: '047'
+      label: '47'
+      type: 
+      chapter: [ General Introduction, I.9. Inlays and Overlays ]
+      figure: [ id: fig-047 ]
+  -
+      id: '048'
+      label: '48'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-048 ]
+  -
+      id: '049'
+      label: '49'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-049 ]
+  -
+      id: '050'
+      label: '50'
+      type: [ Annotated ]
+      chapter: [ General Introduction, I.1. Casting Processes ]
+      figure: [ id: fig-050 ]
+  -
+      id: '051'
+      label: '51'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks, Case Study 5 ]
+      figure: [ id: fig-051 ]
+  -
+      id: '052'
+      label: '52'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-052 ]
+  -
+      id: '053'
+      label: '53'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-053 ]
+  -
+      id: '054'
+      label: '54'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 4 ]
+      figure: [ id: fig-054 ]
+  -
+      id: '055'
+      label: '55'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-055 ]
+  -
+      id: '056'
+      label: '56'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-056 ]
+  -
+      id: '057'
+      label: '57'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects, II.7. Core Analysis ]
+      figure: [ id: fig-057 ]
+  -
+      id: '058'
+      label: '58'
+      type: 
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-058 ]
+  -
+      id: '059'
+      label: '59'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects, I.5. Assembly ]
+      figure: [ id: fig-059 ]
+  -
+      id: '060'
+      label: '60'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects, I.6. Tool Marks ]
+      figure: [ id: fig-060 ]
+  -
+      id: '061'
+      label: '61'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-061 ]
+  -
+      id: '062'
+      label: '62'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-062 ]
+  -
+      id: '063'
+      label: '63'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes, II.4. Measurements of Dimension ]
+      figure: [ id: fig-063 ]
+  -
+      id: '064'
+      label: '64'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-064 ]
+  -
+      id: '065'
+      label: '65'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects, I.5. Assembly, II.1. Planning and Documenting Your Technical Exam, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-065 ]
+  -
+      id: '066'
+      label: '66'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-066 ]
+  -
+      id: '067'
+      label: '67'
+      type: 
+      chapter: [ I.1. Casting Processes, Case Study 4 ]
+      figure: [ id: fig-067 ]
+  -
+      id: '068'
+      label: '68'
+      type: 
+      chapter: [ I.1. Casting Processes, I.2. Metals ]
+      figure: [ id: fig-068 ]
+  -
+      id: '069'
+      label: '69'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-069 ]
+  -
+      id: '070'
+      label: '70'
+      type: 
+      chapter: [ I.1. Casting Processes, Case Study 5 ]
+      figure: [ id: fig-070 ]
+  -
+      id: '071'
+      label: '71'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-071 ]
+  -
+      id: '072'
+      label: '72'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-072 ]
+  -
+      id: '073'
+      label: '73'
+      type: 
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-073 ]
+  -
+      id: '074'
+      label: '74'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-074 ]
+  -
+      id: '075'
+      label: '75'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-075 ]
+  -
+      id: '076'
+      label: '76'
+      type: 
+      chapter: [ I.1. Casting Processes, II.4. Measurements of Dimension ]
+      figure: [ id: fig-076 ]
+  -
+      id: '077'
+      label: '77'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-077 ]
+  -
+      id: '078'
+      label: '78'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-078 ]
+  -
+      id: '079'
+      label: '79'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-079 ]
+  -
+      id: '080'
+      label: '80'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-080 ]
+  -
+      id: '081'
+      label: '81'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-081 ]
+  -
+      id: '082'
+      label: '82'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-082 ]
+  -
+      id: '083'
+      label: '83'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-083 ]
+  -
+      id: '084'
+      label: '84'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 1 ]
+      figure: [ id: fig-084 ]
+  -
+      id: '085'
+      label: '85'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-085 ]
+  -
+      id: '086'
+      label: '86'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 1 ]
+      figure: [ id: fig-086 ]
+  -
+      id: '087'
+      label: '87'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-087 ]
+  -
+      id: '088'
+      label: '88'
+      type: 
+      chapter: [ I.1. Casting Processes, Case Study 7 ]
+      figure: [ id: fig-088 ]
+  -
+      id: '089'
+      label: '89'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-089 ]
+  -
+      id: '090'
+      label: '90'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes, I.3. Casting Defects ]
+      figure: [ id: fig-090 ]
+  -
+      id: '091'
+      label: '91'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-091 ]
+  -
+      id: '092'
+      label: '92'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-092 ]
+  -
+      id: '093'
+      label: '93'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-093 ]
+  -
+      id: '094'
+      label: '94'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-094 ]
+  -
+      id: '095'
+      label: '95'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-095 ]
+  -
+      id: '096'
+      label: '96'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-096 ]
+  -
+      id: '097'
+      label: '97'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 5 ]
+      figure: [ id: fig-097 ]
+  -
+      id: '098'
+      label: '98'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-098 ]
+  -
+      id: '099'
+      label: '99'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-099 ]
+  -
+      id: '100'
+      label: '100'
+      type: 
+      chapter: [ I.1. Casting Processes, I.5. Assembly ]
+      figure: [ id: fig-100 ]
+      thumbnail: "figures/static-inline/100.jpg"
+  -
+      id: '101'
+      label: '101'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-101 ]
+  -
+      id: '102'
+      label: '102'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-102 ]
+  -
+      id: '103'
+      label: '103'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-103 ]
+  -
+      id: '104'
+      label: '104'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks, Case Study 2 ]
+      figure: [ id: fig-104 ]
+  -
+      id: '105'
+      label: '105'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-105 ]
+  -
+      id: '106'
+      label: '106'
+      type: 
+      chapter: [ I.1. Casting Processes, I.4. Repairs ]
+      figure: [ id: fig-106 ]
+  -
+      id: '107'
+      label: '107'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-107 ]
+  -
+      id: '108'
+      label: '108'
+      type: 
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-108 ]
+  -
+      id: '109'
+      label: '109'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-109 ]
+  -
+      id: '110'
+      label: '110'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-110 ]
+  -
+      id: '111'
+      label: '111'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-111 ]
+  -
+      id: '112'
+      label: '112'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-112 ]
+  -
+      id: '113'
+      label: '113'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-113 ]
+  -
+      id: '114'
+      label: '114'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-114 ]
+  -
+      id: '115'
+      label: '115'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-115 ]
+  -
+      id: '116'
+      label: '116'
+      type: [ Diagram ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-116 ]
+  -
+      id: '117'
+      label: '117'
+      type: [ Diagram ]
+      chapter: [ I.1. Casting Processes, Case Study 3 ]
+      figure: [ id: fig-117 ]
+  -
+      id: '118'
+      label: '118'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-118 ]
+  -
+      id: '119'
+      label: '119'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.5. Assembly ]
+      figure: [ id: fig-119 ]
+  -
+      id: '120'
+      label: '120'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-120 ]
+  -
+      id: '121'
+      label: '121'
+      type: [ 360-Degree, X-radiography ]
+      chapter: [ I.1. Casting Processes, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-121 ]
+  -
+      id: '122'
+      label: '122'
+      type: [ Diagram ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-122 ]
+  -
+      id: '123'
+      label: '123'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.4. Repairs ]
+      figure: [ id: fig-123 ]
+  -
+      id: '124'
+      label: '124'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes ]
+      figure: [ id: fig-124 ]
+  -
+      id: '125'
+      label: '125'
+      type: 
+      chapter: [ I.1. Casting Processes, I.2. Metals, I.4. Repairs ]
+      figure: [ id: fig-125 ]
+  -
+      id: '126'
+      label: '126'
+      type: [ X-radiography ]
+      chapter: [ I.1. Casting Processes, Case Study 4 ]
+      figure: [ id: fig-126 ]
+  -
+      id: '127'
+      label: '127'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.1. Casting Processes, I.5. Assembly ]
+      figure: [ id: fig-127 ]
+  -
+      id: '128'
+      label: '128'
+      type: [ Annotated ]
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-128 ]
+  -
+      id: '129'
+      label: '129'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-129 ]
+  -
+      id: '130'
+      label: '130'
+      type: 
+      chapter: [ I.1. Casting Processes, I.6. Tool Marks ]
+      figure: [ id: fig-130 ]
+  -
+      id: '131'
+      label: '131'
+      type: [ Chart ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-131 ]
+  -
+      id: '132'
+      label: '132'
+      type: [ Graph ]
+      chapter: [ I.2. Metals, II.5. Metal Analysis ]
+      figure: [ id: fig-132 ]
+  -
+      id: '133'
+      label: '133'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-133 ]
+  -
+      id: '134'
+      label: '134'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-134 ]
+  -
+      id: '135'
+      label: '135'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-135 ]
+  -
+      id: '136'
+      label: '136'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-136 ]
+  -
+      id: '137'
+      label: '137'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-137 ]
+  -
+      id: '138'
+      label: '138'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-138 ]
+  -
+      id: '139'
+      label: '139'
+      type: [ Diagram ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-139 ]
+  -
+      id: '140'
+      label: '140'
+      type: 
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-140 ]
+  -
+      id: '141'
+      label: '141'
+      type: 
+      chapter: [ I.2. Metals, I.8. Patina ]
+      figure: [ id: fig-141 ]
+  -
+      id: '142'
+      label: '142'
+      type: [ Microscopy ]
+      chapter: [ I.2. Metals, II.5. Metal Analysis ]
+      figure: [ id: fig-142 ]
+  -
+      id: '143'
+      label: '143'
+      type: [ Microscopy ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-143 ]
+      thumbnail: "figures/static-inline/143.jpg"
+  -
+      id: '144'
+      label: '144'
+      type: [ Diagram ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-144 ]
+  -
+      id: '145'
+      label: '145'
+      type: [ Microscopy ]
+      chapter: [ I.2. Metals, I.4. Repairs, II.5. Metal Analysis ]
+      figure: [ id: fig-145 ]
+  -
+      id: '146'
+      label: '146'
+      type: [ Microscopy, Annotated ]
+      chapter: [ I.2. Metals, I.5. Assembly, II.5. Metal Analysis ]
+      figure: [ id: fig-146 ]
+  -
+      id: '147'
+      label: '147'
+      type: [ Microscopy ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-147 ]
+  -
+      id: '148'
+      label: '148'
+      type: [ Microscopy ]
+      chapter: [ I.2. Metals ]
+      figure: [ id: fig-148 ]
+  -
+      id: '149'
+      label: '149'
+      type: 
+      chapter: [ General Introduction, I.3. Casting Defects ]
+      figure: [ id: fig-149 ]
+  -
+      id: '150'
+      label: '150'
+      type: [ Diagram ]
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-150 ]
+  -
+      id: '151'
+      label: '151'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-151 ]
+  -
+      id: '152'
+      label: '152'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.3. Casting Defects, I.4. Repairs ]
+      figure: [ id: fig-152 ]
+  -
+      id: '153'
+      label: '153'
+      type: 
+      chapter: [ I.3. Casting Defects, I.4. Repairs ]
+      figure: [ id: fig-153 ]
+  -
+      id: '154'
+      label: '154'
+      type: 
+      chapter: [ I.3. Casting Defects, Case Study 7 ]
+      figure: [ id: fig-154 ]
+  -
+      id: '155'
+      label: '155'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-155 ]
+  -
+      id: '156'
+      label: '156'
+      type: [ Annotated ]
+      chapter: [ I.3. Casting Defects, I.6. Tool Marks, II.5. Metal Analysis ]
+      figure: [ id: fig-156 ]
+  -
+      id: '157'
+      label: '157'
+      type: 
+      chapter: [ General Introduction, I.3. Casting Defects ]
+      figure: [ id: fig-157 ]
+      thumbnail: "figures/static-inline/157.jpg"
+  -
+      id: '158'
+      label: '158'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-158 ]
+  -
+      id: '159'
+      label: '159'
+      type: [ Annotated ]
+      chapter: [ I.3. Casting Defects, II.1. Planning and Documenting Your Technical Exam ]
+      figure: [ id: fig-159 ]
+  -
+      id: '160'
+      label: '160'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-160 ]
+  -
+      id: '161'
+      label: '161'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-161 ]
+      thumbnail: "figures/static-inline/161.jpg"
+  -
+      id: '162'
+      label: '162'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-162 ]
+  -
+      id: '163'
+      label: '163'
+      type: 
+      chapter: [ I.3. Casting Defects, I.7. Gilding and Plating ]
+      figure: [ id: fig-163 ]
+      thumbnail: "figures/static-inline/163.jpg"
+  -
+      id: '164'
+      label: '164'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-164 ]
+  -
+      id: '165'
+      label: '165'
+      type: 
+      chapter: [ I.3. Casting Defects ]
+      figure: [ id: fig-165 ]
+  -
+      id: '166'
+      label: '166'
+      type: [ 360-Degree ] 
+      chapter: [ I.3. Casting Defects, I.4. Repairs ]
+      figure: [ id: fig-166 ]
+  -
+      id: '167'
+      label: '167'
+      type: [ Chart ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-167 ]
+  -
+      id: '168'
+      label: '168'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs, I.6. Tool Marks ]
+      figure: [ id: fig-168 ]
+  -
+      id: '169'
+      label: '169'
+      type: 
+      chapter: [ I.4. Repairs, I.6. Tool Marks ]
+      figure: [ id: fig-169 ]
+  -
+      id: '170'
+      label: '170'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-170 ]
+  -
+      id: '171'
+      label: '171'
+      type: 
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-171 ]
+  -
+      id: '172'
+      label: '172'
+      type: 
+      chapter: [ I.4. Repairs, II.4. Measurements of Dimension ]
+      figure: [ id: fig-172 ]
+  -
+      id: '173'
+      label: '173'
+      type: [ Diagram ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-173 ]
+  -
+      id: '174'
+      label: '174'
+      type: [ Diagram ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-174 ]
+  -
+      id: '175'
+      label: '175'
+      type: 
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-175 ]
+  -
+      id: '176'
+      label: '176'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-176 ]
+  -
+      id: '177'
+      label: '177'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-177 ]
+  -
+      id: '178'
+      label: '178'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-178 ]
+  -
+      id: '179'
+      label: '179'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-179 ]
+  -
+      id: '180'
+      label: '180'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs, Case Study 2 ]
+      figure: [ id: fig-180 ]
+  -
+      id: '181'
+      label: '181'
+      type: [ Diagram ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-181 ]
+  -
+      id: '182'
+      label: '182'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-182 ]
+  -
+      id: '183'
+      label: '183'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-183 ]
+  -
+      id: '184'
+      label: '184'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-184 ]
+  -
+      id: '185'
+      label: '185'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-185 ]
+  -
+      id: '186'
+      label: '186'
+      type: 
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-186 ]
+  -
+      id: '187'
+      label: '187'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs, I.5. Assembly ]
+      figure: [ id: fig-187 ]
+  -
+      id: '188'
+      label: '188'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs, I.5. Assembly, II.1. Planning and Documenting Your Technical Exam ]
+      figure: [ id: fig-188 ]
+  -
+      id: '189'
+      label: '189'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-189 ]
+  -
+      id: '190'
+      label: '190'
+      type: 
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-190 ]
+  -
+      id: '191'
+      label: '191'
+      type: 
+      chapter: [ I.4. Repairs, II.1. Planning and Documenting Your Technical Exam, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-191 ]
+  -
+      id: '192'
+      label: '192'
+      type: [ Diagram ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-192 ]
+  -
+      id: '193'
+      label: '193'
+      type: 
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-193 ]
+  -
+      id: '194'
+      label: '194'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-194 ]
+  -
+      id: '195'
+      label: '195'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs, Case Study 6 ]
+      figure: [ id: fig-195 ]
+  -
+      id: '196'
+      label: '196'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-196 ]
+  -
+      id: '197'
+      label: '197'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-197 ]
+  -
+      id: '198'
+      label: '198'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-198 ]
+  -
+      id: '199'
+      label: '199'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-199 ]
+  -
+      id: '200'
+      label: '200'
+      type: [ Annotated ]
+      chapter: [ I.4. Repairs ]
+      figure: [ id: fig-200 ]
+  -
+      id: '201'
+      label: '201'
+      type: [ Diagram ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-201 ]
+  -
+      id: '202'
+      label: '202'
+      type: [ Diagram ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-202 ]
+  -
+      id: '203'
+      label: '203'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-203 ]
+  -
+      id: '204'
+      label: '204'
+      type: [ 3D Model, Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-204 ]
+  -
+      id: '205'
+      label: '205'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-205 ]
+  -
+      id: '206'
+      label: '206'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-206 ]
+  -
+      id: '207'
+      label: '207'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-207 ]
+  -
+      id: '208'
+      label: '208'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-208 ]
+  -
+      id: '209'
+      label: '209'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-209 ]
+  -
+      id: '210'
+      label: '210'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-210 ]
+  -
+      id: '211'
+      label: '211'
+      type: [ X-radiography ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-211 ]
+  -
+      id: '212'
+      label: '212'
+      type: [ X-radiography ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-212 ]
+  -
+      id: '213'
+      label: '213'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-213 ]
+  -
+      id: '214'
+      label: '214'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-214 ]
+  -
+      id: '215'
+      label: '215'
+      type: [ X-radiography ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-215 ]
+  -
+      id: '216'
+      label: '216'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-216 ]
+  -
+      id: '217'
+      label: '217'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-217 ]
+  -
+      id: '218'
+      label: '218'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-218 ]
+  -
+      id: '219'
+      label: '219'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-219 ]
+  -
+      id: '220'
+      label: '220'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-220 ]
+  -
+      id: '221'
+      label: '221'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-221 ]
+  -
+      id: '222'
+      label: '222'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-222 ]
+  -
+      id: '223'
+      label: '223'
+      type: 
+      chapter: [ I.5. Assembly, I.9. Inlays and Overlays ]
+      figure: [ id: fig-223 ]
+  -
+      id: '224'
+      label: '224'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-224 ]
+  -
+      id: '225'
+      label: '225'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-225 ]
+  -
+      id: '226'
+      label: '226'
+      type: 
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-226 ]
+  -
+      id: '227'
+      label: '227'
+      type: [ Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-227 ]
+  -
+      id: '228'
+      label: '228'
+      type: [ Microscopy ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-228 ]
+  -
+      id: '229'
+      label: '229'
+      type: [ Microscopy, Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-229 ]
+  -
+      id: '230'
+      label: '230'
+      type: [ 3D Model, Annotated ]
+      chapter: [ I.5. Assembly, II.4. Measurements of Dimension ]
+      figure: [ id: fig-230 ]
+  -
+      id: '231'
+      label: '231'
+      type: 
+      chapter: [ I.5. Assembly, II.4. Measurements of Dimension ]
+      figure: [ id: fig-231 ]
+  -
+      id: '232'
+      label: '232'
+      type: [ X-radiography, Annotated ]
+      chapter: [ I.5. Assembly ]
+      figure: [ id: fig-232 ]
+  -
+      id: '233'
+      label: '233'
+      type: [ Chart ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-233 ]
+  -
+      id: '234'
+      label: '234'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-234 ]
+  -
+      id: '235'
+      label: '235'
+      type: [ Annotated ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-235 ]
+  -
+      id: '236'
+      label: '236'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-236 ]
+  -
+      id: '237'
+      label: '237'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-237 ]
+  -
+      id: '238'
+      label: '238'
+      type: [ Annotated ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-238 ]
+  -
+      id: '239'
+      label: '239'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-239 ]
+  -
+      id: '240'
+      label: '240'
+      type: [ Annotated ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-240 ]
+  -
+      id: '241'
+      label: '241'
+      type: 
+      chapter: [ I.6. Tool Marks, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 4 ]
+      figure: [ id: fig-241 ]
+  -
+      id: '242'
+      label: '242'
+      type: [ Annotated ]
+      chapter: [ I.6. Tool Marks, II.4. Measurements of Dimension ]
+      figure: [ id: fig-242 ]
+      thumbnail: "figures/static-inline/242.jpg"
+  -
+      id: '243'
+      label: '243'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-243 ]
+  -
+      id: '244'
+      label: '244'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-244 ]
+  -
+      id: '245'
+      label: '245'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-245 ]
+  -
+      id: '246'
+      label: '246'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-246 ]
+  -
+      id: '247'
+      label: '247'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-247 ]
+  -
+      id: '248'
+      label: '248'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-248 ]
+  -
+      id: '249'
+      label: '249'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-249 ]
+      thumbnail: "figures/static-inline/249.jpg"
+  -
+      id: '250'
+      label: '250'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-250 ]
+      thumbnail: "figures/static-inline/250.jpg"
+  -
+      id: '251'
+      label: '251'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-251 ]
+  -
+      id: '252'
+      label: '252'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-252 ]
+      thumbnail: "figures/static-inline/252.jpg"
+  -
+      id: '253'
+      label: '253'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-253 ]
+      thumbnail: "figures/static-inline/253.jpg"
+  -
+      id: '254'
+      label: '254'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-254 ]
+  -
+      id: '255'
+      label: '255'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-255 ]
+  -
+      id: '256'
+      label: '256'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-256 ]
+  -
+      id: '257'
+      label: '257'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-257 ]
+  -
+      id: '258'
+      label: '258'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-258 ]
+  -
+      id: '259'
+      label: '259'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-259 ]
+  -
+      id: '260'
+      label: '260'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-260 ]
+  -
+      id: '261'
+      label: '261'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-261 ]
+  -
+      id: '262'
+      label: '262'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-262 ]
+  -
+      id: '263'
+      label: '263'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-263 ]
+  -
+      id: '264'
+      label: '264'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-264 ]
+  -
+      id: '265'
+      label: '265'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-265 ]
+  -
+      id: '266'
+      label: '266'
+      type: 
+      chapter: [ I.6. Tool Marks, I.8. Patina ]
+      figure: [ id: fig-266 ]
+  -
+      id: '267'
+      label: '267'
+      type: 
+      chapter: [ I.6. Tool Marks, I.8. Patina ]
+      figure: [ id: fig-267 ]
+  -
+      id: '268'
+      label: '268'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-268 ]
+  -
+      id: '269'
+      label: '269'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-269 ]
+  -
+      id: '270'
+      label: '270'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-270 ]
+  -
+      id: '271'
+      label: '271'
+      type: 
+      chapter: [ I.6. Tool Marks, II.9. Experimental Simulation ]
+      figure: [ id: fig-271 ]
+  -
+      id: '272'
+      label: '272'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-272 ]
+      thumbnail: "figures/static-inline/272.jpg"
+  -
+      id: '273'
+      label: '273'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 4 ]
+      figure: [ id: fig-273 ]
+  -
+      id: '274'
+      label: '274'
+      type: 
+      chapter: [ I.6. Tool Marks, Case Study 5 ]
+      figure: [ id: fig-274 ]
+  -
+      id: '275'
+      label: '275'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-275 ]
+  -
+      id: '276'
+      label: '276'
+      type: 
+      chapter: [ I.6. Tool Marks, Case Study 4 ]
+      figure: [ id: fig-276 ]
+  -
+      id: '277'
+      label: '277'
+      type: 
+      chapter: [ I.6. Tool Marks, Case Study 2 ]
+      figure: [ id: fig-277 ]
+      thumbnail: "figures/static-inline/277.jpg"
+  -
+      id: '278'
+      label: '278'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-278 ]
+  -
+      id: '279'
+      label: '279'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-279 ]
+  -
+      id: '280'
+      label: '280'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-280 ]
+  -
+      id: '281'
+      label: '281'
+      type: [ 3D Model, Annotated ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-281 ]
+  -
+      id: '282'
+      label: '282'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-282 ]
+  -
+      id: '283'
+      label: '283'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-283 ]
+  -
+      id: '284'
+      label: '284'
+      type: 
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: fig-284 ]
+  -
+      id: '285'
+      label: '285'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 4 ]
+      figure: [ id: fig-285 ]
+  -
+      id: '286'
+      label: '286'
+      type: [ 3D Model ]
+      chapter: [ I.6. Tool Marks, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 4 ]
+      figure: [ id: fig-286 ]
+  -
+      id: '287'
+      label: '287'
+      type: [ Annotated ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-287 ]
+  -
+      id: '288'
+      label: '288'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-288 ]
+  -
+      id: '289'
+      label: '289'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-289 ]
+  -
+      id: '290'
+      label: '290'
+      type: 
+      chapter: [ I.7. Gilding and Plating, Case Study 1 ]
+      figure: [ id: fig-290 ]
+  -
+      id: '291'
+      label: '291'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-291 ]
+  -
+      id: '292'
+      label: '292'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-292 ]
+  -
+      id: '293'
+      label: '293'
+      type: 
+      chapter: [ I.7. Gilding and Plating, I.9. Inlays and Overlays, II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-293 ]
+  -
+      id: '294'
+      label: '294'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-294 ]
+  -
+      id: '295'
+      label: '295'
+      type: [ Microscopy ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-295 ]
+  -
+      id: '296'
+      label: '296'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-296 ]
+      thumbnail: "figures/static-inline/296.jpg"
+  -
+      id: '297'
+      label: '297'
+      type: 
+      chapter: [ I.7. Gilding and Plating, I.9. Inlays and Overlays ]
+      figure: [ id: fig-297 ]
+      thumbnail: "figures/static-inline/297.jpg"
+  -
+      id: '298'
+      label: '298'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-298 ]
+  -
+      id: '299'
+      label: '299'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-299 ]
+  -
+      id: '300'
+      label: '300'
+      type: 
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-300 ]
+  -
+      id: '301'
+      label: '301'
+      type: [ Microscopy ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-301 ]
+  -
+      id: '302'
+      label: '302'
+      type: [ Microscopy ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-302 ]
+  -
+      id: '303'
+      label: '303'
+      type: [ Diagram ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-303 ]
+  -
+      id: '304'
+      label: '304'
+      type: [ Chart ]
+      chapter: [ I.7. Gilding and Plating ]
+      figure: [ id: fig-304 ]
+  -
+      id: '305'
+      label: '305'
+      type: [ Chart ]
+      chapter: [ I.7. Gilding and Plating, I.8. Patina, I.9. Inlays and Overlays, II.6. Surface Layer Analysis ]
+      figure: [ id: fig-305 ]
+  -
+      id: '306'
+      label: '306'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-306 ]
+  -
+      id: '307'
+      label: '307'
+      type: [ Chart ]
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-307 ]
+  -
+      id: '308'
+      label: '308'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-308 ]
+  -
+      id: '309'
+      label: '309'
+      type: 
+      chapter: [ I.8. Patina, I.9. Inlays and Overlays ]
+      figure: [ id: fig-309 ]
+  -
+      id: '310'
+      label: '310'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-310 ]
+  -
+      id: '311'
+      label: '311'
+      type: 
+      chapter: [ I.8. Patina, I.9. Inlays and Overlays ]
+      figure: [ id: fig-311 ]
+  -
+      id: '312'
+      label: '312'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-312 ]
+  -
+      id: '313'
+      label: '313'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-313 ]
+  -
+      id: '314'
+      label: '314'
+      type: [ Chart, Microscopy ]
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-314 ]
+  -
+      id: '315'
+      label: '315'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-315 ]
+  -
+      id: '316'
+      label: '316'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-316 ]
+  -
+      id: '317'
+      label: '317'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-317 ]
+  -
+      id: '318'
+      label: '318'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-318 ]
+  -
+      id: '319'
+      label: '319'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-319 ]
+  -
+      id: '320'
+      label: '320'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-320 ]
+  -
+      id: '321'
+      label: '321'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-321 ]
+  -
+      id: '322'
+      label: '322'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-322 ]
+  -
+      id: '323'
+      label: '323'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-323 ]
+  -
+      id: '324'
+      label: '324'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-324 ]
+  -
+      id: '325'
+      label: '325'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-325 ]
+  -
+      id: '326'
+      label: '326'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-326 ]
+  -
+      id: '327'
+      label: '327'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-327 ]
+      thumbnail: "figures/static-inline/327.jpg"
+  -
+      id: '328'
+      label: '328'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-328 ]
+  -
+      id: '329'
+      label: '329'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-329 ]
+  -
+      id: '330'
+      label: '330'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-330 ]
+      thumbnail: "figures/static-inline/330.jpg"
+  -
+      id: '331'
+      label: '331'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-331 ]
+  -
+      id: '332'
+      label: '332'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-332 ]
+  -
+      id: '333'
+      label: '333'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-333 ]
+  -
+      id: '334'
+      label: '334'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-334 ]
+  -
+      id: '335'
+      label: '335'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-335 ]
+  -
+      id: '336'
+      label: '336'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-336 ]
+  -
+      id: '337'
+      label: '337'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-337 ]
+  -
+      id: '338'
+      label: '338'
+      type: [ Chart ]
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-338 ]
+  -
+      id: '339'
+      label: '339'
+      type: 
+      chapter: [ I.8. Patina ]
+      figure: [ id: fig-339 ]
+  -
+      id: '340'
+      label: '340'
+      type: [ Diagram ]
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-340 ]
+  -
+      id: '341'
+      label: '341'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-341 ]
+  -
+      id: '342'
+      label: '342'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-342 ]
+  -
+      id: '343'
+      label: '343'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-343 ]
+  -
+      id: '344'
+      label: '344'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-344 ]
+  -
+      id: '345'
+      label: '345'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-345 ]
+  -
+      id: '346'
+      label: '346'
+      type: [ Annotated ]
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-346 ]
+  -
+      id: '347'
+      label: '347'
+      type: [ Annotated ]
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-347 ]
+  -
+      id: '348'
+      label: '348'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-348 ]
+  -
+      id: '349'
+      label: '349'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-349 ]
+  -
+      id: '350'
+      label: '350'
+      type: 
+      chapter: [ I.9. Inlays and Overlays, II.5. Metal Analysis ]
+      figure: [ id: fig-350 ]
+  -
+      id: '351'
+      label: '351'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-351 ]
+  -
+      id: '352'
+      label: '352'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-352 ]
+  -
+      id: '353'
+      label: '353'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-353 ]
+  -
+      id: '354'
+      label: '354'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-354 ]
+  -
+      id: '355'
+      label: '355'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-355 ]
+  -
+      id: '356'
+      label: '356'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-356 ]
+  -
+      id: '357'
+      label: '357'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-357 ]
+  -
+      id: '358'
+      label: '358'
+      type: [ X-radiography ]
+      chapter: [ I.9. Inlays and Overlays, II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-358 ]
+  -
+      id: '359'
+      label: '359'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-359 ]
+  -
+      id: '360'
+      label: '360'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-360 ]
+  -
+      id: '361'
+      label: '361'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-361 ]
+  -
+      id: '362'
+      label: '362'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-362 ]
+  -
+      id: '363'
+      label: '363'
+      type: 
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-363 ]
+  -
+      id: '364'
+      label: '364'
+      type: [ Annotated ]
+      chapter: [ I.9. Inlays and Overlays ]
+      figure: [ id: fig-364 ]
+  -
+      id: '365'
+      label: '365'
+      type: 
+      chapter: 
+      figure: [ id: fig-365 ]
+  -
+      id: '366'
+      label: '366'
+      type: 
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, II.4. Measurements of Dimension ]
+      figure: [ id: fig-366 ]
+  -
+      id: '367'
+      label: '367'
+      type: [ X-radiography, Annotated ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 1 ]
+      figure: [ id: fig-367 ]
+  -
+      id: '368'
+      label: '368'
+      type: [ Chart ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam ]
+      figure: [ id: fig-368 ]
+  -
+      id: '369'
+      label: '369'
+      type: 
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-369 ]
+  -
+      id: '370'
+      label: '370'
+      type: 
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-370 ]
+  -
+      id: '371'
+      label: '371'
+      type: [ Graph ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-371 ]
+  -
+      id: '372'
+      label: '372'
+      type: [ Diagram ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-372 ]
+      thumbnail: "figures/static-inline/372.jpg"
+  -
+      id: '373'
+      label: '373'
+      type: [ Diagram ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-373 ]
+      thumbnail: "figures/static-inline/373.jpg"
+  -
+      id: '374'
+      label: '374'
+      type: [ 3D Model, Diagram ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-374 ]
+  -
+      id: '375'
+      label: '375'
+      type: [ 3D Model ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-375 ]
+  -
+      id: '376'
+      label: '376'
+      type: [ 3D Model ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 7 ]
+      figure: [ id: fig-376 ]
+  -
+      id: '377'
+      label: '377'
+      type: [ 3D Model ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture ]
+      figure: [ id: fig-377 ]
+  -
+      id: '378'
+      label: '378'
+      type: [ X-radiography, Annotated ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, II.4. Measurements of Dimension ]
+      figure: [ id: fig-378 ]
+  -
+      id: '379'
+      label: '379'
+      type: [ 3D Model ]
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, II.4. Measurements of Dimension, Case Study 1 ]
+      figure: [ id: fig-379 ]
+  -
+      id: '380'
+      label: '380'
+      type: 
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 1 ]
+      figure: [ id: fig-380 ]
+  -
+      id: '381'
+      label: '381'
+      type: 
+      chapter: [ II.2. Photography and Other Imaging Techniques for the Visualization of a Sculpture, Case Study 1 ]
+      figure: [ id: fig-381 ]
+  -
+      id: '382'
+      label: '382'
+      type: [ Diagram ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-382 ]
+  -
+      id: '383'
+      label: '383'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-383 ]
+  -
+      id: '384'
+      label: '384'
+      type: [ Diagram ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-384 ]
+  -
+      id: '385'
+      label: '385'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-385 ]
+  -
+      id: '386'
+      label: '386'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-386 ]
+  -
+      id: '387'
+      label: '387'
+      type: [ Diagram ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-387 ]
+  -
+      id: '388'
+      label: '388'
+      type: [ Chart ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-388 ]
+  -
+      id: '389'
+      label: '389'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-389 ]
+  -
+      id: '390'
+      label: '390'
+      type: [ X-radiography, 360-Degree ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-390 ]
+  -
+      id: '391'
+      label: '391'
+      type: [ Diagram ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-391 ]
+  -
+      id: '392'
+      label: '392'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-392 ]
+  -
+      id: '393'
+      label: '393'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-393 ]
+  -
+      id: '394'
+      label: '394'
+      type: 
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-394 ]
+  -
+      id: '395'
+      label: '395'
+      type: 
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-395 ]
+  -
+      id: '396'
+      label: '396'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-396 ]
+  -
+      id: '397'
+      label: '397'
+      type: [ Diagram ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-397 ]
+  -
+      id: '398'
+      label: '398'
+      type: [ X-radiography, Annotated ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, II.4. Measurements of Dimension ]
+      figure: [ id: fig-398 ]
+  -
+      id: '399'
+      label: '399'
+      type: [ X-radiography, Annotated ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-399 ]
+  -
+      id: '400'
+      label: '400'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-400 ]
+  -
+      id: '401'
+      label: '401'
+      type: [ X-radiography, Annotated ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, Case Study 4 ]
+      figure: [ id: fig-401 ]
+  -
+      id: '402'
+      label: '402'
+      type: [ Graph ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-402 ]
+  -
+      id: '403'
+      label: '403'
+      type: [ X-radiography, 360-Degree ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, Case Study 4 ]
+      figure: [ id: fig-403 ]
+  -
+      id: '404'
+      label: '404'
+      type: [ X-radiography ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior, Case Study 4 ]
+      figure: [ id: fig-404 ]
+  -
+      id: '405'
+      label: '405'
+      type: 
+      chapter: [ II.4. Measurements of Dimension, Case Study 5 ]
+      figure: [ id: fig-405 ]
+  -
+      id: '406'
+      label: '406'
+      type: 
+      chapter: [ II.4. Measurements of Dimension, Case Study 5 ]
+      figure: [ id: fig-406 ]
+  -
+      id: '407'
+      label: '407'
+      type: 
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-407 ]
+  -
+      id: '408'
+      label: '408'
+      type: [ Annotated ]
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-408 ]
+  -
+      id: '409'
+      label: '409'
+      type: 
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-409 ]
+  -
+      id: '410'
+      label: '410'
+      type: [ Annotated ]
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-410 ]
+  -
+      id: '411'
+      label: '411'
+      type: 
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-411 ]
+  -
+      id: '412'
+      label: '412'
+      type: 
+      chapter: [ II.4. Measurements of Dimension ]
+      figure: [ id: fig-412 ]
+  -
+      id: '413'
+      label: '413'
+      type: 
+      chapter: [ II.5. Metal Analysis, II.8. Dating Methods ]
+      figure: [ id: fig-413 ]
+  -
+      id: '414'
+      label: '414'
+      type: 
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-414 ]
+      thumbnail: "figures/static-inline/414.jpg"
+  -
+      id: '415'
+      label: '415'
+      type: [ Annotated ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-415 ]
+  -
+      id: '416'
+      label: '416'
+      type: 
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-416 ]
+  -
+      id: '417'
+      label: '417'
+      type: 
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-417 ]
+  -
+      id: '418'
+      label: '418'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-418 ]
+  -
+      id: '419'
+      label: '419'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-419 ]
+  -
+      id: '420'
+      label: '420'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-420 ]
+  -
+      id: '421'
+      label: '421'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-421 ]
+      thumbnail: "figures/static-inline/421.jpg"
+  -
+      id: '422'
+      label: '422'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-422 ]
+      thumbnail: "figures/static-inline/422.jpg"
+  -
+      id: '423'
+      label: '423'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-423 ]
+      thumbnail: "figures/static-inline/423.jpg"
+  -
+      id: '424'
+      label: '424'
+      type: [ Microscopy ]
+      chapter: [ II.5. Metal Analysis ]
+      figure: [ id: fig-424 ]
+  -
+      id: '425'
+      label: '425'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-425 ]
+  -
+      id: '426'
+      label: '426'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-426 ]
+  -
+      id: '427'
+      label: '427'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis, Case Study 5 ]
+      figure: [ id: fig-427 ]
+  -
+      id: '428'
+      label: '428'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis, Case Study 5 ]
+      figure: [ id: fig-428 ]
+  -
+      id: '429'
+      label: '429'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-429 ]
+  -
+      id: '430'
+      label: '430'
+      type: [ Microscopy ]
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-430 ]
+      thumbnail: "figures/static-inline/430.jpg"
+  -
+      id: '431'
+      label: '431'
+      type: 
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-431 ]
+  -
+      id: '432'
+      label: '432'
+      type: 
+      chapter: [ II.7. Core Analysis ]
+      figure: [ id: fig-432 ]
+      thumbnail: "figures/static-inline/432.jpg"
+  -
+      id: '433'
+      label: '433'
+      type: [ Graph ]
+      chapter: [ II.8. Dating Methods ]
+      figure: [ id: fig-433 ]
+  -
+      id: '434'
+      label: '434'
+      type: [ Diagram ]
+      chapter: [ II.8. Dating Methods ]
+      figure: [ id: fig-434 ]
+  -
+      id: '435'
+      label: '435'
+      type: [ Graph ]
+      chapter: [ II.8. Dating Methods ]
+      figure: [ id: fig-435 ]
+  -
+      id: '436'
+      label: '436'
+      type: 
+      chapter: [ II.8. Dating Methods ]
+      figure: [ id: fig-436 ]
+  -
+      id: '437'
+      label: '437'
+      type: 
+      chapter: [ II.9. Experimental Simulation ]
+      figure: [ id: fig-437 ]
+  -
+      id: '438'
+      label: '438'
+      type: 
+      chapter: [ II.9. Experimental Simulation ]
+      figure: [ id: fig-438 ]
+  -
+      id: '439'
+      label: '439'
+      type: 
+      chapter: [ II.9. Experimental Simulation ]
+      figure: [ id: fig-439 ]
+  -
+      id: '440'
+      label: '440'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-440 ]
+  -
+      id: '441'
+      label: '441'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-441 ]
+  -
+      id: '442'
+      label: '442'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-442 ]
+  -
+      id: '443'
+      label: '443'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-443 ]
+  -
+      id: '444'
+      label: '444'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-444 ]
+  -
+      id: '445'
+      label: '445'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-445 ]
+  -
+      id: '446'
+      label: '446'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-446 ]
+  -
+      id: '447'
+      label: '447'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-447 ]
+      thumbnail: "figures/static-inline/447.jpg"
+  -
+      id: '448'
+      label: '448'
+      type: [ Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-448 ]
+  -
+      id: '449'
+      label: '449'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-449 ]
+  -
+      id: '450'
+      label: '450'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-450 ]
+  -
+      id: '451'
+      label: '451'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-451 ]
+  -
+      id: '452'
+      label: '452'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-452 ]
+  -
+      id: '453'
+      label: '453'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-453 ]
+  -
+      id: '454'
+      label: '454'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-454 ]
+  -
+      id: '455'
+      label: '455'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-455 ]
+  -
+      id: '456'
+      label: '456'
+      type: [ Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-456 ]
+  -
+      id: '457'
+      label: '457'
+      type: [ Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-457 ]
+  -
+      id: '458'
+      label: '458'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-458 ]
+  -
+      id: '459'
+      label: '459'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-459 ]
+  -
+      id: '460'
+      label: '460'
+      type: [ 3D Model, Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-460 ]
+  -
+      id: '461'
+      label: '461'
+      type: 
+      chapter: 
+      figure: [ id: fig-461 ]
+  -
+      id: '462'
+      label: '462'
+      type: [ X-radiography ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-462 ]
+  -
+      id: '463'
+      label: '463'
+      type: [ 3D Model, Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-463 ]
+  -
+      id: '464'
+      label: '464'
+      type: [ X-radiography ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-464 ]
+      thumbnail: "figures/static-inline/464.jpg"
+  -
+      id: '465'
+      label: '465'
+      type: [ Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-465 ]
+  -
+      id: '466'
+      label: '466'
+      type: [ Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-466 ]
+  -
+      id: '467'
+      label: '467'
+      type: [ X-radiography, Annotated ]
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-467 ]
+  -
+      id: '468'
+      label: '468'
+      type: 
+      chapter: [ Case Study 1 ]
+      figure: [ id: fig-468 ]
+  -
+      id: '469'
+      label: '469'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-469 ]
+  -
+      id: '470'
+      label: '470'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-470 ]
+  -
+      id: '471'
+      label: '471'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-471 ]
+  -
+      id: '472'
+      label: '472'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-472 ]
+  -
+      id: '473'
+      label: '473'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-473 ]
+  -
+      id: '474'
+      label: '474'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-474 ]
+  -
+      id: '475'
+      label: '475'
+      type: [ Microscopy ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-475 ]
+  -
+      id: '476'
+      label: '476'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-476 ]
+      thumbnail: "figures/static-inline/476.jpg"
+  -
+      id: '477'
+      label: '477'
+      type: [ X-radiography ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-477 ]
+  -
+      id: '478'
+      label: '478'
+      type: [ X-radiography, Annotated ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-478 ]
+  -
+      id: '479'
+      label: '479'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-479 ]
+  -
+      id: '480'
+      label: '480'
+      type: [ X-radiography ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-480 ]
+  -
+      id: '481'
+      label: '481'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-481 ]
+  -
+      id: '482'
+      label: '482'
+      type: [ X-radiography ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-482 ]
+  -
+      id: '483'
+      label: '483'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-483 ]
+  -
+      id: '484'
+      label: '484'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-484 ]
+  -
+      id: '485'
+      label: '485'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-485 ]
+  -
+      id: '486'
+      label: '486'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-486 ]
+  -
+      id: '487'
+      label: '487'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-487 ]
+  -
+      id: '488'
+      label: '488'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-488 ]
+      thumbnail: "figures/static-inline/488.jpg"
+  -
+      id: '489'
+      label: '489'
+      type: [ Graph ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-489 ]
+  -
+      id: '490'
+      label: '490'
+      type: [ Annotated ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-490 ]
+  -
+      id: '491'
+      label: '491'
+      type: [ Annotated ]
+      chapter: 
+      figure: [ id: fig-491 ]
+  -
+      id: '492'
+      label: '492'
+      type: [ Annotated ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-492 ]
+  -
+      id: '493'
+      label: '493'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-493 ]
+  -
+      id: '494'
+      label: '494'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-494 ]
+  -
+      id: '495'
+      label: '495'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-495 ]
+  -
+      id: '496'
+      label: '496'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-496 ]
+  -
+      id: '497'
+      label: '497'
+      type: 
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-497 ]
+  -
+      id: '498'
+      label: '498'
+      type: [ X-radiography, 360-Degree ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-498 ]
+  -
+      id: '499'
+      label: '499'
+      type: [ X-radiography ]
+      chapter: [ Case Study 2 ]
+      figure: [ id: fig-499 ]
+  -
+      id: '500'
+      label: '500'
+      type: 
+      chapter: [ Case Study 3 ]
+      figure: [ id: fig-500 ]
+  -
+      id: '501'
+      label: '501'
+      type: 
+      chapter: [ Case Study 3 ]
+      figure: [ id: fig-501 ]
+  -
+      id: '502'
+      label: '502'
+      type: [ X-radiography ]
+      chapter: [ Case Study 3 ]
+      figure: [ id: fig-502 ]
+  -
+      id: '503'
+      label: '503'
+      type: [ 3D Model ]
+      chapter: [ Case Study 3 ]
+      figure: [ id: fig-503 ]
+  -
+      id: '504'
+      label: '504'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-504 ]
+  -
+      id: '505'
+      label: '505'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-505 ]
+  -
+      id: '506'
+      label: '506'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-506 ]
+  -
+      id: '507'
+      label: '507'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-507 ]
+  -
+      id: '508'
+      label: '508'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-508 ]
+  -
+      id: '509'
+      label: '509'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-509 ]
+  -
+      id: '510'
+      label: '510'
+      type: [ X-radiography ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-510 ]
+  -
+      id: '511'
+      label: '511'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-511 ]
+  -
+      id: '512'
+      label: '512'
+      type: [ Graph ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 4 ]
+      figure: [ id: fig-512 ]
+      thumbnail: "figures/static-inline/512.jpg"
+  -
+      id: '513'
+      label: '513'
+      type: [ X-radiography ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-513 ]
+  -
+      id: '514'
+      label: '514'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-514 ]
+  -
+      id: '515'
+      label: '515'
+      type: [ X-radiography, Annotated ]
+      chapter: 
+      figure: [ id: fig-515 ]
+  -
+      id: '516'
+      label: '516'
+      type: [ X-radiography, Annotated ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-516 ]
+  -
+      id: '517'
+      label: '517'
+      type: [ Graph ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-517 ]
+  -
+      id: '518'
+      label: '518'
+      type: [ Graph ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 4 ]
+      figure: [ id: fig-518 ]
+  -
+      id: '519'
+      label: '519'
+      type: [ Graph ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-519 ]
+  -
+      id: '520'
+      label: '520'
+      type: 
+      chapter: 
+      figure: [ id: fig-520 ]
+      thumbnail: "figures/static-inline/520.jpg"
+  -
+      id: '521'
+      label: '521'
+      type: 
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-521 ]
+  -
+      id: '522'
+      label: '522'
+      type: [ Map ]
+      chapter: [ Case Study 4 ]
+      figure: [ id: fig-522 ]
+  -
+      id: '523'
+      label: '523'
+      type: 
+      chapter: [ Case Study 5 ]
+      figure: [ id: fig-523 ]
+  -
+      id: '524'
+      label: '524'
+      type: [ X-radiography, Annotated ]
+      chapter: [ Case Study 5 ]
+      figure: [ id: fig-524 ]
+  -
+      id: '525'
+      label: '525'
+      type: [ Graph ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 5 ]
+      figure: [ id: fig-525 ]
+  -
+      id: '526'
+      label: '526'
+      type: 
+      chapter: [ Case Study 5 ]
+      figure: [ id: fig-526 ]
+  -
+      id: '527'
+      label: '527'
+      type: 
+      chapter: [ Case Study 5 ]
+      figure: [ id: fig-527 ]
+  -
+      id: '528'
+      label: '528'
+      type: [ Graph ]
+      chapter: [ II.1. Planning and Documenting Your Technical Exam, Case Study 5 ]
+      figure: [ id: fig-528 ]
+      thumbnail: "figures/static-inline/528.jpg"
+  -
+      id: '529'
+      label: '529'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-529 ]
+  -
+      id: '530'
+      label: '530'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-530 ]
+  -
+      id: '531'
+      label: '531'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-531 ]
+  -
+      id: '532'
+      label: '532'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-532 ]
+  -
+      id: '533'
+      label: '533'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-533 ]
+  -
+      id: '534'
+      label: '534'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-534 ]
+  -
+      id: '535'
+      label: '535'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-535 ]
+  -
+      id: '536'
+      label: '536'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-536 ]
+  -
+      id: '537'
+      label: '537'
+      type: [ Annotated ]
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-537 ]
+  -
+      id: '538'
+      label: '538'
+      type: 
+      chapter: 
+      figure: [ id: fig-538 ]
+  -
+      id: '539'
+      label: '539'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-539 ]
+  -
+      id: '540'
+      label: '540'
+      type: [ Annotated ]
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-540 ]
+  -
+      id: '541'
+      label: '541'
+      type: [ Annotated ]
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-541 ]
+  -
+      id: '542'
+      label: '542'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-542 ]
+  -
+      id: '543'
+      label: '543'
+      type: 
+      chapter: [ Case Study 6 ]
+      figure: [ id: fig-543 ]
+  -
+      id: '544'
+      label: '544'
+      type: 
+      chapter: [ Case Study 7 ]
+      figure: [ id: fig-544 ]
+  -
+      id: '545'
+      label: '545'
+      type: [ X-radiography, Annotated ]
+      chapter: [ Case Study 7 ]
+      figure: [ id: fig-545 ]
+  -
+      id: '546'
+      label: '546'
+      type: 
+      chapter: [ Case Study 7 ]
+      figure: [ id: fig-546 ]
+  -
+      id: '547'
+      label: '547'
+      type: 
+      chapter: [ Case Study 7 ]
+      figure: [ id: fig-547 ]
+  -
+      id: '548'
+      label: '548'
+      type: 
+      chapter: [ Case Study 7 ]
+      figure: [ id: fig-548 ]
+  -
+      id: '549'
+      label: '549'
+      type: 
+      chapter: 
+      figure: [ id: fig-549 ]
+  -
+      id: '550'
+      label: '550'
+      type: 
+      chapter: 
+      figure: [ id: fig-550 ]
+      thumbnail: "figures/static-inline/550.jpg"
+  -
+      id: '551'
+      label: '551'
+      type: 
+      chapter: 
+      figure: [ id: fig-551 ]
+  -
+      id: '552'
+      label: '552'
+      type: 
+      chapter: 
+      figure: [ id: fig-552 ]
+  -
+      id: '553'
+      label: '553'
+      type: 
+      chapter: 
+      figure: [ id: fig-553 ]
+  -
+      id: '554'
+      label: '554'
+      type: 
+      chapter: 
+      figure: [ id: fig-554 ]
+  -
+      id: '555'
+      label: '555'
+      type: 
+      chapter: 
+      figure: [ id: fig-555 ]
+  -
+      id: '556'
+      label: '556'
+      type: 
+      chapter: 
+      figure: [ id: fig-556 ]
+  -
+      id: '557'
+      label: '557'
+      type: 
+      chapter: 
+      figure: [ id: fig-557 ]
+  -
+      id: '558'
+      label: '558'
+      type: [ Diagram ]
+      chapter: 
+      figure: [ id: fig-558 ]
+  -
+      id: '559'
+      label: '559'
+      type: [ Annotated ]
+      chapter: 
+      figure: [ id: fig-559 ]
+  -
+      id: '560'
+      label: '560'
+      type: 
+      chapter: 
+      figure: [ id: fig-560 ]
+  -
+      id: '561'
+      label: '561'
+      type: 
+      chapter: 
+      figure: [ id: fig-561 ]
+  -
+      id: '562'
+      label: '562'
+      type: 
+      chapter: 
+      figure: [ id: fig-562 ]
+  -
+      id: '563'
+      label: '563'
+      type: 
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-563 ]
+  -
+      id: '564'
+      label: '564'
+      type: [ X-radiography, 360-Degree ]
+      chapter: [ II.3. Radiography and Tomography for the Visualization of the Metal Wall and the Interior ]
+      figure: [ id: fig-564 ]
+  -
+      id: 'vid-01'
+      label: 'Video 1'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-01 ]
+  -
+      id: 'vid-02'
+      label: 'Video 2'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-02 ]
+  -
+      id: 'vid-03'
+      label: 'Video 3'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-03 ]
+  -
+      id: 'vid-04'
+      label: 'Video 4'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-04 ]
+  -
+      id: 'vid-05'
+      label: 'Video 5'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-05 ]
+  -
+      id: 'vid-06'
+      label: 'Video 6'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-06 ]
+  -
+      id: 'vid-07'
+      label: 'Video 7'
+      type: [ Video ]
+      chapter: 
+      figure: [ id: vid-07 ]
+  -
+      id: 'vid-08'
+      label: 'Video 8'
+      type: [ Video ]
+      chapter: [ General Introduction ]
+      figure: [ id: vid-08 ]
+  -
+      id: 'vid-09'
+      label: 'Video 9'
+      type: [ Video ]
+      chapter: [ General Introduction, I.3. Casting Defects ]
+      figure: [ id: vid-09 ]
+  -
+      id: 'vid-10'
+      label: 'Video 10'
+      type: [ Video ]
+      chapter: [ General Introduction, I.6. Tool Marks ]
+      figure: [ id: vid-10 ]
+  -
+      id: 'vid-11'
+      label: 'Video 11'
+      type: [ Video ]
+      chapter: [ General Introduction, I.6. Tool Marks, Case Study 7 ]
+      figure: [ id: vid-11 ]
+  -
+      id: 'vid-12'
+      label: 'Video 12'
+      type: [ Video ]
+      chapter: [ I.5. Assembly, II.9. Experimental Simulation, Case Study 1 ]
+      figure: [ id: vid-12 ]
+  -
+      id: 'vid-13'
+      label: 'Video 13'
+      type: [ Video ]
+      chapter: [ I.6. Tool Marks ]
+      figure: [ id: vid-13 ]
+  -
+      id: 'vid-14'
+      label: 'Video 14'
+      type: [ Video ]
+      chapter: [ I.8. Patina ]
+      figure: [ id: vid-14 ]
+  -
+      id: 'vid-15'
+      label: 'Video 15'
+      type: [ Video ]
+      chapter: [ II.8. Dating Methods ]
+      figure: [ id: vid-15 ]
+  -
+      id: 'vid-16'
+      label: 'Video 16'
+      type: [ Video ]
+      chapter: [ Case Study 7 ]
+      figure: [ id: vid-16 ]
+  -
+      id: 'vid-17'
+      label: 'Video 17'
+      type: [ Video ]
+      chapter: 
+      figure: [ id: vid-17 ]
+  -
+      id: 'vid-18'
+      label: 'Video 18'
+      type: [ Video ]
+      chapter: 
+      figure: [ id: vid-18 ]

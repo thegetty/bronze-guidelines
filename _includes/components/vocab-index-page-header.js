@@ -1,7 +1,9 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
 // based on page-header.js except adds editorsElement and
-// additionalContributorsElement, lines 54–78
+// additionalContributorsElement, lines 55–79
+// also called label through pageTitle()
+// also added handling for contributor_as_it_appears
 //
 const { html } = require('~lib/common-tags')
 const path = require('path')
@@ -17,18 +19,19 @@ module.exports = function(eleventyConfig) {
   const pageTitle = eleventyConfig.getFilter('pageTitle')
   const slugify = eleventyConfig.getFilter('slugify')
 
-  const { imageDir, pageLabelDivider } = eleventyConfig.globalData.config.params
+  const { labelDivider } = eleventyConfig.globalData.config.pageTitle
+  const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function (params) {
     const {
-      contributor_byline,
       image,
       label,
       pageContributors,
       subtitle,
       title,
-      edited_by,
-      additional_contributors
+      contributor_as_it_appears,
+      additional_contributors,
+      short_title: shortTitle
     } = params
 
     const classes = ['quire-page__header', 'hero']
@@ -36,10 +39,6 @@ module.exports = function(eleventyConfig) {
     if (title == 'title page' || title == 'half title page') {
       classes.push('is-screen-only')
     }
-
-    const pageLabel = label
-      ? `<span class="label">${label}<span class="visually-hidden">${pageLabelDivider}</span></span>`
-      : ''
 
     const imageElement = image
       ? html`
@@ -51,19 +50,19 @@ module.exports = function(eleventyConfig) {
         `
       : ''
 
-    const editorsElement = edited_by
+    const editorsElement = contributor_as_it_appears
       ? html`
           <p class="edited-by">
-            Edited by ${edited_by}
+            ${contributor_as_it_appears}
           </p>
         `
       : ''
 
     const additionalContributorsElement = additional_contributors
       ? html`
-          <p class="backmatter additional-contributors">
-            Additional Contributors ${additional_contributors}
-          </p>
+          <div class="backmatter additional-contributors">
+            ${markdownify(additional_contributors)}
+          </div>
         `
       : ''
 
@@ -77,13 +76,18 @@ module.exports = function(eleventyConfig) {
         `
       : ''
 
+    const runningFeetTitle = shortTitle ? shortTitle : title
+
     return html`
       <section class="${classes}">
         <div class="hero-body">
           <h1 class="quire-page__header__title" id="${slugify(title)}">
-            ${pageLabel}
-            ${pageTitle({ title, subtitle })}
+            ${pageTitle({ label, title, subtitle })}
           </h1>
+          <div class="pdf-footers">
+            <span class="pdf-footers__label">${markdownify(label)}</span>
+            <span class="pdf-footers__title">${markdownify(runningFeetTitle)}</span>
+          </div>
           ${contributorsElement}
         </div>
       </section>

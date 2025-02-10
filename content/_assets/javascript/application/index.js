@@ -1,5 +1,11 @@
 //@ts-check
-
+// CUSTOMIZED FILE -- Bronze Guidelines
+// Adds script for iframe-based image viewer
+// Allow only one pop-up to be open at a time
+// Fix max-width of pop-ups, especially for narrower Visual Atlas text areas
+// Added copyURL() function to strip zero-width spaces from URLs on copy
+// Manage loading indicator for case study pages
+//
 /**
  * @fileOverview
  * @name application.js
@@ -8,18 +14,23 @@
  */
 
 // Stylesheets
-import "../../styles/application.scss";
-import "../../styles/custom.css";
+import '../../fonts/index.scss';
+import '../../styles/application.scss'
+import '../../styles/screen.scss'
+import '../../styles/custom.css'
 
 // Modules (feel free to define your own and import here)
-import scrollToHash from "./scroll-to-hash"
-import Search from "../../../../_plugins/search/search.js";
-import "./canvas-panel";
-import { goToCanvasState, setUpUIEventHandlers } from "./canvas-panel";
-import "./soundcloud-api";
+import './canvas-panel'
+import './soundcloud-api.min.js'
+import { goToFigureState, setUpUIEventHandlers } from './canvas-panel'
+import Accordion from './accordion'
+import Search from '../../../../_plugins/search/search.js'
+import scrollToHash from './scroll-to-hash'
+import './iframe-viewer'
+import '@google/model-viewer'
 
 // array of leaflet instances
-const mapArr = [];
+const mapArr = []
 
 /**
  * toggleMenu
@@ -27,41 +38,19 @@ const mapArr = [];
  * This function is bound to the global window object so it can be called from
  * templates without additional binding.
  */
-window["toggleMenu"] = () => {
-  const menu = document.getElementById("site-menu");
+window['toggleMenu'] = () => {
+  const menu = document.getElementById('site-menu')
   const catalogEntryImage = document.querySelector(
-    ".side-by-side > .quire-entry__image-wrap > .quire-entry__image"
-  );
-  const menuAriaStatus = menu.getAttribute("aria-expanded");
-  menu.classList.toggle("is-expanded", !menu.classList.contains("is-expanded"));
-  if (menuAriaStatus === "true") {
-    catalogEntryImage && catalogEntryImage.classList.remove("menu_open")
-    menu.setAttribute("aria-expanded", "false");
+    '.side-by-side > .quire-entry__image-wrap > .quire-entry__image'
+  )
+  const menuAriaStatus = menu.getAttribute('aria-expanded')
+  menu.classList.toggle('is-expanded', !menu.classList.contains('is-expanded'))
+  if (menuAriaStatus === 'true') {
+    catalogEntryImage && catalogEntryImage.classList.remove('menu_open')
+    menu.setAttribute('aria-expanded', 'false')
   } else {
-    catalogEntryImage && catalogEntryImage.classList.add("menu_open")
-    menu.setAttribute("aria-expanded", "true");
-  }
-};
-
-/**
- * activeMenuPage
- * @description This function is called on pageSetup to go through the navigation
- * (#nav in partials/menu.html) and find all the anchor tags.  Then find the user's
- * current URL directory. Then it goes through the array of anchor tags and if the
- * current URL directory matches the nav anchor, it's the active link.
- */
-function activeMenuPage() {
-  let nav = document.getElementById("nav");
-  let anchor = nav.getElementsByTagName("a");
-  let current =
-    window.location.protocol +
-    "//" +
-    window.location.host +
-    window.location.pathname;
-  for (var i = 0; i < anchor.length; i++) {
-    if (anchor[i].href == current) {
-      anchor[i].className = "active";
-    }
+    catalogEntryImage && catalogEntryImage.classList.add('menu_open')
+    menu.setAttribute('aria-expanded', 'true')
   }
 }
 
@@ -71,101 +60,103 @@ function activeMenuPage() {
  * This function is bound to the global window object so it can be called from
  * templates without additinoal binding.
  */
-window["toggleSearch"] = () => {
-  let searchControls = document.getElementById("js-search");
-  let searchInput = document.getElementById("js-search-input");
-  let searchAriaStatus = searchControls.getAttribute("aria-expanded");
+window['toggleSearch'] = () => {
+  let searchControls = document.getElementById('js-search')
+  let searchInput = document.getElementById('js-search-input')
+  let searchAriaStatus = searchControls.getAttribute('aria-expanded')
   searchControls.classList.toggle(
-    "is-active",
-    !searchControls.classList.contains("is-active")
-  );
-  if (searchAriaStatus === "true") {
-    searchControls.setAttribute("aria-expanded", "false");
+    'is-active',
+    !searchControls.classList.contains('is-active')
+  )
+  if (searchAriaStatus === 'true') {
+    searchControls.setAttribute('aria-expanded', 'false')
   } else {
-    searchInput.focus();
-    searchControls.setAttribute("aria-expanded", "true");
+    searchInput.focus()
+    searchControls.setAttribute('aria-expanded', 'true')
   }
-};
+}
 
 /**
  * Paul Frazee's easy templating function
  * https://twitter.com/pfrazee/status/1223249561063477250?s=20
  */
 function createHtml(tag, attributes, ...children) {
-  const element = document.createElement(tag);
+  const element = document.createElement(tag)
   for (let attribute in attributes) {
-    if (attribute === 'className') element.className = attributes[attribute];
-    else element.setAttribute(attribute, attributes[attribute]);
+    if (attribute === 'className') element.className = attributes[attribute]
+    else element.setAttribute(attribute, attributes[attribute])
   }
-  for (let child of children) element.append(child);
-  return element;
+  for (let child of children) element.append(child)
+  return element
 }
 
 /**
  * search
  * @description makes a search query using Lunr
  */
-window["search"] = () => {
-  let searchInput = document.getElementById("js-search-input");
-  let searchQuery = searchInput["value"];
-  let searchInstance = window["QUIRE_SEARCH"];
-  let resultsContainer = document.getElementById("js-search-results-list");
-  let resultsTemplate = document.getElementById("js-search-results-template");
+window['search'] = () => {
+  let searchInput = document.getElementById('js-search-input')
+  let searchQuery = searchInput['value']
+  let searchInstance = window['QUIRE_SEARCH']
+  let resultsContainer = document.getElementById('js-search-results-list')
+  let resultsTemplate = document.getElementById('js-search-results-template')
   if (searchQuery.length >= 3) {
-    let searchResults = searchInstance.search(searchQuery);
-    displayResults(searchResults);
+    let searchResults = searchInstance.search(searchQuery)
+    displayResults(searchResults)
   }
 
   function clearResults() {
-    resultsContainer.innerText = "";
+    resultsContainer.innerText = ''
   }
 
   function displayResults(results) {
-    clearResults();
+    clearResults()
     results.forEach(result => {
-      let clone = document.importNode(resultsTemplate.content, true);
-      let item = clone.querySelector(".js-search-results-item");
-      let title = clone.querySelector(".js-search-results-item-title");
-      let type = clone.querySelector(".js-search-results-item-type");
-      let length = clone.querySelector(".js-search-results-item-length");
-      item.href = result.url;
-      title.textContent = result.title;
-      type.textContent = result.type;
-      length.textContent = result.length;
-      resultsContainer.appendChild(clone);
-    });
+      let clone = document.importNode(resultsTemplate.content, true)
+      let item = clone.querySelector('.js-search-results-item')
+      let title = clone.querySelector('.js-search-results-item-title')
+      let type = clone.querySelector('.js-search-results-item-type')
+      let length = clone.querySelector('.js-search-results-item-length')
+      item.href = result.url
+      title.textContent = result.title
+      type.textContent = result.type
+      length.textContent = result.length
+      resultsContainer.appendChild(clone)
+    })
   }
-};
+}
 
 function onHashLinkClick(event) {
   // only override default link behavior if it points to the same page
-  const hash = event.target.hash;
-  if (event.target.pathname.includes(window.location.pathname)) {
+  const anchor = event.target.closest('a')
+  const hash = anchor.hash
+  if (anchor.pathname.includes(window.location.pathname)) {
     // prevent default scrolling behavior
-    event.preventDefault();
+    event.preventDefault()
     // ensure the hash is manually set after preventing default
-    window.location.hash = hash;
+    window.location.hash = hash
 
   }
-  scrollToHash(hash);
+  scrollToHash(hash)
 }
 
 function setupCustomScrollToHash() {
   const invalidHashLinkSelectors = [
     '[href="#"]',
     '[href="#0"]',
+    '.accordion-section__heading-link',
     '.q-figure__modal-link'
-  ];
+  ]
   const validHashLinkSelector =
     'a[href*="#"]' +
     invalidHashLinkSelectors
       .map((selector) => `:not(${selector})`)
-      .join('');
+      .join('')
   // Select all links with hashes, ignoring links that don't point anywhere
-  const validHashLinks = document.querySelectorAll(validHashLinkSelector);
+  const validHashLinks = document.querySelectorAll(validHashLinkSelector)
   validHashLinks.forEach((link) => {
-    link.addEventListener('click', onHashLinkClick);
-  });
+    link.addEventListener('click', onHashLinkClick)
+  })
 }
 
 /**
@@ -173,18 +164,18 @@ function setupCustomScrollToHash() {
  * @description Initial setup on first page load.
  */
 function globalSetup() {
-  let container = document.getElementById("container");
-  container.classList.remove("no-js");
-  var classNames = [];
+  let container = document.getElementById('container')
+  container.classList.remove('no-js')
+  var classNames = []
   if (navigator.userAgent.match(/(iPad|iPhone|iPod)/i))
-    classNames.push("device-ios");
+    classNames.push('device-ios')
 
-  if (navigator.userAgent.match(/android/i)) classNames.push("device-android");
+  if (navigator.userAgent.match(/android/i)) classNames.push('device-android')
 
-  if (classNames.length) classNames.push("on-device");
+  if (classNames.length) classNames.push('on-device')
 
-  loadSearchData();
-  setupCustomScrollToHash();
+  loadSearchData()
+  setupCustomScrollToHash()
 }
 
 /**
@@ -194,10 +185,10 @@ function globalSetup() {
  */
 function loadSearchData() {
   // Grab search data
-  const dataURL = document.getElementById('js-search').dataset.searchIndex;
+  const dataURL = document.getElementById('js-search').dataset.searchIndex
   if (!dataURL) {
-    console.warn('Search data url is undefined');
-    return;
+    console.warn('Search data url is undefined')
+    return
   }
   fetch(dataURL).then(async (response) => {
     const { ok, statusText, url } = response
@@ -205,9 +196,9 @@ function loadSearchData() {
       console.warn(`Search data ${statusText.toLowerCase()} at ${url}`)
       return
     }
-    const data = await response.json();
-    window["QUIRE_SEARCH"] = new Search(data);
-  });
+    const data = await response.json()
+    window['QUIRE_SEARCH'] = new Search(data)
+  })
 }
 
 /**
@@ -218,20 +209,20 @@ function loadSearchData() {
  */
 function mlaDate(date) {
   const options = {
-    month: "long"
-  };
-  const monthNum = date.getMonth();
-  let month;
-  if ([4, 5, 6].includes(monthNum)) {
-    let dateString = date.toLocaleDateString("en-US", options);
-    month = dateString.replace(/[^A-Za-z]+/, '');
-  } else {
-    month = (month === 8) ? "Sept" : date.toLocaleDateString("en-US", options).slice(0, 3);
-    month += '.';
+    month: 'long'
   }
-  const day = date.getDate();
-  const year = date.getFullYear();
-  return [day, month, year].join(' ');
+  const monthNum = date.getMonth()
+  let month
+  if ([4, 5, 6].includes(monthNum)) {
+    let dateString = date.toLocaleDateString('en-US', options)
+    month = dateString.replace(/[^A-Za-z]+/, '')
+  } else {
+    month = (month === 8) ? 'Sept' : date.toLocaleDateString('en-US', options).slice(0, 3)
+    month += '.'
+  }
+  const day = date.getDate()
+  const year = date.getFullYear()
+  return [day, month, year].join(' ')
 }
 
 /**
@@ -243,10 +234,10 @@ function mlaDate(date) {
  *
  */
 function setDate() {
-  const dateSpans = document.querySelectorAll(".cite-current-date");
-  const formattedDate = mlaDate(new Date());
+  const dateSpans = document.querySelectorAll('.cite-current-date')
+  const formattedDate = mlaDate(new Date())
   dateSpans.forEach(((dateSpan) => {
-    dateSpan.innerHTML = formattedDate;
+    dateSpan.innerHTML = formattedDate
   }))
 }
 
@@ -261,18 +252,33 @@ function setDate() {
 * @param {number} container margin
 */
 function setPositionInContainer(el, container) {
-  const margin = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--gap'));
-  const elRect = el.getBoundingClientRect();
-  const containerRect = container.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect()
+  // Computer width of content w/0 padding
+  const computedStyle = getComputedStyle(container)
+  const offsetLeft = parseFloat(computedStyle.paddingLeft)
+  const offsetRight = parseFloat(computedStyle.paddingRight)
+  const maxWidth = containerRect.width - offsetLeft - offsetRight
+  // Set max size of pop-up box
+  const setWidth = maxWidth > 400 ? 400 : maxWidth
+  // Size and position pop-up box
+  el.style.width = `${setWidth}px`
+  el.style.left = `50%`
+  el.style.transform = `translateX(-${setWidth/2}px)`
 
-  const leftDiff = containerRect.left - elRect.left;
-  const rightDiff = elRect.right - containerRect.right;
-  const halfElWidth = elRect.width/2;
-  // x
+  const elRect = el.getBoundingClientRect()
+
+  const leftDiff = containerRect.left - elRect.left
+  const rightDiff = elRect.right - containerRect.right
+  const halfElWidth = elRect.width/2
+
+  // Shift position if pop-up box is outside container
+  let offset = 0
   if (rightDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth+rightDiff+margin}px)`;
+    offset = offsetRight * .5
+    el.style.transform = `translateX(-${halfElWidth+rightDiff+offset}px)`
   } else if (leftDiff > 0) {
-    el.style.transform = `translateX(-${halfElWidth-leftDiff-margin}px)`;
+    offset = offsetLeft * 1.5
+    el.style.transform = `translateX(-${halfElWidth-leftDiff-offset}px)`
   }
   // @todo y
 }
@@ -286,53 +292,110 @@ function setPositionInContainer(el, container) {
  * citationPopupLinkText which is whatever text you it to say
  */
 function toggleCite() {
-  let expandables = document.querySelectorAll(".expandable [aria-expanded]");
+  let expandables = document.querySelectorAll('.expandable [aria-expanded]')
   for (let i = 0; i < expandables.length; i++) {
-    expandables[i].addEventListener("click", event => {
+    expandables[i].addEventListener('click', event => {
       // Allow these links to bubble up
-      event.stopPropagation();
-      let expanded = event.target.getAttribute("aria-expanded");
-      if (expanded === "false") {
-        event.target.setAttribute("aria-expanded", "true");
+      event.stopPropagation()
+      // Close any open pop-ups
+      for (let i = 0; i < expandables.length; i++) {
+        expandables[i].setAttribute('aria-expanded', 'false')
+        expandables[i].parentNode
+          .querySelector('.quire-citation__content')
+          .setAttribute('hidden', 'hidden')
+      }
+      let expanded = event.target.getAttribute('aria-expanded')
+      if (expanded === 'false') {
+        event.target.setAttribute('aria-expanded', 'true')
       } else {
-        event.target.setAttribute("aria-expanded", "false");
+        event.target.setAttribute('aria-expanded', 'false')
       }
       let content = event.target.parentNode.querySelector(
-        ".quire-citation__content"
-      );
+        '.quire-citation__content'
+      )
+      const contentContainer = content.closest('div.content')
+ 
       if (content) {
-        content.getAttribute("hidden");
-        if (typeof content.getAttribute("hidden") === "string") {
-          content.removeAttribute("hidden");
+        content.getAttribute('hidden')
+        if (typeof content.getAttribute('hidden') === 'string') {
+          content.removeAttribute('hidden')
         } else {
-          content.setAttribute("hidden", "hidden");
+          content.setAttribute('hidden', 'hidden')
         }
-        setPositionInContainer(content, document.documentElement);
+        setPositionInContainer(content, contentContainer)
       }
-    });
+    })
   }
-  document.addEventListener("click", event => {
-    let content = event.target.parentNode;
-    if (!content) return;
+  document.addEventListener('click', event => {
+    let content = event.target.parentNode
+    if (!content) return
     if (
-      content.classList.contains("quire-citation") ||
-      content.classList.contains("quire-citation__content")
+      content.classList.contains('quire-citation') ||
+      content.classList.contains('quire-citation__content')
     ) {
       // do nothing
     } else {
       // find all Buttons/Cites
-      let citeButtons = document.querySelectorAll(".quire-citation__button");
-      let citesContents = document.querySelectorAll(".quire-citation__content");
+      let citeButtons = document.querySelectorAll('.quire-citation__button')
+      let citesContents = document.querySelectorAll('.quire-citation__content')
       // hide all buttons
-      if (!citesContents) return;
+      if (!citesContents) return
       for (let i = 0; i < citesContents.length; i++) {
-        if (!citeButtons[i]) return;
-        citeButtons[i].setAttribute("aria-expanded", "false");
-        citesContents[i].setAttribute("hidden", "hidden");
+        if (!citeButtons[i]) return
+        citeButtons[i].setAttribute('aria-expanded', 'false')
+        citesContents[i].setAttribute('hidden', 'hidden')
       }
     }
-  });
+  })
 }
+
+/**
+ * @description 
+ * When a reader copies a URL, this removes the break character that was inserted 
+ * as a markdown rendering rule in _plugins/markdown/index.js for better URL line breaks
+ * https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event
+ */
+function copyURL() {
+  const links = document.querySelectorAll("a");
+  const breakCharacter = '​' // zero-width space
+  for (let i = 0; i < links.length; i++) {
+    links[i].addEventListener("copy", event => {
+      const selection = document.getSelection();
+      event.clipboardData.setData("text/plain", selection.toString().replaceAll(breakCharacter, ''));
+      event.preventDefault();
+    })
+  }
+}
+
+// Make vocab table sortable
+// code provided by Microsoft Copilot 
+document.addEventListener('DOMContentLoaded', () => {
+  const table = document.getElementById('vocabtable');
+  let asc = true;
+
+  const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
+
+  const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+  )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+  const clearSortClasses = () => {
+    table.querySelectorAll('th').forEach(th => {
+      th.classList.remove('sorted-asc', 'sorted-desc');
+    });
+  };
+
+  table.querySelectorAll('th').forEach(th => th.addEventListener('click', () => {
+    const columnIndex = Array.from(th.parentNode.children).indexOf(th);
+    Array.from(table.querySelectorAll('tbody > tr'))
+      .sort(comparer(columnIndex, asc))
+      .forEach(tr => table.querySelector('tbody').appendChild(tr));
+    
+    clearSortClasses();
+    th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+    asc = !asc;
+  }));
+});
 
 /**
  * pageSetup
@@ -340,9 +403,9 @@ function toggleCite() {
  * Set up page UI elements here.
  */
 function pageSetup() {
-  setDate();
-  activeMenuPage();
-  toggleCite();
+  copyURL()
+  setDate()
+  toggleCite()
 }
 
 function parseQueryParams() {
@@ -360,20 +423,30 @@ function parseQueryParams() {
 // -----------------------------------------------------------------------------
 //
 // Run immediately
-globalSetup();
+globalSetup()
 
 // Run when DOM content has loaded
 window.addEventListener('load', () => {
   pageSetup()
   scrollToHash(window.location.hash, 75, 'swing')
+  
   const params = parseQueryParams()
+  /**
+   * Accordion Setup
+   */
+  Accordion.setup()
   /**
    * Canvas Panel Setup
    */
   setUpUIEventHandlers()
-  goToCanvasState({
-    figureId: window.location.hash.replace(/^#/, ''),
-    annotationIds: params['annotation-id'],
-    region: params['region'] ? params['region'][0] : null
-  })
+  if (window.location.hash) {
+    goToFigureState({
+      figureId: window.location.hash.replace(/^#/, ''),
+      annotationIds: params['annotation-id'],
+      region: params['region'] ? params['region'][0] : null,
+      sequence: {
+        index: params['sequence-index'] ? params['sequence-index'][0] : null,
+      },
+    })
+  }
 })

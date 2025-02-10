@@ -5,7 +5,8 @@
 See also the [Eleventy layouts documentation](https://www.11ty.dev/docs/layouts/) and [Eleventy documention for optional directory for layouts](https://www.11ty.dev/docs/config/#directory-for-layouts-(optional))
 
 ### Data
-todo
+
+TODO
 
 ### Example Usage
 
@@ -51,6 +52,7 @@ Raw JSON representation of publication data, used by search.
 Splash page layout. Extends `base`.
 
 ### Page attributes
+
 #### Classes
 Classes added to the front matter `class` property of a layout or template are applied to the `<main>` element of that page.
 
@@ -64,17 +66,19 @@ A default class is set in the layout:
 **`_layouts/entry.liquid`**
 ```yaml
 ---
-class: quire-entry
+classes:
+  - quire-entry
 ---
 ```
 
-Additional style classes can also be added in a template. These will be appended to the class value set in the layout.
+Additional style classes can also be added in a template. These will be appended to the class value set in the layout. The `class` property must use array syntax.
 
 **`content/catalogue/1.md`**
 ```yaml
 ---
 layout: entry
-class: fancy-custom-class
+classes:
+  - fancy-custom-class
 ---
 ```
 

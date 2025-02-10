@@ -1,3 +1,8 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// add page tags value as classes, lines 61, 71–72
+// added contributor_as_it_appears as data item, line 29
+//
 const chalkFactory = require('~lib/chalk')
 const path = require('path')
 
@@ -7,7 +12,10 @@ const { warn } = chalkFactory('eleventyComputed')
  * Global computed data
  */
 module.exports = {
-  canonicalURL: ({ config, page }) => page.url && path.join(config.baseURL, page.url),
+  canonicalURL: ({ publication, page }) => {
+    const pageUrl = page.url.replace(/^\/+/, '')
+    return new URL(pageUrl, publication.url).href
+  },
   eleventyNavigation: {
     /**
      * Explicitly define page data properties used in the TOC
@@ -16,7 +24,9 @@ module.exports = {
     data: (data) => {
       return {
         abstract: data.abstract,
+        classes: data.classes,
         contributor: data.contributor,
+        contributor_as_it_appears: data.contributor_as_it_appears,
         figure: data.figure,
         image: data.image,
         label: data.label,
@@ -48,23 +58,29 @@ module.exports = {
   /**
    * Classes applied to <main> page element
    */
-  pageClasses: ({ collections, class: classes, layout, page, tags }) => {
-    const pageClasses = []
-    // Add classes based on tags
-    tags ? pageClasses.push(tags) : ''
+  classes: ({ collections, classes=[], page, tags }) => {
+    const computedClasses = []
     // Add computed frontmatter and page-one classes
     const pageIndex = collections.allSorted.findIndex(({ outputPath }) => outputPath === page.outputPath)
-    const pageOneIndex = collections.allSorted.findIndex(({ data }) => data.class && data.class.includes('page-one'))
+    const pageOneIndex = collections.allSorted.findIndex(
+      ({ data }) => Array.isArray(data.classes) && data.classes.includes('page-one')
+    )
     if (pageIndex < pageOneIndex) {
-      pageClasses.push('frontmatter')
+      computedClasses.push('frontmatter')
     }
+    // Add classes based on tags
+    tags ? computedClasses.push(tags) : ''
+
+    // filter null values, handles 11ty's first pass at build
+    const filteredClasses = Array.from(classes).filter((x) => x)
+
     // add custom classes from page frontmatter
-    return classes ? pageClasses.concat(classes) : pageClasses
+    return computedClasses.concat(filteredClasses)
   },
   pageContributors: ({ contributor, contributor_as_it_appears }) => {
     if (!contributor) return
     if (contributor_as_it_appears) return contributor_as_it_appears
-    return (Array.isArray(contributor)) ? contributor : [contributor];
+    return (Array.isArray(contributor)) ? contributor : [contributor]
   },
   /**
    * Compute a 'pageData' property that includes the page and collection page data
@@ -88,15 +104,15 @@ module.exports = {
     if (!object || !object.length) return
     return object
       .reduce((validObjects, item) => {
-        const objectData = objects.object_list.find(({ id }) => id === item.id)
+        const objectData = objects.object_list && objects.object_list.length
+          ? objects.object_list.find(({ id }) => id === item.id)
+          : item
         if (!objectData) {
           warn(`pageObjects: no object found with id ${item.id}`)
           return validObjects
         }
 
-        if (!objectData.figure) {
-          warn(`pageObjects: object id ${objectData.id} has no figure data`)
-        } else {
+        if (objectData.figure) {
           objectData.figures = objectData.figure.map((figure) => {
             if (figure.id) {
               return this.getFigure(figure.id)
@@ -139,26 +155,42 @@ module.exports = {
   /**
    * Contributors with a `pages` property containing data about the pages they contributed to
    */
-  publicationContributors: ({ collections, config, publication }) => {
-    const { contributor } = publication
+  publicationContributors: ({ collections, config, page, publication }) => {
     if (!collections.all) return
-    return contributor
-      .map((item) => {
-        const { pic } = item
-        item.imagePath = pic
-          ? path.join(config.params.imageDir, pic)
-          : null
-        item.pages = collections.all.filter(
-          ({ data }) => {
-            if (!data.contributor) return
-            return Array.isArray(data.contributor)
-              ? data.contributor.find(
-                (pageContributor) => pageContributor.id === item.id
-              )
-              : data.contributor.id === item.id
-          }
-        )
-        return item
-      })
+    let publicationContributors = Array.isArray(publication.contributor)
+      ? publication.contributor
+      : []
+    publicationContributors = publicationContributors.filter((item) => item)
+    if (!publicationContributors.length) return
+
+    /**
+     * Add `pages` properties to contributor with limited `page` model
+     */
+    const addPages = (contributor) => {
+      const { id } = contributor
+      contributor.pages = collections.all.flatMap(
+        (page) => {
+          const { data, url } = page
+          const { contributor, label, subtitle, title } = data
+          if (!contributor) return []
+          const includePage = Array.isArray(contributor)
+            ? contributor.find((item) => item.id === id)
+            : contributor.id === id
+          return includePage ? {
+            label,
+            subtitle,
+            title,
+            url
+          } : []
+        }
+      )
+      return contributor
+    }
+    const pageContributors = collections.all.flatMap(({ data }) => data.pageContributors || [])
+
+    const uniqueContributors = publicationContributors.concat(pageContributors)
+      .filter((value, index, array) => array.findIndex((item) => item.id === value.id) === index)
+      .map(addPages)
+    return uniqueContributors
   }
 }

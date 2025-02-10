@@ -1,0 +1,10 @@
+{% comment %}
+  CUSTOMIZED FILE -- Bronze Guidelines
+  Assigns title with liquid variable to be used in vocab page accordions
+  and includes accordionGlobalControls
+{% endcomment %}
+{% assign french = "### **French**: *<span lang=fr>" | append: lang.fr | append: "</span>*" %}
+{% assign german = "### **German**: *<span lang=de>" | append: lang.de | append: "</span>*" %}
+{% assign italian = "### **Italian**: *<span lang=it>" | append: lang.it | append: "</span>*" %}
+{% assign chinese = "### **Chinese**: <span lang=zh>" | append: lang.zh | append: "</span>" %}
+{% accordionGlobalControls %}

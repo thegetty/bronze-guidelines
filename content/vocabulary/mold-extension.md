@@ -6,7 +6,8 @@ layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Bridge or spacer made of refractory material between the {% def "core" %} and the outer mold. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the bronze is poured.'
+definition: 'Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.'
+definition_has_shortcodes: true
 lang:
   de: Mold extension
   fr: portée de noyau
@@ -14,41 +15,46 @@ lang:
   zh: 自帶泥芯撐
 ---
 
-{{ definition | hasShortcodes }}
+See figs. 23, 41, 122, 123.{.pdf-figure-list}
+
+Bridge or spacer made of refractory material between the {% def "core" %} and the outer {% def "mold" %}. It serves a double function as {% def "core support" %} while also providing better air flow into the core to aid in its drying before the {% def "bronze" %} is poured.
 
 {% backmatter %}
 
-Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and armature. The hole may later be sealed with a metal patch.
+Note: Such mold extensions may be created naturally when the core is not fully enclosed (as in the case of a bust with an open bottom) or by leaving openings in the wall of a lost-wax model. After casting, the hole in the bronze created by the mold extension will also facilitate removal of the core material and {% def "armature" %}. The hole may later be sealed with a metal patch.
 
 {% endbackmatter %}
 
-{% figuregroup "3", "fig-041, fig-122, fig-123" %}
+{% objgroup "3", "fig-023, fig-041, fig-122, fig-123" %}
 
-## Sources
+## Source
 
-Other: {% cite "Smith and Sepponen 2019" %}
+{% cite "Smith and Sepponen 2019" %}
 
 ## Synonyms
 
 - *core extension*
 
-- *core print* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+- *core print*
 
-- *core seat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
 
-## Translations
+- *core seat*
+
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
 
-### **French**: *{{ lang.fr }}*
-
-Partie intégrante du noyau ou partie rajoutée (fonte au sable), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la coulée.
+Partie intégrante du {% def "noyau" %} ou partie rajoutée ({% def "fonte au sable" %}), faite de la même matière que le noyau, reliant noyau et partie externe du moule réfractaire. Sert à maintenir le noyau en position lors de la {% def "couler" "coulée" %}.
 
 {% backmatter %}
 
-Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la rencontre également dans les procédés à la cire perdue anciens.
+Note: Aujourd’hui utilisée essentiellement dans la fonte au sable, on la rencontre également dans les {% def "lost-wax casting" "procédés à la cire perdue" %} anciens.
 
 {% endbackmatter %}
 
@@ -60,11 +66,17 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- *portée* | Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
+- *portée*
 
-### **Italian**: *{{ lang.it }}*
+    Sources: Copper Industry: {% cite "Bader and Théret 1961" %}; Art and Craft Textbook: {% cite "Rama 1988" %}, 140, 164
 
-### **Chinese**: {{ lang.zh }}
+{% endaccordion %}
+
+### **German**: <span lang="de">{{ lang.it }}</span>
+
+### **Italian**: <span lang="it">{{ lang.it }}</span>
+
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -72,6 +84,10 @@ Art and Craft Textbook: {% cite "Dubos 2003" %}
 
 #### Alternate Translation
 
-- 芯撑 | Source: {% cite "Ming 2010" %}, 1572
+- <span lang="zh">芯撑</span>
+
+    Source: {% cite "Ming 2010" %}, 1572
+
+{% endaccordion %}
 
 </div>

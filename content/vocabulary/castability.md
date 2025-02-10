@@ -2,10 +2,13 @@
 title: castability
 order: 450
 layout: page
+classes:
+  - pdf-auto-column
 tags: vocabulary
 toc: false
 menu: false
-definition: 'Ability of a liquid metal to fill and pick up every detail of a mold. See [I.2§2.2](/vol-1/2/#S2.2).'
+definition: 'Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#s2-2).'
+definition_has_shortcodes: true
 lang:
   de: Fliessvermögen
   fr: coulabilité
@@ -13,29 +16,59 @@ lang:
   zh: 可铸性
 ---
 
-{{ definition }}
+See figs. 437, 438.{.pdf-figure-list}
 
-{% figuregroup "3", "fig-437, fig-438" %}
+Ability of a liquid metal to fill and pick up every detail of a {% def "mold" %}. See [I.2§2.2](/vol-1/2/#s2-2).
 
-## To Be Distinguished From
-
-- *fluidity*
-- *fusibility*
-- *viscosity*
+{% objgroup "3", "fig-437, fig-438" %}
 
 ## Sources
 
 Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
+## To Be Distinguished From
+
+- *fluidity*
+
+- *fusibility*
+
+- *viscosity*
+
 ## Synonym
 
-- *feeding power* | Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
+- *feeding power*
 
-## Translations
+    Source: {% cite "Hanson and Pell-Walpole 1951" %}, 151–52
+
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
+
+Aptitude d’un métal à remplir un {% def "moule réfractaire" %} dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule réfractaire et qu’il se solidifie.
+
+#### To Be Distinguished From
+
+- *fluidité*
+
+- *fusibilité*
+
+- *viscosité*
+
+#### Sources
+
+Cultural Heritage: {% cite "Baudry and Bozo 1978" %}, 632; {% cite "Mille 2017" %}
+
+Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; {% cite "CTIF 2022" %}; {% cite "Koch and Newell 1963" %}
+
+Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %}, 174
+
+General Dictionary: {% cite "Office québécois de la langue française n.d." %}
+
+{% endaccordion %}
+{% accordion german "de" %}
 
 #### Source
 
@@ -43,37 +76,28 @@ Copper Industry: {% cite "Schmidt and Schmidt 1992" %}; {% cite "Brunhuber 1988"
 
 #### Alternate Translations
 
-- *Formfüllungsvermögen* | Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Formfüllungsvermögen*
 
-- *Giessbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
+    Source: {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-- *Giesseingeschaften* | Source: {% cite "Brunhuber 1988" %}
+- *Gießbarkeit*
 
-- *Giessfähigkeit* | Source: {% cite "Koch and Newell 1963" %}
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Koch and Newell 1963" %}; {% cite "Brunhuber 1986" %}
 
-- *Vergiessbarkeit* | Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
+- *Gießeingeschaften*
 
-### **French**: *{{ lang.fr }}*
+    Source: {% cite "Brunhuber 1988" %}
 
-Aptitude d’un métal à remplir un moule dans tous ses détails, lorsqu’on le verse à l’état liquide dans le moule et qu’il se solidifie.
+- *Gießfähigkeit*
 
-#### To Be Distinguished From
+    Source: {% cite "Koch and Newell 1963" %}
 
-- *fluidité*
-- *fusibilité*
-- *viscosité*
+- *Vergießbarkeit*
 
-#### Sources
+    Sources: {% cite "Brunhuber 1988" %}; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}
 
-Cultural Heritage: {% cite "Baudry, Bozo, and Inventaire général des monuments et des richesses artistiques de la France 1978" %}, 632; {% cite "Mille 2017" %}
-
-Copper Industry: {% cite "Cuénin 1997a" %}, 5; {% cite "Association Technique de Fonderie, Commission Ingénieurs et Techniciens 1979" %}; {% cite "Brunhuber 1988" %}; {% cite "“Glossaire de la fonderie et des domaines connexes | CTIF” n.d." %}; {% cite "Koch and Newell 1963" %}
-
-Art and Craft Textbooks: {% cite "Rama 1988" %}, 279; {% cite "Lambert 2002" %}, 174
-
-General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788>
-
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion italian "it" %}
 
 #### Sources
 
@@ -85,16 +109,23 @@ General Dictionary: <http://gdt.oqlf.gouv.qc.ca/ficheOqlf.aspx?Id_Fiche=17028788
 
 - *fondibilità*
 
-- *scorrevolezza* | Source: [Treccani](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+- *scorrevolezza*
 
-### **Chinese**: {{ lang.zh }}
+    Source: {% cite "Treccani n.d." "" "Treccani" %}, under [*fusione di oggetti artistici*](https://www.treccani.it/enciclopedia/fusione_%28Enciclopedia-Italiana%29/)
+
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Sources
 
-{% cite "Ming 2010" %}, 838; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+{% cite "Ming 2010" %}, 838; TNATD
 
-#### Alternate Translations
+#### Alternate Translations {.pdf-column-break-before}
 
-- 铸造性 | Sources: {% cite "Ming 2010" %}, 1832; [TNATD](https://terms.naer.edu.tw/detail/628182/?index=3)
+- <span lang="zh">铸造性</span>
+
+    Sources: {% cite "Ming 2010" %}, 1832; TNATD
+
+{% endaccordion %}
 
 </div>

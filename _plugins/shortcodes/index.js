@@ -1,39 +1,39 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// added def and warn shortcodes
+// added def, objgroup, objlink, and figureallformats shortcodes
 //
+const accordion = require('./accordion.js')
 const addComponentTag = require('../../_plugins/components/addComponentTag')
-const annoref = require('./annoref')
-const backmatter = require('./backmatter.js')
-const bibliography = require('./bibliography.js')
-const cite = require('./cite.js')
+const backmatter = require('./backmatter')
+const bibliography = require('./bibliography')
+const cite = require('./cite')
 const contributors = require('./contributors')
-const figure = require('./figure.js')
-const figureGroup = require('./figureGroup.js')
-const ref = require('./figureRef.js')
-const shortcodeFactory = require('../../_plugins/components/addShortcode')
-const title = require('./title.js')
-const tombstone = require('./tombstone.js')
-const def = require('./def.js')
-const warn = require('./warn.js')
+const def = require('./def')
+const figure = require('./figure')
+const figureAllOutputs = require('./figureAllOutputs')
+const figureGroup = require('./figureGroup')
+const objectGroup = require('./objectGroup')
+const objectLink = require('./objectLink')
+const ref = require('./ref')
+const shortcodeFactory = require('../components/shortcodeFactory')
+const title = require('./title')
+const tombstone = require('./tombstone')
 
 module.exports = function(eleventyConfig, collections, options) {
-  const addShortcode = shortcodeFactory(eleventyConfig, collections)
+  const { addShortcode, addPairedShortcode } = shortcodeFactory(eleventyConfig, collections)
 
-  addComponentTag(eleventyConfig, 'annoref', annoref)
-  eleventyConfig.addPairedShortcode('backmatter', function(content, ...args) {
-    return backmatter(eleventyConfig)(content, ...args)
-  })
-  eleventyConfig.addPairedShortcode('warn', function(content, ...args) {
-    return warn(eleventyConfig)(content, ...args)
-  })
+  addPairedShortcode('accordion', accordion)
+  addComponentTag(eleventyConfig, 'ref', ref)
+  addPairedShortcode('backmatter', backmatter)
   addShortcode('bibliography', bibliography)
   addShortcode('cite', cite)
   addComponentTag(eleventyConfig, 'contributors', contributors)
+  addShortcode('def', def)
   addShortcode('figure', figure)
+  addShortcode('figureallformats', figureAllOutputs)
   addShortcode('figuregroup', figureGroup)
-  addShortcode('ref', ref)
+  addShortcode('objgroup', objectGroup)
+  addShortcode('objlink', objectLink)
   addShortcode('title', title)
   addShortcode('tombstone', tombstone)
-  addShortcode('def', def)
 }

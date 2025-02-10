@@ -1,21 +1,25 @@
 ---
 title: pour
+aliases: [pouring]
 order: 635
 layout: page
 tags: vocabulary
 toc: false
 menu: false
-definition: 'The operation of pouring or casting metal into the refractory mold.'
+definition: 'The operation of pouring or casting metal into the {% def "refractory mold" %}.'
+definition_has_shortcodes: true
 lang:
-  de: Gießen
+  de: Guss
   fr: coulée
   it: colata
   zh: 浇注
 ---
 
-{{ definition }}
+See figs. 549, 560.{.pdf-figure-list}
 
-{% figuregroup "3", "fig-549, fig-560" %}
+The operation of pouring or casting metal into the {% def "refractory mold" %}.
+
+{% objgroup "3", "fig-549, fig-560" %}
 
 ## Sources
 
@@ -27,21 +31,18 @@ General Dictionary: <https://www.merriam-webster.com/dictionary/pour>
 
 - *casting*
 
-- *heat* | Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+- *heat*
 
-## Translations
+    Source: Copper Industry: {% cite "Koch and Newell 1963" %}
+
+## Translations {.is-screen-only}
 
 <div class="accordion">
+{% include "translation-headings.liquid" %}
 
-### **German**: *{{ lang.de }}*
+{% accordion french "fr" %}
 
-#### Alternate Translation
-
-- *Guss*
-
-### **French**: *{{ lang.fr }}*
-
-Opération consistant à verser du métal liquide dans un moule réfractaire.
+Opération consistant à verser du métal liquide dans un {% def "moule réfractaire" %}.
 
 {% backmatter %}
 
@@ -57,21 +58,38 @@ Copper Industry: {% cite "Bader and Théret 1961" %}; {% cite "Koch and Newell 1
 
 Art and Craft Textbook: {% cite "Rama 1988" %}, 371
 
-### **Italian**: *{{ lang.it }}*
+{% endaccordion %}
+{% accordion german "de" %}
+
+#### Source
+
+Fachkunde Metall: {% cite "Bovenkerk, Braun, and Dörflinger 1987" %}, 221
+
+{% endaccordion %}
+{% accordion italian "it" %}
 
 Refers to the act of casting and to the metal contained in the crucible or furnace that is poured in one session
 
 #### Sources
 
-[Treccani](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, [here](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
+{% cite "Treccani n.d." "" "Treccani" %}, under [*colata*](https://www.treccani.it/enciclopedia/colata/); {% cite "Battaglia 1961" %}, under [*colata*](http://www.gdli.it/pdf_viewer/Scripts/pdf.js/web/viewer.asp?file=/PDF/GDLI03/GDLI_03_ocr_279.pdf&parola=Colata); {% cite "Bruni 1994" %}, 106
 
 #### Alternate Translations
 
-- *getto* (Also refers to the cast); Sources: [Treccani](http://www.treccani.it/vocabolario/getto/); {% cite "Bruni 1994" %}, 106
+- *getto*
 
-- *gitto* (Early Italian spelling for *getto*; also refers to the cast) | Sources: {% cite "Biringuccio [1540] 1990" %}, fols. 108–10
+    Also refers to the {% def "cast (n.)" "cast" %}
 
-### **Chinese**: {{ lang.zh }}
+    Sources: {% cite "Treccani n.d." "" "Treccani" %}, under [*getto*](http://www.treccani.it/vocabolario/getto/) [definition 3a]; {% cite "Battaglia 1961" %}, under [*getto*](https://www.gdli.it/sala-lettura/vol/6?seq=731) [definition 15, vol. 6, 723]; {% cite "Bruni 1994" %}, 106
+
+- *gitto*
+
+    Early Italian spelling for *getto*; also refers to the cast
+
+    Sources: {% cite "Biringuccio [1540] 1977" %}, fols. 108–10
+
+{% endaccordion %}
+{% accordion chinese "zh" %}
 
 #### Source
 
@@ -79,6 +97,10 @@ Refers to the act of casting and to the metal contained in the crucible or furna
 
 #### Alternate Translation
 
-- 浇铸 | Sources: {% cite "Ming 2010" %}, 741; [TNATD](https://terms.naer.edu.tw/detail/14236908/?index=1)
+- <span lang="zh">浇铸</span>
+
+    Sources: {% cite "Ming 2010" %}, 741; TNATD
+
+{% endaccordion %}
 
 </div>

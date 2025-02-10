@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// added handling for contributor_as_it_appears, line 46
+//
 /**
  * Contents page template for TOC and Section TOCs. 
  * Page content from the markdown will appear in the content outlet below. 
@@ -9,12 +13,12 @@
 module.exports = class TableOfContents {
   data() {
     return {
-      class: 'quire-contents',
+      classes: ['quire-contents'],
       layout: 'base'
     }
   }
 
-  render(data) {
+  async render(data) {
     const {
       collections,
       content,
@@ -38,20 +42,25 @@ module.exports = class TableOfContents {
 
     return this.renderTemplate(
       `{% pageHeader
-        contributor_byline=contributor_byline,
+        byline_format=byline_format,
+        contributor_as_it_appears=contributor_as_it_appears,
         image=image,
         label=label,
         pageContributors=pageContributors,
+        short_title=short_title,
         subtitle=subtitle,
-        title=title
+        title=title,
+        key=key,
+        page_pdf_output=page_pdf_output,
+        outputs=outputs
       %}
       <section class="section quire-page__content">
         ${contentElement}
         <div class="container ${containerClass}">
           <div class="quire-contents-list ${presentation}">
-            ${this.tableOfContents({ collections, currentPageUrl: page.url, key, presentation })}
+            ${await this.tableOfContents({ collections, currentPageUrl: page.url, key, presentation })}
             <div class="content">
-              {% bibliography pageReferences %}
+              {% bibliography citations outputs page_pdf_output %}
             </div>
           </div>
           ${this.pageButtons({ pagination })}

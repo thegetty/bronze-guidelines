@@ -1,8 +1,9 @@
 ---
 title: About the Contributors
-order: 1010
+order: 2040
 layout: page
-class: pdf-backmatter
+classes: 
+  - pdf-backmatter
 ---
 
 {% contributors context=publicationContributors type='primary' format='bio' %}
@@ -29,13 +30,13 @@ class: pdf-backmatter
 {% for contributor in contributors_array %}
   {% assign contributor_vals = contributor | split: '|' %}
   {% if contributor_vals[0] %}
-  <li class="quire-contributor" id="{{ contributor_vals[1] | downcase }}-{{ contributor_vals[0] | downcase }}">
+  <li class="quire-contributor" id="{{ contributor_vals[1] | downcase | replace: ' ', '-' }}-{{ contributor_vals[0] | downcase | replace: ' ', '-' }}">
   <div class="title is-5">
   <span class="quire-contributor__name">{{ contributor_vals[1] }} {{ contributor_vals[0] }}</span>
   </div>
   <div class="media">
   <div class="quire-contributor__details media-content">
-  <div class="quire-contributor__bio"><p>{{ contributor_vals[2] | markdownify }}</p></div>
+  <div class="quire-contributor__bio">{{ contributor_vals[2] | markdownify }}</div>
   </div>
   </div>
   </li>

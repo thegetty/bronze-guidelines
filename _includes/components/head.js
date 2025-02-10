@@ -1,3 +1,9 @@
+//
+// CUSTOMIZED FILE
+// Add apple icon and configure as mobile app
+// Update and clean-up handling for social sharing
+//
+const path = require('path')
 /**
  * Head Tag
  *
@@ -8,19 +14,20 @@ module.exports = function(eleventyConfig) {
   const dublinCore = eleventyConfig.getFilter('dublinCore')
   const jsonld = eleventyConfig.getFilter('jsonld')
   const opengraph = eleventyConfig.getFilter('opengraph')
+  const removeHTML = eleventyConfig.getFilter('removeHTML')
   const twitterCard = eleventyConfig.getFilter('twitterCard')
   const webComponents = eleventyConfig.getFilter('webComponents')
 
-  const { publication } = eleventyConfig.globalData
+  const { application, figures, publication } = eleventyConfig.globalData
 
   /**
    * @param  {Object} params The Whole Dang Data Object, from base.11ty.js
    */
   return function (page) {
     const { abstract, canonicalURL, cover, layout, title } = page
-    const pageTitle = title
-      ? `${title} | ${publication.title}`
-      : publication.title
+    const pageTitle = removeHTML(
+      title ? `${publication.title} | ${title}` : publication.title
+    )
 
     const description = publication.description.full || publication.description.one_line
 
@@ -35,7 +42,7 @@ module.exports = function(eleventyConfig) {
       .join('\n')
 
     const keywords = publication.subject
-      .filter(({ type }) => type === "keyword")
+      .filter(({ type }) => type === 'keyword')
       .map(({ name }) => name)
       .join(', ')
 
@@ -46,6 +53,8 @@ module.exports = function(eleventyConfig) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="robots" content="noindex, nofollow"/>
 
+        <meta name="generator" content="${application.name} ${application.version}" />
+
         <title>${pageTitle}</title>
 
         <meta name="description" content="${description}">
@@ -54,7 +63,7 @@ module.exports = function(eleventyConfig) {
         <link rel="canonical" href="${canonicalURL}">
         <link rel="version-history" href="${publication.repositoryUrl}">
 
-        <script src="https://cdn.jsdelivr.net/npm/@digirati/canvas-panel-web-components@1.0.54" type="module"></script>
+        <script src="/_assets/javascript/application/canvas-panel-web-components-1.0.68.js" type="module"></script>
 
         ${publisherLinks}
 
@@ -64,10 +73,13 @@ module.exports = function(eleventyConfig) {
 
         ${opengraph({ page })}
 
-        ${twitterCard({ abstract, cover, layout })}
+        ${twitterCard({ page })}
 
         <script type="application/ld+json">${jsonld({ canonicalURL, page })}</script>
 
+        <meta name="apple-mobile-web-app-title" content="${publication.title}">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" sizes="180x180" href="/_assets/images/icons/apple-touch-icon-180x180.png">
         <link rel="icon" href="/_assets/images/icons/favicon.ico" />
         <!--
           styles are already imported in _assets/javascript/application/index.js

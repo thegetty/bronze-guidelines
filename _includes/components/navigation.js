@@ -1,5 +1,10 @@
+//
+// CUSTOMIZED FILE -- Bronze Guidelines
+// removed title truncation in navbar, line 43
+// Displayed section name/link in center instead of home page link, lines 46-86, 186
+//
 const truncate = require('~lib/truncate')
-const { html } = require('~lib/common-tags');
+const { html } = require('~lib/common-tags')
 
 /**
  * This controls the various navigation elements (nav, skip-link, menu and
@@ -14,9 +19,10 @@ const { html } = require('~lib/common-tags');
  * one in the range is linked to.
  */
 module.exports = function(eleventyConfig) {
+  const titleCase = require('~plugins/filters/titleCase')
   const eleventyNavigation = eleventyConfig.getFilter('eleventyNavigation')
   const pageTitle = eleventyConfig.getFilter('pageTitle')
-  const { imageDir } = eleventyConfig.globalData.config.params
+  const { imageDir } = eleventyConfig.globalData.config.figures
 
   return function (params) {
     const { collections, pagination, title } = params
@@ -29,12 +35,54 @@ module.exports = function(eleventyConfig) {
     } = pagination
 
     if (!currentPage) return
-    
+
     const home = '/'
     const isHomePage = currentPage.url === home
 
     const navBarLabel = ({ label, short_title, title }) => {
-      return pageTitle({ label, title: short_title || truncate(title, 34)})
+      return pageTitle({ label, title: short_title || title })
+    }
+    
+    const isIndexPage = currentPage.filePathStem.match(/index$/)
+
+    const sectionUrl = !isHomePage
+      ? currentPage.url.replace(/[^\/]*?\/$/g, '' )
+      : ''
+
+    let sectionTitle = isIndexPage
+      ? currentPage.data.title
+      : sectionUrl.replace(/\//g,'').replace(/-/g,' ')
+
+    // Fixes titling for /vol-1/ and /vol-2/ sections
+    sectionTitle = sectionTitle.match(/^vol/)
+      ? sectionTitle.replace('vol', 'Volume')
+      : sectionTitle
+
+    const navBarSectionLink = () => {
+      if (isIndexPage) 
+      return html`
+          <span class="visually-hidden">Section: </span>
+          <span class="quire-navbar-button home-button">
+          ${titleCase(sectionTitle)}
+          </span>
+      `
+      return html`
+        <a href="${sectionUrl}" rel="home">
+          <span class="visually-hidden">Section: </span>
+          <span class="quire-navbar-button home-button">
+          ${titleCase(sectionTitle)}
+          </span>
+        </a>
+      `
+    }
+    const navBarSectionButton = () => {
+      if (!previousPage) return ''
+      if (sectionTitle)
+      return html`
+        <li class="quire-navbar-page-controls__item quire-home-page">
+          ${navBarSectionLink()}
+        </li>
+      `
     }
 
     const navBarStartButton = () => {
@@ -136,7 +184,7 @@ module.exports = function(eleventyConfig) {
             <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
               ${navBarStartButton()}
               ${navBarPreviousButton()}
-              ${navBarHomeButton()}
+              ${navBarSectionButton()}
               ${navBarNextButton()}
             </ul>
           </div>

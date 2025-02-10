@@ -1,12 +1,13 @@
 //
 // CUSTOMIZED FILE -- Bronze Guidelines
-// added vocabIndexPageHeader, line 70
+// added vocabIndexPageHeader, line 75
 //
 /**
  * Export all component includes
  */
 
 module.exports = {
+  accordionGlobalControls: require('./accordion/global-controls'),
   annotationsUI: require('./figure/annotations-ui'),
   abstract: require('./abstract.js'),
   analytics: require('./analytics.js'),
@@ -19,12 +20,15 @@ module.exports = {
   contributorBio: require('./contributor/bio.js'),
   copyright: require('./copyright/index.js'),
   copyrightLicensing: require('./copyright/licensing.js'),
+  downloadLink: require('./download-link.js'),
   dublinCore: require('./head-tags/dublin-core.js'),
   figureCaption: require('./figure/caption'),
   figureImage: require('./figure/image'),
   figureImageElement: require('./figure/image/element'),
+  figureImageSequence: require('./figure/image/sequence'),
   figureLabel: require('./figure/label'),
   figureModalLink: require('./figure/modal-link'),
+  figureMediaEmbedUrl: require('./figure/media-embed-url'),
   figureOption: require('./figure/annotations-ui/option'),
   figurePlaceholder: require('./figure/placeholder'),
   figureAudio: require('./figure/audio'),
@@ -43,7 +47,8 @@ module.exports = {
   jsonld: require('./head-tags/jsonld.js'),
   licenseIcons: require('./license-icons.js'),
   lightbox: require('./lightbox/index.js'),
-  lightboxSlides: require('./lightbox/slides'),
+  lightboxData: require('./lightbox/data.js'),
+  lightboxStyles: require('./lightbox/styles.js'),
   lightboxUI: require('./lightbox/ui'),
   link: require('./link.js'),
   linkList: require('./link-list.js'),
@@ -58,7 +63,9 @@ module.exports = {
   pageButtons: require('./page-buttons.js'),
   pageHeader: require('./page-header.js'),
   pageTitle: require('./page-title.js'),
+  search: require('./search.js'),
   scripts: require('./scripts.js'),
+  sequencePanel: require('./figure/image/sequence-panel'),
   siteTitle: require('./site-title.js'),
   tableOfContents: require('./table-of-contents/index.js'),
   tableOfContentsGridItem: require('./table-of-contents/item/grid.js'),
