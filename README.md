@@ -59,7 +59,9 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 3. In `_site` find all instances of `src=\"/_assets/images/` and replace with `src=\"/publications/bronze-guidelines/_assets/images/`
 
-4. Run `netlify deploy`
+4. Copy `content/embeds/` into `_site/`
+
+5. Run `netlify deploy`
 
 ## Creating a PDF Version
 
@@ -150,6 +152,11 @@ Output ALL image layers for checkbox and radio button annotations
 
 **_includes/components/figure/table/html.js**
 Updated link to open iframe viewer instead of modal
+
+**_includes/components/head.js**
+**_includes/components/head-tags/opengraph.js**
+**_includes/components/head-tags/twitter-card.js**
+Update and clean-up handling for social sharing
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size

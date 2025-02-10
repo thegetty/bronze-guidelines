@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Update and clean-up handling for social sharing
+//
 const path = require('path')
 
 /**
@@ -9,20 +13,15 @@ const path = require('path')
  * @return     {String}  HTML meta and link elements
  */
 module.exports = function(eleventyConfig) {
-  const { config, publication } = eleventyConfig.globalData
-  const { description, promo_image } = publication
-  const { imageDir } = config.figures
+  const { publication } = eleventyConfig.globalData
+  const { description, promo_image, title, url } = publication
 
-  return function({ abstract, cover, layout }) {
-    const imagePath = () => {
-      if (!publication.url) return
-      if (layout !== 'essay' ) {
-        return promo_image && path.join(imageDir, promo_image)
-      } else {
-        const image = cover || promo_image
-        return image && path.join(imageDir, image)
-      }
-    }
+  return function({ page }) {
+    const socialDescription = description.one_line || description.full
+    const socialThumbnail = url.concat('_assets/images/', promo_image)
+    const socialTitle = (page.layout == 'thing')
+      ? title.concat(' | ', page.title)
+      : title
 
     const meta = [
       {
@@ -31,21 +30,19 @@ module.exports = function(eleventyConfig) {
       },
       {
         name: 'twitter:site',
-        content: layout !== 'essay' ? publication.url : null
+        content: page.canonicalURL
       },
       {
         name: 'twitter:title',
-        content: publication.title
+        content: socialTitle
       },
       {
         name: 'twitter:description',
-        content: layout !== 'essay'
-          ? description.one_line || description.full
-          : abstract || description.one_line || description.full
+        content: socialDescription
       },
       {
         name: 'twitter:image',
-        content: imagePath()
+        content: socialThumbnail
       }
     ]
 

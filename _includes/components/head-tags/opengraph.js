@@ -1,3 +1,7 @@
+//
+// CUSTOMIZED FILE
+// Update and clean-up handling for social sharing
+//
 /**
  * Renders <head> <meta> data tags for Open Graph protocol data
  *
@@ -10,29 +14,31 @@ module.exports = function(eleventyConfig) {
   const { config, publication } = eleventyConfig.globalData
 
   return function ({ page }) {
-    const { description, identifier, promo_image, pub_date, pub_type, url } = publication
-    const pageType = page && page.type
+    const { description, identifier, promo_image, pub_date, pub_type, title, url } = publication
+    const pageType = page && page.layout
+
+    const socialDescription = description.one_line || description.full
+    const socialThumbnail = url.concat('_assets/images/', promo_image)
+    const socialTitle = (page.layout == 'thing')
+      ? title.concat(' | ', page.title)
+      : title
 
     const meta = [
       {
         property: 'og:title',
-        content: pageType != 'essay' ? publication.title : page.title
+        content: socialTitle
       },
       {
         property: 'og:url',
-        content: new URL(page.url, url).toString()
+        content: page.canonicalURL
       },
       {
         property: 'og:image',
-        content: pageType != 'essay'
-          ? promo_image
-          : page.cover || promo_image
+        content: socialThumbnail
       },
       {
         property: 'og:description',
-        content: pageType != 'essay'
-          ? description.one_line || description.full
-          : page.abstract || description.one_line || description.full
+        content: socialDescription
       }
     ]
 
@@ -48,21 +54,15 @@ module.exports = function(eleventyConfig) {
       meta.push({ property: 'og:article:published_time', content: pub_date })
     }
 
-    /**
-     * Builds an array of page or publication contributor objects
-     */
-    publication.contributor.forEach((contributor, { id }) => {
-      if (!id) return
-      // resolve a page contributor id to a publication contributor
-      contributor = publication.contributor[id] && contributor
-
+    publication.contributor.forEach((contributor) => {
       const { type, full_name, first_name, last_name } = contributor
       const name = full_name || `${first_name} ${last_name}`
-
-      if (pageType === 'essay') {
-        meta.push({ name: 'og:article:author', content: name })
-      } else if (pub_type === 'book' && type === 'primary') {
-        meta.push({ name: 'og:book:author', content: name })
+      switch (type) {
+        case 'primary':
+          meta.push({ property: 'og:book:author', content: name })
+          break
+        default:
+          break
       }
     })
 
