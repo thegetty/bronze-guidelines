@@ -1,52 +1,6 @@
 /*
    CUSTOMIZED FILE -- Bronze Guidelines
 */
-/* TEMPORARY "Uncorrected Proof" Banner */
-@media screen {
-  .quire::before,
-  .quire::after {
-    color: black;
-    font-weight: 700;
-    position: fixed;
-    width: 230px;
-    height: 230px;
-    z-index: 4000;
-    transform: rotate(45deg);
-    text-align: center;
-    padding-top: 1rem;
-  }
-  .quire::before {
-    content: "PRESS";
-    background-color: cyan;
-    bottom: -115px;
-    left: -115px;
-  }
-  .quire::after {
-    content: "PREVIEW";
-    bottom: -130px;
-    left: -130px;
-  }
-  .quire[data-layout='entry']::before,
-  .quire[data-layout='entry-embed']::before,
-  .quire[data-layout='case-study']::before,
-  .quire[data-layout='entry']::after,
-  .quire[data-layout='entry-embed']::after,
-  .quire[data-layout='case-study']::after {
-    transform: rotate(-45deg);
-  }
-  .quire[data-layout='entry']::before,
-  .quire[data-layout='entry-embed']::before,
-  .quire[data-layout='case-study']::before {
-    left: auto;
-    right: -115px;
-  }
-  .quire[data-layout='entry']::after,
-  .quire[data-layout='entry-embed']::after,
-  .quire[data-layout='case-study']::after {
-    left: auto;
-    right: -130px;
-  }
-}
 :root {
 
   /* https://coolors.co/c2b99a-716c5b-4e4a3e-000000-427f34-d0773f */

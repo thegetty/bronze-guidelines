@@ -1,55 +1,43 @@
-# bronze-guidelines
+This is the repository for *Guidelines for the Technical Examination of Bronze Sculpture*. This digital book was first published February 11, 2025, by the J. Paul Getty Museum. It is available online at https://www.getty.edu/publications/bronze-guidelines/ and may be downloaded there free of charge in multiple formats.
 
-https://www.getty.edu/publications/bronze-guidelines/
+## About the Book
+
+Since the fourth millennium BCE, bronze has been the preferred medium for some of the most prestigious and sacred works of art. But only through interdisciplinary research can the fabrication of these extraordinary objects be properly investigated, interpreted, and documented. This innovative publication bridges the expertise of myriad art-technological specialists to create a new framework for advancing the understanding of bronze sculpture.
+
+Essential reading for curators, conservators, scientists, archaeologists, sculptors, metallurgists, founders, dealers, collectors, and anyone interested in the life cycle of a bronze, this volume explains how to identify the evidence of process steps, metals used, casting defects, and surface work and alterations before moving on to address analytical techniques ranging from visual exams to imaging, material analyses, and dating. The guidelines are accompanied by detailed illustrations, including videos, charts, and animations; a robust vocabulary, ensuring precision across English, German, French, Italian, and Chinese; a diverse selection of case studies; and a comprehensive bibliography.owned by artists.
+
+## Using this Repository
+
+This is one in series of multiformat publications using [Quire](http://quire.getty.edu)™, Getty’s multiformat publishing tool. 
+
+We are dedicated to maintaining this publication for years to come at the permanent URL, https://www.getty.edu/publications/bronze-guidelines/, and in its various formats and incarnations. For any updates to the book, we will be following something between an app and traditional book publication model. Updates will only be made in regulated chunks as formal revisions and new editions and will always be thoroughly documented here in the repository, as well as in the revision history included with each of the book’s many formats.
+
+The primary content pieces of the book can be found in the `content` directory. The `main` branch represents the current, published edition at all times, and the `revisions` branch, when present, will show changes currently under consideration. We invite you to submit suggestions or corrections via pull request on the revisions branch, by posting an issue, or by emailing us at [pubsinfo@getty.edu](mailto:pubsinfo@getty.edu).
+
+## Development Notes
+
+This project was last built with the following software versions:
+
+- Node 18.20.5
+- Quire CLI 1.0.0-rc.25
+
+### Branches
 
 | branch | about |
 | --- | --- |
-| `main` | The primary branch. Currently the similar to `prototype`. |
-| `prototype` | An early prototype of the catalogue using the Hugo version of Quire. |
-| `first-pages-hugo` | Partial first pages with the Hugo version of Quire. |
-| `first-pages` | Complete first pages with the 11ty version of Quire. |
-| `forthcoming` | A static placeholder page that is displayed at the book’s final URL on getty.edu prior to publication |
-| second-pages`, `final-pages`| Versions of the project at various stages |
+| `main` | The primary branch |
+| `first-pages`, `second-pages`, `third-pages`, `final-pages`| Versions of the project at various stages |
+| `first-pages-hugo`, `prototype`| Early, prototype versions of the project created for testing |
+| `forthcoming` | A static placeholder page that was displayed at the book’s final URL on getty.edu prior to publication |
+| `revisions` | Any revisions currently under consideration but not yet published |
 
-## Using the 11ty Version
+### Figure Images Submodule
 
-1. Clone this repository and select the appropriate branch.
+Many of figure images for *Bronze Guidelines* are licensed from third parties for use exclusively in this publication. As such, they are kept in a separate, private repository, https://github.com/thegetty/bronze-guidelines/, which is linked to this main publication repository as a submodule in `content/_assets/images/figures/`. When cloning this repo for further development, you’ll permissions for the private repository and will need to clone recursively in order to clone both the main repo and the submodule.
 
-2. In Terminal, make sure you are using Node 18.12.1, with `node --version`. (See section on NVM below.) And Quire 1.0.0-rc.0 with `quire --version`.
-
-3. Run `npm install` to install the project dependencies. This just needs to be done once when first cloning the project, or whenever the core template/code files are updated.
-
-4. See the preview with `quire preview`. I find it needs to be stopped and restarted often to get it to refresh changes, especially with YAML.
-
-## Using NVM to Manage Different Node Verisons
-
-The full instructions are here: https://github.com/nvm-sh/nvm. But this condensed version should cover the basics.
-
-1. Install the script with the following command:
-
-    ```
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-    ```
-
-2. Verify with this command, which should return `nvm`. If it does not, see the Troubleshooting info at https://github.com/nvm-sh/nvm#troubleshooting-on-macos.
-
-    ```
-    command -v nvm
-    ```
-
-3. Install the versions of node you want to use:
-
-    ```
-    nvm install 14.18.1
-    ```
-
-    ```
-    nvm install 16.15.0
-    ```
-
-4. Optionally, set a default version to use with `nvm alias default 14.18.1` or `nvm alias default 16.15.0`. This default will be the one used every time you open a new Terminal window.
-
-5. To choose/change a Node version to run use `nvm use 14` or `nvm use 16`. This will be the version used for as long as that Terminal window is open, or until you change it again.
+```
+git clone --recursive https://github.com/thegetty/bronze-guidelines.git
+```
 
 ## Build and Deploy the HTML Version
 
@@ -63,7 +51,7 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 5. Run `netlify deploy`
 
-## Creating a PDF Version
+## Create a PDF Version
 
 1. Build the current site: `npm run build`
 
@@ -73,7 +61,7 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 
 4. Output the PDF: `npm run build:prince`
 
-## Creating an EPUB Version
+## Create an EPUB Version
 
 1. Set publication.url to http://localhost:8080/
 
@@ -110,14 +98,6 @@ The full instructions are here: https://github.com/nvm-sh/nvm. But this condense
 6. Zip the file back up
 
 7. Run EPUB validation to confirm
-
-## Editorial Production Notes
-
-While it is a core principle of Quire for all content to only exist in one place in the Markdown and YAML files (chapter titles in the chapter Markdown file, references in `references.yaml`, etc.), a number of technical hurdles with this publication necessitated some duplication of content in a number of areas. They are documented here. Care should be taken that any changes should be made in **all** content locations.
-
-- **Figure Captions**: Figure captions now exist both in the `figures.yaml` file as usual, and on the individual figure Markdown pages in the Visual Atlas (`/visual-atlas/`) section. Those in `figures.yaml` are used in the PDF and EPUB outputs and do not include any shortcode markup (instead of `{% cite 'Bourgarit 2019' %}` it is just "Bourgarit 2019"); those in the Visual Atlas are used online exclusively and include both `cite` and `ref` shortcodes.
-
-- Definitions: Definitions for the Vocabulary section are stored as YAML on on each page so that they can be accessed with the `def` shortcode. However, they also need to appear on the pages themselves. They include shortcodes though and we were unable to process those from where the definitions were stored in YAML. For these pages, the definition exists in the YAML of the page, and in the Markdown section just below. Pages with this duplication have been marked `definition_has_shortcodes: true` for ready identification, though they are a majority of the Vocabulary pages.
 
 ## Customizations Made to 11ty Templates/Files
 
@@ -271,3 +251,9 @@ Add page tags value as classes, and contributor_as_it_appears as data item
 ## Colophon
 
 Headings are set in [Akrobat](https://www.fontfabric.com/fonts/akrobat/), by Fontfabric, available under a Free Font End User License Agreement. The body text is [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans), by Google, available under the SIL Open Font License (OFL).
+
+## License
+
+© 2025 J. Paul Getty Trust
+
+The text of this work is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>. All images are reproduced with the permission of the rights holders acknowledged in captions and are expressly excluded from the CC BY-NC license covering the rest of this publication. These images may not be reproduced, copied, transmitted, or manipulated without consent from the owners, who reserve all rights. 
