@@ -137,6 +137,7 @@ Updated link to open iframe viewer instead of modal
 **_includes/components/head-tags/opengraph.js**
 **_includes/components/head-tags/twitter-card.js**
 Update and clean-up handling for social sharing
+Remove noindex,nofollow tag
 
 **_includes/components/icons.js**
 Add some icons and made sure they are consistent weight and size
